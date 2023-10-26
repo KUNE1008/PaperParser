@@ -1,0 +1,21 @@
+{
+    "title": "Ponder: Point Cloud Pre-training via Neural Rendering",
+    "id": 71,
+    "valid_pdf_number": "1/3",
+    "matched_pdf_number": "1/1",
+    "matched_rate": 1.0,
+    "citations": {
+        "Hexplane: A fast representation for dynamic scenes": {
+            "authors": [
+                "Ang Cao",
+                "Justin Johnson"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[21] Di Huang, Sida Peng, Tong He, Xiaowei Zhou, and Wanli Ouyang. Ponder: Point cloud pre-training via neural rendering. arXiv preprint arXiv:2301.00157 , 2022. 2",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Various explicit representations have been inves-tigated, including sparse voxels [14, 34, 59, 66], low-rank components [5, 7, 31, 51], point clouds [4, 21, 79, 92, 96] and others [8,36,43,68,90]."
+        }
+    }
+}

@@ -1,0 +1,766 @@
+{
+    "title": "NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video",
+    "id": 19,
+    "valid_pdf_number": "50/108",
+    "matched_pdf_number": "43/50",
+    "matched_rate": 0.86,
+    "citations": {
+        "Nice-slam: Neural implicit scalable encoding for slam": {
+            "authors": [
+                "Zihan Zhu",
+                "Songyou Peng",
+                "Viktor Larsson",
+                "Weiwei Xu",
+                "Hujun Bao",
+                "Zhaopeng Cui",
+                "Martin R. Oswald",
+                "Marc Pollefeys"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_NICE-SLAM_Neural_Implicit_Scalable_Encoding_for_SLAM_CVPR_2022_paper.pdf",
+            "ref_texts": "[47] Edgar Sucar, Kentaro Wada, and Andrew Davison. Nodeslam: Neural object descriptors for multi-view shape reconstruction. In 3DV, 2020. 1, 2[48] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In CVPR , 2021. 1, 2",
+            "ref_ids": [
+                "47",
+                "48"
+            ],
+            "1": "On the other hand, learning-based SLAM approaches [3,12,47,67] attain a certain level of predictive power since they typically train on task-specific datasets.",
+            "2": "In contrast, recent works [37, 48] demonstrate that establishing multi12786\n level grid-based features can help to preserve geometric details and enable reconstructing complex scenes, but these are offline methods without real-time capability.",
+            "3": ", CodeSLAM [3], SceneCode [67] and NodeSLAM [47], which optimize a latent representation that decodes into the keyframe or object depth maps.",
+            "4": "A few recent papers [1, 4, 9, 27, 48, 57, 61] attempt to predict scene-level geometry with RGB-(D) inputs, but they all assume given camera poses.",
+            "5": "1, 2, 4, 5, 6, 7, 8\n[47] Edgar Sucar, Kentaro Wada, and Andrew Davison."
+        },
+        "Neural rgb-d surface reconstruction": {
+            "authors": [
+                "Dejan Azinovic",
+                "Ricardo Martin",
+                "Dan B",
+                "Matthias Niessner",
+                "Justus Thies"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Azinovic_Neural_RGB-D_Surface_Reconstruction_CVPR_2022_paper.pdf",
+            "ref_texts": "[70] Cheng Sun, Min Sun, and Hwann-Tzong Chen. Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction. arXiv preprint arXiv:2111.11215 , 2021. 8[71] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. CVPR , 2021. 2",
+            "ref_ids": [
+                "70",
+                "71"
+            ],
+            "1": "To reduce artifacts from classical reconstruction methods, a series of methods was proposed that use learned spatial priors to predict depth maps from color images [24, 28, 39], to learn multiview stereo using 3D CNNs on voxel grids [34, 68, 82], or multi-plane images [22], to reduce the influence of noisy depth values [79], to complete incomplete scans [13, 15], to learn image features for SLAM [2, 10, 90] or feature fusion [4,71,80], to predict normals [89], or to predict objects or parts of a room from single images [11, 18, 27, 51, 75].",
+            "2": "Recent methods that utilize voxel grids to optimize a radiance field [70, 86] have shown significantly faster convergence compared to earlier MLP-based methods and we believe that they would also be good candidates for improving our method.",
+            "3": "2\n[70] Cheng Sun, Min Sun, and Hwann-Tzong Chen."
+        },
+        "Neural 3d scene reconstruction with the manhattan-world assumption": {
+            "authors": [
+                "Haoyu Guo",
+                "Sida Peng",
+                "Haotong Lin",
+                "Qianqian Wang",
+                "Guofeng Zhang",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Neural_3D_Scene_Reconstruction_With_the_Manhattan-World_Assumption_CVPR_2022_paper.pdf",
+            "ref_texts": "[47] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In CVPR , 2021. 2, 5",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "NeuralRecon [47] improves the reconstruction speed through reconstructing local surfaces for each fragment sequence.",
+            "2": "We consider F-score as the overall metric following [47]."
+        },
+        "Transformerfusion: Monocular rgb scene reconstruction using transformers": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/0a87257e5308197df43230edf4ad1dae-Paper.pdf",
+            "ref_texts": "[39] J. Sun, Y . Xie, L. Chen, X. Zhou, and H. Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. CVPR , 2021.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Recently, NeuralRecon [39] proposed a real-time 3D reconstruction framework, adding GRU units distributed in 3D to fuse reconstructions from different local windows of frames.",
+            "2": "Method Acc #Compl#Chamfer#Prec\"Recall\"F-score\" RevisitingSI [18] 14:29 16:19 15 :24 0:346 0:293 0:314 MVDepthNet [42] 12:94 8:34 10 :64 0:443 0:487 0:460 GPMVS [17] 12:90 8:02 10 :46 0:453 0:510 0:477 ESTDepth [26] 12:71 7:54 10 :12 0:456 0:542 0:491 DPSNet [19] 11:94 7:58 9 :77 0:474 0:519 0:492 DELTAS [38] 11:95 7:46 9 :71 0:478 0:533 0:501 DeepVideoMVS [13] 10:68 6:90 8:79 0:541 0:592 0:563 COLMAP [37] 10:22 11:88 11 :05 0:509 0:474 0:489 NeuralRecon [39] 5:09 9:13 7 :11 0:630 0:612 0:619 Atlas [28] 7:16 7:61 7 :38 0:675 0:605 0:636 Ours: w/o TRSF, avg 7:23 9:74 8 :48 0:635 0:501 0:557 Ours: w/o TRSF, weight 6:11 11:12 8:61 0:686 0:512 0:583 Ours: w/o TRSF, conv 6:56 9:84 8 :20 0:661 0:524 0:582 Ours: w/o spatial ref.",
+            "3": "Reconstruction quality further improves with methods that directly predict the 3D surface geometry, such as NeuralRecon [39] and Atlas [28].",
+            "4": "Are additional inputs to the transformer networks needed? Existing reconstruction approaches [39,28] aggregate 2D features using a simple average operation.",
+            "5": "[39] J."
+        },
+        "Nerfusion: Fusing radiance fields for large-scale scene reconstruction": {
+            "authors": [
+                "Xiaoshuai Zhang",
+                "Sai Bi",
+                "Kalyan Sunkavalli",
+                "Hao Su",
+                "Zexiang Xu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_NeRFusion_Fusing_Radiance_Fields_for_Large-Scale_Scene_Reconstruction_CVPR_2022_paper.pdf",
+            "ref_texts": "[39] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. CVPR , 2021. 2, 5",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Instead of estimating and fusing per-view depth, previous methods [6,19,39] introduce learning-based methods to aggregate per-view features and predict opacity volumes or signed distance volumes.",
+            "2": "This fusion process is similar to previous 3D reconstruction pipelines [20, 33, 39] that focus on geometry reconstruction; in contrast, we instead reconstruct neural feature volumes to represent neural radiance fields for volume rendering, leading to photo-realistic novel view synthesis."
+        },
+        "Neuraludf: Learning unsigned distance fields for multi-view reconstruction of surfaces with arbitrary topologies": {
+            "authors": [
+                "Xiaoxiao Long",
+                "Cheng Lin",
+                "Lingjie Liu",
+                "Yuan Liu",
+                "Peng Wang",
+                "Christian Theobalt",
+                "Taku Komura",
+                "Wenping Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Long_NeuralUDF_Learning_Unsigned_Distance_Fields_for_Multi-View_Reconstruction_of_Surfaces_CVPR_2023_paper.pdf",
+            "ref_texts": "[44] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 1, 2",
+            "ref_ids": [
+                "44"
+            ],
+            "1": ", 3PSDF [5], TSDF [44]), their surface representations are still built upon the definition of SDF, thus they are not suitable for representing complex topologies.",
+            "2": "Traditional reconstruction methods usually adopt discrete representations, such as voxel grids [16,17, 19, 23, 43, 44], 3D point clouds [10, 25], and depth maps [4, 11, 13, 29, 31, 32, 42, 45, 47, 48].",
+            "3": "3PSDF [5], TSDF [44])."
+        },
+        "Volumefusion: Deep depth fusion for 3d scene reconstruction": {
+            "authors": [
+                "Jaesung Choe",
+                "Sunghoon Im",
+                "Francois Rameau",
+                "Minjun Kang",
+                "In So"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Choe_VolumeFusion_Deep_Depth_Fusion_for_3D_Scene_Reconstruction_ICCV_2021_paper.pdf",
+            "ref_texts": "[38] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In IEEE Conf. Comput. Vis. Pattern Recog. , 2021. 1",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "However, unlike the previous studies [43, 10, 32] and concurrent papers [38, 1], we integrate these two stages in an end-toend manner."
+        },
+        "Planemvs: 3d plane reconstruction from multi-view stereo": {
+            "authors": [
+                "Jiachen Liu",
+                "Pan Ji",
+                "Nitin Bansal",
+                "Changjiang Cai",
+                "Qingan Yan",
+                "Xiaolei Huang",
+                "Yi Xu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_PlaneMVS_3D_Plane_Reconstruction_From_Multi-View_Stereo_CVPR_2022_paper.pdf",
+            "ref_texts": "[45] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 3",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Different from depth-map based MVS, Atlas [37] and NeuralRecon [45] propose to learn a TSDF [5] representation from posed images for 3D surface reconstruction which avoids multi-view depth fusion."
+        },
+        "Neural map prior for autonomous driving": {
+            "authors": [
+                "Xuan Xiong",
+                "Yicheng Liu",
+                "Tianyuan Yuan",
+                "Yue Wang",
+                "Yilun Wang",
+                "Hang Zhao"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_Neural_Map_Prior_for_Autonomous_Driving_CVPR_2023_paper.pdf",
+            "ref_texts": "[31] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 3",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "NeuralRecon [31] presents an approach for implicit neural 3D reconstruction that integrates reconstruction and fusion processes."
+        },
+        "Input-level inductive biases for 3D reconstruction": {
+            "authors": [
+                "Wang Yifan",
+                "Carl Doersch",
+                "Relja Arandjelovic",
+                "Joao Carreira",
+                "Andrew Zisserman"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Yifan_Input-Level_Inductive_Biases_for_3D_Reconstruction_CVPR_2022_paper.pdf",
+            "ref_texts": "[52] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In CVPR , pages 15598\u2013",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "Online methods typically rely on more explicit but expensive 3D representations like voxel grids [25, 40, 52, 67]."
+        },
+        "Volrecon: Volume rendering of signed ray distance functions for generalizable multi-view reconstruction": {
+            "authors": [
+                "Yufan Ren",
+                "Tong Zhang",
+                "Marc Pollefeys",
+                "Sabine Susstrunk",
+                "Fangjinhua Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ren_VolRecon_Volume_Rendering_of_Signed_Ray_Distance_Functions_for_Generalizable_CVPR_2023_paper.pdf",
+            "ref_texts": "[42] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3d reconstruction from monocular video. In CVPR , pages 15598\u201315607, 2021. 2, 3, 8",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Similar to [4, 32, 42], SparseNeuS constructs fixed-resolution feature volumes to aggregate image features from multi-view images.",
+            "2": "We construct a global feature volumeFvsimilar to [32,42] to get global information.",
+            "3": "Instead, we believe it will be a promising direction to reconstruct progressively in small local volumes like NeuralRecon [42]."
+        },
+        "Volumetric bundle adjustment for online photorealistic scene capture": {
+            "authors": [
+                "Ronald Clark"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Clark_Volumetric_Bundle_Adjustment_for_Online_Photorealistic_Scene_Capture_CVPR_2022_paper.pdf",
+            "ref_texts": "[18] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In IEEE Conf. Comput. Vis. Pattern Recog. , 2021. 2, 5",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "Monocular reconstruction systems: There are many approaches [4, 11, 14, 18, 23] that have been designed to reconstruct scene geometry using only RGB images as input.",
+            "2": "Recent learning based methods [4,11,18,23] have helped to make monocular reconstruction more robust, however, they generally do not model complex appearance effects and thus do not produce photorealistic models.",
+            "3": "For monocular systems we compare against MVDepthNet [23], ATLAS, [11] and NeuralRecon [18] In terms of neural volume rendering approaches we compare against NeRF [10], NSVF [8], MVSNeRF [1] and IBRNet [24]."
+        },
+        "Eslam: Efficient dense slam system based on hybrid representation of signed distance fields": {
+            "authors": [
+                "Mohammad Mahdi",
+                "Camilla Carta",
+                "Francois Fleuret"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Johari_ESLAM_Efficient_Dense_SLAM_System_Based_on_Hybrid_Representation_of_CVPR_2023_paper.pdf",
+            "ref_texts": "[63] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruc-tion from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 2",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "The exploitation of neural implicit representations for 3D reconstruction at real-world scale is studied in [1, 4, 9, 29, 43, 63, 70, 74, 80]."
+        },
+        "Planarrecon: Real-time 3d plane detection and reconstruction from posed monocular videos": {
+            "authors": [
+                "Yiming Xie",
+                "Matheus Gadelha",
+                "Fengting Yang",
+                "Xiaowei Zhou",
+                "Huaizu Jiang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_PlanarRecon_Real-Time_3D_Plane_Detection_and_Reconstruction_From_Posed_Monocular_CVPR_2022_paper.pdf",
+            "ref_texts": "[37] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In CVPR , 2021. 1, 3, 4, 6, 7",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "For the multi-view method NeuralRecon [37] + Seq-RANSAC [14], the Sequential RANSAC is used to extract planes after the geometry reconstruction.",
+            "2": "Other works take the truncated signed distance function (TSDF) as 3D representation and project per-frame features into a pre-defined volumetric space for TSDF regression [27, 37].",
+            "3": "Our work adopts the framework from [37] for the initial 3D geometry estimation due to its high efficiency.",
+            "4": "Similar to previous volumetric 3D reconstruction works [18,37], after this sparsification process, the fragment bounding volume Fiis upsampled twice in the next level, and this process is repeated in a coarse-to-fine manner.",
+            "5": "Since there are no previous work that focus on learning-based multi-view 3D plane detection, we compare our method with three types of approaches: (1) single-view plane recovering [48]; (2) multi-view depth estimation [24]+ depth-based plane detection [13]; and (3) volume-based 3D reconstruction [27, 37] + Sequential RANSAC [14].",
+            "6": "For (3), we first employ [27, 37] to estimate the 3D mesh of the scene, and perform sequential RANSAC to group the oriented vertices of the mesh into planes.",
+            "7": "For [27, 37], we run sequential RANSAC every time when a new 3D reconstruction is completed to achieve incremental 3D plane detection.",
+            "8": "(GB) \u2193Time (ms/keyframe) \u2193 NeuralRecon [37] + Seq-RANSAC Atlas [27]0.",
+            "9": "Method VOI \u2193 RI\u2191 SC\u2191 NeuralRecon [37] + Seq-RANSAC 8.",
+            "10": "Like in [37], for volumetric methods (Atlas, NeuralRecon, and ours), the running time is obtained by dividing the time of the number of key frames in the local fragment.",
+            "11": "When comparing to NeuralRecon + sequential RANSAC, Atlas + sequential RANSAC and ESTDepth + PEAC, we use the running time reported in their paper [13, 24, 27, 37, 48].",
+            "12": "Specifically, our method runs \u223c2\u00d7faster than ESTDepth [24] + PEAC [13] and\u223c15\u00d7faster than NeuralRecon [37] + Seq-RANSAC.",
+            "13": "Similar to [37], we use volumetric representations, which can remove redundant computation in depth-based multiview or single-view methods."
+        },
+        "3D reconstruction of remote sensing mountain areas with TSDF-based neural networks": {
+            "authors": [
+                "Zipeng Qi",
+                "Zhengxia Zou",
+                "Hao Chen",
+                "Zhenwei Shi"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/14/17/4333/pdf",
+            "ref_texts": "13. Sun, J.; Xie, Y.; Chen, L.; Zhou, X.; Bao, H. NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA, 20\u201325 June 2021; pp. 15598\u201315607.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "NeuralRecon [13] reconstructs the scene in real time by incrementally predicting the TSDF values with a GRU fusion module.",
+            "2": "Previous methods [11,13] usually adopt simple feature averaging to integrate the multi-views 2D features.",
+            "3": "Very recently, NeuralRecon [13] proposed Remote Sens.",
+            "4": "We follow [13] to apply log-transformation before the l1loss.",
+            "5": "NeuralRecon [13] is a real-time method to reconstruct the object surfaces.",
+            "6": "The method of calculating metric values are the same as Atlas [11] and NeuralRecon [13].",
+            "7": "NeuralRecon [13] integrates the temporal features at a single-voxel level to improve robustness.",
+            "8": "In addition, in order to compare with COLMAP , we use the same way as that in NerualRecon [13] to generate single-layer results.",
+            "9": "We use the same method in NeuralRecon [13] to calculate the metric values.",
+            "10": "Compared to GPMVS [25] and NerualRecon [13], our method can produce much more complete reconstruction results."
+        },
+        "Dionysus: Recovering Scene Structures by Dividing into Semantic Pieces": {
+            "authors": [
+                "Likang Wang",
+                "Lei Chen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Dionysus_Recovering_Scene_Structures_by_Dividing_Into_Semantic_Pieces_CVPR_2023_paper.pdf",
+            "ref_texts": "[57] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 1, 3, 5, 8",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "For example, multi-view stereo (MVS) models [63,73] consume seconds on each image, while real-time approaches [9, 57, 64] lead to missing details or large-areamess.",
+            "2": "Pursuing a higher candidate sampling density, CasMVSNet [15] shrinks the depth range in a coarse-to-fine fashion; IS-MVSNet [63] searches for new candidates according to the estimated error distribution; NeuralRecon [57] prunes the voxels thought to be unreliable in the previous predictions.",
+            "3": "The mainstream real-time methods can be categorized into depth-based [9, 16, 40, 61] and volume-based [57].",
+            "4": "Besides, similar to most existing methods [9, 57, 73], we assume the camera parameters from time t\u2212ntotare available.",
+            "5": "Dis p=r |transition |2+2\n3Trace (I\u2212rotation )(1) Datasets: Following the mainstream settings [9, 57], we train and evaluate our model on ScanNet [5], which is a large-scale real-world video dataset containing 1201 scenes for training, 321 for validation, and 100 for testing."
+        },
+        "Learning to Predict Scene-Level Implicit 3D from Posed RGBD Data": {
+            "authors": [
+                "Nilesh Kulkarni",
+                "Linyi Jin",
+                "Justin Johnson",
+                "David F. Fouhey"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kulkarni_Learning_To_Predict_Scene-Level_Implicit_3D_From_Posed_RGBD_Data_CVPR_2023_paper.pdf",
+            "ref_texts": "[51] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In CVPR , 2021. 2",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "There has been considerable work on using multiview RGBD data at inference time to produce 3D reconstructions, starting with analytic techniques [7, 9, 21, 29] and now using learning [20, 51, 54]."
+        },
+        "Multi-view reconstruction using signed ray distance functions (srdf)": {
+            "authors": [
+                "Pierre Zins",
+                "Yuanlu Xu",
+                "Edmond Boyer",
+                "Stefanie Wuhrer",
+                "Tony Tung"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zins_Multi-View_Reconstruction_Using_Signed_Ray_Distance_Functions_SRDF_CVPR_2023_paper.pdf",
+            "ref_texts": "[61] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u2013",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "Others even propose to learn the full pipeline in an end-to-end manner [17, 20, 41, 53, 61, 64, 68, 69, 76]."
+        },
+        "RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models": {
+            "authors": [
+                "Jiabao Lei",
+                "Jiapeng Tang",
+                "Kui Jia"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_RGBD2_Generative_Scene_Synthesis_via_Incremental_View_Inpainting_Using_RGBD_CVPR_2023_paper.pdf",
+            "ref_texts": "[69] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruc-tion from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition(CVPR) , pages 15598\u201315607, June 2021. 5",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "We conducted experiments on the ScanNetV2 [12] dataset, which was pre-processed by removing redundant frames [69]."
+        },
+        "BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects": {
+            "authors": [
+                "Bowen Wen",
+                "Jonathan Tremblay",
+                "Valts Blukis",
+                "Stephen Tyree",
+                "Thomas Muller",
+                "Alex Evans",
+                "Dieter Fox",
+                "Jan Kautz",
+                "Stan Birchfield"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_BundleSDF_Neural_6-DoF_Tracking_and_3D_Reconstruction_of_Unknown_Objects_CVPR_2023_paper.pdf",
+            "ref_texts": "[59] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 1, 2[60] Martin Sundermeyer, Zoltan-Csaba Marton, Maximilian Durner, Manuel Brucker, and Rudolph Triebel. Implicit 3D orientation learning for 6D object detection from RGB images. In Proceedings of the European Conference on Computer Vision (ECCV) , pages 699\u2013715, 2018. 2",
+            "ref_ids": [
+                "59",
+                "60"
+            ],
+            "1": "For example, neural scene representations have achieved great success in creating high quality 3D object models from real data [3, 40, 44, 59, 68, 81].",
+            "2": "State-of-theart methods often require instanceor category-level object CAD models for offline training or online template matching [24,25,60,67], which prevents their application to novel unknown objects.",
+            "3": "With recent advances in neural scene representation, high quality 3D models can be reconstructed [3,40,44,59,68,81], though most of these methods assume known camera poses or ground-truth segmentation and often focus on static scenes with rich texture or geometric cues.",
+            "4": "1, 2[60] Martin Sundermeyer, Zoltan-Csaba Marton, Maximilian Durner, Manuel Brucker, and Rudolph Triebel."
+        },
+        "Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids": {
+            "authors": [
+                "Wei Dong",
+                "Christopher Choy",
+                "Charles Loop",
+                "Or Litany",
+                "Yuke Zhu",
+                "Anima Anandkumar"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Dong_Fast_Monocular_Scene_Reconstruction_With_Global-Sparse_Local-Dense_Grids_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In CVPR, pages 15598\u201315607, 2021. 1,3",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "construction methods [38,46] have demonstrated fast reconstruction by applying 3D convolutional neural networks to feature volumes, but they have limited resolution and struggle to generalize to larger scenes.",
+            "2": "A variety of classical and learning-based methods [27, 38,46,50] have been developed to achieve high quality multi-view depth reconstruction from monocular images.",
+            "3": "A global volume can be optionally grown from the local volumes [24, 38,50] for scene reconstruction."
+        },
+        "SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes": {
+            "authors": [
+                "Yiming Gao",
+                "Pei Cao",
+                "Ying Shan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Gao_SurfelNeRF_Neural_Surfel_Radiance_Fields_for_Online_Photorealistic_Reconstruction_of_CVPR_2023_paper.pdf",
+            "ref_texts": "[34] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In IEEE CVPR , pages 15598\u2013",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Recently, NeRFusion [50] followed NeuralRecon [34] to unproject input images into local sparse feature volumes, fusing them to a global volume via Gated Recurrent Units (GRUs), and then generating photorealistic results from the global feature volume via volume rendering.",
+            "2": "Most online scene reconstruction methods [4,34,41,52,53] focus on 3D reconstruction only via TSDF-based fusion [4, 34], surfelbased fusion [41] and SLAM-based reconstruction [52].",
+            "3": "Specifically, we use a MasNet following [34, 50] to extract multi-scale view-dependent features."
+        },
+        "Neural 3D reconstruction from sparse views using geometric priors": {
+            "authors": [],
+            "url": "https://link.springer.com/content/pdf/10.1007/s41095-023-0337-5.pdf",
+            "ref_texts": "[7]Sun, J. M.; Xie, Y. M.; Chen, L. H.; Zhou, X. W.; Bao, H. J. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 15593\u201315602, 2021.",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "[7]Sun, J."
+        },
+        "Multi-sensor large-scale dataset for multi-view 3D reconstruction": {
+            "authors": [
+                "Oleg Voynov",
+                "Gleb Bobrovskikh",
+                "Pavel Karpyshev",
+                "Saveliy Galochkin",
+                "Timotei Ardelean",
+                "Arseniy Bozhenko",
+                "Ekaterina Karmanova",
+                "Pavel Kopanev",
+                "Yaroslav Labutin",
+                "Ruslan Rakhimov",
+                "Aleksandr Safin",
+                "Valerii Serpiva",
+                "Alexey Artemov",
+                "Evgeny Burnaev",
+                "Dzmitry Tsetserukou",
+                "Denis Zorin"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Voynov_Multi-Sensor_Large-Scale_Dataset_for_Multi-View_3D_Reconstruction_CVPR_2023_paper.pdf",
+            "ref_texts": "[67] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 15598\u201315607, June 2021. 3",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "These datasets are often used for qualitative evaluation of non-learning-based depth fusion methods [15,27,57,77] which produce voxelor surfel-based surface representations from depth maps; they are also used to train learning-based methods which produce voxel-based surface representation from RGB [43,67], depth [14,16], or RGB-D [17] data."
+        },
+        "Self-Supervised Super-Plane for Neural 3D Reconstruction": {
+            "authors": [
+                "Botao Ye",
+                "Sifei Liu",
+                "Xueting Li",
+                "Hsuan Yang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Self-Supervised_Super-Plane_for_Neural_3D_Reconstruction_CVPR_2023_paper.pdf",
+            "ref_texts": "[34] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In CVPR , 2021. 1, 2, 6",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Recent data-driven methods [22, 26, 34, 38] alleviate this problem to some extent by automatically learning geometric priors from large-scale training data, but they either require nuInput View Surface Reconstruction Plane SegmentationFigure 1.",
+            "2": ") or lack fine-grain details [26, 34].",
+            "3": "Other approaches [26,34] address this issue by regressing scene depth values using the Truncated Signed Distance Function (TSDF).",
+            "4": "Among these, F-score is considered as the main metric following [34]."
+        },
+        "I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs": {
+            "authors": [
+                "Jingsen Zhu",
+                "Yuchi Huo",
+                "Qi Ye",
+                "Fujun Luan",
+                "Jifan Li",
+                "Dianbing Xi",
+                "Lisha Wang",
+                "Rui Tang",
+                "Wei Hua",
+                "Hujun Bao",
+                "Rui Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_I2-SDF_Intrinsic_Indoor_Scene_Reconstruction_and_Editing_via_Raytracing_in_CVPR_2023_paper.pdf",
+            "ref_texts": "[31] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In CVPR , 2021. 2",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "NeuralRecon [31] proposes a coarse-to-fine framework to regress input images to TSDF incrementally."
+        },
+        "VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos": {
+            "authors": [
+                "Huiyu Gao",
+                "Wei Mao",
+                "Miaomiao Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Gao_VisFusion_Visibility-Aware_Online_3D_Scene_Reconstruction_From_Videos_CVPR_2023_paper.pdf",
+            "ref_texts": "[26] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 1, 2, 3, 4, 5, 6, 7, 8",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "au Ground truth NeuralRecon [26] Ours Figure 1.",
+            "2": "The 3D reconstruction by NeuralRecon [26] and the proposed method.",
+            "3": "In this paper, we follow [26] to propose an online 3D reconstruction method.",
+            "4": "However, those two-stage pipelines struggle to produce globally coherent reconstruction since each depth map is estimated separately [26], especially for low texture regions like walls whose depth values are extremely hard to estimate with only several local views.",
+            "5": "To address this, more recent works [2,26,33] propose to fuse image features into a global 3D volume and directly regress TSDF [26,33] or occupancy [2] given the feature volume.",
+            "6": "Previous methods [2, 26] either completely ignore it by simply averaging the multi-view features [26] for each voxel or implicitly model the visibility via the attention mechanism [2].",
+            "7": "For volumetric-based methods, it is common practice to adopt a coarse-to-fine pipeline [2,18,25,26].",
+            "8": "To the best of our knowledge, previous methods [2,18,25,26] propose to globally sparsify the volume by removing voxels whose occupancy probabilities are lower than a predefined threshold.",
+            "9": "Unlike previous works [2, 18, 25, 26] that sparsify the global volume, our ray-based sparsification is performed on local 3D volume.",
+            "10": "Furthermore, previous coarse-to-fine methods [2, 18, 25, 26] directly regress the TSDF at each level discarding the relationships between the TSDF predicted at coarse and that at fine level.",
+            "11": "For online end-to-end 3D reconstruction methods, NeuralRecon [26] proposes the first real-time framework for dense reconstruction from posed monocular videos.",
+            "12": "To achieve online reconstruction, following [11, 26], we sequentially select suitable keyframes.",
+            "13": "A new incoming frame is selected as a keyframe if the camera motion is greater than a predefined threshold [26].",
+            "14": "Same as [26], we only reconstruct the cubicshaped region that encloses the view-frustums of all images within this fragment.",
+            "15": "Such region is called fragment bounding volume (FBV) [26].",
+            "16": "We follow [26] to use a variant of MnasNet [27] to extract 2D features from input images.",
+            "17": "Unlike previous scene reconstruction methods [18, 26] that fuse those features by simply averaging them, we propose to directly predict the visibility weights for feature fusion.",
+            "18": "L(l) t=1 D(l)D(l)X d=1|\u2113(\u02c6T(l) d)\u2212\u2113(T(l) d)|, (6) where \u2113(x) =sgn(x) log(|x|+1) is the log scale function as used in [26] and sgn (\u00b7)is the sign function; T(l) d\u2208[\u22121,1] is the ground truth TSDF and \u02c6T(l) d\u2208[\u22121,1].",
+            "19": "Existing methods [18, 26] that rely on a fixed threshold tend to sparsify more voxels than necessary leading to incomplete reconstruction especially for thin structures.",
+            "20": "Global Feature Fusion Our model maintains a global feature volume which stores the information from all historically reconstructed fragments [26].",
+            "21": "We follow [26] to use a 3D convolutional variant of Gated Recurrent Unit (GRU) [6] to fuse the local feature volume to global.",
+            "22": "Unlike existing coarse-to-fine works [25,26] that directly regress the TSDF, we propose an easier way by taking advantage of the predicted TSDF at previous coarse level.",
+            "23": "Following [26], we use torchsparse [28] for 3D sparse convolution and initialize the feature extraction backbone, a variant of MnasNet [27], with the pretrained weights from ImageNet.",
+            "24": "644OnlineNeuRec [26] 5.",
+            "25": "We show the results of two-stage depth fusion methods (top) and those for end-to-end feature fusion works (bottom) following the evaluation protocol in [26].",
+            "26": "495 NeuRec [26] 6.",
+            "27": "We follow the 3D geometry metrics used in [2, 18, 26] to evaluate the performance of our approach.",
+            "28": "The results of [2, 18, 20, 21, 25] are taken from [21] and [17, 22, 26] are taken from [26].",
+            "29": "NeuralRecon [26] and TransformerFusion [2] are two end-to-end incremental volumetric reconstruction frameworks that directly predict the surface geometry and are the most relevant ones to our approach.",
+            "30": "Our method outperforms all existing online feature fusion methods [2, 26] in both Chamfer distance and F-score metrics.",
+            "31": "1%reduction in chamfer distance compared to NeuralRecon [26].",
+            "32": "We also compare our qualitative results to those of NeuralRecon [26] in Fig.",
+            "33": "As the data split used by [26] is not available, we thus report the results of evaluating their pretrained model on the official test split of 7-Scenes.",
+            "34": "It may explain why the results of [26] are different from those reported in the original paper.",
+            "35": "Although due to the extra computation of our visibility-aware feature fusion and ray-based local sparsification, our method tends to be slower than neuralrecon [26], our model still achieves a real-time reconstruction of 25 key frames per second (FPS) on an NVIDIA RTX\n2080Ti GPU and 45 FPS on an NVIDIA RTX 4090 GPU.",
+            "36": "17323\n SimpleRecon [21] NeuralRecon [26] Ours Ground truth Figure 7.",
+            "37": "Compared to NeuralRecon [26], our reconstruction results are more complete and contain more details (highlighted in the red boxes)."
+        },
+        "3d semantic label transfer in human-robot collaboration": {
+            "authors": [
+                "David Rozenberszki",
+                "Gabor Soros",
+                "Szilvia Szeier",
+                "Andras Lorincz"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021W/CVinHRC/papers/Rozenberszki_3D_Semantic_Label_Transfer_in_Human-Robot_Collaboration_ICCVW_2021_paper.pdf",
+            "ref_texts": "[39] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. Conference on Computer Vision and Pattern Recognition , 2021.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Additionally, there are promising recent works [23, 39] that project CNN feature maps from posed monocular images from 2D to 3D to reconstruct a consistent sparse TSDF map close to real time, but as for other learning-based approaches, generalization to arbitrary scenes is still a challenge."
+        },
+        "NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds": {
+            "authors": [
+                "Chen Yang",
+                "Peihao Li",
+                "Zanwei Zhou",
+                "Shanxin Yuan",
+                "Bingbing Liu",
+                "Xiaokang Yang",
+                "Weichao Qiu",
+                "Wei Shen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_NeRFVS_Neural_Radiance_Fields_for_Free_View_Synthesis_via_Geometry_CVPR_2023_paper.pdf",
+            "ref_texts": "[22] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 2",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "In contrast, some neural reconstruction methods can recover the holistic scene geometry successfully with various priors [9,22,25,34], while the synthesized images from these methods contain plenty of artifacts and are over-smoothed."
+        },
+        "Unsupervised Style-based Explicit 3D Face Reconstruction from Single Image": {
+            "authors": [
+                "Heng Yu",
+                "Zoltan A. Milacski",
+                "Laszlo A. Jeni"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Yu_Unsupervised_Style-Based_Explicit_3D_Face_Reconstruction_From_Single_Image_CVPRW_2023_paper.pdf",
+            "ref_texts": "[54] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 2",
+            "ref_ids": [
+                "54"
+            ],
+            "1": ", meshes [63], voxels [51], points clouds [37]), 3D shape models, video [1, 41, 54, 62, 73], keypoints [10, 26, 55], 2D silhouettes, stereo image pairs [17] or even just object classes [26, 58]."
+        },
+        "Human Body Shape Completion with Implicit Shape and Flow Learning": {
+            "authors": [
+                "Boyao Zhou",
+                "Di Meng",
+                "Sebastien Franco",
+                "Edmond Boyer"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Human_Body_Shape_Completion_With_Implicit_Shape_and_Flow_Learning_CVPR_2023_paper.pdf",
+            "ref_texts": "[43] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2021. 3",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "Depth Feature Encoder Recent literature has shown the robustness of hierarchical feature encoding for both 2D object detection [20] and 3D reconstruction [43] tasks."
+        },
+        "DP-NeRF: Deblurred Neural Radiance Field With Physical Scene Priors": {
+            "authors": [
+                "Dogyoon Lee",
+                "Minhyeok Lee",
+                "Chajin Shin",
+                "Sangyoun Lee"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_DP-NeRF_Deblurred_Neural_Radiance_Field_With_Physical_Scene_Priors_CVPR_2023_paper.pdf",
+            "ref_texts": "[47] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 2",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "Due to the success of the NeRF in neural rendering, several studies have applied NeRF to other areas such as dynamic scenes [17\u201319, 29, 30, 33, 49, 55], generative models [28, 38], relighting [3, 23, 32, 42], human avatars [31, 45, 58], and 3D reconstruction [47, 50]."
+        },
+        "Temporally Consistent Online Depth Estimation Using Point-Based Fusion": {
+            "authors": [
+                "Numair Khan",
+                "Eric Penner",
+                "Douglas Lanman",
+                "Lei Xiao"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Khan_Temporally_Consistent_Online_Depth_Estimation_Using_Point-Based_Fusion_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 5",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "MVS and fusion methods like NeuralRecon [38] suffer from holes in the output making them ill-suited to AR applications."
+        },
+        "Differentiable gradient sampling for learning implicit 3D scene reconstructions from a single image": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=U8pbd00cCWB",
+            "ref_texts": "11 Published as a conference paper at ICLR 2022 Vincent Sitzmann, Michael Zollh \u00a8ofer, and Gordon Wetzstein. Scene representation networks: Continuous 3d-structure-aware neural scene representations. arXiv preprint arXiv:1906.01618 , 2019. Vincent Sitzmann, Julien Martel, Alexander Bergman, David Lindell, and Gordon Wetzstein. Implicit neural representations with periodic activation functions. Advances in Neural Information Processing Systems , 33, 2020. Shuran Song, Fisher Yu, Andy Zeng, Angel X Chang, Manolis Savva, and Thomas Funkhouser. Semantic scene completion from a single depth image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 1746\u20131754, 2017. Julian Straub, Thomas Whelan, Lingni Ma, Yufan Chen, Erik Wijmans, Simon Green, Jakob J. Engel, Raul Mur-Artal, Carl Ren, Shobhit Verma, Anton Clarkson, Mingfei Yan, Brian Budge, Yajie Yan, Xiaqing Pan, June Yon, Yuyang Zou, Kimberly Leon, Nigel Carter, Jesus Briales, Tyler Gillingham, Elias Mueggler, Luis Pesqueira, Manolis Savva, Dhruv Batra, Hauke M. Strasdat, Renzo De Nardi, Michael Goesele, Steven Lovegrove, and Richard Newcombe. The Replica dataset: A digital replica of indoor spaces. arXiv preprint arXiv:1906.05797 , 2019. Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 15598\u201315607, 2021. Xingyuan Sun, Jiajun Wu, Xiuming Zhang, Zhoutong Zhang, Chengkai Zhang, Tianfan Xue, Joshua B Tenenbaum, and William T Freeman. Pix3d: Dataset and methods for single-image 3d shape modeling. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 2974\u20132983, 2018. Shubham Tulsiani, Tinghui Zhou, Alexei A Efros, and Jitendra Malik. Multi-view supervision for single-view reconstruction via differentiable ray consistency. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 2626\u20132634, 2017. Peng Wang, Lingjie Liu, Yuan Liu, Christian Theobalt, Taku Komura, and Wenping Wang. Neus: Learning neural implicit surfaces by volume rendering for multi-view reconstruction. arXiv preprint arXiv:2106.10689 , 2021. Olivia Wiles, Georgia Gkioxari, Richard Szeliski, and Justin Johnson. Synsin: End-to-end view synthesis from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 7467\u20137477, 2020. Saining Xie, Ross Girshick, Piotr Doll \u00b4ar, Zhuowen Tu, and Kaiming He. Aggregated residual transformations for deep neural networks. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 1492\u20131500, 2017. Qiangeng Xu, Weiyue Wang, Duygu Ceylan, Radomir Mech, and Ulrich Neumann. Disn: Deep implicit surface network for high-quality single-view 3d reconstruction. In Advances in Neural Information Processing Systems , pp. 490\u2013500, 2019. Lior Yariv, Yoni Kasten, Dror Moran, Meirav Galun, Matan Atzmon, Ronen Basri, and Yaron Lipman. Multiview neural surface reconstruction by disentangling geometry and appearance. arXiv preprint arXiv:2003.09852 , 2020. Lior Yariv, Jiatao Gu, Yoni Kasten, and Yaron Lipman. V olume rendering of neural implicit surfaces. arXiv preprint arXiv:2106.12052 , 2021. Wang Yifan, Felice Serena, Shihao Wu, Cengiz \u00a8Oztireli, and Olga Sorkine-Hornung. Differentiable surface splatting for point-based geometry processing. ACM Transactions on Graphics (TOG) , 38(6):1\u201314, 2019. Wei Yin, Jianming Zhang, Oliver Wang, Simon Niklaus, Long Mai, Simon Chen, and Chunhua Shen. Learning to recover 3d scene shape from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 204\u2013213, 2021. Alex Yu, Vickie Ye, Matthew Tancik, and Angjoo Kanazawa. pixelnerf: Neural radiance fields from one or few images. arXiv preprint arXiv:2012.02190 , 2020."
+        },
+        "An Improved Matting-SfM Algorithm for 3D Reconstruction of Self-Rotating Objects": {
+            "authors": [
+                "Zinuo Li",
+                "Zhen Zhang",
+                "Shenghong Luo",
+                "Yuxing Cai",
+                "Shuna Guo"
+            ],
+            "url": "https://www.mdpi.com/2227-7390/10/16/2892/pdf",
+            "ref_texts": "20. Sun, J.; Xie, Y.; Chen, L.; Zhou, X.; Bao, H. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA, 20\u201325 June 2021; pp. 15598\u201315607.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Moreover, further developments such as real-time reconstruction [20] or the applications in embedded devices and hardware [21,22] are also very impressive."
+        },
+        "Make it dense: Self-supervised geometric scan completion of sparse 3d lidar scans in large outdoor environments": {
+            "authors": [],
+            "url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/vizzo2022ral-iros.pdf",
+            "ref_texts": "[33] J. Sun, Y . Xie, L. Chen, X. Zhou, and H. Bao. NeuralRecon: Real-Time Coherent 3D Reconstruction From Monocular Video. In Proc. of the IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR) , 2021.",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "In line with prior work [9], [10], [19], [33], we log-transform the predicted and target values before applying the \u21131loss.",
+            "2": "[33] J."
+        },
+        "ArcticAI: a deep learning platform for rapid and accurate histological assessment of intraoperative tumor margins": {
+            "authors": [],
+            "url": "https://www.medrxiv.org/content/10.1101/2022.05.06.22274781.full.pdf",
+            "ref_texts": "74. Sun, J., Xie, Y., Chen, L., Zhou, X. & Bao, H. NeuralRecon: Real -Time Coherent 3D Reconstruction from Monocular Video. in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 15598 \u201315607 (2021). ",
+            "ref_ids": [
+                "74"
+            ]
+        },
+        "ObjectFusion: Accurate object-level SLAM with neural object priors": {
+            "authors": [],
+            "url": "http://iccvm.org/2022/papers/s12-3.pdf"
+        },
+        "On the Problem of Restoring and Classifying a 3D Object in Creating a Simulator of a Realistic Urban Environment": {
+            "authors": [
+                "Mikhail Gorodnichev",
+                "Sergey Erokhin",
+                "Ksenia Polyantseva",
+                "Marina Moseva"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/22/14/5199/pdf",
+            "ref_texts": "16. Sun, J.; Xie, Y.; Chen, L.; Zhou, X.; Bao, H. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA, 20\u201325 June 2021; pp. 15598\u201315607.",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "[16] presented a platform called NeuralRecon for real-time reconstruction of a 3D scene using monocular video."
+        },
+        "Heightfields for Efficient Scene Reconstruction for AR": {
+            "authors": [
+                "Jamie Watson",
+                "Sara Vicente",
+                "Oisin Mac",
+                "Clement Godard",
+                "Gabriel Brostow",
+                "Michael Firman"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Watson_Heightfields_for_Efficient_Scene_Reconstruction_for_AR_WACV_2023_paper.pdf",
+            "ref_texts": "[48] Sun, J., Xie, Y ., Chen, L., Zhou, X., Bao, H.: NeuralRecon: Real-time coherent 3d reconstruction from monocular video. In: CVPR (2021)",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "However, these tend to rely on expensive operations such as 3D convolutions [30, 48, 6].",
+            "2": "[30, 48].",
+            "3": "Unlike Atlas [30], which maintains a scene-level 3D feature volume, NeuralRecon [48] first performs local surface estimation by chopping the input scene into fragments which are later fused into a single global volume.",
+            "4": "For our ScanNetV2 experiments we follow [30, 48, 3] in using ScanNet\u2019s pre-aligned poses.",
+            "5": "[30, 48]) project deep image features into a 3Dfeature volume.",
+            "6": "[30, 48]), we first convert their 3D output to a heightfield by raycasting from above the meshes 5854\n Example inputs Ground truth HeightRecon (Ours) Atlas NeuralRecon Figure 5.",
+            "7": "Our reconstructions are more complete than NeuralRecon [48] and are qualitatively comparable to Atlas [30], despite the fact that we only estimate 2D heightfields.",
+            "8": "Comparison to 2D and 3D baselines We compare to three recent state-of-the-art methods that reason in 3D: Atlas [30], NeuralRecon [48] and TransformerFusion [3].",
+            "9": "750 NeuralRecon [48] .",
+            "10": "5855\n\n0 10 20 30 40 50 60 70 Scene size (m2)0246810Memory usage (GB) iPhone7iPhoneXiPhone12Atlas Neural Recon HeightRecon (Ours)Mean (MB) Max (MB) Min (MB) Atlas [30] 3221 10900 896 Neural Recon [48] 2077 4184 910 HeightRecon (Ours) 475 724 386 Figure 6.",
+            "11": "NeuralRecon [48] computes voxel reconstructions in fragments, which saves memory.",
+            "12": "768 382 NeuralRecon [48] 0.",
+            "13": "In: International Geoscience and Remote Sensing Symposium (2017)\n[48] Sun, J."
+        },
+        "Pyramidal Signed Distance Learning for Spatio-Temporal Human Shape Completion": {
+            "authors": [
+                "Boyao Zhou",
+                "Sebastien Franco",
+                "Edmond Boyer"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Zhou_Pyramidal_Signed_Distance_Learning_for_Spatio-Temporal_Human_Shape_Completion_ACCV_2022_paper.pdf",
+            "ref_texts": "45. Sun, J., Xie, Y., Chen, L., Zhou, X., Bao, H.: NeuralRecon: Real-time coherent 3D reconstruction from monocular video. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (2021)",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Taking inspiration from pyramidal strategies applied successfully to other prominent vision problems such as object detection [23], multi-view stereo [48], 3D reconstruction [45] and optical flow [44] we devise a method that aggregates spatio-temporal information in a coarse to fine manner, propagating features from low to high resolution through up-sampling, concatenation with higher resolution features and the addition of residuals.",
+            "2": "codings for a different incremental reconstruction problem [45]."
+        },
+        "Toward Cooperative 3D Object Reconstruction with Multi-agent": {
+            "authors": [],
+            "url": "http://www.zhenyu.info/papers/ICRA.pdf",
+            "ref_texts": "[30] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "When the input is a video stream [6], [30], temporal correlation can be used to improve the smoothness and inter-frame consistency of the reconstruction."
+        },
+        "HIVE: HIerarchical Volume Encoding for Neural Implicit Surface Reconstruction": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=LnQn5-rN-LR",
+            "ref_texts": "3530127 . Zak Murez, Tarrence van As, James Bartolozzi, Ayan Sinha, Vijay Badrinarayanan, and Andrew Rabinovich. Atlas: End-to-end 3d scene reconstruction from posed images. In Proceedings of the European Conference on Computer Vision , pp. 414\u2013431. Springer, 2020. Michael Niemeyer, Lars Mescheder, Michael Oechsle, and Andreas Geiger. Differentiable volumetric rendering: Learning implicit 3d representations without 3d supervision. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 3504\u20133515, 2020. Michael Oechsle, Songyou Peng, and Andreas Geiger. Unisurf: Unifying neural implicit surfaces and radiance fields for multi-view reconstruction. In Proceedings of the International Conference on Computer Vision , pp. 5589\u20135599, 2021. Songyou Peng, Michael Niemeyer, Lars Mescheder, Marc Pollefeys, and Andreas Geiger. Convolutional occupancy networks. In Proceedings of the European Conference on Computer Vision , 2020. Leonid I Rudin and Stanley Osher. Total variation based image restoration with free local constraints. InProceedings of 1st international conference on image processing , volume 1, pp. 31\u201335. IEEE, 1994. Paul-Edouard Sarlin, Daniel DeTone, Tomasz Malisiewicz, and Andrew Rabinovich. Superglue: Learning feature matching with graph neural networks. In CVPR , pp. 4938\u20134947, 2020. Johannes L Sch \u00a8onberger, Enliang Zheng, Jan-Michael Frahm, and Marc Pollefeys. Pixelwise view selection for unstructured multi-view stereo. In Proceedings of the European Conference on Computer Vision , pp. 501\u2013518. Springer, 2016. Johannes Lutz Sch \u00a8onberger and Jan-Michael Frahm. Structure-from-motion revisited. In Conference on Computer Vision and Pattern Recognition (CVPR) , 2016. Christoph Strecha, Wolfgang V on Hansen, Luc Van Gool, Pascal Fua, and Ulrich Thoennessen. On benchmarking camera calibration and multi-view stereo for high resolution imagery. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 1\u20138. Ieee, 2008. Cheng Sun, Min Sun, and Hwann-Tzong Chen. Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 5459\u20135469, 2022a. Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 15598\u201315607, 2021. Jiaming Sun, Xi Chen, Qianqian Wang, Zhengqi Li, Hadar Averbuch-Elor, Xiaowei Zhou, and Noah Snavely. Neural 3d reconstruction in the wild. In ACM SIGGRAPH 2022 Conference Proceedings , pp. 1\u20139, 2022b."
+        },
+        "Inferring Dense Human Representation from Sparse or Incomplete Point Clouds": {
+            "authors": [],
+            "url": "https://inria.hal.science/tel-03880124/file/ZHOU_2022_archivage.pdf",
+            "ref_texts": "69386f6bb1dfed68692a24c8686939b9-Paper.pdf . Tsung-Yi Lin, Piotr Doll\u00e1r, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In IEEE Conference on Computer Vision and Pattern Recognition , pages 936\u2013944, 2017. Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2021b. Hao Zhu, Xinxin Zuo, Haotian Yang, Sen Wang, Xun Cao, and Ruigang Yang. Detailed avatar recovery from single image. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2021. Zerong Zheng, Tao Yu, Yebin Liu, and Qionghai Dai. Pamir: Parametric modelconditioned implicit representation for image-based human reconstruction. IEEE transactions on pattern analysis and machine intelligence , 2021a."
+        },
+        "Unsupervised Visual Entity Abstraction towards 2D and 3D Compositional Models": {
+            "authors": [],
+            "url": "https://infoscience.epfl.ch/record/298424/files/EPFL_TH8166.pdf"
+        },
+        "CNN-based Scene Modeling: From Depth Estimation to 3D Reconstruction": {
+            "authors": [],
+            "url": "https://naist.repo.nii.ac.jp/?action=repository_action_common_download&item_id=10969&item_no=1&attribute_id=14&file_no=1",
+            "ref_texts": "[100] Sun, J., Xie, Y., Chen, L., Zhou, X., and Bao, H. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (2021), pp. 15598\u201315607.",
+            "ref_ids": [
+                "100"
+            ],
+            "1": "NeuralRecon[100]furtherimprovestheperformanceofreal-timescenereconstructionusing 3D gated recurrent units (GRUs).",
+            "2": "[100] Sun, J."
+        },
+        "Supplementary: Directed Ray Distance Functions for 3D Scene Reconstruction": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620193-supp.pdf",
+            "ref_texts": "12. Sun, J., Xie, Y., Chen, L., Zhou, X., Bao, H.: Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 15598{15607 (2021) 5",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Given samplesfxi;Ii;d(xi)gn i=1we train our network to minimize the L1 loss,1 nPn i=1jd(xi)\u0000f\u0012(xi;Ii)j, where the predictions are log-space truncated at 1m following other methods that predict TSDFs [5,12]."
+        },
+        "Supplementary of NeuRIS": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920139-supp.pdf",
+            "ref_texts": "13. Sun, J., Xie, Y., Chen, L., Zhou, X., Bao, H.: NeuralRecon: Real-time coherent 3D reconstruction from monocular video. CVPR (2021)",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "1, the output mesh by some TSDF-based (truncated signed distance function) methods [7, 13] is double-layered while the GT mesh is single-layered.",
+            "2": "In general, F-score is considered as the most proper metric to evaluate the quality of 3D geometry [13], which contains the information of both accuracy and completeness.",
+            "3": "Note that some methods [7, 13, 15, 17] as well as 4 J.",
+            "4": "796 NeuralRecon[13] 0.",
+            "5": "The three columns show the GT mesh, reconstructed mesh by NeuralRecon[13], and reconstructed mesh by our method, respectively."
+        },
+        "EE381V: Active 3D Reconstruction by Using Ego-centric Camera": {
+            "authors": [],
+            "url": "https://zhou-spec.github.io/files/EE381V_mseo_zfang.pdf",
+            "ref_texts": "[23] Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. Neuralrecon: Real-time coherent 3d reconstruction from monocular video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15598\u201315607, 2021. 2, 3, 5",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "In particular, by using the images taken multiple views, [18, 14, 23] 3D reconstruct a wide range of open environments.",
+            "2": "Recently, many works have shown the advantage of neural implicit representation with their neural network architecture for constructing 3D shapes [18, 23, 22].",
+            "3": "3D Reconstruction Model To take advantage of GPU accelerated real-time construction of 3D shapes, we extended the model design of NeuralRecon, a data-driven model for generating 3D shapes [23].",
+            "4": "[23]."
+        },
+        "Inf\u00e9rer une repr\u00e9sentation dense de l'humain avec un nuage de points \u00e9pars ou incomplet": {
+            "authors": [],
+            "url": "https://www.theses.fr/2022GRALM033.pdf",
+            "ref_texts": "69386f6bb1dfed68692a24c8686939b9-Paper.pdf . Tsung-Yi Lin, Piotr Doll\u00e1r, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In IEEE Conference on Computer Vision and Pattern Recognition , pages 936\u2013944, 2017. Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, and Hujun Bao. NeuralRecon: Real-time coherent 3D reconstruction from monocular video. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2021b. Hao Zhu, Xinxin Zuo, Haotian Yang, Sen Wang, Xun Cao, and Ruigang Yang. Detailed avatar recovery from single image. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2021. Zerong Zheng, Tao Yu, Yebin Liu, and Qionghai Dai. Pamir: Parametric modelconditioned implicit representation for image-based human reconstruction. IEEE transactions on pattern analysis and machine intelligence , 2021a."
+        }
+    }
+}

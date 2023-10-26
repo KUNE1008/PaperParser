@@ -1,0 +1,197 @@
+{
+    "title": "Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation",
+    "id": 39,
+    "valid_pdf_number": "17/25",
+    "matched_pdf_number": "13/17",
+    "matched_rate": 0.7647058823529411,
+    "citations": {
+        "Total variation regularized RPCA for irregularly moving object detection under dynamic background": {
+            "authors": [],
+            "url": "https://yangliang.github.io/pdf/07089247.pdf",
+            "ref_texts": "[34] X. Zhou, C. Yang, and W. Yu, \u201cAutomatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation,\u201d inProc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR) , Providence, RI, USA, Jun. 2012, pp. 972\u2013979.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Detecting contiguous outliers in the low-rank representation (DECOLOR) [33], [34] adopts the nonconvex penalty and Markov random field (MRF) to detect outliers, which prefers the regions that are relatively dense and con-tiguous.",
+            "2": "[34] X."
+        },
+        "Very fast solution to the PnP problem with algebraic outlier rejection": {
+            "authors": [],
+            "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Ferraz_Very_Fast_Solution_2014_CVPR_paper.pdf",
+            "ref_texts": "[34] X. Zhou, C. Yang, and W. Yu. Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation. In CVPR , pages 972\u2013979, 2012.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "For instance, to robustify PCA [5, 14] use influence functions and [3, 34] useL1-norm.",
+            "2": "[34] X."
+        },
+        "Latent discriminant subspace representations for multi-view outlier detection": {
+            "authors": [
+                "Kai Li",
+                "Sheng Li",
+                "Zhengming Ding",
+                "Weidong Zhang",
+                "Yun Fu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/11826/11685",
+            "ref_texts": "2012. Intrusion as (anti) social communication: characterization and detection. In Proc. of KDD . Duh, K.; Yeung, C.-M. A.; Iwata, T.; and Nagata, M. 2013. Managing information disparity in multilingual document collections. ACM Transactions on Speech and Language Processing (TSLP)10(1):1. Elhamifar, E., and Vidal, R. 2013. Sparse subspace clustering: Algorithm, theory, and applications. IEEE Transactions on Pattern Analysis and Machine Intelligence 35(11). Gao, J.; Liang, F.; Fan, W.; Wang, C.; Sun, Y .; and Han, J. 2010. On community outliers and their efficient detection in information networks. In Proc. of KDD . ACM. Gao, J.; Fan, W.; Turaga, D.; Parthasarathy, S.; and Han, J. 2011. A spectral framework for detecting inconsistency across multi-sourceobject relationships. In Proc. of ICDM . IEEE. Guo, Y . 2013. Convex subspace representation learning from multi-view data. In Proc. of AAAI . Iwata, T., and Yamada, M. 2016. Multi-view anomaly detection via robust probabilistic latent variable models. In Proc. of NIPS .Janeja, V . P., and Palanisamy, R. 2013. Multi-domain anomaly detection in spatial datasets. Knowledge and information systems 36(3):749\u2013788. Li, S.; Shao, M.; and Fu, Y . 2015. Multi-view low-rank analysis for outlier detection. In Proc. of SDM . Lin, Z.; Chen, M.; and Ma, Y . 2010. The augmented lagrange multiplier method for exact recovery of corrupted low-rank matrices. arXiv preprint arXiv:1009.5055 . Liu, A. Y ., and Lam, D. N. 2012. Using consensus clustering for multi-view anomaly detection. In Proc. of IEEE Symposium on Security and Privacy Workshops . Liu, G.; Lin, Z.; Yan, S.; Sun, J.; Yu, Y .; and Ma, Y . 2013. Robust recovery of subspace structures by low-rank representation. IEEE Transactions on Pattern Analysis and Machine Intelligence 35(1):171\u2013184. Liu, G.; Lin, Z.; and Yu, Y . 2010. Robust subspace segmentation by low-rank representation. In Proc. of ICML . Marcos Alvarez, A.; Yamada, M.; Kimura, A.; and Iwata, T. 2013. Clustering-based anomaly detection in multi-view data. In Proc. of CIKM . ACM. Muller, E.; Assent, I.; Iglesias, P.; Mulle, Y .; and Bohm, K. 2012. Outlier ranking via subspace analysis in multiple views of the data.InProc. of ICDM . Nie, F.; Huang, H.; Cai, X.; and Ding, C. H. 2010. Efficient and robust feature selection via joint 2, 1-norms minimization. In Proc. of NIPS . Schubert, E.; Zimek, A.; and Kriegel, H.-P. 2014. Generalized outlier detection with flexible kernel density estimates. In Proc. of SDM . SIAM. Spirin, N., and Han, J. 2012. Survey on web spam detection: principles and algorithms. ACM SIGKDD Explorations Newsletter13(2):50\u201364. Vidal, R., and Favaro, P. 2014. Low rank subspace clustering (lrsc). Pattern Recognition Letters 43:47\u201361. White, M.; Zhang, X.; Schuurmans, D.; and Yu, Y .-l. 2012. Convex multi-view subspace learning. In Proc. of NIPS . Zhao, H., and Fu, Y . 2015. Dual-regularized multi-view outlier detection. In Proc. of IJCAI . Zhou, X.; Yang, C.; and Yu, W. 2012. Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation. In Proc. of CVPR . IEEE.",
+            "ref_ids": [
+                "2012"
+            ]
+        },
+        "Mitral valve leaflets segmentation in echocardiography using convolutional neural networks": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=HyUmbjsiz",
+            "ref_texts": "[10] X. Zhou, C. Yang, and W. Yu, \u201cAutomatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation,\u201d in Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on . IEEE, 2012, pp. 972\u2013979.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "An approach based on outlier detection in low-rank matrix was proposed in [10].",
+            "2": "[10] X."
+        },
+        "Towards patient-specific modeling of mitral valve repair: 3D transesophageal echocardiography-derived parameter estimation": {
+            "authors": [
+                "Fan Zhang"
+            ],
+            "url": "http://comaniciu.net/Papers/ModelingMitralValveRepair_MIA17.pdf",
+            "ref_texts": "27(11), 1668\u20131681 . Zhou, X. , Yang, C. , Yu, W. , 2012. Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation. In: Computer Vision and Pattern Recognition, pp. 972\u2013979 . "
+        },
+        "Mitral valve segmentation using robust nonnegative matrix factorization": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2313-433X/7/10/213/pdf",
+            "ref_texts": "10. Zhou, X.; Yang, C.; Yu, W. Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation. In Proceedings of the 2012 IEEE Conference on Computer Vision and Pattern Recognition, Providence, RI, USA, 16\u201321 June 2012; pp. 972\u2013979.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Another field of application is diagnostics, where segmentation can lead to a better understanding of the behavior and geometry of the patient\u2019s mitral valve and thus of its various diseases [10].",
+            "2": "[10] by capturing the irregular motion of the mitral valve, using a matrix factorization method.",
+            "3": "[10] and takes advantage of the fast motion of the mitral valve and thus the spectral distribution of the ultrasound video that is strongest in the valve area.",
+            "4": "Based on the method in [10,25], Dukler et al.",
+            "5": "[9,10] Matrix Factorization with Bias AvoidingOptional: Mitral Valve SizeAn advantage of this method is that the size of the mitral valve does not need to be known (optional), but the disadvantage is the required adjustment of parameters."
+        },
+        "\u4ece\u538b\u7f29\u4f20\u611f\u5230\u4f4e\u79e9\u77e9\u9635\u6062\u590d: \u7406\u8bba\u4e0e\u5e94\u7528": {
+            "authors": [],
+            "url": "http://www.aas.net.cn/fileZDHXB/journal/article/zdhxb/2013/7/PDF/2013-7-981.pdf",
+            "ref_texts": "88Zhou X W, Yang C, Yu W C. Automatic mitral lea\u00b0et tracking in echocardiography by outlier detection in the low-rank representation. In: Proceedings of the 2012 Conference on Computer Vision and Pattern Recognition. Providence, RI: IEEE, 2012. 972 \u00a1979"
+        },
+        "Unsupervised Mitral Valve Tracking for Disease Detection in Echocardiogram Videos": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2313-433X/6/9/93/pdf",
+            "ref_texts": "16. Zhou, X.; Yang, C.; Yu, W. Automatic Mitral Leaflet Tracking in Echocardiography by Outlier Detection in the Low-Rank Representation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Washington, DC, USA, 16 June 2012; pp. 972\u2013979.",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "[16] tracks the mitral valve leaflet in an unsupervised manner, but must assume that the movement is restricted within a relatively small region, which might not necessarily be the case.",
+            "2": "[16] can be considered unsupervised, but as it requires manual cropping of the data to a much smaller area around which the mitral valve resides, it is still strictly speaking a supervised technique.",
+            "3": "Comparison with Other Methods To test the efficacy of our proposed method, it was compared primarily with two other methods [15,16].",
+            "4": "[16] used graph cuts with a lower rank approximation of a matrix containing the pixel information of the video, to find the faster moving pixels, which would contain the mitral valve as it was presumed that all other parts of the heart would not move as fast.",
+            "5": "Performance Comparison between Proposed method, VM-Mode [15], LRRGC [16], KMOtsu [29] and BUSRD [30] for the first dataset (bold indicates best value).",
+            "6": "Performance Comparison between Proposed method, VM-Mode [15], LRRGC [16], KMOtsu [29] and BUSRD [30] for the second dataset (bold indicates best value)."
+        },
+        "Artificial intelligence and automation in valvular heart diseases": {
+            "authors": [],
+            "url": "https://journals.viamedica.pl/cardiology_journal/article/download/CJ.a2020.0087/51156",
+            "ref_texts": "45. Zhou X, Yang C, Yu W . Automatic mitral leaflet tracking in echo cardiography by outlier detection in the low-rank representation. Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit. ",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Re ported approaches for valve segmentation including active contour models [42, 43], thin tissue detector combined with graph cut [44], outlier detection method [45, 46], J-spline method [47], multi-atlas joint label fusion [48], trajectory spectrum learning algorithm [49] and neural network [50].",
+            "2": "[45] formulated the problems of valve detection and tracking as outliner detection in the low-rank representation based on different motion patterns between leaflets and the heart wall, which is fully automated requiring no user interaction [46]."
+        },
+        "Low-rank modeling and its applications in medical image analysis": {
+            "authors": [],
+            "url": "https://www.ica-wavelet.org/Papers/2013/Weichuan%20Yu%20SPIE%202013%2087500V.pdf",
+            "ref_texts": "[66] Zhou, X., Yang, C., and Yu, W., \\Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "ref_ids": [
+                "66",
+                "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition "
+            ],
+            "1": ", \\Robust l1 norm factorization in the presence of outliers and missing data by alternative convex programming,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2005).",
+            "2": ", \\Motion segmentation with missing data using powerfactorization and gpca,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2004).",
+            "3": ", \\Matrix completion by truncated nuclear norm regularization,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "4": ", \\Robust video denoising using low rank matrix completion,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], 1791{1798 (2010).",
+            "5": ", \\A uniffed approach to salient object detection via low rank matrix recovery,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "6": ", \\Fast track matching and event detection,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2008).",
+            "7": ", \\Fast algorithms for structured robust principal component analysis,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "8": ", \\Parsing fa\u0018 cade with rank-one approximation,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "9": ", \\Robust late fusion with rank minimization,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012).",
+            "10": "[66] Zhou, X.",
+            "11": ", \\Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation,\" in [Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ], (2012)."
+        },
+        "Real-time Anterior Mitral Leaflet Tracking using Morphological Operators and Active Contours.": {
+            "authors": [],
+            "url": "https://www.scitepress.org/PublishedPapers/2017/62447/62447.pdf",
+            "ref_texts": "J.N. Trochu, T. L. Tourneau, J.F. Obadia, G. Caranhac, A. Beresniak, 2015. Economic burden of functional and organic mitral valve regurgitation. Archives of Cardiovascular Disease, 108, 88-96 G. S. Ribeiro, S. Y . Tartof, D. W. S. Oliveira, A. C. S. Guedes, M. G. Reis, L. W. Riley, A. I. Ko, May 2012. Surgery for Valvular Heart Disease: A PopulationBased Study in a Brazilian Urban Center. PLoS One, V ol 7, issue 5 CEBR, August 2014. The economic cost of cardiovascular disease from 2014-2020 in six European economies,Centre for Economics and Business Research, London. C. Sheng, 2008. Segmentation in echocardiographic sequences using shape-based snake model, Computing and Informatics, V ol. 27, 423435 I. Mikic, S. Krucinski, J. D. Thomas, April 1998. Segmentation and Tracking in Echocardiographic Sequences: Active Contours Guided by Optical Flow Estimates. IEEE transactions on medical imaging, vol17, no. 2 S. Martin, V . Daanen, O. Chavanon, J. Troccaz, 2006. Fast Segmentation of the Mitral Valve Leaflet in Echocardiography. Computer Vision Approaches to Medical Image Analysis, V ol. 4241, pp 225-235 X. Zhou, C. Yang, W. Yu, 2012. Automatic Mitral Leaflet Tracking in Echocardiography by Outlier Detection in the Low-rank Representation, IEEE Conference on Computer Vision and Pattern Recognition, IEEE Computer Society Washington, DC, USA, 972-979 M. Mirabel, B. Iung, G. Baron, D. Messika-Zeitoun, D. Dtaint, J.-L. Vanoverschelde, E. G. Butchart, P. Ravaud, A. Vahanian, 2007 .What are the characteristics of patients with severe, symptomatic, mitral regurgitation who are denied surgery?. European Heart Journal, 28, 13581365 A. Bisno, E. G. Butchart, NK Ganguly, T. Ghebrehiwet, et. al. 2004, WHO Expert Consultation on Rheumatic Fever and Rheumatic Heart Disease, Geneva B. Remnyi, N. Wilson, A. Steer, B. Ferreira, J. Kado, K. Kumar, J. Lawrenson, G. Maguire, E. Marijon et. al. Feb 2012. World Heart Federation criteria for echocardiographic diagnosis of rheumatic heart diseasean evidence-based guideline, Nat Rev Cardiol. V ol 9, issue 5, pp 297-309 A.S. Omran, A.A. Arifi, A.A. Mohamed, 2010. Echocardiography of the mitral valve, Journal of the Saudi Heart Association, 22, 165170 L. Yun-gang, K. K. Jacky, L. Shi, Y . Guan, L. Linong, J. Qin, H. PhengAnn, C. C. Winnie, W. Defeng, 2015, Myocardial Iron Loading Assessment by Automatic Left Ventricle Segmentation with Morphological Operations and Geodesic Active Contour on T2* images, Scientific reports. M. Lascu, D. Lascu, March 2008. A New Morphological Image Segmentation with Application in 3D Echographic Images, WSEAS Transactions on electronics, Issue 3, V ol. 5 S. Lankton, A. Tannenbaum, Nov. 2008. Localizing Region-Based Active Contours, IEEE Transactions on image processing, vol. 17, issue 11, 2029-2039 T. Chan, L. Vese, 1999. An Active Contour Model without Edges, LNCS 1682, pp. 141-151 T. Y . Zhang, C. Y . Suen, March 1984 .A Fast Parallel Algorithm for Thinning Digital Patterns, Communications of the ACM, V ol. 27, Issue 3, pp. 236-239 M. S. Sultan, N. Martins, D. Veiga, M. J. Ferreira, M. T. Coimbra, 2016. Tracking of the Anterior Mitral Leaflet in Echocardiographic Sequences using Active Contours, EMBC, 1074 1077 WHF, 2012. http://www.world-heart-federation.org /fileadmin/user upload/documents/ Fact sheets/2012/ RHD.pdfReal-time Anterior Mitral Leaflet Tracking using Morphological Operators and Active Contours 45"
+        },
+        "Unsupervised Data Driven Machine Learning in Hyperspectral Imaging and Echocardiography Videos": {
+            "authors": [],
+            "url": "https://rc.library.uta.edu/uta-ir/bitstream/handle/10106/29828/SHAHID-DISSERTATION-2021.pdf?sequence=1",
+            "ref_texts": "[44] X. Zhou, C. Yang and W. Yu, \u201dAutomatic Mitral Leaflet Tracking in Echocardiography by Outlier Detection in the Low-Rank Representation,\u201d in IEEE Conference on Computer Vision and Pattern Recognition , Washington, DC, USA, 2012, pp. 972\u2013979.",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "1 Performance Comparison between Proposed method, VM-Mode [43] and LRRGC [44].",
+            "2": "In order to test the efficacy of our proposed method, it was compared with two other methods, [43] and [44].",
+            "3": "[44] used graph cuts with a lower rank approximation of a matrix containing the pixel information of the video, to find the faster moving pixels, which would contain the mitral valve as it was presumed that all other parts of the heart would not move as fast.",
+            "4": "1: Performance Comparison between Proposed method, VM-Mode [43] and LRRGC [44].",
+            "5": "[44] X."
+        },
+        "Image-based Treatment Outcome Prediction and Intervention Guidance for Cardiovascular Diseases": {
+            "authors": [],
+            "url": "https://repozitorium.omikk.bme.hu/bitstream/handle/10890/16587/Ralovich_Kristof_2021_04_29.pdf?sequence=1",
+            "ref_texts": "[220] Xiaowei Zhou, Can Yang, and Weichuan Yu. Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation. In Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on, pages 972{979. IEEE, 2012.",
+            "ref_ids": [
+                "220"
+            ],
+            "1": "Tracking of the left ventricle [211] and heart valves [83, 220] was recently presented in 4D echocardiography."
+        },
+        "Low-rank and Sparse based Representation Methods with the Application of Moving Object Detection": {
+            "authors": [],
+            "url": "https://era.library.ualberta.ca/items/f28c6a0a-0543-4889-8906-3e1dc6e08476/download/a910ebd7-8965-4b22-bd4a-b2479f06203f",
+            "ref_texts": "[154] X. Zhou, C. Yang, and W. Yu, \\Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation,\" inComputer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on , IEEE, 2012, pp. 972{979. 1",
+            "ref_ids": [
+                "154"
+            ],
+            "1": "1 Motivation and Problem Statement Moving object segmentation from an image sequence or a video stream is a fundamental problem in computer vision with such applications as visual surveillance [121], traflc monitoring [24], [107]{[109], vehicle tracking [126], medical imaging [154], avian protection [111], object-based video encoding and social signal processing [130] where the accuracy of segmentation is critical to the solution of the application.",
+            "2": "13, 96\n[154] X."
+        },
+        "EasyChair Prep rint": {
+            "authors": [],
+            "url": "https://easychair.org/publications/preprint_download/JrtW",
+            "ref_texts": "15. Zhou, X., Yang, C., Yu, W.: Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation. In: Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. pp. 972{979. IEEE (2012)",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "The ffrst attempts to design a fully automated MV segmentation algorithm are proposed in [15,4].",
+            "2": "Similar to the window detection method in [4,15], the ROI of the MV is then identiffed as the window with largest sum among the frames of the optical ow norms."
+        },
+        "Diagnosis of Rheumatic Heart Disease Based on Echocardiography Videos": {
+            "authors": [
+                "O A"
+            ],
+            "url": "https://repositorio-aberto.up.pt/bitstream/10216/112693/2/272406.pdf",
+            "ref_texts": "[25] X. Zhou et al. Automatic mitral leaet tracking in echocardiography by outlier detection in the low-rank representation. in Proc. IEEE CVPR , 2012.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "in 2012 [25] and Liu et.",
+            "2": "[25] used the morphological operators to extract the largest region from segmentation results, whereas, Liu et.",
+            "3": "[25] computed the mean absolute distance between the automatic segmentation and the ground truth (manual annotation), whereas, Liu et.",
+            "4": "[25] method.",
+            "5": "[25].",
+            "6": "'s [25] method required the cropping of unwanted regions whereas, Liu et.",
+            "7": "3: Manually selected regions and matrix spectral analysis (adapted from [25, 26])\n1.",
+            "8": "Zhou [25], 2012 X.",
+            "9": "[25] X."
+        },
+        "Viewpoint invariant features and robust monocular Camera pose estimation": {
+            "authors": [],
+            "url": "https://ddd.uab.cat/pub/tesis/2016/hdl_10803_368568/lfc1de1.pdf",
+            "ref_texts": "[152] Xiaowei Zhou, Can Yang, and Weichuan Yu. Automatic mitral leaflet tracking in echocardiography by outlier detection in the low-rank representation. In IEEE Conference on Computer Vision and Pattern Recognition , pages 972\u2013979, 2012.",
+            "ref_ids": [
+                "152"
+            ],
+            "1": "For instance, to robustify PCA [20, 49] use influence functions and [11, 152] use L\n1-norm."
+        }
+    }
+}

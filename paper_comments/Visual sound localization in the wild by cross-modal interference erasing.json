@@ -1,0 +1,108 @@
+{
+    "title": "Visual sound localization in the wild by cross-modal interference erasing",
+    "id": 57,
+    "valid_pdf_number": "7/11",
+    "matched_pdf_number": "7/7",
+    "matched_rate": 1.0,
+    "citations": {
+        "Learning hierarchical cross-modal association for co-speech gesture generation": {
+            "authors": [
+                "Xian Liu",
+                "Qianyi Wu",
+                "Hang Zhou",
+                "Yinghao Xu",
+                "Rui Qian",
+                "Xinyi Lin",
+                "Xiaowei Zhou",
+                "Wayne Wu",
+                "Bo Dai",
+                "Bolei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Hierarchical_Cross-Modal_Association_for_Co-Speech_Gesture_Generation_CVPR_2022_paper.pdf",
+            "ref_texts": "[44] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. arXiv preprint arXiv:2202.06406 , 2022. 2",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "In recent years, human-centered audio-visual learning has been extensively studied [21\u201323,44,57\u201359,66,71,71,72,75]."
+        },
+        "A closer look at weakly-supervised audio-visual source localization": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/f3f2ff9579ba6deeb89caa2fe1f0b99c-Paper-Conference.pdf",
+            "ref_texts": "[8]Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. In Proceedings of 36th AAAI Conference on Artificial Intelligence , 2022.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "False positive detection is closely related to the silent object detection problem highlighted in recent works [7,8].",
+            "2": "Furthermore, with the exception of [7,8], they focus on localizing sound sources that are visible, and struggle to identify negatives (when there are no visible sources).",
+            "3": "DSOL [7] and IEr [8] proposed a method to suppress localization of silent objects, and 2 Simultaneous Localization and Audio-Visual Correspondence (Ours)\n\ud835\udc53!\ud835\udc38\ud835\udc40\ud835\udc34\ud835\udc53\" Bow wow Pool \ud835\udc38\ud835\udc40\ud835\udc34(\ud835\udc53!)\ud835\udc53\" Bow wow PoolLocalizationPixel-wiseAVC\u2295Max Contrastive LossMax similarities between non-matching pairsSimilarity maps between non-matching pairsDropoutLocalizationPixel-wiseAVC\u2295Max Contrastive LossMax similarities between non-matching pairsSimilarity maps between non-matching pairsDropout Fusion\ud835\udc54!#$%\ud835\udc54\"#$%\u2a00Pixel-wiseAV similarity Spatial SoftmaxLocalization\u2a00Pixel-wiseAV similarity Pixel-wise Instance Softmax\ud835\udc54!&'(\ud835\udc54\"&'(Audio Visual Correspondence (AVC)Similarity maps between non-matching pairsAudioFeatureVisualFeature MapAudioFeatureVisualFeature MapProjectionsProjections Prediction MapPrediction Map \ud835\udc53!\ud835\udc53\" Bow wow\u2a00Pixel-wiseAV similarityPoolMax Contrastive LossMax similarities between non-matching pairsMulti-Instance Contrastive Learning (EZ-VSL)\ud835\udc54\"\ud835\udc54!Global Contrastive Learning\u2a00Contrastive Loss \ud835\udc53!\ud835\udc53\" Bow wow PoolPoolSimilarities from non-matching pairs\ud835\udc54\"\ud835\udc54!Figure 1: Illustration of the proposed SLAVC with synchronized momentum audio-visual matching."
+        },
+        "Learning to answer questions in dynamic audio-visual scenarios": {
+            "authors": [
+                "Guangyao Li",
+                "Yake Wei",
+                "Yapeng Tian",
+                "Chenliang Xu",
+                "Rong Wen",
+                "Di Hu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf",
+            "ref_texts": "[31] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. In AAAI , 2022. ",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Recently, there have been several works utilizing audio and visual modality to facilitate multimodal scene understanding in different perspectives, such as sound source localization [23, 31, 34, 37, 48] and separation [10, 13, 41, 59, 61, 63], audio inpainting [62], event localization [4, 43, 64], action recognition [14], video parsing [42, 47], captioning [24, 40, 50], and dialog [1, 66]."
+        },
+        "Dense-Localizing Audio-Visual Events in Untrimmed Videos: A Large-Scale Benchmark and Baseline": {
+            "authors": [
+                "Tiantian Geng",
+                "Teng Wang",
+                "Jinming Duan",
+                "Runmin Cong",
+                "Feng Zheng"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Geng_Dense-Localizing_Audio-Visual_Events_in_Untrimmed_Videos_A_Large-Scale_Benchmark_and_CVPR_2023_paper.pdf",
+            "ref_texts": "[22] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. arXiv preprint arXiv:2202.06406 , 2, 2022. 1",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "learning joint audio-visual representations [1, 27, 28], spatially localizing visible sound sources [7, 22] and temporally localizing audio-visual events [39, 40, 46], etc."
+        },
+        "Egocentric Auditory Attention Localization in Conversations": {
+            "authors": [
+                "Fiona Ryan",
+                "Hao Jiang",
+                "Abhinav Shukla",
+                "James M. Rehg",
+                "Vamsi Krishna"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ryan_Egocentric_Auditory_Attention_Localization_in_Conversations_CVPR_2023_paper.pdf",
+            "ref_texts": "[63] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. arXiv preprint arXiv:2202.06406 , 2, 2022. 3",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "Audiovisual Representation Learning Our work relates to a larger body of research on learning effective audiovisual feature representations [3,7,12,45,55,69,72,73,75] and localizing sound sources in video [1, 13, 23, 41, 42, 63, 68, 77, 80,81]."
+        },
+        "Audio-Driven Co-Speech Gesture Video Generation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8667f264f88c7938a73a53ab01eb1327-Paper-Conference.pdf",
+            "ref_texts": "[32] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. arXiv preprint arXiv:2202.06406 , 2022.",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Such design could prospectively provide insights for relevant domains like constrained vector quantization problem, cross-modal learning [32] and video generation tasks [46]."
+        },
+        "Complementary Cues from Audio Help Combat Noise in Weakly-Supervised Object Detection": {
+            "authors": [
+                "Cagri Gungor",
+                "Adriana Kovashka"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Gungor_Complementary_Cues_From_Audio_Help_Combat_Noise_in_Weakly-Supervised_Object_WACV_2023_paper.pdf",
+            "ref_texts": "[24] Xian Liu, Rui Qian, Hang Zhou, Di Hu, Weiyao Lin, Ziwei Liu, Bolei Zhou, and Xiaowei Zhou. Visual sound localization in the wild by cross-modal interference erasing. In AAAI Conference on Artificial Intelligence , 2022.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Our method is related to sound localization [2, 21, 4, 44, 28, 22, 24] because we learn corresponding visual regions to audio similar to prior work.",
+            "2": "Sound localization [4, 8, 28, 24] is to find the sounding region in the visualscene."
+        }
+    }
+}

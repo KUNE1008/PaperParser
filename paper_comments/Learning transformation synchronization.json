@@ -1,0 +1,396 @@
+{
+    "title": "Learning transformation synchronization",
+    "id": 29,
+    "valid_pdf_number": "27/42",
+    "matched_pdf_number": "25/27",
+    "matched_rate": 0.9259259259259259,
+    "citations": {
+        "Spectral methods for data science: A statistical perspective": {
+            "authors": [],
+            "url": "https://www.nowpublishers.com/article/DownloadSummary/MAL-079",
+            "ref_texts": ""
+        },
+        "Learning multiview 3d point cloud registration": {
+            "authors": [
+                "Zan Gojcic",
+                "Caifa Zhou",
+                "Jan D. Wegner",
+                "Leonidas J. Guibas",
+                "Tolga Birdal"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gojcic_Learning_Multiview_3D_Point_Cloud_Registration_CVPR_2020_paper.pdf",
+            "ref_texts": "[35] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 8082\u20138091, 2019. 2,3,7",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "This efficient approach is known as synchronization [10,61,2,56,3,5,43,69,7,35].",
+            "2": "Probably the most similar work to ours is [35], where the authors aim to adapt the edge weights for the transformation synchronization layer by learning a data driven weighting function.",
+            "3": "Furthermore, in each iteration [35] has to convert the point clouds to depth images as the weighting function is approximated by a 2D CNN.",
+            "4": "These relative transformation parameters satisfy Rij=RT jiand tij=\u2212RT ijtjias well as the compatibility constraint [4] Rij\u2248RiRT jtij\u2248 \u2212RiRjTtj+ti (2) In current state-of-the-art [69,35,7] edgesEofGare initialized with (noisy) relative transformation parameters {Mij}, obtained by an independent, auxiliary pairwise registration algorithm.",
+            "5": "26/L2Sync (FGR ) [35] 34.",
+            "6": "To ensure a fair comparison, we follow [35] and use the same 32 randomly sampled scenes for evaluation.",
+            "7": "Different to [35], we do not train our network on ScanNet , but rather perform direct generalization of the network trained on the 3DMatch dataset.",
+            "8": "Evaluation protocol We use the standard evaluation protocol [13,35] and report the empirical cumulative distribution function (ECDF) for the angular aeand translation te deviations defined as ae= arccos(Tr(R\u2217T ijRGT ij)\u22121\n2)te=/bardbltGT ij\u2212t\u2217 ij/bardbl2(18) The ground truth rotations RGTand translations tGTare provided by the authors of ScanNet [18].",
+            "9": "\u201dFGR (Good)\u201d and \u201dOurs (Good)\u201d denote the scenarios in which we follow [35] and use the computed pairwise registrations to prune the edges before the transformation synchronizationif the median point distance in the overlapping4region after the transformation is larger than 0.",
+            "10": "[35]\n1765\n\n0."
+        },
+        "3dregnet: A deep neural network for 3d point registration": {
+            "authors": [
+                "Dias Pais",
+                "Srikumar Ramalingam",
+                "Venu Madhav",
+                "Jacinto C. Nascimento",
+                "Rama Chellappa",
+                "Pedro Miraldo"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Pais_3DRegNet_A_Deep_Neural_Network_for_3D_Point_Registration_CVPR_2020_paper.pdf",
+            "ref_texts": "[26] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conf. Computer Vision and Pattern Recognition (CVPR), pages 8082\u20138091, 2019.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Recently, it was shown that it would be possible to utilize deep neural networks to compute the weights for different pairwise relative pose estimates [26]."
+        },
+        "Multibodysync: Multi-body segmentation and motion estimation via 3d scan synchronization": {
+            "authors": [
+                "Jiahui Huang",
+                "He Wang",
+                "Tolga Birdal",
+                "Minhyuk Sung",
+                "Federica Arrigoni",
+                "Min Hu",
+                "Leonidas J. Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MultiBodySync_Multi-Body_Segmentation_and_Motion_Estimation_via_3D_Scan_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[34] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 8082\u20138091, 2019. 2,3",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Various aspects of the problem have been vastly studied: different group structures [25,24,12, 2,1,33,27,1,66,18,59,62,4,6], closed-form solutions [4,2,1], robustness [17], certifiability [55], global optimality [13], learning-to-synchronize [34,50,22] and uncertainty quantification [61,10,9,12].",
+            "2": "To ensure multi-way consistent flows, we employ the weighted variant of permutation synchronization [46] inspired by [22,34] where a closed-form solution is given under spectral relaxation.",
+            "3": "This spectral solution requires only an eigendecomposition lending itself to easy differentiation [34,22]."
+        },
+        "Quantum permutation synchronization": {
+            "authors": [
+                "Tolga Birdal",
+                "Vladislav Golyanik",
+                "Christian Theobalt",
+                "Leonidas J. Guibas"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Birdal_Quantum_Permutation_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[58] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In Computer Vision and Pattern Recognition (CVPR) , pages 8082\u20138091, 2019.",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "Recent algorithms tend to incorporate synchronization into deep learning [58,43]."
+        },
+        "Neaf: Learning neural angle fields for point normal estimation": {
+            "authors": [
+                "Shujuan Li",
+                "Junsheng Zhou",
+                "Baorui Ma",
+                "Shen Liu",
+                "Zhizhong Han"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25224/24996",
+            "ref_texts": "929. Cazals, F.; and Pouget, M. 2005. Estimating differential quantities using polynomial fitting of osculating jets. Computer Aided Geometric Design, 22(2): 121\u2013146. Chen, C.; Liu, Y .-S.; and Han, Z. 2022. Latent partition implicit with surface codes for 3D representation. In European Conference on Computer Vision, 322\u2013343. Springer. Chen, Z.; and Zhang, H. 2019. Learning implicit fields for generative shape modeling. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 5939\u20135948. Grilli, E.; Menna, F.; and Remondino, F. 2017. A review of point clouds segmentation and classification algorithms. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 42: 339. Guerrero, P.; et al. 2018. PCPNet: Learning Local Shape Properties from Raw Point Clouds. Computer Graphics Forum, 37(2): 75\u201385. Hackel, T.; Savinov, N.; Ladicky, L.; Wegner, J. D.; Schindler, K.; and Pollefeys, M. 2017. SEMANTIC3D.NET: A new large-scale point cloud classification benchmark. In ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, volume IV1-W1, 91\u201398. Hoppe, H.; DeRose, T.; Duchamp, T.; McDonald, J.; and Stuetzle, W. 1992. Surface reconstruction from unorganized points. In Proceedings of the 19th annual conference on Computer graphics and interactive techniques, 71\u201378. Hua, B.-S.; Pham, Q.-H.; Nguyen, D. T.; Tran, M.-K.; Yu, L.-F.; and Yeung, S.-K. 2016. Scenenn: A scene meshes dataset with annotations. In 2016 fourth international conference on 3D vision (3DV), 92\u2013101. Ieee.Huang, X.; Liang, Z.; Zhou, X.; Xie, Y .; Guibas, L. J.; and Huang, Q. 2019. Learning transformation synchronization. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 8082\u20138091. Kazhdan, M.; Bolitho, M.; and Hoppe, H. 2006. Poisson surface reconstruction. In Proceedings of the fourth Eurographics symposium on Geometry processing, volume 7, 61\u201370. Lenssen, J. E.; et al. 2020. Deep iterative surface normal estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 11247\u201311256. Levin, D. 1998. The approximation power of moving leastsquares. Mathematics of Computation, 67(224): 1517\u20131531. Li, K.; Zhao, M.; Wu, H.; Yan, D.-M.; Shen, Z.; Wang, F.Y .; and Xiong, G. 2022a. GraphFit: Learning Multi-scale Graph-Convolutional Representation for Point Cloud Normal Estimation. In European Conference on Computer Vision, 651\u2013667. Springer. Li, Q.; Liu, Y .-S.; Cheng, J.-S.; Wang, C.; Fang, Y .; and Han, Z. 2022b. HSurf-Net: Normal Estimation for 3D Point Clouds by Learning Hyper Surfaces. Advances in Neural Information Processing Systems (NeurIPS). Li, T.; Wen, X.; Liu, Y .-S.; Su, H.; and Han, Z. 2022c. Learning deep implicit functions for 3D shapes with dynamic code clouds. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 12840\u201312850. Ma, B.; Liu, Y .-S.; and Han, Z. 2022. Reconstructing surfaces for sparse point clouds with on-surface priors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 6315\u20136325. Ma, B.; Liu, Y .-S.; Zwicker, M.; and Han, Z. 2022. Surface reconstruction from point clouds by learning predictive context priors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 6326\u20136337. M\u00b4erigot; et al. 2010. V oronoi-based curvature and feature estimation from point clouds. IEEE Transactions on Visualization and Computer Graphics, 17(6): 743\u2013756. Mescheder, L.; Oechsle, M.; Niemeyer, M.; Nowozin, S.; and Geiger, A. 2019. Occupancy networks: Learning 3D reconstruction in function space. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 4460\u20134470. Metzer, G.; Hanocka, R.; Zorin, D.; Giryes, R.; Panozzo, D.; and Cohen-Or, D. 2021. Orienting point clouds with dipole propagation. ACM Transactions on Graphics (TOG), 40(4): 1\u201314. Michalkiewicz, M.; Pontes, J. K.; Jack, D.; Baktashmotlagh, M.; and Eriksson, A. 2019. Implicit surface representations as layers in neural networks. In Proceedings of the IEEE/CVF International Conference on Computer Vision , 4743\u20134752. Mildenhall, B.; Srinivasan, P. P.; Tancik, M.; Barron, J. T.; Ramamoorthi, R.; and Ng, R. 2020. NeRF: Representing scenes as neural radiance fields for view synthesis. In European Conference on Computer Vision, 405\u2013421. Springer.",
+            "ref_ids": [
+                "929"
+            ]
+        },
+        "Self-supervised geometric perception": {
+            "authors": [
+                "Heng Yang",
+                "Wei Dong",
+                "Luca Carlone",
+                "Vladlen Koltun"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Self-Supervised_Geometric_Perception_CVPR_2021_paper.pdf",
+            "ref_texts": "[39] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , pages 8082\u20138091, 2019. 8",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Future research includes (i) increasing the training recall towards 100%; (ii) differentiating the robust estimation layer [35]; (iii) designing an optimality-based [79] and learnable verifier based on cycle consistency [39,33,53];\n(iv) speeding up the teacher-student loop; (iv) forming image and point cloud pairs using image retrieval [67,22]."
+        },
+        "Learning to communicate and correct pose errors": {
+            "authors": [
+                "Anonymous Submission"
+            ],
+            "url": "https://proceedings.mlr.press/v155/vadivelu21a/vadivelu21a.pdf",
+            "ref_texts": "[10] X. Huang, Z. Liang, X. Zhou, Y . Xie, L. J. Guibas, and Q. Huang. Learning transformation synchronization. In CVPR , 2019.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Methods include spectral solutions [8,9,10,11], semidefinite relaxations [12,13,8], probabilistic approaches [12,14], sparse matrix decomposition [15], and/or learned approaches [10,11,16].",
+            "2": "Competitive method: We compare our method to a competitive transformation synchronization method Learn2Sync [10], which considers the pairs of depth maps to iteratively reweight pairwise registrations when finding globally consistent poses.",
+            "3": "[10] X.",
+            "4": "The rest of the hyperparameters were kept from [10]."
+        },
+        "Synchronizing probability measures on rotations via optimal transport": {
+            "authors": [
+                "Tolga Birdal",
+                "Michael Arbel",
+                "Umut Simsekli",
+                "Leonidas J. Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Birdal_Synchronizing_Probability_Measures_on_Rotations_via_Optimal_Transport_CVPR_2020_paper.pdf",
+            "ref_texts": "[39] X. Huang, Z. Liang, X. Zhou, Y . Xie, L. J. Guibas, and Q. Huang. Learning transformation synchronization. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 8082\u20138091, 2019. 2",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Various aspects of the problem have been vastly studied: different group structures [33,13,11,8, 38], closed form solutions [12,11,8], robustness [19], certifiability [66], global optimality [15], learning-tosynchronize [39] and uncertainty quantification (UQ) [84, 14].",
+            "2": "2\n[39] X."
+        },
+        "End-to-end rotation averaging with multi-source propagation": {
+            "authors": [
+                "Luwei Yang",
+                "Heng Li",
+                "Jamal Ahmed",
+                "Zhaopeng Cui",
+                "Ping Tan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Yang_End-to-End_Rotation_Averaging_With_Multi-Source_Propagation_CVPR_2021_paper.pdf",
+            "ref_texts": "[23] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. IEEE Conf. Comput. Vis. Pattern Recog. , 2019. 2",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "[23,14] take multiple 3D scans as input and learn to solve the rotation and translation synchronization for point cloud registration task."
+        },
+        "HARA: A hierarchical approach for robust rotation averaging": {
+            "authors": [
+                "Seong Hun",
+                "Javier Civera"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Lee_HARA_A_Hierarchical_Approach_for_Robust_Rotation_Averaging_CVPR_2022_paper.pdf",
+            "ref_texts": "[36] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conf. Comput. Vis. Pattern Recog. , 2019. 1",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "This problem has direct application to structure-from-motion (SfM) [1,13,15,17,18,20,44,47,62,65,67], multiple point cloud registration [3\u20135, 28, 32, 36, 46, 56] and simultaneous localization and mapping (SLAM) [7, 8, 10, 66]."
+        },
+        "Self-supervised correspondence estimation via multiview registration": {
+            "authors": [
+                "Mohamed El",
+                "Ignacio Rocco",
+                "David Novotny",
+                "Andrea Vedaldi",
+                "Natalia Neverova",
+                "Justin Johnson",
+                "Ben Graham"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Banani_Self-Supervised_Correspondence_Estimation_via_Multiview_Registration_WACV_2023_paper.pdf",
+            "ref_texts": "[29] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In CVPR , 2019. 2, 4",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "More robust approaches have been proposed that can leverage the information from multiple (or all) edges in the graph [7, 28, 29, 31, 36, 55].",
+            "2": "Furthermore, unlike prior work [23, 29, 55], we use transformation synchronization for learning without supervision.",
+            "3": "This approach was latter extended to end-to-end learning pipelines [23, 29].",
+            "4": "While prior approaches train separate networks to estimate pairwise confidence [24, 29], we instead opted for a simpler approach."
+        },
+        "Deep iterative surface normal estimation": {
+            "authors": [
+                "Jan Eric",
+                "Christian Osendorfer",
+                "Jonathan Masci"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lenssen_Deep_Iterative_Surface_Normal_Estimation_CVPR_2020_paper.pdf",
+            "ref_texts": "[25] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. CoRR , abs/1901.09458, 2019.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "A way to utilize this problem-specific knowledge with deep learning is to take an iteratively reweighting least squares (IRLS) scheme [22] for robust model fitting and modify it using deep data-dependent weighting, as it has been done recently (with or without iterations) for other tasks [25, 43, 44, 46].",
+            "2": "Estimating the correct sign can be done in a post-processing step, depending on the task at hand, and is explicitly tackled by several works [37, 25, 47]."
+        },
+        "Pose Synchronization Under Multiple Pair-Wise Relative Poses": {
+            "authors": [
+                "Yifan Sun",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Pose_Synchronization_Under_Multiple_Pair-Wise_Relative_Poses_CVPR_2023_paper.pdf",
+            "ref_texts": "[20] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 8082\u20138091, 2019.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "This problem has received great process during the past two decades, starting early greedy approaches [14, 21] to recent optimization-based approaches [2, 4, 11, 15, 17, 19, 20, 26\u201331, 34, 37].",
+            "2": "State-of-the-art techniques include semidefinite programming relaxation [11,15,16,28, 30, 34, 37], spectral techniques [1\u20133, 17, 20, 23, 26, 27, 29, 31, 32], and non-convex optimization [4, 6, 19, 24, 25, 39].",
+            "3": "We compare against TransSync [20], a state-of-the-art approach in this category.",
+            "4": "Baselines: IRLSL0 [5]; RobustR [6]; SDP [34]; SESync [28]; SFMMRF [9]; TransSync [20];K-Best [33]."
+        },
+        "RAGO: Recurrent graph optimizer for multiple rotation averaging": {
+            "authors": [
+                "Heng Li",
+                "Zhaopeng Cui",
+                "Shuaicheng Liu",
+                "Ping Tan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_RAGO_Recurrent_Graph_Optimizer_for_Multiple_Rotation_Averaging_CVPR_2022_paper.pdf",
+            "ref_texts": "[23] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. IEEE Conf. Comput. Vis. Pattern Recog. , 2019. 2",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Learning-based MRA : Recently, several neural network based methods [17,23,30,42,43] have been proposed."
+        },
+        "Sparse quadratic optimisation over the Stiefel manifold with application to permutation synchronisation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/d4bad256c73a6b25b86cc9c1a77255b1-Paper.pdf",
+            "ref_texts": "[25] X. Huang, Z. Liang, X. Zhou, Y . Xie, L. J. Guibas, and Q. Huang. Learning transformation synchronization. InCVPR , 2019.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "[25] X."
+        },
+        "Strumononet: Structure-aware monocular 3d prediction": {
+            "authors": [
+                "Zhenpei Yang",
+                "Li Erran",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_StruMonoNet_Structure-Aware_Monocular_3D_Prediction_CVPR_2021_paper.pdf",
+            "ref_texts": "[17] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019 , pages 8082\u20138091. Computer Vision Foundation / IEEE, 2019.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "[2,17])."
+        },
+        "Synchronization of Group-labelled Multi-graphs": {
+            "authors": [
+                "Andrea Porfiri",
+                "Dal Cin",
+                "Luca Magri",
+                "Federica Arrigoni",
+                "Andrea Fusiello",
+                "Giacomo Boracchi"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Dal_Cin_Synchronization_of_Group-Labelled_Multi-Graphs_ICCV_2021_paper.pdf",
+            "ref_texts": "[33] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , June 2019. 2",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "Existing techniques include spectral decomposition [9, 7], Lie-group optimization [29], diffusion over dual quaternions [54], Riemannian optimization [55], semidefinite programming [44, 43], distributed optimization [53], group contraction [39], Bayesian optimization [14] and deep learning [33, 27]."
+        },
+        "Robust Multiview Point Cloud Registration with Reliable Pose Graph Initialization and History Reweighting": {
+            "authors": [
+                "Haiping Wang",
+                "Yuan Liu",
+                "Zhen Dong",
+                "Yulan Guo",
+                "Shen Liu",
+                "Wenping Wang",
+                "Bisheng Yang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Robust_Multiview_Point_Cloud_Registration_With_Reliable_Pose_Graph_Initialization_CVPR_2023_paper.pdf",
+            "ref_texts": "[30] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In CVPR , 2019. 1, 2, 3, 4, 5, 6, 8",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Due to its complexity, multiview point cloud registration receives less attention recently and only few recent studies propose multiview registration methods [18, 21, 30, 53, 54].",
+            "2": "Since the dense pose graph may include inaccurate or even incorrect relative poses (outliers) between two irrelevant scans, in the second phase, these pairwise poses are jointly optimized by enforcing the cycle consistency [30] to reject outlier edges and improve accuracy.",
+            "3": "For the second phase, most recent methods, including handcrafted methods [5, 13, 29] or learning-based [21, 30, 54] methods, follow a scheme of Iterative Reweighting Least Square (IRLS).",
+            "4": "To improve the robustness to outliers, many researches focus on applying advanced handcrafted reweighting functions [11, 29] or designing graph network to learn reweighting functions [30, 54].",
+            "5": "Multiview registration Most multiview point cloud registration methods [5, 10, 13,19,21,23,29,30,54] aim at recovering the absolute scan poses from exhaustive pairwise registrations.",
+            "6": "Other works [5, 9, 13, 21, 30, 33, 46, 47, 54, 59] focus on pruning outliers on the constructed graph.",
+            "7": "IRLS-based scheme is one of the most prevalent technique [5, 8, 21, 26, 29, 30, 54].",
+            "8": "The reweighting function is proved to be the most important design in areliable IRLS [5, 26, 30].",
+            "9": "Thus, recent learning-based advances [21, 30, 54] adopt data-driven strategy to learn robust reweighting functions, which achieve impressive performances but cannot generalize well to unfamiliar graphs.",
+            "10": "Recent multiview registration methods [21, 30, 54, 59] usually exhaustively estimate all\u0000N\n2\u0001 relative poses and many of these scan pairs have no overlap at all.",
+            "11": "We adopt the closed-form synchronization algorithm proposed in [4,30].",
+            "12": "We first compute the rotations by rotation synchronization [4, 21], and then compute the translations by translation synchronization [30].",
+            "13": ",tN\u2208R3X\n(i,j)\u2208Ewij\u2225Ritij+ti\u2212tj\u22252(9) We solve it by the standard least square method [30].",
+            "14": "For the evaluation on ScanNet, we follow [21, 30, 54] to report Empirical Cumulative Distribution Functions (ECDF) of the rotation error reand translation error te: re=arccos tr(RT preRgt)\u22121\n2! te=\u2225tpre\u2212tgt\u22252.",
+            "15": "Can our sparse graphs improve other multiview registration methods ? We compare the performance of EIGSE3 [5], RotAvg [11], and LITS [54] using the fullyconnected pose graph (\u201cFull\u201d), outliers pruned by pairwise registration results [21,30,54] (\u201cPruned\u201d) and the proposed sparse graph (\u201cOurs\u201d) in Table 4."
+        },
+        "A condition number for joint optimization of cycle-consistent networks": {
+            "authors": [
+                "Leonidas J. Guibas",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/9ad6aaed513b73148b7d49f70afcfb32-Paper.pdf",
+            "ref_texts": "[19] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. CoRR , abs/1901.09458, 2019.",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "A recent trend in map computation seeks to address this issue by performing map synchronization, which jointly optimizes maps among a collection of related objects/domains to improve the maps between pairs of objects/domains in isolation [29,24,15,14,39,9,17,11,19,45,34]."
+        },
+        "Dense correspondences between human bodies via learning transformation synchronization on graphs": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/ca7be8306ecc3f5fa30ff2c41e64fa7b-Paper.pdf",
+            "ref_texts": "[22] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019 , pages 8082\u20138091, 2019.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Motivated by recent trends in formulating iterative optimization procedures as recurrent neural networks [58,40,24,22,50], and recent advances in graph convolution [57,52], we formulate transformation synchronization as a recurrent neural network.",
+            "2": "[22] introduced a recurrent network for synchronizing transformations among multiple point clouds."
+        },
+        "Mapping of sparse 3d data using alternating projection": {
+            "authors": [
+                "Siddhant Ranade",
+                "Xin Yu",
+                "Shantnu Kakkar",
+                "Pedro Miraldo",
+                "Srikumar Ramalingam"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ACCV2020/papers/Ranade_Mapping_of_Sparse_3D_Data_using_Alternating_Projection_ACCV_2020_paper.pdf",
+            "ref_texts": "75. Huang, X., Liang, Z., Zhou, X., Xie, Y., Guibas, L., Huang , Q.: Learning transformation synchronization. In: IEEE Conf. Computer Vision and Pat tern Recognition (CVPR). (2019)",
+            "ref_ids": [
+                "75"
+            ],
+            "1": "[75] utilizes deep neural networks to compute the weights for different pairwise relati ve pose estimates and [69] use two networks, for pose and scene estimation."
+        },
+        "Scene synthesis via uncertainty-driven attribute synchronization": {
+            "authors": [
+                "Haitao Yang",
+                "Zaiwei Zhang",
+                "Siming Yan",
+                "Haibin Huang",
+                "Chongyang Ma",
+                "Yi Zheng",
+                "Chandrajit Bajaj",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Scene_Synthesis_via_Uncertainty-Driven_Attribute_Synchronization_ICCV_2021_paper.pdf",
+            "ref_texts": "[21] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 8082\u20138091, 2019. 2",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[17,10,19,2,21,54,15,48,39, 55,51]).",
+            "2": "Our approach is also relevant to recent works on transformation synchronization [1,17,47,4,10, 19,2,21,54,15,20], which takes relative transformations among a collection of geometric objects as input and outputs absolute transformations across the entire object collection."
+        },
+        "Learning scene representation for visual localization": {
+            "authors": [],
+            "url": "https://summit.sfu.ca/_flysystem/fedora/2023-03/etd22326.pdf",
+            "ref_texts": "[57] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. IEEE Conf. Comput. Vis. Pattern Recog. , 2019.",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "Recently, [57, 43] took multiple 3D scans as input and learned to solve the rotation andtranslationsynchronizationforthepointcloudregistrationtask."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[55] XiangruHuang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas Guibas, and Qixing Huang. Learning transformation synchronization. arXiv preprint arXiv:1901.09458 , 2019.",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "A potential future direction consists of enforcing cycle consistency in neural networks, a direction which has recently gained attention [154, 55, 105]."
+        },
+        "Synchronization on group-labelled multigraphs": {
+            "authors": [],
+            "url": "https://www.politesi.polimi.it/bitstream/10589/174921/1/thesis.pdf",
+            "ref_texts": "[24] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J. Guibas, and Qixing Huang. Learning transformation synchronization. June 2019.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Existing techniques include spectral decomposition [1], Lie-group optimization [19], diffusion over dual quaternions [37], Riemannian optimization [38], semidefinite programming [29], distributed optimization [36], Bayesian optimization [11] and deep learning [24]."
+        },
+        "Learning multiview 3D point cloud registration\u2013Supplementary material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/supplemental/Gojcic_Learning_Multiview_3D_CVPR_2020_supplemental.pdf",
+            "ref_texts": "[8] Xiangru Huang, Zhenxiao Liang, Xiaowei Zhou, Yao Xie, Leonidas J Guibas, and Qixing Huang. Learning transformation synchronization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 8082\u20138091, 2019. 2",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "Similarly, the closed-form solution to the least squares formulation of the translation synchronization t\u0003 i= arg min tiX\n(i;j)2Ecijjj^Rijti+^tij\u0000tjjj2(11) can be written as [8] t\u0003=L+b (12) where t\u0003= [t\u0003T\n1;:::;t\u0003T NS]T2R3NSandb=\n[b\u0003T\n1;:::;b\u0003T NS]T2R3NSwith bi:=\u0000X j2N(i)cij^RT ij^tij: (13) whereN(i)denotes all the neighboring vertices of Siin graphG."
+        }
+    }
+}

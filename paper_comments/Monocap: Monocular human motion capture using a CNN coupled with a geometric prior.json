@@ -1,0 +1,1333 @@
+{
+    "title": "Monocap: Monocular human motion capture using a CNN coupled with a geometric prior",
+    "id": 10,
+    "valid_pdf_number": "119/157",
+    "matched_pdf_number": "96/119",
+    "matched_rate": 0.8067226890756303,
+    "citations": {
+        "End-to-end human pose and mesh reconstruction with transformers": {
+            "authors": [
+                "Kevin Lin",
+                "Lijuan Wang",
+                "Zicheng Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Lin_End-to-End_Human_Pose_and_Mesh_Reconstruction_with_Transformers_CVPR_2021_paper.pdf",
+            "ref_texts": "[52] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "PA-MPJPE: PA-MPJPE, or Reconstruction Error [52], is another metric for this task.",
+            "2": "PA-MPJPE is commonly used for evaluating 3D reconstruction [52] as it measures the errors of the reconstructed structure without regard to the scale and rigid pose (i."
+        },
+        "Mesh graphormer": {
+            "authors": [
+                "Kevin Lin",
+                "Lijuan Wang",
+                "Zicheng Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Mesh_Graphormer_ICCV_2021_paper.pdf",
+            "ref_texts": "[43] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 6",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "We evaluate our model using the 3D pose accuracy, and report the accuracy using PA-MPJPE metric [43, 14, 19, 20]."
+        },
+        "Integral human pose regression": {
+            "authors": [
+                "Xiao Sun",
+                "Bin Xiao",
+                "Fangyin Wei",
+                "Shuang Liang",
+                "Yichen Wei"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiao_Sun_Integral_Human_Pose_ECCV_2018_paper.pdf",
+            "ref_texts": "54. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K. G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled w ith a geometric prior. arXiv preprint arXiv:1701.02354 (2017)",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "For evaluation, many previous works [8,46,32,54,25,31,37,51,41,4,53, 44,56] use the mean per joint position error (MPJPE).",
+            "2": "Some works [51,41,8,4, 32,54] firstly align the predicted 3D pose and ground truth 3D pose with a rigid transformation using Procrustes Analysis [18] and then compute MPJPE.",
+            "3": "1) [21]\u2217[14]\u2217[51][41][8][32][54][30] [26][42][17] PA MPJPE 42.",
+            "4": "2) [21]\u2217[14]\u2217[8][46][32][54][25][31][30] [26][17][42] MPJPE 51."
+        },
+        "Convolutional mesh regression for single-image human shape reconstruction": {
+            "authors": [
+                "Nikos Kolotouros",
+                "Georgios Pavlakos",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kolotouros_Convolutional_Mesh_Regression_for_Single-Image_Human_Shape_Reconstruction_CVPR_2019_paper.pdf",
+            "ref_texts": "[51] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. PAMI , 41(4):901\u2013914, 2019.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": ", [3,19,22,24, 25,29,30,34,35,38,40,41,42,50,51].",
+            "2": "We present results for two popular protocols (P1 and P2, as defined in [15]) and two error metrics (MPJPE and Reconstruction error, as defined in [51])."
+        },
+        "Semantic graph convolutional networks for 3d human pose regression": {
+            "authors": [
+                "Long Zhao",
+                "Xi Peng",
+                "Yu Tian",
+                "Mubbasir Kapadia",
+                "Dimitris N. Metaxas"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_Semantic_Graph_Convolutional_Networks_for_3D_Human_Pose_Regression_CVPR_2019_paper.pdf",
+            "ref_texts": "[78] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) , 2018.",
+            "ref_ids": [
+                "78"
+            ],
+            "1": "we require that the sum of length of all 3D bones is equal to that of a canonical skeleton as shown in [41, 75, 78]."
+        },
+        "Camera distance-aware top-down approach for 3d multi-person pose estimation from a single rgb image": {
+            "authors": [
+                "Gyeongsik Moon",
+                "Ju Yong",
+                "Kyoung Mu"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Moon_Camera_Distance-Aware_Top-Down_Approach_for_3D_Multi-Person_Pose_Estimation_From_ICCV_2019_paper.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. TPAMI , 2019.",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "5 Zhou [47] 47.",
+            "2": "3 Zhou [47] 68."
+        },
+        "Neural body fitting: Unifying deep learning and model based human pose and shape estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1808.05942",
+            "ref_texts": "[70] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 3",
+            "ref_ids": [
+                "70"
+            ],
+            "1": "Similar to model-based methods, learning approaches have benefited from the advent of robust 2D pose methods \u2013 by matching 2D detections to a 3D pose database [8, 66], by regressing pose from 2D joint distance matrices [35], by exploiting pose and geometric priors for lifting [69, 1, 51, 19, 32, 70, 47]; or simply by training a feed forward network to directly predict 3D pose from 2D joints [30].",
+            "2": "3\n[70] X."
+        },
+        "2d/3d pose estimation and action recognition using multitask deep learning": {
+            "authors": [
+                "Diogo C. Luvizon",
+                "David Picard",
+                "Hedi Tabia"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Luvizon_2D3D_Pose_Estimation_CVPR_2018_paper.pdf",
+            "ref_texts": "[60] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "Recently, deep architectures have been used to learn precise 3D representations from RGB images [60, 50, 30, 49, 31, 39], thanks to the availability of high quality data [21], and are now able to surpass depthsensors [32].",
+            "2": "[60] X."
+        },
+        "Towards 3d human pose estimation in the wild: a weakly-supervised approach": {
+            "authors": [
+                "Xingyi Zhou",
+                "Qixing Huang",
+                "Xiao Sun",
+                "Xiangyang Xue",
+                "Yichen Wei"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhou_Towards_3D_Human_ICCV_2017_paper.pdf",
+            "ref_texts": "[35] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017. 5,6,7",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "During testing, such calibration is not needed, by requiring that the sum of all 3D bones lengths is equal to that of a pre-defined canonical skeleton, as is done in [19,35].",
+            "2": "[35] 87.",
+            "3": "[35] 124.",
+            "4": "This is already comparable to most state-of-the-art methods [33,26,35].",
+            "5": "[35] is79.",
+            "6": "2,4,5\n[35] X."
+        },
+        "Ordinal depth supervision for 3d human pose estimation": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Ordinal_Depth_Supervision_CVPR_2018_paper.pdf",
+            "ref_texts": "[69] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. MonoCap: Monocular human motion capture using a CNN coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017. 2",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "[68,69] use 2D heatmaps from a 2D pose ConvNet to reconstruct 3D pose in a video sequence.",
+            "2": "2,5,7\n[69] X."
+        },
+        "Unipose: Unified human pose estimation in single images and videos": {
+            "authors": [
+                "Bruno Artacho",
+                "Andreas Savakis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Artacho_UniPose_Unified_Human_Pose_Estimation_in_Single_Images_and_Videos_CVPR_2020_paper.pdf",
+            "ref_texts": "[59] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017. 1,2",
+            "ref_ids": [
+                "59"
+            ],
+            "1": "The importance of pose estimation has motivated the development of several approaches, in 2D [50], [49], [31], [46] and 3D [41], [59], [1]; on a single frame [5] or a video sequence [15]; for a single [52] or multiple subjects [8].",
+            "2": "In a different approach for 3D pose estimation, the MonoCap method for human capture [59] couples a CNN with a geometric prior in order to statistically determine the third dimension for the pose using the ExpectationMaximization algorithm."
+        },
+        "Cross-attention of disentangled modalities for 3d human mesh recovery with transformers": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.13820",
+            "ref_texts": "49.Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2018) 10",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "2 Evaluation Metrics We evaluate our FastMETRO using three evaluation metrics: MPJPE [15], PA-MPJPE [49], MPVPE [39]."
+        },
+        "Self-supervised learning of motion capture": {
+            "authors": [
+                "Yu Tung",
+                "Wei Tung",
+                "Ersin Yumer",
+                "Katerina Fragkiadaki"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/ab452534c5ce28c4fbb0e102d4a4fb2e-Paper.pdf",
+            "ref_texts": "[41] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017.",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Evaluation metrics Given predicted 3D body joint locations of K= 32 keypoints Xk kpt;k=\n1\u0001\u0001\u0001Kand corresponding ground-truth 3D joint locations ~Xk kpt;k= 1\u0001\u0001\u0001K, we define the per-joint error of each example as1 KPK k=1kXk kpt\u0000~Xk kptk2similar to previous works [41].",
+            "2": "[41] X."
+        },
+        "The devil is in the details: Delving into unbiased data processing for human pose estimation": {
+            "authors": [
+                "Junjie Huang",
+                "Zheng Zhu",
+                "Feng Guo",
+                "Guan Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_The_Devil_Is_in_the_Details_Delving_Into_Unbiased_Data_CVPR_2020_paper.pdf"
+        },
+        "Holopose: Holistic 3d human reconstruction in-the-wild": {
+            "authors": [
+                "Riza Alp",
+                "Iasonas Kokkinos"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Guler_HoloPose_Holistic_3D_Human_Reconstruction_In-The-Wild_CVPR_2019_paper.pdf",
+            "ref_texts": "[63] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 2",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "In parallel with these works, 3D human joint estimation has seen a steady rise in accuracy [47,63,33,35], most recently based on directly localizing 3D joints in a volumetric output space through hybrids of classification and regression [46,27,22]."
+        },
+        "Human mesh recovery from monocular images via a skeleton-disentangled representation": {
+            "authors": [
+                "Yu Sun",
+                "Yun Ye",
+                "Wu Liu",
+                "Wenpeng Gao",
+                "Yili Fu",
+                "Tao Mei"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Sun_Human_Mesh_Recovery_From_Monocular_Images_via_a_Skeleton-Disentangled_Representation_ICCV_2019_paper.pdf",
+            "ref_texts": "[39] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Recently proposed ConvNet-based methods [15, 26, 32, 27, 37, 17, 39, 36] have shown impressive 5350\n Figure 2."
+        },
+        "Unsupervised 3d pose estimation with geometric self-supervision": {
+            "authors": [
+                "Hang Chen",
+                "Ambrish Tyagi",
+                "Amit Agrawal",
+                "Dylan Drover",
+                "Rohith M",
+                "Stefan Stojanov",
+                "James M. Rehg"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Unsupervised_3D_Pose_Estimation_With_Geometric_Self-Supervision_CVPR_2019_paper.pdf",
+            "ref_texts": "[55] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Kostantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 3",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "Weakly Supervised: Approaches such as [3,10,44,53, 54,55] do not explicitly use paired 2D-3D correspondences, but use unpaired 3D data to learn priors on shape (3D basis) or pose (articulation priors)."
+        },
+        "Multi-task deep learning for real-time 3D human pose estimation and action recognition": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1912.08077",
+            "ref_texts": "[69] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017. 3",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "2 3D Pose Estimation Recently, deep architectures have been used to learn 3D representations from RGB images [69, 57, 37, 56, 38, 46] thanks to the availability of high precise 3D data [24], and are now able to surpass depth-sensors [39].",
+            "2": "8\n[69] X."
+        },
+        "The one where they reconstructed 3d humans and environments in tv shows": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.14279",
+            "ref_texts": ""
+        },
+        "Weakly-supervised discovery of geometry-aware representation for 3d human pose estimation": {
+            "authors": [
+                "Xipeng Chen",
+                "Yee Lin",
+                "Wentao Liu",
+                "Chen Qian",
+                "Liang Lin"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Weakly-Supervised_Discovery_of_Geometry-Aware_Representation_for_3D_Human_Pose_Estimation_CVPR_2019_paper.pdf",
+            "ref_texts": "[44] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , 2017.",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "(Arxiv\u201917) [44] 47."
+        },
+        "Motionet: 3d human motion reconstruction from monocular video with skeleton consistency": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2006.12075",
+            "ref_texts": "(Nov. 2012), 188:1\u2013188:12 pages. https://doi.org/10.1145/2366145.2366207 Weipeng Xu, Avishek Chatterjee, Michael Zollh\u00f6fer, Helge Rhodin, Dushyant Mehta, Hans-Peter Seidel, and Christian Theobalt. 2018. MonoPerfCap: Human Performance Capture From Monocular Video. ACM Trans. Graph. 37, 2, Article 27 (May 2018), 27:1\u201327:15 pages. https://doi.org/10.1145/3181973 Yuanlu Xu, Song-Chun Zhu, and Tony Tung. 2019. DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare. arXiv:cs.CV/1910.00116 Wei Yang, Wanli Ouyang, Xiaolong Wang, Jimmy Ren, Hongsheng Li, and Xiaogang Wang. 2018. 3D Human Pose Estimation in the Wild by Adversarial Learning. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR \u201918) . IEEE Computer Society, Washington, DC, USA, 5255\u20135264. https: //doi.org/10.1109/CVPR.2018.00551 Mao Ye and Ruigang Yang. 2014. Real-Time Simultaneous Pose and Shape Estimation for Articulated Objects Using a Single Depth Camera. In Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR \u201914) . IEEE Computer Society, Washington, DC, USA, 2353\u20132360. https://doi.org/10.1109/CVPR.2014.301 Anastasios Yiannakides, Andreas Aristidou, and Yiorgos Chrysanthou. 2019. Real-time 3D Human Pose and Motion Reconstruction from Monocular RGB Videos. Comput. Animat. Virtual Worlds 30, 3-4 (May 2019). ACM Trans. Graph., Vol. 1, No. 1, Article . Publication date: June 2020. MotioNet: 3D Human Motion Reconstruction from Monocular Video with Skeleton Consistency \u202215 Yusuke Yoshiyasu, Ryusuke Sagawa, Ko Ayusawa, and Akihiko Murai. 2018. Skeleton Transformer Networks: 3D Human Pose and Skinned Mesh from Single RGB Image. arXiv:cs.CV/1812.11328 Jason Y. Zhang, Panna Felsen, Angjoo Kanazawa, and Jitendra Malik. 2019. Predicting 3D Human Dynamics from Video. In Proceedings of the IEEE International Conference on Computer Vision (ICCV\u201919) . Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, and Yebin Liu. 2019. DeepHuman: 3D Human Reconstruction from a Single Image. In arXiv . Xingyi Zhou, Qi-Xing Huang, Xiao Sun, Xiangyang Xue, and Yichen Wei. 2017. Towards 3d human pose estimation in the wild: a weakly-supervised approach. In Proceedings of the IEEE International Conference on Computer Vision (ICCV \u201917) . IEEE Computer Society, Washington, DC, USA, 398\u2013407. Xingyi Zhou, Xiao Sun, Wei Zhang, Shuang Liang, and Yichen Wei. 2016. Deep kinematic pose regression. In Proceedings of the European Conference on Computer Vision (ECCV \u201916) . Springer International Publishing, 186\u2013201. Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. 2018. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        "Feature boosting network for 3D pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1901.04877",
+            "ref_texts": "[43] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell., pages 1\u201314, 2018.",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "In testing, the estimated 3D pose is re-scaled to the size of a pre-defined canonical skeleton, as done in [42, 43].",
+            "2": "[43] 71.",
+            "3": "[43] X."
+        },
+        "Holistically-attracted wireframe parsing": {
+            "authors": [
+                "Nan Xue",
+                "Tianfu Wu",
+                "Song Bai",
+                "Fudong Wang",
+                "Song Xia",
+                "Liangpei Zhang",
+                "Philip H"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Xue_Holistically-Attracted_Wireframe_Parsing_CVPR_2020_paper.pdf",
+            "ref_texts": "[40] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , 41(4):901\u2013914, 2019. 2",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "In wireframe parsing, it can be addressed relatively better to learn a junction detector with state-of-the-art deep learning approaches and the heatmap representation (inspired by its widespread use in human pose estimation [23,29,40])."
+        },
+        "Can 3d pose be learned from 2d projections alone?": {
+            "authors": [
+                "Dylan Drover",
+                "Rohith M",
+                "Hang Chen",
+                "Amit Agrawal",
+                "Ambrish Tyagi",
+                "Cong Phuoc"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCVW_2018/papers/11132/Drover_Can_3D_Pose_be_Learned_from_2D_Projections_Alone_ECCVW_2018_paper.pdf",
+            "ref_texts": "48. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K. G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled w ith a geometric prior. In: TBD (2017)",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "3 Quantitative Results: Protocol 2 Next, we compare against weakly supervised approaches such as [10,48] that exploit 3D cues indirectly, without requiring direct 2D-3D corres pondences.",
+            "2": "2 Monocap [48]\u221778.",
+            "3": "6 Monocap [48]\u2217121."
+        },
+        "Adversarial inverse graphics networks: Learning 2d-to-3d lifting and image-to-image translation from unpaired supervision": {
+            "authors": [
+                "Yu Fish",
+                "Adam W. Harley",
+                "William Seto",
+                "Katerina Fragkiadaki"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tung_Adversarial_Inverse_Graphics_ICCV_2017_paper.pdf",
+            "ref_texts": "[34] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "6 Monocap [34] 78.",
+            "2": "We split the videos by the human subjects, with five subjects (S1, S5, S6, S7, S8) for training and two subjects (S9, S11) for testing, following the split of previous works [34].",
+            "3": "When using groundtruth 2D body joints as input we also compare against the publicly available 3D pose code for MonoCap [34], an optimization method that uses a sparsity prior across an overcomplete dictionary of 3D poses, and minimizes the reprojection error via Expectation-Maximization.",
+            "4": "[34], though only one model was used across all activities for our method and baselines (for MonoCap this means using the same dictionary for optimization in all images).",
+            "5": "[34] X."
+        },
+        "xr-egopose: Egocentric 3d human pose from an hmd camera": {
+            "authors": [
+                "Denis Tome",
+                "Patrick Peluse",
+                "Lourdes Agapito",
+                "Hernan Badino"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Tome_xR-EgoPose_Egocentric_3D_Human_Pose_From_an_HMD_Camera_ICCV_2019_paper.pdf",
+            "ref_texts": "[61] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 2018. 7",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "Note that the dataset provided by the stereo egocentric system EgoCap [37] cannot be directly used for comparison, 7733\n Protocol #1 Chen Hossain Dabral Tome Moreno Kanazawa Zhou Jahangiri Mehta Martinez Fang Sun Sun Ours [7] [15]* [8]* [48] [29] [21] [61] [19] [27] [26] [10] [45] [46] Errors (mm) 114.",
+            "2": "4 Protocol #2 Yasin Hossain Dabral Rogez Chen Moreno Tome Zhou Martinez Kanazawa Sun Fang Sun Ours [56] [15]* [8]* [39] [7] [29] [48] [61] [26] [21] [45] [10] [46] Errors (mm) 108."
+        },
+        "Danbo: Disentangled articulated neural body representations via graph neural networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2205.01666",
+            "ref_texts": "61. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. PAMI (2018)",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "The resulting template mesh can then be textured and deformed for capturing high-quality human performances, even from a single video [61]."
+        },
+        "Hmor: Hierarchical multi-person ordinal relations for monocular multi-person 3d pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2008.00206",
+            "ref_texts": "70. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. TPAMI (2018)",
+            "ref_ids": [
+                "70"
+            ],
+            "1": "6M dataset Single-Person Multi-Person MethodMoreno [40]Zhou [70]Martinez [35]Sun [59]Fang [17]Sun [60]Zhou [68]Rogez [53]Moon [39]Ours PA MPJPE # 76."
+        },
+        "Orinet: A fully convolutional network for 3d human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1811.04989",
+            "ref_texts": "[36] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Kostantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017.",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "The progress also benefits such two-stage methods [36]."
+        },
+        "Outlier-robust estimation: Hardness, minimally tuned algorithms, and applications": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.15109.pdf,",
+            "ref_texts": "[79] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE Trans. Pattern Anal. Machine Intell. , vol. 41, no. 4, pp. 901\u2013914, 2018.",
+            "ref_ids": [
+                "79"
+            ],
+            "1": "Shape alignment consists in estimating the absolute camera pose given putative correspondences between 2D image landmarks and 3D model keypoints (the problem is called 3D shape reconstruction when the 3D model is unknown [5], [43], [79]).",
+            "2": "[79] X."
+        },
+        "Omnipose: A multi-scale framework for multi-person pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2103.10180",
+            "ref_texts": "[41] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. MonoCap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions onPattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018. 1",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Introduction Human pose estimation is an important task in computer vision that has generated high interest for methods on 2D pose estimation [33], [23], [34], [4], [31] and 3D [29], [41], [1]; on a single frame [5] or a video sequence [13]; for a single [34] or multiple subjects [6]."
+        },
+        "Towards alleviating the modeling ambiguity of unsupervised monocular 3d human pose estimation": {
+            "authors": [
+                "Zhenbo Yu",
+                "Bingbing Ni",
+                "Jingwei Xu",
+                "Junjie Wang",
+                "Chenglong Zhao",
+                "Wenjun Zhang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Towards_Alleviating_the_Modeling_Ambiguity_of_Unsupervised_Monocular_3D_Human_ICCV_2021_paper.pdf",
+            "ref_texts": "[40] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , pages 901\u2013914, 2019. 1,3",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Due to the high-cost and time-consuming annota*corresponding authortion procedure of 3D skeleton, unsupervised / weakly supervised 3D pose estimation [40,3] has turned into an emerging trend in this field.",
+            "2": "[40] to combine spatial-temporal information to model the 3D geometry and account for the ambiguities resulting from the pose estimation model."
+        },
+        "DropKey for Vision Transformer": {
+            "authors": [
+                "Bonan Li",
+                "Yinhan Hu",
+                "Xuecheng Nie",
+                "Congying Han",
+                "Xiangjian Jiang",
+                "Tiande Guo",
+                "Luoqi Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Li_DropKey_for_Vision_Transformer_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914. 8",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "We use Mean Per Vetex Error (MPVE) [22], Mean Per Joint Position Error (MPJPE) [14] and Procrustes Analysis MPJPE\n(PA-MPJPE) [38] as metrics."
+        },
+        "Not all parts are created equal: 3d pose estimation by modeling bi-directional dependencies of body parts": {
+            "authors": [
+                "Jue Wang",
+                "Shaoli Huang",
+                "Xinchao Wang",
+                "Dacheng Tao"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Not_All_Parts_Are_Created_Equal_3D_Pose_Estimation_by_ICCV_2019_paper.pdf",
+            "ref_texts": "[49] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "These methods comprise a 2D pose detector and a subsequent optimization [48, 47, 49] or regression [4, 3, 17, 30, 36, 14, 19, 7, 12] step to estimate 3D pose .",
+            "2": "The most straightforward approach is to represent 3D poses as linear combinations of models learned from training data [48, 47, 49]."
+        },
+        "Learning visibility for robust dense human body estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2208.10652",
+            "ref_texts": "46. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. PAMI 41(4), 901\u2013914 (2018) 11",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "For quantitative evaluation, we calculate the common joint and vertex error metrics in the camera space and report them in millimeters (mm), including MPJPE (mean per-joint position error) [12], PA-MPJPE (Procrustes-aligned mean per-joint position error) [46], and MPVE (mean per-vertex error) [35]."
+        },
+        "Dynamic multi-person mesh recovery from uncalibrated multi-view cameras": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.10355",
+            "ref_texts": "[67] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914, 2018. 3",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "To reconstruct from sparse cameras, [67, 35] employ the euclidean distance of poses in adjacent frames as the regularization term, which may limit the dynamics of the reconstructed motions.",
+            "2": "2, 4\n[67] X."
+        },
+        "3D human shape reconstruction from a polarization image": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.09268",
+            "ref_texts": "55. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41(4) (2019)",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "Many of the studies [51,52,53,54,55,56,57] utilize dictionary-based learning strategies."
+        },
+        "In perfect shape: Certifiably optimal 3D shape reconstruction from 2D landmarks": {
+            "authors": [
+                "Heng Yang",
+                "Luca Carlone"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_In_Perfect_Shape_Certifiably_Optimal_3D_Shape_Reconstruction_From_2D_CVPR_2020_paper.pdf",
+            "ref_texts": "[50] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Machine Intell. , 41(4):901\u2013914, 2018. 3",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "[50] showed that the solution obtained using the weak perspective model provides a good initialization when refining the pose for the full perspective model."
+        },
+        "Drpose3d: Depth ranking in 3d human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1805.08973",
+            "ref_texts": "[Zhou et al. , 2017a ]Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Kostantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017.",
+            "ref_ids": [
+                "Zhou et al\\. , 2017a "
+            ]
+        },
+        "Geometric pose affordance: 3d human pose with scene constraints": {
+            "authors": [
+                "Zhe Wang",
+                "Liyan Chen",
+                "Shaurya Rathore",
+                "Daeyun Shin",
+                "Charless Fowlkes"
+            ],
+            "url": "https://arxiv.org/pdf/1905.07718",
+            "ref_texts": "18 Tulsiani, S., Gupta, S., Fouhey, D., AEfros, A., Malik, J., 2018. Factoring shape, pose, and layout from the 2d image of a 3d scene, in: CVPR. Varol, G., Romero, J., Martin, X., Mahmood, N., Black, M.J., Laptev, I., Schmid, C., 2017. Learning from synthetic humans, in: CVPR. Wang, C., Wang, Y ., Lin, Z., Yuille, A.L., 2018. Robust 3d human pose estimation from single images or video sequences, in: PAMI. Wang, S., Fidler, S., Urtasun, R., 2015. Holistic 3d scene understanding from a single geo-tagged image, in: CVPR. Wang, X., Girdhar, R., Gupta, A., 2017. Binge watching: Scaling a fiordance learning from sitcoms, in: CVPR. Wang, Z., Shin, D., Fowlkes, C., 2020. Predicting camera viewpoint improves cross-dataset generalization for 3d human pose estimation, in: ECCV workshop. Weinzaepfel, P., Br \u00b4egier, R., Combaluzier, H., Leroy, V ., Rogez, G., 2020. DOPE: Distillation Of Part Experts for whole-body 3D pose estimation in the wild, in: ECCV. Xiao, B., Wu, H., Wei, Y ., 2018. Simple baselines for human pose estimation and tracking, in: ECCV . Yang, W., Ouyang, W., Wang, X., Ren, J., Li, H., Wang, X., 2018. 3d human pose estimation in the wild by adversarial learning, in: CVPR. Zanfir, A., Marinoiu, E., Sminchisescu, C., 2018. Monocular 3d pose and shape estimation of multiple people in natural scenes. CVPR . Zhou, X., Huang, Q., Sun, X., Xue, X., Wei, Y ., 2017. Towards 3d human pose estimation in the wild: A weakly-supervised approach, in: ICCV . Zhou, X., Liu, S., Pavlakos, G., Kumar, V ., Daniilidis, K., 2018a. Human motion capture using a drone, in: ICRA. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K., 2018b. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. PAMI ."
+        },
+        "Deep monocular 3d human pose estimation via cascaded dimension-lifting": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2104.03520",
+            "ref_texts": "3435. Zhou, K.; Han, X.; Jiang, N.; Jia, K.; and Lu, J. 2019. HEMlets pose: Learning part-centric heatmap triplets for accurate 3d human pose estimation. In Proceedings of the IEEE International Conference on Computer Vision , 2344\u20132353. Zhou, T.; Krahenbuhl, P.; and Efros, A. A. 2015. Learning data-driven reflectance priors for intrinsic image decomposition. In Proceedings of the IEEE International Conference on Computer Vision , 3469\u20133477. Zhou, X.; Huang, Q.; Sun, X.; Xue, X.; and Wei, Y . 2017. Towards 3d human pose estimation in the wild: a weaklysupervised approach. In Proceedings of the IEEE International Conference on Computer Vision , 398\u2013407. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K. G.; and Daniilidis, K. 2018. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41(4): 901\u2013914. Zoran, D.; Isola, P.; Krishnan, D.; and Freeman, W. T. 2015. Learning ordinal relationships for mid-level vision. In Proceedings of the IEEE International Conference on Computer Vision , 388\u2013396.",
+            "ref_ids": [
+                "3435"
+            ]
+        },
+        "MEBOW: Monocular estimation of body orientation in the wild": {
+            "authors": [
+                "Chenyan Wu",
+                "Yukun Chen",
+                "Jiajia Luo",
+                "Chun Su",
+                "Anuja Dawane",
+                "Bikramjot Hanzra",
+                "Zhuo Deng",
+                "Bilan Liu",
+                "James Z. Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_MEBOW_Monocular_Estimation_of_Body_Orientation_in_the_Wild_CVPR_2020_paper.pdf",
+            "ref_texts": "[56] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018. 8, 12",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "[56] 87."
+        },
+        "3d human pose estimation with relational networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1805.08961",
+            "ref_texts": "[39] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyrid on Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular h uman motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "There are a few approaches that exploit temporal informatio n using various methods such asovercomplete dictionaries [38,39], 3D CNNs [7], sequence-to-sequence networks [10], andmultiple-view settings [25]."
+        },
+        "3D Human Pose Estimation Using M\u00f6bius Graph Convolutional Networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2203.10554",
+            "ref_texts": "[74] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular Human Motion Capture using a cnn Coupled with a Geometric Prior. IEEE TPAMI , 41(4): 901\u2013914, 2018. 10",
+            "ref_ids": [
+                "74"
+            ],
+            "1": "During the test phase, the scale of the outputs is calibrated by forcing the sum of the length of all 3D bones to be equal to a canonical skeleton [42, 74, 76]."
+        },
+        "Towards part-aware monocular 3d human pose estimation: An architecture search approach": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480715.pdf",
+            "ref_texts": "64. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. In: TPAMI (2018)",
+            "ref_ids": [
+                "64"
+            ],
+            "1": "5 Zhou [64] 47.",
+            "2": "3 Zhou [64] 68."
+        },
+        "Quantifying the physical intensity of construction workers, a mechanical energy approach": {
+            "authors": [],
+            "url": "https://eprints.qut.edu.au/121164/3/121164.pdf",
+            "ref_texts": "84\u201091.\u00a0\u00a0 Zelik,\u00a0K.\u00a0E.,\u00a0&\u00a0Kuo,\u00a0A.\u00a0D.\u00a0(2012).\u00a0Mechanical \u00a0work\u00a0as\u00a0an\u00a0indirect\u00a0measure\u00a0of\u00a0subjective \u00a0costs\u00a0influencing \u00a0 human\u00a0movement. \u00a0PLoS\u00a0One,\u00a07(2),\u00a0e31143.\u00a0\u00a0 Zheng,\u00a0X.,\u00a0Jia,\u00a0S.,\u00a0Gao,\u00a0Y.,\u00a0Hou,\u00a0M.,\u00a0Xi,\u00a0D.,\u00a0&\u00a0Yang,\u00a0H.\u00a0(2002).\u00a0Modern\u00a0sports\u00a0biomechanics .\u00a0National\u00a0 Defense\u00a0Industry\u00a0Press.\u00a0 Zhou,\u00a0X.,\u00a0Huang,\u00a0Q.,\u00a0Sun,\u00a0X.,\u00a0Xue,\u00a0X.,\u00a0&\u00a0Wei,\u00a0Y.\u00a0(2017).\u00a0Towards\u00a03d\u00a0human\u00a0pose\u00a0estimation \u00a0in\u00a0the\u00a0wild:\u00a0a\u00a0 weakly\u2010supervised \u00a0approach. \u00a0Paper\u00a0presented \u00a0at\u00a0the\u00a0IEEE\u00a0International \u00a0Conference \u00a0on\u00a0 Computer \u00a0Vision.\u00a0 Zhou,\u00a0X.,\u00a0Zhu,\u00a0M.,\u00a0Pavlakos, \u00a0G.,\u00a0Leonardos, \u00a0S.,\u00a0Derpanis, \u00a0K.\u00a0G.,\u00a0&\u00a0Daniilidis, \u00a0K.\u00a0(2018).\u00a0Monocap: \u00a0 Monocular \u00a0human\u00a0motion\u00a0capture\u00a0using\u00a0a\u00a0CNN\u00a0coupled\u00a0with\u00a0a\u00a0geometric \u00a0prior.\u00a0IEEE\u00a0 transactions \u00a0on\u00a0pattern\u00a0analysis\u00a0and\u00a0machine\u00a0intelligence .\u00a0\u00a0 Zhu,\u00a0X.\u00a0Y.,\u00a0Kim,\u00a0H.\u00a0K.,\u00a0&\u00a0Zhang,\u00a0Y.\u00a0(2017).\u00a0Development \u00a0of\u00a0an\u00a0Enhanced \u00a0Musculoskeletal \u00a0Model\u00a0for\u00a0 Simulating \u00a0Lumbar\u00a0Spine\u00a0Loading\u00a0During\u00a0Manual\u00a0Lifting\u00a0Tasks.\u00a0Paper\u00a0presented \u00a0at\u00a0the\u00a0 International \u00a0Conference \u00a0on\u00a0Digital\u00a0Human\u00a0Modeling \u00a0and\u00a0Applications \u00a0in\u00a0Health,\u00a0Safety,\u00a0 Ergonomics \u00a0and\u00a0Risk\u00a0Management. \u00a0"
+        },
+        "A dual-source approach for 3D human pose estimation from single images": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1705.02883",
+            "ref_texts": ""
+        },
+        "Strobenet: Category-level multiview reconstruction of articulated objects": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.08016",
+            "ref_texts": "[80] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914, 2018. 1, 3",
+            "ref_ids": [
+                "80"
+            ],
+            "1": "There exists a large body of work on image-based 3D reconstruction of rigid objects [22, 24, 40] as well as on articulating human bodies [37, 59, 80].",
+            "2": "For single views, there exist methods for high-quality reconstruction [28, 37, 58, 59, 80], but fusion of multiple views of different poses remains an open problem."
+        },
+        "Poselifter: Absolute 3d human pose lifting network from a single noisy 2d human pose": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1910.12029",
+            "ref_texts": "[47] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018. 10",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "6X Cascade approaches Zhou TPAMI\u201918 [47] 68.",
+            "2": "0 Zhou TPAMI\u201918 [47] 47.",
+            "3": "8\n[47] X."
+        },
+        "Hdm-net: Monocular non-rigid 3d reconstruction with learned deformation model": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1803.10193",
+            "ref_texts": "81. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2018)",
+            "ref_ids": [
+                "81"
+            ],
+            "1": "work exclusively for human poses [72, 81]."
+        },
+        "Dc-gnet: Deep mesh relation capturing graph convolution network for 3d human shape reconstruction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2108.12384",
+            "ref_texts": "[60] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. 2019. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. Transactions on Pattern Analysis and Machine Intelligence 41, 4 (2019), 901\u2013914.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "2 Related Work Although numerous approaches have been proposed to boost the topic of 3D pose estimation in the form of a skeleton in the last few years [23,42,45,59,60,62], we will focus on closely-related works reconstructing the whole shape and pose in this Section [11, 21, 47]."
+        },
+        "Robust Monocular 3D Human Motion With Lasso-Based Differential Kinematics": {
+            "authors": [
+                "Abed Malti"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/DynaVis/papers/Malti_Robust_Monocular_3D_Human_Motion_With_Lasso-Based_Differential_Kinematics_CVPRW_2023_paper.pdf",
+            "ref_texts": "[61] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, Apr. 2019. Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence. 2",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "[33, 61] proposed an approach that combines factorization approaches with CNNs approaches."
+        },
+        "Activity recognition with combination of deeply learned visual attention and pose estimation": {
+            "authors": [
+                "Jisu Kim",
+                "Deokwoo Lee"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/11/9/4153/pdf",
+            "ref_texts": "37. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. 2018 ,41, 901\u2013914. [CrossRef] [PubMed]",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "In recent years, thanks to the availability of high-quality data, a deep architecture has been used to learn accurate 3D representations from RGB images, and it also outperforms depth sensors [36,37]."
+        },
+        "JSL3d: Joint subspace learning with implicit structure supervision for 3D pose estimation": {
+            "authors": [
+                "Mengxi Jiang"
+            ],
+            "url": "https://joshyzhou.github.io/data/PR_JSL3d_paper.pdf",
+            "ref_texts": "[4] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K.G. Derpanis, K. Daniilidis, MonoCap: monocular human motion capture using a CNN coupled with a geometric prior, IEEE Trans. Pattern Anal. Mach. Intell. 41 (4) (2019) 901\u2013914 . ",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "Most existing approaches first use robust 2D detectors [3] to obtain 2D body joints from the image, and then design a post-processing mapping procedure to reconstruct 3D pose from these detected 2D joints [4,5] .",
+            "2": "During the past few years, several sparse representation (SR)based approaches have been proposed to infer the 3D human pose [4,11,12] .",
+            "3": "The standard evaluation protocol uses five subjects (S1, S5, S6, S7, and S8) and two subjects (S9 and S11) for the training and testing, respectively [4,22] .",
+            "4": "The one trains a universal model for all actions of the testing set [4] .",
+            "5": "For protocol #1, we train a universal dictionary only using 3D poses from the training data [4] .",
+            "6": "Following the standard evaluation protocol [4,10] , we train our dictionary by using the training set of HumanEva-I , and test on the walking and jogging performed by three subjects (S1, S2, and S3) from the validation set.",
+            "7": "Following the same training protocol in [4,22] , we learn action-specific dictionaries for each subject separately.",
+            "8": "Implementation details In our implementation, similar to previous work [4,10] , we use the stacked hourglass model [3] for the 2D joints detection, which is pre-trained on the MPII and fine-tuned on Human3.",
+            "9": "In particular, JSL3d is superior to recent the model-based approaches [4,11] (TPAMI 19\u2019, NCAA 21\u2019) and the learning-based approach [30] (ICCV 21\u2019) in the average performance of the test categories.",
+            "10": "[4] 92.",
+            "11": "[4] 82.",
+            "12": "[4] .",
+            "13": "[4] 52.",
+            "14": "[4] 34.",
+            "15": "Using the detected 2D poses as the inputs, JSL3d still achieves the best performance in 4 out of 6 categories with more than 3% improvement on average compared to the existing model-based approach [4] (TPAMI 19\u2019).",
+            "16": "[4] X."
+        },
+        "Sampling is Matter: Point-guided 3D Human Mesh Reconstruction": {
+            "authors": [
+                "Jeonghwan Kim",
+                "Gyeong Gwon",
+                "Hyunwoo Park",
+                "Hyukmin Kwon",
+                "Mun Um",
+                "Wonjun Kim"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Sampling_Is_Matter_Point-Guided_3D_Human_Mesh_Reconstruction_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. MonoCap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , 41(4):901\u2013914, 2018. 6",
+            "ref_ids": [
+                "38"
+            ],
+            "1": ", mean per joint position error (MPJPE) [11], Procrustes-aligned mean per joint position error (PA-MPJPE) [38], and mean per vertex position error (MPVPE) [30], which have been widely adopted for the performance comparison in this field."
+        },
+        "Estimation of pedestrian pose orientation using soft target training based on teacher\u2013student framework": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/5/1147/pdf",
+            "ref_texts": "8. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. arXiv , 2018; arXiv:1701.02354.",
+            "ref_ids": [
+                "8"
+            ]
+        },
+        "DeepMoCap: Deep optical motion capture using multiple depth sensors and retro-reflectors": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/2/282/pdf",
+            "ref_texts": "24. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. 2018 .",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "In [24], a MoCap framework is introduced, realizing 3D pose recovery, that consists of a synthesis between discriminative image-based and 3D pose reconstruction approaches."
+        },
+        "Learning-based hand motion capture and understanding in assembly process": {
+            "authors": [],
+            "url": "https://april.zju.edu.cn/wp-content/papercite-data/pdf/liu2019learningbasedhm.pdf",
+            "ref_texts": "[18] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonoCap: Monocular human motion capture using a CNNcoupled with a geometric prior,\u201d IEEE Trans. P attern Anal. Mach. Intell. , 2018, to be published, doi: 10.1109/TPAMI.2018.2816031 .",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "With the development of deep neural networks, it has become possible for low-cost methods to capture object locations with afew ordinary cameras or even one monocular camera [17], [18].",
+            "2": "[18] X."
+        },
+        "BAPose: Bottom-Up Pose Estimation with Disentangled Waterfall Representations": {
+            "authors": [
+                "Bruno Artacho",
+                "Andreas Savakis"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023W/WVAQ/papers/Artacho_BAPose_Bottom-Up_Pose_Estimation_With_Disentangled_Waterfall_Representations_WACVW_2023_paper.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. MonoCap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "Various methods have focused on specific aspects of human pose estimation, including 2D pose estimation [40], [28], [43], [3], [39]; 3D pose estimation [37], [47], [1], [5]; single frame detection [6]; pose detection in videos [12]; dealing with a single person [43] or multiple people [7].",
+            "2": "It is important to observe that the BAPose framework was able to achieve this significant increase in AP for the CrowdPose dataset while utilizing a backbone smaller (HRNet-W32 [47]) compared to the previous SOTA deploying a larger backbone (HRNet-W48 [47]), reducing the number of parameters by 54."
+        },
+        "Multi-view Human Body Mesh Translator": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2210.01886",
+            "ref_texts": "[53] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "3 Experiments on HUMBI To compare proposed method with the state-of-the-art methods, we report the evaluation results in three standard metrics: Mean Per Joint Position Error (MPJPE) [11],Procrustes Analysis MPJPE\n(PA-MPJPE) [53] and Mean Per Vetex Error (MPVE) [32]."
+        },
+        "Real\u2010time 3D human pose and motion reconstruction from monocular RGB videos": {
+            "authors": [
+                "Anastasios Yiannakides",
+                "Andreas Aristidou",
+                "Yiorgos Chrysanthou"
+            ],
+            "url": "http://andreasaristidou.com/publications/papers/3dMotionReconstruction.pdf",
+            "ref_texts": "39. Zhou X, Zhu M, Pavlakos G, Leonardos S, Derpanis KG, Daniilidis K. MonoCap: monocular human motion capture using a CNN coupled with a geometric prior. IEEE Trans Pattern Anal Mach Intell. 2018;41:901\u2013914.",
+            "ref_ids": [
+                "39"
+            ]
+        },
+        "Structure from articulated motion: accurate and stable monocular 3D reconstruction without training data": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/20/4603/pdf",
+            "ref_texts": "66. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 2018 ,41, 901\u2013914. [CrossRef]",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "[66] * 54."
+        },
+        "3D Pose Estimation and Tracking in Handball Actions Using a Monocular Camera": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2313-433X/8/11/308/pdf",
+            "ref_texts": "38. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. 2018 ,41, 901\u2013914. [CrossRef]",
+            "ref_ids": [
+                "38"
+            ]
+        },
+        "Online monitoring for neural network based monocular pedestrian pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2005.05451",
+            "ref_texts": "[59] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE Trans. Pattern Anal. Machine Intell. , vol. 41, no. 4, pp. 901\u2013914, 2018.",
+            "ref_ids": [
+                "59"
+            ],
+            "1": "ATOM simultaneously outputs the predicted MaskIOU between the binary mask and a theoretical ground-truth mask, the Mean Per Joint Prediction Error (MPJPE) [59], the Reconstruction Error (REC) [59], and Shape Error which is the per-vertex error of the output mesh.",
+            "2": "[59] X."
+        },
+        "Orientation keypoints for 6D human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2009.04930",
+            "ref_texts": "[74] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , 41(4):901\u2013914, Apr. 2019.",
+            "ref_ids": [
+                "74"
+            ],
+            "1": "Some approaches [74] use explicit temporal smoothness constraints, while others have used recurrent LSTM / GRU units [14], [27], [57], and dilated temporal convolutions [53]."
+        },
+        "3d human pose estimation from deep multi-view 2d pose": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1902.02841",
+            "ref_texts": "[9] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior,\u201d jan 2017.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "3D Human Pose Estimation Exploiting the success of 2D human pose estimation techniques, there has been a lot of work done in the area of 3D pose estimation, as inferred from a single image [9].",
+            "2": "[9] X."
+        },
+        "MPT: Mesh Pre-Training with Transformers for Human Pose and Mesh Reconstruction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2211.13357",
+            "ref_texts": "[66] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 5",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "standard metrics for evaluation, including Mean Per Joint Position Error (MPJPE) [20], Procrustes Analysis with MPJPE (PA-MPJPE) [66], and Mean Per Vertex Error (MPVE) [45]."
+        },
+        "Towards locality similarity preserving to 3D human pose estimation": {
+            "authors": [
+                "Shihao Zhou",
+                "Mengxi Jiang",
+                "Qicong Wang",
+                "Yunqi Lei"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2020W/MMHAU/papers/Zhou_Towards_Locality_Similarity_Preserving_to_3D_Human_Pose_Estimation_ACCVW_2020_paper.pdf",
+            "ref_texts": "21. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K. G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled w ith a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intell igence41(2019)",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "3 Evaluation Protocols There are two popular criterions to evaluate the pose estimation accurac y, the per joint error and the reconstruction error [21]."
+        },
+        "Local deformable 3D reconstruction with Cartan's connections": {
+            "authors": [],
+            "url": "http://encov.ip.uca.fr/publications/pubfiles/2019_Parashar_etal_PAMI_cartan.pdf",
+            "ref_texts": "109, 2016. A. Pumarola, A. Agudo, L. Porzi, A. Sanfeliu, V . Lepetit, and F. Moreno-Noguer. Geometry-aware network for nonrigid shape prediction from a single view. In CVPR , 2018. C. Russell, R. Yu, and L. Agapito. Video pop-up: Monocular 3d reconstruction of dynamic scenes. In ECCV , 2014. M. Salzmann and P . Fua. Linear local models for monocular reconstruction of deformable surfaces. IEEE Transactions on Pattern Analysis and Machine Intelligence , 33(5):931\u2013944, 2011. J. Starck and A. Hilton. Model-based multiple view reconstruction of people. In ICCV , 2003. N. Sundaram, T. Brox, and K. Keutzer. Dense point trajec-tories by gpu-accelerated large displacement optical flow. InECCV , 2010. J. Taylor, A. D. Jepson, and K. N. Kutulakos. Non-rigid structure from locally-rigid motion. In CVPR , 2010. A. Tewari, M. Zoll \u00a8ofer, F. Bernard, P . Garrido, H. Kim, P . Perez, and C. Theobalt. High-fidelity monocular face reconstruction based on an unsupervised model-based face autoencoder. IEEE Transactions on Pattern Analysis and Machine Intelligence , PP:1\u20131, 2018. L. Torresani, D. B. Yang, E. J. Alexander, and C. Bregler. Tracking and modeling non-rigid objects with rank constraints. In CVPR , 2001. L. Torresani, A. Hertzmann, and C. Bregler. Nonrigid structure-from-motion: Estimating shape and motion with hierarchical priors. IEEE Transactions on Pattern Analysis and Machine Intelligence , 30(5):878\u2013892, 2008. A. Varol, M. Salzmann, E. Tola, and P . Fua. Templatefree monocular reconstruction of deformable surfaces. In ICCV , 2009. A. Varol, M. Salzmann, P . Fua, and R. Urtasun. A constrained latent variable model. In CVPR , 2012. S. Vicente and L. Agapito. Soft inextensibility constraints for template-free non-rigid reconstruction. In ECCV , 2012. X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. M. Zollh \u00a8ofer, P . Stotko, A. G \u00a8orlitz, C. Theobalt, M. Nie\u00dfner, R. Klein, and A. Kolb. State of the art on 3D reconstruction with RGB-D cameras. In Computer Graphics Forum , 2018."
+        },
+        "On the exact recovery conditions of 3D human motion from 2D landmark motion with sparse articulated motion": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1907.03967",
+            "ref_texts": ""
+        },
+        "Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.11756",
+            "ref_texts": "[55] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. 2018. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. TPAMI (2018).",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "(MPJPE) defined in [55] is used to measure the performance of reconstruction modules.",
+            "2": "6M [14] dataset, and the MPJPE errors defined in [55] are reported."
+        },
+        "Self-powered, hybrid, multifunctional sensor for a human biomechanical monitoring device": {
+            "authors": [
+                "Yeh Hsin",
+                "Hsiao Han",
+                "Jie Wang",
+                "Tien Hsi",
+                "Yiin Kuen"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/11/2/519/pdf",
+            "ref_texts": "5. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. 2018 ,41, 901\u2013914. [CrossRef]",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "Researchers have also shown that the devices of gait monitoring can be employed in sports training to raise the performance of athletes [3,4], including in action-specific poses such as golfing [5]."
+        },
+        "Heuristic weakly supervised 3d human pose estimation in novel contexts without any 3d pose ground truth": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.10996",
+            "ref_texts": "2 Yu T, Guo K, Xu F, Dong Y , Su Z, Zhao J, Li J, Dai Q, Liu Y (2017) Bodyfusion: Real-time capture of human motion and surface geometry using a single depth camera. In: Proceedings of the IEEE International Conference on Computer Vision, pp 910\u2013919 2 Zhou X, Leonardos S, Hu X, Daniilidis K (2015) 3d shape estimation from 2d landmarks: A convex relaxation approach. In: proceedings of the IEEE conference on computer vision and pattern recognition, pp 4447\u20134455 2 Zhou X, Zhu M, Leonardos S, Daniilidis K (2016) Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence 39(8):1648\u20131661 16 Zhou X, Zhu M, Pavlakos G, Leonardos S, Derpanis KG, Daniilidis K (2018) Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41(4):901\u2013914 16 Zimmermann C, Welschehold T, Dornhege C, Burgard W, Brox T (2018) 3d human pose estimation in rgbd images for robotic task learning. In: 2018 IEEE International Conference on Robotics and Automation (ICRA), IEEE, pp 1986\u20131992 2 Zwaigenbaum L, Bryson S, Garon N (2013) Early identification of autism spectrum disorders. Behavioural brain research 251:133\u2013146 8 Heuristic Weakly Supervised 3D Human Pose Estimation 13 A Supplementary Materials Our source code is included as part of our supplementary submission. Furthermore, we discuss here: (1) a qualitative comparison between the HW-HuP and pre-trained SOTA 3D pose estimation models, (2) the design and evaluation of the VisNet for joint visibility estimation, (3) the results of projected 2D pose estimation on the SLP dataset, (4) concepts pertaining to selective pose prior transfer, (5) the error distribution of the depth-based 3D proxy, (6) a detailed comparison with the SOTA on Human3.6M dataset, and finally, (7) additional qualitative results. A.1 Qualitative Performance of SOTA Pre-trained Model Given that many SOTA models already show satisfactory performance on large-scale 3D pose benchmarks such as Human3.6M Ionescu et al. (2013) and 3DPW Kolotouros et al. (2019b), one might wonder whether the pretrained models are already sufficient for real life applications, even without domain-specific fine-tuning. We examined this question qualitatively for in-bed images from the SLP dataset, where poses appear simpler. A illustrative example of the pretrained model performance is given in Fig. S1. Contrast this with the better performance of the SOTA models after fine-tuning in Fig. 1\u2014although even with fine-tuning, HW-HuP achieves superior results. Fig. S1: Visual inspection of the accuracy of the 3D human pose and shape estimation pre-trained models compared to our heuristic weaklysupervised 3D human pose estimation model (HW-HuP), when applied on an in-bed pose image taken from the SLP dataset (Liu et al., 2023). Point clouds from depth are rendered in blue for reference. Compared to Fig. 1 in the main paper, the SOTA models here are not fine-tuned on SLP data. A.2 VisNet for Joint Visibility Estimation The main purpose of VisNet is to determine the visibility of joints in an image of a body. This issue has not featured extensively in existing pose estimation models since many such 3D models are trained on MoCap data, where visibility is not an issue, and otherwise pose estimation models are assumed to be capable of inferring the position of occluded Fig. S2: (a) VisNet model diagram, and (b) visibility detection ROC performance on COCO validation dataset in, comparing VisNet visibility scores to confidence scores from (Sun et al., 2019a; Xiao et al., 2018). joints regardless. However, as discussed in Section 3, such occlusions can yield large biases in the depth-based proxy 3D joint coordinates used by HW-HuP to supervise its pose regression, precipitating the need for VisNet to filter out unreliable joints. In our design, the VisNet head is based on a ResNet He et al. (2016) backbone. It includes two convolution layers with 1\u00021kernels and 256 and 32 channels respectively, followed by three fully connected layers with 256, 64, and 17 channels respectively. Each layer is followed by a batch normalization and a rectified linear unit (ReLU). To enhance its semantic understanding of the specific joint for visibility detection, we add the pose head Xiao et al. (2018) on top of the backbone for joint training. VisNet design is shown in Fig. S2(a). In our implementation, VisNet is trained with an Adam optimizer with learning rate of 0.001 with a total epoch of 80 trained on COCO dataset Lin et al. (2014), which contains visibility annotations. As a simple baseline quantification of VisNet performance, we compare its predicted per joint visibility scores against the per joint prediction confidence scores obtained from two SOTA human pose estimation models Xiao et al."
+        },
+        "Adapted human pose: monocular 3D human pose estimation with zero real 3D pose data": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.10837",
+            "ref_texts": "71. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K.: Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41(4), 901\u2013914 (2018) 10",
+            "ref_ids": [
+                "71"
+            ],
+            "1": "3 Zhou [71] 68."
+        },
+        "Improving CNN-based planar object detection with geometric prior knowledge": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1909.10245",
+            "ref_texts": "[22] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence , vol. 41, no. 4, pp. 901\u2013914, 2019.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "presented a combination between CNN and geometry priors in [22] by using CNN for imagebased 2D part location estimates and assumes the geometry model for 3D pose reconstruction.",
+            "2": "[22] X."
+        },
+        "Global position prediction for interactive motion capture": {
+            "authors": [],
+            "url": "https://people.computing.clemson.edu/~vbz/papers/schreiner_2021_GPP.pdf",
+            "ref_texts": "16 Schreiner, Perepichka, Lewis, Darkner, Kry, Erleben and Zordan S. Starke, Y. Zhao, T. Komura, and K. Zaman. 2020. Local motion phases for learning multi-contact character movements. ACM Transactions on Graphics (TOG) 39, 4 (2020), 54\u20131. Y. S. Suh. 2014. Inertial sensor-based smoother for gait analysis. Sensors 14, 12 (2014), 24338\u201324357. D. Thewlis, C. Bishop, N. Daniell, and G. Paul. 2013. Next-generation low-cost motion capture systems can provide comparable spatial accuracy to high-end systems. Journal of applied biomechanics 29, 1 (2013), 112\u2013117. M. V\u00e9ges and A. L\u0151rincz. 2019. Absolute human pose estimation with depth prediction network. In 2019 International Joint Conference on Neural Networks (IJCNN) . IEEE, 1\u20137. D. Vlasic, R. Adelsberger, G. Vannucci, J. Barnwell, M. Gross, W. Matusik, and J. Popovi\u0107. 2007. Practical motion capture in everyday surroundings. ACM transactions on graphics (TOG) 26, 3 (2007), 35\u2013es. H. Wang, E. S. Ho, H. P. Shum, and Z. Zhu. 2019. Spatio-temporal manifold learning for human motions via long-horizon modeling. IEEE transactions on visualization and computer graphics 27, 1 (2019), 216\u2013227. P. A. C. Widagdo, H.-H. Lee, and C.-H. Kuo. 2017. Limb motion tracking with inertial measurement units. In 2017 IEEE International Conference on Systems, Man, and Cybernetics (SMC) . IEEE, 582\u2013587. X. Xiao and S. Zarar. 2018. Machine learning for placement-insensitive inertial motion capture. In 2018 IEEE International Conference on Robotics and Automation (ICRA) . IEEE, 6716\u20136721. Q. Yuan, I.-M. Chen, and S. P. Lee. 2011. SLAC: 3D localization of human based on kinetic human movement capture. In 2011 IEEE International Conference on Robotics and Automation . IEEE, 848\u2013853. H. Zhang, S. Starke, T. Komura, and J. Saito. 2018. Mode-adaptive neural networks for quadruped motion control. ACM Transactions on Graphics (TOG) 37, 4 (2018), 1\u201311. Y. Zheng, K.-C. Chan, and C. C. Wang. 2014. Pedalvatar: An IMU-based real-time body motion capture system using foot rooted kinematic model. In 2014 IEEE/RSJ International Conference on Intelligent Robots and Systems . IEEE, 4130\u20134135. X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. 2018. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41, 4"
+        },
+        "PONet: Robust 3D Human Pose Estimation via Learning Orientations Only": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2112.11153",
+            "ref_texts": "[54] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "Early efforts on 3D pose estimation used dictionary learning, with the assumption that a 3D pose can be represented by a sparse linear combination of a set of basis poses [43], [50], [52]\u2013[54]."
+        },
+        "Online dictionary learning for approximate archetypal analysis": {
+            "authors": [
+                "Jieru Mei",
+                "Chunyu Wang",
+                "Wenjun Zeng"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Jieru_Mei_Online_Dictionary_Learning_ECCV_2018_paper.pdf"
+        },
+        "Explicit spatiotemporal joint relation learning for tracking human pose": {
+            "authors": [
+                "Xiao Sun",
+                "Chuankang Li",
+                "Stephen Lin"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Sun_Explicit_Spatiotemporal_Joint_Relation_Learning_for_Tracking_Human_Pose_ICCVW_2019_paper.pdf",
+            "ref_texts": "[76] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017. 6,8",
+            "ref_ids": [
+                "76"
+            ],
+            "1": "For this benchmark, we employ the most widely used evaluation protocol in the literature [6,59,40,76,30, 37,47,70,50,2,75,58,73,56,51].",
+            "2": "Larger relative improvement can Method Tome Moreno Zhou Jahangiri Mehta Martinez Kanazawa Fang Sun S\u00b4ar\u00b4andi Sun Dabral Hossain Ours [59] [40] [76] [30] [37] [36] [32] [16] [54] [51]\u2020[56] [11]\u2217[25]\u2217 \u2217 MPJPE 88.",
+            "3": "1,2,6,8\n[76] X."
+        },
+        "Unsupervised 3D Animal Canonical Pose Estimation with Geometric Self-Supervision": {
+            "authors": [],
+            "url": "http://www.scubrl.org/files/picture/20221122/172/1669107994396.pdf",
+            "ref_texts": "[33] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI) , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "2) Weakly Supervised: Weakly supervised approaches use unpaired 2D-3D data to learn 3D pose priors [2], [15], [30], [32], [33].",
+            "2": "Methods in [4], [32], [33] use a 3D pose database/dictionary to represent prior knowledge.",
+            "3": "[33] X."
+        },
+        "Evaluating current state of monocular 3D pose models for golf": {
+            "authors": [],
+            "url": "https://septentrio.uit.no/index.php/nldl/article/download/6793/7024",
+            "ref_texts": "[46] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2019. doi: 10.1109/TPAMI.2018.2816031.",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "It is, however, common practice to account for differences in scale by scaling the predictions such that the mean limb length is identical to the average value of all subjects in the training set [46].",
+            "2": "In addition to adjusting the scale, translation is also accounted for by aligning the predicted and ground truth poses by their root coordinate, which in human pose estimation is set to be the center of the hips [46].",
+            "3": "[46] X."
+        },
+        "Joint 3d human shape recovery and pose estimation from a single image with bilayer graph": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.08472",
+            "ref_texts": "[54] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G. Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , 41(4):901\u2013914, Apr. 2019. 6 Additional Studies and Results Per-Activity Evaluation for Human 3.6M The Human 3.6M dataset [15, 16] contains people performing 15 activities, such as sitting down and walking. In the main paper, we reported our best model (shown in Table 2 of the main paper), which applies No Weight Sharing . Table 6 and 7 shows the evaluation of non-parametric and SMPL parametric predictions on Human 3.6M for each activity separately. The activities represent Providing Directions, Having a Discussion, Eating, Greeting, Making a Phone Call, Taking a Photo, Posing, Making a Purchase, Sitting, Sitting Down, Smoking, Waiting, Walking a Dog, Walking Together, and Walking respectively. It is clear from the table that the performance for certain activities (highlighted in red), e.g., Walking, compares favorably to others, e.g., Sitting Down, as those poses are much more challenging and consequently have higher errors. P1 P2 Act. MPJPE # PA-MPJPE # MPJPE # PA-MPJPE # Directions 61.29 31.61 55.24 28.14 Discussion 59.62 33.84 56.19 32.30 Eating 58.43 34.46 55.34 33.51 Greeting 62.68 34.81 58.36 33.53 Phoning 60.32 35.48 58.14 33.50 Photo 68.23 39.27 63.66 38.23 Posing 61.22 33.43 57.86 29.98 Purchases 60.59 32.18 59.39 31.75 Sitting 66.63 40.51 64.92 42.21 SittingDown 72.74 49.57 72.18 45.44 Smoking 57.77 34.09 54.06 33.21 Waiting 61.80 34.23 57.93 31.51 WalkDog 58.09 34.50 59.16 35.31 WalkTogether 57.36 31.41 56.49 30.79 Walking 52.72 29.46 52.03 28.66 Overall 61.17 35.36 58.45 33.96 Table 6: Evaluation of non-parametric predictions on Human 3.6M per activity. Certain activities (in red) result in better performance, compared to others. Numbers are MPJPE and PA-MPJPE in mm. Non-Parametric vs Parametric Result comparison As shown in Table 6 and 7, the nonparametric shape is the regression result of all mesh vertices from the Bi-layer Graph and is generally able to learn the pose better than the SMPL parametric predictions on Human 3.6M dataset. Please note the evaluation on SMPL parametric predictions is still comparable to the state-ofthe-arts as shown in Table 1 in the main paper. As introduced in the main paper, the Bi-layer Graph and SMPL regressor forms a pipeline, and the input of the later module depends on the output of the former module. The good performance of the later module further illustrates that our proposed Bi-layer Graph has addressed the dense regression of body mesh vertices well. Comparing the third and last rows of Figure 6 and Figure ??, we can observe that some key-P1 P2 Act. MPJPE # PA-MPJPE # MPJPE # PA-MPJPE # Directions 62.65 34.72 56.83 32.11 Discussion 62.00 37.43 58.27 36.44 Eating 63.35 38.59 59.95 37.32 Greeting 64.49 38.63 59.96 37.30 Phoning 65.71 40.39 63.45 37.92 Photo 74.37 45.42 69.97 44.86 Posing 64.06 37.97 59.08 34.96 Purchases 65.84 37.47 62.52 37.46 Sitting 74.62 47.14 70.46 46.33 SittingDown 79.76 53.81 79.31 51.85 Smoking 62.57 40.04 59.10 38.79 Waiting 64.18 37.97 59.42 35.74 WalkDog 63.57 39.57 63.71 40.44 WalkTogether 59.60 34.73 58.83 34.15 Walking 55.09 32.87 54.02 32.05 Overall 65.35 39.91 62.16 38.56 Table 7: Evaluation of SMPL parametric prediction on Human 3.6M per activity. Certain activities (in red) result in better performance, compared to others. Numbers are MPJPE and PA-MPJPE in mm. points of the SMPL prediction, e.g. ankles, are slightly off the ground truth while the non-parametric poses are more accurate. More discussion about other networks METRO Both the transformer-based METRO [29] and our model aim to jointly model vertex-vertex, vertex-joint, and joint-joint interactions. But they differ in the ways of representing each vertex and joint and learning those interactions. METRO uses self-attention to brute-force learn all interactions. Although powerful, the self-attention has a wellknown issue of the quadratic time and memory complexity. METRO has to down-sample the mesh to 431 vertices and train on very large mixed datasets for a long time (200 epochs) to learn all the interactions. Rather than the bruteforce self-attention, we inject prior knowledge of the mesh topology into the Mesh Graph (1723 vertices), whose adjacency matrix is naturally sparse. In this way, our model trains on a smaller amount of data for 50 epochs and converges faster: the accuracy increases rapidly in the first 12 epochs and becomes stable after 32 epochs as shown in Figure 5 in the main paper. Together with the localized image features, our model achieves comparable performance to self-attention based METRO. We believe that attention and knowledge-aware bi-layer graph network can be integrated to learn the interactions. CoMA Compared to the hierarchy GCN capturing face shape and expression at multiple scales in CoMA [39], our bi-layer graph is simple and efficient to represent non-local body mesh with the additional skeleton-scale graph. Firstly, we use the prior knowledge that the body mesh highly depends on the joint motion. Secondly, extra intermediatescale body mesh representations by down-sampling (as in CoMA) doesn\u2019t help based on our trials. Additionally, our bi-layer graph uses both vertex and joint inputs, rather than just vertices as CoMA does. Our Fusion Graph further learns dynamic vertex-joint correlations, while the transform matrices of down-sampling and up-sampling layers in CoMA are predefined and fixed. Figure 8: One example of bad pose in different 3D views. The two rows show parametric and non-parametric results respectively. Qualitative comparison On the other side, we note that the shape of the parametric (SMPL) prediction is smooth but the shape of the non-parametric prediction may exhibit non-smooth artifacts. To demonstrate it, we shows examples of the rendered mesh for non-parametric prediction in Figure 9, and the ones for SMPL predictions in Figure 10 for the evaluation images from the Human 3.6M, UP-3D and LSP datasets. To avoid some of the noise artifacts, we can apply some surface constraints, like vertex normal loss, to smooth the predicted surface for non-parametric methods in the future. Qualitative results on occlusion The body is always self-occluded in a single image. It is especially challenging to predict the occluded limbs because of their rich poses from a variety of activities. This requires the methods to deduce the missing limbs from the other visible parts. Our model explicitly embed the whole joints and mesh in the bi-layer structure, enabling to learn the occluded part in a data-driven way. This bi-layer structure further learn the interactions between the body joints and mesh vertices by the fusion graph and thus guide the dense mesh with the sparse joints, which is less challenging to learn from the data. In Figure 9 and 10, We render the predicted meshes from different views and demonstrate that our methods can always learn the occlusion well from the data. We also show a failure case of local hands pose in Figure 8. Although the shape and pose seem correct from the camera view of the image, when viewed from different angles, we can see that the hands are separated rather than joined. Figure 9: Qualitative non-parametric results. From left to right: input image, pose and shape, two different view perspectives. Figure 10: Qualitative SMPL parametric results. From left to right: input image, pose and shape, two different view perspectives.",
+            "ref_ids": [
+                "54",
+                "15, 16",
+                "29",
+                "39"
+            ],
+            "1": "The recent work [29] use transformer to reducearXiv:2110.",
+            "2": "6M This indoor 3D dataset [15, 16] comprises eleven subjects performing 17 common scenarios, e.",
+            "3": "Evaluation metrics For H36M we report the mean Euclidean distance (mm) between the predicted and ground truth 3D joints after root joint alignment (MPJPE ), and rigid alignment error (PA-MPJPE ) as in [54].",
+            "4": "1 METRO [29] 54.",
+            "5": "We evaluate the regressed mesh by our bilayer graph through 3D pose accuracy, in comparison to the mesh-only graph method [26] and the self-attention in transformer [29] as shown in Table 1.",
+            "6": "Our intersections differ from the transformerbased METRO [29] in two ways: the local vertex-vertex intersections avoid huge computation of the brute-force selfattention; and joint-vertex intersections learnt from the Fusion Graph efficiently model the most important topology knowledge between body mesh and joints.",
+            "7": "Together with the localized image features, our model achieves comparable performance to METRO [29] of the strong representation ability for the fully connected intersections.",
+            "8": "This combination is the core difference from the transformerbased METRO [29] and other hierarchical structures, such as CoMA [39] (see suppl.",
+            "9": ", pages 2980\u20132988, Oct 2017.",
+            "10": "2\n[29] Kevin Lin, Lijuan Wang, and Zicheng Liu.",
+            "11": ", pages 2999\u20133007, 2017.",
+            "12": "2\n[39] Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, and Michael J Black.",
+            "13": "6M dataset [15, 16] contains people performing 15 activities, such as sitting down and walking.",
+            "14": "29 31.",
+            "15": "86 29.",
+            "16": "72 29.",
+            "17": "More discussion about other networks METRO Both the transformer-based METRO [29] and our model aim to jointly model vertex-vertex, vertex-joint, and joint-joint interactions.",
+            "18": "CoMA Compared to the hierarchy GCN capturing face shape and expression at multiple scales in CoMA [39], our bi-layer graph is simple and efficient to represent non-local body mesh with the additional skeleton-scale graph."
+        },
+        "An articulated structure-aware network for 3D human pose estimation": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf",
+            "ref_texts": "62 Short Title Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Cheng Li, Honggang Zhang, Xiaogang Wang, and Xiaoou Tang. Residual attention network for image classiffcation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 3156{3164, 2017. Guanghui Wang and QM Jonathan Wu. Simpliffed camera projection models. In Guide to Three Dimensional Structure and Motion Factorization , pages 29{41. 2011. Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh. Convolutional pose machines. In IEEE Conference on Computer Vision and Pattern Recognition , pages 4724{4732, 2016. Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. Hierarchical attention networks for document classiffcation. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies , pages 1480{1489, 2016. Hashim Yasin, Umar Iqbal, Bjorn Kruger, Andreas Weber, and Juergen Gall. A dualsource approach for 3d pose estimation from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4948{4956, 2016. Wenpeng Yin, Hinrich Sch\u007f utze, Bing Xiang, and Bowen Zhou. Abcnn: Attention-based convolutional neural network for modeling sentence pairs. Transactions of the Association for Computational Linguistics , 4:259{272, 2016. Bo Zhao, Xiao Wu, Jiashi Feng, Qiang Peng, and Shuicheng Yan. Diversiffed visual attention networks for ffne-grained object classiffcation. IEEE Transactions on Multimedia , 19(6): 1245{1256, 2017. Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, Kostas Daniilidis, et al. 3d shape estimation from 2d landmarks: A convex relaxation approach. In IEEE Conference on Computer Vision and Pattern Recognition , volume 2, pages 4447{4455, 2015. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Sparseness meets deepness: 3d human pose estimation from monocular video. InIEEE Conference on Computer Vision and Pattern Recognition , pages 4966{4975, 2016. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648{1661, 2017. Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018."
+        },
+        "Learning nonparametric human mesh reconstruction from a single image without ground truth meshes": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2003.00052",
+            "ref_texts": "[63] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. , 2018. 7",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "6M dataset [16] using Protocol 2 Reconstruction Error metric [16, 63, 31], where the unit is millimeter (mm).",
+            "2": "4\n[63] X."
+        },
+        "Pointless Pose: Part Affinity Field-Based 3D Pose Estimation without Detecting Keypoints": {
+            "authors": [
+                "Jue Wang",
+                "Zhigang Luo"
+            ],
+            "url": "https://www.mdpi.com/2079-9292/10/8/929/pdf",
+            "ref_texts": "15. Zhou, X.; Zhu, M.; Pavlakos, G.; Leonardos, S.; Derpanis, K.G.; Daniilidis, K. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Trans. Pattern Anal. Mach. Intell. 2018 ,41, 901\u2013914. [CrossRef] [PubMed]",
+            "ref_ids": [
+                "15"
+            ]
+        },
+        "A Table Tennis Motion Correction System Based on Human Motion Feature Recognition": {
+            "authors": [],
+            "url": "https://downloads.hindawi.com/journals/scn/2022/7049429.pdf",
+            "ref_texts": "[15] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence,vol. 41, no. 4, pp. 901\u2013914, 2019.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "ffiT_he opticalmotion capture solution works by capturing the spatialpositionofthelight-emittingpointtodeterminethemotiontrajectory of the subject [15].",
+            "2": "[15] X."
+        },
+        "Learning Depth-aware Heatmaps for 3D Human Pose Estimation in the Wild.": {
+            "authors": [],
+            "url": "https://bmvc2019.org/wp-content/uploads/papers/1217-paper.pdf",
+            "ref_texts": "[28] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) , 2018.",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "It is used in [2, 12, 18, 25, 28].",
+            "2": "It is used in [2, 3, 7, 11, 12, 16, 23, 24, 27, 28, 29].",
+            "3": "3 Zhou [28] 68."
+        },
+        "Error bounds of projection models in weakly supervised 3D human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.12317",
+            "ref_texts": "[28] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41:901\u2013914, 2017. 3",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "Identical or similar evaluation protocols are utilized in [14, 18, 24, 27, 28].",
+            "2": "2, 3\n[28] X."
+        },
+        "Using artificial intelligence assistant technology to develop animation games on IoT": {
+            "authors": [],
+            "url": "https://doiserbia.nb.rs/ft.aspx?id=1820-02142300021Z",
+            "ref_texts": "40. Zhou , X., Zhu, M., Pavlakos, G., Leonardos, S ., Derpanis, K., Daniilidis, K.: MonoCap: Monocular human motion capture using a CNN coupled with a geometric prior, IEEE Trans. Pattern Anal. Mach. Intell., vol. 41, no. 4, 901 -914. (2019) ",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "It counts the player\u2019s control patterns and habits, and analyses them, then uses the analysed data to modify the AI character\u2019s behavioural rules, so that the AI character has the ability to learn and adapt to the player [36, 40]."
+        },
+        "On the role of depth predictions for 3D human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2103.02521",
+            "ref_texts": "[42]Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K. G., and Daniilidis, K. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence 41 , 4 (2018), 901{914.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "[42]Zhou, X."
+        },
+        "Condor: Mobile Golf Swing Tracking via Sensor Fusion using Conditional Generative Adversarial Networks.": {
+            "authors": [],
+            "url": "http://www.ewsn.org/file-repository/ewsn2021/Article4.pdf",
+            "ref_texts": "[38] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence, 41(4):901\u2013914, 2019.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": ", the point of interest being tracked is blocked by other body parts from the camera\u2019s view), which reduces their accuracy significantly [30, 38].",
+            "2": "[38] X."
+        },
+        "Vision based human pose estimation for gait assessment of older adults with dementia": {
+            "authors": [
+                "Default User"
+            ],
+            "url": "https://dam-oclc.bac-lac.gc.ca/download?is_thesis=1&oclc_number=1335042008&id=30a25dea-2c71-47a3-be27-02c8c01b4640&fileName=Ng_Kimberley-Dale_R_201911_MHSc_thesis.pdf",
+            "ref_texts": "[56] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis and K. Daniilidis, \"MonoCap: Monocular Human Motion Capture using a CNN Coupled with a Geometric Prior,\" ArXiv, ",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Numerous papers and algorithms have been published, suggesting the ability to infer a 3D pose from image or video input [55] [56] [57].",
+            "2": "33 \n \n[56] X."
+        },
+        "Synthetic training for monocular human mesh recovery": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.14036",
+            "ref_texts": "[36] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "Recently, plenty of ConvNet-based parameters recovery methods [4], [6], [35], [36], [37] are proposed.",
+            "2": "[36] X."
+        },
+        "FoGMesh: 3D Human Mesh Recovery in Videos with Focal Transformer and GRU": {
+            "authors": [],
+            "url": "https://bmvc2022.mpi-inf.mpg.de/0618.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "\u2022PA-MPJPE [47]."
+        },
+        "Geometric Pose Affordance: Monocular 3D Human Pose Estimation with Scene Constraints": {
+            "authors": [
+                "Zhe Wang",
+                "Liyan Chen",
+                "Shaurya Rathore",
+                "Daeyun Shin",
+                "Charless Fowlkes"
+            ],
+            "url": "https://openreview.net/pdf?id=SyggmmnUwr",
+            "ref_texts": "18 Tulsiani, S., Gupta, S., Fouhey, D., AEfros, A., Malik, J., 2018. Factoring shape, pose, and layout from the 2d image of a 3d scene, in: CVPR. Varol, G., Romero, J., Martin, X., Mahmood, N., Black, M.J., Laptev, I., Schmid, C., 2017. Learning from synthetic humans, in: CVPR. Wang, C., Wang, Y ., Lin, Z., Yuille, A.L., 2018. Robust 3d human pose estimation from single images or video sequences, in: PAMI. Wang, S., Fidler, S., Urtasun, R., 2015. Holistic 3d scene understanding from a single geo-tagged image, in: CVPR. Wang, X., Girdhar, R., Gupta, A., 2017. Binge watching: Scaling a fiordance learning from sitcoms, in: CVPR. Wang, Z., Shin, D., Fowlkes, C., 2020. Predicting camera viewpoint improves cross-dataset generalization for 3d human pose estimation, in: ECCV workshop. Weinzaepfel, P., Br \u00b4egier, R., Combaluzier, H., Leroy, V ., Rogez, G., 2020. DOPE: Distillation Of Part Experts for whole-body 3D pose estimation in the wild, in: ECCV. Xiao, B., Wu, H., Wei, Y ., 2018. Simple baselines for human pose estimation and tracking, in: ECCV . Yang, W., Ouyang, W., Wang, X., Ren, J., Li, H., Wang, X., 2018. 3d human pose estimation in the wild by adversarial learning, in: CVPR. Zanfir, A., Marinoiu, E., Sminchisescu, C., 2018. Monocular 3d pose and shape estimation of multiple people in natural scenes. CVPR . Zhou, X., Huang, Q., Sun, X., Xue, X., Wei, Y ., 2017. Towards 3d human pose estimation in the wild: A weakly-supervised approach, in: ICCV . Zhou, X., Liu, S., Pavlakos, G., Kumar, V ., Daniilidis, K., 2018a. Human motion capture using a drone, in: ICRA. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K.G., Daniilidis, K., 2018b. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. PAMI ."
+        },
+        "Spatio-temporal Self-Attention for Egocentric 3D Pose Estimation": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=F_P8Dtg43vF",
+            "ref_texts": "[42] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior.IEEE transactions on pattern analysis and machine intelligence, 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "42"
+            ]
+        },
+        "DropKey": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2208.02646",
+            "ref_texts": "[35] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE transactions on pattern analysis and machine intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "We use Mean Per Vetex Error (MPVE) [21], Mean Per Joint Position Error (MPJPE) [14] and Procrustes Analysis MPJPE (PAMPJPE) [35] as metrics."
+        },
+        "Self-supervised Learning and Domain Adaptation for Visual Analysis": {
+            "authors": [],
+            "url": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/45771/Lin_washington_0250E_21446.pdf?sequence=1",
+            "ref_texts": "[230] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "230"
+            ],
+            "1": "6M dataset [78] using Protocol 2 Reconstruction Error metric [78, 230, 122], where the unit is millimeter (mm)."
+        },
+        "Machine Learning for Human Action Recognition and Pose Estimation based on 3D Information": {
+            "authors": [],
+            "url": "https://theses.hal.science/tel-02492463/file/72722_CARBONERA%20LUVIZON_2019_archivage.pdf",
+            "ref_texts": "[173] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017. 9, 99",
+            "ref_ids": [
+                "173"
+            ],
+            "1": "Deep CNN architectures have been used to learn precise 3D representations from RGB images [173, 136, 87, 135, 88] thanks to the availability of high precise 3D annotated data [57].",
+            "2": "[173] 68.",
+            "3": "[173] 113.",
+            "4": "9\n[173] X."
+        },
+        "Not all parts are created equal: 3d human pose estimation by modeling bi-directional dependencies of body parts": {
+            "authors": [
+                "Greg Hampshire"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/137277/3/Binder1.pdf",
+            "ref_texts": "[49] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2018.",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "These methods comprise a 2D pose detector and a subsequent optimization [48, 47, 49] or regression [4, 3, 17, 30, 36, 14, 19, 7, 12] step to estimate 3D pose .",
+            "2": "The most straightforward approach is to represent 3D poses as linear combinations of models learned from training data [48, 47, 49]."
+        },
+        "Parallel mesh reconstruction streams for pose estimation of interacting hands": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2104.12123",
+            "ref_texts": "[49] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 41(4):901\u2013914, 2019. 6",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "2 Evaluation Metrics PA-MPJPE reconstruction error [49] performs a 3D alignment using Procrustes analysis (PA) [10] followed by Mean-Per-Joint-Position-Error (MPJPE)[15] computation.",
+            "2": "1, 2\n[49] X."
+        },
+        "Towards Efficient and Reliable Skeleton-Based Human Pose Modeling": {
+            "authors": [],
+            "url": "https://rucore.libraries.rutgers.edu/rutgers-lib/66983/PDF/1/play/",
+            "ref_texts": "[97] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a CNN coupled with a geometric prior,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) , 2018.",
+            "ref_ids": [
+                "97"
+            ],
+            "1": "During testing, to calibrate the scale of the outputs, we require that the sum of length of all 3D bones is equal to that of a canonical skeleton as shown in [68, 67, 97].",
+            "2": "[97] X."
+        },
+        "Adversarially parameterized optimization for 3d human pose estimation": {
+            "authors": [],
+            "url": "https://eprints.qut.edu.au/115073/1/adversarial_param_opt.pdf",
+            "ref_texts": "[50] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354 , 2017. 2,5,6",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "[50] use temporal and spatial information with expectation-maximization, while Martinez et al.",
+            "2": "We thus report the per-joint error after the inferred pose undergoes an optimal rigid body transformation as is common in the literature [47] [45] [50], \u0015rt=1 njmin T2TjT(~p)\u0000pj; (15) where Tis the set of all rigid body transformations.",
+            "3": "Some are undoubtably more accurate [23] [43] [32] [25], while others use slightly different metrics, training data and/or report different metrics [4] [24]\n[49] [50].",
+            "4": "6\n[50] X."
+        },
+        "Generic video-based motion capture data retrieval": {
+            "authors": [],
+            "url": "http://www.apsipa.org/proceedings/2019/pdfs/272.pdf",
+            "ref_texts": "[14] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior,\u201d IEEE transactions on pattern analysis and machine intelligence, vol. 41, no. 4, pp. 901\u2013914, 2018.",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "[13], [14] use a CNN to extract 2D heatmaps from 2D poses to reconstruct a 3D pose sequence from a video clip.",
+            "2": "[14] X."
+        },
+        "Supplementary Material for: Human Mesh Recovery from Multiple Shots": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/supplemental/Pavlakos_Human_Mesh_Recovery_CVPR_2022_supplemental.pdf",
+            "ref_texts": "[31] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. MonoCap: Monocular human motion capture using a CNN coupled with a geometric prior. PAMI , 2018. 5",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Detailed definition of this metric is provided in [31] (authors refer to it as \u201creconstruction error\u201d)."
+        },
+        "Monocular 3D Pose Recovery via Nonconvex Sparsity with Theoretical Analysis": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1812.11295",
+            "ref_texts": "[47] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018. 3",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "For example, give a sequence of images as I= fI1;I2;\u0001\u0001\u0001;Ing, Monocap [47] considers optimizing the likelihood w.",
+            "2": "1, 8\n[47] X."
+        },
+        "3D Single Person Pose Estimation Method Based on Deep Learning.": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/wz25ffq5vramxfcys5tsero2g4/access/wayback/https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA200726",
+            "ref_texts": "[21] Zhou X, Zhu M, Pavlakos G, et al. Monocap: Monocular human motio n capture using a cnn coupled with a geometric prior[J]. IEEE tr ansactions on pattern analysis and m achine intelligence, 2018, 41(4): ",
+            "ref_ids": [
+                "21",
+                "J"
+            ],
+            "1": "[21] proposed a framework called MonoCap, which consists of a 2D part regression based on deep learning, a sparse-driven 3D reconstruction method and 3D temporal smoothness.",
+            "2": "3D human pose machines with self-supervised learning[J].",
+            "3": "3d human pose estim ation with siamese equivariant embedding[J].",
+            "4": "Xnect: Real-time multi-person 3d human pose estimation with a single rgb camera[J].",
+            "5": "Data augmentation method fo r improving the accuracy of human pose estimation with cropped im ages[J].",
+            "6": "Structure d prediction of 3d human pose with deep neural networks[J].",
+            "7": "[21] Zhou X, Zhu M, Pavlakos G, et al.",
+            "8": "Monocap: Monocular human motio n capture using a cnn coupled with a geometric prior[J].",
+            "9": "Humaneva: Synchronized video and motion capture dataset and baseline algorithm for evaluation of articulated human motion[J].",
+            "10": "6m: Large scale datasets and predictive methods for 3d human sensing in natural environments[J].",
+            "11": "Monoc ular human pose estimation: A survey of deep learning-based methods[J]."
+        },
+        "Examination Committee.": {
+            "authors": [],
+            "url": "https://www.maxwell.vrac.puc-rio.br/58981/58981.PDF"
+        },
+        "Expressive Whole-Body 3D Multi-Person Pose and Shape Estimation from a Single Image": {
+            "authors": [],
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/175282/1/000000165777.pdf",
+            "ref_texts": "[67] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis, \\Monocap: Monocular human motion capture using a CNN coupled with a geometric prior,\" TPAMI , 2019.",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "5 Zhou [67] 47.",
+            "2": "3 Zhou [67] 68.",
+            "3": "[67] X."
+        },
+        "Human motion prediction using optimized sliding window polynomial fitting and recursive least squares": {
+            "authors": [],
+            "url": "https://jcupt.bupt.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=1399",
+            "ref_texts": "3.\u6447ZhouXW,ZhuML,PavlakosG,etal.MonoCap:monocular humanmotioncaptureusingaCNNcoupledwithageometricprior. IEEETranscationsonPatternAnalysisandMachineIntelligence, 2019,41(4):901-914",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "humanmotioncapture[3],humanposeestimation [4],andhumanintentionunderstanding[5-7]."
+        },
+        "Pose estimation, tracking and comparison": {
+            "authors": [],
+            "url": "https://www.inf.uniri.hr/images/studiji/poslijediplomski/kvalifikacijski/Sajina_kvalifikacijski.pdf",
+            "ref_texts": "[58] Xiaowei Zhou et al. \u201cMonocap: Monocular human motion capture using a cnn coupled with a geometric prior\u201d. In: IEEE transactions on pattern analysis and machine intelligence 41.4 (2018), pp. 901\u2013914.",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "point between the hips [70]) or by procrustes analysis as in [8,72,31,58]."
+        },
+        "\u57fa\u4e8e L 1/2 \u6b63\u5219\u5316\u7684\u4e09\u7ef4\u4eba\u4f53\u59ff\u6001\u91cd\u6784": {
+            "authors": [],
+            "url": "http://www.aas.net.cn/fileZDHXB/journal/article/zdhxb/2018/6/PDF/zdhxb-44-6-1086.pdf",
+            "ref_texts": "38Zhou X W, Zhu M L, Pavlakos G, Leonardos S, Derpanis K G, Daniilidis K. MonoCap: monocular human motion capture using a CNN coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018, DOI: 10.1109/TPAMI.2018.2816031"
+        },
+        "Joint Representation of Multiple Geometric Priors via a Shape Decomposition Model for Single Monocular 3D Pose Estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1905.13466",
+            "ref_texts": "[19] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, K. Daniilidis, Monocap: Monocular human motion capture using a cnn coupled with a geometric prior, IEEE Transactions on Pattern Analysis and Machine Intelligence 41 (4) (2019)",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "The efiectiveness of the sparsity combination assumption has been validated in many SR based approaches [11, 19, 20, 21, 22, 23].",
+            "2": "Unlike the model-free approaches, the model-based method [35, 10, 36, 11, 13, 37, 38, 19, 20] only use 3D annotations to fft their models.",
+            "3": "A commonly used model is the active shape model (ASM) [39], where a 3D human pose is represented as a linear combination of 3D bases [10, 35, 11, 19, 20].",
+            "4": "In the strategy, the existing generative 2D detectors [14] are only used to detect 2D features, such as 2D body joints, and then the generative approaches are applied to infer 3D pose from these features [36, 42, 13, 19].",
+            "5": "This is the standard evaluation protocol which is applied in most approaches [12, 8, 29, 19].",
+            "6": "Following the same evaluation protocols in most literature [53, 45, 36, 40, 4, 54, 19, 9], we evaluated our approach on categories of \"Walking\" and \"Jogging\" performed by subjects S1, S2, and S3 from \"validation\" set.",
+            "7": "[19] 34.",
+            "8": "For example, the performances of our approach are slightly worse than the literature [19] on some categories, such as \\Walking\" of the subject the \\S1\" and \\Jogging\" of the subject \\S3\".",
+            "9": "In addition, notice that the work [19] action speciffc dictionaries for each subject separately.",
+            "10": "[19] X."
+        },
+        "Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop** Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/supplemental/Kolotouros_Learning_to_Reconstruct_ICCV_2019_supplemental.pdf",
+            "ref_texts": "[13] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. MonoCap: Monocular human motion capture using a CNN coupled with a geometric prior. PAMI , 41(4):901\u2013914, 2019.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "A definition of this error is given formally in [13] Segmentation : In Table 2 of the main manuscript we evaluate 3D shape implicitly through mesh reprojection usImage Paired Paired (top)\n Paired (side)\n Unpaired Unpaired (top)\n Unpaired (side) Figure 4: Comparison of \u201cunpaired\u201d model (no access to images with 3D ground truth) with the \u201cpaired\u201d version (limited access to images with 3D ground truth)."
+        },
+        "Real-time Online Human Tracking with a Stereo Camera for Person-Following Robots": {
+            "authors": [],
+            "url": "https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/37376/Chen_BaoXin_2019_Masters.pdf?sequence=2",
+            "ref_texts": "[8] Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "1 Motivation There has been tremendous progress in computer vision leading to many useful practical applications, such as Object detection [1] [2], Object tracking [3] [4], Image classification [5] [6], Image Segmentation [2] [7], Body Pose Estimation [8] [9], Style Transfer [10] [11], etc."
+        },
+        "3D Reconstruction, Weakly-Supervised Learning, and Supervised Learning Methods for 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/152572/1/000000155042.pdf",
+            "ref_texts": "[132] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018.",
+            "ref_ids": [
+                "132"
+            ],
+            "1": "There are a few approaches that exploit temporal information using various methods such as overcomplete dictionaries [131, 132], 3D CNNs [41], sequence-to-sequence networks [88], and multiple-view settings [86].",
+            "2": "[132] X."
+        },
+        "Affect-preserving Visual Privacy Protection": {
+            "authors": [
+                "Wanxin Xu"
+            ],
+            "url": "https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1128&context=ece_etds",
+            "ref_texts": " 118 [209] X. Zhou, M. Zhu, G. Pavla kos, S. Leonardos, K. G. Derpa nis, and K. Daniilidis. Monocap: Monocular human moti on capture using a cnn coupled with a geometric prior. arXiv preprint arXiv:1701.02354, 2017. ",
+            "ref_ids": [
+                "209"
+            ],
+            "1": "[209] estimated the pose from monocular video using t emporal and spatial information with ExpectationMaximization algorithm.",
+            "2": "118 [209] X."
+        },
+        "Echtzeittracking von Sportaktivit\u00e4ten mehrerer Personen mit nur einer Kamera": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/muup7arknfgoffnkrr7smq3y2q/access/wayback/https://www.nomos-elibrary.de/10.5771/9783840312908-135.pdf",
+            "ref_texts": "144 ELHAYEK , KOVALENKO & STRICKER : Echtzeittracking Plankers, R. & Fua, P. (2001). Tracking and modeling people in video sequences. Computer Vision and Image Understanding, 81 (3), 285-302. Poppe, R. (2007). Vision-based human motion analysis: An overview. CVIU, 108 (1-2), 4-18. Rogge, L., Klose, F., Stengel, M., Eisemann, M. & Magnor, M. (2014). Garment replacement in monocular video sequences. ACM Transactions on Graphics, 34 (1), 6. Shiratori, T., Park, H. S., Sigal, L., Sheikh, Y. & Hodgins, J. K. (2011). Motion capture from bodymounted cameras. ACM Trans. Graph., 30 (4), 31. Sigal, L., Balan, A. O. & Black, M. (2010). Humaneva: Synchronized video and motion capture dataset and baseline algorithm for evaluation of articulated human motion. International Journal of Computer Vision, 87 (1), 4-27. Stoll, C., Hasler, N., Gall, J., Seidel, H.-P. & Theobalt, C. (2011). Fast articulated motion tracking using a sums of gaussians body model. In Proceedings IEEE International Conference on Computer Vision ICCV. doi: 10.1109/ICCV.2011.6126338 Urtasun, R., Fleet, D. J. & Fua, P. (2006). Temporal motion models for monocular and multiview 3D human body tracking. Comput. Vis. Image Underst., 104 (2), 157-177. Ye, M., Shen, Y., Du, C., Pan, Z. & Yang, R. (2016). Real-time simultaneous pose and shape estimation for articulated objects using a single depth camera. IEEE Transactions on Pattern Analysis and Machine Intelligence, 38 (8), 1517-1532. Zhou, X., Zhu, M., Pavlakos, G., Leonardos, S., Derpanis, K. G. & Daniilidis, K. (2017). Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. Computer Vision and Pattern Recognition , arXiv:1701.02354 [cs.CV]. "
+        },
+        "Apprentissage automatique pour la reconnaissance d'action humaine et l'estimation de pose \u00e0 partir de l'information 3D": {
+            "authors": [
+                "Diogo Luvizon"
+            ],
+            "url": "https://www.theses.fr/2019CERG1015.pdf",
+            "ref_texts": "[173] X. Zhou, M. Zhu, G. Pavlakos, S. Leonardos, K. G. Derpanis, and K. Daniilidis. Monocap: Monocular human motion capture using a CNN coupled with a geometric prior. CoRR , abs/1701.02354, 2017. 9, 99",
+            "ref_ids": [
+                "173"
+            ],
+            "1": "Deep CNN architectures have been used to learn precise 3D representations from RGB images [173, 136, 87, 135, 88] thanks to the availability of high precise 3D annotated data [57].",
+            "2": "[173] 68.",
+            "3": "[173] 113.",
+            "4": "9\n[173] X."
+        }
+    }
+}

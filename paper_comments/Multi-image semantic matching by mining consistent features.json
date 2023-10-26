@@ -1,0 +1,249 @@
+{
+    "title": "Multi-image semantic matching by mining consistent features",
+    "id": 27,
+    "valid_pdf_number": "21/37",
+    "matched_pdf_number": "13/21",
+    "matched_rate": 0.6190476190476191,
+    "citations": {
+        "Discovery of latent 3d keypoints via end-to-end geometric reasoning": {
+            "authors": [
+                "Supasorn Suwajanakorn",
+                "Noah Snavely",
+                "Jonathan J. Tompson",
+                "Mohammad Norouzi"
+            ],
+            "url": "https://proceedings.neurips.cc/paper/2018/file/24146db4eb48c718b84cae0a0799dcfc-Paper.pdf",
+            "ref_texts": "[60] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. arXiv preprint arXiv:1711.07641 , 2017.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "[60] rely on deep features and perform a multi-image matching across an image collection by solving a feature selection and labeling problem."
+        },
+        "Multibodysync: Multi-body segmentation and motion estimation via 3d scan synchronization": {
+            "authors": [
+                "Jiahui Huang",
+                "He Wang",
+                "Tolga Birdal",
+                "Minhyuk Sung",
+                "Federica Arrigoni",
+                "Min Hu",
+                "Leonidas J. Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MultiBodySync_Multi-Body_Segmentation_and_Motion_Estimation_via_3D_Scan_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[67] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2018. 2",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "PS is rich in the variety of algorithms: low-rank formulations [80,67], convex programming [30], distributed optimization [30], multi-graph matching[57] or Riemannian optimization [12]."
+        },
+        "Quantum permutation synchronization": {
+            "authors": [
+                "Tolga Birdal",
+                "Vladislav Golyanik",
+                "Christian Theobalt",
+                "Leonidas J. Guibas"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Birdal_Quantum_Permutation_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[101] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In Computer Vision and Pattern Recognition (CVPR) , 2018.",
+            "ref_ids": [
+                "101"
+            ],
+            "1": "This sub-field also attracted a descent amount of attention: low-rank formulations [104,101], convex programming [55], multi-graph matching[86], distributed optimization [55] or Riemannian optimization [16].",
+            "2": "We follow [101] and extract local features from a set of 227\u00d7227patches centered around the annotated landmarks, using Alexnet [64] pretrained on ImageNet [35]."
+        },
+        "Learning for graph matching and related combinatorial optimization problems": {
+            "authors": [],
+            "url": "https://eprints.whiterose.ac.uk/160087/1/MLGM_SVY_IJCAI20_Review_14_1.pdf",
+            "ref_texts": "[Vlastelica et al. , 2020 ]M. Vlastelica, A. Paulus, V . Musil, G. Martius, and M. Rol \u00b4\u0131nek. Differentiation of blackbox combinatorial solvers. 2020.[Wang et al. , 2018 ]Q. Wang, X. Zhou, and K. Daniilidis. Multiimage semantic matching by mining consistent features. In CVPR , 2018.",
+            "ref_ids": [
+                "Vlastelica et al\\. , 2020 ",
+                "Wang et al\\. , 2018 "
+            ]
+        },
+        "Graduated assignment for joint multi-graph matching and clustering with application to unsupervised graph matching network learning": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf",
+            "ref_texts": "[12] Q. Wang, X. Zhou, and K. Daniilidis, \u201cMulti-image semantic matching by mining consistent features,\u201d in CVPR , 2018.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Traditional GM algorithms mainly solve two-graph matching problems via continuous relaxation [2, 3,4,5,6] or tree search algorithms [7,8] with fixed affinity metric, while there exists increasing interest on developing more robust graph matching by fusing multiple graph information, known as multi-graph matching (MGM) [9,10,11,12,13,14] and adopting learnable affinity functions (known as learning graph matching [15,16], especially deep graph matching [17,18,19]).",
+            "2": "669 MSIM [12] free 0.",
+            "3": "For the MGM problem, as the learning-free version of our method is comparative with the recent learning-free peer MGM methods [12,27,34], we mainly compare with the available supervised deep learning methods (only for two graphs).",
+            "4": "10\n[12] Q."
+        },
+        "Isometric multi-shape matching": {
+            "authors": [
+                "Maolin Gao",
+                "Zorah Lahner",
+                "Johan Thunberg",
+                "Daniel Cremers",
+                "Florian Bernard"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Isometric_Multi-Shape_Matching_CVPR_2021_paper.pdf",
+            "ref_texts": "[73] Fan Wang, Qixing Huang, and Leonidas J Guibas. Image co-segmentation via consistent functional maps. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 849\u2013856, 2013. 3[74] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-Image Semantic Matching by Mining Consistent Features. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2018. 3",
+            "ref_ids": [
+                "73",
+                "74"
+            ],
+            "1": "This includes orientationpreservation [56], image co-segmentation [73], denoising [22,55], partiality [58], and non-isometries [21].",
+            "2": "for matching multiple graphs [77,76,65,6,67,75], or matching keypoints in image collections [74,70,42].",
+            "3": "2\n[73] Fan Wang, Qixing Huang, and Leonidas J Guibas."
+        },
+        "A convex relaxation for multi-graph matching": {
+            "authors": [
+                "Paul Swoboda",
+                "Dagmar Kainm",
+                "Ashkan Mokarian",
+                "Christian Theobalt",
+                "Florian Bernard"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Swoboda_A_Convex_Relaxation_for_Multi-Graph_Matching_CVPR_2019_paper.pdf",
+            "ref_texts": "[38] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In CVPR , 2018.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "The work [38] proposes a smooth nonconvex rankconstrained formulation of the multi-matching problem and utilize block coordinate descent on the resulting problem."
+        },
+        "Hippi: Higher-order projected power iterations for scalable multi-matching": {
+            "authors": [
+                "Florian Bernard",
+                "Johan Thunberg",
+                "Paul Swoboda",
+                "Christian Theobalt"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Bernard_HiPPI_Higher-Order_Projected_Power_Iterations_for_Scalable_Multi-Matching_ICCV_2019_paper.pdf",
+            "ref_texts": "[51] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-Image Semantic Matching by Mining Consistent Features. In CVPR , 2018. 1,3,6,7",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "[51]) do not scale to large problems (shown are runtimes when matching 5\u201350objects, each having 20points, so that a total of 100\u20131000 points are matched).",
+            "2": "Rather than modelling higher-order relations between points, the recent approach [51] accounts for geometric consistency in 2D multi-image matching problems by imposing a low rank of the (stacked) 2D image coordinates of the feature points.",
+            "3": "Other methods that incorporate geometric information [56,53,51] do not scale to such large problem instances, see Fig.",
+            "4": "Willow Dataset The evaluation on the Willow dataset [15] is based on the experimental protocol from [51], where deep features have been used for matching.",
+            "5": "[51] consider geometric relations between points, amongst which O URS is the fastest (note that the reported runtimes include the initialisation)."
+        },
+        "Probabilistic permutation synchronization using the riemannian structure of the birkhoff polytope": {
+            "authors": [
+                "Tolga Birdal",
+                "Umut Simsekli"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Birdal_Probabilistic_Permutation_Synchronization_Using_the_Riemannian_Structure_of_the_Birkhoff_CVPR_2019_paper.pdf",
+            "ref_texts": "[77] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In CVPR , 2018.",
+            "ref_ids": [
+                "77"
+            ],
+            "1": "Note that lack of this geometric understanding caused plenty of obstacles for scholars dealing with our problem [61, 77].",
+            "2": "[77] made use of the domain knowledge and added the geometric consistency of image coordinates as a 11106\n low-rank term to increase the recall.",
+            "3": "[77].",
+            "4": "[77].",
+            "5": "Note that [77] uses a similar cost function to ours in order to initialize an alternating procedure that in addition exploits the geometry of image coordinates.",
+            "6": "[77] and perform geometric optimization, we attain the top results.",
+            "7": "Wang\u2212refers to running Wang [77] without the geometric consistency term.",
+            "8": "Dataset Initial Spectral [56] MatchLift [36] MatchALS [85] MatchEig [51] Wang\u2212[77] Ours Wang [77] Ours-Geom Car 0.",
+            "9": "[51, 77].",
+            "10": "There, unsatisfactory solutions arising in certain cases are improved by analyzing the uncertainty 2[77] reports a value of 0."
+        },
+        "Fast, accurate and memory-efficient partial permutation synchronization": {
+            "authors": [
+                "Shaohan Li",
+                "Yunpeng Shi",
+                "Gilad Lerman"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_Fast_Accurate_and_Memory-Efficient_Partial_Permutation_Synchronization_CVPR_2022_paper.pdf",
+            "ref_texts": "[25] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multiimage semantic matching by mining consistent features. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "It can be easily adapted to PPS tasks by using other heuristic projection methods [2,25]."
+        },
+        "Unsupervised 3D reconstruction and grouping of rigid and non-rigid categories": {
+            "authors": [],
+            "url": "https://digital.csic.es/bitstream/10261/296082/1/2344-Unsupervised-3D-Reconstruction-and-Grouping-of-Rigid-and-Non-Rigid-Categories.pdf",
+            "ref_texts": "[56] Q. Wang, X. Zhou, and K. Daniilidis. Multi-image semantic matching by mining consistent features. In CVPR , 2018.",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Some recent works [56], [62], [63] to address this problem have been proposed, which though, are beyond the scope of this paper.",
+            "2": "[56] Q."
+        },
+        "Self-Supervised Bidirectional Learning for Graph Matching": {
+            "authors": [
+                "Wenqi Guo",
+                "Lin Zhang",
+                "Shikui Tu",
+                "Lei Xu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25943/25715",
+            "ref_texts": "7791 Mitrovic, J.; McWilliams, B.; Walker, J.; Buesing, L.; and Blundell, C. 2020. Representation learning via invariant causal mechanisms. arXiv preprint arXiv:2010.07922. Oord, A. v. d.; Li, Y .; and Vinyals, O. 2018. Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748. Rol\u00b4\u0131nek, M.; Swoboda, P.; Zietlow, D.; Paulus, A.; Musil, V .; and Martius, G. 2020. Deep graph matching via blackbox differentiation of combinatorial solvers. In European Conference on Computer Vision, 407\u2013424. Springer. Sharan, R.; and Ideker, T. 2006. Modeling cellular machinery through biological network comparison. Nature biotechnology, 24(4): 427\u2013433. Simonyan, K.; and Zisserman, A. 2014. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556. Sinkhorn, R. 1964. A relationship between arbitrary positive matrices and doubly stochastic matrices. The annals of mathematical statistics, 35(2): 876\u2013879. Vento, M.; and Foggia, P. 2013. Graph matching techniques for computer vision. In Image Processing: Concepts, Methodologies, Tools, and Applications, 381\u2013421. IGI Global. Wah, C.; Branson, S.; Welinder, P.; Perona, P.; and Belongie, S. 2011. The Caltech-UCSD Birds-200-2011 Dataset. Technical Report CNS-TR-2011-001, California Institute of Technology. Wang, Q.; Zhou, X.; and Daniilidis, K. 2018. Multi-image semantic matching by mining consistent features. In Proceedings of the IEEE conference on computer vision and pattern recognition, 685\u2013694. Wang, R.; Jiang, S.; Yan, J.; and Yang, X. 2021. Robust Selfsupervised Learning of Deep Graph Matching with Mixture of Modes. Submitted to IEEE Transactions of Pattern Analysis and Machine Intelligence. Wang, R.; Yan, J.; and Yang, X. 2019. Learning combinatorial embedding networks for deep graph matching. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 3056\u20133065. Wang, R.; Yan, J.; and Yang, X. 2021. Neural graph matching network: Learning lawler\u2019s quadratic assignment problem with extension to hypergraph and multiple-graph matching. IEEE Transactions on Pattern Analysis and Machine Intelligence. Xie, Y .; Xu, Z.; and Ji, S. 2022. Self-Supervised Representation Learning via Latent Graph Prediction. arXiv preprint arXiv:2202.08333. Xie, Y .; Xu, Z.; Zhang, J.; Wang, Z.; and Ji, S. 2022. Selfsupervised learning of graph neural networks: A unified review. IEEE Transactions on Pattern Analysis and Machine Intelligence. Xu, K.; Hu, W.; Leskovec, J.; and Jegelka, S. 2018. How powerful are graph neural networks? arXiv preprint arXiv:1810.00826.Xu, L. 2019a. Deep IA-BI and five actions in circling. In International Conference on Intelligent Science and Big Data Engineering, 1\u201321. Springer. Xu, L. 2019b. Deep IA-BI and Five Actions in Circling. InInternational Conference on Intelligent Science and Big Data Engineering, 1\u201321. Springer. Yan, J.; Yin, X.-C.; Lin, W.; Deng, C.; Zha, H.; and Yang, X."
+        },
+        "Robust multi-object matching via iterative reweighting of the graph connection Laplacian": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/ae06fbdc519bddaa88aa1b24bace4500-Paper.pdf",
+            "ref_texts": "[30] Q. Wang, X. Zhou, and K. Daniilidis. Multi-image semantic matching by mining consistent features. InIEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018, 2018.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "[30] improve the matching accuracy of [34] by incorporating a geometric constraint on the pixel coordinates of keypoints.",
+            "2": "We use the same method suggested by [30] to extract CNN features from 10 annotated keypoints for each image through AlexNet [16].",
+            "3": "The candidate for the initial matching is obtained by applying the Hungarian algorithm on the feature similarity matrix, following the same procedure as [30].",
+            "4": "We do not compare with [30] since it requires additional geometric information from the pixel coordinates of keypoints.",
+            "5": "[30] Q."
+        },
+        "Joint deep multi-graph matching and 3d geometry learning from inhomogeneous 2d image collections": {
+            "authors": [
+                "Zhenzhang Ye",
+                "Tarun Yenamandra",
+                "Florian Bernard",
+                "Daniel Cremers"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20220/19979",
+            "ref_texts": "3132 Pachauri, D.; Kondor, R.; and Singh, V . 2013. Solving the Multi-way Matching Problem by Permutation Synchronization. In Advances in Neural Information Processing Systems. Pardalos, P.; Rendl, F.; and Wolkowitz, H. 1994. The Quadratic Assignment Problem: A Survey and Recent Developments. Quadratic Assignment and related problem. DIMACS: Series in Discrete Mathematics and Theoretical Computer Science. Park, K.; Sinha, U.; Barron, J. T.; Bouaziz, S.; Goldman, D. B.; Seitz, S. M.; and Martin-Brualla, R. 2020. Deformable Neural Radiance Fields. arXiv preprint arXiv:2011.12948. Rol\u00b4\u0131nek, M.; Swoboda, P.; Zietlow, D.; Paulus, A.; Musil, V .; and Martius, G. 2020. Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers. In European Conference on Computer Vision. Swoboda, P.; Rother, C.; Alhaija, H. A.; Kainm \u00a8uller, D.; and Savchynskyy, B. 2017. Study of Lagrangean Decomposition and Dual Ascent Solvers for Graph Matching. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Tewari, A.; Zoll \u00a8ofer, M.; Kim, H.; Garrido, P.; Bernard, F.; Perez, P.; and Christian, T. 2017. MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction. In Proceedings of the IEEE International Conference on Computer Vision. Tron, R.; Zhou, X.; Esteves, C.; and Daniilidis, K. 2017. Fast Multi-Image Matching via Density-Based Clustering. In Proceedings of the IEEE International Conference on Computer Vision. Wang, Q.; Zhou, X.; and Daniilidis, K. 2018. Multi-Image Semantic Matching by Mining Consistent Features. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Wang, R.; Yan, J.; and Yang, X. 2019a. Learning Combinatorial Embedding Networks for Deep Graph Matching. In Proceedings of the IEEE International Conference on Computer Vision. Wang, R.; Yan, J.; and Yang, X. 2019b. Neural Graph Matching Network: Learning Lawler\u2019s Quadratic Assignment Problem with Extension to Hypergraph and Multiplegraph Matching. arXiv preprint arXiv:1911.11308. Wang, R.; Yan, J.; and Yang, X. 2020. Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning. In Larochelle, H.; Ranzato, M.; Hadsell, R.; Balcan, M. F.; and Lin, H., eds., Advances in Neural Information Processing Systems, volume 33, 19908\u201319919. Curran Associates, Inc. Wang, R.; Yang, N.; Stueckler, J.; and Cremers, D. 2020a. DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation. In Proceedings of the IEEE International Conference on Robotics and Automation. Wang, T.; Ling, H.; Lang, C.; and Feng, S. 2018. Graph Matching with Adaptive and Branching Path Following.IEEE Transactions on Pattern Analysis and Machine Intelligence. Wang, T.; Liu, H.; Li, Y .; Jin, Y .; Hou, X.; and Ling, H."
+        },
+        "Don't Miss the Potential Customers! Retrieving Similar Ads to Improve User Targeting": {
+            "authors": [],
+            "url": "https://aclanthology.org/2021.findings-emnlp.129.pdf",
+            "ref_texts": ""
+        },
+        "Toward Reliable Graph Matching: from Deterministic Optimization to Combinatorial Learning": {
+            "authors": [],
+            "url": "https://keep.lib.asu.edu/_flysystem/fedora/c7/Yu_asu_0010E_21295.pdf",
+            "ref_texts": "104 Torr, P. H. S., \\Solving markov random ffelds using semideffnite programmin\", in \\AISTATS\", (2003). Tran, D., H. Wang, L. Torresani, J. Ray, Y. LeCun and M. Paluri, \\A closer look at spatiotemporal convolutions for action recognition\", in \\CVPR\", (2018). Veli\u0014 ckovi\u0013 c, P., G. Cucurull, A. Casanova, A. Romero, P. Li\u0012 o and Y. Bengio, \\Graph Attention Networks\", in \\ICLR\", (2018). Wang, H., J. Wang, J. Wang, M. Zhao, W. Zhang, F. Zhang, X. Xie and M. Guo, \\Graphgan: Graph representation learning with generative adversarial nets\", in \\AAAI\", (2018a). Wang, Q., X. Zhou and K. Daniilidis, \\Multi-image semantic matching by mining consistent features\", in \\CVPR\", (2018b). Wang, R., J. Yan and X. Yang, \\Learning combinatorial embedding networks for deep graph matching\", in \\ICCV\", (2019a). Wang, R., J. Yan and X. Yang, \\Neural graph matching network: Learning lawler's quadratic assignment problem with extension to hypergraph and multiple-graph matching\", arXiv preprint arXiv:1911.11308 (2019b). Wang, T., H. Ling, C. Lang and J. Wu, \\Branching path following for graph matching\", in \\ECCV\", (2016). Weighill, D., M. B. Guebila, C. Lopes-Ramos, K. Glass, J. Quackenbush, J. Platig and R. Burkholz, \\Gene regulatory network inference as relaxed graph matching\", BioRxiv (2020). Welinder, P., S. Branson, T. Mita, C. Wah, F. Schrofi, S. Belongie and P. Perona, \\Caltech-UCSD Birds 200\", Tech. Rep. CNS-TR-2010-001, California Institute of Technology (2010). Williams, R. J., \\Simple statistical gradient-following algorithms for connectionist reinforcement learning\", Machine Learning 8, 3, 229{256 (1992). Xiong, H. and J. Yan, \\Btwalk: Branching tree random walk for multi-order structured network embedding\", IEEE Transactions on Knowledge and Data Engineering (2020). Xu, H., D. Luo, H. Zha and L. Carin, \\Gromov-wasserstein learning for graph matching and node embedding\", ICML (2019). Yan, J., M. Cho, H. Zha, X. Yang and S. Chu, \\Multi-graph matching via aflnity optimization with graduated consistency regularization\", TPAMI (2016). Yan, J., J. Wang, H. Zha, X. Yang and S. Chu, \\Consistency-driven alternating optimization for multigraph matching: A uniffed approach\", IEEE Transactions on Image Processing 24, 3, 994{1009 (2015a)."
+        },
+        "Quantum Permutation Synchronization\u2013\u2013\u2013Supplementary Material\u2014": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/supplemental/Birdal_Quantum_Permutation_Synchronization_CVPR_2021_supplemental.pdf",
+            "ref_texts": "[7] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In Computer Vision and Pattern Recognition (CVPR) , 2018. 5",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "[7] and benefited from the state-of-the-art-deep learning approaches."
+        },
+        "Toward More Robust Graph Matching: Models and Algorithms": {
+            "authors": [],
+            "url": "https://thinklab.sjtu.edu.cn/src/gm_survey.pdf",
+            "ref_texts": "[Wang et al. , 2018 ]Q. Wang, X. Zhou, and K. Daniilidis. Multi-image semantic matching by mining consistent features. In CVPR , 2018.",
+            "ref_ids": [
+                "Wang et al\\. , 2018 "
+            ]
+        },
+        "Graph Neural Networks For Multi-Image Matching": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=Hkgpnn4YvH",
+            "ref_texts": "11 Under review as a conference paper at ICLR 2020 Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 685\u2013694, 2018. Kwang Moo Yi, Eduard Trulls, Vincent Lepetit, and Pascal Fua. Lift: Learned invariant feature transform. In European Conference on Computer Vision , pp. 467\u2013483. Springer, 2016. Kwang Moo Yi, Eduard Trulls, Yuki Ono, Vincent Lepetit, Mathieu Salzmann, and Pascal Fua. Learning to find good correspondences. In Proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , number CONF, 2018. Christopher Zach, Manfred Klopschitz, and Marc Pollefeys. Disambiguating visual relations using loop constraints. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition , pp. 1426\u20131433. IEEE, 2010. Sergey Zagoruyko and Nikos Komodakis. Learning to compare image patches via convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 4353\u20134361, 2015. Zhen Zhang and Wee Sun Lee. Deep graphical feature learning for the feature matching problem. InProceedings of the IEEE International Conference on Computer Vision , 2019. Qunjie Zhou, Torsten Sattler, Marc Pollefeys, and Laura Leal-Taixe. To learn or not to learn: Visual localization from essential matrices. IEEE Conference on Computer Vision and Pattern Recognition Workshop: Image Matching: Local Features and Beyond , 2019. Tinghui Zhou, Yong Jae Lee, Stella X Yu, and Alyosha A Efros. Flowweb: Joint image set alignment by weaving consistent, pixel-wise correspondences. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 1191\u20131200, 2015a. Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pp."
+        },
+        "Robust and flexible puzzle solving with corner-based cycle consistent correspondences": {
+            "authors": [],
+            "url": "https://cronfa.swan.ac.uk/Record/cronfa51628/Download/0051628-29082019152141.pdf"
+        },
+        "Probabilistic Permutation Synchronization using the Riemannian Structure of the Birkhoff Polytope-Supplementary Material": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Birdal_Probabilistic_Permutation_Synchronization_CVPR_2019_supplemental.pdf",
+            "ref_texts": "[21] Qianqian Wang, Xiaowei Zhou, and Kostas Daniilidis. Multi-image semantic matching by mining consistent features. InCVPR , 2018.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[21]."
+        }
+    }
+}

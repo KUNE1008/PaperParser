@@ -1,0 +1,24 @@
+{
+    "title": "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies",
+    "id": 69,
+    "valid_pdf_number": "1/4",
+    "matched_pdf_number": "1/1",
+    "matched_rate": 1.0,
+    "citations": {
+        "ECON: Explicit Clothed humans Optimized via Normal integration": {
+            "authors": [
+                "Yuliang Xiu",
+                "Jinlong Yang",
+                "Xu Cao",
+                "Dimitrios Tzionas",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xiu_ECON_Explicit_Clothed_Humans_Optimized_via_Normal_Integration_CVPR_2023_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Qi Fang, Yudong Guo, Sida Peng, Qing Shuai, Xiaowei Zhou, and Hujun Bao. Totalselfscan: Learning fullbody avatars from self-portrait videos of faces, hands, and bodies. In Conference on Neural Information Processing Systems (NeurIPS) , 2022. 7",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "ECON \u2019s reconstructions, together with its underneath SMPL-X body, could be useful as 3D shape prior to learn neural avatars [13, 24, 32]."
+        }
+    }
+}

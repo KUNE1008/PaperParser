@@ -1,0 +1,61 @@
+{
+    "title": "Efficient Neural Radiance Fields for Interactive Free-viewpoint Video",
+    "id": 50,
+    "valid_pdf_number": "3/8",
+    "matched_pdf_number": "3/3",
+    "matched_rate": 1.0,
+    "citations": {
+        "Learning Neural Duplex Radiance Fields for Real-Time View Synthesis": {
+            "authors": [
+                "Ziyu Wan",
+                "Christian Richardt",
+                "Aljaz Bozic",
+                "Chao Li",
+                "Vijay Rengarajan",
+                "Seonghyeon Nam",
+                "Xiaoyu Xiang",
+                "Tuotuo Li",
+                "Bo Zhu",
+                "Rakesh Ranjan",
+                "Jing Liao"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wan_Learning_Neural_Duplex_Radiance_Fields_for_Real-Time_View_Synthesis_CVPR_2023_paper.pdf",
+            "ref_texts": "[23] Haotong Lin, Sida Peng, Zhen Xu, Yunzhi Yan, Qing Shuai, Hujun Bao, and Xiaowei Zhou. Efficient neural radiance fields for interactive free-viewpoint video. In SIGGRAPH Asia 2022 Conference Papers, pages 1\u20139, 2022.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "ENeRF [23] tries to tackle interactive free-viewpoint video by skipping the sampling of empty space."
+        },
+        "Neural Scene Chronology": {
+            "authors": [
+                "Haotong Lin",
+                "Qianqian Wang",
+                "Ruojin Cai",
+                "Sida Peng",
+                "Hadar Averbuch",
+                "Xiaowei Zhou",
+                "Noah Snavely"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Neural_Scene_Chronology_CVPR_2023_paper.pdf",
+            "ref_texts": "[21] Haotong Lin, Sida Peng, Zhen Xu, Yunzhi Yan, Qing Shuai, Hujun Bao, and Xiaowei Zhou. Efficient neural radiance fields for interactive free-viewpoint video. In SIGGRAPH Asia, 2022. 3",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Many works [8,17,18,21,34 \u201336,51,53,54] extend NeRF to model dynamic scenes with moving objects given a monocular or multi-view video as input."
+        },
+        "Learning Visibility Field for Detailed 3D Human Reconstruction and Relighting": {
+            "authors": [
+                "Ruichen Zheng",
+                "Peng Li",
+                "Haoqian Wang",
+                "Tao Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Learning_Visibility_Field_for_Detailed_3D_Human_Reconstruction_and_Relighting_CVPR_2023_paper.pdf",
+            "ref_texts": "[27] Haotong Lin, Sida Peng, Zhen Xu, Yunzhi Yan, Qing Shuai, Hujun Bao, and Xiaowei Zhou. Efficient neural radiance fields for interactive free-viewpoint video. In SIGGRAPH Asia 2022 Conference Papers , pages 1\u20139, 2022. 6",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "We also extract patches using depth-guided raymarching [27] and supervise its albedo using VGG perceptual loss."
+        }
+    }
+}

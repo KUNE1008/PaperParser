@@ -1,0 +1,129 @@
+{
+    "title": "Fast and robust multi-person 3d pose estimation and tracking from multiple views",
+    "id": 37,
+    "valid_pdf_number": "9/21",
+    "matched_pdf_number": "7/9",
+    "matched_rate": 0.7777777777777778,
+    "citations": {
+        "Neural human performer: Learning generalizable radiance fields for human performance rendering": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf",
+            "ref_texts": ""
+        },
+        "GLAMR: Global occlusion-aware human mesh recovery with dynamic cameras": {
+            "authors": [
+                "Ye Yuan",
+                "Umar Iqbal",
+                "Pavlo Molchanov",
+                "Kris Kitani",
+                "Jan Kautz"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_GLAMR_Global_Occlusion-Aware_Human_Mesh_Recovery_With_Dynamic_Cameras_CVPR_2022_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation and tracking from multiple views. TPAMI , 2021. 2",
+            "ref_ids": [
+                "13"
+            ]
+        },
+        "Capturing and inferring dense full-body human-scene contact": {
+            "authors": [
+                "Hao P. Huang",
+                "Hongwei Yi",
+                "Markus Hoschle",
+                "Matvey Safroshkin",
+                "Tsvetelina Alexiadis",
+                "Senya Polikovsky",
+                "Daniel Scharstein",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_Capturing_and_Inferring_Dense_Full-Body_Human-Scene_Contact_CVPR_2022_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robustmulti-person 3D pose estimation and tracking from multiple views. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2021. 3,4",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Powered by CNNs, recent methods leverage multiview consistency to improve keypoint detection [27,31,59,73], to re-identify subjects across views [14] or across view and time [13,96], but they estimate only joints, not body meshes.",
+            "2": "Other methods that build such 4D associations [13,96] could also be applied here."
+        },
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[15] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Hujun Bao, and Xiaowei Zhou. Fast and robust multiperson 3d pose estimation and tracking from multiple views. T-PAMI , 2021.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Given four monocular part-specific videos (body, head, and two hands) of the performer, we first utilize the EasyMoCap [1,16,15] to estimate SMPL+H [42] parameters for the body and hands videos and utilize an adaptation of [49] to estimate the FLAME [28] parameters for the face video."
+        },
+        "Virtual correspondence: Humans as a cue for extreme-view geometry": {
+            "authors": [
+                "Chiu Ma",
+                "Anqi Joyce",
+                "Shenlong Wang",
+                "Raquel Urtasun",
+                "Antonio Torralba"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Virtual_Correspondence_Humans_as_a_Cue_for_Extreme-View_Geometry_CVPR_2022_paper.pdf",
+            "ref_texts": "[20] Daniel DeTone, Tomasz Malisiewicz, and Andrew Rabinovich. Superpoint: Self-supervised interest point detection and description. In CVPR , 2018. 2,4,6[21] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation and tracking from multiple views. In TPAMI , 2021.",
+            "ref_ids": [
+                "20",
+                "21"
+            ],
+            "1": "Prevalent approaches focus on hand-crafted [7,13,50,55,65,77] or learned [20,23,60,81\u201384] robust visual features that can distinguish one pixel from the others in diverse scenarios.",
+            "2": "With the flourishing of deep learning, these methods have made tremendous progress, either from a single image [41,44,47] or multi-view images [21,22,25,61].",
+            "3": "The first scenario is exactly the definition of classic correspondences [20,66].",
+            "4": "25SuperPoint [20]+B A[68] 9.",
+            "5": "For traditional matching-based methods, we first detect the key points and extract their corresponding features with SIFT [55] or SuperPoint [20].",
+            "6": "3\n[20] Daniel DeTone, Tomasz Malisiewicz, and Andrew Rabinovich."
+        },
+        "Learning Analytical Posterior Probability for Human Mesh Recovery": {
+            "authors": [
+                "Qi Fang",
+                "Kang Chen",
+                "Yinghui Fan",
+                "Qing Shuai",
+                "Jiefeng Li",
+                "Weidong Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Fang_Learning_Analytical_Posterior_Probability_for_Human_Mesh_Recovery_CVPR_2023_paper.pdf",
+            "ref_texts": "[7] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation and tracking from multiple views. IEEE TPAMI , 44(10):6981\u20136992, 2021. 2",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "Multi-sensor fusion: Recently an increasing number of approaches attempt to integrate extra observations from other sensors, such as IMUs [10,65,66] and muli-view cameras [7, 71, 73], to obtain more reliable estimations."
+        },
+        "GM-NeRF: Learning Generalizable Model-based Neural Radiance Fields from Multi-view Images": {
+            "authors": [
+                "Jianchuan Chen",
+                "Wentao Yi",
+                "Liqian Ma",
+                "Xu Jia",
+                "Huchuan Lu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_GM-NeRF_Learning_Generalizable_Model-Based_Neural_Radiance_Fields_From_Multi-View_Images_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation and tracking from multiple views. PAMI , 2021. 2",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Given mcalibrated multi-view images {Ik}m k=1of a person, we use Easymocap [11] to obtain the SMPL [23] parameters M(\u03b8, \u03b2)of the person."
+        },
+        "A Distributed Real-time 3D Pose Estimation Framework based on Asynchronous Multiviews": {
+            "authors": [],
+            "url": "https://itiis.org/journals/tiis/digital-library/manuscript/file/38401/TIIS%20Vol%2017,%20No%202-15.pdf",
+            "ref_texts": "[1] J. Dong, Q. Fang, W. Jiang, Y. Yang, Q. Huang, H. Bao, and X. Zhou, \u201cFast and Robust Multi Person 3D Pose Estimation and Tracking from Multiple Views,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence , vol. 44, no. 10, pp. 6981 -6992, Oct., 2022. Article (CrossRef Link) ",
+            "ref_ids": [
+                "1"
+            ],
+            "1": "The 3D human pose reconstruction is applied in various fields , such as motion capture, humancomputer interaction, video surveillance, and sports broadcasting [1].",
+            "2": "In this method, feature maps are aggregated and processed by a 3D convolutional neural network without 3D projection [1, 29].",
+            "3": "[1] J."
+        },
+        "Artistic control over the glitch in AI-generated motion capture": {
+            "authors": [],
+            "url": "https://xaixarts.github.io/accepted-2023/Knight-XAIxArts-2023-Paper.pdf",
+            "ref_texts": "[5] Dong, J., Fang, Q., Jiang, W., Yang, Y., Huang, Q., Bao, H., & Zhou, X. (2021). Fast and Robust Multi -Person 3D Pose Estimation and Tracking from Multiple Views. IEEE Transactions on Pattern Analysis and Machine Intelligence, ",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "This research explores the application of machine learning in this area , using the single -camera VIBE [8] and multi -camera EasyMocap [5] models to drive performer -driven abstract animation.",
+            "2": "1215/17432197 -3755156 \n[5] Dong, J."
+        }
+    }
+}

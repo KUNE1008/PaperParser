@@ -1,0 +1,272 @@
+{
+    "title": "Modeling Indirect Illumination for Inverse Rendering",
+    "id": 45,
+    "valid_pdf_number": "14/28",
+    "matched_pdf_number": "13/14",
+    "matched_rate": 0.9285714285714286,
+    "citations": {
+        "Shape, light, and material decomposition from images using Monte Carlo rendering and denoising": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8fcb27984bf16ca03cad643244ec470d-Paper-Conference.pdf",
+            "ref_texts": "[77] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling Indirect Illumination for Inverse Rendering. arXiv:2204.06837 , 2022.",
+            "ref_ids": [
+                "77"
+            ],
+            "1": "Some methods account for shadowing and indirect illumination [6,75,77], but often lock the geometry optimization when sampling the shadow term, or rely on learned representations of irradiance.",
+            "2": "Most related to our work are neural 3D reconstruction methods with intrinsic decomposition of shape, materials, and lighting from images [6,7,41,73,75,77].",
+            "3": "mixtures of spherical Gaussians [6,41,73,77], pre-filtered approximations [7,41], or low resolution environment maps [75].",
+            "4": "Other approaches represent indirect illumination with neural networks [63, 77]."
+        },
+        "S-NeRF: Neural Reflectance Field from Shading and Shadow under a Single Viewpoint": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/0a630402ee92620dc2de3b704181de9b-Paper-Conference.pdf",
+            "ref_texts": "[72] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. arXiv preprint arXiv:2204.06837 , 2022. 3",
+            "ref_ids": [
+                "72"
+            ],
+            "1": "Inverse rendering methods have been proposed to jointly recover shape, materials, and lightings in a casual capture setup [3,4,69,71,72]."
+        },
+        "Neural Fields meet Explicit Geometric Representations for Inverse Rendering of Urban Scenes": {
+            "authors": [
+                "Zian Wang",
+                "Tianchang Shen",
+                "Jun Gao",
+                "Shengyu Huang",
+                "Jacob Munkberg",
+                "Jon Hasselgren",
+                "Zan Gojcic",
+                "Wenzheng Chen",
+                "Sanja Fidler"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Neural_Fields_Meet_Explicit_Geometric_Representations_for_Inverse_Rendering_of_CVPR_2023_paper.pdf",
+            "ref_texts": "[64] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In CVPR, 2022. 2, 3",
+            "ref_ids": [
+                "64"
+            ],
+            "1": "Additionally, they forgo the volumetric rendering of secondary rays and instead approximate the direct/indirect lighting through a visibility MLP [42, 64].",
+            "2": "To reduce the complexity of ray-tracing in neural fields, prior works explore using MLP to encode visibility field [26, 42] or Spherical Gaussian visibility [64], but typically limited to object-level or low-frequency effects."
+        },
+        "TensoIR: Tensorial Inverse Rendering": {
+            "authors": [
+                "Haian Jin",
+                "Isabella Liu",
+                "Peijia Xu",
+                "Xiaoshuai Zhang",
+                "Songfang Han",
+                "Sai Bi",
+                "Xiaowei Zhou",
+                "Zexiang Xu",
+                "Hao Su"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Jin_TensoIR_Tensorial_Inverse_Rendering_CVPR_2023_paper.pdf",
+            "ref_texts": "[42] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 18643\u201318652, 2022. 2, 3, 5, 7",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Limited by the high-cost MLP evaluation, previous NeRF-based methods and SDF-based methods either simply ignore secondary effects [6, 7, 39], or avoid online computation by approximating these effects in extra distilled MLPs [41, 42], requiring expensive pre-computation and leading to degradation in accuracy.",
+            "2": "However, since each lighting condition corresponds to a separate radiancefield, this can lead to extremely high computational costs if reconstructing multiple purely MLP-based NeRFs like previous works [28,41,42].",
+            "3": "Our approach outperforms previous inverse rendering methods [41,42] by a large margin qualitatively and quantitatively on challenging synthetic scenes, achieving state-ofthe-art quality in scene reconstruction \u2013 for both geometry and material properties \u2013 and rendering \u2013 for both novel view synthesis and relighting.",
+            "4": "While neural representations have recently been used for inverse rendering tasks, they [3,6,7,28,38,39,41,42] are limited by the usage of computation-intensive MLPs.",
+            "5": "Therefore, previous methods often ignore secondary effects [6, 7, 39], consider collocated flash lighting [3,4,38], or take extra costs to distill these effects into additional MLP networks [28, 41, 42].",
+            "6": "Moreover, in contrast to previous methods [28,39,41,42] that can only handle captures under a single lighting condition, our model is easily extended to support multi-light capture by modeling an additional lighting dimension in the tensor factors.",
+            "7": "Note that in contrast to previous methods [39,42] that use SG for computing the integral of the rendering equation with a closed-form approximation, we use SG only for its compact parameterized representation and compute the integral numerically by sampling secondary rays and performing ray marching, leading to more accurate lighting visibility and indirect lighting.",
+            "8": "We compare ourmodel with previous state-of-the-art neural field-based inverse rendering methods, NeRFactor [41] and InvRender [42], on these scenes using images captured under a single unknown lighting condition."
+        },
+        "NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer": {
+            "authors": [
+                "Kun Zhou",
+                "Wenbo Li",
+                "Yi Wang",
+                "Tao Hu",
+                "Nianjuan Jiang",
+                "Xiaoguang Han",
+                "Jiangbo Lu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_NeRFLix_High-Quality_Neural_View_Synthesis_by_Learning_a_Degradation-Driven_Inter-Viewpoint_CVPR_2023_paper.pdf",
+            "ref_texts": "[78] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 18643\u201318652, 2022. 2",
+            "ref_ids": [
+                "78"
+            ],
+            "1": "On the other hand, the capacity to represent sophisticated geometry, lighting, object materials, and other factors is constrained by the simplified scene representation of NeRF [19,77,78].",
+            "2": "Another line of works [19, 73, 77, 78] presents physical-aware models that simultaneously take into account the object materials and environment lighting, as opposed to using MLPs or neural voxels to implicitly encode both the geometry and appearance."
+        },
+        "Relightable Neural Human Assets from Multi-view Gradient Illuminations": {
+            "authors": [
+                "Taotao Zhou",
+                "Kai He",
+                "Di Wu",
+                "Teng Xu",
+                "Qixuan Zhang",
+                "Kuixiang Shao",
+                "Wenzheng Chen",
+                "Lan Xu",
+                "Jingyi Yu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Relightable_Neural_Human_Assets_From_Multi-View_Gradient_Illuminations_CVPR_2023_paper.pdf",
+            "ref_texts": "[98] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the 4326",
+            "ref_ids": [
+                "98"
+            ],
+            "1": "In particular, the availability of a comprehensive MVS-PS dataset may enable new learningbased approaches for reconstruction [58,66,77,89,92,100], rendering [11,58,83,86,93,98], and generation [18,37\u201339, 71].",
+            "2": "We further demonstrate several neural modeling and rendering techniques [11, 58, 59, 93, 98, 99] to process the dataset for recovering ultra-fine geometric details, modeling surface reflectance, and supporting relighting applications.",
+            "3": "With the support of deep learning, recent works employ neural representations and differentiable rendering in the MVS pipeline [10, 58, 59, 85] where geometry, appearance, and surface reflectance can be effectively encoded into a tailored neural network [11, 60, 93, 98].",
+            "4": "To fully leverage our high-quality PS normal and albedo maps, we devise a depth-guided texture blending method, akin to [99], to synthesize more detailed albedo and normal buffers and apply inverse rendering frameworks [98] to generate material buffer.",
+            "5": "Specifically, we follow the state-of-the-art inverse rendering work [98] to suit our MVS and PS settings.",
+            "6": "Qualitative comparison on relighting under novel viewpoint with two recent neural relightable novel view synthesis approaches [93, 98].",
+            "7": "[98], we set the specular reflectance in the Fresnel term as 0.",
+            "8": "[98] also models the visibility of each point.",
+            "9": "(2)) with Spherical Gaussian approximation [11, 93, 98] to synthesize novel view images."
+        },
+        "NeFII: Inverse Rendering for Reflectance Decomposition with Near-Field Indirect Illumination": {
+            "authors": [
+                "Haoqian Wu",
+                "Zhipeng Hu",
+                "Lincheng Li",
+                "Yongqiang Zhang",
+                "Changjie Fan",
+                "Xin Yu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wu_NeFII_Inverse_Rendering_for_Reflectance_Decomposition_With_Near-Field_Indirect_Illumination_CVPR_2023_paper.pdf",
+            "ref_texts": "[45] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 18643\u201318652, 2022. 1, 2, 3, 4, 6, 7",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Recent methods [7, 41, 44, 45] represent geometry and materials as neural implicit fields, and recover them in an *Corresponding author.",
+            "2": "Our method integrates lights through path tracing with Monte Carlo sampling, while Invrender [45] uses Spherical Gaussians to approximate the overall illumination.",
+            "3": "Invrender [45] takes the indirect illumination into consideration, and approximates it with Spherical Gaussian (SG) for computation efficiency.",
+            "4": "In contrast to the method [45], we represent the materials and the indirect illuminations as neural implicit fields, and jointly optimize them with the environment illuminations.",
+            "5": "Invrender [45], most close to our method, considers multi-bounce indirect illuminations.",
+            "6": "The geometry is represented as the zero level set of SDF as in [36, 39, 45], which is modeled by an MLP that maps a 3D location x\u2208R3to an SDF value and a geometric feature vector f\u2208R512.",
+            "7": "Inspired by [45], we employ the neural radiance L\u0398Lto represent the final outgoing radiance after multiple light bouncing of the second ray intersection x\u2032, known as indirect illumination.",
+            "8": "As mentioned in [6, 45], parameterizing environment illumination in such a way could make each pixel of environment maps vary independently, lead diffuse albedo baked in illumination and cause illumination inefficient for optimization.",
+            "9": "Comparison with the State-of-the-Art The closest work to ours is Invrender [45] which forms our primary comparisons.",
+            "10": "Following previous works [41, 45], we adopt Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index Measure (SSIM) [37], and Learned Perceptual Image Patch Similarity (LPIPS) [42] to evaluate image quality metrics and evaluate the diffuse albedo after aligning.",
+            "11": "Invrender [45] approximates the indirect illumination with SG and is trained in three stages.",
+            "12": "0436 Invrender [45] 0."
+        },
+        "Scalable, Detailed and Mask-Free Universal Photometric Stereo": {
+            "authors": [
+                "Satoshi Ikehata"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ikehata_Scalable_Detailed_and_Mask-Free_Universal_Photometric_Stereo_CVPR_2023_paper.pdf",
+            "ref_texts": "[60] Yuanqing Zhang, Jiaming Sun, Xinqyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. CVPR , 2022. 6",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "While the computational cost will vary almost linearly with the number of images, this is significantly more efficient than recent neural inverse rendering-based methods [29, 30, 40, 60]."
+        },
+        "Multi-view Inverse Rendering for Large-scale Real-world Indoor Scenes": {
+            "authors": [
+                "Zhen Li",
+                "Lingli Wang",
+                "Mofang Cheng",
+                "Cihui Pan",
+                "Jiaqi Yang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Li_Multi-View_Inverse_Rendering_for_Large-Scale_Real-World_Indoor_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[58] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. , 2022. 1, 2, 3, 4, 5, 6, 7",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "With recent advances in differentiable rendering and implicit neural representation, several approaches have achieved significant success on small-scale object-centric scenes with explicit or implicit priors [7,32,34,43,50,51,55,57,58].",
+            "2": "12499\n evitable [1,37,58].",
+            "3": "[58] obtained the incident radiance of a certain position from a pre-trained outgoing radiance field [52].",
+            "4": "Optimization-based methods [2, 3, 7, 34, 37, 43, 56, 58] have shown impressive results on real-world multi-view images.",
+            "5": "A similar idea has been adopted by a recent work [58].",
+            "6": "Optimizing explicit material textures straightforwardly leads to inconsistent and unconverged roughness due to sparse observations [58].",
+            "7": "0556 InvRender [58] 16.",
+            "8": "In multi-view images, only sparse specular cues are observed, which lead to globally inconsistent roughness [58], especially for large-scale scenes.",
+            "9": "We compare with the following inverse rendering approaches: (1) The state-of-the-art single image learning-based method: PhyIR [29]; (2) The state-of-theart multi-view object-centric neural rendering methods: InvRender [58], NVDIFFREC [34] and NeILF [51].",
+            "10": "Please note that these object-centric approaches are unsuitable to 12503\n InvRender [58] NVDIFFREC [34] NeILF \u2217[51] NeILF [51] Ours GTRoughness Novel View Figure 4.",
+            "11": "PhyIR [29] InvRender [58] NVDIFFREC [34] NeILF [51] Ours RGBRoughness Albedo Figure 5.",
+            "12": "Method PSNR \u2191SSIM\u2191MSE\u2193 InvRender [58] 21.",
+            "13": "InvRender [58], NVDIFFREC [34] and NeILF [51] produce blur predictions with artifacts and struggle to disentangle correct materials.",
+            "14": "Ablation studies To showcase the effectiveness of proposed lighting representation and material optimization strategy, we ablate the TBL, hybrid lighting representation, albedo initialization in Stage I, VHL-based sampling and semanticsbased propagation for roughness estimation in Stage II, and 12504\n Albedo Roughness Rendering Albedo Roughness RenderingOurs NeILF [51] NVDIFFREC [34] InvRender [58] Figure 6.",
+            "15": "Note that Invrender [58] and NeILF [51] do not produce correct highlights, and NVDIFFREC [34] fails to distinguish the ambiguity between albedo and roughness."
+        },
+        "Shadowneus: Neural sdf reconstruction by shadow ray supervision": {
+            "authors": [
+                "Jingwang Ling",
+                "Zhibo Wang",
+                "Feng Xu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ling_ShadowNeuS_Neural_SDF_Reconstruction_by_Shadow_Ray_Supervision_CVPR_2023_paper.pdf",
+            "ref_texts": "[57] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2022, New Orleans, LA, USA, June 18-24, 2022 , pages 18622\u201318631. IEEE, 2022. 2",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "[11,33,37,47,49,57] adopt neural networks conditioned on the light direction to model light-dependent shadows.",
+            "2": "Among them, [11,47,49,56,57]\nfirst reconstruct geometry using multi-view stereo and compute shadows using fixed geometry."
+        },
+        "Supplementary Material: Neural Fields meet Explicit Geometric Representations for Inverse Rendering of Urban Scenes": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Wang_Neural_Fields_Meet_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[32] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In CVPR, 2022. 3",
+            "ref_ids": [
+                "32"
+            ]
+        },
+        "Multi-view Inverse Rendering for Large-scale Real-world Indoor Scenes Supplemental Material": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Li_Multi-View_Inverse_Rendering_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[18] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. , 2022. 1, 2, 4, 6, 7, 9 Albedo Roughness Rendering Albedo Roughness RenderingOurs NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Figure 9. Additional samples of qualitative comparison in the 2D image view on challenging real dataset. From left to right and from top to down: Scene1, Scene2, Scene3, Scene4, Scene5, Scene6, Scene7 and Scene 11. Red denotes the Ground Truth image. Baseline w/o Stage I w/o Stage II w/o Stage III OursRoughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Figure 10. Additional samples of ablation study of material optimization on challenging real dataset. From top to down: Scene 1, Scene 2, Scene 3 and Scene 4. Baseline w/o Stage I w/o Stage II w/o Stage III OursRoughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Figure 11. Additional samples of ablation study of material optimization on challenging real dataset. From top to down: Scene 1, Scene 2, Scene 3 and Scene 4.",
+            "ref_ids": [
+                "18",
+                "17",
+                "14",
+                "18",
+                "17",
+                "14",
+                "18",
+                "17",
+                "14",
+                "18",
+                "17",
+                "14",
+                "18"
+            ],
+            "1": "Our method achieves competitive performance on costs compared to the highly efficient method, NVDIFFREC [14].",
+            "2": "Method Time (s) Memory (MB) TSDR\u2217[15] 43200 InvRender [18] 50 \u00d7N 5547 NVDIFFREC [14] 42 \u00d7N 2159 NeILF\u2217[17] 144 \u00d7N > 32510 NeILF [17] 80 \u00d7N 9783 Ours 41\u00d7N 2543 A.",
+            "3": "Although NVDIFFREC [14] reaches similar performance to our method, it fails to distinguish the ambiguity between albedo and roughness.",
+            "4": "MethodInvRender [18] NVDIFFREC [14] NeILF [17] Ours PSNR\u2191SSIM\u2191MSE\u2193 PSNR\u2191SSIM\u2191MSE\u2193 PSNR\u2191SSIM\u2191MSE\u2193 PSNR\u2191SSIM\u2191MSE\u2193 Scene 1 23.",
+            "5": "6182 0.",
+            "6": "8175 0.",
+            "7": "8149 0.",
+            "8": "2149 0.",
+            "9": "InvRender [18] NVDIFFREC [14] NeILF \u2217[17] NeILF [17] Ours GTNovel View Rendering Roughness Albedo Figure 4.",
+            "10": "Please note that all methods apply our efficient hybrid lighting representation except for NeILF \u2217[17].",
+            "11": "With our hybrid lighting representation, the efficiency of NeILF [17] is significantly improved.",
+            "12": "In material optimization, our approach achieves the comparable performance on costs to the previous highly efficient method, NVIDFFREC [14].",
+            "13": "Note that NeILF [17] with our hybrid lighting representation more successfully disentangles the ambiguity between materials and lighting than NeILF \u2217[17] with their implicit lighting representation.",
+            "14": "8964 17.",
+            "15": "Although NVDIFFREC [14] reaches competitive performance to our method, it fails to distinguish the ambiguity between albedo and roughness in Fig.",
+            "16": "To lift this limitation, PhyIR [12] InvRender [18] NVDIFFREC [14] NeILF [17] Ours RGBRoughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Figure 7.",
+            "17": "PhyIR [12] InvRender [18] NVDIFFREC [14] NeILF [17] Ours RGBRoughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Roughness Albedo Figure 8.",
+            "18": ") , 37(6):222:1\u2013222:11, 2018.",
+            "19": "2\n[14] Jacob Munkberg, Jon Hasselgren, Tianchang Shen, Jun Gao, Wenzheng Chen, Alex Evans, Thomas Mueller, and Sanja Fidler.",
+            "20": "2\n[17] Yao Yao, Jingyang Zhang, Jingbo Liu, Yihang Qu, Tian Fang, David McKinnon, Yanghai Tsin, and Long Quan.",
+            "21": "1, 2, 4, 6, 7, 9 Albedo Roughness Rendering Albedo Roughness RenderingOurs NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Ours NeILF [17] NVDIFFREC [14] InvRender [18] Figure 9."
+        },
+        "Scalable, Detailed and Mask-free Universal Photometric Stereo Supplementary Material": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Ikehata_Scalable_Detailed_and_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[20] Yuanqing Zhang, Jiaming Sun, Xinqyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. CVPR, 2022. 6",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "We observe that the proposed method could cluster identical materials, even though we did not impose any physically-based constraints on reflectance properties based on prior knowledge, such as smoothness or sparsity of basis materials, which has been done in most existing works [10, 11,19,20]."
+        },
+        "Supplementary Materials for Relightable Neural Human Assets from Multi-view Gradient Illuminations": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhou_Relightable_Neural_Human_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[12] Yuanqing Zhang, Jiaming Sun, Xingyi He, Huan Fu, Rongfei Jia, and Xiaowei Zhou. Modeling indirect illumination for inverse rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 18643\u201318652, 2022. 4",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Material Optimization Following [12], we apply spherical Gaussians (SGs) to approximate the rendering equation (paper Eq.",
+            "2": "We first approximate the incoming light with 128 SG lobes and the cosine foreshortening term with one SG, similar to [2, 11, 12].",
+            "3": "As a result, following [12], we also set F0to 0.",
+            "4": "[12] also models visibility in direct illumination and indirect illumination."
+        }
+    }
+}

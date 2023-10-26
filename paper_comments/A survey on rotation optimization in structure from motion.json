@@ -1,0 +1,287 @@
+{
+    "title": "A survey on rotation optimization in structure from motion",
+    "id": 31,
+    "valid_pdf_number": "22/42",
+    "matched_pdf_number": "18/22",
+    "matched_rate": 0.8181818181818182,
+    "citations": {
+        "Automatic discovery and geotagging of objects from street view imagery": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2072-4292/10/5/661/pdf",
+            "ref_texts": "40. Tron, R.; Zhou, X.; Daniilidis, K. A survey on rotation optimization in structure from motion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, Las Vegas, NV , USA, 26 June\u20131 July 2016; pp. 77\u201385.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "The most explored are stereo-vision approaches [39] that estimate camera-to-object distances from multi-view stereo image disparity analysis or perform scene reconstruction via structure-from-motion methods [40]."
+        },
+        "End-to-end rotation averaging with multi-source propagation": {
+            "authors": [
+                "Luwei Yang",
+                "Heng Li",
+                "Jamal Ahmed",
+                "Zhaopeng Cui",
+                "Ping Tan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Yang_End-to-End_Rotation_Averaging_With_Multi-Source_Propagation_CVPR_2021_paper.pdf",
+            "ref_texts": "[47] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. IEEE Conf. on Comput. Vis. and Pattern Recog. Workshops , 2016.",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "Introduction Multiple Rotation Averaging (MRA) [20,47,31,2] aims to estimate the absolute orientations R1,R2,."
+        },
+        "HARA: A hierarchical approach for robust rotation averaging": {
+            "authors": [
+                "Seong Hun",
+                "Javier Civera"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Lee_HARA_A_Hierarchical_Approach_for_Robust_Rotation_Averaging_CVPR_2022_paper.pdf",
+            "ref_texts": "[58] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In IEEE Conf. Comput. Vis. Pattern Recog. Workshops , pages 1032\u20131040, 2016. 2",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "(2) Robust methods in the presence of outliers: Various methods have been proposed to handle outliers (see [58] for a survey)."
+        },
+        "Synchronization problems in computer vision with closed-form solutions": {
+            "authors": [
+                "Federica Arrigoni"
+            ],
+            "url": "https://openreview.net/pdf?id=TjIWMgAg5B",
+            "ref_texts": "2448). Tron, R., Carlone, L., Dellaert, F., & Daniilidis, K. (2015). Rigid components identification and rigidity enforcement in bearing-only localization using the graph cycle basis. In IEEE American control conference . Tron, R., & Danilidis, K. (2014). Statistical pose averaging with varying and non-isotropic covariances. In Proceedings of the European conference on computer vision . Tron, R., & Vidal, R. (2014). Distributed 3-D localization of camera sensor networks from 2-D image measurements. IEEE Transactions on Automatic Control ,59(12), 3325\u20133340. Tron, R., Zhou, X., & Daniilidis, K. (2016). A survey on rotation optimization in structure from motion. In Computer vision and pattern recognition workshops (CVPRW) . Tron, R., Zhou, X., Esteves, C., & Daniilidis, K. (2017). Fast multiimage matching via density based clustering. In Proceedings of the International Conference on Computer Vision , pp. 4077\u20134086. V an Loan, C. (2000). The ubiquitous Kronecker product. Journal of Computational and Applied Mathematics ,123(1\u20132), 85\u2013100. V aradarajan, V . S. (1984). Lie groups, Lie algebras, and their representations. Graduate Texts in Mathematics (V ol. 102). Berlin: Springer. Wahlstr\u00f6m, M. (2014). Half-integrality, LP-branching and FPT algorithms (pp. 1762\u20131781). Wang, L., & Singer, A. (2013). Exact and stable recovery of rotations for robust synchronization. Information and Inference: A Journal of the IMA ,2(2), 145\u2013193. Wilson, K., & Snavely, N. (2014). Robust global translations with 1DSfM. In Proceedings of the European conference on computer vision (pp. 61\u201375). Wilson, K., Bindel, D., & Snavely, N. (2016). When is rotations averaging hard? In Proceedings of the European conference on computer vision (pp. 255\u2013270). Wright, S. (1997). Primal\u2013dual interior-point methods . Philadelphia, PA: Society for Industrial and Applied Mathematics. Y u, J. G., Xia, G. S., Samal, A., & Tian, J. (2016). Globally consistent correspondence of multiple feature sets using proximal Gauss\u2013Seidel relaxation. Pattern Recognition ,51, 255\u2013267. Zach, C., Klopschitz, M., & Pollefeys, M. (2010). Disambiguating visual relations using loop constraints. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1426\u2013"
+        },
+        "Hybrid rotation averaging: A fast and robust rotation averaging approach": {
+            "authors": [
+                "Yu Chen",
+                "Ji Zhao",
+                "Laurent Kneip"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Hybrid_Rotation_Averaging_A_Fast_and_Robust_Rotation_Averaging_Approach_CVPR_2021_paper.pdf",
+            "ref_texts": "[40] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In IEEE Conference on Computer Vision and Pattern Recognition Workshops , pages 1032\u20131040, 2016. 1",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "To overcome this limitation, the community has also proposed global optimisation approaches [40,33,18,17,16]."
+        },
+        "Bayesian pose graph optimization via bingham distributions and tempered geodesic mcmc": {
+            "authors": [
+                "Tolga Birdal",
+                "Umut Simsekli",
+                "Mustafa Onur",
+                "Slobodan Ilic"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/58a2fc6ed39fd083f55d4182bf88826d-Paper.pdf",
+            "ref_texts": "[10] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops , pages 77\u201385, 2016.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "The solution is the state of the art method to initialize, say SfM [1, 9, 10] thanks to the good quality of the estimates.",
+            "2": "Robustness to outlier relative pose estimates is also crucial for a better solution [16,17,10,18,2]."
+        },
+        "Deep permutation equivariant structure from motion": {
+            "authors": [
+                "Dror Moran",
+                "Hodaya Koslowsky",
+                "Yoni Kasten",
+                "Haggai Maron",
+                "Meirav Galun",
+                "Ronen Basri"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Moran_Deep_Permutation_Equivariant_Structure_From_Motion_ICCV_2021_paper.pdf",
+            "ref_texts": "[54] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops , June 2016. 2",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "Early methods first denoise the relative rotation between pairs of views, and subsequently denoise the relative translations and scales [37, 2, 6, 11, 62, 40, 23, 5, 54]."
+        },
+        "RAGO: Recurrent graph optimizer for multiple rotation averaging": {
+            "authors": [
+                "Heng Li",
+                "Zhaopeng Cui",
+                "Shuaicheng Liu",
+                "Ping Tan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_RAGO_Recurrent_Graph_Optimizer_for_Multiple_Rotation_Averaging_CVPR_2022_paper.pdf",
+            "ref_texts": "[38] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. IEEE Conf. on Comput. Vis. and Pattern Recog. Workshops , 2016.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Introduction Multiple Rotation Averaging (MRA) [4, 21, 28, 38] is a fundamental problem in 3D computer vision that aims to determine the global absolute orientations {R\ud835\udc62,1\u2264\ud835\udc62\u2264\ud835\udc41} of\ud835\udc41cameras given their relative orientations R\ud835\udc62\ud835\udc63."
+        },
+        "Synchronization of Group-labelled Multi-graphs": {
+            "authors": [
+                "Andrea Porfiri",
+                "Dal Cin",
+                "Luca Magri",
+                "Federica Arrigoni",
+                "Andrea Fusiello",
+                "Giacomo Boracchi"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Dal_Cin_Synchronization_of_Group-Labelled_Multi-Graphs_ICCV_2021_paper.pdf",
+            "ref_texts": "[57] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. InComputer Vision and Pattern Recognition Workshops (CVPRW) , 2016. 2, 3",
+            "ref_ids": [
+                "57"
+            ],
+            "1": ", \u03a3 = SO(3) ) is referred to as rotation synchronization , multiple rotation averaging [32] or rotation optimization [57].",
+            "2": "There are synchronization techniques [37] based on the following constraint: z(e)\u2217x(j) =x(i) (4) which gives rise to a trace-minimization problem [57] where multiple edges could be potentially taken into account as additional terms."
+        },
+        "Rotation-only bundle adjustment": {
+            "authors": [
+                "Seong Hun",
+                "Javier Civera"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Rotation-Only_Bundle_Adjustment_CVPR_2021_paper.pdf",
+            "ref_texts": "[58] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In IEEE Conf. Comput. Vis. Pattern Recog. Workshops , pages 1032\u20131040, 2016. 2",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "We refer to [28,58] for an excellent tutorial and survey on the topic."
+        },
+        "Rotation coordinate descent for fast globally optimal rotation averaging": {
+            "authors": [
+                "Alvaro Parra",
+                "Fang Chng",
+                "Jun Chin",
+                "Anders Eriksson",
+                "Ian Reid"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Parra_Rotation_Coordinate_Descent_for_Fast_Globally_Optimal_Rotation_Averaging_CVPR_2021_paper.pdf",
+            "ref_texts": "[36] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In CVPRW , 2016. 1,2",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "In vision and robotics, rotation averaging plays a crucial role in SfM [21,25,24,8,7,20,43,36] and visual SLAM [5,29,33,26,19], in particular for initialising bundle adjustment.",
+            "2": "[36] surveyed and benchmarked approximate rotation averaging methods in the context of SfM."
+        },
+        "Baseline desensitizing in translation averaging": {
+            "authors": [
+                "Bingbing Zhuang",
+                "Fah Cheong",
+                "Gim Hee"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhuang_Baseline_Desensitizing_in_CVPR_2018_paper.pdf"
+        },
+        "A linear method for camera pair self-calibration": {
+            "authors": [],
+            "url": "https://robotics.ntua.gr/wp-content/uploads/sites/2/2021_MelanitisMaragos_LinearCameraSelfPairCalibration_CVIU.pdf",
+            "ref_texts": "16 N. Melanitis and P. Maragos Computer Vision and Image Understanding 210 (2021) 103223 Stew\u00e9nius, H., Nist\u00e9r, D., Kahl, F., Schaffalitzky, F., 2005. A minimal solution for relative pose with unknown focal length. In: 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR\u201905), vol. 2. IEEE, pp. 789\u2013794. Strecha, C., Fransens, R., Van Gool, L., 2006. Combined depth and outlier estimation in multi-view stereo. In: 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR\u201906), vol. 2. IEEE, pp. 2394\u20132401. Strecha, C., Von Hansen, W., Van Gool, L., Fua, P., Thoennessen, U., 2008a. On benchmarking camera calibration and multi-view stereo for high resolution imagery. In: Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on. IEEE, pp. 1\u20138. Strecha, C., Von Hansen, W., Van Gool, L., Fua, P., Thoennessen, U., 2008b. On benchmarking camera calibration and multi-view stereo for high resolution imagery. In: Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on. IEEE, pp. 1\u20138. Sturm, P., 2002. Critical motion sequences for the self-calibration of cameras and stereo systems with variable focal length. Image Vis. Comput. 20 (5\u20136), 415\u2013426. Torr, P.H.S., 2002. Bayesian Model estimation and selection for epipolar geometry and generic manifold fitting. Int. J. Comput. Vis. 50 (1), 35\u201361.Torr, P.H., Murray, D.W., 1997. The development and comparison of robust methods for estimating the fundamental matrix. Int. J. Comput. Vis. 24 (3), 271\u2013300. Tron, R., Zhou, X., Daniilidis, K., 2016. A survey on rotation optimization in structure from motion. In: 2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). pp. 1032\u20131040. http://dx.doi.org/10.1109/CVPRW."
+        },
+        "Motion segmentation via synchronization": {
+            "authors": [
+                "Federica Arrigoni",
+                "Tomas Pajdla"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/AUTONUE/Arrigoni_Motion_Segmentation_via_Synchronization_ICCVW_2019_paper.pdf",
+            "ref_texts": "[51] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. InComputer Vision and Pattern Recognition Workshops (CVPRW) , 2016.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "Such group can represent the set of rotations [45, 10, 13, 51, 6] or the set of rigid motions [12, 49, 5, 3, 38], which find application in structure from motion, registration of 3D point sets, and simultaneous localization and mapping."
+        },
+        "On the distribution of minima in intrinsic-metric rotation averaging": {
+            "authors": [
+                "Kyle Wilson",
+                "David Bindel"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Wilson_On_the_Distribution_of_Minima_in_Intrinsic-Metric_Rotation_Averaging_CVPR_2020_paper.pdf",
+            "ref_texts": "[21] R. Tron, X. Zhou, and K. Daniilidis. A survey on rotation optimization in structure from motion. In CVPR Workshops , 2016. 1,2[22] U. V on Luxburg. A tutorial on spectral clustering. Statistics and computing , 2007. 8",
+            "ref_ids": [
+                "21",
+                "22"
+            ],
+            "1": "Two recent surveys [9,21] propose a familiar pattern: use an extrinsic solver to generate a candidate solution, then refine with with a solver chosen for its modeling properties\u2014even if the latter solver only guarantees local optimality.",
+            "2": "Two survey papers [9,21] propose using an initialize-and-refine pattern, where a globally solveable relaxed method generates an initial guess which a manifoldbased method then refines.",
+            "3": "Lis a standard graph Laplacian matrix [22] with edge weights \u03b1ij, andDis a diagonal degree matrix with elements: Dii=/summationdisplay j|(i,j)\u2208Ep 2\u03b8p\u22121 ij.",
+            "4": "2\n[21] R.",
+            "5": "1,2[22] U."
+        },
+        "Initialization of 3d pose graph optimization using lagrangian duality": {
+            "authors": [],
+            "url": "https://riuma.uma.es/xmlui/bitstream/handle/10630/14454/ICRA17%20(3).pdf?sequence=3&isAllowed=y",
+            "ref_texts": "[24] R. Tron, X. Zhou, and K. Daniilidis, \u201cA Survey on Rotation Optimization in Structure From Motion,\u201d in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. Work. , pp. 77\u201385, 2016.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "We will refer to this operation as a metric upgrade , for its resemblance with the metric upgrade proposed in [24].",
+            "2": "characterized by all possible 4n\u00023matrices lying inside the nullspace N= ker(M?\n\u0003), which can be parameterized as \u0014X\u0011\u0014X(K) =V K\u0011f\u0015X?g;K2Rk\u00023: (12) Under this parameterization, the task of finding the \u201cmost feasible\u201d point \u0014Xin the nullspace for the chosen feasibility metric (11) yields the metric upgrade problem [24]: \u0014X?= arg min \u0014X1\n2k\u0014Xk2 P;s.",
+            "3": "[24] R."
+        },
+        "Two novel techniques for graph optimization\u2014Cycle based formulation and change of optimal values": {
+            "authors": [
+                "Fang Bai"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/144101/2/02whole.pdf",
+            "ref_texts": "[151] Roberto Tron, Xiaowei Zhou, and Kostas Daniilidis. A survey on rotation optimization in structure from motion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops , pages 77\u201385, 2016.",
+            "ref_ids": [
+                "151"
+            ],
+            "1": "27 Chapter Three Cycle Based Pose Graph Optimization Pose graph optimization (PGO) is a fundamental problem which arises in various research disciplines, like simultaneous localization and mapping (SLAM) [31, 57, 122, 123, 144], structure from motion [13, 83, 151], calibration of multi-camera rig [63], and sensor network localization [130, 153]."
+        },
+        "Learning scene representation for visual localization": {
+            "authors": [],
+            "url": "https://summit.sfu.ca/_flysystem/fedora/2023-03/etd22326.pdf",
+            "ref_texts": "[133] RobertoTron,XiaoweiZhou,andKostasDaniilidis. Asurveyonrotationoptimization instructurefrommotion. IEEE Conf. on Comput. Vis. and Pattern Recog. Workshops , 2016.",
+            "ref_ids": [
+                "133"
+            ],
+            "1": "2 Rotation Averaging Multiple Rotation Averaging (MRA) [51, 133, 90, 7] is a fundamental problem in 3D Geometry, and has various applications not just in global SfM [26, 60], but pose graph optimization[34, 86, 129] and sensor networks [131, 132].",
+            "2": "1 Introduction As reviewed in Chapter 2, the Multiple Rotation Averaging (MRA) [51, 133, 90, 7] aims to find the optimal orientation for all vertices {R\u2217 i}i\u2208Vdefined on a view-graph G={V,E} that minimizes the disparity between the estimated relative orientation {R\u2217 ij}={R\u2217 jR\u2217\u22121 i} and their corresponding relative measurements {/tildewideRij}(i,j)\u2208E.",
+            "3": "[133] RobertoTron,XiaoweiZhou,andKostasDaniilidis."
+        },
+        "Global Optimality via Tight Convex Relaxations for Pose Estimation in Geometric 3D Computer Vision": {
+            "authors": [],
+            "url": "https://riuma.uma.es/xmlui/bitstream/handle/10630/22918/TD_BRIALES_GARCIA_Jesus.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[171] R. Tron, X. Zhou, and K. Daniilidis, \u201cA Survey on Rotation Optimization in Structure From Motion,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2016, pp. 77\u201385.",
+            "ref_ids": [
+                "171"
+            ],
+            "1": "[171] R."
+        },
+        "\u5355\u76f8\u673a\u4e09\u7ef4\u89c6\u89c9\u6210\u50cf\u6280\u672f\u7814\u7a76\u8fdb\u5c55": {
+            "authors": [],
+            "url": "https://www.researching.cn/ArticlePdf/m00002/2022/59/14/1415007.pdf",
+            "ref_texts": "[38]Tron R,Zhou X W,DaniilidisK.A survey on rotation optimization in structure from motion [C]\u22252016IEEE ConferenceonComputerVisionandPatternRecognition Workshops,June26-July1,2016,Las Vegas,NV, USA.NewYork:IEEEPress,2016:1032 -1040.",
+            "ref_ids": [
+                "38",
+                "C"
+            ],
+            "1": "1\u76f8\u673a\u6210\u50cf\u6a21\u578b\n\u76f8\u673a\u5728\u7279\u5b9a\u89c6\u89d2\u4e0b\u62cd\u6444\u4e09\u7ef4\u7a7a\u95f4\u7269\u4f53\u7684\u6570\u5b57\u56fe\n\u50cf,\u5305\u542b\u4ece\u4e09\u7ef4\u7269\u65b9\u7a7a\u95f4\u6295\u5f71\u5230\u4e8c\u7ef4\u50cf\u65b9\u5e73\u9762\u7684\u51e0\u4f55\n\u6620\u5c04\u5173\u7cfb \u3002\u4e3b\u6d41\u7684\u76f8\u673a\u6210\u50cf\u6a21\u578b\u9075\u5faa\u4e2d\u5fc3\u900f\u89c6\u6295\u5f71\n\u5173\u7cfb,\u5373\u5047\u8bbe\u6765\u81ea\u7269\u4f53\u7684\u5149\u7ebf\u5747\u7531\u900f\u955c\u6c47\u805a\u81f3\u5149\u5fc3\n(\u5373\u6295\u5f71\u4e2d\u5fc3 )\u800c\u5230\u8fbe\u50cf\u5e73\u9762 \u3002\u76f8\u673a\u6210\u50cf\u6a21\u578b\u6d89\u53ca\u591a\n\u4e2a\u5750\u6807\u7cfb\u4e4b\u95f4\u7684\u76f8\u4e92\u8f6c\u6362 ,\u5305\u62ec\u4e16\u754c\u5750\u6807\u7cfb OWXWYWZW\u3001\u76f8\u673a\u5750\u6807\u7cfb OC-XCYCZC\u3001\u56fe\u50cf\u5750\u6807\u7cfb o-xy\u3001\n\u50cf\u7d20\u5750\u6807\u7cfb p-uv\u53ca\u5f52\u4e00\u5316\u56fe\u50cf\u5750\u6807\u7cfb on-xnyn,\u5982\u56fe1\n\u6240\u793a\u3002\n\u7ed9\u5b9a\u4efb\u610f\u7269\u70b9 M,\u5728\u76f8\u673a\u5750\u6807\u7cfb\u4e0b\u4e09\u7ef4\u5750\u6807\u8bb0\u4e3a\n[XC,YC,ZC]T,\u5176\u5bf9\u5e94\u50cf\u70b9 m\u5728\u56fe\u50cf\u5750\u6807\u7cfb\u548c\u50cf\u7d20\u5750\n\u6807\u7cfb\u4e0b\u4e8c\u7ef4\u5750\u6807\u5206\u522b\u8bb0\u4e3a [x,y]T\u548c[u,v]T\u3002\u7ed3\u5408\u56fe\n1,\u50cf\u70b9m\u7684\u50cf\u7d20\u5750\u6807 [u,v]T\u3001\u56fe\u50cf\u5750\u6807 [x,y]T\u3001\u5f52\u4e00\n\u5316\u56fe\u50cf\u5750\u6807 [xn,yn]T\u4e0e\u7269\u70b9M\u7684\u4e09\u7ef4\u5750\u6807\u6ee1\u8db3[14,23]:\n\u00e9\n\u00eb\u00ea\n\u00ea\u00ea\u00ea\u00ea\u00ea\u00f9\n\u00fb\u00fa\n\u00fa\u00fa\u00fa\n\u00fa\u00fau v 1=A\u00e9\n\u00eb\u00ea\n\u00ea\u00ea\u00ea\u00ea\u00ea\n\u00ea\u00ea\u00f9\n\u00fb\u00fa\n\u00fa\u00fa\u00fa\n\u00fa\u00faxn yn 1=A f\u00e9\n\u00eb\u00ea\n\u00ea\u00ea\u00ea\u00ea\u00ea\n\u00ea\u00ea\u00f9\n\u00fb\u00fa\n\u00fa\u00fa\u00fa\n\u00fa\u00fax y f=A ZC\u00e9\n\u00eb\u00ea\n\u00ea\u00ea\u00ea\u00ea\u00ea\u00f9\n\u00fb\u00fa\n\u00fa\u00fa\u00fa\n\u00fa\u00faXC YC ZC= A ZC(RCW\u00e9\n\u00eb\u00ea\n\u00ea\u00ea\u00ea\u00ea\u00ea\u00f9\n\u00fb\u00fa\n\u00fa\u00fa\u00fa\n\u00fa\u00faXW YW ZW+TCW), (1)\n\u5f0f\u4e2d:RCW\u548cTCW\u5206\u522b\u4e3a\u4ece\u4e16\u754c\u5750\u6807\u7cfb\u5230\u76f8\u673a\u5750\u6807\u7cfb\u7684\n\u56fe1\u76f8\u673a\u6210\u50cf\u6a21\u578b\u53ca\u5750\u6807\u7cfb\u5b9a\u4e49 Fig.",
+            "2": "Robustcameralocationestimation by convex programming [C]\u22252015IEEE Conference on Computer Vision and Pattern Recognition ,June7-12, 2015,Boston,MA,USA.",
+            "3": "Very large -scale global SfM by distributed motion averaging [C]\u22252018 IEEE/CVFConferenceonComputerVisionandPattern Recognition,June18-23,2018,Salt Lake City ,UT, USA.",
+            "4": "Disambiguating visual relations using loop constraints [C]\u22252010IEEE Computer Society Conference on Computer Vision and Pattern Recognition ,June13-18,2010,San Francisco, CA,USA.",
+            "5": "[38]Tron R,Zhou X W,DaniilidisK.",
+            "6": "A survey on rotation optimization in structure from motion [C]\u22252016IEEE ConferenceonComputerVisionandPatternRecognition Workshops,June26-July1,2016,Las Vegas,NV, USA.",
+            "7": "Lie -algebraic averaging for globally consistent motion estimation [C]\u2225Proceedings of the 2004IEEE Computer Society Conference on ComputerVision and Pattern Recognition ,2004.",
+            "8": "Camera motion from group synchronization [C]\u22252016Fourth International Conferenceon 3D Vision(3DV),October25-28,2016, Stanford,CA,USA.",
+            "9": "BuildingRomein a day[C]\u22252009IEEE12th International Conference on Computer Vision ,September29-October2,2009, Kyoto,Japan.",
+            "10": "3D reconstruction from a single view of an object and its image in a plane mirror [C]\u2225 Proceedings of Fourteenth International Conference on Pattern Recognition ,August20,1998,Brisbane, QLD,Australia.",
+            "11": "Astereoviewerbasedona single camera with view -control mechanisms [C]\u2225 Proceedingsof 1993IEEE/RSJInternationalConference on Intelligent Robots and Systems (IROS '93),July2630,1993,Yokohama,Japan.",
+            "12": "Camera motion from group synchronization [C]\u22252016Fourth International Conferenceon 3D Vision(3DV),October25-28,2016, Stanford,CA,USA.",
+            "13": "BuildingRomein a day[C]\u22252009IEEE12th International Conference on Computer Vision ,September29-October2,2009, Kyoto,Japan.",
+            "14": "3D reconstruction from a single view of an object and its image in a plane mirror [C]\u2225 Proceedings of Fourteenth International Conference on Pattern Recognition ,August20,1998,Brisbane, QLD,Australia.",
+            "15": "Astereoviewerbasedona single camera with view -control mechanisms [C]\u2225 Proceedingsof 1993IEEE/RSJInternationalConference on Intelligent Robots and Systems (IROS '93),July2630,1993,Yokohama,Japan.",
+            "16": "Panoramicstereo [C]\u2225Proceedings of 13th International Conference on Pattern Recognition ,August25-29,1996,Vienna, Austria.",
+            "17": "Single camera stereo using planar parallel plate[C]\u2225Proceedings of the 17th International Conference on Pattern Recognition ,2004.",
+            "18": "A refractive camera for acquiring stereo and super -resolution images [C]\u22252006IEEE Computer Society Conference on Computer Vision and Pattern Recognition ,June17-22,2006,New York, NY,USA."
+        },
+        "Integrated georeferencing for precise depth map generation exploiting multi-camera image sequences from mobile mapping": {
+            "authors": [
+                "Stefan Cavegn"
+            ],
+            "url": "http://elib.uni-stuttgart.de/bitstream/11682/11227/1/CavegnStefan_PhD_thesis.pdf",
+            "ref_texts": "1999, LNCS 1883 , Corfu, Greece, pp. 298{372. Springer Berlin Heidelberg. Tron, R., X. Zhou, and K. Daniilidis (2016). A Survey on Rotation Optimization in Structure from Motion. InIEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops , Las Vegas, NV, pp."
+        },
+        "Synchronization Problems in Computer Vision": {
+            "authors": [
+                "Federica Arrigoni"
+            ],
+            "url": "https://air.uniud.it/retrieve/handle/11390/1142994/286112/main-pdfa.pdf",
+            "ref_texts": "[182] R. Tron, X. Zhou, and K. Daniilidis. A survey on rotation optimization in structure from motion. In Computer Vision and Pattern Recognition Workshops (CVPRW) , 2016.",
+            "ref_ids": [
+                "182"
+            ],
+            "1": "According to the chosen group, we have several instances of synchronization: \u03a3=Ryields time synchronization [98, 75], from which the term synchronization originates; \u03a3=Rd is atranslation synchronization [13, 154, 179, 132, 3]; \u03a3=SO(d)corresponds to rotation synchronization (also known as rotation averaging) [163, 126, 167, 52, 70, 28, 29, 86, 44, 187, 7, 182] and \u03a3=SE(d)results in rigid-motion synchronization (also known as motion averaging or pose-graph optimization) [71, 79, 177, 180, 20, 10, 9, 151, 150]; finally, \u03a3=Sym(d)gives rise to permutation synchronization [143, 164, 197, 8].",
+            "2": "A comprehensive survey on existing solutions can be found in [182].",
+            "3": "More details about this technique can be found in [126, 182].",
+            "4": "[182] R."
+        }
+    }
+}

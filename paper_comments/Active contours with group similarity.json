@@ -1,0 +1,86 @@
+{
+    "title": "Active contours with group similarity",
+    "id": 28,
+    "valid_pdf_number": "8/23",
+    "matched_pdf_number": "3/8",
+    "matched_rate": 0.375,
+    "citations": {
+        "Motion-guided cascaded refinement network for video object segmentation": {
+            "authors": [
+                "Ping Hu",
+                "Gang Wang",
+                "Xiangfei Kong",
+                "Jason Kuen",
+                "Peng Tan"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Motion-Guided_Cascaded_Refinement_CVPR_2018_paper.pdf"
+        },
+        "Fine-grained recurrent neural networks for automatic prostate segmentation in ultrasound images": {
+            "authors": [
+                "Xin Yang",
+                "Lequan Yu",
+                "Lingyun Wu",
+                "Yi Wang",
+                "Dong Ni",
+                "Jing Qin",
+                "Ann Heng"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/10761/10620",
+            "ref_texts": "1995. Active shape models-their training and application.Computer vision and image understanding 61(1):38\u201359. Deng, J.; Dong, W.; Socher, R.; Li, L.-J.; Li, K.; and Fei-Fei, L. 2009. Imagenet: A large-scale hierarchical im-age database. In Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on, 248\u2013255. IEEE. Gao, Y .; Wang, L.; Shao, Y .; and Shen, D. 2014. Learning distance transform for boundary detection and deformablesegmentation in ct prostate images. In International Workshop on Machine Learning in Medical Imaging, 93\u2013100.Springer. Ghose, S.; Oliver, A.; Mitra, J.; Mart \u00b4\u0131, R.; Llad \u00b4o, X.; Freixenet, J.; Sidib \u00b4e, D.; Vilanova, J. C.; Comet, J.; and Meriaudeau, F. 2013. A supervised learning framework of statistical shape and probability priors for automatic prostatesegmentation in ultrasound images. Medical image analysis 17(6):587\u2013600. Graves, A.; Jaitly, N.; and Mohamed, A.-r. 2013. Hybrid speech recognition with deep bidirectional lstm. In Automatic Speech Recognition and Understanding (ASRU), 2013 IEEE Workshop on, 273\u2013278. IEEE. Guo, Y .; Gao, Y .; and Shen, D. 2016. Deformable mr prostate segmentation via deep feature learning and sparsepatch matching. IEEE transactions on medical imaging 35(4):1077\u20131089. Hochreiter, S., and Schmidhuber, J. 1997. Long short-term memory. Neural computation 9(8):1735\u20131780. Hodge, K.; McNeal, J.; Terris, M. K.; and Stamey, T. 1989.Random systematic versus directed ultrasound guided tran-srectal core biopsies of the prostate. The Journal of urology 142(1):71\u20134. Kimia, B. B.; Frankel, I.; and Popescu, A.-M. 2003. Euler spiral for shape completion. International journal of computer vision 54(1-3):159\u2013182. Krizhevsky, A.; Sutskever, I.; and Hinton, G. E. 2012.Imagenet classification with deep convolutional neural net-works. In Advances in neural information processing systems, 1097\u20131105. Li, K., and Malik, J. 2016. Amodal instance segmentation. arXiv preprint arXiv:1604.08202. Long, J.; Shelhamer, E.; and Darrell, T. 2015. Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pat-tern Recognition, 3431\u20133440. Mahapatra, D., and Buhmann, J. M. 2015. Visual saliency based active learning for prostate mri segmentation. In Inter-national Workshop on Machine Learning in Medical Imag-ing, 9\u201316. Springer. Noble, J. A., and Boukerroui, D. 2006. Ultrasound image segmentation: a survey. IEEE Transactions on medical imaging 25(8):987\u20131010. Rogers, M., and Graham, J. 2002. Robust active shapemodel search. In European conference on computer vision, 517\u2013530. Springer. Rueda, S.; Knight, C. L.; Papageorghiou, A. T.; and Noble, J. A. 2015. Feature-based fuzzy connectedness segmenta-tion of ultrasound images with an object completion step.Medical image analysis 26(1):30\u201346. Santiago, C.; Nascimento, J. C.; and Marques, J. S. 2015.2d segmentation using a robust active shape model withthe em algorithm. IEEE Transactions on Image Processing 24(8):2592\u20132601. Shen, D.; Zhan, Y .; and Davatzikos, C. 2003. Segmentation of prostate boundaries from ultrasound images using statis-tical shape model. IEEE transactions on medical imaging 22(4):539\u2013551. Simonyan, K., and Zisserman, A. 2014. V ery deep convolutional networks for large-scale image recognition. arXiv pr eprint arXiv:1409.1556. Terris, M. K., and Stamey, T. 1991. Determination of prostate volume by transrectal ultrasound. The Journal of urology 145(5):984\u2013987. Tieleman, T., and Hinton, G. 2012. Lecture 6.5-rmsprop:Divide the gradient by a running average of its recent magni-tude. COURSERA: Neural Networks for Machine Learning 4(2). Tu, Z., and Bai, X. 2010. Auto-context and its application to high-level vision tasks and 3d brain image segmentation.IEEE Transactions on Pattern Analysis and Machine Intelli-gence 32(10):1744\u20131757. V an Ginneken, B.; Frangi, A. F.; Staal, J. J.; terHaar Romeny, B. M.; and Viergever, M. A. 2002. Ac-tive shape model segmentation with optimal features. IEEE transactions on medical imaging 21(8):924\u2013933. Wang, Y .; Cheng, J.-Z.; Ni, D.; Lin, M.; Qin, J.; Luo, X.; Xu,M.; Xie, X.; and Heng, P . A. 2016. Towards personalizedstatistical deformable model and hybrid point matching forrobust mr-trus registration. IEEE transactions on medical imaging 35(2):589\u2013604. Yan, P .; Xu, S.; Turkbey, B.; and Kruecker, J. 2010. Discretedeformable model guided by partial active shape model fortrus image segmentation. IEEE Transactions on Biomedical Engineering 57(5):1158. Zhan, Y ., and Shen, D. 2006. Deformable segmentationof 3-d ultrasound prostate images using statistical texturematching method. IEEE Transactions on Medical Imaging 25(3):256\u2013272. Zhou, X.; Huang, X.; Duncan, J. S.; and Y u, W. 2013. Active contours with group similarity. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2969\u20132976.",
+            "ref_ids": [
+                "1995"
+            ]
+        },
+        "Robust contour tracking in ultrasound tongue image sequences": {
+            "authors": [],
+            "url": "https://www.dental.umaryland.edu/media/sod/vocal-tract-visualization-laboratory/Reprint_Xu_Denby_CLP_tracking_2016.pdf",
+            "ref_texts": " Stone, M. (2005). A guide to analysing tongue motion from ultrasound images. Clinical Linguistics & Phonetics, 19(6\u20137), 455 \u2013501. Tang, L., Bressmann, T., & Hamarneh, G. (2012). Tongue contour tracking in dynamic ultrasound via higher-order MRFs and e fficient fusion moves. Medical Image Analysis ,16(8), 1503\u2013 1520. Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004). Image quality assessment: from error visibility to structural similarity. IEEE Transactions on Image Processing ,13(4), 600 \u2013612. Wrench, A. A. (2015). Private communication. Wrench, A. A., & Balch, P. (2015). Towards a 3D tongue model for parameterising ultrasound data. Proceedings of the 18th international congress of phonetic sciences (ICPhS), August 2015,Glasgow, Scotland. X u ,K . ,Y a n g ,Y . ,J a u m a r d H a k o u n ,A . ,A d d a D e c k e r ,M . ,A m e l o t ,A . ,C r e v i e r B u c h m a n ,L . , C h a w a h ,P . ,D r e y f u s ,G ,F u x ,T . ,P i l l o t L o i s e a u ,C . ,A lK o r k ,S . ,K . ,S t o n e ,M . ,&D e n b y ,B .(2014). 3D tongue motion visualization based on ultrasound image sequences. Annualconference of the international speech communication association (InterSpeech)September 2014, Singapore (pp. 1482\u2013 1483). Xu, K., Yang, Y., Jaumard-Hakoun, A., Leboullenger, C., Dreyfus, G., Roussel, P., Stone, M., & Denby, B. (2015) Development of a 3D tongue motion visualization platform based onultrasound image sequences. Proceedings of the 18th international congress of phonetic sciences (ICPhS), August 2015, Glasgow, Scotland. Zhou, X., Huang, X., Duncan, J. S., & Yu, W. (2013). Active contours with group similarity. IEEE conference on computer vision and pattern recognition (CVPR), June 2013, Portland, Oregon,USA (pp. 2969 \u20132976).CLINICAL LINGUISTICS & PHONETICS 15 Downloaded by [University of Maryland, Baltimore], [Maureen Stone] at 12:17 20 January 2016 "
+        },
+        "Circulant dissimilarity-based shape registration for object segmentation": {
+            "authors": [],
+            "url": "http://gala.gre.ac.uk/id/eprint/19585/7/19585%20LAI_Circulant_Dissimilarity_Based_Shape_Registration_for_Object_Segmentation_2018.pdf",
+            "ref_texts": "21 X. Zhou, X. Huang, J. S. Duncan, et al. , \u201cActive contours with group similarity,\u201d in Proc. CVPR , 2969\u20132976 (2013). List of Figures 1 The partly occluded shape can be approximated by a sparse linear combination of horizontal cyclic shifted shapes."
+        },
+        "3D tongue motion visualization based on the B-mode ultrasound tongue images": {
+            "authors": [],
+            "url": "https://theses.hal.science/tel-01529771/file/2016PA066498.pdf",
+            "ref_texts": "[56] X. Zhou, X. Huang, J. Duncan et W. Yu, \u00abActive contours with group similarity,\u00bb chez Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , Portland, Oregon, 2013. ",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Here, we explore the use of the rank of a matrix formed from a set of contours to measure the similarity of the contours of a contour sequence, as in [56].",
+            "2": "It was proved in [56] that .",
+            "3": "One way to solve this problem is to use the nuclear norm regularized linear least squares technique to rewrite the constraint term as [56]: \n sim int ext *E E E \uf067 \uf03d \uf02b \uf02b C (4.",
+            "4": "The accelerated proximal gradient algorithm [56] is used for the optimization in this paper, as follows: the active contours are evolved at each iteration using image-based forces, after which the contour group similarity regularization is imposed by means of singular value thresholding.",
+            "5": "More detail can be found in [58] and [56].",
+            "6": "[56] X."
+        },
+        "Active contour model with entropy-based constraint for image segmentation": {
+            "authors": [],
+            "url": "http://www.bookyourproject.com/dip/16D06.pdf",
+            "ref_texts": "[3] X. Zhou, X. Huang, J. S. Duncan, W. Yu, \u201cActive Contours with Group Similarity,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013, pp. 2969-2976. ",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "[3] X."
+        },
+        "Image cosegmentation using shape similarity and object discovery scheme": {
+            "authors": [],
+            "url": "https://gala.gre.ac.uk/id/eprint/19587/6/19587%20LAI_Image_Cosegmentation_Using_Shape_Similarity_2018.pdf"
+        },
+        "Visualisation tridimensionnelle de la langue bas\u00e9e sur des s\u00e9quences d'image \u00e9chographique en mode-B": {
+            "authors": [],
+            "url": "https://www.theses.fr/2016PA066498.pdf",
+            "ref_texts": "[56] X. Zhou, X. Huang, J. Duncan et W. Yu, \u00abActive contours with group similarity,\u00bb chez Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , Portland, Oregon, 2013. ",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Here, we explore the use of the rank of a matrix formed from a set of contours to measure the similarity of the contours of a contour sequence, as in [56].",
+            "2": "It was proved in [56] that .",
+            "3": "One way to solve this problem is to use the nuclear norm regularized linear least squares technique to rewrite the constraint term as [56]: \n sim int ext *E E E \uf067 \uf03d \uf02b \uf02b C (4.",
+            "4": "The accelerated proximal gradient algorithm [56] is used for the optimization in this paper, as follows: the active contours are evolved at each iteration using image-based forces, after which the contour group similarity regularization is imposed by means of singular value thresholding.",
+            "5": "More detail can be found in [58] and [56].",
+            "6": "[56] X."
+        }
+    }
+}

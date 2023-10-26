@@ -1,0 +1,79 @@
+{
+    "title": "Learning hybrid representations for automatic 3D vessel centerline extraction",
+    "id": 52,
+    "valid_pdf_number": "8/15",
+    "matched_pdf_number": "6/8",
+    "matched_rate": 0.75,
+    "citations": {
+        "Advances in deep learning-based medical image analysis": {
+            "authors": [],
+            "url": "https://downloads.spj.sciencemag.org/hds/2021/8786793.pdf",
+            "ref_texts": ""
+        },
+        "PointNeuron: 3D Neuron Reconstruction via Geometry and Topology Learning of Point Clouds": {
+            "authors": [
+                "Runkai Zhao",
+                "Heng Wang",
+                "Chaoyi Zhang",
+                "Weidong Cai"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Zhao_PointNeuron_3D_Neuron_Reconstruction_via_Geometry_and_Topology_Learning_of_WACV_2023_paper.pdf",
+            "ref_texts": "[22] Jiafa He, Chengwei Pan, Can Yang, Ming Zhang, Yang Wang, Xiaowei Zhou, and Yizhou Yu. Learning Hybrid Representations for Automatic 3D Vessel Centerline Extraction. InInternational Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) , pages 24\u2013",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "They leverage the 3D point cloud representation to learn more discriminative object features for different medical image tasks [53], such as cardiac mesh reconstruction[11], volumetric segmentation [23, 2], and vessel centerline extraction [22].",
+            "2": "For example, [23, 22, 2] use the characterization of point clouds to learn the global context feature for enhancing the CNN-based image segmentation performance."
+        },
+        "Coronary centerline extraction from ccta using 3d-unet": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1999-5903/13/4/101/pdf",
+            "ref_texts": "20. He, J.; Pan, C.; Yang, C.; Zhang, M.; Wang, Y.; Zhou, X.; Yu, Y. Learning Hybrid Representations for Automatic 3D Vessel Centerline Extraction. In Medical Image Computing and Computer Assisted Intervention\u2014MICCAI 2020 ; Martel, A.L., Abolmaesumi, P ., Stoyanov, D., Mateus, D., Zuluaga, M.A., Zhou, S.K., Racoceanu, D., Joskowicz, L., Eds.; Lecture Notes in Computer Science; Springer International Publishing: Cham, Switzerland, 2020; Volume 12266, pp. 24\u201334, ISBN 978-3-030-59724-5.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Machine learning was combined in a hybrid approach with global geometry learning in [20] in order to improve the connectivity of the result of a CNN."
+        },
+        "Multi-resolution 3d convolutional neural networks for automatic coronary centerline extraction in cardiac CT angiography scans": {
+            "authors": [],
+            "url": "https://hannes.nickisch.org/papers/conferences/salahuddin21AuCoTrack.pdf",
+            "ref_texts": "[15] Jiafa He, Chengwei Pan, Can Yang, Ming Zhang, Yang Wang, Xiaowei Zhou, and Yizhou Yu, \u201cLearning hybrid representations for automatic 3d vessel centerline extraction,\u201d in Medical Image Computing and Computer Assisted Intervention . 2020, pp. 24\u201334, Springer International Publishing.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Similarly, a hybrid learning representation approach that utilizes segmentation masks proposed by [15] was trained on 100 CCTA scans."
+        },
+        "Eigenvector Grouping for Point Cloud Vessel Labeling": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v194/rygiel22a/rygiel22a.pdf",
+            "ref_texts": "5281/zenodo.4323059 . J.J.M. Cuppen. A divide and conquer method for the symmetric tridiagonal eigenproblem. Numerische Mathematik. 36 , page 177\u2013195, 1981. Y. Eldar, M. Lindenbaum, M. Porat, and Y.Y. Zeevi. The farthest point strategy for progressive image sampling. IEEE Transactions on Image Processing , 6(9):1305\u20131315, 1997. doi: 10.1109/83.623193. WA et al. Falcon. Pytorch lightning. URL https://github.com/PyTorchLightning/ pytorch-lightning . J.G.F Francis. The qr transformation, i. The Computer Journal, 4(3) , pages 265\u2013271, 1961. doi: 10.1093/comjnl/4.3.265. Jiafa He, Chengwei Pan, Can Yang, Ming Zhang, Yang Wang, Xiaowei Zhou, and Yizhou Yu. Learning hybrid representations for automatic 3d vessel centerline extraction. Lecture Notes in Computer Science , page 24\u201334, 2020. ISSN 1611-3349. doi: 10.1007/"
+        },
+        "Centerline and blockstructure for fast structured mesh generation": {
+            "authors": [],
+            "url": "https://www.degruyter.com/document/doi/10.1515/cdbme-2022-0004/pdf",
+            "ref_texts": "[8] Jiafa He, Chengwei Pan, Can Y ang, Ming Zhang, Y ang Wang, Xiaowei Zhou, and Yizhou Yu. Learning hybrid representations for automatic 3d vessel centerline extraction. In Anne L. Martel, Purang Abolmaesumi, Danail Stoyanov, Diana Mateus, Maria A. Zuluaga, S. Kevin Zhou, Daniel Racoceanu, and Leo Joskowicz, editors, Medical Image Computing and Computer Assisted Intervention \u2013 MICCAI 2020, pages 24\u201334, Cham, 2020. Springer International Publishing.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": ", Centerline and blockstructure Other approaches detect the centerline in images and are restricted to the image modality they were deveopled for [8, 10]."
+        },
+        "3D Analysis of the Normal and Pathological Coronary Morphology": {
+            "authors": [],
+            "url": "http://digital-library.ulbsibiu.ro/xmlui/bitstream/handle/123456789/3228/2021-Dorobantiu%20Alexandru_en.pdf?sequence=3&isAllowed=y",
+            "ref_texts": "89. He, J.; Pan, C.; Yang, C.; Z hang, M.; Wang, Y.; Zhou, X.; Yu, Y. Learning Hybrid Representations for Automatic 3D Vessel Centerline Extraction. In Medical Image Computing and Computer Assisted Intervention \u2013 MICCAI 2020 ; Martel, A.L., Abolmaesumi, P., Stoyanov, D., Mateus, D., Zuluag a, M.A., Zhou, S.K., Racoceanu, D., Joskowicz, L., Eds.; Lecture Notes in Computer Science; Springer International Publishing: Cham, 2020; Vol. 12266, pp. 24 \u201334 ISBN 978 -3-030-59724 -5. ",
+            "ref_ids": [
+                "89"
+            ],
+            "1": "Machine learning was combined in a hybrid approach with global geometry learning in \n[89] in order to improve the connectivity of the result of a CNN."
+        },
+        "TEZ\u0102 DE DOCTORAT": {
+            "authors": [],
+            "url": "https://doctorate.ulbsibiu.ro/wp-content/uploads/22.Alexandru-Dorobantiu-PhD-Thesis.pdf",
+            "ref_texts": "89. He, J.; Pan, C.; Yang, C.; Z hang, M.; Wang, Y.; Zhou, X.; Yu, Y. Learning Hybrid Representations for Automatic 3D Vessel Centerline Extraction. In Medical Image Computing and Computer Assisted Intervention \u2013 MICCAI 2020 ; Martel, A.L., Abolmaesumi, P., Stoyanov, D., Mateus, D., Zuluag a, M.A., Zhou, S.K., Racoceanu, D., Joskowicz, L., Eds.; Lecture Notes in Computer Science; Springer International Publishing: Cham, 2020; Vol. 12266, pp. 24 \u201334 ISBN 978 -3-030-59724 -5. ",
+            "ref_ids": [
+                "89"
+            ],
+            "1": "Machine learning was combined in a hybrid approach with global geometry learning in \n[89] in order to improve the connectivity of the result of a CNN."
+        }
+    }
+}

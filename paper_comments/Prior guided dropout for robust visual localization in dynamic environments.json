@@ -1,0 +1,185 @@
+{
+    "title": "Prior guided dropout for robust visual localization in dynamic environments",
+    "id": 33,
+    "valid_pdf_number": "13/30",
+    "matched_pdf_number": "9/13",
+    "matched_rate": 0.6923076923076923,
+    "citations": {
+        "Erasing integrated learning: A simple yet effective approach for weakly supervised object localization": {
+            "authors": [
+                "Jinjie Mai",
+                "Meng Yang",
+                "Wenfeng Luo"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Mai_Erasing_Integrated_Learning_A_Simple_Yet_Effective_Approach_for_Weakly_CVPR_2020_paper.pdf",
+            "ref_texts": "[11] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior guided dropout for robust visual localization in dynamic environments. In The IEEE International Conference on Computer Vision (ICCV) , October 2019.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "To address this critical issue, adversarial erasing [35, 13, 33, 39, 8, 17, 2, 11] has emerged as a very popular approach to capture the entire object."
+        },
+        "Atloc: Attention guided camera localization": {
+            "authors": [
+                "Bing Wang",
+                "Changhao Chen",
+                "Chris Xiaoxuan",
+                "Peijun Zhao",
+                "Niki Trigoni",
+                "Andrew Markham"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6608/6462",
+            "ref_texts": ""
+        },
+        "Vs-net: Voting with segmentation for visual localization": {
+            "authors": [
+                "Zhaoyang Huang",
+                "Han Zhou",
+                "Yijin Li",
+                "Bangbang Yang",
+                "Yan Xu",
+                "Xiaowei Zhou",
+                "Hujun Bao",
+                "Guofeng Zhang",
+                "Hongsheng Li"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_VS-Net_Voting_With_Segmentation_for_Visual_Localization_CVPR_2021_paper.pdf",
+            "ref_texts": "[21] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior guided dropout for robust visual localization in dynamic environments. In Proceedings of the IEEE International Conference on Computer Vision , pages 2791\u20132800, 2019.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Neural pose regression [24,23,10,21,52,59] learns to directly predict parameters of a camera pose from an image, which are not competitive with other visual localization frameworks in accuracy.",
+            "2": "We do not present the results of neural pose regression [24,23, 10,21] because their pose accuracies are not competitive enough."
+        },
+        "SGLoc: Scene Geometry Encoding for Outdoor LiDAR Localization": {
+            "authors": [
+                "Wen Li",
+                "Shangshu Yu",
+                "Cheng Wang",
+                "Guosheng Hu",
+                "Siqi Shen",
+                "Chenglu Wen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SGLoc_Scene_Geometry_Encoding_for_Outdoor_LiDAR_Localization_CVPR_2023_paper.pdf",
+            "ref_texts": "[21] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior guided dropout for robust visual localization in dynamic environments. In ICCV , pages 2791\u20132800, 2019. 1",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Prior efforts have tried to minimize the relative pose or photometric errors to add geometry constraints by pose graph optimization (PGO) [4, 21] or novel view synthesis (NVS) [10, 11]."
+        },
+        "Deep single fisheye image camera calibration for over 180-degree projection of field of view": {
+            "authors": [
+                "Nobuhiko Wakai",
+                "Takayoshi Yamashita"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021W/PBDL/papers/Wakai_Deep_Single_Fisheye_Image_Camera_Calibration_for_Over_180-Degree_Projection_ICCVW_2021_paper.pdf",
+            "ref_texts": "[8] Z. Huang, Y . Xu, J. Shi, X. Zhou, H. Bao, and G. Zhang. Prior guided dropout for robust visual localization in dynamic environments. In Proceedings of International Conference on Computer Vision (ICCV) , pages 2791\u20132800, 2019. 2",
+            "ref_ids": [
+                "8"
+            ],
+            "1": ", non-fisheye cameras, [8, 18, 24, 28, 29] and panoramic 360flimages [2].",
+            "2": "3\n[8] Z."
+        },
+        "RobustLoc: Robust camera pose regression in challenging driving environments": {
+            "authors": [
+                "Sijie Wang",
+                "Qiyu Kang",
+                "Rui She",
+                "Wee Peng",
+                "Andreas Hartmannsgruber",
+                "Diego Navarro"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25765/25537",
+            "ref_texts": "2018. Neural ordinary differential equations. arXiv preprint arXiv:1806.07366. Chen, Z.-Q.; Qian, Z.; Hu, Y .; and Zheng, W. 1998. Stability and approximations of symmetric diffusion semigroups and kernels. J. functional anal., 152(1): 255\u2013280. Hu, Y.; Wang, B.; and Lin, S. 2017. Fc4: Fully convolutional color constancy with confidence-weighted pooling. In Proceedings of the IEEE conference on computer vision and pattern recognition, 4085\u20134094. Huang, Z.; Xu, Y.; Shi, J.; Zhou, X.; Bao, H.; and Zhang, G. 2019. Prior guided dropout for robust visual localization in dynamic environments. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 2791\u20132800. Kang, Q.; Song, Y.; Ding, Q.; and Tay, W. P. 2021. Stable neural ODE with Lyapunov-stable equilibrium points for defending against adversarial attacks. In Proc. Advances Neural Inf. Process. Syst. Kendall, A.; and Cipolla, R. 2017. Geometric loss functions for camera pose regression with deep learning. In Proceedings of the IEEE conference on computer vision and pattern recognition, 5974\u20135983. Kendall, A.; Grimes, M.; and Cipolla, R. 2015. Posenet: A convolutional network for real-time 6-dof camera relocalization. In Proceedings of the IEEE international conference on computer vision, 2938\u20132946. Liu, R.; Lehman, J.; Molino, P.; Petroski Such, F.; Frank, E.; Sergeev, A.; and Yosinski, J. 2018. An intriguing failing of convolutional neural networks and the coordconv solution. Advances in neural information processing systems, 31. Maddern, W.; Pascoe, G.; Linegar, C.; and Newman, P. 2017.",
+            "ref_ids": [
+                "2018"
+            ]
+        },
+        "HypLiLoc: Towards Effective LiDAR Pose Regression with Hyperbolic Fusion": {
+            "authors": [
+                "Sijie Wang",
+                "Qiyu Kang",
+                "Rui She",
+                "Wei Wang",
+                "Kai Zhao",
+                "Yang Song",
+                "Wee Peng"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_HypLiLoc_Towards_Effective_LiDAR_Pose_Regression_With_Hyperbolic_Fusion_CVPR_2023_paper.pdf",
+            "ref_texts": "[16] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior guided dropout for robust visual localization in dynamic environments. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 2791\u20132800, 2019. 2, 7",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "AD-PoseNet [16] leverages semantic masks to drop out the dynamic area in the image.",
+            "2": "54 AD-MapNet [16] 18.",
+            "3": "85 AD-MapNet [16] 0."
+        },
+        "Local to global: Efficient visual localization for a monocular camera": {
+            "authors": [
+                "Sang Jun",
+                "Deokhwa Kim",
+                "Sung Soo",
+                "Donghwan Lee"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2021/papers/Lee_Local_to_Global_Efficient_Visual_Localization_for_a_Monocular_Camera_WACV_2021_paper.pdf"
+        },
+        "Active robot vision: from state estimation to motion planning": {
+            "authors": [
+                "Zichao Zhang"
+            ],
+            "url": "https://scholar.archive.org/work/imlattedxzclbeef6m3jnlbbhq/access/wayback/https://www.zora.uzh.ch/id/eprint/191571/1/191571.pdf",
+            "ref_texts": "[115] Z. Huang, Y. Xu, J. Shi, X. Zhou, H. Bao, and G. Zhang. \u201cPrior Guided Dropout for Robust Visual Localization in Dynamic Environments\u201d. In: Int. Conf. Comput. Vis. (ICCV) . 2019.",
+            "ref_ids": [
+                "115"
+            ],
+            "1": "Instead of explicitly using an underlying 3D model, absolute pose regression train a CNN to directly regress the camera pose from an input image [29,59,115,131,130,172, 189,212,294,300,308].",
+            "2": "[115] Z."
+        },
+        "Coordinet: uncertainty-aware pose regressor for reliable vehicle localization": {
+            "authors": [
+                "Arthur Moreau",
+                "Nathan Piasco",
+                "Dzmitry Tsishkou",
+                "Bogdan Stanciulescu",
+                "La Fortelle"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Moreau_CoordiNet_Uncertainty-Aware_Pose_Regressor_for_Reliable_Vehicle_Localization_WACV_2022_paper.pdf",
+            "ref_texts": "[9] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior guided dropout for robust visual localization in dynamic environments. In Proceedings of the IEEE International Conference on Computer Vision , volume 2019-Octob, pages 2791\u20132800, 2019.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "They generate multiple hypothesis for each single image at inference time, and then compute mean and variance to estimate pose and uncertainty [10, 9].",
+            "2": "Several innovations have been proposed to improve the architecture of the network: Hourglass network [17] proposes an encoder-decoder architecture, AtLoc [31] and RVL [9] use an attention module before the fully-connected layers.",
+            "3": "Similar post-processing method, with a pose graph optimization formulation, have already been used in [3, 9].",
+            "4": "RVL [9] proposes a prior guided dropout on input image: it removes areas where dynamic objects appear and allows to generate a Monte Carlo sample too.",
+            "5": "[9].",
+            "6": "[9] to compare performances with related methods (ADPoseNet) and report results in table 3.",
+            "7": "CoordiNet (ours) AD PoseNet [9] Oxfordmedian 1.",
+            "8": "These results outperform methods with pose graph optimization reported in [3, 9]."
+        },
+        "Learning methods for robust localization": {
+            "authors": [],
+            "url": "https://ora.ox.ac.uk/objects/uuid:edfcdcf6-957c-4ef8-9ec9-4028feb5161c/download_file?file_format=&safe_filename=thesis_revised.pdf&type_of_work=Thesis",
+            "ref_texts": "[132] Z. Huang, Y . Xu, J. Shi, X. Zhou, H. Bao, and G. Zhang, \u201cPrior guided dropout for robust visual localization in dynamic environments,\u201d in Proceedings of the IEEE International Conference on Computer Vision (ICCV) , pp. 2791\u20132800, 2019.",
+            "ref_ids": [
+                "132"
+            ],
+            "1": "Other work further improves the localization accuracy [110, 133, 134], enables camera relocation to scale to large-scale outdoor environment [109, 141, 124, 132], and enhances the capacity of generalization across different scenes [131].",
+            "2": "[132] 2019/10 Vision Relocalization Xue et al.",
+            "3": "[132] Z."
+        },
+        "EpiLoc: Deep Camera Localization Under Epipolar Constraint.": {
+            "authors": [],
+            "url": "https://itiis.org/journals/tiis/digital-library/manuscript/file/25767/TIIS%20Vol%2016,%20No%206-14.pdf",
+            "ref_texts": ""
+        },
+        "Learning Multi-view Camera Relocalization with Graph Neural Networks Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/supplemental/Xue_Learning_Multi-View_Camera_CVPR_2020_supplemental.pdf",
+            "ref_texts": "[3] Zhaoyang Huang, Yan Xu, Jianping Shi, Xiaowei Zhou, Hujun Bao, and Guofeng Zhang. Prior Guided Dropout for Robust Visual Localization in Dynamic Environments. In ICCV , 2019.",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "Although VidLoc [2] and ADPoseNet [3] also report results on the Oxford RobotCar dataset [7], they use the different sequences for training and testing."
+        }
+    }
+}

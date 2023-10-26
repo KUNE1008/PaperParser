@@ -1,0 +1,765 @@
+{
+    "title": "Sparse representation for 3D shape estimation: A convex relaxation approach",
+    "id": 15,
+    "valid_pdf_number": "61/127",
+    "matched_pdf_number": "44/61",
+    "matched_rate": 0.7213114754098361,
+    "citations": {
+        "3d human pose estimation: A review of the literature and analysis of covariates": {
+            "authors": [
+                "Nikolaos Sarafianos"
+            ],
+            "url": "https://nsarafianos.github.io/assets/3DHumanPose.pdf",
+            "ref_texts": "3D pose estimation from a single image. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas, NV . Ye, M. , Zhang, Q. , Wang, L. , Zhu, J. , Yang, R. , Gall, J. , 2013. A survey on human motion analysis from depth data. In: Time-of-Flight and Depth Imaging. Sensors, Algorithms, and Applications. Springer, pp. 149\u2013187 . Zhang, Y. , Han, T. , Ren, Z. , Umetani, N. , Tong, X. , Liu, Y. , Shiratori, T. , Cao, X. , 2013. Bodyavatar: creating freeform 3D avatars using first-person body gestures. In: Proc. 26th annual ACM symposium on user interface software and technology. ACM, St. Andrews, Scotland, United Kingdom, pp. 387\u2013396 . Zheng, Y. , Liu, H. , Dorsey, J. , Mitra, N.J. , 2015. Ergonomics-inspired reshaping and exploration of collections of models. IEEE Trans. Visual Comput. Graphics 1\u201314 . Zhou, X., Leonardos, S., Hu, X., Daniilidis, K., 2015b. Source code for 3D shape reconstruction from 2D landmarks: a convex formulation. Available online at: https://fling.seas.upenn.edu/ \u223cxiaowz/dynamic/wordpress/3dshapeestimation/ . Zhou, X. , Leonardos, S. , Hu, X. , Daniilidis, K. , 2015a. 3D shape estimation from 2D landmarks: a convex relaxation approach. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Boston, MA, pp. 4 4 47\u20134 455 . Zhou, X., Zhu, M., Leonardos, S., Derpanis, K., Daniilidis, K., 2016a. Source code for Sparseness meets deepness: 3D human pose estimation from monocular video. Available online at: https://fling.seas.upenn.edu/ \u223cxiaowz/dynamic/ wordpress/monocap/ . Zhou, X. , Zhu, M. , Leonardos, S. , Derpanis, K. , Daniilidis, K. , 2016b. Sparseness meets deepness: 3D human pose estimation from monocular video. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas, NV . Zhou, X. , Zhu, M. , Leonardos, S. , Daniilidis, K. , 2016c. Sparse Representation for 3D shape estimation: A convex relaxation approach. In: IEEE Transactions on Pattern Analysis and Machine Intelligence . Zuffi, S. , Black, M. , 2015. The stitched puppet: A graphical model of 3D human shape and pose. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Boston, Massachusetts, pp. 3537\u20133546 . Zuffi, S. , Freifeld, O. , Black, M.J. , 2012. From pictorial structures to deformable structures. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Providence, Rhode Island, pp. 3546\u20133553 . "
+        },
+        "End-to-end recovery of human shape and pose": {
+            "authors": [
+                "Angjoo Kanazawa",
+                "Michael J. Black",
+                "David W. Jacobs",
+                "Jitendra Malik"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Kanazawa_End-to-End_Recovery_of_CVPR_2018_paper.pdf",
+            "ref_texts": "[53] X. Zhou, M. Zhu, S. Leonardos, K. Derpanis, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR , pages 4447\u20134455, 2015. 3",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "Two stage methods first predict 2D joint locations using 2D pose detectors [30,49,54] or ground truth 2D pose and then predict 3D joint locations from the 2D joints either by regression [26,29] or model fitting, where a common approach exploits a learned dictionary of 3D skeletons [2,34,47,37,53,54].",
+            "2": "3,4,5,7\n[53] X."
+        },
+        "A simple yet effective baseline for 3d human pose estimation": {
+            "authors": [
+                "Julieta Martinez",
+                "Rayat Hossain",
+                "Javier Romero",
+                "James J. Little"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Martinez_A_Simple_yet_ICCV_2017_paper.pdf",
+            "ref_texts": "[55] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. TPAMI , 99(1), 2016. 2,3,6",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "Another way of compiling knowledge about 3d human pose from datasets is by creating overcomplete bases suitable for representing human poses as sparse combinations [2,7,36,49,55,56], lifting the pose to a reproducible kernel Hilbert space (RHKS) [18] or by creating novel priors from specialized datasets of extreme human poses [2].",
+            "2": "2d/3d positions Our first design choice is to use 2d and 3d points as inputs and outputs, in contrast to recent work that has used raw images [11,13,24,32,33,45,46,54,56] or 2d probability distributions [33,56] as inputs, and 3d probabilities [33], 3d motion parameters [54] or basis pose coefficients and camera parameter estimation [2,7,36,55,56] as outputs.",
+            "3": "[55]* (MA) 14j 99.",
+            "4": "3,4, 5\n[55] X."
+        },
+        "Recovering accurate 3d human pose in the wild using imus and a moving camera": {
+            "authors": [
+                "Roberto Henschel",
+                "Michael Black",
+                "Bodo Rosenhahn",
+                "Gerard Pons"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Timo_von_Marcard_Recovering_Accurate_3D_ECCV_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "Hybrik: A hybrid analytical-neural inverse kinematics solution for 3d human pose and shape estimation": {
+            "authors": [
+                "Jiefeng Li",
+                "Chao Xu",
+                "Zhicun Chen",
+                "Siyuan Bian",
+                "Lixin Yang",
+                "Cewu Lu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_HybrIK_A_Hybrid_Analytical-Neural_Inverse_Kinematics_Solution_for_3D_Human_CVPR_2021_paper.pdf",
+            "ref_texts": "[76] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. TPAMI , 2016. 2",
+            "ref_ids": [
+                "76"
+            ],
+            "1": "Two-stage approaches first estimate 2D pose and then lift them to 3D joint locations by a learned dictionary of 3D skeleton [1,53,64,56,76,77] or regression [46,71,40,11,32,59]."
+        },
+        "Learning to estimate 3D human pose and shape from a single color image": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Luyang Zhu",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Learning_to_Estimate_CVPR_2018_paper.pdf",
+            "ref_texts": "[56] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016. 7",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "[56]* 106.",
+            "2": "2\n[56] X."
+        },
+        "Lifting from the deep: Convolutional 3d pose estimation from a single image": {
+            "authors": [
+                "Denis Tome",
+                "Chris Russell",
+                "Lourdes Agapito"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Tome_Lifting_From_the_CVPR_2017_paper.pdf",
+            "ref_texts": "[49] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. arXiv preprint arXiv:1509.04309 , 2015. 2",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "Representing human 3D pose as a linear combination of a sparse set of 3D bases, pretrained using 3D mocap data, has also proved a popular approach for articulated human motion [28,43,49], while [49] propose a convex relaxation to jointly estimate the coefficients of the sparse representation and the camera viewpoint [28] and [43] enforce limb length constraints.",
+            "2": "2\n[49] X."
+        },
+        "Ordinal depth supervision for 3d human pose estimation": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Ordinal_Depth_Supervision_CVPR_2018_paper.pdf",
+            "ref_texts": "[67] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016. 7",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "[67]* (CVPR\u201915) 99.",
+            "2": "7\n[67] X."
+        },
+        "License plate detection and recognition in unconstrained scenarios": {
+            "authors": [
+                "Sergio Silva",
+                "Claudio Jung"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Sergio_Silva_License_Plate_Detection_ECCV_2018_paper.pdf",
+            "ref_texts": "32. Zhou, X., Zhu, M., Leonardos, S., Daniilidis, K.: Sparse repre sentation for 3d shape estimation: A convex relaxation approach. IEEE transactions o n pattern analysis and machine intelligence 39(8), 1648\u20131661 (2017)",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Although 3D pose estimation methods such as [32] might be used to determine the resize scale, this work presents a simple and fast proced ure based on the aspect ratio of the vehicle BB."
+        },
+        "Learning convolutional networks for content-weighted image compression": {
+            "authors": [
+                "Mu Li",
+                "Wangmeng Zuo",
+                "Shuhang Gu",
+                "Debin Zhao",
+                "David Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Learning_Convolutional_Networks_CVPR_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "3d human pose estimation from a single image via distance matrix regression": {
+            "authors": [
+                "Francesc Moreno"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Moreno-Noguer_3D_Human_Pose_CVPR_2017_paper.pdf",
+            "ref_texts": "[55] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse Representation for 3D Shape Estimation: A Convex Relaxation Approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2016. 5,6,7",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "13 Zhou PAMI\u201916 [55](*) 100.",
+            "2": "This is the same evaluation protocol used by the baselines we compare against [3,6,8,10,12,21,30,31,38,39,40,45,47, 50,52,55,56].",
+            "3": "It has been recently used in [10], which also evaluates [3,31,55].",
+            "4": "56 Zhou PAMI\u201916 [55](*) 99.",
+            "5": "2\n[55] X."
+        },
+        "Sparseness meets deepness: 3d human pose estimation from monocular video": {
+            "authors": [
+                "Xiaowei Zhou",
+                "Menglong Zhu",
+                "Spyridon Leonardos",
+                "Konstantinos G. Derpanis",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhou_Sparseness_Meets_Deepness_CVPR_2016_paper.pdf",
+            "ref_texts": "[56] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. arXiv preprint arXiv:1509.04309 , 2015. 2,4,5",
+            "ref_ids": [
+                "56"
+            ],
+            "1": ", non-rigid structure from motion (NRSFM), and human pose recovery models based on known skeletons [20,43,47,30,21] or sparse representations [32,15, 2,55,56].",
+            "2": "Initialization A convex relaxation approach [55,56] is used to initialize the parameters.",
+            "3": "The approach was later extended to handle 2D correspondence outliers [56].",
+            "4": "Next, the robust estimation algorithm from [56] is applied to initialize the parameters.",
+            "5": "The algorithm in [56] was used to learn the pose dictionaries.",
+            "6": "2,4\n[56] X."
+        },
+        "Unite the people: Closing the loop between 3d and 2d human representations": {
+            "authors": [
+                "Christoph Lassner",
+                "Javier Romero",
+                "Martin Kiefel",
+                "Federica Bogo",
+                "Michael J. Black",
+                "Peter V. Gehler"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Lassner_Unite_the_People_CVPR_2017_paper.pdf",
+            "ref_texts": "[45] X. Zhou, M. Zhu, S. Leonardos, K. Derpanis, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2015. 7",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "[45] 110.",
+            "2": "2\n[45] X."
+        },
+        "C3dpo: Canonical 3d pose networks for non-rigid structure from motion": {
+            "authors": [
+                "David Novotny",
+                "Nikhila Ravi",
+                "Benjamin Graham",
+                "Natalia Neverova",
+                "Andrea Vedaldi"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Novotny_C3DPO_Canonical_3D_Pose_Networks_for_Non-Rigid_Structure_From_Motion_ICCV_2019_paper.pdf",
+            "ref_texts": "[42] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Priors about the shape and the camera motion are employed to improve conditioning of the problem, including the use of low-rank subspaces in the spatial domain [3, 11, 9, 43], temporal domain, for example, fitting 2D keypoint trajectories to a set of predefined DCT basis functions [4, 5], spatio-temporal domain [1, 12, 22, 23], multiple unions of low-rank subspaces [43, 2], learning an overcomplete dictionary of basis shapes from 3D motion capture data and imposing an L1 penalty on basis coefficients [41, 42] and imposing Gaussian priors on the shape coefficients [33]."
+        },
+        "Monocular 3d human pose estimation by generation and ordinal ranking": {
+            "authors": [
+                "Saurabh Sharma",
+                "Pavan Teja",
+                "Prashast Bindal",
+                "Abhishek Sharma",
+                "Arjun Jain"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Sharma_Monocular_3D_Human_Pose_Estimation_by_Generation_and_Ordinal_Ranking_ICCV_2019_paper.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. PAMI .2",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "It was extended by [47] via convex relaxation to address bad initialisation in this scheme."
+        },
+        "Self-supervised 3d human pose estimation via part guided novel image synthesis": {
+            "authors": [
+                "Jogendra Nath",
+                "Siddharth Seth",
+                "Varun Jampani",
+                "Mugalodi Rakesh",
+                "Venkatesh Babu",
+                "Anirban Chakraborty"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.pdf",
+            "ref_texts": "[69] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence , 2016. 7",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "[69] Full-3D 106."
+        },
+        "xr-egopose: Egocentric 3d human pose from an hmd camera": {
+            "authors": [
+                "Denis Tome",
+                "Patrick Peluse",
+                "Lourdes Agapito",
+                "Hernan Badino"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Tome_xR-EgoPose_Egocentric_3D_Human_Pose_From_an_HMD_Camera_ICCV_2019_paper.pdf",
+            "ref_texts": "[59] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "59"
+            ],
+            "1": "Two main trends have emerged: (i)fully supervised regression of 3D joint locations directly from images [22,31,47,58,32,27] and (ii)pipeline approaches that decouple the problem into the tasks of 2D joint detection followed by 3D lifting [26,29,35,1,59,60,4,43]."
+        },
+        "TF-YOLO: An improved incremental network for real-time object detection": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2076-3417/9/16/3225/pdf",
+            "ref_texts": "34. Zhou, X.; Zhu, M.; Leonardos, S.; Daniilidis, K. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Mach. Intell. 2017 ,39, 1648\u20131661. [CrossRef] [PubMed]",
+            "ref_ids": [
+                "34"
+            ]
+        },
+        "Ego-pose estimation and forecasting as real-time pd control": {
+            "authors": [
+                "Ye Yuan",
+                "Kris Kitani"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yuan_Ego-Pose_Estimation_and_Forecasting_As_Real-Time_PD_Control_ICCV_2019_paper.pdf",
+            "ref_texts": "[69] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactionson pattern analysis and machine intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "Traditional methods tackle the depth ambiguity with strong priors such as shape models [69,4]."
+        },
+        "Repnet: Weakly supervised training of an adversarial reprojection network for 3d human pose estimation": {
+            "authors": [
+                "Bastian Wandt",
+                "Bodo Rosenhahn"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Wandt_RepNet_Weakly_Supervised_Training_of_an_Adversarial_Reprojection_Network_for_CVPR_2019_paper.pdf",
+            "ref_texts": "[49] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648\u20131661, Aug 2017. 2,7",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "Commonly the best linear combination of bases obtained by a principal component analysis is optimized [7,43,49,50].",
+            "2": "[49] 99.",
+            "3": "6\n[49] X."
+        },
+        "Not all parts are created equal: 3d pose estimation by modeling bi-directional dependencies of body parts": {
+            "authors": [
+                "Jue Wang",
+                "Shaoli Huang",
+                "Xinchao Wang",
+                "Dacheng Tao"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Not_All_Parts_Are_Created_Equal_3D_Pose_Estimation_by_ICCV_2019_paper.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "These methods comprise a 2D pose detector and a subsequent optimization [48, 47, 49] or regression [4, 3, 17, 30, 36, 14, 19, 7, 12] step to estimate 3D pose .",
+            "2": "The most straightforward approach is to represent 3D poses as linear combinations of models learned from training data [48, 47, 49].",
+            "3": "[47] 99."
+        },
+        "To the point: Correspondence-driven monocular 3d category reconstruction": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/40008b9a5380fcacce3976bf7c08af5b-Paper.pdf",
+            "ref_texts": "[39] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis, \u201cSparse representation for 3d shape estimation: A convex relaxation approach,\u201d IEEE transactions on pattern analysis and machine intelligence , vol. 39, no. 8, pp. 1648\u20131661, 2016. 3",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "The priors are embedded into the methods using low-rank subspaces [37,7,17], spatio-temporal domains [34,38], equivariance constraints [35] or sparse basis coefficients using L1 constraints [36,39,40].",
+            "2": "3\n[39] X."
+        },
+        "One ring to rule them all: Certifiably robust geometric perception with outliers": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/da6ea77475918a3d83c7e49223d453cc-Paper.pdf",
+            "ref_texts": ""
+        },
+        "Keytr: keypoint transporter for 3d reconstruction of deformable objects in videos": {
+            "authors": [
+                "David Novotny",
+                "Ignacio Rocco",
+                "Samarth Sinha",
+                "Alexandre Carlier",
+                "Gael Kerchenbaum",
+                "Roman Shapovalov",
+                "Nikita Smetanin",
+                "Natalia Neverova",
+                "Benjamin Graham",
+                "Andrea Vedaldi"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Novotny_KeyTr_Keypoint_Transporter_for_3D_Reconstruction_of_Deformable_Objects_in_CVPR_2022_paper.pdf",
+            "ref_texts": "[50] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016. 2",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Other works enforced smoothness in the spatio-temporal domain [1,14,21,22], sparse [50] or Gaussian [46] priors, or minimized canonicalization loss [33]."
+        },
+        "In perfect shape: Certifiably optimal 3D shape reconstruction from 2D landmarks": {
+            "authors": [
+                "Heng Yang",
+                "Luca Carlone"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_In_Perfect_Shape_Certifiably_Optimal_3D_Shape_Reconstruction_From_2D_CVPR_2020_paper.pdf",
+            "ref_texts": "[49] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Machine Intell. , 39(8):1648\u20131661, 2017. 1,2,3,4,6, 7,8",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "Despite the progress in semantic segmentation [11], depth estimation [20], and pose estimation [16,43], reconstructing the 3D shape and pose of an object from a single image remains a challenging task [2,49,37,42,18,35].",
+            "2": "A typical approach for 3D shape reconstruction is to first detect 2D landmarks in a single image, and then solve a model-based optimization to lift the 2D landmarks to form a 3D model [48,49,35,25,40].",
+            "3": "This model-based paradigm has been successful in several applications such as face recognition [4,10], car model fitting [25,12], and human pose estimation [49,35].",
+            "4": "[49] model outliers using a sparse matrix and augment the optimization with an \u21131regularization to achieve robustness against 40% outliers.",
+            "5": "Without loss of generality, we adopt the nonnegative sparse coding (NNSC) convention [49] and assume all the coefficients ckare nonnegative4.",
+            "6": ",K t\u2208R2,R\u2208SO(3)N/summationdisplay i=1wi/vextenddouble/vextenddouble/vextenddouble/vextenddouble/vextenddoublezi\u2212\u03a0R/parenleftBiggK/summationdisplay k=1ckBki/parenrightBigg \u2212t/vextenddouble/vextenddouble/vextenddouble/vextenddouble/vextenddouble2\n+\u03b1K/summationdisplay k=1|ck|(11) The\u21131-norm regularization (controlled by a given constant\u03b1) encourages the coefficients ckto be sparse when the shape Sis generated from only a subset of the basis shapes [49] (note that the \u21131-norm becomes redundant when using the NNSC convention).",
+            "7": "Contrary to previous approaches [49,35], we explicitly associate a given weight wi\u22650to each 2D measurement ziin eq.",
+            "8": "This strategy is inspired by Horn\u2019s method for point cloud registration [14], and generalizes [49] to the weighted and non-centered case.",
+            "9": "(9) are typically produced by learning-based or handcrafted detectors [49], which might produce largely incorrect measurements (e.",
+            "10": "01 to encourage sparseness, against three state-of-the-art optimization techniques: (i) the projective matching pursuit method [35] (label: PMP), which uses principal component analysis to first obtain a set of orthogonal bases from {Bk} and then locally optimizes the shape parameters and camera pose using the mean shape as an initial guess; (ii) the alternative optimization method [48] (label: Altern ), which locally optimizes problem (11) by alternatively updating candR, initialized at the mean shape; and (iii) the convex relaxation with refinement proposed in [49] (label: convex+refine ), which uses a convex relaxation and then refines the solution to obtain candR.",
+            "11": "3D shape estimation error (left) and rotation estimation error (right) by Shape\u22c6compared with PMP [35],Altern [48] and convex+refine [49], for increasing basis shapes K= 5,10,20.",
+            "12": "We then evaluate the robustness of Shape#compared with two other robust methods based on the assumption of sparse outliers in [49]: (i) robustified alternative optimization (label: Altern+Robust ) and (ii) robustified convex optimization (label: Convex+Robust ).",
+            "13": "3D shape estimation error (top) and rotation estimation error (bottom) by Shape#compared with Altern+Robust [49] and Convex+Robust [49] under increasing outlier rates.",
+            "14": "Selected qualitative results on the FG3DCar dataset [25] under40% and70% outlier rates using Altern+Robust [49],Convex+Robust [49], and Shape#."
+        },
+        "Kinematic-structure-preserved representation for unsupervised 3d human pose estimation": {
+            "authors": [
+                "Jogendra Nath",
+                "Siddharth Seth",
+                "Rahul M",
+                "Mugalodi Rakesh",
+                "Venkatesh Babu",
+                "Anirban Chakraborty"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/6792/6646",
+            "ref_texts": "2018. 3d human pose estimation in the wild by adversarial learning. InProc. CVPR . Zhang, W.; Liu, Z.; Zhou, L.; Leung, H.; and Chan, A. B. 2017. Martial arts, dancing and sports dataset: A challenging stereo andmulti-view dataset for 3d human pose estimation. Image and Vision Computing . Zhang, Y .; Guo, Y .; Jin, Y .; Luo, Y .; He, Z.; and Lee, H. 2018. Unsupervised discovery of object landmarks as structural representa-tions. In Proc. CVPR . Zhou, X.; Zhu, M.; Leonardos, S.; and Daniilidis, K. 2016. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence . Zhou, X.; Huang, Q.; Sun, X.; Xue, X.; and Wei, Y . 2017. Towards 3d human pose estimation in the wild: a weakly-supervised approach. In Proc. ICCV .",
+            "ref_ids": [
+                "2018"
+            ]
+        },
+        "Birds of a feather: Capturing avian shape models from images": {
+            "authors": [
+                "Yufu Wang",
+                "Nikos Kolotouros",
+                "Kostas Daniilidis",
+                "Marc Badger"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Birds_of_a_Feather_Capturing_Avian_Shape_Models_From_Images_CVPR_2021_paper.pdf",
+            "ref_texts": "[53] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "hands) going under articulation to have different shapes [11,13,20,53]."
+        },
+        "Efficient sparse representation for learning with high-dimensional data": {
+            "authors": [],
+            "url": "https://nrl.northumbria.ac.uk/id/eprint/48481/1/IEEETNNLS21.pdf",
+            "ref_texts": "[54] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis, \u201cSparse representation for 3d shape estimation: A convex relaxation approach,\u201d IEEE Trans. Pattern Anal. and Mach. Intell. , vol. 39, no. 8, pp. 1648\u20131661, august 2017.",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "Moreover, these methods often overlook the changes in the sparsity ratio during iterative computations, which is a critical factor in practical applications such as compression and image denoising [17], [31], [54].",
+            "2": "[54] X."
+        },
+        "JSL3d: Joint subspace learning with implicit structure supervision for 3D pose estimation": {
+            "authors": [
+                "Mengxi Jiang"
+            ],
+            "url": "https://joshyzhou.github.io/data/PR_JSL3d_paper.pdf",
+            "ref_texts": "[9] X. Zhou, M. Zhu, S. Leonardos, K. Daniilidis, Sparse representation for 3D shape estimation: aconvex relaxation approach, IEEE Trans. Pattern Anal. Mach. Intell. ",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Since sensor devices are difficult to deploy in real scenarios, it is more realistic to estimate the 3D human pose simply from a single image [7,9] .",
+            "2": "Recently, sparse representation \n(SR) model [8] has been applied for the 3D human pose estimation [9,11,12] .",
+            "3": "[9] propose a convex relaxation algorithm for the solution of model parameters by imposing the orthogonal constraints.",
+            "4": "Following the standard evaluation protocol used in related model-based approaches [9] , we conduct our experiments on eight categories (i.",
+            "5": "The 2D human poses of CMU MoCap dataset are projected from 3D human poses by simulating an orthographic camera motion with 360-degree rotation [9] .",
+            "6": "Following the same training protocol in [9] , we learn a single dictionary for all testing examples.",
+            "7": "The dictionary B is learned by the algorithm proposed in [9] .",
+            "8": "The dictionary learned from CMU MoCap is used for the qualitative experiments of MPII [9] .",
+            "9": "[9] \u2020 94.",
+            "10": "[9] \u2020 99.",
+            "11": "CMU MoCap Although the few works evaluate their approach on CMU MoCap, the work [9] ) still reports the experiment results on this dataset.",
+            "12": "Since the work [9] is closely related to ours, we also evaluate our approach on this dataset.",
+            "13": "In the following comparisons, \n\u201cBase+\u201d is an alternative optimization solution of the standard SR model, which is also reported in literature [9] .",
+            "14": "JSL3d outperforms baseline approaches and [9] across most motions.",
+            "15": "Compared to [9] , JSL3d achieves better performance in 10 out of 15 joints and the average error.",
+            "16": "It seems that the margin between our work and [9] is narrow in a few cases, such as the estimation error of \u201cDance\u201d in Fig.",
+            "17": "However, the execution speed of JSL3d is faster than [9] under the same running environment con\nfiguration.",
+            "18": ", \u201cBase+\u201d and [9] ) are used.",
+            "19": "The work [9] handles complex body variability using a convex optimization strategy during the model inference.",
+            "20": "cally, as seen from Table 7 , compared to [9] , JSL3d has less running time in all motions, with an average running time reduction of more than 31%.",
+            "21": "[9] X."
+        },
+        "DensePose 3D: Lifting canonical surface maps of articulated objects to the third dimension": {
+            "authors": [
+                "Roman Shapovalov",
+                "David Novotny",
+                "Benjamin Graham",
+                "Patrick Labatut",
+                "Andrea Vedaldi"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Shapovalov_DensePose_3D_Lifting_Canonical_Surface_Maps_of_Articulated_Objects_to_ICCV_2021_paper.pdf",
+            "ref_texts": "[66] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Mach. Intell. , 2016. 3",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "The seminal work ofBregler [13], which proposed to express the possible deformations of the 3D shape as a linear combination of a small number of basis shapes, has since inspired many follow-up works [3,18,16,67,4,5,1,19,34,35,67,2,65,66,57]."
+        },
+        "Canonical 3D Deformer Maps: Unifying parametric and non-parametric methods for dense weakly-supervised category reconstruction": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/efe34c4e2190e97d1adc625902822b13-Paper.pdf",
+            "ref_texts": "[74] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016.",
+            "ref_ids": [
+                "74"
+            ],
+            "1": "They acheive it by constraining the space of deformations in one of the following ways: assume that shapes span a low-rank subspace [3,17,16,76] or that 3D trajectories are smooth in time [4,5], or combine both types of constraints [1,19,38,37], or use multiple subspaces [76,2], 2 sparsity [73,74] or Gaussian priors [59]."
+        },
+        "Dynamical pose estimation": {
+            "authors": [
+                "Heng Yang",
+                "Chris Doran",
+                "Jacques Slotine"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Dynamical_Pose_Estimation_ICCV_2021_paper.pdf",
+            "ref_texts": "[60] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Machine Intell. , 39(8):1648\u20131661, 2017. 3,8",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "[59,60] developed a convex relaxation technique to solve category APE with a weak perspective camera model and showed efficient and accurate results.",
+            "2": "Yang and Carlone [55] later showed that the convex relaxation in [59,60] is less tight than the one they developed based on sumsof-squares (SOS) relaxations.",
+            "3": "Then we randomly generate an unknown instance of this category by following the active shape model [60,55],i."
+        },
+        "Towards single 2D image-level self-supervision for 3D human pose and shape estimation": {
+            "authors": [
+                "Junuk Cha",
+                "Muhammad Saqlain",
+                "Changhwa Lee",
+                "Seongyeong Lee",
+                "Seungeun Lee",
+                "Donguk Kim",
+                "Hee Park",
+                "Seungryul Baek"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/11/20/9724/pdf",
+            "ref_texts": "32. Zhou, X.; Zhu, M.; Leonardos, S.; Daniilidis, K. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Mach. Intell. 2017 ,39, 1648\u20131661. [CrossRef] [PubMed]",
+            "ref_ids": [
+                "32"
+            ]
+        },
+        "Automatic 3D Building Reconstruction from OpenStreetMap and LiDAR Using Convolutional Neural Networks": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/23/5/2444/pdf",
+            "ref_texts": "20. Zhou, X.; Zhu, M.; Leonardos, S.; Daniilidis, K. Sparse Representation for 3D Shape Estimation: A Convex Relaxation Approach. IEEE Trans. Pattern Anal. Mach. Intell. 2017 ,39, 1648\u20131661. [CrossRef]",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "In [20], the authors presented a method for reconstructing 3D models of objects from 2D correspondences of points in a single image."
+        },
+        "Dynamical pose estimation with graduated non-convexity for outlier robustness": {
+            "authors": [],
+            "url": "https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3045723/MIC-2022-2-3.pdf?sequence=1",
+            "ref_texts": "5915, 2021a. doi:10.1109/ICCV48922.2021.00587. Yang, H., Shi, J., and Carlone, L. TEASER: Fast and certiffable point cloud registration. IEEE Transactions on Robotics , 2021b. 37(2):314 { 333. doi:10.1109/TRO.2020.3033695.Zhou, Q., Park, J., and Koltun, V. Fast global registration. In European Conference on Computer Vision (ECCV) . Springer, pages 766{782, 2016. doi:10.1007/978-3-319-46475-6 47. Zhou, X., Zhu, M., Leonardos, S., and Daniilidis, K. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2017."
+        },
+        "Global 3D non-rigid registration of deformable objects using a single RGB-D camera": {
+            "authors": [],
+            "url": "https://orca.cardiff.ac.uk/id/eprint/121527/1/globalNRR_TIP.pdf",
+            "ref_texts": "[15] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis, \u201cSparse representation for 3D shape estimation: A convex relaxation approach,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence , vol. 39,no. 8, pp. 1648\u20131661, 2017.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Non-rigid structure from motion methods [15]\u2013[17] aim at recovering dynamic 3D shapes from multi-frame 2D images, but they cannot deal with large scale cases.",
+            "2": "To reconstruct a dynamic scene using a single camera, non-rigid structure from motion methods are used to recover dynamic 3D shapes from multi-frame 2D images [15]\u2013[17].",
+            "3": "[15] X."
+        },
+        "Towards locality similarity preserving to 3D human pose estimation": {
+            "authors": [
+                "Shihao Zhou",
+                "Mengxi Jiang",
+                "Qicong Wang",
+                "Yunqi Lei"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2020W/MMHAU/papers/Zhou_Towards_Locality_Similarity_Preserving_to_3D_Human_Pose_Estimation_ACCVW_2020_paper.pdf",
+            "ref_texts": "25. Zhou, X., Zhu, M., Leonardos, S., Daniilidis, K.: Sparse repre sentation for 3d shape estimation: A convex relaxation approach. IEEE Transactions o n Pattern Analysis and Machine Intelligence 39(2017) 1648\u20131661",
+            "ref_ids": [
+                "25"
+            ]
+        },
+        "Deep 3D human pose estimation under partial body presence": {
+            "authors": [],
+            "url": "https://spectrum.library.concordia.ca/id/eprint/984661/1/cuthesis.pdf",
+            "ref_texts": "[6] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis, \\Sparse representation for 3D shape estimation: A convex relaxation approach,\" in IEEE Trans. Pattern Anal. Machine Intell., 2017, vol. 39, pp. 1648{1661.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "Assuming Jthe number of main body joints, the 2D human pose matrix W2R2\u0002Jis a 2-dimensional matrix in which each column represents the 2D Cartesian coordinates (x and y) for one of the Jmain body joints [6, 10, 11].",
+            "2": ", in [6].",
+            "3": "The cost function (reprojection error)ein (3) is usually simpliffed to limit the searching domain by making assumptions on the projection type (such as using the weak-perspective camera model in [6]).",
+            "4": "To model the complex variations more efiectively, some methods use sparse representation [2, 6, 13], where an overcomplete dictionary is adopted and Sis expressed as a sparse combination of the basis shapes from the basis shapes' dictionary.",
+            "5": "3D pose estimation is an active research ffeld [1, 2, 6, 11, 13] but remains challenging due to the ambiguity caused by the loss of depth information in the usual intensity images but also due to image related issues such as blur, noise, occlusion, etc.",
+            "6": "[6] present a 3D car model estimation using 2D annotations as well as 3D human pose estimation.",
+            "7": "They use various techniques such as sparse representation[6, 11], factorization [13], and neural networks[53] to estimate the 3D poses from 2D poses.",
+            "8": "in [6, 11] propose to use a convex approach while using sparse representation for the 3D human pose estimation from 2D landmarks.",
+            "9": "[6] X."
+        },
+        "Animal Pose Estimation Based on 3D Priors": {
+            "authors": [
+                "Xiaowei Dai",
+                "Shuiwang Li",
+                "Qijun Zhao",
+                "Hongyu Yang"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/13/3/1466/pdf",
+            "ref_texts": "38. Zhou, X.; Zhu, M.; Leonardos, .; Daniilidis, K. Sparse Representation for 3D Shape Estimation: A Convex Relaxation Approach. IEEE Trans. Pattern Anal. Mach. Intell. 2016 ,39, 1648\u20131661. [CrossRef] [PubMed]",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Dictionary-Based Human Pose Estimation Dictionary-based methods are also widely used in human pose estimation [38,39].",
+            "2": "[38] adopted an augmented 3D shape model to achieve a linear representation of shape variability in 2D and proposed to use spectral-norm regularization to penalize invalid cases caused by augmentation.",
+            "3": "Pis usually defined based on the weak perspective camera model as P=\u0014a0 0\n0a0\u0015\n(4) where ais a scalar depending on the focal length and the distance to the object [38].",
+            "4": "Fortunately, this pursuit is actually not in vain, as it seems, and attempts in the field of 3D human pose estimation have justified that lifting 2D poses to 3D poses is very fruitful [26,38].",
+            "5": "2023 ,13, 1466 9 of 17 Algorithm 2 Pose Refinement Input: p,a Output: M1,\u0001\u0001\u0001,MK\n1:initialize Z=Y=0,m>0;\n2:while not converged do 3: fork=1 to Kdo 4: Qt k=Zt k\u00001 mYt k 5: Mt k=Da m(Qt k)\n6: Zt+1= (peBT+meMt+1+Yt)(eBeBT+mI)\u00001\n7: Yt+1=Yt+m(eMt+1\u0000Zt+1)\n8:whereDa mis proximal operator [38]."
+        },
+        "Iterative closest point with minimal free space constraints": {
+            "authors": [],
+            "url": "https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2723710/haugo2020iterative.pdf?sequence=2",
+            "ref_texts": "12. Zhou, X., Zhu, M., Leonardos, S., Daniilidis, K.: Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence 39(2016) 1648{1661",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "These methods work very well for explicit representations, such as static point sets obtained from laser scanners [9, 10] or deformable landmark models [11, 12]."
+        },
+        "An articulated structure-aware network for 3D human pose estimation": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf",
+            "ref_texts": "62 Short Title Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Cheng Li, Honggang Zhang, Xiaogang Wang, and Xiaoou Tang. Residual attention network for image classiffcation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 3156{3164, 2017. Guanghui Wang and QM Jonathan Wu. Simpliffed camera projection models. In Guide to Three Dimensional Structure and Motion Factorization , pages 29{41. 2011. Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh. Convolutional pose machines. In IEEE Conference on Computer Vision and Pattern Recognition , pages 4724{4732, 2016. Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. Hierarchical attention networks for document classiffcation. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies , pages 1480{1489, 2016. Hashim Yasin, Umar Iqbal, Bjorn Kruger, Andreas Weber, and Juergen Gall. A dualsource approach for 3d pose estimation from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4948{4956, 2016. Wenpeng Yin, Hinrich Sch\u007f utze, Bing Xiang, and Bowen Zhou. Abcnn: Attention-based convolutional neural network for modeling sentence pairs. Transactions of the Association for Computational Linguistics , 4:259{272, 2016. Bo Zhao, Xiao Wu, Jiashi Feng, Qiang Peng, and Shuicheng Yan. Diversiffed visual attention networks for ffne-grained object classiffcation. IEEE Transactions on Multimedia , 19(6): 1245{1256, 2017. Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, Kostas Daniilidis, et al. 3d shape estimation from 2d landmarks: A convex relaxation approach. In IEEE Conference on Computer Vision and Pattern Recognition , volume 2, pages 4447{4455, 2015. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Sparseness meets deepness: 3d human pose estimation from monocular video. InIEEE Conference on Computer Vision and Pattern Recognition , pages 4966{4975, 2016. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648{1661, 2017. Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018."
+        },
+        "Animal Pose Refinement in 2D Images with 3D Constraints": {
+            "authors": [],
+            "url": "http://www.scubrl.org/files/picture/20221122/173/1669108691387.pdf",
+            "ref_texts": "[26] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648\u20131661, 2016.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "1 Dictionary-based Human Pose Estimation Dictionary-based methods are widely used in human pose estimation [24,26].",
+            "2": "[26] adopt an augmented 3D shape model to achieve a linear representation of shape variability in 2D and propose to use the spectral-norm regularization to penalize invalid cases caused by the augmentation.",
+            "3": "Inspired by [1,20,23,24,26], we use 3D pose dictionary to encode 3D prior constraints, which is simple and effective.",
+            "4": "Note that [1,20,23,24,26] require large-scale real 3D human poses as the training data for the dictionary, but collecting real 3D animal pose data is very difficult if not impractical.",
+            "5": "\u03a0is usually defined based on the weak perspective camera model as: \u03a0=\u0014 a0 0\n0a0\u0015\n, (3) where ais a scalar depending on the focal length and the distance to the object [26].",
+            "6": "Inspired by [1,20,23,24,26], we employ a dictionary to encode 3D prior constraints to refine the initial animal pose.",
+            "7": "[26] X."
+        },
+        "Pointless Pose: Part Affinity Field-Based 3D Pose Estimation without Detecting Keypoints": {
+            "authors": [
+                "Jue Wang",
+                "Zhigang Luo"
+            ],
+            "url": "https://www.mdpi.com/2079-9292/10/8/929/pdf",
+            "ref_texts": "14. Zhou, X.; Zhu, M.; Leonardos, S.; Daniilidis, K. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Mach. Intell. 2017 ,39, 1648\u20131661. [CrossRef] [PubMed] Electronics 2021 ,10, 929 15 of 16",
+            "ref_ids": [
+                "14"
+            ]
+        },
+        "Can facial pose and expression be separated with weak perspective camera?": {
+            "authors": [
+                "Evangelos Sariyanidi",
+                "Casey J. Zampella",
+                "Robert T. Schultz",
+                "Birkan Tunc"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sariyanidi_Can_Facial_Pose_and_Expression_Be_Separated_With_Weak_Perspective_CVPR_2020_paper.pdf",
+            "ref_texts": "[40] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Trans. on Pattern Analysis and Machine Intelligence , 39(8):1648\u20131661, 2016.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "More specifically, WP camera is used to separate facial pose and expression [13,9,27,42,17,26,35,41] or, more generally, to disentangle rigid and non-rigid motions [38,40,34,14]."
+        },
+        "Sports movements modification based on 2D joint position using YOLO to 3D skeletal model adaptation": {
+            "authors": [],
+            "url": "https://jad.shahroodut.ac.ir/article_2578_746a9149db4eaa7cec31690d56fb406f.pdf",
+            "ref_texts": ""
+        },
+        "Privacy diffusion in online social media reconstruction, modelling and blocking": {
+            "authors": [
+                "Xiangyu Hu"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/171441/1/thesis.pdf"
+        },
+        "Deep Structured Layers for Instance-Level Optimization in 2D and 3D Vision": {
+            "authors": [],
+            "url": "https://discovery.ucl.ac.uk/id/eprint/10164015/1/Kokkinos_Main.pdf",
+            "ref_texts": "[213] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE transactions on pattern analysis and machine intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "213"
+            ],
+            "1": "The priors are embedded into the methods using low-rank subspaces [212, 169, 203], spatio-temporal domains [171, 178], equivariance constraints [210] or sparse basis coefficients using L1 constraints [211, 213, 214]."
+        },
+        "Single-image 3D pose estimation for texture-less object via symmetric prior": {
+            "authors": [],
+            "url": "https://www.jstage.jst.go.jp/article/transinf/E101.D/7/E101.D_2018EDL8014/_pdf",
+            "ref_texts": "[1]X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis, \u201cSparse Representation for 3D Shape Estimation: A Convex Relaxation Approach,\u201d IEEE Trans. Pattern Anal. Mach. Intell., vol.39, no.8, pp.1648\u20131661,2017.",
+            "ref_ids": [
+                "1"
+            ],
+            "1": "3D object pose estimation is one of the important problems [1].",
+            "2": "Firstly, object can be represented as a combination of sub-objects with symmetric characteristics shown as follows S\n/prime=N/summationdisplay i=1Sk=N/summationdisplay i=1{Pk,\u03b8k} (5) Where Skfork\u2208[1,N] represents the k thprimitive.",
+            "3": "[1]X."
+        },
+        "Not all parts are created equal: 3d human pose estimation by modeling bi-directional dependencies of body parts": {
+            "authors": [
+                "Greg Hampshire"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/137277/3/Binder1.pdf",
+            "ref_texts": "[47] Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648\u2013",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "These methods comprise a 2D pose detector and a subsequent optimization [48, 47, 49] or regression [4, 3, 17, 30, 36, 14, 19, 7, 12] step to estimate 3D pose .",
+            "2": "The most straightforward approach is to represent 3D poses as linear combinations of models learned from training data [48, 47, 49].",
+            "3": "[47] 99."
+        },
+        "3D wireframe modeling and viewpoint estimation for multi-class objects combining deep neural network and deformable model matching": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2076-3417/9/10/1975/pdf",
+            "ref_texts": "1. Zhou, X.; Zhu, M.; Leonardos, S.; Daniilidis, K. Sparse representation for 3D shape estimation: A convex relaxation approach. IEEE Trans. Pattern Anal. Mach. Intell. 2017 ,39, 1648\u20131661. [CrossRef] [PubMed] Appl. Sci. 2019 ,9, 1975 14 of 14",
+            "ref_ids": [
+                "1"
+            ],
+            "1": "Introduction Estimating the 3D geometry of an object from a single image is an important but challenging task in computer vision [1]."
+        },
+        "Continuous Learning of Inverse Problems with Applications to Structure from Motion": {
+            "authors": [],
+            "url": "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12152228770002346/13152228760002346",
+            "ref_texts": "[143] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. Transactions on Pattern Analysis and Machine Intelligence (PAMI) , 2017.",
+            "ref_ids": [
+                "143"
+            ],
+            "1": "The lifting stage is then performed by model fitting [4, 15, 88, 97, 143, 144] or regression [68, 73].",
+            "2": "Once obtained the 2D pose prediction, it can be lifted into 3D either by model fitting [4,15,88,97,143,144] or regression [68,73].",
+            "3": "[143] 14j 99.",
+            "4": "[143] X."
+        },
+        "Acquiring Motor Skills Through Motion Imitation and Reinforcement Learning": {
+            "authors": [],
+            "url": "https://digitalassets.lib.berkeley.edu/techreports/ucb/incoming/EECS-2021-267.pdf",
+            "ref_texts": "[315] X. Zhou et al. \u201cSparse Representation for 3D Shape Estimation: A Convex Relaxation Approach\u201d. In: IEEE Conference on Computer Vision and Pattern Recognition, CVPR. 2015, pp. 4447\u20134455.",
+            "ref_ids": [
+                "315"
+            ],
+            "1": "Monocular 3D pose estimation is an even more challenging problem due to depth ambiguity, which traditional methods resolve with strong priors [263, 315, 24].",
+            "2": "[315] X."
+        },
+        "Towards Multi-Person 3D Pose Estimation in Natural Videos": {
+            "authors": [
+                "Tiffany Mc"
+            ],
+            "url": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/45769/GU_washington_0250E_21594.pdf?sequence=1",
+            "ref_texts": "[37] Zhou, X., Zhu, M., Leonardos, S., Derpanis, K., Daniilidis, K.: Sparse representation for 3D shape estimation: A convex relaxation approach. In: IEEE Conference on Computer Vision and Pattern Recognition, CVPR. pp. 4447 \u20134455, 2015. ",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "2 Zhou[37] 99.",
+            "2": "[37] Zhou, X."
+        },
+        "Identifying people using temporal and spatial changes in local movements measured from body sway": {
+            "authors": [],
+            "url": "https://pattern.eecs.tottori-u.ac.jp/pdf/2017-ACPR-body-sway.pdf"
+        },
+        "\u57fa\u4e8e L 1/2 \u6b63\u5219\u5316\u7684\u4e09\u7ef4\u4eba\u4f53\u59ff\u6001\u91cd\u6784": {
+            "authors": [],
+            "url": "http://www.aas.net.cn/fileZDHXB/journal/article/zdhxb/2018/6/PDF/zdhxb-44-6-1086.pdf",
+            "ref_texts": "25Zhou X W, Zhu M L, Leonardos S, Daniilidis K. Sparse representation for 3D shape estimation: a convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2017, 39(8): 1648 \u00a11661"
+        },
+        "\u0406\u043d\u0442\u0435\u0440\u0430\u043a\u0442\u0438\u0432\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0440\u043e\u0437\u043f\u0456\u0437\u043d\u0430\u0432\u0430\u043d\u043d\u044f 3D \u043e\u0431'\u0454\u043a\u0442\u0456\u0432": {
+            "authors": [],
+            "url": "https://ela.kpi.ua/bitstream/123456789/57681/1/Zemlianko_magistr.pdf",
+            "ref_texts": "158. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation appr oach. arXiv preprint arXiv:1509.04309, 2015c. ",
+            "ref_ids": [
+                "158"
+            ],
+            "1": "\u041f\u0456\u0437\u043d\u0456\u0448\u0435 \u043f\u0456\u0434\u0445\u0456\u0434 \u0431\u0443\u0432 \u0440\u043e\u0437\u0448\u0438\u0440\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u043e\u0431\u0440\u043e\u0431 \u043a\u0438 \u0432\u0438\u043f\u0430\u0434\u043a\u0456\u0432 \n\u0434\u0432\u043e\u0432\u0438\u043c\u0456\u0440\u043d\u043e\u0457 \u0440\u0435\u0433\u0440\u0435\u0441\u0456\u0457 [158].",
+            "2": "\u0414\u0430\u043b\u0456, \u043d\u0430\u0434\u0456\u0439\u043d\u0438\u0439 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c \u043e\u0446\u0456\u043d\u043a\u0438 \u0432\u0456\u0434 [158] \n\u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u0454\u0442\u044c\u0441\u044f \u0434\u043b\u044f \u0456\u043d\u0456\u0446\u0456\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0456\u0432 ."
+        },
+        "Ordinal Depth Supervision for 3D Human Pose Estimation Supplementary material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/3718-supp.pdf",
+            "ref_texts": "[12] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016. 1",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "[12] 71.",
+            "2": "[12] and Bogo et al.",
+            "3": "2, 3\n[12] X."
+        },
+        "Learning to Estimate 3D Human Pose and Shape from a Single Color Image Supplementary material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/3736-supp.pdf",
+            "ref_texts": "[12] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. PAMI , 2016. 3",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "[12]* 99.",
+            "2": "3\n[12] X."
+        },
+        "Fast Lifting for 3D Hand Pose Estimation in AR/VR Applications": {
+            "authors": [],
+            "url": "https://research.google/pubs/pub50466.pdf",
+            "ref_texts": "[26] X. Zhou, M. Zhu, S. Leonardos, and K. Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648\u20131661, Aug 2017.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Researchers have also considered linear expansions of the 3D pose (concatenated into a vector of coordinates) by learning PCA basis and, as an improvement to PCA, sparse approximating dictionaries [22, 17, 26].",
+            "2": "[26] X."
+        },
+        "Monocular 3D object recognition": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/76394788.pdf",
+            "ref_texts": "19, 43 Feng Zhou and Fernando De la Torre. Spatio-temporal matching for human detection in video. In ECCV , 2014. 23, 86 Feng Zhou and Fernando De la Torre. Spatio-temporal matching for human detection in video. In Proc. ECCV , 2014. 25, 107, 109 Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: a convex relaxation approach. CVPR , 2015a. 92, 94 Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In Proc. CVPR , 2015b. 25, 109, 110, 115, 116 Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. arXiv preprint arXiv:1509.04309 , 2015c. 25, 34, 109, 115, 116, 118 Menglong Zhu, Nilokay Atanasov, George Pappas, and Kostas Daniilidis. Active Deformable Part Models Inference. In European Conference on Computer Vision , 2014a."
+        },
+        "\u0406\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0435\u0440\u0435\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u0447\u043e\u0440\u043d\u043e-\u0431\u0456\u043b\u043e\u0433\u043e \u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f": {
+            "authors": [],
+            "url": "https://ela.kpi.ua/bitstream/123456789/31802/1/Stelmakh_magistr.pdf",
+            "ref_texts": "16. Zhou, X., Zhu, M., Leonardos, S., & Daniilidis, K. (2016). Sparse representation for 3D shape estimation: A convex relaxation approa ch. IEEE transactions on pattern analysis and machine intelligence, 39(8), 1648 -1661. ",
+            "ref_ids": [
+                "16"
+            ]
+        }
+    }
+}

@@ -1,0 +1,909 @@
+{
+    "title": "Multi-image matching via fast alternating minimization",
+    "id": 17,
+    "valid_pdf_number": "70/125",
+    "matched_pdf_number": "49/70",
+    "matched_rate": 0.7,
+    "citations": {
+        "Learning correspondence from the cycle-consistency of time": {
+            "authors": [
+                "Xiaolong Wang",
+                "Allan Jabri",
+                "Alexei A. Efros"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Correspondence_From_the_Cycle-Consistency_of_Time_CVPR_2019_paper.pdf",
+            "ref_texts": "[89] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015. 3",
+            "ref_ids": [
+                "89"
+            ],
+            "1": "Forward-backward consistency is a specific case of cycle-consistency, which has been widely applied as a learning objective for 3D shape matching [21], image alignment [87,89,88], depth estimation [86,14,84], and image-to-image translation [90,4].",
+            "2": "2,3\n[89] X."
+        },
+        "Crdoco: Pixel-level domain transfer with cross-domain consistency": {
+            "authors": [
+                "Chun Chen",
+                "Yu Lin",
+                "Hsuan Yang",
+                "Bin Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_CrDoCo_Pixel-Level_Domain_Transfer_With_Cross-Domain_Consistency_CVPR_2019_paper.pdf",
+            "ref_texts": "[50] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "1792\n In semantic matching, cycle or transitivity based consistency loss help regularize the network training [50,49,3]."
+        },
+        "Temporal cycle-consistency learning": {
+            "authors": [
+                "Debidatta Dwibedi",
+                "Yusuf Aytar",
+                "Jonathan Tompson",
+                "Pierre Sermanet",
+                "Andrew Zisserman"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dwibedi_Temporal_Cycle-Consistency_Learning_CVPR_2019_paper.pdf",
+            "ref_texts": "[56] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015. 2",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "It has been applied successfullyfor tasks like co-segmentation [43,44], structure from motion [49,51], and image matching [54,55,56].",
+            "2": "[56] approaches a similar task by formulating it as a low-rank matrix recovery problem and solves it through fast alternating minimization."
+        },
+        "Learning dense correspondence via 3d-guided cycle consistency": {
+            "authors": [
+                "Tinghui Zhou",
+                "Philipp Krahenbuhl",
+                "Mathieu Aubry",
+                "Qixing Huang",
+                "Alexei A. Efros"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhou_Learning_Dense_Correspondence_CVPR_2016_paper.pdf",
+            "ref_texts": "[41] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015. 2",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Instead, in this paper we utilize the concept of cycle consistency of correspondence flows [18,40,41] \u2013 the notion that the composition of flow fields for any circular path through the image set should have a zero combined flow.",
+            "2": "[41] tackle the problem by jointly optimizing feature matching and cycle consistency, but formulate it as a low-rank matrix recovery which they solve with a fast alternating minimization method.",
+            "3": "2\n[41] X."
+        },
+        "Discovery of latent 3d keypoints via end-to-end geometric reasoning": {
+            "authors": [
+                "Supasorn Suwajanakorn",
+                "Noah Snavely",
+                "Jonathan J. Tompson",
+                "Mohammad Norouzi"
+            ],
+            "url": "https://proceedings.neurips.cc/paper/2018/file/24146db4eb48c718b84cae0a0799dcfc-Paper.pdf",
+            "ref_texts": "[65] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. CVPR , 2015.",
+            "ref_ids": [
+                "65"
+            ],
+            "1": "Inspired by cycle consistency for learning correspondence [19,65], Zhou et al."
+        },
+        "Fast and robust multi-person 3d pose estimation from multiple views": {
+            "authors": [
+                "Junting Dong",
+                "Wen Jiang",
+                "Qixing Huang",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Fast_and_Robust_Multi-Person_3D_Pose_Estimation_From_Multiple_Views_CVPR_2019_paper.pdf",
+            "ref_texts": "[46] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015. 3",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "Multi-image matching is to find feature correspondences among a collection of images [16,46].",
+            "2": "3\n[46] X."
+        },
+        "High-fidelity and arbitrary face editing": {
+            "authors": [
+                "Yue Gao",
+                "Fangyun Wei",
+                "Jianmin Bao",
+                "Shuyang Gu",
+                "Dong Chen",
+                "Fang Wen",
+                "Zhouhui Lian"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_High-Fidelity_and_Arbitrary_Face_Editing_CVPR_2021_paper.pdf",
+            "ref_texts": "[40] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015. 2",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "It has been applied tomany popular vision tasks such as image alignment [39,40], depth estimation [37,35], correspondence learning [38,31] and etc."
+        },
+        "Unsupervised video interpolation using cycle consistency": {
+            "authors": [
+                "Fitsum A. Reda",
+                "Deqing Sun",
+                "Aysegul Dundar",
+                "Mohammad Shoeybi",
+                "Guilin Liu",
+                "Kevin J. Shih",
+                "Andrew Tao",
+                "Jan Kautz",
+                "Bryan Catanzaro"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Reda_Unsupervised_Video_Interpolation_Using_Cycle_Consistency_ICCV_2019_paper.pdf",
+            "ref_texts": "[25] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015. 2",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Cycle consistency has been utilized for image matching [25], establishing dense 3D correspondence over object instances [23], or in learning unpaired image-to-image translation in conjunction with Generative Adversarial Networks (GANs) [26]."
+        },
+        "Generalized semantic preserving hashing for n-label cross-modal retrieval": {
+            "authors": [
+                "Devraj Mandal",
+                "Kunal N. Chaudhury",
+                "Soma Biswas"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Mandal_Generalized_Semantic_Preserving_CVPR_2017_paper.pdf",
+            "ref_texts": "[29] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , pages 4032\u2013",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "This naturally leads to the idea of alternating minimization [29], where the variables are alternately updated holding the other variable fixed.",
+            "2": "[29] X."
+        },
+        "Quantum permutation synchronization": {
+            "authors": [
+                "Tolga Birdal",
+                "Vladislav Golyanik",
+                "Christian Theobalt",
+                "Leonidas J. Guibas"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Birdal_Quantum_Permutation_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[109] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. InInternational Conference on Computer Vision (ICCV) , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "109"
+            ],
+            "1": "the-art methods MatchEIG [72], MatchALS [109], MatchLift [57], MatchBirkhoff [16] as well as to the exhaustivesolution obtained by enumerating all possible permutations."
+        },
+        "Learning for graph matching and related combinatorial optimization problems": {
+            "authors": [],
+            "url": "https://eprints.whiterose.ac.uk/160087/1/MLGM_SVY_IJCAI20_Review_14_1.pdf",
+            "ref_texts": "[Zhou et al. , 2015 ]X. Zhou, M. Zhu, and K. Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "Zhou et al\\. , 2015 "
+            ]
+        },
+        "Deep semantic feature matching": {
+            "authors": [
+                "Nikolai Ufer",
+                "Bjorn Ommer"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Ufer_Deep_Semantic_Feature_CVPR_2017_paper.pdf",
+            "ref_texts": "[50] X. Zhou, M. Zhu, and K. Daniilidis. Multi-Image Matching via Fast Alternating Minimization. Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u2013",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "This provides more discriminative region descriptors compared to methods where regions are just cropped, rescaled and 6914\n passed through the network [20,50].",
+            "2": "6\n[50] X."
+        },
+        "Graduated assignment for joint multi-graph matching and clustering with application to unsupervised graph matching network learning": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf",
+            "ref_texts": "[30] X. Zhou, M. Zhu, and K. Daniilidis, \u201cMulti-image matching via fast alternating minimization,\u201d in ICCV , 2015.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "analyzing video sequences, some authors propose to optimize matching based on a joint matching objective function [26,9,27], and others aim to develop a postprocessing technique to recover global consistency based on existing pairwise matching results [11, 28,29,30].",
+            "2": "In comparison, some peer methods require initialization from pairwise matching [30,11,13] or multimatching [34].",
+            "3": "700 MatchALS [30] free 0.",
+            "4": "[30] X."
+        },
+        "Contrastive learning of image representations with cross-video cycle-consistency": {
+            "authors": [
+                "Haiping Wu",
+                "Xiaolong Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Contrastive_Learning_of_Image_Representations_With_Cross-Video_Cycle-Consistency_ICCV_2021_paper.pdf",
+            "ref_texts": "[77] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 2015. 2",
+            "ref_ids": [
+                "77"
+            ],
+            "1": "Our work is influenced by cycle-consistency learning in different computer vision applications including 3D scene understanding [31, 74, 20, 72], image alignment and translation [75, 77, 76, 78], and space-time alignment in videos [4, 63, 39, 17, 60, 32, 50, 38]."
+        },
+        "Learning transformation synchronization": {
+            "authors": [
+                "Xiangru Huang",
+                "Zhenxiao Liang",
+                "Xiaowei Zhou",
+                "Yao Xie",
+                "Leonidas J. Guibas",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Learning_Transformation_Synchronization_CVPR_2019_paper.pdf",
+            "ref_texts": "[53] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015. 2",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "The second category of methods [47,31,25,23,24,13,53,42,33,26, 7,39,38,2,9,4,5,41,19,46,6,21] can be viewed from the perspective that there is an equivalence between cycleconsistent transformations and the fact that the map collection matrix that stores relative transformations in blocks is semidefinite and/or low-rank (c.",
+            "2": "In the literature, people have proposed convex optimization [47, 23,24,13], non-convex optimization [11,53,33,26], and spectral techniques [31,25,39,38,42,44,7,2,9] for solving various low-rank matrix recovery formulations."
+        },
+        "Discovering relationships between object categories via universal canonical maps": {
+            "authors": [
+                "Natalia Neverova",
+                "Artsiom Sanakoyeu",
+                "Patrick Labatut",
+                "David Novotny",
+                "Andrea Vedaldi"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Neverova_Discovering_Relationships_Between_Object_Categories_via_Universal_Canonical_Maps_CVPR_2021_paper.pdf",
+            "ref_texts": "[56] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Cycle consistency is a powerful paradigm that has been explored in many different fields of computer vision: pixel-wise image matching [56,55], image translation [57], or category-specific 3D reconstruction [53]."
+        },
+        "Consistent ZoomOut: Efficient Spectral Map Synchronization": {
+            "authors": [],
+            "url": "https://www.lix.polytechnique.fr/~maks/papers/ConsistentZoomOut_SGP2020_compressed.pdf"
+        },
+        "Playvirtual: Augmenting cycle-consistent virtual trajectories for reinforcement learning": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/2a38a4a9316c49e5a833517c45d31070-Paper.pdf",
+            "ref_texts": "[58] Zhou, X., Zhu, M., and Daniilidis, K. Multi-image matching via fast alternating minimization. InProceedings of the IEEE International Conference on Computer Vision , pp. 4032\u20134040, 2015.",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "2 Cycle Consistency Many works have explored the high-level idea of cycle consistency to address different challenges in various tasks such as image-to-image translation [60,51,24], image matching [56,58,57], feature representation learning [47,7,26].",
+            "2": "[58] Zhou, X."
+        },
+        "Practical and efficient multi-view matching": {
+            "authors": [
+                "Eleonora Maset",
+                "Federica Arrigoni",
+                "Andrea Fusiello"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Maset_Practical_and_Efficient_ICCV_2017_paper.pdf",
+            "ref_texts": "[31] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In International Conference on Computer Vision , pages 4032 \u2013 4040, 2015.",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Moreover, recent studies have suggested that jointly optimizing the correspondences across the whole dataset can lead to significant improvements when compared to computing matches between pairs of views in isolation [19, 31], since pairwise matching algorithms can generate noisy and unreliable results.",
+            "2": "A different approach is adopted in [19, 7, 2, 31, 28] where multi-view matching is solved in two steps: first, matching between pairs of images is performed in isolation; then, such correspondences are improved by globally optimizing their internal coherence, without relying on the actual value of the features.",
+            "3": "It is shown in some recent works [19, 7, 31] that, if all the pairwise correspondences are collected in a block-matrix, then cycle consistency can be reduced to the requirement that such a matrix is positive semidefinite and low-rank.",
+            "4": "In [31] the joint matching problem is formulated as a low-rank matrix recovery task and the 4568\n nuclear-norm relaxation for rank minimization is employed.",
+            "5": "Spectral properties As observed in [19, 7, 31], the consistency constraint can be expressed in a compact matrix form if all the absolute and relative permutations are collected in two blockmatricesX\u2208 {0,1}m\u00d7dandZ\u2208 {0,1}m\u00d7mrespectively, wherem=/summationtextn i=1mi, namely X=\uf8ee\n\uf8ef\uf8ef\uf8f0P1 P2\n.",
+            "6": "Some examples include the semidefinite relaxation [2], the low-rank relaxation [31] and the spectral relaxation [19].",
+            "7": "(a) M ATCH EIG\n(b) M ATCH EIG-CP\n(c) M ATCH ALS [31]\n(d) S PECTRAL [19] Figure 1: F-score for the competing methods (the higher the better).",
+            "8": "Results in terms of accuracy (or precision) and computing time are compared with methods which, as ours, first compute pairwise matches and then jointly update them without involving the features, namely M ATCH ALS [31] and S PECTRAL [19].",
+            "9": "The M ATCH ALS code is available online1and the S PECTRAL code is courtesy of the authors of [31].",
+            "10": "The method described in [2] has already been shown to have accuracy comparable with [31] with a much higher computing time.",
+            "11": "Synthetic experiments were run providing the true rank (equal to the size of the universe d) to all the methods (MATCH ALS uses it to compute the parameter k= 2d, as suggested in [31]).",
+            "12": "However, when the input matrix/hatwideZis noisy, estimating this rank can be difficult [31], hence the sensitivity of a method to the estimated rank \u02c6d becomes crucial.",
+            "13": "7 (see [31]) to take into consideration the presence of isolated features in real images, as suggested by the authors.",
+            "14": "html 4573\n Input M ATCH EIG M ATCH ALS [31] S PECTRAL [19] Dataset n/hatwided PR [%] PR [%] CM time [s] PR [%] CM time [s] PR [%] CM time [s] Graffiti 6 382 93.",
+            "15": "Input M ATCH EIG M ATCH ALS [31] S PECTRAL [19] Dataset n/hatwided PR [%] PR [%] CM time [m] PR [%] CM time [m] PR [%] CM time [m] Herz-Jesu-P8 8386 94.",
+            "16": "[31] X."
+        },
+        "Fast multi-image matching via density-based clustering": {
+            "authors": [
+                "Roberto Tron",
+                "Xiaowei Zhou",
+                "Carlos Esteves",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tron_Fast_Multi-Image_Matching_ICCV_2017_paper.pdf",
+            "ref_texts": "[40] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , 2015.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Introduction Finding correspondences between points in two or more images is a fundamental step in many computer vision applications, such as matching of object instances [2, 30, 40], shape matching [10, 13], Structure from Motion [9, 18] and homography estimation [27].",
+            "2": "More recent strategies formulate multi-image matching as a version of an optimal assignment problem [10, 23, 40].",
+            "3": "Note that our results are more general than previous ones based on factorizations of permutation mappings [10, 23, 40], which assume a one-to-one correspondence between universe and features.",
+            "4": "While some works pose the problem as a global nonconvex optimization [13, 32, 33, 35, 36, 39], the most reliable solutions are based on convex relaxations [10, 23, 40].",
+            "5": "Using this fact, [10, 23, 40] optimize an objective function of the form f(X) = tr(S,X)subject to Xsatisfying all the constraints above, plus a semi-definite positive (SDP) constraint [10] or a nuclear norm low-rank regularizer [40]; or subject to X=AAT, whereAis orthonormal [23].",
+            "6": "The matrixS\u2208RK\u00d7Krepresents the matrix of distances or similarities between feature points computed from d(\u00b7,\u00b7), h(\u00b7,\u00b7), or other similar information (such as the result of pairwise graph matching [40]).",
+            "7": "The papers [10, 40] solve the optimization problem using the Augmented Lagrangian Method (ALM), while [23] reduces the problem to finding the leading singular vectors of the similarity matrix S1.",
+            "8": "These approaches share the same limitations as [10, 23, 40].",
+            "9": "Directly incorporating these second order similarities is not considered in this paper, although this information can be indirectly used by treating them as first-order similarities (as done in [40]).",
+            "10": "The main goal of these experiments is to use the same evaluation protocol as previous work [40] to compare our proposed solution with other state-of-the-art [23,40] and baseline algorithms (pairwise matching).",
+            "11": "Using the evaluation protocol introduced in [20, 40], we extract 1000 SIFT features from each image using VLFeat [28].",
+            "12": "The multi-image matching problem is solved using traditional pairwise matching, the spectral method of [23], the MatchALS method of [40] and QuickMatch (with \u03c1edge= 0.",
+            "13": "Consistent with [40], we assume that the background segmentation is given, and we sample feature points along the edges on objects.",
+            "14": "[40] X."
+        },
+        "Multi-image semantic matching by mining consistent features": {
+            "authors": [
+                "Qianqian Wang",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Image_Semantic_Matching_CVPR_2018_paper.pdf",
+            "ref_texts": "[54] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015. 2,3,5,7, 8",
+            "ref_ids": [
+                "54"
+            ],
+            "1": ", [35,54]) mainly optimize the cycle consistency of correspondences and seldom consider the geometric consistency simultaneously.",
+            "2": "Various approaches have been proposed such as unclosed cycle elimination [50,33], constrained local optimization [46,45,47,44,53], spectral relaxation [23,18,35] and convex relaxation [18,6,54].",
+            "3": "To accommodate all image features, previous work [6,54] usually defines a sufficiently large u.",
+            "4": "Three alternative methods with publicly available code are used as baselines: the spectral method [35], MatchLift [6] and MatchALS [54].",
+            "5": "The recall rates are reported in Table 1, which shows that the proposed method outperforms other methods onDataset Input [35] [6] [54] Ours\u2212Ours Input+Ours+ Hotel 0.",
+            "6": "The proposed method is compared with spectral method [35], MatchLift [6] and MatchALS [54].",
+            "7": "The recent work [54] requires no keypoint annotation but object masks to remove background.",
+            "8": "Similar to [54], we uniformly sample feature candidates on image edges detected by the structured forests [12].",
+            "9": "Unlike [54], we don\u2019t need object masks thanks to the capability of the proposed method to prune nonrepeatable features in the background.",
+            "10": "As a comparison, the complexity of MatchALS [54] isO(m2k).",
+            "11": "2\n[54] X."
+        },
+        "Isometric multi-shape matching": {
+            "authors": [
+                "Maolin Gao",
+                "Zorah Lahner",
+                "Johan Thunberg",
+                "Daniel Cremers",
+                "Florian Bernard"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Isometric_Multi-Shape_Matching_CVPR_2021_paper.pdf",
+            "ref_texts": "[81] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In International Conference on Computer Vision (ICCV) , 2015. 3",
+            "ref_ids": [
+                "81"
+            ],
+            "1": "Establishing cycle consistency in a given set of pairwise matchings, known as permutation synchronisation, has been addressed extensively in the literature [50,52,29,15,81,64,70,45,62,7]."
+        },
+        "A convex relaxation for multi-graph matching": {
+            "authors": [
+                "Paul Swoboda",
+                "Dagmar Kainm",
+                "Ashkan Mokarian",
+                "Christian Theobalt",
+                "Florian Bernard"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Swoboda_A_Convex_Relaxation_for_Multi-Graph_Matching_CVPR_2019_paper.pdf",
+            "ref_texts": "[50] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "The works [27, 7, 50, 31, 22, 5] assume they are given individual matchings and then postprocess them via matrix factorization to obtain cycleconsistent matchings, which they call permutation synchronization."
+        },
+        "Synchronization problems in computer vision with closed-form solutions": {
+            "authors": [
+                "Federica Arrigoni"
+            ],
+            "url": "https://openreview.net/pdf?id=TjIWMgAg5B",
+            "ref_texts": "123 International Journal of Computer Vision Zheng, Y ., Liu, G., Sugimoto, S., Yan, S., & Okutomi, M. (2012). Practical low-rank matrix approximation under robust L1-norm. InProceedings of the IEEE conference on computer vision and pattern recognition (pp. 1410\u20131417).Zhou, X., Zhu, M., & Daniilidis, K. (2015). Multi-image matching via fast alternating minimization. In Proceedings of the international conference on computer vision (pp. 4032\u20134040). Publisher\u2019s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+        },
+        "Kernelized multi-graph matching": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v189/dupe23a/dupe23a.pdf",
+            "ref_texts": "Yonathan Aflalo, Alexander Bronstein, and Ron Kimmel. On convex relaxation of graph isomorphism. Proceedings of the National Academy of Sciences , 112(10):2942\u20132947, 2015. Florian Bernard, Johan Thunberg, Paul Swoboda, and Christian Theobalt. HiPPI: Higherorder projected power iterations for scalable multi-matching. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 10284\u201310293, 2019. Florian Bernard, Daniel Cremers, and Johan Thunberg. Sparse quadratic optimisation over the Stiefel manifold with application to permutation synchronisation. Advances in Neural Information Processing Systems , 34, 2021. Tolga Birdal and Umut Simsekli. Probabilistic permutation synchronization using the Riemannian structure of the Birkhoff polytope. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 11105\u201311116, 2019. Minsu Cho, Jungmin Lee, and Kyoung Mu Lee. Reweighted random walks for graph matching. In European conference on Computer vision , pages 492\u2013505. Springer, 2010. M. Fey, J. E. Lenssen, C. Morris, J. Masci, and N. M. Kriege. Deep graph matching consensus. In International Conference on Learning Representations (ICLR) , 2020. Fajwel Fogel, Rodolphe Jenatton, Francis Bach, and Alexandre d\u2019Aspremont. Convex relaxations for permutation problems. Advances in neural information processing systems , 26, 2013. Steven Gold and Anand Rangarajan. A graduated assignment algorithm for graph matching. IEEE Transactions on pattern analysis and machine intelligence , 18(4):377\u2013388, 1996. Zetian Jiang, Tianzhe Wang, and Junchi Yan. Unifying offline and online multi-graph matching via finding shortest paths on supergraph. IEEE transactions on pattern analysis and machine intelligence , 43(10):3648\u20133663, 2020. KMGM Tjalling C Koopmans and Martin Beckmann. Assignment problems and the location of economic activities. Econometrica: journal of the Econometric Society , pages 53\u201376, 1957. Eugene L Lawler. The quadratic assignment problem. Management science , 9(4):586\u2013599, 1963. Hoai An Le Thi and Tao Pham Dinh. DC programming and DCA: thirty years of developments. Mathematical Programming , 169(1):5\u201368, 2018. Zhu Li, Jean-Francois Ton, Dino Oglic, and Dino Sejdinovic. Towards a unified analysis of random fourier features. In ICML , 2019. Shuyang Ling. Improved performance guarantees for orthogonal group synchronization via generalized power method. arXiv preprint arXiv:2012.00470 , 2020. Shuyang Ling. Near-optimal performance bounds for orthogonal and permutation group synchronization via spectral methods. Applied and Computational Harmonic Analysis , 60:20\u201352, 2022. Fanghui Liu, Xiaolin Huang, Yudong Chen, and Johan AK Suykens. Random features for kernel approximation: A survey on algorithms, theory, and beyond. IEEE Transactions on Pattern Analysis & Machine Intelligence , (01):1\u20131, 2021a. Linfeng Liu, Michael C Hughes, Soha Hassoun, and Liping Liu. Stochastic iterative graph matching. In International Conference on Machine Learning , pages 6815\u20136825. PMLR, 2021b. Vince Lyzinski, Donniell E Fishkind, Marcelo Fiori, Joshua T Vogelstein, Carey E Priebe, and Guillermo Sapiro. Graph matching: Relax at your own risk. IEEE transactions on pattern analysis and machine intelligence , 38(1):60\u201373, 2015. Joao Maciel and Joao Paulo Costeira. A global solution to sparse correspondence problems. IEEE Transactions on Pattern Analysis and Machine Intelligence , 25(2):187\u2013199, 2003. Eleonora Maset, Federica Arrigoni, and Andrea Fusiello. Practical and efficient multi-view matching. In Proceedings of the IEEE International Conference on Computer Vision , pages 4568\u20134576, 2017. Deepti Pachauri, Risi Kondor, and Vikas Singh. Solving the multi-way matching problem by permutation synchronization. Advances in neural information processing systems , 26, 2013. Han-Mu Park and Kuk-Jin Yoon. Multi-attributed graph matching with multi-layer random walks. In European Conference on Computer Vision , pages 189\u2013204. Springer, 2016. Ali Rahimi and Benjamin Recht. Random features for large-scale kernel machines. Advances in neural information processing systems , 20, 2007. Dup\u00b4e Yadav Auzias Takerkart Michal Rol\u00b4 \u0131nek, Paul Swoboda, Dominik Zietlow, Anselm Paulus, V\u00b4 \u0131t Musil, and Georg Martius. Deep graph matching via blackbox differentiation of combinatorial solvers. In European Conference on Computer Vision , pages 407\u2013424. Springer, 2020. Yunpeng Shi, Shaohan Li, and Gilad Lerman. Robust multi-object matching via iterative reweighting of the graph connection Laplacian. Advances in Neural Information Processing Systems , 33:15243\u201315253, 2020. Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recognition. In Yoshua Bengio and Yann LeCun, editors, 3rd International Conference on Learning Representations, ICLR 2015 , 2015. Paul Swoboda, Ashkan Mokarian, Christian Theobalt, Florian Bernard, et al. A convex relaxation for multi-graph matching. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 11156\u201311165, 2019. Runzhong Wang, Junchi Yan, and Xiaokang Yang. Graduated assignment for joint multigraph matching and clustering with application to unsupervised graph matching network learning. Advances in Neural Information Processing Systems , 33:19908\u201319919, 2020a. Runzhong Wang, Junchi Yan, and Xiaokang Yang. Neural graph matching network: Learning Lawler\u2019s quadratic assignment problem with extension to hypergraph and multiplegraph matching. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2021. Tao Wang, He Liu, Yidong Li, Yi Jin, Xiaohui Hou, and Haibin Ling. Learning combinatorial solver for graph matching. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 7568\u20137577, 2020b. Yi Xu, Qi Qi, Qihang Lin, Rong Jin, and Tianbao Yang. Stochastic optimization for dc functions and non-smooth non-convex regularizers with non-asymptotic convergence. In International conference on machine learning , pages 6942\u20136951. PMLR, 2019. Junchi Yan, Minsu Cho, Hongyuan Zha, Xiaokang Yang, and Stephen M Chu. Multigraph matching via affinity optimization with graduated consistency regularization. IEEE transactions on pattern analysis and machine intelligence , 38(6):1228\u20131242, 2015. Zhen Zhang, Yijian Xiang, Lingfei Wu, Bing Xue, and Arye Nehorai. KerGM: kernelized graph matching. In Proceedings of the 33rd International Conference on Neural Information Processing Systems , pages 3335\u20133346, 2019. Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE international conference on computer vision , pages 4032\u20134040, 2015."
+        },
+        "Pose Synchronization Under Multiple Pair-Wise Relative Poses": {
+            "authors": [
+                "Yifan Sun",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Pose_Synchronization_Under_Multiple_Pair-Wise_Relative_Poses_CVPR_2023_paper.pdf",
+            "ref_texts": "[39] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. InProceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "State-of-the-art techniques include semidefinite programming relaxation [11,15,16,28, 30, 34, 37], spectral techniques [1\u20133, 17, 20, 23, 26, 27, 29, 31, 32], and non-convex optimization [4, 6, 19, 24, 25, 39]."
+        },
+        "Hippi: Higher-order projected power iterations for scalable multi-matching": {
+            "authors": [
+                "Florian Bernard",
+                "Johan Thunberg",
+                "Paul Swoboda",
+                "Christian Theobalt"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Bernard_HiPPI_Higher-Order_Projected_Power_Iterations_for_Scalable_Multi-Matching_ICCV_2019_paper.pdf",
+            "ref_texts": "[61] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 2015. 2,3,6,8",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "[24,53,44,48,6]) and (ii) approaches that first establish matchings between points in each pair of objects independently, and then improve those matchings via a postprocessing procedure referred to as permutation synchronisation [38,14,61,43,33,7].",
+            "2": "based on semidefinite programming [14], alternating direction method of multipliers [61], spectral decomposition followed by k-means clustering [2], or non-negative matrix factorisation [7].",
+            "3": "Multi-image matching: We compare our method with QUICK MATCH [48], M ATCH EIG[33], S PECTRAL [38]\n(implemented by the authors of [61] for partial permutation synchronisation), and M ATCH ALS [61].",
+            "4": "Contrary to existing permutation synchronisation methods [38,14,61,43,2,33], our method is able to take geometric relations between points into account."
+        },
+        "Probabilistic permutation synchronization using the riemannian structure of the birkhoff polytope": {
+            "authors": [
+                "Tolga Birdal",
+                "Umut Simsekli"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Birdal_Probabilistic_Permutation_Synchronization_Using_the_Riemannian_Structure_of_the_Birkhoff_CVPR_2019_paper.pdf",
+            "ref_texts": "[85] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "85"
+            ],
+            "1": "[85] then introduced MatchALS , a new low-rank formulation with nuclear-norm relaxation, globally solving the joint matching of a set of images without the need of SDP.",
+            "2": "We initialize our algorithm by the closed form MatchEIG [51] and evaluate it against the state of the art methods of Spectral [56], MatchALS [85], MatchLift [36], MatchEIG [51], and Wang et al.",
+            "3": "Dataset Initial Spectral [56] MatchLift [36] MatchALS [85] MatchEig [51] Wang\u2212[77] Ours Wang [77] Ours-Geom Car 0."
+        },
+        "Fast, accurate and memory-efficient partial permutation synchronization": {
+            "authors": [
+                "Shaohan Li",
+                "Yunpeng Shi",
+                "Gilad Lerman"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_Fast_Accurate_and_Memory-Efficient_Partial_Permutation_Synchronization_CVPR_2022_paper.pdf",
+            "ref_texts": "[28] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In IEEE International Conference on Computer Vision, ICCV 2015 , 2015.",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "MatchALS [28] replaces the SDP constraint of MatchLift by linear ones, which yield significant speedup.",
+            "2": "Moreover, the accuracy of [6,28] are not competitive on some real datasets as reported in [13]."
+        },
+        "Sparse quadratic optimisation over the Stiefel manifold with application to permutation synchronisation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/d4bad256c73a6b25b86cc9c1a77255b1-Paper.pdf",
+            "ref_texts": "[51] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "1 Permutation Synchronisation in a Nutshell Permutation synchronisation is a procedure to improve matchings between multiple objects [23,34], and related concepts have been utilised to address diverse tasks, such as multi-alignment [7,5, 5\n25], multi-shape matching [22,24,20], multi-image matching [51,42,9,13,12], or multi-graph matching [48,6,41], among many others.",
+            "2": "In particular, our comparison includes two existing spectral approaches, namely MATCH EIG[31] and SPECTRAL [34], where for the latter we use the efficient implementation from the authors of [51].",
+            "3": "In addition, we also compare against the alternating minimisation method MATCH ALS [51], and against the non-negative matrix factorisation approach NMFSYNC [8].",
+            "4": "3 we compare the performance of MATCH EIG[31],MATCH ALS [51], SPECTRAL [34],NMFSYNC [8] and OURS.",
+            "5": "[51] X."
+        },
+        "Translation synchronization via truncated least squares": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/9f53d83ec0691550f7d2507d57f4f5a2-Paper.pdf",
+            "ref_texts": "[28] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In 2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago, Chile, December 7-13, 2015 , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "[28] apply alternating minimization for permutation synchronization.",
+            "2": "[28] X."
+        },
+        "A condition number for joint optimization of cycle-consistent networks": {
+            "authors": [
+                "Leonidas J. Guibas",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/9ad6aaed513b73148b7d49f70afcfb32-Paper.pdf",
+            "ref_texts": "[48] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "This equivalence leads to a simple formulation of joint map computation via low-rank matrix recovery [41,24,15,14,17,10,48,36,26,18,3,33,32,1,6,2]."
+        },
+        "Incremental multi-graph matching via diversity and randomness based graph clustering": {
+            "authors": [
+                "Tianshu Yu",
+                "Junchi Yan",
+                "Wei Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Tianshu_Yu_Incremental_Multi-graph_Matching_ECCV_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "SMAC: simultaneous mapping and clustering using spectral decompositions": {
+            "authors": [
+                "Chandrajit Bajaj",
+                "Tingran Gao",
+                "Zihang He",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "http://proceedings.mlr.press/v80/bajaj18a/bajaj18a.pdf",
+            "ref_texts": "4933, 2016. Snavely, N., Seitz, S. M., and Szeliski, R. Photo tourism: Exploring photo collections in 3d. ACM Trans. Graph. , 25(3):835\u2013846, July 2006. van Kaick, O., Zhang, H. R., Hamarneh, G., and Cohen-Or, D. A survey on shape correspondence. In EuroGraphics: State-of-the-Art Report , pp. 61\u201382, 2010. Wang, F., Huang, Q., and Guibas, L. J. Image cosegmentation via consistent functional maps. In ICCV , pp. 849\u2013856, 2013. Wang, F., Huang, Q., Ovsjanikov, M., and Guibas, L. J. Unsupervised multi-class joint image segmentation. In CVPR , pp. 3142\u20133149. IEEE Computer Society, 2014. Wang, L. and Singer, A. Exact and stable recovery of rotations for robust synchronization. Information and Inference: A Journal of the IMA , 2:145193, December 2013. Zhou, T., Lee, Y . J., Yu, S. X., and Efros, A. A. Flowweb: Joint image set alignment by weaving consistent, pixelwise correspondences. In CVPR , pp. 1191\u20131200. IEEE Computer Society, 2015a. Zhou, X., Zhu, M., and Daniilidis, K. Multi-image matching via fast alternating minimization. CoRR , abs/1505.04845, 2015b."
+        },
+        "Unsupervised 3D reconstruction and grouping of rigid and non-rigid categories": {
+            "authors": [],
+            "url": "https://digital.csic.es/bitstream/10261/296082/1/2344-Unsupervised-3D-Reconstruction-and-Grouping-of-Rigid-and-Non-Rigid-Categories.pdf",
+            "ref_texts": "[63] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "Some recent works [56], [62], [63] to address this problem have been proposed, which though, are beyond the scope of this paper.",
+            "2": "[63] X."
+        },
+        "Path-invariant map networks": {
+            "authors": [
+                "Zaiwei Zhang",
+                "Zhenxiao Liang",
+                "Lemeng Wu",
+                "Xiaowei Zhou",
+                "Qixing Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Path-Invariant_Map_Networks_CVPR_2019_paper.pdf",
+            "ref_texts": "[58] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In ICCV , 11093",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "Computationally, state-of-the-art map synchronization techniques [3,7,15,19,43,16,18, 25,57,58,29] employ matrix representations of maps [25, 18,15,48,16].",
+            "2": "[15]), leading to efficient and robust solutions [16,58,43,19].",
+            "3": "The first setting considers undirected map networks that can be optimized using low-rank formulations [16,58].",
+            "4": "Most map synchronization techniques [20,17,54,31,15,57,16,7,49,5,58,2,53,19,34, 43,14,56,59,52] have focused on undirected map graphs, where the self-regularization constraint is given by cycleconsistency.",
+            "5": "Along this line, people have introduced convex optimization [15,16,7,49], non-convex optimization [5,58, 2,53,19], and spectral techniques [34,43].",
+            "6": "Three state-of-the-art approaches are 1) functional-map based low-rank matrix recovery [16], 2) point-map based low-rank matrix recovery via alternating minimization [58], and 3) consistent partial matching via sparse modeling [10]."
+        },
+        "Distributable consistent multi-object matching": {
+            "authors": [
+                "Nan Hu",
+                "Qixing Huang",
+                "Boris Thibert",
+                "Leonidas J. Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Distributable_Consistent_Multi-Object_CVPR_2018_paper.pdf",
+            "ref_texts": "[32] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. International Conference on Computer Vision (ICCV) , 2015. 1,2,4,5,6,7,8",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "In this context, a central task is how to utilize the data collection as a regularizer to improve the maps computed between pairs of objects in isolation [15,4,32].",
+            "2": "In a recent work, Zhou et al [32] attempt to address the computational issue using alternating minimization for efficient low-rank matrix recovery.",
+            "3": "We show how to apply this framework to extend the methods described in [15,4,32].",
+            "4": "In particular, instead of jointly imposing the global consistency constraint among all pair-wise maps [15,4,32], we split the input object collection into overlapping subsets, and impose consistency within each subset.",
+            "5": "Recently, people have proposed to formulate non-convex optimization problems by using the cycle consistency constraint as an explicit constraint for either pixel-wise flow computation [32], sparse feature matching [27], sparse shape modeling [5], or structure from motion [21].",
+            "6": "[32] enforce the positive semidefinite constraint using explicit low-rank factorizations, leading to improved computational efficiency.",
+            "7": "In [15,32], the authors use this property to develop robust algorithms for recovering XVfrom noisy input maps.",
+            "8": "In the state-of-the-art methods of [15] and [32], the authors proposed different formulations of objective function h(XV).",
+            "9": "We will use the formulation described in [32] to demonstrate our framework, because of its competent performance and superior computational speed.",
+            "10": "As in [32],h(XV)can be written as min/a\\}bracketle{tWV,XV/a\\}bracketri}ht+\u03bb/bardblXV/bardbl\u2217 s.",
+            "11": "As has been shown in [32], the constraint XV/{ollowsequal0 may be relaxed for a sufficiently large \u03bb.",
+            "12": "[2,11,32]).",
+            "13": "In contrast, the per-iteration complexity of [4] and [32] isO((/summationtext imi)3)andO((/summationtext imi)2m)respectively.",
+            "14": "Furthermore, in our experiments, we found the total number of iterations to converge for our method is comparable to that of [32].",
+            "15": "We followed the same experimental setup as in [4,32].",
+            "16": "Therefore, our ground truth setting is also different from [4,32] in this regard.",
+            "17": "1 Matching Errors In the first experiment, we aimed to evaluate the matching performance between our algorithm, DMatch, and the global algorithm, MatchALS, as in [32].",
+            "18": "We compared our DMatch algorithm with the global methods, MatchALS [32], MatchLift [4], Spectral [22], and the distributed method described in [17].",
+            "19": "2 Graffiti datasets In this experiment, we followed the procedure described in [32].",
+            "20": "To construct an affinity score matrix X, we employed the same procedure as in [32] for comparison purpose.",
+            "21": "We tested our DMatch algorithm against MatchALS [32], MatchLift [4], Spectral [22] and the original pairwise matchings.",
+            "22": "From the performance curve, we can see that our DMatch performs very similar to the best global methods in all datasets as shown in [32].",
+            "23": "We compare DMatch (red solid) with MatchALS [32] (blue dashed), MatchLift [15], Spectral [22], and original pairwise matching (black dotted).",
+            "24": "1\n[32] X."
+        },
+        "Learning Constrained Structured Spaces with Application to Multi-Graph Matching": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v206/indelman23a/indelman23a.pdf",
+            "ref_texts": "2016.135. F. Zhou and F. D. la Torre. Factorized graph matching. IEEE Transactions on Pattern Analysis & Machine Intelligence , 38(09), 2016. doi: 10.1109/TPAMI.2015.2501802. X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. IEEE International Conference on Computer Vision (ICCV) , pages 4032\u2013"
+        },
+        "A matrix decomposition perspective to multiple graph matching": {
+            "authors": [
+                "Junchi Yan",
+                "Hongteng Xu",
+                "Hongyuan Zha",
+                "Xiaokang Yang",
+                "Huanxi Liu",
+                "Stephen Chu"
+            ],
+            "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Yan_A_Matrix_Decomposition_ICCV_2015_paper.pdf",
+            "ref_texts": "[66] X. Zhou and M. Z. amd Kostas Daniilidis. Multi-image matching via fast alternating minimization. In arXiv:1505.04845v1 , 2015.",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "By employing spectral techniques, [41, 7, 66] all enforce consistency as a post-processing step whose inputs are the putative pairwise matchings {X}N i,j=1calculated by a two-graph matching solver.",
+            "2": "[66] X."
+        },
+        "Text co-detection in multi-view scene": {
+            "authors": [],
+            "url": "https://yangliang.github.io/pdf/09007050.pdf",
+            "ref_texts": "[61] X. Zhou, M. Zhu, and K. Daniilidis, \u201cMulti-image matching via fast alternating minimization,\u201d in Proc. IEEE Int. Conf. Comput. Vis. ,S a n tiago, Chile, Dec. 2015, pp. 4032\u20134040.",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "Since using singular value decomposition in each iteration is expensive, we follow the previous works [61], [65] to solve the problemby replacing the variable Xwith two matrices AandBwhose dimensions are smaller than X.",
+            "2": "Besides, we make the second replacement for Xij\u2019s with Yij\u2019s in the term of geometrical consistency since each sub-problem in the block coordinate 3With the consideration that solving semidefinite programming is generally unscalable, we follow the previous works [60], [61] as ignoring the positivesemidefinite constraint on Xand give the low-rank constraint a large weight.",
+            "3": "[61] X."
+        },
+        "Robust multi-object matching via iterative reweighting of the graph connection Laplacian": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/ae06fbdc519bddaa88aa1b24bace4500-Paper.pdf",
+            "ref_texts": "[34] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. InIEEE International Conference on Computer Vision, ICCV 2015, 2015.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Two other relaxations of the LS formulation are MatchLift [8,13] and MatchALS [34].",
+            "2": "[30] improve the matching accuracy of [34] by incorporating a geometric constraint on the pixel coordinates of keypoints.",
+            "3": "6 Numerical Experiments Using synthetic and real data, we compared IRGCL-S&P (IRGCL-S and IRGCL-P) with the following methods for PS: Spectral [22]; PPM [7]; IRLS-Cauchy-S &P (two methods that adapt the idea of [2] to PS, while solving the WLS problem by either (10)for IRLS-Cauchy-P or (12)for IRLS-Cauchy-S); MatchLift [8] and MatchALS [34].",
+            "4": "nInput Spectral MLift MALS PPM IRLS IRGCL-init IRGCL-S IRGCL-P Datasets [22] [8] [34] [14] [2] ours ours ours Car 320.",
+            "5": "[34] X."
+        },
+        "Low-rank matrix recovery with unknown correspondence": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v216/tang23a/tang23a.pdf",
+            "ref_texts": "2121 Martin Slawski, Guoqing Diao, and Emanuel Ben-David. A pseudo-likelihood approach to linear regression with partially shuffled data. Journal of Computational and Graphical Statistics , pages 1\u201313, 2021. Kiran K. Thekumparampil, Prateek Jain, Praneeth Netrapalli, and Sewoong Oh. Efficient algorithms for smooth minimax optimization. In Advances in Neural Information Processing Systems , pages 12680\u201312691, 2019. Kim-Chuan Toh and Sangwoon Yun. An accelerated proximal gradient algorithm for nuclear norm regularized linear least squares problems. Pacific Journal of optimization, 6(615-640):15, 2010. Manolis Tsakiris and Liangzu Peng. Homomorphic sensing. InInternational Conference on Machine Learning , pages 6335\u20136344. PMLR, 2019. Manolis C Tsakiris, Liangzu Peng, Aldo Conca, Laurent Kneip, Yuanming Shi, and Hayoung Choi. An algebraicgeometric approach for linear regression without correspondences. IEEE Transactions on Information Theory , 66(8):5130\u20135144, 2020. Paul Tseng. On accelerated proximal gradient methods for convex-concave optimization. submitted to SIAM Journal on Optimization , 2(3), 2008. Jayakrishnan Unnikrishnan, Saeid Haghighatshoar, and Martin Vetterli. Unlabeled sensing with random linear measurements. IEEE Transactions on Information Theory , 64(5):3237\u20133253, 2018. Martin J Wainwright. High-dimensional statistics: A nonasymptotic viewpoint , volume 48. Cambridge University Press, 2019. Xiaolong Wang, Allan Jabri, and Alexei A. Efros. Learning correspondence from the cycle-consistency of time. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 2566\u20132576, 2019. John Wright and Yi Ma. High-Dimensional Data Analysis with Low-Dimensional Models: Principles, Computation, and Applications . Cambridge University Press, 2021. Yujia Xie, Xiangfeng Wang, Ruijia Wang, and Hongyuan Zha. A fast proximal point method for computing exact wasserstein distance. In Ryan P. Adams and Vibhav Gogate, editors, Proceedings of The 35th Uncertainty in Artificial Intelligence Conference, volume 115 of Proceedings of Machine Learning Research , pages 433\u2013453. PMLR, 22\u201325 Jul 2020. URL https://proceedings.mlr.press/ v115/xie20b.html . Yujia Xie, Yixiu Mao, Simiao Zuo, Hongteng Xu, Xiaojing Ye, Tuo Zhao, and Hongyuan Zha. A hypergradient approach to robust regression without correspondence. InInternational Conference on Learning Representations , 2021. URL https://openreview.net/forum? id=l35SB-_raSQ . Liu Yang, Ben Tan, Vincent W Zheng, Kai Chen, and Qiang Yang. Federated recommendation systems. In Federated Learning , pages 225\u2013239. Springer, 2020. Qiang Yang, Yang Liu, Tianjian Chen, and Yongxin Tong. Federated machine learning: Concept and applications. ACM Transactions on Intelligent Systems and Technology (TIST) , 10(2):1\u201319, 2019. Yunzhen Yao, Liangzu Peng, and Manolis C Tsakiris. Unlabeled principal component analysis. arXiv preprint arXiv:2101.09446 , 2021. Zinan Zeng, Tsung-Han Chan, Kui Jia, and Dong Xu. Finding correspondence from multiple images via sparse and low-rank decomposition. In European Conference on Computer Vision , pages 325\u2013339. Springer, 2012. Hang Zhang and Ping Li. Optimal estimator for unlabeled linear regression. In International Conference on Machine Learning , pages 11153\u201311162. PMLR, 2020. Hang Zhang, Martin Slawski, and Ping Li. The benefits of diversity: Permutation recovery in unlabeled sensing from multiple measurement vectors. arXiv preprint arXiv:1909.02496 , 2019a. Hang Zhang, Martin Slawski, and Ping Li. Permutation recovery from multiple measurement vectors in unlabeled sensing. In 2019 IEEE International Symposium on Information Theory (ISIT) , pages 1857\u20131861. IEEE, 2019b. Jiawei Zhang, Peijun Xiao, Ruoyu Sun, and Zhi-Quan Luo. A Single-Loop Smoothed Gradient Descent-Ascent Algorithm for Nonconvex-Concave Min-Max Problems. arXiv preprint arXiv:2010.15768 , 2020. Yu Zhang, Bin Cao, and Dit-Yan Yeung. Multi-domain collaborative filtering. arXiv preprint arXiv:1203.3535 , 2012. Yu Zheng. Methodologies for cross-domain data fusion: An overview. IEEE transactions on big data , 1(1):16\u201334, 2015. Tinghui Zhou, Philipp Krahenbuhl, Mathieu Aubry, Qixing Huang, and Alexei A. Efros. Learning dense correspondence via 3d-guided cycle consistency. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 117\u2013126, 2016. Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015."
+        },
+        "Synchronization in the symmetric inverse semigroup": {
+            "authors": [],
+            "url": "https://fusiello.github.io/papers/iciap17b.pdf",
+            "ref_texts": "18. Zhou, X., Zhu, M., Daniilidis, K.: Multi-image matching via fast alternating minimization. In: Proceedings of the International Conference on Computer Vision. pp. 4032 { 4040 (2015)",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "Permutation synchronization ffnds application in multi-image matching [5, 18], where a set of matches between pairs of images is computed through standard techniques (e."
+        },
+        "Joint map and symmetry synchronization": {
+            "authors": [
+                "Qixing Huang",
+                "Xiangru Huang",
+                "Zhenxiao Liang",
+                "Yifan Sun"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Qixing_Huang_Joint_Map_and_ECCV_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "Matching and recovering 3D people from multiple views": {
+            "authors": [
+                "Alejandro Perez",
+                "Antonio Agudo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2022/papers/Perez-Yus_Matching_and_Recovering_3D_People_From_Multiple_Views_WACV_2022_paper.pdf",
+            "ref_texts": "[59] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "59"
+            ],
+            "1": "To make the previous optimization problem tractable, we incorporate some additional constraints as it is standard in matching algorithms [55, 59], such that: Xcc=Ibc, (8) Xcd=X\u22a4 dc, (9) X\u2208R[0,1], (10)\n0bc\u2264Xcd1bd\u22641bc, (11)\n0bd\u2264X\u22a4 cd1bc\u22641bd, (12) where Ibcis abc\u00d7bcidentity matrix, and 0bc/1bcare a vector of bczeros/ones, respectively.",
+            "2": "[59] X."
+        },
+        "Towards an evaluation of denoising algorithms with respect to realistic camera noise": {
+            "authors": [],
+            "url": "https://mediatum.ub.tum.de/doc/1183511/document.pdf"
+        },
+        "K-best transformation synchronization": {
+            "authors": [
+                "Yifan Sun",
+                "Jiacheng Zhuo",
+                "Arnav Mohan",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Sun_K-Best_Transformation_Synchronization_ICCV_2019_paper.pdf",
+            "ref_texts": "[48] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multiimage matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015. 2",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "A recent line of transformation synchronization techniques focuses on non-convex optimizations, including alternating minimization [48], reweighted least squares [21,12,25], reweighted factorization [1], and continuous optimization [38,28]."
+        },
+        "On the relevance of multi-graph matching for sulcal graphs": {
+            "authors": [],
+            "url": "https://hal.science/hal-03776013/file/Yadav_ICIP_2022.pdf",
+            "ref_texts": "[6] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis, \u201cMulti-image matching via fast alternating minimization,\u201d in Proceedings of the IEEE International Conference on Computer Vision , 2015, pp. 4032\u20134040.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "The multi-matching solution is then obtained by solving KoopmansBeckmann\u2019s quadratic assignment problem [6, 7, 8] using bulk matrices: max X2Ctr(AXAX>) (2) whereX=fXijg1\u0014i;j\u0014Nis the bulk matrix containing all permutations matrices and identity matrices as block diagonal,A=fAijg1\u0014i;j\u0014Nis the bulk matrix with the adjacency matrices andCis the set of constraints which at least includethe consistency expressed in (1) and permutations requirement onfXijg1\u0014i;j\u0014N.",
+            "2": "In contrast, mALS [6] imposes a low-rank constraint on the bulk permutation matrix under the assumption that only few nodes are different between graphs."
+        },
+        "Labelling sulcal graphs across indiviuals using multigraph matching": {
+            "authors": [],
+            "url": "https://hal.science/hal-03401832/document",
+            "ref_texts": "[11] X. Zhou, M. Zhu, and K. Daniilidis, \u201cMulti-image Matching via Fast Alternating Minimization,\u201d in 2015 IEEE International Conference on Computer Vision (ICCV) , Santiago, Chile, Dec. 2015, pp. 4032\u20134040, IEEE.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "In this work, we evaluate a set of recently published pairwise and multigraph matching tehcniques [7, 8, 9, 10, 11], in the context of sulcal graphs.",
+            "2": "In the present study, we use the multi-graph matching algorithm described in [11], mALS , which exploits this property while allowing partial matching of nodes across graphs.",
+            "3": "[11] X."
+        },
+        "A key-based adaptive transactional memory executor": {
+            "authors": [],
+            "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=3676&itemFileId=5253",
+            "ref_texts": ""
+        },
+        "3D hypothesis clustering for cross-view matching in multi-person motion capture": {
+            "authors": [],
+            "url": "https://link.springer.com/content/pdf/10.1007/s41095-020-0171-y.pdf",
+            "ref_texts": "[21] Zhou, X.; Zhu, M.; Daniilidis, K. Multi-image matching via fast alternating minimization. In: Proceedings of the IEEE International Conference on Computer Vision, 4032\u20134040, 2015.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Classical approaches to this problem includespanning tree optimization [\n19], sampling inconsistent cycles [20], low-rank matrix recovery [21], etc.",
+            "2": "[21] Zhou, X."
+        },
+        "Multi-view triangulation without correspondences": {
+            "authors": [
+                "Mathieu Gaillard"
+            ],
+            "url": "https://www.cs.purdue.edu/homes/bbenes/papers/Gaillard23COMPAG.pdf",
+            "ref_texts": "(CSUR) 38 (4), 13\u2013es. http://dx.doi.org/10.1145/1177352.1177355. Yu, J.-G., Xia, G.-S., Samal, A., Tian, J., 2016. Globally consistent correspondence of multiple feature sets using proximal Gauss\u2013Seidel relaxation. Pattern Recognit. 51, 255\u2013267. http://dx.doi.org/10.1016/j.patcog.2015.09.029. Zhou, X., Zhu, M., Daniilidis, K., 2015. Multi-image matching via fast alternating minimization. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 4032\u20134040. http://dx.doi.org/10.1109/ICCV.2015.459."
+        },
+        "Mapping of sparse 3d data using alternating projection": {
+            "authors": [
+                "Siddhant Ranade",
+                "Xin Yu",
+                "Shantnu Kakkar",
+                "Pedro Miraldo",
+                "Srikumar Ramalingam"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ACCV2020/papers/Ranade_Mapping_of_Sparse_3D_Data_using_Alternating_Projection_ACCV_2020_paper.pdf",
+            "ref_texts": ""
+        },
+        "Joint deep multi-graph matching and 3d geometry learning from inhomogeneous 2d image collections": {
+            "authors": [
+                "Zhenzhang Ye",
+                "Tarun Yenamandra",
+                "Florian Bernard",
+                "Daniel Cremers"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20220/19979",
+            "ref_texts": "2020b. Learning Combinatorial Solver for Graph Matching. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Yenamandra, T.; Tewari, A.; Bernard, F.; Seidel, H.; Elgharib, M.; Cremers, D.; and Theobalt, C. 2021. i3DMM: Deep Implicit 3D Morphable Model of Human Heads. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Zanfir, A.; and Sminchisescu, C. 2018. Deep Learning of Graph Matching. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Zhang, Q.; Song, X.; Shao, X.; Zhao, H.; and Shibasaki, R. 2013. Learning Graph Matching: Oriented to Category Modeling from Cluttered Scenes. In Proceedings of the IEEE International Conference on Computer Vision. Zhang, Z.; and Lee, W. S. 2019. Deep Graphical Feature Learning for the Feature Matching Problem. In Proceedings of the IEEE International Conference on Computer Vision. Zhou, F.; and De la Torre, F. 2016. Factorized Graph Matching. IEEE Transactions on Pattern Analysis and Machine Intelligence. Zhou, X.; Zhu, M.; and Daniilidis, K. 2015. Multi-Image Matching via Fast Alternating Minimization. In Proceedings of the IEEE International Conference on Computer Vision."
+        },
+        "Using machine learning methods to identify atrocity perpetrators": {
+            "authors": [],
+            "url": "http://www.orekoren.com/wp-content/uploads/2018/01/BagozziKorenIEEEofficial.pdf"
+        },
+        "Semi-Supervised Semantic Matching.": {
+            "authors": [
+                "Zakaria Laskar",
+                "Juho Kannala"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Laskar_Semi-Supervised_Semantic_Matching._ECCVW_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "Motion segmentation with pairwise matches and unknown number of motions": {
+            "authors": [],
+            "url": "https://re.public.polimi.it/bitstream/11311/1170775/1/2020_ICPR_segmentation.pdf",
+            "ref_texts": "[32] X. Zhou, M. Zhu, and K. Daniilidis, \u201cMulti-image matching via fast alternating minimization,\u201d in Proceedings of the International Conference on Computer Vision , 2015, pp. 4032 \u2013 4040.",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Permutation synchronization is hard to solve due to the combinatorial nature of the problem, hence existing approaches usually rely on approximate solutions (see [30], [31], [32], [33], [34], [35], [36], [37]).",
+            "2": "[32] X."
+        },
+        "Nonrigid Points Alignment with Soft-weighted Selection.": {
+            "authors": [
+                "Xuelong Li",
+                "Jian Yang",
+                "Qi Wang"
+            ],
+            "url": "https://www.ijcai.org/Proceedings/2018/0111.pdf",
+            "ref_texts": "[Zhou et al., 2015 ]Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision, pages 4032\u20134040, 2015. Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence (IJCAI-18)",
+            "ref_ids": [
+                "Zhou et al\\., 2015 "
+            ]
+        },
+        "Cross-Modal Semantic Analysis by Tri-factorized Modular Hypergraph Autoencoder": {
+            "authors": [],
+            "url": "https://www.researchsquare.com/article/rs-2532846/latest.pdf",
+            "ref_texts": "[15] Zhou, Xiaowei, Menglong Zhu, and Kostas Daniilidis. \"Multi-image matching via fast alternating minimization.\" In Proceedings of the IEEE International Conference on Computer Vision , pp. 4032-4040. ",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Various hashing methods are also proposed to deal with the unimodal larg e-size labeled data by learning the latent features via the hashing framework [14] , [15], [16].",
+            "2": "2016 [32] \uf061 Semantic Consistency Hashing (SCH) \n2017 [30] \uf061 cross-modal hybrid transfer network (CHTN) \n2017 [17] \uf061 semantic learning autoencoder (SAE) for ZSL \n2017 [7] \uf061 Cross-modal Deep Metric Learning with Multitask Regularization (CDMLMR) \n2018 [14] \uf061 Hashing framework \n2018 [15] \uf061 discrete hashing learning framework \n2018 [33] \uf061 associative multichannel autoencoder (AMA) \n2018 [28] \uf061 Multilabel double-layer learning (MDLL \n2018 [34] \uf061 \uf061 \n Deep Autoencoder-based NMF \n2018 [16] \uf061 flexible supervised collective matrix factorization hashing (FS-CMFH) \n2018 [35] \uf061 autoencoder-based sparse gene expression matrix imputation \n2018 [6] \uf061 multimodal machine learning algorithms \n2019 [8] \uf061 deep supervised cross-modal retrieval \n(DSCMR) \n2019 [13] \uf061 scalable deep multimodal learning (SDML) \n2019 [36] \uf061 Recurrent Neural Network (RNN) based Semantic Variational Autoencoder (VAE) \n2019 [37] \uf061 stacked autoencoder (SAE) \n2020 [27] \uf061 Efficient Discrete Supervised Hashing (EDSH ) \n \n3 Proposed Semantic Autoencoder This section explains the proposed architecture of the Sematic Encoder.",
+            "3": "[15] Zhou, Xiaowei, Menglong Zhu, and Kostas Daniilidis."
+        },
+        "Fast and Efficient \ud835\udc5b-Metrics for Multiple Graphs": {
+            "authors": [],
+            "url": "http://www.mlgworkshop.org/2022/papers/MLG22_paper_8073.pdf",
+            "ref_texts": "[34] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. 2015. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision . IEEE Computer Society, Santiago, Chile, 4032\u20134040.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "There has been some work on computing multi-distances that does not satisfy\ud835\udc5b-metrics property but enforces consistency of alignment constraint [18], [8], [34].",
+            "2": "There has been some work on computing multi-distances that enforce this constraint [8,18,34]; however none of these methods satisfy \ud835\udc5b-metrics properties."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[156] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015.",
+            "ref_ids": [
+                "156"
+            ],
+            "1": "Multiway matching has been successfully applied to computing consistent pointwise maps among a collection of shapes [93, 64, 54, 53] and to estimating consistent associations among a collection of images between either traditional feature descriptors [101, 23, 156, 148, 147] such as SIFT [81] and shape context features [10] or semantic descriptors [156, 140].",
+            "2": "[156] improved the scalability of the semidefinite programming relaxations by reformulating them as rank minimization and developed a more efficient algorithm by dropping the positivedefinite constraint on the matrix of pairwise correspondences.",
+            "3": "Intuitively, \u0019i2Snis a permutation from the local feature enumeration (local labels) of collection ito some global feature enumeration (global labels), termed the \u201cuniverse of features\u201d insomeworks[23,156].",
+            "4": "LetKdenote the total number of distinct features, termed size of the \u201cuniverse of features\u201d [23, 156], with ni\u0014Kfor alli= 1;:::;m.",
+            "5": "Intuitively,Xi2Pni;Kis the matrix representation of a (partial) permutation map \u0019i: [ni]!\n[K]from the labels of collection ito some global labels, termed the \u201cuniverse of features\u201d [23, 156].",
+            "6": "3) Existing works [53, 23, 156] for multiway matching attempt to find a low-rank positive definite matrix X2RN\u0002Nthat satisfies the consistency constraints and is close to the measured one.",
+            "7": "We compare the two proposed methods, MatchDPS and MatchDGD, against the spectral method [101], the semidefinite programming approach MatchLift [23] and the rank-minimization approach MatchALS [156].",
+            "8": "1: Comparison of the proposed approach with the spectral method [101], MatchLift [23] and MatchALS [156], under various input error rates and number of collections m."
+        },
+        "Cross-Modal Retrieval Based on Semantic Auto-Encoder and Hash Learning": {
+            "authors": [],
+            "url": "https://manu44.magtech.com.cn/Jwk_infotech_wk3/EN/article/downloadArticleFile.do?attachType=PDF&id=5233",
+            "ref_texts": "[36]Zhou X W ,Zhu M L ,Daniilidis K .Multi-Image Matching via Fast Alternating Minimization [C]//Proceedings of the 2015 IEEE International Conference on Computer Vision .2015:4032-4040.",
+            "ref_ids": [
+                "36",
+                "C"
+            ],
+            "1": "3\u8de8\u6a21\u6001\u8bed\u4e49\u81ea\u7f16\u7801\u54c8\u5e0c\u51fd\u6570\n\u5bf9\u4e8e\u56fe\u50cf\u548c\u6587\u672c\u4e24\u79cd\u6a21\u6001\u6570\u636e ,\u5047\u8bbe\u5b58\u5728\u4e24\u4e2a\n\u6295\u5f71\u77e9\u9635 Px\u2208Rd\u00d7dx\u548cPy\u2208Rd\u00d7dx,\u5c06\u56fe\u50cf\u548c\u6587\u672c\u6295\n\u5f71\u5230\u8db3\u591f\u8fd1\u4f3c\u4eff\u5c04\u77e9\u9635 A\u7684\u6f5c\u5728\u8868\u793a\u7a7a\u95f4 \u3002\u9664\u6b64\u4e4b\n\u5916,\u4e3a\u4e86\u80fd\u5728\u6f5c\u5728\u8868\u793a\u7a7a\u95f4\u4e2d\u91cd\u6784\u56fe\u50cf\u548c\u6587\u672c\u7684\u539f\n\u59cb\u7279\u5f81\u8868\u793a ,\u91c7\u7528\u4e24\u4e2a\u6709\u56fa\u5b9a\u6743\u91cd\u7684\u7ebf\u6027\u81ea\u7f16\u7801\u5668 ,\n\u6bcf\u4e2a\u7ebf\u6027\u81ea\u7f16\u7801\u5668\u4ec5\u6709\u4e00\u4e2a\u7531\u7f16\u7801\u5668\u548c\u89e3\u7801\u5668\u5171\u4eab\u7684\u6f5c\u5728\u8868\u793a\u5c42 ,\u4e3a\u4e86\u4f7f\u81ea\u7f16\u7801\u5668\u7684\u6f5c\u5728\u8868\u793a\u5c42\u5177\u6709\n\u8bed\u4e49\u542b\u4e49 ,\u672c\u6587\u5c06\u54c8\u5e0c\u7a7a\u95f4\u4f5c\u4e3a\u6f5c\u5728\u8868\u793a\u7a7a\u95f4 ,\u5982\u516c\n\u5f0f(17)\u548c\u516c\u5f0f(18)\u6240\u793a\u3002 PxX=Sx,X=PT xSx (17) PyX=Sy,X=PT ySy (18)\n\u5176\u4e2d,Sx=(H\u0302 x)T\u2208Rq\u00d7n\u3001Sy=(H\u0302 y)T\u2208Rq\u00d7n\u8868\n\u793an\u4e2a\u56fe\u50cf\u6216\u6587\u672c\u7684\u8bad\u7ec3\u6837\u672c\u5728 q\u7ef4\u8bed\u4e49\u5d4c\u5165\u7a7a\u95f4\n\u4e2d\u7684\u8868\u793a \u3002\u7f16\u7801\u5668\u5c06\u8f93\u5165\u7684\u7279\u5f81\u8868\u793a\u6295\u5f71\u5230\u4f4e\u7ef4\u7684\n\u6f5c\u5728\u8868\u793a\u7a7a\u95f4\u4e2d ,\u89e3\u7801\u5668\u518d\u5c06\u8f93\u5165\u7684\u7279\u5f81\u8868\u793a\u6295\u5f71\n\u56de\u539f\u59cb\u7279\u5f81\u7a7a\u95f4 \u3002\u89e3\u7801\u5668\u4ee5\u91cd\u6784\u8f93\u5165\u7684\u7279\u5f81\u8868\u793a\u4e3a\n\u76ee\u6807,\u672c\u6587\u5229\u7528\u91cd\u6784\u76ee\u6807\u5bf9\u6295\u5f71\u51fd\u6570\u7684\u5b66\u4e60\u65bd\u52a0\u65b0\n\u7684\u7ea6\u675f,\u4f7f\u6295\u5f71\u51fd\u6570\u5fc5\u987b\u4fdd\u7559\u539f\u59cb\u7279\u5f81\u4e2d\u5305\u542b\u7684\u6240\n\u6709\u4fe1\u606f\u3002\n\u7ed3\u5408\u516c\u5f0f (17)\u548c\u516c\u5f0f(18) ,\u5f97\u5230\u4e00\u4e2a\u8de8\u6a21\u6001\u81ea\n\u7f16\u7801\u5668,\u4e24\u4e2a\u7f16\u7801\u5668 Px\u548cPy\u5206\u522b\u5c06 X\u548cY\u6620\u5c04\u5230 Sx \u548cSy,\u4e24\u4e2a\u89e3\u7801\u5668 PT x\u548cPT y\u518d\u5c06\u5176\u8fdb\u884c\u7279\u5f81\u91cd\u6784 \u3002\u56e0\n\u6b64,\u6f5c\u5728\u8bed\u4e49\u8868\u793a\u7a7a\u95f4\u540c\u65f6\u5305\u542b\u6765\u81ea\u56fe\u50cf\u548c\u6587\u672c\u6a21\n\u6001\u7684\u539f\u59cb\u7279\u5f81\u4fe1\u606f ,\u5982\u516c\u5f0f(19)\u6240\u793a\u3002 F=min Px,Py,Sx,Sy(||PxX-Sx||2 F+\u03b1||X-PT xSx||2 F+\n) ||PyY-Sy||2 F+\u03b1||Y-PT ySy||2 F (19)\n\u5176\u4e2d,\u03b1\u4e3a\u51b3\u5b9a\u91cd\u6784\u7279\u5f81\u76f8\u5bf9\u91cd\u8981\u6027\u7684\u5e73\u8861\n\u53c2\u6570\u3002\n\u7531\u4e8e\u76ee\u6807\u51fd\u6570\u516c\u5f0f (19)\u662f\u4e00\u4e2a\u975e\u51f8\u4f18\u5316\u6c42\u89e3\u95ee\n\u9898,\u96be\u4ee5\u76f4\u63a5\u6c42\u89e3\u76ee\u6807\u51fd\u6570 \u3002\u56e0\u6b64,\u672c\u6587\u91c7\u53d6\u4ea4\u66ff\u8fed\n\u4ee3\u65b9\u6cd5[36],\u5f53\u4ea4\u66ff\u56fa\u5b9a\u5176\u4ed6\u53d8\u91cf\u65f6 ,\u6c42\u89e3\u5176\u4e2d\u4e00\u4e2a\u53d8\n\u91cf,\u4f9d\u6b21\u66f4\u65b0\u53d8\u91cf Px,Py,Sx,Sy\u3002\n(1)\u56fa\u5b9a\u53d8\u91cf Py,Sx,Sy,\u516c\u5f0f(19)\u5bf9Px\u6c42\u504f\u5bfc\u3002\n\u4ee4\u2202F\n\u2202Px=0,\u53ef\u4ee5\u5f97\u5230\u95ed\u5408\u89e3\u5982\u516c\u5f0f (20)\u6240\u793a\u3002 Px=(\u03b1SxST x+XXT)-1(1+\u03b1)SxXT(20)\n\u540c\u7406,\u56fa\u5b9a\u53d8\u91cf Px,Sx,Sy,\u516c\u5f0f(19)\u5bf9Py\u6c42\u504f\n\u5bfc\u3002\u4ee4\u2202F\n\u2202Py=0,\u53ef\u4ee5\u5f97\u5230\u95ed\u5408\u89e3\u5982\u516c\u5f0f (21)\u6240\u793a\u3002 Py=(\u03b1SyST y+YYT)-1(1+\u03b1)SyYT(21)\n(2)\u56fa\u5b9a\u53d8\u91cf Px,Py,Sy,\u516c\u5f0f(19)\u5bf9Sx\u6c42\u504f\u5bfc\u3002\n\u4ee4\u2202F\n\u2202Sx=0,\u53ef\u4ee5\u5f97\u5230\u95ed\u5408\u89e3\u5982\u516c\u5f0f (22)\u6240\u793a\u3002 Sx=(I+\u03b1PT xPx)-1(1+\u03b1)PT xXT(22)\n\u540c\u7406,\u56fa\u5b9a\u53d8\u91cf Px,Py,Sx,\u516c\u5f0f(19)\u5bf9Sy\u6c42\u504f\n115\n\u7814\u7a76\u8bba\u6587\n\u6570\u636e\u5206\u6790\u4e0e\u77e5\u8bc6\u53d1\u73b0\u5bfc\u3002\u4ee4\u2202F\n\u2202Sy=0,\u53ef\u4ee5\u5f97\u5230\u95ed\u5408\u89e3\u5982\u516c\u5f0f (23)\u6240\u793a\u3002 Sy=(I+\u03b1PT yPy)-1(1+\u03b1)PT yYT(23)\n\u56e0\u6b64,\u901a\u8fc7\u4e0d\u65ad\u5730\u8fed\u4ee3\u66f4\u65b0\u53d8\u91cf Px,Py,Sx,Sy,\n\u76f4\u5230\u76ee\u6807\u51fd\u6570\u6536\u655b \u3002\u5177\u4f53\u7684\u4f18\u5316\u8fc7\u7a0b\u53c2\u89c1\u7b97\u6cd5\n\u6d41\u7a0b\u3002\n\u6700\u540e,\u5229\u7528\u7b26\u53f7\u51fd\u6570\u751f\u6210\u6d4b\u8bd5\u96c6\u7684\u54c8\u5e0c\u7801 ,\u5982\u516c\n\u5f0f(24)\u548c\u516c\u5f0f(25)\u6240\u793a\u3002 Hx=sign(Sx) (24) Hy=sign(Sy) (25)\n\u57fa\u4e8e\u8bed\u4e49\u81ea\u52a8\u7f16\u7801\u54c8\u5e0c\u5b66\u4e60\u7684\u8de8\u6a21\u6001\u68c0\u7d22\u7684\u7b97\n\u6cd5\u6d41\u7a0b\u5982\u4e0b \u3002\n\u8f93\u5165:\u56fe\u50cf\u7279\u5f81\u8868\u793a\u77e9\u9635 X\u2208Rdx\u00d7n,\u6587\u672c\u7279\u5f81\u8868\n\u793a\u77e9\u9635 Y\u2208Rdy\u00d7n,\u8bed\u4e49\u6807\u7b7e\u77e9\u9635 L\u2208Rc\u00d7n,\u54c8\u5e0c\u7801\u957f\n\u5ea6q,\u53c2\u6570\u03b1\u548c\u03bb\u3002\n\u8f93\u51fa:Px,Py,Sx,Sy\u3002\n\u2460\u968f\u673a\u77e9\u9635\u521d\u59cb\u5316\u54c8\u5e0c\u77e9\u9635 Px,Py,Sx,Sy\u3002\n\u2461\u91cd\u590d\u6b65\u9aa4(3)-\u6b65\u9aa4(5) \u3002\n\u2462\u5206\u522b\u7528\u516c\u5f0f (13)\u548c\u516c\u5f0f(14)\u66f4\u65b0 H\u0302 x\u548cH\u0302 y\u3002\n\u2463\u5206\u522b\u7528\u516c\u5f0f (20)\u548c\u516c\u5f0f(21)\u66f4\u65b0 Px\u548cPy\u3002\n\u2464\u5206\u522b\u7528\u516c\u5f0f (22)\u548c\u516c\u5f0f(23)\u66f4\u65b0 Sx\u548cSy\u3002\n\u2465\u76f4\u5230\u76ee\u6807\u51fd\u6570\u6536\u655b ,Hx=sign(Sx),Hy= sign(Sy)\u3002\n4\u5b9e \u9a8c\n4.",
+            "2": "Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval [C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition .",
+            "3": "Look ,Imagine and Match : Improving Textual-Visual Cross-Modal Retrieval with GenerativeModels [C]//Proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition .",
+            "4": "Cross-Modal Retrieval in the Cooking Context :Learning Semantic Text-Image Embeddings [C]//Proceedings of the 41st International ACM SIGIR Conference on Research & Development in Information Retrieval .",
+            "5": "Adversarial Cross-Modal Retrieval [C]//Proceedings of the 25th ACM International Conference on Multimedia .",
+            "6": "Pairwise Relationship Guided Deep Hashing for Cross-modal Retrieval [C]//Proceedings of the 31st AAAI Conference on Artificial Intelligence .",
+            "7": "Large-Scale Supervised Multimodal Hashing with Semantic Correlation Maximization [C]//Proceedings of the 28th AAAI Conference on Artificial Intelligence .",
+            "8": "Generalized Semantic Preserving Hashing for n-Label Cross-Modal Retrieval [C]// Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition .",
+            "9": "Latent Semantic Sparse Hashing for Cross-Modal Similarity Search [C]//Proceedings of the 37th International ACM SIGIR Conference on Research & Development in Information Retrieval .",
+            "10": "Alternating Co-Quantization for Cross-Modal Hashing [C]//Proceedings of the 2015 IEEE International Conference on Computer Vision .",
+            "11": "Collective Matrix Factorization Hashing for Multimodal Data [C]//Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition .",
+            "12": "Deep Joint-semantics Reconstructing Hashing for Large-Scale Unsupervised CrossModal Retrieval [C]//Proceedings of the 2019 IEEE/CVF International Conference on Computer Vision .",
+            "13": "Self-Supervised Adversarial Hashing Networks for Cross-Modal Retrieval [C]//Proceedings of the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition .",
+            "14": "Semantics-Preserving Hashing for Cross-View Retrieval [C]//Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition .",
+            "15": "Deep Cross-Modal Hashing [C]//Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition .",
+            "16": "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications [C]//Proceedings of the 2018 World Wide Web Conference .",
+            "17": "Dense Auto-Encoder Hashing for Robust Cross-Modality Retrieval [C]//Proceedings of the 26th ACM International Conference on Multimedia .",
+            "18": "Feature-Aware Label Space Dimension Reduction for Multi-Label Classification [C]// Proceedings of the 25th International Conference on Neural Information Processing Systems .",
+            "19": "Projection-free Online Optimization with Stochastic Gradient :From Convexity to Submodularity [C]//Proceedings of the 35th International Conference on Machine Learning .",
+            "20": "[36]Zhou X W ,Zhu M L ,Daniilidis K .",
+            "21": "Multi-Image Matching via Fast Alternating Minimization [C]//Proceedings of the 2015 IEEE International Conference on Computer Vision .",
+            "22": "A New Approach 121\n\u7814\u7a76\u8bba\u6587\n\u6570\u636e\u5206\u6790\u4e0e\u77e5\u8bc6\u53d1\u73b0to Cross-Modal Multimedia Retrieval [C]//Proceedings of the 18th ACM International Conference on Multimedia .",
+            "23": "The MIR Flickr Retrieval Evaluation [C]// Proceedings of the 1st ACM International Conference on Multimedia Information Retrieval .",
+            "24": "NUS-WIDE :A Real-World Web Image Database from National University of Singapore [C]// Proceedings of the ACM International Conference on Image and Video Retrieval .",
+            "25": "A Support Vector Method for Optimizing Average Precision [C]//Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval .",
+            "26": "Cross-Modality Binary Code Learning via Fusion Similarity Hashing [C]//Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition ."
+        },
+        "Low-Rank Matrix Recovery with Unknown Correspondence (Supplementary Material)": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v216/tang23a/tang23a-supp.pdf",
+            "ref_texts": "(5):55\u201366, 2020. Publisher: IEEE. Rodrigo Santa Cruz, Basura Fernando, Anoop Cherian, and Stephen Gould. Deeppermnet: Visual permutation learning. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 3949\u20133957, 2017. J Ben Schafer, Dan Frankowski, Jon Herlocker, and Shilad Sen. Collaborative filtering recommender systems. In The adaptive web , pages 291\u2013324. Springer, 2007. Frederik Schaffalitzky and Andrew Zisserman. Multi-view matching for unordered image sets, or \u201chow do i organize my holiday snaps?\u201d. In European conference on computer vision , pages 414\u2013431. Springer, 2002. Martin Slawski, Emanuel Ben-David, and Ping Li. Two-stage approach to multivariate linear regression with sparsely mismatched data. J. Mach. Learn. Res. , 21(204):1\u201342, 2020a. Martin Slawski, Mostafa Rahmani, and Ping Li. A sparse representation-based approach to linear regression with partially shuffled labels. In Uncertainty in Artificial Intelligence , pages 38\u201348. PMLR, 2020b. Martin Slawski, Guoqing Diao, and Emanuel Ben-David. A pseudo-likelihood approach to linear regression with partially shuffled data. Journal of Computational and Graphical Statistics , pages 1\u201313, 2021. Kiran K. Thekumparampil, Prateek Jain, Praneeth Netrapalli, and Sewoong Oh. Efficient algorithms for smooth minimax optimization. In Advances in Neural Information Processing Systems , pages 12680\u201312691, 2019. Kim-Chuan Toh and Sangwoon Yun. An accelerated proximal gradient algorithm for nuclear norm regularized linear least squares problems. Pacific Journal of optimization , 6(615-640):15, 2010. Manolis Tsakiris and Liangzu Peng. Homomorphic sensing. In International Conference on Machine Learning , pages 6335\u20136344. PMLR, 2019. Manolis C Tsakiris, Liangzu Peng, Aldo Conca, Laurent Kneip, Yuanming Shi, and Hayoung Choi. An algebraic-geometric approach for linear regression without correspondences. IEEE Transactions on Information Theory , 66(8):5130\u20135144, 2020. Paul Tseng. On accelerated proximal gradient methods for convex-concave optimization. submitted to SIAM Journal on Optimization , 2(3), 2008. Jayakrishnan Unnikrishnan, Saeid Haghighatshoar, and Martin Vetterli. Unlabeled sensing with random linear measurements. IEEE Transactions on Information Theory , 64(5):3237\u20133253, 2018. Martin J Wainwright. High-dimensional statistics: A non-asymptotic viewpoint , volume 48. Cambridge University Press, 2019. Xiaolong Wang, Allan Jabri, and Alexei A. Efros. Learning correspondence from the cycle-consistency of time. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 2566\u20132576, 2019. John Wright and Yi Ma. High-Dimensional Data Analysis with Low-Dimensional Models: Principles, Computation, and Applications . Cambridge University Press, 2021. Yujia Xie, Xiangfeng Wang, Ruijia Wang, and Hongyuan Zha. A fast proximal point method for computing exact wasserstein distance. In Ryan P. Adams and Vibhav Gogate, editors, Proceedings of The 35th Uncertainty in Artificial Intelligence Conference , volume 115 of Proceedings of Machine Learning Research , pages 433\u2013453. PMLR, 22\u201325 Jul 2020. URL https://proceedings.mlr.press/v115/xie20b.html . Yujia Xie, Yixiu Mao, Simiao Zuo, Hongteng Xu, Xiaojing Ye, Tuo Zhao, and Hongyuan Zha. A hypergradient approach to robust regression without correspondence. In International Conference on Learning Representations , 2021. URL https://openreview.net/forum?id=l35SB-_raSQ . Liu Yang, Ben Tan, Vincent W Zheng, Kai Chen, and Qiang Yang. Federated recommendation systems. In Federated Learning , pages 225\u2013239. Springer, 2020. Qiang Yang, Yang Liu, Tianjian Chen, and Yongxin Tong. Federated machine learning: Concept and applications. ACM Transactions on Intelligent Systems and Technology (TIST) , 10(2):1\u201319, 2019. Yunzhen Yao, Liangzu Peng, and Manolis C Tsakiris. Unlabeled principal component analysis. arXiv preprint arXiv:2101.09446 , 2021. Zinan Zeng, Tsung-Han Chan, Kui Jia, and Dong Xu. Finding correspondence from multiple images via sparse and low-rank decomposition. In European Conference on Computer Vision , pages 325\u2013339. Springer, 2012. Hang Zhang and Ping Li. Optimal estimator for unlabeled linear regression. In International Conference on Machine Learning , pages 11153\u201311162. PMLR, 2020. Hang Zhang, Martin Slawski, and Ping Li. The benefits of diversity: Permutation recovery in unlabeled sensing from multiple measurement vectors. arXiv preprint arXiv:1909.02496 , 2019a. Hang Zhang, Martin Slawski, and Ping Li. Permutation recovery from multiple measurement vectors in unlabeled sensing. In2019 IEEE International Symposium on Information Theory (ISIT) , pages 1857\u20131861. IEEE, 2019b. Jiawei Zhang, Peijun Xiao, Ruoyu Sun, and Zhi-Quan Luo. A Single-Loop Smoothed Gradient Descent-Ascent Algorithm for Nonconvex-Concave Min-Max Problems. arXiv preprint arXiv:2010.15768 , 2020. Yu Zhang, Bin Cao, and Dit-Yan Yeung. Multi-domain collaborative filtering. arXiv preprint arXiv:1203.3535 , 2012. Yu Zheng. Methodologies for cross-domain data fusion: An overview. IEEE transactions on big data , 1(1):16\u201334, 2015. Tinghui Zhou, Philipp Krahenbuhl, Mathieu Aubry, Qixing Huang, and Alexei A. Efros. Learning dense correspondence via 3d-guided cycle consistency. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 117\u2013126, 2016. Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the IEEE International Conference on Computer Vision , pages 4032\u20134040, 2015."
+        },
+        "Toward Reliable Graph Matching: from Deterministic Optimization to Combinatorial Learning": {
+            "authors": [],
+            "url": "https://keep.lib.asu.edu/_flysystem/fedora/c7/Yu_asu_0010E_21295.pdf",
+            "ref_texts": "106 Zhou, X., M. Zhu and K. Daniilidis, \\Multi-image matching via fast alternating minimization\", in \\ICCV\", (2015b)."
+        },
+        "Image mosaicing: an approach based on synchronization and game theory": {
+            "authors": [],
+            "url": "https://www.politesi.polimi.it/bitstream/10589/173388/1/TESI.pdf",
+            "ref_texts": "[55] X. Zhou, M. Zhu, and K. Daniilidis. \u201cMulti-image Matching via Fast AlternatingMinimization\u201d.In: 2015 IEEE International Conference on Computer Vision (ICCV) . Dec. 2015, pp. 4032\u20134040. doi:10.1109/ ICCV.2015.459 . Appendix A",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "[55] X.",
+            "2": "As observed in [34, 24, 55], the consistency constraint (D.",
+            "3": "Some examples include the semidefinite relaxation [14], the low-rank relaxation [55] and the spectral relaxation [34]."
+        },
+        "Multi-view Triangulation without Correspondences": {
+            "authors": [],
+            "url": "https://www.mgaillard.fr/content/publications/pdfs/Gaillard23COMPAG.pdf",
+            "ref_texts": "39 Zhou, X., Zhu, M., Daniilidis, K., 2015. Multi-image matching via fast alternating minimization, in: Proceedings of the IEEE International Conference on Computer Vision, pp. 4032\u20134040. doi: 10.1109/ICCV.2015.459 ."
+        },
+        "Toward More Robust Graph Matching: Models and Algorithms": {
+            "authors": [],
+            "url": "https://thinklab.sjtu.edu.cn/src/gm_survey.pdf",
+            "ref_texts": "[Zhou et al. , 2015 ]X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In ICCV , 2015.",
+            "ref_ids": [
+                "Zhou et al\\. , 2015 "
+            ]
+        },
+        "Advanced Methods for LiDAR and Photogrammetric Data Processing: from Procrustes Analysis to Deep Learning": {
+            "authors": [],
+            "url": "https://air.uniud.it/bitstream/11390/1146993/2/Maset_PhDthesis_final.pdf",
+            "ref_texts": "[166] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the International Conference on Computer Vision , pages 4032 \u2013 4040, 2015.",
+            "ref_ids": [
+                "166"
+            ],
+            "1": "2 Multi-View Matching In many tasks it is often required to find matches across multiple views and recent studies have suggested that jointly optimizing the correspondences across the whole set can lead to significant improvements when compared to computing matches between pairs of views in isolation [124, 166], since pairwise matching algorithms can generate noisy and unreliable results.",
+            "2": "It is shown in some recent works [124, 78, 166] that, if all the pairwise correspondences are collected in a block-matrix, then cycle consistency can be reduced to the requirement that such a matrix is positive semidefinite and low-rank.",
+            "3": "In [166] the joint matching problem is formulated as a low-rank matrix recovery task and the nuclear-norm relaxation for rank minimization is employed.",
+            "4": "1 Spectral Properties As observed in [124, 78, 166, 6], the consistency constraint can be expressed in a compact matrix form if all the absolute and relative permutations are collected in two block-matrices X\u2208\u00b60,1\u2666m\u00d7dandZ\u2208\u00b60,1\u2666m\u00d7mrespectively, where m=\u221an i=1mi, namely X=\u22c3\n\u23a2\u23a2\u2a04P1 P2\n.",
+            "5": "Some examples include the semidefinite relaxation [28], the low-rank relaxation [166] and the spectral relaxation [124, 6].",
+            "6": "Results in terms of accuracy (or precision) and computing time are compared with methods which, as ours, first compute pairwise matches and then jointly update them without involving the keypoints, namely MatchALS [166] and Spectral [124].",
+            "7": "The MatchALS code is available online1and the Spectral code is courtesy of the authors of [166].",
+            "8": "The method described in [28] has already been shown to have accuracy comparable with [166] with a much higher computing time.",
+            "9": "Experiments 39\n(a) MatchEIG\n(b) MatchEIG-CP\n(c) MatchALS [166]\n(d) Spectral [124] Figure 3.",
+            "10": "MatchEIG andSpectral [124] show similar performance, while MatchALS [166] is the slowest algorithm.",
+            "11": "Synthetic experiments were run providing the true rank (equal to the size of the universe d) to all the methods (MatchALS uses it to compute the parameter k= 2d, as suggested in [166]).",
+            "12": "However, when the input matrix \u02c6Zis noisy, estimating this rank can be difficult [166], hence the sensitivity of a method to the estimated rank \u02c6dbecomes crucial.",
+            "13": "7 (see [166]) to take into consideration the presence of isolated keypoints in real images, as suggested by the authors.",
+            "14": "Permutation Procrustes Problem and Variations Input MatchEIG MatchALS [166] Spectral [124] Dataset n\u02c6dPR [%] PR [%] CM T [s] PR [%] CM T [s] PR [%] CM T [s] Graffiti 6 382 93.",
+            "15": "Input MatchEIG MatchALS [166] Spectral [124] Dataset n\u02c6dPR [%] PR [%] CM T [m] PR [%] CM T [m] PR [%] CM T [m] Herz-Jesu-P8 8 386 94.",
+            "16": "[166] X."
+        },
+        "Visual Learning Beyond Direct Supervision": {
+            "authors": [],
+            "url": "https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2018-128.pdf",
+            "ref_texts": "[236] Xiaowei Zhou, Menglong Zhu, and Kostas Daniilidis. \u201cMulti-Image Matching via Fast Alternating Minimization\u201d. In: ICCV .2 0 1 5 . BIBLIOGRAPHY. 117",
+            "ref_ids": [
+                "236"
+            ],
+            "1": "Instead, we utilize the concept of cycle consistency of correspondence flows [87, 231, 236] \u2013 the notion that the composition of flow fields for any circular path through the image set should have a zero combined flow."
+        },
+        "Synchronization Problems in Computer Vision": {
+            "authors": [
+                "Federica Arrigoni"
+            ],
+            "url": "https://air.uniud.it/retrieve/handle/11390/1142994/286112/main-pdfa.pdf",
+            "ref_texts": "[205] X. Zhou, M. Zhu, and K. Daniilidis. Multi-image matching via fast alternating minimization. In Proceedings of the International Conference on Computer Vision , pages 4032 \u2013 4040, 2015.",
+            "ref_ids": [
+                "205"
+            ],
+            "1": "Permutation synchronization finds application in multi-view matching [47, 205], where nodes are images and objects are features.",
+            "2": "Moreover, recent studies have suggested that jointly optimizing the correspondences across the whole dataset can lead to significant improvements when compared to computing matches between pairs of views in isolation [143, 205], since pairwise matching algorithms can generate noisy and unreliable results.",
+            "3": "A different approach is adopted in [92, 47, 205, 127, 143, 164, 197] where multiview matching is solved in two steps, as shown in Figure 4.",
+            "4": "In [205] the joint matching problem is formulated as a lowrank matrix recovery task and the nuclear-norm relaxation for rank minimization is employed, whereas in [127] a practical and efficient method is proposed based on spectral decomposition and an approximate strategy for projection onto ISym(d).",
+            "5": "Note that the methods in [92, 47, 205, 127] do not solve a synchronization problem, since they compute relative permutations instead of absolute ones.",
+            "6": "[205] X."
+        }
+    }
+}

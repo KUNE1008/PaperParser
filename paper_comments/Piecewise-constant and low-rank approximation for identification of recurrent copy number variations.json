@@ -1,0 +1,45 @@
+{
+    "title": "Piecewise-constant and low-rank approximation for identification of recurrent copy number variations",
+    "id": 41,
+    "valid_pdf_number": "4/23",
+    "matched_pdf_number": "3/4",
+    "matched_rate": 0.75,
+    "citations": {
+        "Integrative clustering methods of multi-omics data for molecule-based cancer classifications": {
+            "authors": [],
+            "url": "https://link.springer.com/content/pdf/10.1007/s40484-016-0063-4.pdf",
+            "ref_texts": "28. Zhou, X., Liu, J., Wan, X. and Yu, W. (2014) Piecewise-constant and low-rank approximation for identi fication of recurrent copy number variations. Bioinformatics, 30, 1943 \u20131949",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "As an alternative, low-rank approximation based methods are also used to find the low-dimension subspace of high-dimensional data [24 \u2013\n27], including cancer genomic data [28]."
+        },
+        "Detection copy number variants from NGS with sparse and smooth constraints": {
+            "authors": [],
+            "url": "https://www.comp.hkbu.edu.hk/~ymc/papers/journal/TCBB-2015-10-0416_publication_version.pdf",
+            "ref_texts": "[38] X. Zhou, J. Liu, X. Wan, and W. Yu, \u201cPiecewise-constant and lowrank approximation for identification of recurrent copy number variations,\u201d Bioinf. , vol. 30, no. 14, pp. 1943\u20131949, 2014.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "It should be large enough to smear out the noise, but not so large that over-smoothing the signal occurs [38].",
+            "2": "[38] X."
+        },
+        "Robust Group Fused Lasso for Multisample CNV Detection under Uncertainty": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/029769.full.pdf",
+            "ref_texts": "[15] X. Zhou, J. Liu, X. Wan, and W. Yu, \u201cPiecewise-constant and low-rank approximation for identification of recurrent copy number variations,\u201d Bioinformatics, vol. 30, no. 14, pp. 1943\u20131949, 2014.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "[15] X."
+        },
+        "Mat-aCGH: a Matlab toolbox for simultaneous multisample aCGH data analysis and visualization": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/028761.full.pdf",
+            "ref_texts": "[13] Xiaowei Zhou, Jiming Liu, Xiang Wan, and Weichuan Yu. Piecewise-constant and low-rank approximation for identification of recurrent copy number variations. Bioinformatics, page btu131, 2014.",
+            "ref_ids": [
+                "13"
+            ]
+        }
+    }
+}

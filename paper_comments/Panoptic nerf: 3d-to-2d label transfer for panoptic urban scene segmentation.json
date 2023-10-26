@@ -1,0 +1,210 @@
+{
+    "title": "Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation",
+    "id": 36,
+    "valid_pdf_number": "15/38",
+    "matched_pdf_number": "11/15",
+    "matched_rate": 0.7333333333333333,
+    "citations": {
+        "Panoptic neural fields: A semantic object-aware neural scene representation": {
+            "authors": [
+                "Abhijit Kundu",
+                "Kyle Genova",
+                "Xiaoqi Yin",
+                "Alireza Fathi",
+                "Caroline Pantofaru",
+                "Leonidas J. Guibas",
+                "Andrea Tagliasacchi",
+                "Frank Dellaert",
+                "Thomas Funkhouser"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Kundu_Panoptic_Neural_Fields_A_Semantic_Object-Aware_Neural_Scene_Representation_CVPR_2022_paper.pdf",
+            "ref_texts": ""
+        },
+        "Diffrf: Rendering-guided 3d radiance field diffusion": {
+            "authors": [
+                "Norman Muller",
+                "Yawar Siddiqui",
+                "Lorenzo Porzi",
+                "Samuel Rota",
+                "Peter Kontschieder",
+                "Matthias Niessner"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Muller_DiffRF_Rendering-Guided_3D_Radiance_Field_Diffusion_CVPR_2023_paper.pdf",
+            "ref_texts": "[18] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In International Conference on 3D Vision (3DV) , 2022. 2",
+            "ref_ids": [
+                "18"
+            ],
+            "1": ", showing how to incorporate scene semantics [18, 30], training models from heterogeneous data sources [35], or scaling them up to represent large-scale scenes [62, 64]."
+        },
+        "Panoptic lifting for 3d scene understanding with neural fields": {
+            "authors": [
+                "Yawar Siddiqui",
+                "Lorenzo Porzi",
+                "Samuel Rota",
+                "Norman Muller",
+                "Matthias Niessner",
+                "Angela Dai",
+                "Peter Kontschieder"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Siddiqui_Panoptic_Lifting_for_3D_Scene_Understanding_With_Neural_Fields_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In International Conference on 3D Vision (3DV) , 2022. 2, 5",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "9043\n Recent works [11,18,40,45] have addressed panoptic 3D scene understanding from 2D images by leveraging Neural Radiance Fields (NeRFs) [22], gathering semantic scene data from multiple sources.",
+            "2": "Some works [11, 40] rely on ground truth 2D and 3D labels, which are expensive and time-consuming to acquire.",
+            "3": ", by adding instance modeling [11, 18, 40] or by encoding abstract visual features [17, 37] from which a semantic segmentation can be derived a-posteriori.",
+            "4": "Panoptic NeRF [11] and DM-NeRF [40] describe panoptic radiance fields, focusing on the tasks of label transfer and scene editing, respectively.",
+            "5": "Recent NeRFbased semantic scene modeling works [11,18] evaluate their panoptic predictions using the Panoptic Quality (PQ) [16] metric."
+        },
+        "Interactive segmentation of radiance fields": {
+            "authors": [
+                "Rahul Goel",
+                "Dhawal Sirikonda",
+                "Saurabh Saini"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Goel_Interactive_Segmentation_of_Radiance_Fields_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Xiao Fu, Shang-Wei Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic NeRF: 3D-to-2D Label Transfer for Panoptic Urban Scene Segmentation. In International Conference on 3D Vision (3DV) , 2022. 1",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "[1, 9, 11, 12, 16, 19, 50]."
+        },
+        "Continual semantic segmentation with automatic memory sample selection": {
+            "authors": [
+                "Lanyun Zhu",
+                "Tianrun Chen",
+                "Jianxiong Yin",
+                "Simon See",
+                "Jun Liu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Continual_Semantic_Segmentation_With_Automatic_Memory_Sample_Selection_CVPR_2023_paper.pdf",
+            "ref_texts": "[20] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. arXiv preprint arXiv:2203.15224 , 2022.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "The rapid development of algorithms [11, 20, 22, 30, 32, 56] and the growing number of publicly available large datasets [14, 55] have led to great success in the field."
+        },
+        "Unsupervised Continual Semantic Adaptation through Neural Rendering": {
+            "authors": [
+                "Zhizheng Liu",
+                "Francesco Milano",
+                "Jonas Frey",
+                "Roland Siegwart",
+                "Hermann Blum",
+                "Cesar Cadena"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Unsupervised_Continual_Semantic_Adaptation_Through_Neural_Rendering_CVPR_2023_paper.pdf",
+            "ref_texts": "[12] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic NeRF: 3D-to-2D Label Transfer for Panoptic Urban Scene Segmentation. In 3DV, 2022. 3",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Subsequent works have further extended this framework along different directions, including combining NeRF with a feature grid and 3D convolutions to achieve generalization [40], interactively labeling scenes [49], performing panoptic segmentation [12, 17], and using pretrained Transformer models to supervise few-shot NeRF training [15], edit scene properties [42], or distill knowledge for different image-level tasks [16,39]."
+        },
+        "SUDS: Scalable Urban Dynamic Scenes": {
+            "authors": [
+                "Haithem Turki",
+                "Jason Y. Zhang",
+                "Francesco Ferroni",
+                "Deva Ramanan"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Turki_SUDS_Scalable_Urban_Dynamic_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[16] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In International Conference on 3D Vision (3DV) , 2022. 2",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "PanopticNeRF [16] and Panoptic Neural Fields [27] extend this to produce panoptic segmentations and the latter uses a similar bounding-box based object and background decomposition as NSG."
+        },
+        "Polynomial Implicit Neural Representations For Large Diverse Datasets": {
+            "authors": [
+                "Rajhans Singh",
+                "Ankita Shukla",
+                "Pavan Turaga"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Singh_Polynomial_Implicit_Neural_Representations_for_Large_Diverse_Datasets_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In International Conference on 3D Vision (3DV) , 2022. 2",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "They have also been used for semantic segmentation [11], video [12, 33, 53], audio [12], and time-series modeling [10]."
+        },
+        "NeRFshop: Interactive Editing of Neural Radiance Fields": {
+            "authors": [],
+            "url": "https://inria.hal.science/hal-04027538/document",
+            "ref_texts": "1145/1731047.1731048 Wang Bing, Lu Chen, and Bo Yang. 2022. DM-NeRF: 3D Scene Geometry Decomposition and Manipulation from 2D Images. arXiv preprint arXiv:2208.07227 (2022). Mark Boss, Raphael Braun, Varun Jampani, Jonathan T. Barron, Ce Liu, and Hendrik P.A. Lensch. 2021. NeRD: Neural Reflectance Decomposition from Image Collections. In IEEE International Conference on Computer Vision (ICCV). St\u00e9phane Calderon and Tamy Boubekeur. 2017. Bounding Proxies for Shape Approximation. ACM Transactions on Graphics (Proc. SIGGRAPH 2017) 36, 5, Article 57 (july 2017). Mathilde Caron, Hugo Touvron, Ishan Misra, Herv\u00e9 J\u00e9gou, Julien Mairal, Piotr Bojanowski, and Armand Joulin. 2021. Emerging Properties in Self-Supervised Vision Transformers. In Proceedings of the International Conference on Computer Vision (ICCV). Eric R. Chan, Connor Z. Lin, Matthew A. Chan, Koki Nagano, Boxiao Pan, Shalini De Mello, Orazio Gallo, Leonidas Guibas, Jonathan Tremblay, Sameh Khamis, Tero Karras, and Gordon Wetzstein. 2022. Efficient Geometry-aware 3D Generative Adversarial Networks. In CVPR. Anpei Chen, Zexiang Xu, Andreas Geiger, Jingyi Yu, and Hao Su. 2022. TensoRF: Tensorial Radiance Fields. In European Conference on Computer Vision (ECCV). Zheng-Jie Deng, Xiao-Nan Luo, and Xiao-Ping Miao. 2011. Automatic Cage Building with Quadric Error Metrics. Journal of Computer Science and Technology 26, 3 (01 May 2011), 538\u2013547. https://doi.org/10.1007/s11390-011-1153-4 Tamal K. Dey, Herbert Edelsbrunner, Sumanta Guha, and Dmitry V. Nekhayev. 1998. Topology Preserving Edge Contraction. Publ. Inst. Math. (Beograd) (N.S 66 (1998), 23\u201345. Shuangkang Fang, Weixin Xu, Heng Wang, Yi Yang, Yufeng Wang, and Shuchang Zhou. 2023. One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation. AAAI (2023). Zeev Farbman, Gil Hoffer, Yaron Lipman, Daniel Cohen-Or, and Dani Lischinski. 2009. Coordinates for Instant Image Cloning. ACM Trans. Graph. 28, 3, Article 67 (jul 2009), 9 pages. https://doi.org/10.1145/1531326.1531373 Michael S. Floater. 2015. Generalized barycentric coordinates and applications. Acta Numerica 24 (2015), 161\u2013214. https: //doi.org/10.1017/S0962492914000129 Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. 2022. Panoptic NeRF: 3D-to-2D Label Transfer for Panoptic Urban Scene Segmentation. In International Conference on 3D Vision (3DV). Stephan J. Garbin, Marek Kowalski, Virginia Estellers, Stanislaw Szymanowicz, Shideh Rezaeifar, Jingjing Shen, Matthew Johnson, and Julien Valentin. 2022. VolTeMorph: Realtime, Controllable and Generalisable Animation of Volumetric Representations. https://doi.org/10.48550/ARXIV.2208.00949 Michael Garland and Paul S. Heckbert. 1997. Surface Simplification Using Quadric Error Metrics. In Proceedings of the 24th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH \u201997). ACM Press/Addison-Wesley Publishing Co., USA, 209\u2013216. https://doi.org/10.1145/258734.258849 Donald Goldfarb and Ashok U. Idnani. 1983. A numerically stable dual method for solving strictly convex quadratic programs. Mathematical Programming 27 (1983), 1\u201333. Kai Hormann and Michael S. Floater. 2006. Mean Value Coordinates for Arbitrary Planar Polygons. ACM Trans. Graph. 25, 4"
+        },
+        "Painting 3D Nature in 2D: View Synthesis of Natural Scenes from a Single Semantic Mask": {
+            "authors": [
+                "Shangzhan Zhang",
+                "Sida Peng",
+                "Tianrun Chen",
+                "Linzhan Mou",
+                "Haotong Lin",
+                "Kaicheng Yu",
+                "Yiyi Liao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Painting_3D_Nature_in_2D_View_Synthesis_of_Natural_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[13] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urbanscene segmentation. arXiv preprint arXiv:2203.15224 , 2022.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "While the above works focus on rendering realistic novel view images or reconstructing accurate 3D geometry, Semantic-NeRF [75] and later works [13, 30, 62] use NeRFs as a powerful 3D fusion tool to fuse 2D semantic information."
+        },
+        "JacobiNeRF: NeRF Shaping with Mutual Information Gradients": {
+            "authors": [
+                "Xiaomeng Xu",
+                "Yanchao Yang",
+                "Kaichun Mo",
+                "Boxiao Pan",
+                "Li Yi",
+                "Leonidas Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Xu_JacobiNeRF_NeRF_Shaping_With_Mutual_Information_Gradients_CVPR_2023_paper.pdf",
+            "ref_texts": "[9] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In International Conference on 3D Vision (3DV) , 2022. 3",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "With similar technique, Panoptic-NeRF [9] encodes coarse and noisy annotations into NeRFs."
+        },
+        "Panoptic Compositional Feature Field for Editable Scene Rendering With Network-Inferred Labels via Metric Learning": {
+            "authors": [
+                "Xinhua Cheng",
+                "Yanmin Wu",
+                "Mengxi Jia",
+                "Qian Wang",
+                "Jian Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cheng_Panoptic_Compositional_Feature_Field_for_Editable_Scene_Rendering_With_Network-Inferred_CVPR_2023_paper.pdf",
+            "ref_texts": "[12] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. In Proceedings of the International Conference on 3D Vision (3DV) , 2022. 3",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Other studies [12, 22, 32] learn multiple neural representations for scenes in the traffic domain to enable panoptic segmentation and object manipulation on novel view synthesizes."
+        },
+        "Active View Planning for Radiance Fields": {
+            "authors": [],
+            "url": "https://imrss2022.github.io/contributions/lin.pdf",
+            "ref_texts": "[11] Shuaifeng Zhi, Tristan Laidlow, Stefan Leutenegger, and Andrew J Davison. In-place scene labelling and understanding with implicit scene representation. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 15838\u201315847, 2021.[12] Xiao Fu, Shangzhan Zhang, Tianrun Chen, Yichong Lu, Lanyun Zhu, Xiaowei Zhou, Andreas Geiger, and Yiyi Liao. Panoptic nerf: 3d-to-2d label transfer for panoptic urban scene segmentation. arXiv preprint arXiv:2203.15224 , 2022.",
+            "ref_ids": [
+                "11",
+                "12"
+            ],
+            "1": "Extensions have been abundant, and include addressing of aliasing [4], 360\u00b0 scenes [5], deformation [6], relighting [7], in-the-wild photos [8], depth perception [9], semantic labeling [10, 11, 12], and uncertainty estimation [13].",
+            "2": "[11] Shuaifeng Zhi, Tristan Laidlow, Stefan Leutenegger, and Andrew J Davison."
+        },
+        "Detecting Driver Assaulting and Attacks Event for Hazardous Material Transportation": {
+            "authors": [
+                "Tiffany Mc"
+            ],
+            "url": "https://journal.ijresm.com/index.php/ijresm/article/download/2261/2198"
+        },
+        "Weather Conditions and Driving Safety of Hazardous Materials Transport": {
+            "authors": [
+                "Dr Ipeghan",
+                "J Otaraku"
+            ],
+            "url": "https://ijres.org/papers/Volume-10/Issue-8/1008204207.pdf"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Shape prior guided instance disparity estimation for 3d object detection",
+    "id": 58,
+    "valid_pdf_number": "2/11",
+    "matched_pdf_number": "0/2",
+    "matched_rate": 0.0,
+    "citations": {
+        "Stereo neural vernier caliper": {
+            "authors": [
+                "Shichao Li",
+                "Zechun Liu",
+                "Zhiqiang Shen",
+                "Ting Cheng"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/20026/19785",
+            "ref_texts": "Andriluka, M.; Roth, S.; and Schiele, B. 2008. Peopletracking-by-detection and people-detection-by-tracking. In 2008 IEEE Conference on computer vision and pattern recognition, 1\u20138. IEEE. Bellotto, N.; Sommerlade, E.; Benfold, B.; Bibby, C.; Reid, I.; Roth, D.; Fern \u00b4andez, C.; Van Gool, L.; and Gonzalez, J. 2009. A distributed camera system for multi-resolution surveillance. In 2009 Third ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC), 1\u20138. IEEE. Blaha, M.; V ogel, C.; Richard, A.; Wegner, J. D.; Pock, T.; and Schindler, K. 2016. Large-scale semantic 3d reconstruction: an adaptive multi-resolution model for multi-class volumetric labeling. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 3176\u20133184. Brazil, G.; and Liu, X. 2019. M3d-rpn: Monocular 3d region proposal network for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 9287\u20139296. Chen, L.; Sun, J.; Xie, Y .; Zhang, S.; Shuai, Q.; Jiang, Q.; Zhang, G.; Bao, H.; and Zhou, X. 2021. Shape Prior Guided Instance Disparity Estimation for 3D Object Detection. IEEE Transactions on Pattern Analysis and Machine Intelligence. Chen, X.; Kundu, K.; Zhu, Y .; Berneshawi, A. G.; Ma, H.; Fidler, S.; and Urtasun, R. 2015. 3d object proposals for accurate object class detection. In Advances in Neural Information Processing Systems, 424\u2013432. Citeseer. Chen, X.; Ma, H.; Wan, J.; Li, B.; and Xia, T. 2017. Multiview 3d object detection network for autonomous driving. InProceedings of the IEEE conference on Computer Vision and Pattern Recognition, 1907\u20131915. Chen, Y .; Liu, S.; Shen, X.; and Jia, J. 2020. Dsgn: Deep stereo geometry network for 3d object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 12536\u201312545. Cheng, B.; Xiao, B.; Wang, J.; Shi, H.; Huang, T. S.; and Zhang, L. 2020. Higherhrnet: Scale-aware representation learning for bottom-up human pose estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5386\u20135395. Choy, C. B.; Xu, D.; Gwak, J.; Chen, K.; and Savarese, S."
+        },
+        "Active compliance control system for intelligent inspection robot in power room": {
+            "authors": [],
+            "url": "https://downloads.hindawi.com/journals/jcse/2022/7829082.pdf",
+            "ref_texts": ""
+        }
+    }
+}

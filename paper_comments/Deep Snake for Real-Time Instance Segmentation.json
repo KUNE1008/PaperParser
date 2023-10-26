@@ -1,0 +1,1302 @@
+{
+    "title": "Deep Snake for Real-Time Instance Segmentation",
+    "id": 9,
+    "valid_pdf_number": "106/146",
+    "matched_pdf_number": "83/106",
+    "matched_rate": 0.7830188679245284,
+    "citations": {
+        "Sipmask: Spatial information preservation for fast image and video instance segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.14772",
+            "ref_texts": "36. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X.: Deep snake for real-time instance segmentation. Proc. IEEE Conf. Computer Vision and Pattern Recognition (2020) 2, 3 SipMask: Spatial Information Preservation for Fast Instance Segmentation 17",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "two-stage [21,31,8,23,17] and single-stage [37,13,47,2,42,36] methods, based on the underlying detection framework.",
+            "2": "Existing instance segmentation methods either follow bottom-up [1,26,30,33,19] or top-down [21,31,8,2,36] paradigms.",
+            "3": "The top-down approaches are divided into two-stage [21,31,8,23,17] and single-stage [13,47,2,42,36] methods."
+        },
+        "Solq: Segmenting objects by learning queries": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/b7087c1f4f89e63af8d46f3b20271153-Paper.pdf",
+            "ref_texts": "[11] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn. , 2020.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Some recent works [8,9,10,11] build instance segmentation frameworks on top of anchorfree object detectors [12,13] to remove the ROI-Cropping operation, reducing the effect of feature misalignment."
+        },
+        "Recurrent mask refinement for few-shot medical image segmentation": {
+            "authors": [
+                "Hao Tang",
+                "Xingwei Liu",
+                "Shanlin Sun",
+                "Xiangyi Yan",
+                "Xiaohui Xie"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Tang_Recurrent_Mask_Refinement_for_Few-Shot_Medical_Image_Segmentation_ICCV_2021_paper.pdf",
+            "ref_texts": "[32] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "This design draws inspiration from recent works [53, 32, 18] that employ iterative refinement."
+        },
+        "Progressive contour regression for arbitrary-shape scene text detection": {
+            "authors": [
+                "Pengwen Dai",
+                "Sanyi Zhang",
+                "Hua Zhang",
+                "Xiaochun Cao"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Progressive_Contour_Regression_for_Arbitrary-Shape_Scene_Text_Detection_CVPR_2021_paper.pdf",
+            "ref_texts": "[32] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , pages 8530\u20138539, 2020. 3,5",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Different from adopting the progressive contour regression for the semi-automatic annotation [19] and the instance segmentation [32], our method enriches the feature representations of text contours by considering both the cyclicity in geometric topology and the contexts in semantic.",
+            "2": "3, the raw contour featureFcis first fed into a 9 \u00d79 circular convolution layer [32] with 128 filters, followed by the ReLU and the batch normalization layer."
+        },
+        "Rbgnet: Ray-based grouping for 3d object detection": {
+            "authors": [
+                "Haiyang Wang",
+                "Shaoshuai Shi",
+                "Ze Yang",
+                "Rongyao Fang",
+                "Qi Qian",
+                "Hongsheng Li",
+                "Bernt Schiele",
+                "Liwei Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_RBGNet_Ray-Based_Grouping_for_3D_Object_Detection_CVPR_2022_paper.pdf",
+            "ref_texts": "[25] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020. 3",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Shape representation [42, 25, 43, 1, 18, 26] is of particular interest due to the ability to explicitly describe the 2D object shape with points."
+        },
+        "Adaptive boundary proposal network for arbitrary shape text detection": {
+            "authors": [
+                "Xue Zhang",
+                "Xiaobin Zhu",
+                "Chun Yang",
+                "Hongfa Wang",
+                "Cheng Yin"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Adaptive_Boundary_Proposal_Network_for_Arbitrary_Shape_Text_Detection_ICCV_2021_paper.pdf",
+            "ref_texts": "[23] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , pages 8530\u20138539. IEEE, 2020.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "2 Adaptive Boundary Deformation Inspired by interactive annotation of object segmentation methods [1, 15] and instance segmentation method [23], we perform arbitrary shape text detection by deforming a boundary proposal to a more accurate text boundary.",
+            "2": "Inspired by [1, 15], DeepSnake [23] performs object segmentation by deforming an initial contour to object boundary with circular convolution which consists of multi-layer 1-D convolutions with 1\u0002Nkernel size."
+        },
+        "Box-supervised instance segmentation with level set evolution": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.09055",
+            "ref_texts": "38. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X.: Deep snake for real-time instance segmentation. In: Proc. of IEEE Conf. Comp. Vis. Patt. Recogn. pp.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "AP DeepSnake [38] DLA-34 [53] Mask 30.",
+            "2": "DeepSnake [38] is based on the classical snake method [19].",
+            "3": "As shown in Table 3, our method achieves comparable results to the fully supervised variational-based methods, and even outperforms DeepSnake [38] and Levelset R-CNN [15]."
+        },
+        "Point-set anchors for object detection, instance segmentation and pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.02846",
+            "ref_texts": "34. Peng, S., Jiang, W., Pi, H., Bao, H., Zhou, X.: Deep snake for real-time instance segmentation. arXiv preprint arXiv:2001.01629 (2020)",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "An alternative is to represent objects in terms of speciffc points, including center points [40,48], corner points [22,14], extreme points [49], octagon points [34], point sets [44,45], and radial points [43].",
+            "2": "The recent Deep Snake [34] proposes a two-stage pipeline based on initial contours and contour deformation."
+        },
+        "Look closer to segment better: Boundary patch refinement for instance segmentation": {
+            "authors": [
+                "Chufeng Tang",
+                "Hang Chen",
+                "Xiao Li",
+                "Jianmin Li",
+                "Zhaoxiang Zhang",
+                "Xiaolin Hu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Look_Closer_To_Segment_Better_Boundary_Patch_Refinement_for_Instance_CVPR_2021_paper.pdf",
+            "ref_texts": "[31] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In IEEE Conf. Comput. Vis. Pattern Recog. , pages 8533\u20138542, 2020. 3,8",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Several works [1,31,42,45] replace the pixel-wise instance representation into the contour-based representation.",
+            "2": "This issue was also observed in some contour-based instance segmentation methods [31,42,45]."
+        },
+        "Unseen object instance segmentation for robotic environments": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.08073",
+            "ref_texts": "[43] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2020.",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "Other methods examine dense sliding-window instance segmentation on 4D tensors [41], combining top-down and bottom-up methods via blending modules [42], and alternative mask representations such as contours [43].",
+            "2": "[43] S."
+        },
+        "K-net: Towards unified image segmentation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/55a7cf9c71f1c9c495413f934dd1a158-Paper.pdf",
+            "ref_texts": "[45] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Some studies explore polar [58] representation, contour [45], and explicit shape representation [60] of instance masks."
+        },
+        "Vpfnet: Improving 3d object detection with virtual point based lidar and stereo data fusion": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2111.14382",
+            "ref_texts": "[57] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2020. 9",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "We generate the foreground object mask list using the pretrained Deep Snake network [57].",
+            "2": "8\n[57] S."
+        },
+        "Instance segmentation with mask-supervised polygonal boundary transformers": {
+            "authors": [
+                "Justin Lazarow",
+                "Weijian Xu",
+                "Zhuowen Tu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Lazarow_Instance_Segmentation_With_Mask-Supervised_Polygonal_Boundary_Transformers_CVPR_2022_paper.pdf",
+            "ref_texts": "[25] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020. 2, 3, 7",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "As one of the first works built on modern architectures, DeepSnake [25] considers an initial octagonal polygon derived from four extreme points, after which an iterative process of refinement is carried out using circular convolutions.",
+            "2": "We use Bias a means to initialize an ellipsoidal polygon Vi(0)inscribed in Bi, similar to other contour-based methods [14, 20, 25].",
+            "3": "2 DeepSnake [25] R50-FPN CenterNet polygons polygons 30.",
+            "4": "5 PolarMask [25] R101-FPN FCOS 2\u00d7 polygons polygons 32.",
+            "5": "0 DeepSnake [25] ImageNet extreme pts \u2713 poly 28."
+        },
+        "On model calibration for long-tailed object detection and instance segmentation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/14ad095ecc1c3e1b87f3c522836e9158-Paper.pdf",
+            "ref_texts": "[37] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020. 1",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "With the recent advances in neural networks [1,4,10,18,29,30,32,37,40,41,43], we have witnessed an unprecedented breakthrough in detecting and segmenting frequently seen objects such as people, cars, and TVs [14,15,21,31,70]."
+        },
+        "Maptr: Structured modeling and learning for online vectorized hd map construction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2208.14437",
+            "ref_texts": "10 Published as a conference paper at ICLR 2023 Justin Liang, Namdar Homayounfar, Wei-Chiu Ma, Yuwen Xiong, Rui Hu, and Raquel Urtasun. Polytransform: Deep polygon transformer for instance segmentation. In CVPR , 2020. Tsung-Yi Lin, Priya Goyal, Ross B. Girshick, Kaiming He, and Piotr Doll \u00b4ar. Focal loss for dense object detection. In ICCV , 2017. Huan Ling, Jun Gao, Amlan Kar, Wenzheng Chen, and Sanja Fidler. Fast interactive object annotation with curve-gcn. In CVPR , 2019. Ruijin Liu, Zejian Yuan, Tie Liu, and Zhiliang Xiong. End-to-end lane shape prediction with transformers. In WACV , 2021a. Yicheng Liu, Yue Wang, Yilun Wang, and Hang Zhao. Vectormapnet: End-to-end vectorized hd map learning. arXiv preprint arXiv:2206.08920 , 2022a. Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 10012\u201310022, 2021b. Zhi Liu, Shaoyu Chen, Xiaojie Guo, Xinggang Wang, Tianheng Cheng, Hongmei Zhu, Qian Zhang, Wenyu Liu, and Yi Zhang. Vision-based uneven bev representation learning with polar rasterization and surface estimation. arXiv preprint arXiv:2207.01878 , 2022b. Zhijian Liu, Haotian Tang, Alexander Amini, Xingyu Yang, Huizi Mao, Daniela Rus, and Song Han. Bevfusion: Multi-task multi-sensor fusion with unified bird\u2019s-eye view representation. arXiv preprint arXiv:2205.13542 , 2022c. Zichen Liu, Jun Hao Liew, Xiangyu Chen, and Jiashi Feng. Dance: A deep attentive contour model for efficient instance segmentation. In WACVW , 2021c. Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR , 2019. Yuexin Ma, Tai Wang, Xuyang Bai, Huitong Yang, Yuenan Hou, Yaming Wang, Y . Qiao, Ruigang Yang, Dinesh Manocha, and Xinge Zhu. Vision-centric bev perception: A survey. arXiv preprint arXiv:2208.02797 , 2022. Hanspeter A Mallot, Heinrich H B \u00a8ulthoff, JJ Little, and Stefan Bohrer. Inverse perspective mapping simplifies optical flow computation and obstacle detection. Biological cybernetics , 1991. Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020. Jonah Philion and Sanja Fidler. Lift, splat, shoot: Encoding images from arbitrary camera rigs by implicitly unprojecting to 3d. In ECCV , 2020. Tixiao Shan and Brendan Englot. Lego-loam: Lightweight and ground-optimized lidar odometry and mapping on variable terrain. In IROS , 2018. Tixiao Shan, Brendan J. Englot, Drew Meyers, Wei Wang, Carlo Ratti, and Daniela Rus. LIO-SAM: tightly-coupled lidar inertial odometry via smoothing and mapping. In IROS , 2020. Lucas Tabelini, Rodrigo Berriel, Thiago M Paixao, Claudine Badue, Alberto F De Souza, and Thiago Oliveira-Santos. Keep your eyes on the lane: Real-time attention-guided lane detection. In CVPR , 2021. Mingxing Tan and Quoc V . Le. Efficientnet: Rethinking model scaling for convolutional neural networks. In ICML , 2019. Jinsheng Wang, Yinchao Ma, Shaofei Huang, Tianrui Hui, Fei Wang, Chen Qian, and Tianzhu Zhang. A keypoint-based global association network for lane detection. In CVPR , 2022. Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. Polarmask: Single shot instance segmentation with polar representation. In CVPR , 2020."
+        },
+        "PolyFormer: Referring image segmentation as sequential polygon generation": {
+            "authors": [
+                "Jiang Liu",
+                "Hui Ding",
+                "Zhaowei Cai",
+                "Yuting Zhang",
+                "Ravi Kumar",
+                "Vijay Mahadevan"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_PolyFormer_Referring_Image_Segmentation_As_Sequential_Polygon_Generation_CVPR_2023_paper.pdf",
+            "ref_texts": "[63] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , pages 8530\u20138539, 2020. 3",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "Deep Snake [63] extends the classic snake algorithm [82] and uses a neural network to iteratively deform an initial contour to match the object boundary."
+        },
+        "E2ec: An end-to-end contour-based method for high-quality high-speed instance segmentation": {
+            "authors": [
+                "Tao Zhang",
+                "Shiqing Wei",
+                "Shunping Ji"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_E2EC_An_End-to-End_Contour-Based_Method_for_High-Quality_High-Speed_Instance_Segmentation_CVPR_2022_paper.pdf",
+            "ref_texts": "[27] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "Examples of such methods are Curve GCN [21], Deep Snake [27], Point-Set Anchors [31], DANCE [25], PolarMask [33], and LSNet [9].",
+            "2": ",N= 128 ) vertices is sufficient to describe most of the instances well [27].",
+            "3": "circular convolution [27] (a).",
+            "4": "Curve GCN [21], Deep Snake [27], Point-Set Anchors [31], and DANCE [25] use the vertex features of the contour for the boundary regression, which greatly improves the performance.",
+            "5": "The deformation modules [27] then deform the coarse contour twice to the final contour.",
+            "6": "Dynamic matching loss (DML) As the pre-fixed vertex pairing used in previous studies is not optimal and can cause learning difficulty, we propose DML, which dynamically adjusts the relationship of the vertex pairing to supervise output of the last deforma4446\n tion module [27] as shown in Figure 2.",
+            "7": "Baseline method is Deep Snake [27].",
+            "8": "1 Deep Snake [27] 54.",
+            "9": "3 Deep Snake [27] DLA-34 30.",
+            "10": "6 Deep Snake [27] Fine DLA-34 28.",
+            "11": "2 Deep Snake* [27] Fine DLA-34 4.",
+            "12": "The proposed E2EC method outperforms Deep Snake [27] in all the categories.",
+            "13": "9 contour-based Deep Snake [27] 32.",
+            "14": "3 APmskon the test set, without the multi-component detection used in [27], outperforming Deep Snake by 2."
+        },
+        "Visolo: Grid-based space-time aggregation for efficient online video instance segmentation": {
+            "authors": [
+                "Su Ho",
+                "Sukjun Hwang",
+                "Seoung Wug",
+                "Yeonchool Park",
+                "Hyunwoo Kim",
+                "Jung Kim",
+                "Seon Joo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Han_VISOLO_Grid-Based_Space-Time_Aggregation_for_Efficient_Online_Video_Instance_Segmentation_CVPR_2022_paper.pdf",
+            "ref_texts": "[26] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmenta2904",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Instance segmentation can be divided into two-stage [7,8,10,12,15,21] and single-stage [3,6,26,29,30,32] methods."
+        },
+        "Polarmask++: Enhanced polar representation for single-shot instance segmentation and beyond": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.02184",
+            "ref_texts": "[48] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. Deep snake for realtime instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "To address the above issue, recent trend has spent more effort in designing simpler single-stage pipeline for bounding box detection [13], [27], [30], [37], [56], [66], [73] and instance segmentation [2], [5], [48], [75].",
+            "2": "[48] S."
+        },
+        "Yolactedge: Real-time instance segmentation on the edge": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2012.12259",
+            "ref_texts": "[7]Sida Peng, Wen Jiang, Huaijin Pi, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. arXiv preprint arXiv:2001.01629 , 2020.",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "However, while there has been great progress in real-time instance segmentation research [1], [2], [3], [4], [5], [6], [7], thus far, there is no method that can run accurately at real-time speeds on small edge devices like the Jetson AGX Xavier."
+        },
+        "BuildMapper: A fully learnable framework for vectorized building contour extraction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2211.03373",
+            "ref_texts": "[27] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \"Deep Snake for Real-Time Instance Segmentation,\" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp. 8533-8542. ",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "The shapes of the initial contours used in the current contour-based methods are generally hand-designed, such as ellipses for Curve GCN [26], rectangles for DANCE [28], and octagons for Deep Snake \n[27].",
+            "2": ", nine vertices in [26, 27, 45], for offset prediction of the current vertex.",
+            "3": "Tables 4\u20136 list the quantitative comparison of BuildMapper, Mask R-CNN [17], SOLO [18], YOLACT [19], PolarMask [40], Deep Snake [27], and CLP-CNN [29] for mask AP, boundary AP, and speed (frames per second, FPS) on the WHU aeri al building dataset and WHU-Mix (vector) dataset.",
+            "4": "[27] S."
+        },
+        "Circle representation for medical object detection": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.12093",
+            "ref_texts": "[67] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "Many existing works are built upon CenterNet [67]\u2013[69].",
+            "2": "[67] S."
+        },
+        "Soit: Segmenting objects with instance-aware transformers": {
+            "authors": [
+                "Xiaodong Yu",
+                "Dahu Shi",
+                "Xing Wei",
+                "Ye Ren",
+                "Tingqun Ye",
+                "Wenming Tan"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20227/19986",
+            "ref_texts": ""
+        },
+        "Dense reppoints: Representing visual objects with dense point sets": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1912.11473.pdf?utm_term=",
+            "ref_texts": "[33] Sida Peng, Wen Jiang, Huaijin Pi, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. arXiv preprint arXiv:2001.01629 , 2020. 2, 5, 7",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "[45, 33].",
+            "2": "Contours and binary masks are two typical representations widely used in previous works [18, 7, 45, 33].",
+            "3": "Point-to-point is a common and intuitive supervision strategy and it is widely used by other methods [45, 50, 33]."
+        },
+        "Active boundary loss for semantic segmentation": {
+            "authors": [
+                "Chi Wang",
+                "Yunke Zhang",
+                "Miaomiao Cui",
+                "Peiran Ren",
+                "Yin Yang",
+                "Xuansong Xie",
+                "Sheng Hua",
+                "Hujun Bao",
+                "Weiwei Xu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/20139/19898",
+            "ref_texts": ""
+        },
+        "Review of object instance segmentation based on deep learning": {
+            "authors": [],
+            "url": "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-4/041205/Review-of-object-instance-segmentation-based-on-deep-learning/10.1117/1.JEI.31.4.041205.pdf",
+            "ref_texts": ""
+        },
+        "Location-sensitive visual recognition with cross-iou loss": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2104.04899",
+            "ref_texts": "[44] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. Deep snake for real-time instance segmentation. In Proceedingsof the IEEE Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020. 1, 2, 7",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "powerful deep networks as the backbone [25, 60, 20], the designs of the head module for detection [38, 48, 49, 52, 65, 31, 30, 63, 6], segmentation [59, 24, 44, 7], and pose estimation [51, 57, 5, 40, 66] have fallen into individual subfields.",
+            "2": "The early representative methods are the snake series [27, 11, 23, 12] and the recent efforts include using deep neural network [22] and the idea of anchor-free to improve the features, such as DeepSnake [44] and PolarMask [59].",
+            "3": "3 DeepSnake [44] DLA-34 [62] 120 30.",
+            "4": "8\n[44] S."
+        },
+        "Dance: A deep attentive contour model for efficient instance segmentation": {
+            "authors": [
+                "Zichen Liu",
+                "Jun Hao",
+                "Xiangyu Chen",
+                "Jiashi Feng"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2021/papers/Liu_DANCE_A_Deep_Attentive_Contour_Model_for_Efficient_Instance_Segmentation_WACV_2021_paper.pdf",
+            "ref_texts": "[23] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2020.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Recently, some research works [23, 17, 31, 28, 29] consider instance segmentation as a contour vertices regression problem where each \u2217Authors contributed equally.",
+            "2": "Our DANCE significantly outperforms all state-of-the-art contour-based instance segmentation methods [28, 23].",
+            "3": "128\u00d72 =\n256values to represent the x, y coordinates of sampled contour vertices in DeepSnake [23]).",
+            "4": "Some other contour-based approaches [31, 17, 23] accomplish segmentation by gradually deforming an initial 345\n\n\u2713 initial contour learning offsets target contouruniform matching segmentwise matching \u2717\n(a) Different Matching Schemes 0.",
+            "5": "72\n(b) Edge Attention Map (c) Sample Result Figure 2: (a)Comparison between uniform matching [23] and our segment-wise matching.",
+            "6": "Among them, the more recently published DeepSnake [23] demonstrates state-of-the-art performance on several datasets [5, 24, 9].",
+            "7": "There are also some point-based methods [17, 31, 23] that regard the contour as a polygon taking a set of points in the Cartesian coordinate system as vertices, and generate per-vertex offsets to refine the contour towards the real object boundaries.",
+            "8": "To anchor the initial contour vertices, Dense RepPoints [31] initializes at every location on the 2D feature maps; PolyTransform [17] employs an additional model to generate a coarse mask and samples vertices along the mask contour; DeepSnake [23] proposes to locate the extreme points first and generate an octagon on which contour vertices are uniformly sampled.",
+            "9": "DANCE We first revisit DeepSnake [23] based on which our method is developed.",
+            "10": "Preliminary: DeepSnake DeepSnake [23] integrates the idea of classic snake algorithm [13] into the instance segmentation framework by making it learnable.",
+            "11": "Given a detected bounding box, the four center points on box edges are first located (also known as \u2018diamond\u2019 vertices according to [23]).",
+            "12": "We refer the interested readers to the original paper [23] for more details.",
+            "13": "Following [23], we kept 500 images from the validation set as our mini-val set and only tested on the complete validation set once for the final performance report.",
+            "14": "The former one allows fair comparison with DeepSnake2[23], while the latter one is more powerful to handle challenging dataset like COCO.",
+            "15": "Following DeepSnake [23], we also perform three iterations of contour deformation by applying three individual snake modules.",
+            "16": "For the SBD dataset, we exactly follow the training and testing settings of DeepSnake [23] so that all other factors remain unchanged.",
+            "17": "The model M 0denotes the vanilla baseline model, which directly combines FCOS [27] with DeepSnake [23].",
+            "18": "We empirically find this simple modification is more effective than introducing an additional snake module as used in DeepSnake [23] and saves about 7 mscomputation time.",
+            "19": "The ablation in Table 1 also shows replacing uniform matching scheme used in [23] by our proposed segment-wise matching (M1 \u2192M2) offers 0.",
+            "20": "We compare deformation paths learned from uniform matching [23] (left) and our segmentwise matching (right).",
+            "21": "8 DeepSnake [23] DLA-34 160 /check 30.",
+            "22": "We adopt the same backbone, detector, training and testing configuration as DeepSnake [23], and validate that our method outperforms all other methods (Table 4).",
+            "23": "7 DeepSnake [23] 54.",
+            "24": "Instead of using the same structure for all the snake modules as in DeepSnake [23], we customize each snake module with different atrous circular convolution rates and numbers of layers.",
+            "25": "9 DeepSnake [23] DLA-34 36."
+        },
+        "UniHCP: A Unified Model for Human-Centric Perceptions": {
+            "authors": [
+                "Yuanzheng Ci",
+                "Yizhou Wang",
+                "Meilin Chen",
+                "Shixiang Tang",
+                "Lei Bai",
+                "Feng Zhu",
+                "Rui Zhao",
+                "Fengwei Yu",
+                "Donglian Qi",
+                "Wanli Ouyang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ci_UniHCP_A_Unified_Model_for_Human-Centric_Perceptions_CVPR_2023_paper.pdf",
+            "ref_texts": "[65] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conferenceon Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "65"
+            ],
+            "1": "While contour-based methods [65, 85] can also obtain segmentation masks, it requires instancelevel mask annotations, which are not always available."
+        },
+        "A comprehensive review of modern object segmentation approaches": {
+            "authors": [],
+            "url": "https://www.nowpublishers.com/article/DownloadSummary/CGV-097",
+            "ref_texts": "4980\u20134989. Paszke, A., A. Chaurasia, S. Kim, and E. Culurciello. (2016). \u201cEnet: A deep neural network architecture for real-time semantic segmentation\u201d.arXiv preprint arXiv:1606.02147. Peng, J., Y. Liu, S. Tang, Y. Hao, L. Chu, G. Chen, Z. Wu, Z. Chen, Z. Yu, Y. Du, et al.(2022a). \u201cPP-LiteSeg: A Superior Real-Time Semantic Segmentation Model\u201d. arXiv preprint arXiv:2204.02681. Peng, K., J. Fei, K. Yang, A. Roitberg, J. Zhang, F. Bieder, P. Heidenreich, C. Stiller, and R. Stiefelhagen. (2022b). \u201cMASS: Multiattentional semantic segmentation of LiDAR data for dense top-view understanding\u201d. IEEE Transactions on Intelligent Transportation Systems. Peng, S., W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. (2020). \u201cDeep snake for real-time instance segmentation\u201d. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 8533\u20138542. Perazzi, F., J. Pont-Tuset, B. McWilliams, L. Van Gool, M. Gross, and A. Sorkine-Hornung. (2016). \u201cA benchmark dataset and evaluation methodology for video object segmentation\u201d. In: Proceedings of the IEEE conference on computer vision and pattern recognition . 724\u2013"
+        },
+        "You Only Segment Once: Towards Real-Time Panoptic Segmentation": {
+            "authors": [
+                "Jie Hu",
+                "Linyan Huang",
+                "Tianhe Ren",
+                "Shengchuan Zhang",
+                "Rongrong Ji",
+                "Liujuan Cao"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Hu_You_Only_Segment_Once_Towards_Real-Time_Panoptic_Segmentation_CVPR_2023_paper.pdf",
+            "ref_texts": "[39] Adam Paszke, Abhishek Chaurasia, Sangpil Kim, and Eugenio Culurciello. Enet: A deep neural network architecture for real-time semantic segmentation. arXiv preprint arXiv:1606.02147 , 2016. 2[40] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020. 2",
+            "ref_ids": [
+                "39",
+                "40"
+            ],
+            "1": "CenterMask [30] employs an efficient anchor-free framework, and DeepSnake [40] explores the use of object contours for fast segmentation of instances.",
+            "2": "For example, E-Net [39] proposes a lightweight architecture for high-speed segmentation, and SegNet [1] combines a small network architecture with skip connections to achieve fast segmentation.",
+            "3": "5\n[39] Adam Paszke, Abhishek Chaurasia, Sangpil Kim, and Eugenio Culurciello."
+        },
+        "Dptext-detr: Towards better scene text detection with dynamic points in transformer": {
+            "authors": [
+                "Maoyuan Ye",
+                "Jing Zhang",
+                "Shanshan Zhao",
+                "Juhua Liu",
+                "Bo Du",
+                "Dacheng Tao"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25430/25202",
+            "ref_texts": ""
+        },
+        "Unifying visual perception by dispersible points learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2208.08630",
+            "ref_texts": "31. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X.: Deep snake for real-time instance segmentation. In: CVPR. pp. 8533\u20138542 (2020)",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "PolarMask [45] and DeepSnake [31] are two typical works using this idea.",
+            "2": "To align the point number between scattered points and the contour points in training data, we uniformly add new points, or delete points with the shortest edge until the target number is met, which is similar to Deep Snake [31].",
+            "3": "DeepSnake [31] DLA34 30.",
+            "4": "3 DeepSnake [31] x x DLA-34 [48] \u223c11x 30."
+        },
+        "Eigencontours: Novel contour descriptors based on low-rank approximation": {
+            "authors": [
+                "Wonhui Park",
+                "Dongkwon Jin",
+                "Su Kim"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Park_Eigencontours_Novel_Contour_Descriptors_Based_on_Low-Rank_Approximation_CVPR_2022_paper.pdf",
+            "ref_texts": "[18] Peter J.V . Otterloo. A Contour-Oriented Approach to Shape Analysis . Prentice Hall International (UK) Ltd., 1991. 1,2[19] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmenta-tion. In Proc. CVPR , 2020. 1",
+            "ref_ids": [
+                "18",
+                "19"
+            ],
+            "1": "The boundary of an object inan image is encoded in contour description, which is useful in various applications, such as image retrieval [4,31,32], recognition [17,25,29], and segmentation [16,19,27,28,34].",
+            "2": "For more precise description, there are several approaches, including shape signature [6,18,27], structural analysis [5,7,10,21,28], spectral analysis [4,31], and curvature scale space (CSS) [8,17].",
+            "3": "For more sophisticated description, there are four types of approaches:shape signature [6,18,27], structural analysis [5,10,21,28], spectral analysis [4,31], and CSS [8,17].",
+            "4": "Also, an object shape can be represented by the angle between the tangent vector at each contour point and the x-axis [18].",
+            "5": "Comparison of the AUCFperformances of categorical and universal eigencontours, M\u2208[3,18].",
+            "6": "1,2\n[18] Peter J."
+        },
+        "SharpContour: a contour-based boundary refinement approach for efficient and accurate instance segmentation": {
+            "authors": [
+                "Chenming Zhu",
+                "Xuanye Zhang",
+                "Yanran Li",
+                "Liangdong Qiu",
+                "Kai Han",
+                "Xiaoguang Han"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_SharpContour_A_Contour-Based_Boundary_Refinement_Approach_for_Efficient_and_Accurate_CVPR_2022_paper.pdf",
+            "ref_texts": "[29] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Another group of trending segmentation approaches proposed contour-based segmentation methods [1,3,23,27,29, 38, 39] which directly process and generate sparse points along the boundaries.",
+            "2": "Following the pipeline of traditional Snake model [16], DeepSnake [29] proposes a two-stage contour evolution process and designs circular convolution to exploit the features on the contour.",
+            "3": "DANCE [26] follows the pipeline of DeepSnake [29] and introduces edge attention module and improves the matching scheme in the contour evolution process.",
+            "4": "Comparison with the state-of-the-art Effectiveness for contour-based model We apply SharpContour to the DANCE [26], which follows the idea of DeepSnake [29] and achieves current state-of-the-art performance for contour-based instance segmentation meth4397\n Figure 5."
+        },
+        "Amodal segmentation based on visible region segmentation and shape prior": {
+            "authors": [
+                "Yuting Xiao",
+                "Yanyu Xu",
+                "Ziming Zhong",
+                "Weixin Luo",
+                "Jiawei Li",
+                "Shenghua Gao"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16407/16214",
+            "ref_texts": "693. Springer. Li, Q.; Jin, S.; and Yan, J. 2017. Mimicking Very Efficient Network for Object Detection. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). Lin, T.-Y .; Doll \u00b4ar, P.; Girshick, R.; He, K.; Hariharan, B.; and Belongie, S. 2017. Feature pyramid networks for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, 2117\u20132125. Lin, T.-Y .; Maire, M.; Belongie, S.; Hays, J.; Perona, P.; Ramanan, D.; Doll \u00b4ar, P.; and Zitnick, C. L. 2014. Microsoft coco: Common objects in context. In European conference on computer vision, 740\u2013755. Springer. Liu, S.; Qi, L.; Qin, H.; Shi, J.; and Jia, J. 2018. Path aggregation network for instance segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 8759\u20138768. Neven, D.; Brabandere, B. D.; Proesmans, M.; and Gool, L. V . 2019. Instance segmentation by jointly optimizing spatial embeddings and clustering bandwidth. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 8837\u20138845. Peng, S.; Jiang, W.; Pi, H.; Bao, H.; and Zhou, X. 2020. Deep Snake for Real-Time Instance Segmentation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition . Pinheiro, P. O.; Collobert, R.; and Doll \u00b4ar, P. 2015. Learning to segment object candidates. In Advances in Neural Information Processing Systems, 1990\u20131998. Qi, L.; Jiang, L.; Liu, S.; Shen, X.; and Jia, J. 2019. Amodal instance segmentation with kins dataset. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 3014\u20133023. Ramamonjisoa, M.; Du, Y .; and Lepetit, V . 2020. Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 14648\u201314657. Redmon, J.; Divvala, S.; Girshick, R.; and Farhadi, A. 2016. You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, 779\u2013788. Ren, M.; and Zemel, R. S. 2017. End-to-end instance segmentation with recurrent attention. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 6656\u20136664.",
+            "ref_ids": [
+                "693"
+            ]
+        },
+        "Darch: Dental arch prior-assisted 3d tooth instance segmentation with weak annotations": {
+            "authors": [
+                "Liangdong Qiu",
+                "Chongjie Ye",
+                "Pei Chen",
+                "Yunbi Liu",
+                "Xiaoguang Han",
+                "Shuguang Cui"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Qiu_DArch_Dental_Arch_Prior-Assisted_3D_Tooth_Instance_Segmentation_With_Weak_CVPR_2022_paper.pdf",
+            "ref_texts": "[17] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "To estimate the dental arch of each dental model, we first formulate the dental arch by representing it as a curve passing through teeth centroids and then adopt a lightweight 1-D convolutional network to refine the dental arch [10, 17]."
+        },
+        "Real-time instance segmentation with discriminative orientation maps": {
+            "authors": [
+                "Wentao Du",
+                "Zhiyu Xiang",
+                "Shuya Chen",
+                "Chengyu Qiao",
+                "Yiman Chen",
+                "Tingming Bai"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Du_Real-Time_Instance_Segmentation_With_Discriminative_Orientation_Maps_ICCV_2021_paper.pdf",
+            "ref_texts": "[25] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "[25] implement the snake algorithm in a learning-based form and the circular convolution is proposed to iteratively regress sampling points towards contour positions."
+        },
+        "DeepMesh: Differentiable iso-surface extraction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.11795",
+            "ref_texts": "[32] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep Snake for Real-Time Instance Segmentation,\u201d in Conference on Computer Vision and Pattern Recognition , 2020.",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "This representation has been successfully used for single view 3D reconstruction [2], [3], [30], and 3D shape completion [31], [32].",
+            "2": "[32] S."
+        },
+        "Pointins: Point-based instance segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2003.06148",
+            "ref_texts": "[35] S. Peng, W. Jiang, H. Pi, H. Bao, and X. Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Most state-of-the-art (SOTA) instance segmentation methods [15], [31], [5], [19], [23], [35] construct mask representations using Region-of-Interests (RoIs) features.",
+            "2": "[43] and detection-based [15], [31], [5], [19], [23], [35] methods.",
+            "3": "Popular instance segmentation frameworks are mainly detection-based [13], [14], [40], [11], [27], [35].",
+            "4": "[35] S."
+        },
+        "Centerpoly: Real-time instance segmentation using bounding polygons": {
+            "authors": [
+                "Hughes Perreault",
+                "Alexandre Bilodeau",
+                "Nicolas Saunier",
+                "Maguelonne Heritier"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021W/AVVision/papers/Perreault_CenterPoly_Real-Time_Instance_Segmentation_Using_Bounding_Polygons_ICCVW_2021_paper.pdf",
+            "ref_texts": "[24] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Finally, Deep Snake [24] is a fast instance segmentation method that learns to deform the generated contour of an object to iteratively better match the contour of the object."
+        },
+        "Arbitrary shape text detection via boundary transformer": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2205.05320",
+            "ref_texts": "[41] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in CVPR . IEEE, 2020, pp. 8530\u2013",
+            "ref_ids": [
+                "41"
+            ],
+            "1": ", fully connected networks (FC), recurrent neural network (RNN), circular convolution network (CCN) [41], graph convolution network (GCN), and adaptive deformation (AD) module, to compare its performance with the proposed boundary transformer (BT) module.",
+            "2": "[41] S."
+        },
+        "Prior to segment: Foreground cues for weakly annotated classes in partially supervised instance segmentation": {
+            "authors": [
+                "David Biertimpel",
+                "Sindi Shkodrani",
+                "Anil S. Baslamisli",
+                "Nora Baka"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Biertimpel_Prior_to_Segment_Foreground_Cues_for_Weakly_Annotated_Classes_in_ICCV_2021_paper.pdf",
+            "ref_texts": "[30] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2020.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Introduction Instance segmentation is an essential task in computer vision with applications ranging from autonomous vehicles to robotics and medical imaging [5, 6, 13, 22, 26, 30].",
+            "2": "Contour based approaches [27, 30, 38] segment objects by refining a sequence of vertices to match the object shape."
+        },
+        "Panoramic panoptic segmentation: Insights into surrounding parsing for mobile agents via unsupervised contrastive learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.10711",
+            "ref_texts": "[4] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proc. CVPR , 2020, pp. 8533\u20138542.",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "A purely semantic segmentation approach [2], [3], which fails to identify the number of instances of the thing class, is insufficient, as the number of pedestrians or cars is an important piece of information in order to plan in accordance with the situation [4].",
+            "2": "Moreover, additional methods tackle instance-specific image segmentation via clustering [38], [39], class-agnostic mask generation [40], [41], and contour-based techniques [4], [42].",
+            "3": "[4] S."
+        },
+        "Apanet: Auto-path aggregation for future instance segmentation prediction": {
+            "authors": [],
+            "url": "https://isee-ai.cn/~hujianfang/pdfFiles/apanet_final.pdf",
+            "ref_texts": "[52] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in IEEE Conference on Computer Vision and Pattern Recognition , 2020.",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "These methods simultaneously detect object locations and predict mask representations [32], [45], [46], [47], [48], [49], [50], [51], [52], [53], [54].",
+            "2": "[52] S."
+        },
+        "Solve the puzzle of instance segmentation in videos: A weakly supervised framework with spatio-temporal collaboration": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2212.07592",
+            "ref_texts": "[48] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "[48] S."
+        },
+        "Deep active surface models": {
+            "authors": [
+                "Udaranga Wickramasinghe",
+                "Pascal Fua",
+                "Graham Knott"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wickramasinghe_Deep_Active_Surface_Models_CVPR_2021_paper.pdf",
+            "ref_texts": "[34] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. Deep Snake for Real-Time Instance Segmentation. In Conference on Computer Vision and Pattern Recognition , 2020. 2",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "[24, 34] use graph-convolution networks to perform instance segmentation by deforming a contour.",
+            "2": "2\n[34] S."
+        },
+        "U2-ONet: A Two-Level Nested Octave U-Structure Network with a Multi-Scale Attention Mechanism for Moving Object Segmentation": {
+            "authors": [
+                "Chenjie Wang",
+                "Chengyuan Li",
+                "Jun Liu",
+                "Bin Luo",
+                "Xin Su",
+                "Yajun Wang",
+                "Yan Gao"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/13/1/60/pdf",
+            "ref_texts": "40. Peng, S.; Jiang, W.; Pi, H.; Li, X.; Bao, H.; Zhou, X. Deep Snake for Real-Time Instance Segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 14\u201319 June 2020; pp. 8533\u20138542.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "More recently, a few novel contour-based approaches for real-time instance segmentation have been proposed [40,41].",
+            "2": "The Deep Snake method [40] uses circular convolution for feature learning on the contours, and uses a two-stage pipeline including initial contour proposal and contour deformation for the instance segmentation."
+        },
+        "Deep Learning based Computer Vision Methods for Complex Traffic Environments Perception: A Review": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2211.05120",
+            "ref_texts": "[135] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "135"
+            ],
+            "1": "A learning-based snake algorithm [135] is proposed for real-time instance segmentation, which introduces the circular convolution for efficient feature learning on the contour and regresses vertexwise offsets for the contour deformation.",
+            "2": "[135] S."
+        },
+        "Deeply shape-guided cascade for instance segmentation": {
+            "authors": [
+                "Hao Ding",
+                "Siyuan Qiao",
+                "Alan Yuille",
+                "Wei Shen"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Ding_Deeply_Shape-Guided_Cascade_for_Instance_Segmentation_CVPR_2021_paper.pdf",
+            "ref_texts": "[42] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2020, Seattle, WA, USA, June 13-19, 2020 , pages 8530\u20138539. IEEE, 2020. 2",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Deep Snake [42] and PolyTransform [29] predicted position offsets w."
+        },
+        "Research on multi-object sorting system based on deep learning": {
+            "authors": [
+                "Hongyan Zhang",
+                "Huawei Liang",
+                "Tao Ni",
+                "Lingtao Huang",
+                "Jinsong Yang"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/21/18/6238/pdf",
+            "ref_texts": "23. Peng, S.; Jiang, W.; Pi, H.; Li, X.; Bao, H.; Zhou, X. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Hangzhou, China, 13\u201319 June 2020; pp. 8533\u20138542.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Sida Peng [23] improved snake method and proposed a bottom-up DeepSnake network architecture."
+        },
+        "BoxSnake: Polygonal Instance Segmentation with Box Supervision": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2303.11630",
+            "ref_texts": "[56] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020.",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "There are two primary paradigms for advanced instance segmentation: maskbased [28, 7, 14, 70, 76, 85, 42] and polygon-based [43, 77, 39, 86, 56].",
+            "2": "Mask-based instance segmentation employs pixel-wise masks to represent the objects of interest, while polygon-based instance segmentation utilizes object contours, consisting of a set of vertices along the object boundaries [43, 39, 56] or a center point with a group of rays [77].",
+            "3": "Snake [56] and PolarMask [77].",
+            "4": "Two-stage Deep Snake [56] created initial octagon contours using a detector and then iteratively deformed them through a circular convolution network.",
+            "5": "Following the previous literature [43, 56, 39], the vertices of initialized polygons are sampled from an ellipse enclosed by the bounding box.",
+            "6": "5 Deep Snake [56] DLA-34 C30.",
+            "7": "For example, when using ResNet-50, BoxSnake surpasses PolarMask [77] and Deep Snake [56] by 2."
+        },
+        "Semi-supervised Hand Appearance Recovery via Structure Disentanglement and Dual Adversarial Discrimination": {
+            "authors": [
+                "Zimeng Zhao",
+                "Binghui Zuo",
+                "Zhiyu Long",
+                "Yangang Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Semi-Supervised_Hand_Appearance_Recovery_via_Structure_Disentanglement_and_Dual_Adversarial_CVPR_2023_paper.pdf",
+            "ref_texts": ""
+        },
+        "Unsupervised Contour Tracking of Live Cells by Mechanical and Cycle Consistency Losses": {
+            "authors": [
+                "Junbong Jang",
+                "Kwonmoo Lee",
+                "Kyun Kim"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Jang_Unsupervised_Contour_Tracking_of_Live_Cells_by_Mechanical_and_Cycle_CVPR_2023_paper.pdf",
+            "ref_texts": "[26] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference 235",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "The proposed architectural design achieves the best accuracy among variants, includingcircular convolutions [26], and correspondence matrix [4].",
+            "2": "There are conventional contour prediction methods such as Snake [15] or deep learningbased models such as DeepSnake [26] and DANCE [19], which performs real-time objection detection.",
+            "3": "From DeepSnake [26] and PoST [24], circular convolution is known to be effective for point regression given a sequence of contour points."
+        },
+        "TopDiG: Class-Agnostic Topological Directional Graph Extraction From Remote Sensing Images": {
+            "authors": [
+                "Bingnan Yang",
+                "Mi Zhang",
+                "Zhan Zhang",
+                "Zhili Zhang",
+                "Xiangyun Hu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Yang_TopDiG_Class-Agnostic_Topological_Directional_Graph_Extraction_From_Remote_Sensing_Images_CVPR_2023_paper.pdf"
+        },
+        "Iterative Next Boundary Detection for Instance Segmentation of Tree Rings in Microscopy Images of Shrub Cross Sections": {
+            "authors": [],
+            "url": "https://publica.fraunhofer.de/bitstreams/39866c0d-c305-407e-92b0-adcdc3c0f1c0/download",
+            "ref_texts": "[17] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Contour methods such as Deep Snake [17] or DANCE [13] can generate masks with higher precision but still require an upstream object detector.",
+            "2": "Method On a high level, INBD simply modifies and extends the various contour based methods like Deep Snake [17] or PolarMask [26] with an iterative inference procedure.",
+            "3": "By choosing a 2D network as opposed to a 1D one, as in many contour methods such as Deep Snake [17], we can leverage transfer learning since we are working in a low data regime and in addition to that we can reject and interpolate ambiguous predictions (see below, Eq.",
+            "4": "This second network has mostly the same architecture as the first one, except that we replace the normal 2D convolutions with circular convolutions to wrap around the full circle, as also used in Deep Snake [17].",
+            "5": "From the top-down category we compare with Mask-R-CNN [8] and Deep Snake [17]."
+        },
+        "Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2212.01579",
+            "ref_texts": "[57] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In IEEE Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020.",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "AP AP 50AP75 DeepSnake [57] DLA-34 [86] M 30.",
+            "2": "Deep Variational-based Instance Segmentation To further evaluate the proposed level-set based approach, we compare it with other deep variationalbased instance segmentation approaches, including DeepSnake [57], Levelset R-CNN [22] and DVIS700 [87].",
+            "3": "Among them, DeepSnake [57] is based on the classical snake method [28].",
+            "4": "As shown in Table 7, Box2Mask-C achieves comparable results to the fully supervised variationalbased methods, even outperforming DeepSnake [57] by 0:7%AP on COCO val dataset using ResNet50 as backbone."
+        },
+        "Contour-Based Wild Animal Instance Segmentation Using a Few-Shot Detector": {
+            "authors": [
+                "Jiaxi Tang",
+                "Yaqin Zhao",
+                "Liqi Feng",
+                "Wenxuan Zhao"
+            ],
+            "url": "https://www.mdpi.com/2076-2615/12/15/1980/pdf",
+            "ref_texts": "35. Peng, S.; Jiang, W.; Pi, H.; Li, X.; Bao, H.; Zhou, X. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "In the second stage, the initial wildlife bounding box is regarded as an initial rectangle contour and is input to deep snake [35] to approximate the final contour of the animal shape.",
+            "2": "In the second stage, the initial wildlife bounding box is regarded as an initial rectangle contour and is input to deep snake [35] to approximate the final contour of the animal shape.",
+            "3": "To solve this problem, we introduced the contour approximation submodule deep snake [35], in order to gradually deform the rectangular box into an animal shape.",
+            "4": "The deep snake block [35] takes this diam ond contour as input and then predicts four extreme points surrounding to the top, left most, bottom, and rightmost of the animal body.",
+            "5": "To solve this problem, we introduced the contour approximation submodule deep snake [35], in order to gradually deform the rectangular box into an animal shape.",
+            "6": "The deep snake block [35] takes this diamond contour as input and then predicts four extreme points surrounding to the top, leftmost, bottom, and rightmost of the animal body.",
+            "7": "In the deep snake network [35], CenterNet is used as the detector of initial rectangular boxes.",
+            "8": "Thus, we evaluated the performanc e of the proposed method with deep snake \n[35] and CenterNet with deep snake [35].",
+            "9": "2 In the deep snake network [35], CenterNet is used as the detector of initial rectangular boxes.",
+            "10": "Thus, we evaluated the performance of the proposed method with deep snake [35] and CenterNet with deep snake [35]."
+        },
+        "Reconstructing Floorplans from Point Clouds Using GAN": {
+            "authors": [
+                "Tianxing Jin",
+                "Jiayan Zhuang",
+                "Jiangjian Xiao",
+                "Ningyuan Xu",
+                "Shihao Qin"
+            ],
+            "url": "https://www.mdpi.com/2313-433X/9/2/39/pdf",
+            "ref_texts": "26. Peng, S.; Jiang, W.; Pi, H.; Li, X.; Bao, H.; Zhou, X. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 8533\u20138542. J. Imaging 2023 ,9, 39 14 of 14",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "introduced the snake algorithm into the target detection task; they use the bounding box predicted by center-net as the initial value of the contour, and then obtain instance masks by iterative deformation [26]."
+        },
+        "Boundarysqueeze: Image segmentation as boundary squeezing": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.11668",
+            "ref_texts": "[56] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "On top of that, Snake [34] and Deep Snake [56] refine the initial object contours recursively through some specific operations such as circular convolution."
+        },
+        "SuperpixelGraph: Semi-automatic generation of building footprint through semantic-sensitive superpixel and neural graph networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2304.05661",
+            "ref_texts": "3431\u20133440. Maggiori, E., Tarabalka, Y., Charpiat, G., Alliez, P., 2017. Can semantic labeling methods generalize to any city? the inria aerial image labeling benchmark, in: 2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), IEEE. pp. 3226\u20133229. Microsoft, 2018. Microsoft u.s. building footprints. https://github.com/microsoft/ USBuildingFootprints . Ng, T.C., Choy, S.K., Lam, S.Y., Yu, K.W., 2023. Fuzzy Superpixel-based Image Segmentation. Pattern Recognition 134, 109045. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X., 2020. Deep snake for real-time instance segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8533\u20138542. Qin, X., Zhang, Z., Huang, C., Dehghan, M., Zaiane, O.R., Jagersand, M., 2020. U2-net: Going deeper with nested u-structure for salient object detection. Pattern recognition 106, 107404. Ronneberger, O., Fischer, P., Brox, T., 2015. U-net: Convolutional networks for biomedical image segmentation, in: Medical Image Computing and Computer-Assisted Intervention\u2013MICCAI"
+        },
+        "On combining deepsnake and global saliency for detection of orchard apples": {
+            "authors": [
+                "Wang Jing",
+                "Wang Leqi",
+                "Han Yanling",
+                "Zhang Yun",
+                "Zhou Ruyan"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/11/14/6269/pdf",
+            "ref_texts": "23. Peng, S.; Jiang, W.; Pi, H.; Bao, H.; Zhou, X. Deep Snake for Real-Time Instance Segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 14\u201319 June 2020; pp. 8533\u20138542.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": ", proposed the DeepSnake algorithm to iteratively deform the initial contour through deep learning so as to obtain more accurate instance segmentation results [23].",
+            "2": "Materials and Methods The main function of the DeepSnake algorithm is based on deep learning to give the offset that needs to be adjusted for the points on the input initial contour, and iteratively deform the contour to obtain more accurate instance segmentation results [23].",
+            "3": "Materials and Methods The main function of the DeepSnake algorithm is based on deep learning to give the offset that needs to be adjusted for the points on the input initial contour, and iteratively deform the contour to obtain more accurate instance segmentation results [23].",
+            "4": ", used CenterNet for the initial detection of the target [23].",
+            "5": "From the detection and labeling results, the accuracy of the proposed algorithm is higher than that of [17] based on K-means and GA-RBF-LMS neural network detection in [19], based on the YOLO deep convolutional neural network algorithm, and in [23], the detection accuracy of CenterNet combined with the DeepSnake Algorithm was 14."
+        },
+        "Deep level set for box-supervised instance segmentation in aerial images": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2112.03451",
+            "ref_texts": "[31] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 8533\u20138542, 2020. 3",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Inspired by DeepSnake [31], we regard the rotated RoIs as the initial contour explicitly and Kverticesf(xk;yk)gk=1;:::K are uniformly sampled along each rotated RoI.",
+            "2": "The separate snake modules [31] are used to process the Kvertices to iteratively refine the contour vertices towards the groundtruth rotated bounding box."
+        },
+        "Fast object segmentation learning with kernel-based methods for robotics": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2011.12805",
+            "ref_texts": "[35] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "In [35], instead, the object\u2019s contour is not treated as a general graph, but it leverages the cycle graph topology and uses the circular convolution for efficient feature learning on a contour."
+        },
+        "Polygonal point set tracking": {
+            "authors": [
+                "Gunhee Nam",
+                "Miran Heo",
+                "Seoung Wug",
+                "Young Lee",
+                "Seon Joo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Nam_Polygonal_Point_Set_Tracking_CVPR_2021_paper.pdf",
+            "ref_texts": "[36] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2020.",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "Point set representation is also employed for image instance segmentation as well [36,29].",
+            "2": "Other options to handle the representation are proposed in those meth-ods such as circular convolution [36] and transformer [29].",
+            "3": "Backbone is constructed by stacking 8 base blocks where each block consists of two circular convolutions [36] followed by multi-head attention (MHA) [43]."
+        },
+        "End-to-end instance edge detection": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2204.02898",
+            "ref_texts": "50. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X.: Deep snake for real-time instance segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 8533\u20138542 (2020) 4",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Since then, researchers have explored various directions to improve efficiency [4,50] and effectiveness [29,31,13]."
+        },
+        "Recurrent Contour-based Instance Segmentation with Progressive Learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2301.08898",
+            "ref_texts": "[21] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2020, pp. 8533\u20138542. 1, 2, 3, 4, 6, 7, 8, 9, 10",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Another pioneering method is DeepSnake [21] which directly regresses the coordinates of contour vertices in the Cartesian coordinate system.",
+            "2": "Inspired by the classic Snake algorithm [22], DeepSnake [21] devises a neural network to evolve an initial contour to enclose the object boundary.",
+            "3": "Note that in the existing methods [21], [27], [28], the contour deformation modules are simply stacked, to include more times of refinement.",
+            "4": "Typically, the performance of DeepSnake [21] drops with more than 4 times contour adjustment.",
+            "5": "Some other works [21], [25], [27], [28], [45] apply Cartesian coordinate representation for vertices, and regress them towards ground-truth object boundaries.",
+            "6": "Typically, DeepSnake [21] first initializes the contours based on the box predictions, and then applies several contour deformation steps for segmentation.",
+            "7": "Based on DeepSnake [21], Dance [27] improves the matching scheme between predicted and target contours and introduces an attentive deformation mechanism.",
+            "8": "Based on CenterNet [51], both DeepSnake [21] and Dance [27] initialize a contour from the detected bounding box with a rectangle, while E2EC [28] directly regresses an ordered vertex set as the initial contour.",
+            "9": "Following [21], [27], [28], [54], we use the circle-convolution to fuse the feature of the contour.",
+            "10": "Note that we setR= 4 by default, following DeepSnake [21] and E2EC [28].",
+            "11": "Following previous methods [21], [28], all the ablations are studied on the SBD [30] dataset with 20 semantic categories, which well evaluates the algorithm capability to handle various object shapes.",
+            "12": "Results of DeepSnake [21] and our PolySnake on the performance (left) and the parameter numbers (right) at different time steps on the SBD val set [30].",
+            "13": "\u201c 0\u201d denotes the initial contour for DeepSnake [21] and PolySnake.",
+            "14": "For one thing, this can be attributed to the increased training difficulty of the large model size, which is verified in DeepSnake [21].",
+            "15": "For another, our effective information transmission mechanism across iterations and the supervision at each iteration maintain the performance (see Table 2), different from DeepSnake [21].",
+            "16": "We further compare our contour deformation pipeline with the classic DeepSnake [21].",
+            "17": "11, we present the results of PolySnake and DeepSnake [21] in terms of the performance (left) and the parameter numbers (right) at different iterations on the SBD val set [30].",
+            "18": "In DeepSnake [21], the iteration number is fixed as three by default.",
+            "19": "1 DeepSnake [21] CVPR\u201920 54.",
+            "20": "8 DeepSnake [21] CVPR\u201920 DLA-34 30.",
+            "21": "The network is trained and tested at a single scale of512\u0002512, following [21], [28], following DeepSnake [21].",
+            "22": "In Table 4, we compare the proposed PolySnake with other contour-based methods [21], [23], [24], [27], [28], [46] on the SBD val set [30].",
+            "23": "Compared with the classic DeepSnake [21], PolySnake yields 5.",
+            "24": "9 DeepSnake [21] CVPR\u201920 31.",
+            "25": "We outperform the classic DeepSnake [21] by 4.",
+            "26": "The inference time of method [21], [27], [28] and PolySnake are measured on a single RTX 2080Ti GPU, while we report the results of the other methods from their original papers.",
+            "27": "6 DeepSnake [21] fine 4.",
+            "28": "As suggested in DeepSnake [21], we apply the component detection strategy [9] to handle the fragmented instances, which are frequently occurred in the dataset.",
+            "29": "We choose the model performing best on the validation set and the evaluation is conducted at a single resolution of 1216\u00022432 , following DeepSnake [21].",
+            "30": "We outperform DeepSnake [21] by 3.",
+            "31": "Following the classic DeepSnake [21], the models are trained and tested at a Fig.",
+            "32": "Besides, our PolySnake outperforms DeepSnake [21] and E2EC [28] by 3.",
+            "33": "Similar to DeepSnake [21], our method also follows the paradigm of \u201cDetect then Segment\u201d.",
+            "34": "1, 2, 8\n[21] S."
+        },
+        "Polyline Generative Navigable Space Segmentation for Autonomous Visual Navigation": {
+            "authors": [],
+            "url": "http://vision.soic.indiana.edu/papers/polyline2023ral.pdf",
+            "ref_texts": "[10] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "The boundary could be represented by polylines/splines (represented by vertices or control points) [9], [10], which are naturally robust to noise in images.",
+            "2": "The polygon/spline representation is used in [10], [17]\u2013[20] to achieve fast and potentially interactive instance segmentation.",
+            "3": "[10] S."
+        },
+        "Weakly-supervised arbitrary-shaped text detection with expectation-maximization algorithm": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2012.00424",
+            "ref_texts": "[20] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2020. 3, 4",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Contour-Based Text Detection Inspired by [20], we propose a contour based arbitraryshaped text detector.",
+            "2": "In [39] and [20], octagon enclose the arbitrary-shaped object much tighter than the rectangle.",
+            "3": "After that, we adopt the Deep Snake, a contour regression model proposed by [20]."
+        },
+        "BARS: a benchmark for airport runway segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2210.12922",
+            "ref_texts": "41. Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8530\u20138539, 2020.",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Deep snake [41], DANCE [22], and Point-Set Anchors [42] deform an initial contour to match the object boundary."
+        },
+        "A coarse-to-fine instance segmentation network with learning boundary representation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.10213",
+            "ref_texts": "[6] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2020, pp. 8533\u20138542.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "Some works [5], [6], [9], [10] regress coordinates by gradually adjusting a set of initial points to targets.",
+            "2": "Influenced by active contour models, some works [5], [6] predict boundary points by gradually deforming from initial boundaries.",
+            "3": "Similarly, Deep Snake [6] employs CenterNet [23] to locate instances and then gradually deforms four midpoints of bounding boxes\u2019 edges to the target positions.",
+            "4": "To some extent, our method shares the \u201cgradually deforming\u201d idea of [5], [6], but our model is simpler and end-to-end trainable.",
+            "5": "Moreover, with simple end-to-end training, our method outperforms Deep Snake [6].",
+            "6": "[6] S."
+        },
+        "Deep Active Contour Models for Delineating Glacier Calving Fronts": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2307.03461",
+            "ref_texts": "[23] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2020, Seattle, WA, USA, June 13-19, 2020 . IEEE, 2020, pp. 8530\u20138539. SUBMITTED TO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING 12",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "[23] proposed to make not only the feature extraction part learnable, but the contour evolution step as well.",
+            "2": "[23], we develop a deep contour model for the delineation of glacier calving SUBMITTED TO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING 4 Snake HeadInitial Contour Intermediate Contour Backbone Input Feature MapFinal ContourSnake Head Fig.",
+            "3": "CALFIN TUD Baumhoer UNet [9] 224 m 288 m 122 m DeepUNet [13] 138 m 241 m 92 m HED-UNet [5] 130 m 231 m 122 m CALFIN [4] 138 m 159 m 99 m Deep Active Contours [22] 515 m 699 m 652 m Deep Snake RN50 [23] 289 m 467 m 247 m Deep Snake Xception [23] 123 m 316 m 130 m DANCE RN50 [24] 118 m 290 m 131 m DANCE Xception [24] 103 m 272 m 102 m COBRA (mean of 3) 99 m 144 m 99 m COBRA (standard deviation) \u00b110 m \u00b121m \u00b112m a) UNet [9]: This model is a popular semantic segmentation model that serves as a strong baseline for many segmentation tasks.",
+            "4": "b) Deep Snake [23]: Originally proposed as a contourbased model for instance segmentation, we have made slight changes to this model to perform calving front detection.",
+            "5": "c) Deep Attentive Contours (DANCE) [24]: An iteration of the Deep Snake [23] model, DANCE introduces an edge attention map that speeds up the evolution for vertices far from the true edge and slows the evolution for vertices on the true SUBMITTED TO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING 8 edge.",
+            "6": "1759 Deep Snake Xception [23] 0.",
+            "7": "Overall, both Deep Snake [23] and our proposed model appear to be best suited for uncertainty quantification using MC dropout, with very similar samples on easy scenes, and deviating samples in areas that are harder to delineate.",
+            "8": "[23] S."
+        },
+        "DArch: Dental Arch Prior-assisted 3D Tooth Instance Segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2204.11911",
+            "ref_texts": "[17] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "To estimate the dental arch of each dental model, we first formulate the dental arch by representing it as a curve passing through teeth centroids and then adopt a lightweight 1-D convolutional network to refine the dental arch [10, 17]."
+        },
+        "SE-PSNet: Silhouette-based Enhancement Feature for Panoptic Segmentation Network": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.05093",
+            "ref_texts": "[24] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 8533\u2013",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "DeepSnake [24] performs instance segmentation by deforming an initial contour to match object boundary with proposed circular convolution.",
+            "2": "Silhouette Features Inspired by PolarMask [27] and Deep snake [24] which formulate the instance segmentation problem as predicting contour, the silhouette can be viewed as a critical feature in the segmentation task.",
+            "3": "[24] S."
+        },
+        "Speeding Up Semantic Instance Segmentation by Using Motion Information": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2227-7390/10/14/2365/pdf",
+            "ref_texts": "51. Peng, S.; Jiang, W.; Pi, H.; Bao, H.; Zhou, X. Deep Snake for Real-Time Instance Segmentation. arXiv 2020 , arXiv:2001.01629.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "As we can observe, the Mask RCNN [3] pretrained model and the solutions proposed in [50,51] outperform our proposed solution."
+        },
+        "EffSeg: Efficient Fine-Grained Instance Segmentation using Structure-Preserving Sparsity": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2307.01545",
+            "ref_texts": "[25] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Another family of methods obtaining fine-grained segmentation masks, are contour-based methods [25, 21, 39]."
+        },
+        "Deformable Kernel Expansion Model for Efficient Arbitrary-shaped Scene Text Detection": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2303.15737"
+        },
+        "An elliptic centerness for object instance segmentation in aerial images": {
+            "authors": [],
+            "url": "https://downloads.spj.sciencemag.org/remotesensing/2022/9809505.pdf",
+            "ref_texts": "[10] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation, \u201dinProceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 8533 \u20138542, Seattle, USA, 2020.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "DeepSnake [10] introduces circular convolution, whichfinishes segmentation by transforming the box detected by CenterNet [19] into a polygon.",
+            "2": "[10] S."
+        },
+        "Learning panoptic segmentation from instance contours": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.11681",
+            "ref_texts": "[44] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2020.",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "Deep Snake [44] recently proposed to predict instance contours by learning contours from object detection.",
+            "2": "Other two-stage methods UPSNet [49] and DeepSnake [44] are lighter compared to Mask R-CNN and operate at\u00184 fps for instance segmentation task.",
+            "3": "3 DeepSnake [44] 37."
+        },
+        "Deep contour fragment matching algorithm for real-time instance segmentation": {
+            "authors": [],
+            "url": "https://www.oejournal.org/data/article/export-pdf?id=61de875d99d881528090e6a1",
+            "ref_texts": ""
+        },
+        "Real-time instance segmentation with polygons using an Intersection-over-Union loss": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.05490",
+            "ref_texts": "[17] J. Uhrig, E. Rehder, B. Fr \u00a8ohlich, U. Franke, and T. Brox, \u201cBox2Pix: Single-Shot Instance Segmentation by Assigning Pixels to Object Boxes,\u201d in 2018 IEEE Intelligent Vehicles Symposium (IV) , Jun. 2018, pp. 292\u2013299.[18] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep Snake for Real-Time Instance Segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , Apr. 2020.",
+            "ref_ids": [
+                "17",
+                "18"
+            ],
+            "1": "Box2Pix [17] combines bounding boxes and semantic segmentation to produce instance masks.",
+            "2": "Deep Snake [18] uses contour generation and iterative contour deformation to segment instances.",
+            "3": "00 >1 DeepSnake [18] Outline Hourglass-104 31.",
+            "4": "009 Box2Pix [17] Full GoogLeNet v1 13.",
+            "5": "[17] J.",
+            "6": "[18] S."
+        },
+        "\u5b9e\u65f6\u5b9e\u4f8b\u5206\u5272\u7684\u6df1\u5ea6\u8f6e\u5ed3\u6bb5\u843d\u5339\u914d\u7b97\u6cd5": {
+            "authors": [],
+            "url": "https://cn.oejournal.org/data/article/export-pdf?id=61de875d99d881528090e6a1",
+            "ref_texts": ""
+        },
+        "Weakly Supervised Volumetric Image Segmentation with Deformed Templates": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.03987",
+            "ref_texts": "[20] Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., Zhou, X.: Deep Snake for RealTime Instance Segmentation. In: Conference on Computer Vision and Pattern Recognition (2020) 3",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "This is addressed in [20] by introducing deep deformable contours that only need a simple approximate contour for initialization purposes.",
+            "2": "Unfortunately, the effectiveness of those that do not require training is limited [18, 12] while the others [2, 14, 20] require full supervision and are not applicable in our scenario.",
+            "3": "In: European Conference on Computer Vision (2016) 1, 3\n[20] Peng, S."
+        },
+        "Growing Instance Mask on Leaf": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2211.16738",
+            "ref_texts": "[20] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proc. CVPR , 2020, pp. 8533\u20138542.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "To pursue a straightforward and effective instance segmentation pipeline, recent methods [17], [18], [19], [20], [21], [11], [10], [22] formulated instance segmentation problem as contour points prediction.",
+            "2": "Some researches [18], [20], [21], [19], [11] proposed to regress ordered contour point sequences.",
+            "3": "It avoids multiple stages serial feature enhancement process in [20], [11], which brings gains with negligible costs.",
+            "4": "4 contour-basedmulti-stage DeepSnake [20] 128 30.",
+            "5": "As depicted in Table IIIb, for multi-stage contour-based methods (DeepSnake [20] and E2EC [11], the proposed method can achieve 32.",
+            "6": "[20] S."
+        },
+        "ContourRender: Detecting Arbitrary Contour Shape For Instance Segmentation In One Pass": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.03382",
+            "ref_texts": "[37] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020.",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "Aside from object detection, it also needs to predict the shape of the interested objects, which are usually represented by masks [16,19,29,23,6,45] or contours [52,50,37,5,1].",
+            "2": "While the former is widely adopted by the mainstream researches, the contour-based approaches draw increasing attentions, mostly due to the advantage on the control of the shape which is beneficial to applications such as automatic annotation [5,1,27], autonomous driving [18,46,37], and medical image analysis [14,42].",
+            "3": "1), previous works usually regress them cumbersomely during inference with iterative optimizations [37, 5, 1, 9, 2, 15, 14], cascaded optimizations [44], or compromised representations [52,42,50].",
+            "4": "Since [35] incorporated the active contour into an end-to-end learning framework, many improvements have been proposed [9,2,15,37,14].",
+            "5": "DeepSnake [37] proposed a circle convolution operator to adapt to the polygon representation.",
+            "6": "2 Contour-based DeepSnake [37] DLA-34 30.",
+            "7": "Backbone: Res50FPN means ResNet-50 [17] with FPN structure [25], Res101FPN can be inferred; RX means ResNext [51]; DCN is the deformable convolution [11]; DarkNet is introduced in [39]; DLA is introduced in [37].",
+            "8": "8 DeepSnake* [37] DLA-34 28.",
+            "9": "2 DeepSnake [37] DLA-34 31.",
+            "10": "Besides, our methods also beat the iterative approach DeepSnake [37], even though the latter approach use the iterative optimization to refine the contour while ours do not.",
+            "11": "We notice that a few methods [37,1] report AP metric on Cityscapes, to compare with them, we also report the AP metric on Cityscapes in Table 3."
+        },
+        "Deep Active Latent Surfaces for Medical Geometries": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.10241"
+        },
+        "Learning Stixel-based Instance Segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.03070",
+            "ref_texts": "[18] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u20138542, 2020.",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "While over the last years instance segmentation of pixel images has been addressed with increasingly high accuracy [14]\u2013[18], it remains a costly procedure, with state-of-the-art CNN-based methods reaching less than 5 fps on Cityscapes [17], [18].",
+            "2": "[17] AND [18] ARE PIXEL -BASED APPROACHES ON CITYSCAPES Stixels SSD boxes features component time (ms) fps 753 50 10 filtering 3.",
+            "3": "4\nDeep Snake [18] 217 4.",
+            "4": "00GHz)\n\u000fDeep Snake [18] with 4.",
+            "5": "StixelPointNet is also shown to be considerably faster than pixel-based approaches [17], [18] submitted to the same benchmark."
+        },
+        "Dynamic Detection and Recognition of Objects Based on Sequential RGB Images": {
+            "authors": [
+                "Shuai Dong",
+                "Zhihua Yang",
+                "Wensheng Li",
+                "Kun Zou"
+            ],
+            "url": "https://www.mdpi.com/1999-5903/13/7/176/pdf",
+            "ref_texts": "12. Peng, S.; Jiang, W.; Pi, H.; Li, X.; Bao, H.; Zhou, X. Deep Snake for Real-Time Instance Segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 8533\u20138542.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "In the past three years, two other deep-learning-based active contour methods, level set loss [11] and deep snake [12], have been developed and applied in segmentation tasks."
+        },
+        "Polyline Based Generative Navigable Space Segmentation for Autonomous Visual Navigation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2111.00063",
+            "ref_texts": "[10] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "The boundary could be represented by polylines/splines (represented by vertices or control points) [9], [10], which are naturally robust to noise in images.",
+            "2": "The polygon/spline representation is used in [10], [17]\u2013[20] to achieve fast and potentially interactive instance segmentation.",
+            "3": "[10] S."
+        },
+        "Joint object contour points and semantics for instance segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2008.00460",
+            "ref_texts": "[15] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, X. Zhou, Deep snake for real-time instance segmentation, in: Proceedings of the IEEE /CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 8533\u20138542.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "[15] S."
+        },
+        "SCR: Smooth Contour Regression with Geometric Priors": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2202.03784",
+            "ref_texts": "[23] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In CVPR , 2020. 1, 2, 5, 6",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Some other methods use active contours or snake algorithms [23].",
+            "2": "Snake-based methods [22, 23] represent shapes as polygons in pixel coordinates and deform them iteratively using circular convolutions.",
+            "3": "Quantitative comparison We compare our method to existing shape encoding methods [31, 35, 37], as well as state-of-the-art snake-based [22, 23] and mask-based methods [8, 20, 34].",
+            "4": "Method Ncoeff mAP FPS SEC OESSnakeDeepSnake [23] 256 31."
+        },
+        "Video region annotation with sparse bounding boxes": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2008.07049",
+            "ref_texts": ""
+        },
+        "Glacier Segmentation in Satellite Images for Hindu Kush Himalaya Region": {
+            "authors": [
+                "Bibek Aryal"
+            ],
+            "url": "https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=4139&context=open_etd",
+            "ref_texts": "[42]Peng, S., Jiang, W., Pi, H., Li, X., Bao, H., and Zhou, X. Deep Snake for Real-Time Instance Segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (2020), pp. 8533{8542.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Combination of deep learning and contour models have also 47 been shown to perform very well for the general segmentation tasks [42].",
+            "2": "[42]Peng, S."
+        },
+        "Efficient Methods for the Design and Training of Neural Networks": {
+            "authors": [],
+            "url": "https://ses.library.usyd.edu.au/bitstream/handle/2123/31183/Doctorial_Thesis_v2.0.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[135] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. \u201cDeep snake for real-time instance segmentation\u201d. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 2020, pp. 8533\u2013",
+            "ref_ids": [
+                "135"
+            ],
+            "1": "While contourbased methods [187, 135] can also obtain segmentation masks, it requires instance-level mask annotations, which are not always available.",
+            "2": "[135] S."
+        },
+        "Deep Learning in Medical Image Analysis": {
+            "authors": [
+                "Hao Tang"
+            ],
+            "url": "https://escholarship.org/content/qt86h3r9d1/qt86h3r9d1.pdf",
+            "ref_texts": "[99] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533{8542, 2020.",
+            "ref_ids": [
+                "99"
+            ],
+            "1": "This design draws inspiration from recent works [140, 99, 55] that employ iterative reffnement.",
+            "2": "[99] S."
+        },
+        "Discovering and Segmenting Unseen Objects for Robot Perception": {
+            "authors": [],
+            "url": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/47995/Xie_washington_0250E_23344.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[119] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2020.",
+            "ref_ids": [
+                "119"
+            ],
+            "1": "Other methods examine dense sliding-window instance segmentation on 4D tensors [32], combining top-down and bottom-up methods via blending modules [27], and alternative mask representations such as contours [119]."
+        },
+        "Computer vision for the analysis of intra-cellular RNA localization patterns": {
+            "authors": [],
+            "url": "https://www.theses.fr/2022UPSLM079.pdf",
+            "ref_texts": ""
+        },
+        "U2-ONet: A Two-level Nested Octave U-structure with Multiscale Attention Mechanism for Moving Instances Segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.13092",
+            "ref_texts": "[27] S. Peng, W. Jiang, H. Pi, X. Li, H. Bao, and X. Zhou, \u201cDeep snake for real-time instance segmentation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp.",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "Recently, a few works propose some novel contourbased approaches for real-time instance segmentation [27], [28].",
+            "2": "Deep Snake [27] uses the circular convolution for feature learning on the contour and proposes a two-stage pipeline including initial contour proposal and contour deformation for instance segmentation.",
+            "3": "[27] S."
+        },
+        "Pixel-level semantic segmentation based on gradient features": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/tli2gct4cjfgfp5r3xxabxnheu/access/wayback/https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12506/125066V/Pixel-level-semantic-segmentation-based-on-gradient-features/10.1117/12.2661794.pdf?SSO=1",
+            "ref_texts": ""
+        },
+        "Side Scan Sonar Shipwreck Image Recognition Algorithm based on Transfer Learning and Deep Learning": {
+            "authors": [],
+            "url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/66/e3sconf_icgec2021_02020.pdf"
+        },
+        "Learning for Object Localization with Imperfect Data": {
+            "authors": [
+                "Xiaolin Zhang"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/150838/2/02whole.pdf",
+            "ref_texts": "126 Papandreou, G., Chen, L.-C., Murphy, K. & Yuille, A. L., 2015, \u2018Weakly-and semisupervised learning of a dcnn for semantic image segmentation\u2019, arXiv preprint arXiv:1502.02734. Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L. & Lerer, A., 2017, \u2018Automatic differentiation in pytorch\u2019, Neural Information Processing Systems Workshop,. Peng, S., Jiang, W., Pi, H., Li, X., Bao, H. & Zhou, X., 2020, \u2018Deep snake for real-time instance segmentation\u2019, Proceedings IEEE Conference on Computer Vision and Pattern Recognition, pp. 8533\u20138542. Perazzi, F., Pont-Tuset, J., McWilliams, B., Van Gool, L., Gross, M. & Sorkine-Hornung, A., 2016, \u2018A benchmark dataset and evaluation methodology for video object segmentation\u2019, IEEE Conference on Computer Vision and Pattern Recognition, pp. 724\u2013732. Perez, E., Strub, F., De Vries, H., Dumoulin, V. & Courville, A., 2017, \u2018Film: Visual reasoning with a general conditioning layer\u2019, Proceedings of the AAAI Conference on Artificial Intelligence. Pont-Tuset, J., Perazzi, F., Caelles, S., Arbel \u00b4aez, P., Sorkine-Hornung, A. & Van Gool, L., 2017, \u2018The 2017 davis challenge on video object segmentation\u2019, arXiv:1704.00675. Qian, R., Wei, Y., Shi, H., Li, J., Liu, J. & Huang, T., 2019, \u2018Weakly supervised scene parsing with point-based distance metric learning\u2019, Proceedings of the AAAI Conference on Artificial Intelligence, , vol. 33pp. 8843\u20138850. Rabinovich, C. G. B. B. A. & Belongie, S., 2008, \u2018Weakly supervised object localization with stable segmentations\u2019, . Rakelly, K., Shelhamer, E., Darrell, T., Efros, A. & Levine, S., 2018, \u2018Conditional networks for few-shot semantic segmentation\u2019, International Conference on Learning Representations workshop."
+        },
+        "\u57fa\u4e8e 2D \u5faa\u73af\u5377\u79ef\u548c\u96be\u5ea6\u654f\u611f\u8f6e\u5ed3\u4ea4\u5e76\u6bd4\u635f\u5931\u7684 Deep Snake": {
+            "authors": [],
+            "url": "http://manu46.magtech.com.cn/Jweb_prai/CN/article/downloadArticleFile.do?attachType=PDF&id=12289"
+        },
+        "DisCnet: Pixel segmentation based on discrete features": {
+            "authors": [],
+            "url": "https://drpress.org/ojs/index.php/fcis/article/download/1460/1383",
+            "ref_texts": ""
+        },
+        "TopDiG: Class-agnostic Topological Directional Graph Extraction from Remote Sensing Images\u2013Supplementary Material": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Yang_TopDiG_Class-Agnostic_Topological_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[10] Sida Peng, Wen Jiang, Huaijin Pi, Xiuli Li, Hujun Bao, and Xiaowei Zhou. Deep snake for real-time instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8533\u2013",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "In terms of contour-based approaches, two influential workflows called Curve-GCN [8] and Deep Snake [10] are evaluated on polygon-shape targets.",
+            "2": "31 Deep Snake [10] [CVPR2020] DLA 0."
+        },
+        "Automatic semantic classification of": {
+            "authors": [
+                "Natthapol Saovana"
+            ],
+            "url": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/82244/31919_Dissertation.pdf",
+            "ref_texts": "91. https://doi.org/10.1016/j.jcde.2018.02.001 Mouats, T., Aouf, N., Nam, D., and Vidas, S. (2018). Performance Evaluation of Feature Detectors and Descriptors Beyond the Visible. In Journal of Intelligent and Robotic Systems: Theory and Applications (Vol. 92, Issue 1). Journal of Intelligent & Robotic Systems. https://doi.org/10.1007/s10846 -017-0762 -8 Musialski, P., Wonka, P., Aliaga, D. G., Wimmer, M., Van Gool, L., and Purgathofer, W. (2013). A survey of urban reconstruction. Computer Graphics Forum , 32(6), 146\u2013177. https://doi.org/10.1111/cgf.12077 Ning, X., Li, F., Tian, G., and Wang, Y. (2018). An efficient outlier removal method for scattered point cloud data. PLoS ONE , 13(8), 1 \u201322. https://doi.org/10.1371/journal.pone.0201280 N\u00fcchter, A., and Hertzberg, J. (2008). Towards semantic maps for mobile robots. Robotics and Autonomous Systems , 56(11), 915 \u2013926. https://doi.org/10.1016/j.robot.2008.08.001 Oron, S., Dekel, T., Xue, T., Freeman, W. T., and Avidan, S. (2018). Best -Buddies Similarity Robust Template Matching Using Mutual Nearest Neighbors. IEEE Transactions on Pattern Analysis and Machine Intelligence , 40(8), 1799 \u20131813. https://doi.org/10.1109/TPAMI.2017.2737424 Park, J., Cai, H., and Perissin, D. (2018). Bringing Information to the Field: Automated Photo Registration and 4D BIM. Journal of Computing in Civil Engineering , 32(2), 04017084. https://doi.org/10.1061/(ASCE)CP.1943 -5487.0000740 Park, Y., and Guldmann, J . M. (2019). Creating 3D city models with building footprints and LIDAR point cloud classification: A machine learning approach. Computers, Environment and Urban Systems , 75(January), 76 \u201389. https://doi.org/10.1016/j.compenvurbsys.2019.01.004 Peng, S., Jia ng, W., Pi, H., Li, X., Bao, H., and Zhou, X. (2020). Deep snake for real -time instance segmentation. Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition , 8530 \u20138539. https://doi.org/10.1109/CVPR42600.2020.00856 Pessoa, G. G., Amorim, A., Galo, M., and Galo, M. de L. B. T. (2019). Photogrammetric point cloud classification based on geometric and radiometric data integration. Boletim de Ciencias Geodesicas , 25(Special Issue), 1 \u201317. https://doi.org/10.1590/s1982 -21702 019000S00001 Politz, F., Kazimi, B., and Sester, M. (2018). Classification of Laser Scanning Data Using Deep Learning. Remote Sensing , 27(9), 597 \u2013610. http://www.mdpi.com/2072 -4292/8/9/730 Predescu, A. -D., and Triantafyllidis, G. (2018). Real -time, anthrop omorphic 3 -D scanning and voxel display system using consumer depth cameras as an interactive means of individual artistic expression through light. SHS Web of Conferences , 43, 01002. https://doi.org/10.1051/shsconf/20184301002 ",
+            "ref_ids": [
+                "91"
+            ]
+        },
+        "Semantic Segmentation Based on Improved Robinson Operator": {
+            "authors": [],
+            "url": "https://drpress.org/ojs/index.php/ajst/article/download/1433/1360",
+            "ref_texts": ""
+        }
+    }
+}

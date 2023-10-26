@@ -1,0 +1,28 @@
+{
+    "title": "iMoCap: Motion Capture from Internet Videos",
+    "id": 74,
+    "valid_pdf_number": "2/2",
+    "matched_pdf_number": "2/2",
+    "matched_rate": 1.0,
+    "citations": {
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[17] Junting Dong, Qing Shuai, Jingxiang Sun, Yuanqing Zhang, Hujun Bao, and Xiaowei Zhou. imocap: Motion capture from internet videos. IJCV , 2022.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Based on the statistical human model, most works [8,25,26,18,17,19] reconstruct the naked body mesh from various inputs and some works further add surface deformation to capture more details [63,27,48,11,61]."
+        },
+        "Research on Dance Motion Capture Technology for Visualization Requirements": {
+            "authors": [],
+            "url": "https://downloads.hindawi.com/journals/sp/2022/2062791.pdf",
+            "ref_texts": "[7] J. Dong, Q. Shuai, J. Sun, Y. Zhang, H. Bao, and X. Zhou, \u201ciMoCap:motioncapturefrominternetvideos,\u201d International Journal of Computer Vision, vol. 130, no. 5, pp. 1165\u20131180, 2022, (prepublish).",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "Accordingtotheneeds of the market and people, these animations can beplaced on the virtual platform, which is mainly used to save dance information, demonstrate dance content, and create new dance materials [7].",
+            "2": "[7] J."
+        }
+    }
+}

@@ -1,0 +1,474 @@
+{
+    "title": "Neural rays for occlusion-aware image-based rendering",
+    "id": 23,
+    "valid_pdf_number": "34/69",
+    "matched_pdf_number": "25/34",
+    "matched_rate": 0.7352941176470589,
+    "citations": {
+        "Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction": {
+            "authors": [
+                "Cheng Sun",
+                "Min Sun",
+                "Tzong Chen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf",
+            "ref_texts": "[31] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arxiv CS.CV 2107.13421 , 2021. 1, 3, 7",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "However, only few methods show training times speedup, and the improvements are not comparable to ours [1,10,31] or lead to worse quality [6,59].",
+            "2": "These methods rely on generalizable pre-training [6, 59, 67] or external MVS depth information [10, 31], while ours does not.",
+            "3": "Most recently, NeuRay [31] shows NeRF\u2019s quality with 40 minutes per-scene training time in the lower-resolution setup.",
+            "4": "MVSNeRF [6], IBRNet [59], and NeuRay [31] also show less per-scene training time than NeRF but with the additional cost to run a generalizable cross-scene pre-training.",
+            "5": "NeuRay [31] originally reports time in lower-resolution (NeuRay-Lo) setup, and we receive the training time of the high-resolution (NeuRayHi) setup from the authors.",
+            "6": "14 1 day (8xV100) 6 hrs (V100) NeuRay [31]\u2020 32."
+        },
+        "Regnerf: Regularizing neural radiance fields for view synthesis from sparse inputs": {
+            "authors": [
+                "Michael Niemeyer",
+                "Jonathan T. Barron",
+                "Ben Mildenhall",
+                "Mehdi S. M",
+                "Andreas Geiger",
+                "Noha Radwan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Niemeyer_RegNeRF_Regularizing_Neural_Radiance_Fields_for_View_Synthesis_From_Sparse_CVPR_2022_paper.pdf",
+            "ref_texts": "[30] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Theobalt Christian, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arXiv.org , 2021. 1, 2",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Several works have proposed conditional models to overcome these limitations [6, 8, 30, 56, 58, 62].",
+            "2": "Sparse Input Novel-View Synthesis: One approach for circumventing the requirement of dense inputs is to aggregate prior knowledge by pre-training a conditional model of radiance fields [6, 8, 20, 27, 30, 47, 56, 58, 62]."
+        },
+        "Geonerf: Generalizing nerf with geometry priors": {
+            "authors": [
+                "Mohammad Mahdi",
+                "Yann Lepoittevin",
+                "Francois Fleuret"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Johari_GeoNeRF_Generalizing_NeRF_With_Geometry_Priors_CVPR_2022_paper.pdf",
+            "ref_texts": "[32] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arXiv preprint arXiv:2107.13421 , 2021. 2",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Concurrent to our work, the followings also introduce a generalizable NeRF: RGBD-Net [38] builds a cost volume for the target view instead of source views, NeuralMVS [45] proposes a coarse to fine approach to increase speed, and NeuRay [32] proposes a method to deal with occlusions."
+        },
+        "Nerdi: Single-view nerf synthesis with language-guided diffusion as general image priors": {
+            "authors": [
+                "Congyue Deng",
+                "Charles R. Qi",
+                "Xinchen Yan",
+                "Yin Zhou",
+                "Leonidas Guibas",
+                "Dragomir Anguelov"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_NeRDi_Single-View_NeRF_Synthesis_With_Language-Guided_Diffusion_As_General_Image_CVPR_2023_paper.pdf",
+            "ref_texts": "[17] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 2",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Another line of work learns NeRF-based novel-view prediction for fewor single-image inputs by pre-training a scene prior on a large dataset of 3D scenes containing dense views [4, 5, 17, 43, 45, 52]."
+        },
+        "Sparf: Neural radiance fields from sparse and noisy poses": {
+            "authors": [
+                "Prune Truong",
+                "Julie Rakotosaona",
+                "Fabian Manhardt",
+                "Federico Tombari"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Truong_SPARF_Neural_Radiance_Fields_From_Sparse_and_Noisy_Poses_CVPR_2023_paper.pdf",
+            "ref_texts": "[25] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2022, New Orleans, LA, USA, June 18-24, 2022 , pages 7814\u20137823, 2022. 2",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Sparse input novel-view rendering: To circumvent the requirement of dense input views, a line of works [6,8,25,41, 46, 53] incorporates prior knowledge by pre-training conditional models of radiance fields on large posed multi-view datasets."
+        },
+        "Dynibar: Neural dynamic image-based rendering": {
+            "authors": [
+                "Zhengqi Li",
+                "Qianqian Wang",
+                "Forrester Cole",
+                "Richard Tucker",
+                "Noah Snavely"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_DynIBaR_Neural_Dynamic_Image-Based_Rendering_CVPR_2023_paper.pdf"
+        },
+        "Omniobject3d: Large-vocabulary 3d object dataset for realistic perception, reconstruction and generation": {
+            "authors": [
+                "Tong Wu",
+                "Jiarui Zhang",
+                "Xiao Fu",
+                "Yuxin Wang",
+                "Jiawei Ren",
+                "Liang Pan",
+                "Wayne Wu",
+                "Lei Yang",
+                "Jiaqi Wang",
+                "Chen Qian",
+                "Dahua Lin",
+                "Ziwei Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wu_OmniObject3D_Large-Vocabulary_3D_Object_Dataset_for_Realistic_Perception_Reconstruction_and_CVPR_2023_paper.pdf",
+            "ref_texts": "[35] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 7824\u2013",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "A branch of works [8, 27, 35, 48, 59, 71] has also explored the generalization ability of NeRF-based frameworks, where they aim to learn priors from deep image features across multiple scenes."
+        },
+        "NeuralLift-360: Lifting an In-the-Wild 2D Photo to a 3D Object With 360deg Views": {
+            "authors": [
+                "Dejia Xu",
+                "Yifan Jiang",
+                "Peihao Wang",
+                "Zhiwen Fan",
+                "Yi Wang",
+                "Zhangyang Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Xu_NeuralLift-360_Lifting_an_In-the-Wild_2D_Photo_to_a_3D_Object_CVPR_2023_paper.pdf",
+            "ref_texts": "[31] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 2",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "After its origin, tremendous efforts have been devoted to improving it [2,3,5,6,11,14,16,18,31,37,45,57,59,61,63,67,75]."
+        },
+        "Learning to render novel views from wide-baseline stereo pairs": {
+            "authors": [
+                "Yilun Du",
+                "Cameron Smith",
+                "Ayush Tewari",
+                "Vincent Sitzmann"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Du_Learning_To_Render_Novel_Views_From_Wide-Baseline_Stereo_Pairs_CVPR_2023_paper.pdf",
+            "ref_texts": "[25] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 2, 3",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Previous approaches for novel view synthesis of scenes focus on small baseline renderings using 3\u221210images as input [7, 8, 18, 25, 47, 53, 58].",
+            "2": "Ideas from multi-view stereo such as the construction of plane-swept cost volumes [7,18,25], or multi-view feature matching [8] have been used for higher-quality results."
+        },
+        "Local implicit ray function for generalizable radiance field representation": {
+            "authors": [
+                "Xin Huang",
+                "Qi Zhang",
+                "Ying Feng",
+                "Xiaoyu Li",
+                "Xuan Wang",
+                "Qing Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Local_Implicit_Ray_Function_for_Generalizable_Radiance_Field_Representation_CVPR_2023_paper.pdf",
+            "ref_texts": "[37] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , pages 7824\u20137833, 2022. 2, 3, 5, 6, 7",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "To overcome this problem, many researches [10, 12, 29, 33, 37, 58, 64, 70] introduce image-based rendering techniques to NeRF, which achieves generalization on unseen scenes.",
+            "2": "Furthermore, recent generalizable NeRF methods [29, 37] introduce multi-view depth estimation to reduce the artifacts caused by occlusions, but it is computationally expensive to construct the cost volume for each view.",
+            "3": "Recently, some generalizable NeRF-like methods have been proposed [10,12,29,33,37,64,70].",
+            "4": "To solve occlusions, NeuRay [37] and GeoNeRF [29] estimate depth using MVS methods [20, 68] and calculate the occlusion masks from the estimated depth maps.",
+            "5": "Usually, most generalizable methods [37, 64] extract dense image features from each source view by a U-Net [51] architecture with ResNet [22].",
+            "6": "The densities are predicted by checking the feature consistency, since local image features from different source views are usually consistent when the sample is on the object surface [37].",
+            "7": "Similar to most generalizable NeRF-like methods [29,37,64], the density is estimated by an auto-encoderstyle network [29] AEwhich aggregates information along a ray, and an MLP M\u03c3that maps features to densities, \u03c3=M\u03c3\u0000 AE(t2\u2032)\u0001\n.",
+            "8": "Results We evaluate our model on LLFF testing scenes and compare it against three state-of-the-art generalizable methods: IBRNet [64], NeuRay [37] and GeoNeRF [29].",
+            "9": "Quantitative comparisons of LIRF and its ablations against IBRNet [64], NeuRay [37] and GeoNeRF [29] on LLFF multi-scale testing dataset."
+        },
+        "MonoHuman: Animatable Human Neural Field from Monocular Video": {
+            "authors": [
+                "Zhengming Yu",
+                "Wei Cheng",
+                "Xian Liu",
+                "Wayne Wu",
+                "Yee Lin"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_MonoHuman_Animatable_Human_Neural_Field_From_Monocular_Video_CVPR_2023_paper.pdf",
+            "ref_texts": "[24] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 3",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "With the development of deep learning techniques, many works [7, 14, 17, 20, 24, 44, 46] introduce learnable components to the image-based rendering methods and improve the robustness.",
+            "2": "NeuRay [24] further predicts the visibility of 3D points to input views within their representation."
+        },
+        "Representing Volumetric Videos as Dynamic MLP Maps": {
+            "authors": [
+                "Sida Peng",
+                "Yunzhi Yan",
+                "Qing Shuai",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Representing_Volumetric_Videos_As_Dynamic_MLP_Maps_CVPR_2023_paper.pdf",
+            "ref_texts": "[32] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , 2022. 2",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "To reduce the number of input camera views, [1,7,22,28,32,53,62,74] estimate the scene geometry from input views, then use the geometry to warp input views to the target view, and finally blend warped images to the target image."
+        },
+        "Scannerf: a scalable benchmark for neural radiance fields": {
+            "authors": [
+                "Luca De",
+                "Damiano Bolognini",
+                "Federico Domeniconi",
+                "Daniele De",
+                "Matteo Poggi",
+                "Luigi Di"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/De_Luigi_ScanNeRF_A_Scalable_Benchmark_for_Neural_Radiance_Fields_WACV_2023_paper.pdf",
+            "ref_texts": "[21] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arxiv CS.CV 2107.13421 , 2021.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "The main approaches proposed in literature rely on a pre-training phase [49,7,6,44], deploy additional depth information estimated by means of Multi-View Stereo (MVS) methods [21,9], use neural rays [21], exploit explicit representations [2] or combine them with implicit ones [39,28]."
+        },
+        "NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions": {
+            "authors": [
+                "Juze Zhang",
+                "Haimin Luo",
+                "Hongdi Yang",
+                "Xinru Xu",
+                "Qianyang Wu",
+                "Ye Shi",
+                "Jingyi Yu",
+                "Lan Xu",
+                "Jingya Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_NeuralDome_A_Neural_Modeling_Pipeline_on_Multi-View_Human-Object_Interactions_CVPR_2023_paper.pdf",
+            "ref_texts": "[30] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , 2022. 2, 8",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "The recent NeRF [37] technique brings huge potential for 3D photorealistic view synthesis [9, 10, 30, 34, 36, 38, 39, 64, 69, 75] and geometry modeling [7, 33, 68].",
+            "2": "892 Neuray [30] 23.",
+            "3": "We provide a benchmark on sparse-view rendering tasks and evaluate on IBRNet [69], NeuRay [30] and NeuralHumanFVV [60].",
+            "4": "We show the comparison of IBRNet [69], NeuRay [30], NeuralHumanFVV [60] and our proposed NeuralHOIFVV ."
+        },
+        "SteerNeRF: Accelerating NeRF Rendering via Smooth Viewpoint Trajectory": {
+            "authors": [
+                "Sicheng Li",
+                "Hao Li",
+                "Yue Wang",
+                "Yiyi Liao",
+                "Lu Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SteerNeRF_Accelerating_NeRF_Rendering_via_Smooth_Viewpoint_Trajectory_CVPR_2023_paper.pdf",
+            "ref_texts": "[21] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Theobalt Christian, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2022. 2",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Many works have been conducted to address the limitations of NeRF, including unseen scene generalization [6, 21, 47, 57], dynamic scene representation [18,19,29\u201332,34], sparse view training [8,26], surface reconstruction [28, 46, 53, 54], and training acceleration [5, 39, 55]."
+        },
+        "Differentiable point-based radiance fields for efficient view synthesis": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3550469.3555413",
+            "ref_texts": "(1987), 273\u2013281. Anpei Chen, Zexiang Xu, Fuqiang Zhao, Xiaoshuai Zhang, Fanbo Xiang, Jingyi Yu, and Hao Su. 2021b. MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo. In Proc. ICCV . Zhe Chen, Shohei Nobuhara, and Ko Nishino. 2021a. Invertible Neural BRDF for Object Inverse Rendering. IEEE Trans. PAMI (2021). Yasutaka Furukawa and Jean Ponce. 2009. Accurate, Dense, and Robust Multiview Stereopsis. IEEE Trans. PAMI 32, 8 (2009), 1362\u20131376. Stephan J Garbin, Marek Kowalski, Matthew Johnson, Jamie Shotton, and Julien Valentin. 2021. FastNeRF: High-Fidelity Neural Rendering at 200FPS. In Proc. ICCV . Zhizhong Han, Chao Chen, Yu-Shen Liu, and Matthias Zwicker. 2020. DRWR: A Differentiable Renderer without Rendering for Unsupervised 3D Structure Learning from Silhouette Images. In Proc. ICML . Peter Hedman, Pratul P Srinivasan, Ben Mildenhall, Jonathan T Barron, and Paul Debevec. 2021. Baking neural radiance fields for real-time view synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision . 5875\u20135884. Sunghoon Im, Hae-Gon Jeon, Stephen Lin, and In So Kweon. 2019. DPSNet: End-toend Deep Plane Sweep Stereo. In Proc. ICLR . Naruya Kondo, Yuya Ikeda, Andrea Tagliasacchi, Yutaka Matsuo, Yoichi Ochiai, and Shixiang Shane Gu. 2021. Vaxnerf: Revisiting the classic for voxel-accelerated neural radiance field. arXiv preprint arXiv:2111.13112 (2021). Georgios Kopanas, Julien Philip, Thomas Leimk\u00fchler, and George Drettakis. 2021. Point-Based Neural Rendering with Per-View Optimization. In Computer Graphics Forum , Vol. 40. Wiley Online Library, 29\u201343. Christoph Lassner and Michael Zollhofer. 2021. Pulsar: Efficient sphere-based neural rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 1440\u20131449. Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. 2021. Neural Rays for Occlusion-aware Imagebased Rendering. arXiv:2107.13421. Stephen Lombardi, Tomas Simon, Jason Saragih, Gabriel Schwartz, Andreas Lehrmann, and Yaser Sheikh. 2019. Neural Volumes: Learning Dynamic Renderable Volumes from Images. ACM Trans. Graphics 38, 4, Article 65 (July 2019). Stephen Lombardi, Tomas Simon, Gabriel Schwartz, Michael Zollhoefer, Yaser Sheikh, and Jason Saragih. 2021. Mixture of volumetric primitives for efficient neural rendering. ACM Transactions on Graphics (TOG) 40, 4 (2021), 1\u201313. Ricardo Marroquim, Martin Kraus, and Paulo Roma Cavalcanti. 2007. Efficient PointBased Rendering Using Image Reconstruction. In Proc. PBG . 101\u2013108. Moustafa Meshry, Dan B Goldman, Sameh Khamis, Hugues Hoppe, Rohit Pandey, Noah Snavely, and Ricardo Martin-Brualla. 2019. Neural Rerendering in the Wild. InProc. CVPR . 6878\u20136887. Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In Proc. ECCV . Springer, 405\u2013421. Thomas Neff, Pascal Stadlbauer, Mathias Parger, Andreas Kurz, Joerg H Mueller, Chakravarty R Alla Chaitanya, Anton Kaplanyan, and Markus Steinberger. 2021. DONeRF: Towards Real-Time Rendering of Compact Neural Radiance Fields using Depth Oracle Networks. In Computer Graphics Forum , Vol. 40. Wiley Online Library, 45\u201359. Hanspeter Pfister, Matthias Zwicker, Jeroen Van Baar, and Markus Gross. 2000. Surfels: Surface Elements as Rendering Primitives. In Computer Graphics (Proc. SIGGRAPH) ."
+        },
+        "DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields": {
+            "authors": [
+                "Yu Chen",
+                "Gim Hee"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_DBARF_Deep_Bundle-Adjusting_Generalizable_Neural_Radiance_Fields_CVPR_2023_paper.pdf",
+            "ref_texts": "[25] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7814\u20137823. IEEE, 2022. 2",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "NeuRay [25] further predicts the visibility of 3D points to tackle the occlusion issue in previous GeNeRFs, and a consistency loss is also proposed to refine the visibility in per-scene fine-tuning."
+        },
+        "Deep Review and Analysis of Recent NeRFs": {
+            "authors": [
+                "Fang Zhu",
+                "Shuai Guo",
+                "Li Song",
+                "Ke Xu",
+                "Jiayu Hu"
+            ],
+            "url": "https://www.nowpublishers.com/article/OpenAccessDownload/SIP-2022-0062",
+            "ref_texts": "[50]Y. Liu, S. Peng, L. Liu, Q. Wang, P. Wang, C. Theobalt, X. Zhou, and W. Wang, \u201cNeural rays for occlusion-aware image-based rendering,\u201d inProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2022, 7824\u201333.",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Neuray [50] constructs the radiance field that focus on visible image features to improve rendering quality, and uses a consistency loss to refine the visibility when finetuning on a specific scene.",
+            "2": "Deep Review and Analysis of Recent NeRFs 27\n[50]Y."
+        },
+        "Semantic Ray: Learning a Generalizable Semantic Field with Cross-Reprojection Attention": {
+            "authors": [
+                "Fangfu Liu",
+                "Chubin Zhang",
+                "Yu Zheng",
+                "Yueqi Duan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Semantic_Ray_Learning_a_Generalizable_Semantic_Field_With_Cross-Reprojection_Attention_CVPR_2023_paper.pdf"
+        },
+        "ContraNeRF: Generalizable Neural Radiance Fields for Synthetic-to-real Novel View Synthesis via Contrastive Learning": {
+            "authors": [
+                "Hao Yang",
+                "Lanqing Hong",
+                "Aoxue Li",
+                "Tianyang Hu",
+                "Zhenguo Li",
+                "Gim Hee",
+                "Liwei Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Yang_ContraNeRF_Generalizable_Neural_Radiance_Fields_for_Synthetic-to-Real_Novel_View_Synthesis_CVPR_2023_paper.pdf",
+            "ref_texts": "[24] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , 2022. 2, 3, 5, 6, 7",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "In 3D scenes, geometry is related to multi-view appearance consistency [24, 37], and contrastive learning may help models predict accurate geometry by enhancing multi-view consistency.",
+            "2": "Experiments show that when trained on the synthetic data, our method outperforms the recent concurrent generalizable NeRF works [4, 19, 24, 37, 46] and can render high-quality novel view while preserving fine-grained details for unseen scenes.",
+            "3": "Therefore, generalization NeRF\n[4, 19, 24, 31, 37, 46, 47] has subsequently become a hot research direction which aims to construct a neural radiance field on-the-fly using only a few images as input.",
+            "4": "Neuray [24] further considers the visibility of each nearby view when constructing radiance fields and achieves good performance.",
+            "5": "Generalizable Neural Radiance Fields In this section, we first introduce the setting of Generalizable Neural Radiance Fields [4, 19, 24, 31, 37, 46, 47].",
+            "6": "Following [24, 37], we use the coarse-to-fine sampling strategy with 64 sample points in both stages.",
+            "7": "On each test scene, we leave out 1/8 number of images as test views and the rest images as source views following [19, 24, 37].",
+            "8": "We compare our method with state-of-the-art generalizable NeRF methods, including PixelNeRF [46], IBRNet [37], MVSNeRF [4], GeoNeRF [19] and Neuray [24].",
+            "9": "327) Neuray [24] 22.",
+            "10": "Note that in synthetic-to-real case, the interpolation-based generalizable NeRF method [19, 24, 37] performs better on color prediction than the method using the network to predict color [4].",
+            "11": "153 Neuray [24] 26.",
+            "12": "180 Neuray [24] 25.",
+            "13": "Other Benchmark Datasets To further demonstrate the effectiveness of our method, we also conduct experiments in the settings described in the previous generalizable NeRF methods [4, 19, 24, 37, 46].",
+            "14": "Following [24], we select four objects (birds, tools, bricks, and snowman) as test objects for DTU dataset, and the test images of DTU dataset all use black backgrounds.",
+            "15": "Following [24,37], we use both the synthetic and real data for model training."
+        },
+        "Is Attention All That NeRF Needs?": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=xE-LtsE-xx",
+            "ref_texts": "2367\u20132376, 2019. Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, et al. Conformer: Convolution-augmented transformer for speech recognition. arXiv preprint arXiv:2005.08100 , 2020. Meng-Hao Guo, Jun-Xiong Cai, Zheng-Ning Liu, Tai-Jiang Mu, Ralph R Martin, and Shi-Min Hu. Pct: Point cloud transformer. Computational Visual Media , 2021. John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin \u017d\u00eddek, Anna Potapenko, et al. Highly accurate protein structure prediction with alphafold. Nature , 2021. Hiroharu Kato, Yoshitaka Ushiku, and Tatsuya Harada. Neural 3d mesh renderer. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 3907\u20133916, 2018. Juho Lee, Yoonho Lee, Jungtaek Kim, Adam Kosiorek, Seungjin Choi, and Yee Whye Teh. Set transformer: A framework for attention-based permutation-invariant neural networks. In International conference on machine learning , pp. 3744\u20133753. PMLR, 2019. Marc Levoy. Display of surfaces from volume data. IEEE Computer graphics and Applications , 8(3): 29\u201337, 1988. Kai-En Lin, Lin Yen-Chen, Wei-Sheng Lai, Tsung-Yi Lin, Yi-Chang Shih, and Ravi Ramamoorthi. Vision transformer for nerf-based view synthesis from a single input image. arXiv preprint arXiv:2207.05736 , 2022. Kevin Lin, Lijuan Wang, and Zicheng Liu. End-to-end human pose and mesh reconstruction with transformers. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2021. Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , 2022. Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 10012\u201310022, 2021. Nelson Max. Optical models for direct volume rendering. IEEE Transactions on Visualization and Computer Graphics (TVCG) , 1995. Ben Mildenhall, Pratul P Srinivasan, Rodrigo Ortiz-Cayon, Nima Khademi Kalantari, Ravi Ramamoorthi, Ren Ng, and Abhishek Kar. Local light field fusion: Practical view synthesis with prescriptive sampling guidelines. ACM Transactions on Graphics (TOG) , 38(4):1\u201314, 2019. Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. Nerf: Representing scenes as neural radiance fields for view synthesis. In European conference on computer vision , pp. 405\u2013421. Springer, 2020. Michael Oechsle, Songyou Peng, and Andreas Geiger. Unisurf: Unifying neural implicit surfaces and radiance fields for multi-view reconstruction. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 5589\u20135599, 2021. Keunhong Park, Utkarsh Sinha, Jonathan T. Barron, Sofien Bouaziz, Dan B Goldman, Steven M. Seitz, and Ricardo Martin-Brualla. Nerfies: Deformable neural radiance fields. ICCV , 2021a."
+        },
+        "VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos": {
+            "authors": [
+                "Huiyu Gao",
+                "Wei Mao",
+                "Miaomiao Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Gao_VisFusion_Visibility-Aware_Online_3D_Scene_Reconstruction_From_Videos_CVPR_2023_paper.pdf",
+            "ref_texts": "[15] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 4",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "defined in [15, 25] where empty voxels are also treated as visible as long as they are not occluded2.",
+            "2": "L(l) w=1 ND(l)D(l)X d=1NX n=1(\u02c6W(l) dn\u2212W(l) dnPN m=1W(l) dm)2,(4)\n2Based on the definition of visibility in V oRTX [25] and NeuRay [15], besides surface voxels (points), all empty voxels (points) along the ray before it hits the surface are also defined as visible ."
+        },
+        "Self-improving multiplane-to-layer images for novel view synthesis": {
+            "authors": [
+                "Pavel Solovev",
+                "Taras Khakhulin",
+                "Denis Korzhenkov"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Solovev_Self-Improving_Multiplane-To-Layer_Images_for_Novel_View_Synthesis_WACV_2023_paper.pdf",
+            "ref_texts": "[20] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural Rays for Occlusion-aware Image-based Rendering. In CVPR , 2022.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Two natural origins for such input views are handheld videos of static scenes [24, 42, 20] and shots from a multi-camera rig [7, 2]."
+        },
+        "MixNeRF: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs": {
+            "authors": [
+                "Seunghyeon Seo",
+                "Donghoon Han",
+                "Yeonjin Chang",
+                "Nojun Kwak"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Seo_MixNeRF_Modeling_a_Ray_With_Mixture_Density_for_Novel_View_CVPR_2023_paper.pdf",
+            "ref_texts": "[22] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7824\u20137833, 2022. 1, 2",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "For the pre-training approach [5,7,13,16,20,22,31,34,37,42], a general 3D geometry is trained by the multi-view images from a large-scale dataset and per-scene finetuning is optionally conducted in the test time.",
+            "2": "The former approach [5,7,13,16,20, 22, 31, 34, 37, 42] provides prior knowledges to conditional models through pre-training."
+        },
+        "Boosting view synthesis with residual transfer": {
+            "authors": [
+                "Xuejian Rong",
+                "Bin Huang",
+                "Ayush Saraf",
+                "Changil Kim",
+                "Johannes Kopf"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Rong_Boosting_View_Synthesis_With_Residual_Transfer_CVPR_2022_paper.pdf",
+            "ref_texts": "[20] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arXiv preprint arXiv:2107.13421 , 2021. 2",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "To avoid per-scene optimization, several methods extract local features from training images and aggregate them using multi-view consistency to predict color and density [5,6,20,41,45]."
+        },
+        "Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design": {
+            "authors": [
+                "Yonggan Fu"
+            ],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3579371.3589109",
+            "ref_texts": "[17]YuanLiu,SidaPeng,LingjieLiu,QianqianWang,PengWang,ChristianTheobalt, XiaoweiZhou,andWenpingWang.2022. Neuralraysforocclusion-awareimagebasedrendering.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 7824\u20137833.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Totackletheaforementionedbottleneck-(1),generalizableNeRFs [5,17,43,46] have become the mainstream solution for improving NeRFs\u2019 generalization capability.",
+            "2": "2 ThePipeline of Generalizable NeRFs Generalizable NeRF variants [5,17,31,43] enable cross-scene generalizationviatwomodificationsontopofvanillaNeRFs:(1)conditioning NeRFs on the source views of new scenes, i.",
+            "3": "Inspiredby[39],weachievetheaforementionedgoalbydeveloping a module dubbed Ray-Mixer to fuse the density features {\ud835\udc53\ud835\udf0e\n\ud835\udc58}\ud835\udc41\n\ud835\udc58=1of all points along the same ray, which is to replace the attention operations commonly used in generalizable NeRFs [5,17, 31,43].",
+            "4": "Consideringthataper-scenefinetuningprocessontopofpretrainedgeneralizable NeRFs is found to enhance the reconstruction accuracy on a specificscene[5,17,43],wefurtherfinetuneGen-NeRF\u2019sdelivered models in Tab.",
+            "5": "To avoid per-scene optimization and enablethecross-scenegeneralizationcapabilityofNeRF,generalizable NeRF variants [5,13,17,31,42,43,45,46] are proposed to train cross-scene multi-view aggregators, which reconstruct theradiancefieldofanewsceneviaaone-shotforwardpass.",
+            "6": "[17] further predicts thevisibilityof3Dpointstoeachsourceviewtoavoidinconsistent featuresfrominvisibleviews.",
+            "7": "Inaddition,insteadoftargetingonespecifickindofNeRFs, ourdeliveredtechniquesandinsightscanbegenerallyapplicable to generalizable NeRF variants [5, 17, 31, 43, 46].",
+            "8": "[17]YuanLiu,SidaPeng,LingjieLiu,QianqianWang,PengWang,ChristianTheobalt, XiaoweiZhou,andWenpingWang."
+        },
+        "TinyNeRF: Towards 100 x Compression of Voxel Radiance Fields": {
+            "authors": [
+                "Tianli Zhao",
+                "Jiayuan Chen",
+                "Cong Leng",
+                "Jian Cheng"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25469/25241",
+            "ref_texts": "2020. Neural Sparse V oxel Fields. In International Conference on Neural Information Processing Systems, (NeurIPS) . Liu, Y .; Peng, S.; Liu, L.; Wang, Q.; Wang, P.; Theoboalt, C.; Zhou, X.; and Wang, W. 2022. Neural Rays for Occlusionaware Image-based Rendering. In IEEE Conference on Computer Vision and Pattern Recognition, (CVPR). Max, N. 1995. Optical models for direct volume rendering. IEEE Transactions on Visualization and Computer Graphics, 1. Mildenhall, B.; Srinivasan, P. P.; Barron, J. T.; Ramamoorthi, R.; and Ng, R. 2020. Representing Scences as Neural Radiance Fields for View Synthesis. In European Conference on Computer Vision, (ECCV).Niebner, M.; Zollhofer, M.; Izadi, S.; and Stamminger, M.",
+            "ref_ids": [
+                "2020"
+            ]
+        },
+        "NEnv: Neural Environment Maps for Global Illumination": {
+            "authors": [
+                "Jorge Lopez"
+            ],
+            "url": "https://diglib.eg.org/bitstream/handle/10.1111/cgf14883/v42i4_03_14883.pdf?sequence=1&isAllowed=y"
+        },
+        "MaskNeRF: Masked Neural Radiance Fields for Sparse View Synthesis": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=jpWa2RnZpIK",
+            "ref_texts": "10 Under review as a conference paper at ICLR 2023 Mohammad Mahdi Johari, Yann Lepoittevin, and Fran\u00e7ois Fleuret. Geonerf: Generalizing nerf with geometry priors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 18365\u201318375, 2022. James T Kajiya and Brian P V on Herzen. Ray tracing volume densities. ACM SIGGRAPH computer graphics , 18(3):165\u2013174, 1984. Mijeong Kim, Seonguk Seo, and Bohyung Han. Infonerf: Ray entropy minimization for few-shot neural volume rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 12912\u201312921, 2022. Jiaxin Li, Zijian Feng, Qi She, Henghui Ding, Changhu Wang, and Gim Hee Lee. Mine: Towards continuous depth mpi with nerf for novel view synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 12578\u201312588, 2021. Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. arXiv preprint arXiv:2107.13421 , 2021. Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 7824\u20137833, 2022. Nelson Max. Optical models for direct volume rendering. IEEE Transactions on Visualization and Computer Graphics , 1(2):99\u2013108, 1995. Ben Mildenhall, Pratul P Srinivasan, Rodrigo Ortiz-Cayon, Nima Khademi Kalantari, Ravi Ramamoorthi, Ren Ng, and Abhishek Kar. Local light field fusion: Practical view synthesis with prescriptive sampling guidelines. ACM Transactions on Graphics (TOG) , 38(4):1\u201314, 2019. Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. Nerf: Representing scenes as neural radiance fields for view synthesis. In European conference on computer vision , pp. 405\u2013421. Springer, 2020. Michael Niemeyer, Jonathan T Barron, Ben Mildenhall, Mehdi SM Sajjadi, Andreas Geiger, and Noha Radwan. Regnerf: Regularizing neural radiance fields for view synthesis from sparse inputs. arXiv preprint arXiv:2112.00724 , 2021. Konstantinos Rematas, Ricardo Martin-Brualla, and Vittorio Ferrari. Sharf: Shape-conditioned radiance fields from a single view. arXiv preprint arXiv:2102.08860 , 2021. Chris Rockwell, David F Fouhey, and Justin Johnson. Pixelsynth: Generating a 3d-consistent experience from a single image. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 14104\u201314113, 2021. Barbara Roessle, Jonathan T Barron, Ben Mildenhall, Pratul P Srinivasan, and Matthias Nie\u00dfner. Dense depth priors for neural radiance fields from sparse input views. arXiv preprint arXiv:2112.03288 , 2021. Umme Sara, Morium Akter, and Mohammad Shorif Uddin. Image quality assessment through fsim, ssim, mse and psnr\u2014a comparative study. Journal of Computer and Communications , 7(3):8\u201318, 2019. Johannes L Schonberger and Jan-Michael Frahm. Structure-from-motion revisited. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 4104\u20134113, 2016. Ruizhi Shao, Hongwen Zhang, He Zhang, Mingjia Chen, Yan-Pei Cao, Tao Yu, and Yebin Liu. Doublefield: Bridging the neural surface and radiance fields for high-fidelity human reconstruction and rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 15872\u201315882, 2022. Alex Trevithick and Bo Yang. Grf: Learning a general radiance field for 3d representation and rendering. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp."
+        },
+        "OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation Supplementary Materials": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Wu_OmniObject3D_Large-Vocabulary_3D_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[40] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 7824\u2013",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Most of the categories have [10, 40] objects.",
+            "2": "A branch of works [9, 40, 62, 77, 89] has also explored the generalization ability of NeRF-based frameworks.",
+            "3": "PixelNeRF [89], MVSNeRF [9], IBRNet [77], and NeuRay [40] reconstruct the radiance field with a mere forward pass during inference via training on cross-scenes."
+        },
+        "Supplementary Mateiral DynIBaR: Neural Dynamic Image-Based Rendering": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Li_DynIBaR_Neural_Dynamic_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[9]Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , 2022. 3",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Additional implementation details Global spatial coordinate embedding With local image feature aggregation alone, it is hard to determine density accurately on non-surface or occluded surface points due to inconsistent features from different source views, as described in NeuRay [9]."
+        },
+        "DINER: Depth-aware Image-based NEural Radiance fields\u2013Supplemental Document\u2013": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Prinzler_DINER_Depth-Aware_Image-Based_CVPR_2023_supplemental.pdf",
+            "ref_texts": ""
+        },
+        "Supplementary Material for Semantic Ray: Learning a Generalizable Semantic Field with Cross-Reprojection Attention": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Liu_Semantic_Ray_Learning_CVPR_2023_supplemental.pdf"
+        },
+        "Local Implicit Ray Function for Generalizable Radiance Field Representation (Supplementary Material)": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Huang_Local_Implicit_Ray_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[5] Yuan Liu, Sida Peng, Lingjie Liu, Qianqian Wang, Peng Wang, Christian Theobalt, Xiaowei Zhou, and Wenping Wang. Neural rays for occlusion-aware image-based rendering. In CVPR , pages 7824\u20137833, 2022. 1, 5",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "175 NeuRay [5] 27.",
+            "2": "Per scene quantitative comparisons of our LIRF and its ablations against IBRNet [8], NeuRay [5] and GeoNeRF [3] on LLFF [6] multi-scale testing dataset."
+        }
+    }
+}

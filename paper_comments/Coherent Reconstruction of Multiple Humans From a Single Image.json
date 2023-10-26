@@ -1,0 +1,1165 @@
+{
+    "title": "Coherent Reconstruction of Multiple Humans From a Single Image",
+    "id": 20,
+    "valid_pdf_number": "59/97",
+    "matched_pdf_number": "52/59",
+    "matched_rate": 0.8813559322033898,
+    "citations": {
+        "PARE: Part attention regressor for 3D human body estimation": {
+            "authors": [
+                "Muhammed Kocabas",
+                "Hao P. Huang",
+                "Otmar Hilliges",
+                "Michael J. Black"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Kocabas_PARE_Part_Attention_Regressor_for_3D_Human_Body_Estimation_ICCV_2021_paper.pdf",
+            "ref_texts": "[21] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In IEEE Conference on Computer Vision and Pattern Recognition , 2020. 3",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[21] use an interpenetration loss to avoid collision and an ordinal loss to resolve depth ambiguity."
+        },
+        "Animatable neural radiance fields for modeling dynamic human bodies": {
+            "authors": [
+                "Sida Peng",
+                "Junting Dong",
+                "Qianqian Wang",
+                "Shangzhan Zhang",
+                "Qing Shuai",
+                "Xiaowei Zhou",
+                "Hujun Bao"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Peng_Animatable_Neural_Radiance_Fields_for_Modeling_Dynamic_Human_Bodies_ICCV_2021_paper.pdf",
+            "ref_texts": "[21] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 2",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Based on SMPL, some works [48, 24, 27, 21, 13] reconstruct an animated human mesh from sparse camera views."
+        },
+        "Pymaf: 3d human pose and shape regression with pyramidal mesh alignment feedback loop": {
+            "authors": [
+                "Hongwen Zhang",
+                "Yating Tian",
+                "Xinchi Zhou",
+                "Wanli Ouyang",
+                "Yebin Liu",
+                "Limin Wang",
+                "Zhenan Sun"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_PyMAF_3D_Human_Pose_and_Shape_Regression_With_Pyramidal_Mesh_ICCV_2021_paper.pdf",
+            "ref_texts": "[18] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5579\u20135588, 2020. 2",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "Alternatively, taking advantage of the powerful nonlinear mapping capability of neural networks, recent regression-based approaches [22, 42, 40, 26, 9, 18, 8] have made significant advances in predicting human models directly from monocular images."
+        },
+        "Probabilistic modeling for human mesh recovery": {
+            "authors": [
+                "Nikos Kolotouros",
+                "Georgios Pavlakos",
+                "Dinesh Jayaraman",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kolotouros_Probabilistic_Modeling_for_Human_Mesh_Recovery_ICCV_2021_paper.pdf",
+            "ref_texts": "[15] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 3",
+            "ref_ids": [
+                "15"
+            ],
+            "1": ", [2, 11, 23, 39, 6, 9, 15]."
+        },
+        "Monocular, one-stage, regression of multiple 3d people": {
+            "authors": [
+                "Yu Sun",
+                "Qian Bao",
+                "Wu Liu",
+                "Yili Fu",
+                "Michael J. Black",
+                "Tao Mei"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Monocular_One-Stage_Regression_of_Multiple_3D_People_ICCV_2021_paper.pdf",
+            "ref_texts": "[15] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 1, 2, 3, 6, 7, 8",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Existing approaches [15, 22, 52, 53] follow a multi*This work was done when Yu Sun was an intern at JD AI Research.",
+            "2": "However, it is non-trivial to extend this bottom-up one-stage process beyond joints [15].",
+            "3": "Compared with previous state-of-the-art methods for multi-person [15, 52, 53] and single-person [22, 23] 3D mesh regression, ROMP achieves superior performance on challenging benchmarks, including 3DPW [49] and CMU Panoptic [18].",
+            "4": "[15] propose a network for Coherent Reconstruction of Multiple Humans (CRMH).",
+            "5": "46 CRMH [15] 105.",
+            "6": "For a fair comparison with previous methods [15, 20, 23, 47], the basic training datasets we used in the experiments include two 3D pose datasets (Human3.",
+            "7": "4 CRMH [15] 129.",
+            "8": "Method 3DPW-PC 3DPW-NC 3DPW-OC CRMH [15] 103.",
+            "9": "Follow-Split CRMH [15] ROMP ROMP+CAR Test 33.",
+            "10": "Method VIBE [22] CRMH [15] ROMP ROMP FPS\u2191 10.",
+            "11": "Following the evaluation protocol of CRMH [15], we evaluate ROMP on the multi-person benchmark, CMU Panoptic, without any fine-tuning.",
+            "12": "4 , ROMP outperforms the existing multi-stage methods [15, 52, 53] in all activities by a large margin.",
+            "13": "5 and 6 show that ROMP significantly outperforms previous state-of-the-art methods [15, 22].",
+            "14": "Qualitative comparisons to CRMH [15] on the Crowdpose and the internet images.",
+            "15": "4, compared with the multi-stage methods [15, 22], ROMP\u2019s processing time is roughly constant regardless of the number of people.",
+            "16": "Our experiments suggest that the difference between ROMP and the state-of-the-arts [15, 22, 23] is the method of representation learning."
+        },
+        "SPEC: Seeing people in the wild with an estimated camera": {
+            "authors": [
+                "Muhammed Kocabas",
+                "Hao P. Huang",
+                "Joachim Tesch",
+                "Lea Muller",
+                "Otmar Hilliges",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.pdf",
+            "ref_texts": "[24] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In IEEE Conference on Computer Vision and Pattern Recognition , 2020. 1, 3",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Despite rapid progress, we observe that most state-ofthe-art (SOTA) methods [5, 7, 15, 24, 26, 28, 29, 32, 35, 36, 47, 52, 59, 73, 74] make several simplifying assumptions about the image formation process itself.",
+            "2": "SOTA methods use parametric body models [27, 41, 47, 70] and estimate the parameters either by fitting to detected image features [5, 47, 66] or by regressing directly from pixels with deep neural networks [7, 15, 24, 26, 28, 35, 52, 53, 59, 71, 73, 74].",
+            "3": "Existing approaches [5, 7, 15, 24, 28, 32, 47, 59, 73] assume zero camera rotation, Rc=I, and estimate the camera translation tcin two ways: (1) by fitting the body joint coordinates to 2D keypoints [5, 47, 74] or (2) by predicting weak perspective camera parameters (s, tc x, tc y)with a neural network, where the scale parameter sis converted to tc z [28, 29, 32, 35]."
+        },
+        "Putting people in their place: Monocular regression of 3d people in depth": {
+            "authors": [
+                "Yu Sun",
+                "Wu Liu",
+                "Qian Bao",
+                "Yili Fu",
+                "Tao Mei",
+                "Michael J. Black"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Putting_People_in_Their_Place_Monocular_Regression_of_3D_People_CVPR_2022_paper.pdf",
+            "ref_texts": "[11] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , pages 5579\u2013",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "There has been rapid progress [22] on regressing the 3D pose and shape of individual (cropped) people [4, 15, 16, 18, 19, 26, 29, 35, 44, 45, 47, 49] as well as the direct regression of groups [11, 34].",
+            "2": "While previous multi-person methods perform well in constrained experimental settings, they struggle with severe occlusion, diverse body size and appearance, the ambiguity of monocular depth, and in-the-wild cases [11, 25, 38, 48].",
+            "3": "A few learning-based methods have been proposed for reasoning about the depth of predicted body meshes [11] or 3D poses [25, 38, 48].",
+            "4": "Unfortunately, they all reason about depth via 2D representations, such as RoI-aligned features [11, 25] or a 2D depth map [38, 48].",
+            "5": "On RH, compared with previous methods [11, 25, 38, 48], BEV is more accurate in relative depth reasoning and pose estimation.",
+            "6": "On CMU Panoptic, BEV outperforms previous methods [6, 11, 34, 42, 43] in 3D pose estimation.",
+            "7": "A few learning-based methods, like 3DMPPE [25] and CRMH [11], address multi-stage depth reasoning.",
+            "8": "For a fair comparison, we only use the samples that are also used for training in compared methods [11, 18, 19, 25, 34, 48].",
+            "9": "47 CRMH [11] 34.",
+            "10": "4 CRMH [11] 129.",
+            "11": "We first compare with the most competitive methods [11,25,48], which solve depth relations in monocular images.",
+            "12": "We compare with the stateof-the-art (SOTA) multi-stage methods [6,11,17,18,28,42, 43] and the one-stage ROMP [34].",
+            "13": "1, compared with CRMH [11], the depth reasoning accuracy of BEV w/o WST is 4."
+        },
+        "LEAP: Learning articulated occupancy of people": {
+            "authors": [
+                "Marko Mihajlovic",
+                "Yan Zhang",
+                "Michael J. Black",
+                "Siyu Tang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mihajlovic_LEAP_Learning_Articulated_Occupancy_of_People_CVPR_2021_paper.pdf",
+            "ref_texts": "[26] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proc. International Conference on Computer Vision and Pattern Recognition (CVPR) , 2020. 2,8",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Furthermore, the indexing step is inherently non-differentiable and its time complexity depends on the number of triangles [26], which further limits the applicability of the auxiliary data structures for learning pipelines that require differentiable inside/outside tests [21,68,69].",
+            "2": "This is significantly faster than [26] (25."
+        },
+        "GLAMR: Global occlusion-aware human mesh recovery with dynamic cameras": {
+            "authors": [
+                "Ye Yuan",
+                "Umar Iqbal",
+                "Pavlo Molchanov",
+                "Kris Kitani",
+                "Jan Kautz"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_GLAMR_Global_Occlusion-Aware_Human_Mesh_Recovery_With_Dynamic_Cameras_CVPR_2022_paper.pdf",
+            "ref_texts": "[37] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 2, 6",
+            "ref_ids": [
+                "37"
+            ]
+        },
+        "Decoupling human and camera motion from videos in the wild": {
+            "authors": [
+                "Vickie Ye",
+                "Georgios Pavlakos",
+                "Jitendra Malik",
+                "Angjoo Kanazawa"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Decoupling_Human_and_Camera_Motion_From_Videos_in_the_Wild_CVPR_2023_paper.pdf",
+            "ref_texts": "[16] Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments. PAMI , 2013. 5, 6[17] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 3",
+            "ref_ids": [
+                "16",
+                "17"
+            ],
+            "1": "[17] incorporate constraints that encourage the consistency of the multiple people in 3D using a Mask R-CNN [14] type of network, while Sun et al.",
+            "2": "6M [16], MPI-INF3DHP [34], MuPoTS-3D [35], PROX [13]).",
+            "3": "World PA Trajectory MPJPE (WA-MPJPE) reports MPJPE [16] after aligning the entire trajectories ofMethod W-MPJPE \u2193WA-MPJPE \u2193Acc Err \u2193PA-MPJPE \u2193 PHALP+[45] 387.",
+            "4": "3\n[16] Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu."
+        },
+        "Reconstructing hand-object interactions in the wild": {
+            "authors": [
+                "Zhe Cao",
+                "Ilija Radosavovic",
+                "Angjoo Kanazawa",
+                "Jitendra Malik"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Cao_Reconstructing_Hand-Object_Interactions_in_the_Wild_ICCV_2021_paper.pdf",
+            "ref_texts": "[16] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 3[17] Hiroharu Kato, Yoshitaka Ushiku, and Tatsuya Harada. Neural 3d mesh renderer. In CVPR , 2018. 4",
+            "ref_ids": [
+                "16",
+                "17"
+            ],
+            "1": "Our method is in line with recent optimization-based approaches for modeling 3D interactions between human and scene [13], human and objects [57], and among multiple persons [16].",
+            "2": "We use a differentiable renderer [17] to render 3D model into 2D mask and depth maps.",
+            "3": "3[17] Hiroharu Kato, Yoshitaka Ushiku, and Tatsuya Harada."
+        },
+        "3D human pose estimation via intuitive physics": {
+            "authors": [
+                "Shashank Tripathi",
+                "Lea Muller",
+                "Hao P. Huang",
+                "Omid Taheri",
+                "Michael J. Black",
+                "Dimitrios Tzionas"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Tripathi_3D_Human_Pose_Estimation_via_Intuitive_Physics_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Computer Vision and Pattern Recognition (CVPR) , pages 5578\u20135587, 2020.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "The latter methods focus on various aspects, such as expressiveness [13, 18, 63, 69, 87], clothed bodies [15, 88, 91], videos [24, 45, 78, 99], and multiperson scenarios [38, 75, 103], to name a few."
+        },
+        "Occluded human mesh recovery": {
+            "authors": [
+                "Rawal Khirodkar",
+                "Shashank Tripathi",
+                "Kris Kitani"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Khirodkar_Occluded_Human_Mesh_Recovery_CVPR_2022_paper.pdf",
+            "ref_texts": "[19] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020. 2, 3, 5, 7",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "following CRMH [19], we use an interpenetration loss to penalize intersections among reconstructed meshes and a differentiable depth-ordering loss for depth-consistent human mesh recovery.",
+            "2": "Related Work Deep learning has significantly advanced 3D human mesh recovery [7,10,12,24,29\u201332,35\u201337,60,67], facilitating the more challenging task of mesh recovery under severe multi-person occlusion [19,34,58,69,70], which is the main focus of this work.",
+            "3": "These biases have affected critical design decisions in state-of-the-art methods which lead to poor generalization under heavy occlusion [19,58].",
+            "4": "CRMH [19] handles multi-person scenarios by using RoI-aligned [14] features of each person to predict the SMPL [43] parameters.",
+            "5": "Following [19], we adopt two multi-person losses \u2013 i) interpenetration and ii) depth-ordering loss, refer Fig.",
+            "6": "We briefly describe the losses here for completeness but refer to [19] for more details.",
+            "7": "8 CRMH ?[19] 12."
+        },
+        "Direct multi-view multi-person 3d pose estimation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/6da9003b743b65f4c0ccd295cc484e57-Paper.pdf",
+            "ref_texts": "[17] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "When extending MvP to body mesh recovery, we applyL1loss for 3D joints from the SMPL model and their 2D projections, as well as an adversarial loss following HMR [22, 17, 47] due to lack of GT SMPL parameters."
+        },
+        "Human-aware object placement for visual environment reconstruction": {
+            "authors": [
+                "Hongwei Yi",
+                "Hao P. Huang",
+                "Dimitrios Tzionas",
+                "Muhammed Kocabas",
+                "Mohamed Hassan",
+                "Siyu Tang",
+                "Justus Thies",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yi_Human-Aware_Object_Placement_for_Visual_Environment_Reconstruction_CVPR_2022_paper.pdf",
+            "ref_texts": "[35] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Computer Vision and Pattern Recognition (CVPR) , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "[35] for each image is inefficient, as the required memory increases with the number of images."
+        },
+        "COAP: Compositional articulated occupancy of people": {
+            "authors": [
+                "Marko Mihajlovic",
+                "Shunsuke Saito",
+                "Aayush Bansal",
+                "Michael Zollhofer",
+                "Siyu Tang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mihajlovic_COAP_Compositional_Articulated_Occupancy_of_People_CVPR_2022_paper.pdf",
+            "ref_texts": "[16] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction ofmultiple humans from a single image. In IEEE Conf. Comput. Vis. Pattern Recog. , 2020. 2, 3",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "tetrahedral mesh) at every animation step and require an expensive optimization procedure to untangle self-intersecting bodies, which makes them unsuitable for image-based human reconstruction tasks [16, 35, 45].",
+            "2": "Similarly, [16] propose to detect collisions between two human body meshes by dynamically calculating 3D SDF grids, which is memory and computationally expensive (\u001925s for 2563grids) and erroneous when the meshes self-intersect."
+        },
+        "Accurate 3D body shape regression using metric and semantic attributes": {
+            "authors": [
+                "Vasileios Choutas",
+                "Lea Muller",
+                "Hao P. Huang",
+                "Siyu Tang",
+                "Dimitrios Tzionas",
+                "Michael J. Black"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Choutas_Accurate_3D_Body_Shape_Regression_Using_Metric_and_Semantic_Attributes_CVPR_2022_paper.pdf",
+            "ref_texts": "[25] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Computer Vision and Pattern Recognition (CVPR) , pages 5578\u20135587, 2020. 3",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Regression-based methods[9, 14, 25, 27, 30, 33, 35, 40, 66] are currently based on deep neural networks that directly regress model parameters from image pixels."
+        },
+        "Body meshes as points": {
+            "authors": [
+                "Jianfeng Zhang",
+                "Dongdong Yu",
+                "Jun Hao",
+                "Xuecheng Nie",
+                "Jiashi Feng"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Body_Meshes_as_Points_CVPR_2021_paper.pdf",
+            "ref_texts": "[20] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "mainly two-stage solutions, including top-down [20] and bottom-up [69] approaches.",
+            "2": "[20] attach an SMPL head to the Faster R-CNN framework [51] for estimating SMPL parameters directly from the input image in a top-down manner.",
+            "3": "Existing approaches [70,69,20] solve this task via sequentially localizing and estimating the body mesh in a multi-stage manner, leading to computation redundancy.",
+            "4": "We resize all images to 832\u00d7512 while keeping the same aspect ratio following the original COCO training scheme [57,65,20].",
+            "5": "Due to its high-quality annotations, we use it following [20] for both training and testing.",
+            "6": "6M dataset with most competitive approaches [24,20] sharing the similar regression target and learning strategy.",
+            "7": "Method HMR [24] CRMH [20] BMP PA-MPJPE 56.",
+            "8": "We first evaluate it on the multi-person dataset captured in the indoor Panoptic Studio [23] and compare with the most competitive approaches [69,70,20].",
+            "9": "Overall, it improves upon the state-of-the-art top-down model CRMH [20] by 5.",
+            "10": "3 CRMH [20] 129.",
+            "11": "We compare our method against two strong baselines, 1) the combination of OpenPose [6] with single-person mesh recovery methods (SMPLifyX [46] and HMR [24]), and 2) the state-of-the-art top-down approach CRMH [20].",
+            "12": "26 CRMH [20] 69.",
+            "13": "As shown in Table 5, our BMP outperforms CRMH [20] and SPIN [26] in terms of 3DPCK while maintaining an attractive efficiency, and achieves comparable results with VIBE [25] without relying on any temporal information.",
+            "14": "7 CRMH [20]25.",
+            "15": "[42] and CRMH [20], we observe BMP achieves higher accuracy w.",
+            "16": "Method Moon [42]CRMH [20]BMP w/o Lrank BMP Accuracy 90."
+        },
+        "Benchmarking and analyzing 3d human pose and shape estimation beyond algorithms": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a727a08774b61b0c754c2183d3ecd4fc-Paper-Datasets_and_Benchmarks.pdf",
+            "ref_texts": "[24] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition , pp. 5578\u20135587, 2020. ISSN",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Over the years, a substantial amount of novel algorithms have been proposed [36,18,35,24,8,54,29,37,12,34,33], which significantly improve the recovery accuracy."
+        },
+        "PoseTriplet: Co-evolving 3D human pose estimation, imitation, and hallucination under self-supervision": {
+            "authors": [
+                "Kehong Gong",
+                "Bingbing Li",
+                "Jianfeng Zhang",
+                "Tao Wang",
+                "Jing Huang",
+                "Michael Bi",
+                "Jiashi Feng",
+                "Xinchao Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Gong_PoseTriplet_Co-Evolving_3D_Human_Pose_Estimation_Imitation_and_Hallucination_Under_CVPR_2022_paper.pdf",
+            "ref_texts": "[19] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 7",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "5 Full CRMH [19] \u2713 105."
+        },
+        "Thundr: Transformer-based 3d human reconstruction with markers": {
+            "authors": [
+                "Mihai Zanfir",
+                "Andrei Zanfir",
+                "Eduard Gabriel",
+                "William T. Freeman",
+                "Rahul Sukthankar",
+                "Cristian Sminchisescu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Zanfir_THUNDR_Transformer-Based_3D_Human_Reconstruction_With_Markers_ICCV_2021_paper.pdf",
+            "ref_texts": "[14] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , pages 5579\u20135588, 2020. 2",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "Methods sometimes referred as \u2018modelbased\u2019 [39,16,10,27,14,3,36,41,2,40,9] rely on statistical human body models like SMPL or GHUM, whereas others sometimes referred to as \u2018model-free\u2019 [32,31,13,40,20] rely on predicting a set of markers or mesh positions, without forms of statistical surface or kinematic regularization based on human anthropometry."
+        },
+        "Shape-aware multi-person pose estimation from multi-view images": {
+            "authors": [
+                "Zijian Dong",
+                "Jie Song",
+                "Xu Chen",
+                "Chen Guo",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Dong_Shape-Aware_Multi-Person_Pose_Estimation_From_Multi-View_Images_ICCV_2021_paper.pdf",
+            "ref_texts": "[21] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Leveraging the learning-based method, 3D poses can be recovered by lifting detected 2D poses [41, 42, 55], or directly regressing 3D poses [3, 13, 48, 53], or by fitting parametric human body models [21, 53]."
+        },
+        "Hi4d: 4d instance segmentation of close human interaction": {
+            "authors": [
+                "Yifei Yin",
+                "Chen Guo",
+                "Manuel Kaufmann",
+                "Juan Jose",
+                "Jie Song",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yin_Hi4D_4D_Instance_Segmentation_of_Close_Human_Interaction_CVPR_2023_paper.pdf",
+            "ref_texts": "[34] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020. 3",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "[18, 19, 34, 41, 42, 55, 66, 67, 71], mainly deal with the case where people are far away from each other and do not interact naturally in close range."
+        },
+        "Human mesh recovery from multiple shots": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Jitendra Malik",
+                "Angjoo Kanazawa"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Pavlakos_Human_Mesh_Recovery_From_Multiple_Shots_CVPR_2022_paper.pdf",
+            "ref_texts": "[19] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 4",
+            "ref_ids": [
+                "19"
+            ],
+            "1": ", humans and humans [19,40,57], or humans and objects [63,71]."
+        },
+        "Holistic 3d human and scene mesh estimation from single view images": {
+            "authors": [
+                "Zhenzhen Weng",
+                "Serena Yeung"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Weng_Holistic_3D_Human_and_Scene_Mesh_Estimation_From_Single_View_CVPR_2021_paper.pdf",
+            "ref_texts": "[18] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020. 5",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "Although some pose estimation works [11] [18] have incorporated body collision losses, prior works in scene understanding have not explored this loss, because they either did not have the object shape information necessary to calculate the precise collision [14] [4], or did not take advantage of the object shape information that comes with the meshes [27]."
+        },
+        "Learning to estimate robust 3d human mesh from in-the-wild crowded scenes": {
+            "authors": [
+                "Hongsuk Choi",
+                "Gyeongsik Moon",
+                "Kyu Park",
+                "Kyoung Mu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Choi_Learning_To_Estimate_Robust_3D_Human_Mesh_From_In-the-Wild_Crowded_CVPR_2022_paper.pdf",
+            "ref_texts": "[14] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 5, 7",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "Following [14, 50], we pick four sequences presenting 3 to 7 people socializing each other for the evaluation.",
+            "2": "[14] 69.",
+            "3": "The numbers denote 3DPCK for all annotations (All) and annotations matched to a prediction (Matched), and are brought from [14].",
+            "4": "[14] 129.",
+            "5": "[14]."
+        },
+        "Hum3dil: Semi-supervised multi-modal 3d humanpose estimation for autonomous driving": {
+            "authors": [
+                "Anonymous Submission"
+            ],
+            "url": "https://proceedings.mlr.press/v205/zanfir23a/zanfir23a.pdf",
+            "ref_texts": "[17] W. Jiang, N. Kolotouros, G. Pavlakos, X. Zhou, and K. Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "There are two main classes of methods, the first of which is model based [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] and relies on statistical human body models like SMPL [24] or GHUM [25].",
+            "2": "[17, 44, 45]), to improve the error and processing speed.",
+            "3": "[17] W."
+        },
+        "Adversarial parametric pose prior": {
+            "authors": [
+                "Andrey Davydov",
+                "Anastasia Remizova",
+                "Victor Constantin",
+                "Sina Honari",
+                "Mathieu Salzmann",
+                "Pascal Fua"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Davydov_Adversarial_Parametric_Pose_Prior_CVPR_2022_paper.pdf",
+            "ref_texts": "[9] W. Jiang, N. Kolotouros, G. Pavlakos, X. Zhou, and K. Daniilidis. Coherent Reconstruction of Multiple Humans from a Single Image. In Conference on Computer Vision and Pattern Recognition , 2020. 2, 3",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "SMPL Parameter Estimation Since the introduction of the SMPL body model, many approaches have aimed to estimate the SMPL parameters given either an image [5, 9, 11, 23], some labels, such as 2D or 3D pose [1, 2, 22], or body silhouettes [14].",
+            "2": "Since then it has been used in several other works, such as [5, 9, 23].",
+            "3": "7, 8\n[9] W."
+        },
+        "Remips: Physically consistent 3d reconstruction of multiple interacting people under weak supervision": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/a1a2c3fed88e9b3ba5bc3625c074a04e-Paper.pdf",
+            "ref_texts": "[2]Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "There are multi people reconstruction methods which either predict 3D pose only and defer the shape reconstruction step to a later optimization step[1] or rely on an orthographic camera model [2].",
+            "2": "Most reconstruction methods focus on estimating the 3D pose and shape of a single person [5,12,13,14,15] although, more recently, several papers focused on reconstructing multiple people coherently [2, 16, 1, 17].",
+            "3": "We train the network by optimizing the following loss function: L=Lsc+Lic+Lics+Lscs+Ld+Lka+L\u0012+Lff (5) where the first 5loss terms correspond to the physical plausibility of the reconstructed meshes as follows:LscandLicare the self-collision loss and the interpenetration loss, respectively; Lics andLscscorrespond to the supervised self-contact [4] and interaction-contact [3] losses;Ldis the depth-aware ordering loss from [2].",
+            "4": "For interpenetration collision, the most popular approach [22,2] is to first voxelize the two meshes and then compute a signed distance field (SDF) for each of them.",
+            "5": "5 Depth-Ordering Loss We follow the same procedure as in [2] to train using a depth-ordering loss.",
+            "6": "Similarly to [2], the instance person segmentation masks are used for computing the depth-ordering loss, in training only.",
+            "7": "We use the same data selection as in [16,2] resulting in 9.",
+            "8": "We follow the evaluation protocol from [16,1,2] (without training on any data from the Panoptic dataset).",
+            "9": "We present state-of-the-art results in table 2, showing that REMIPS performs better than other optimization[16] or inference-based multiple people reconstruction methods [1, 2].",
+            "10": "[2] 129:6133:5 153:0 156:7 143:2 REMIPS (ours) 121:6 137:1146:4148:0138:3 Table 2: Performance on the Panoptic [33] dataset for pose and shape reconstruction methods focusing on multiple people.",
+            "11": "The evaluation protocol is the same as the one in [16,1,2].",
+            "12": "In table 3, we present state-of-the-art results when we compare again against optimization [3] and inference only [2] methods.",
+            "13": "To run the model from [2] on the CHI3D [3] dataset, we use their publicly available code repository.",
+            "14": "[2] 136:0 N/A N/A 100K300K REMIPS (ours) 120:8134:7 284:1 115K 0 Table 3: Performance on the CHI3D [3] dataset for multiple person pose and shape reconstruction methods.",
+            "15": "We evaluate each scenario on the Panoptic dataset [33] where we report the MPJPE under the same protocol as in [16,1,2], averaged across all frames and actions."
+        },
+        "Part-aware measurement for robust multi-view multi-human 3d pose estimation and tracking": {
+            "authors": [
+                "Hau Chu",
+                "Hong Lee",
+                "Chih Lee",
+                "Hsien Hsu",
+                "Da Li",
+                "Song Chen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021W/AMFG/papers/Chu_Part-Aware_Measurement_for_Robust_Multi-View_Multi-Human_3D_Pose_Estimation_and_CVPRW_2021_paper.pdf",
+            "ref_texts": "[16] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "16"
+            ],
+            "1": "Recently, plenty of nicely performed 2D pose estimation approaches [8,37,6] have been developed; they have then been extended to the estimation of 3D poses from a monocular view [14,16].",
+            "2": "3D Human Pose Estimation Depending on the number of input cameras, 3D human pose estimation methods are divided into a monocular camera for taking single-view video [2,23,31,14,21,10,22, 16,38] and multiple cameras for taking multi-view videos synchronously [3,13,4,32,11,26,7,36,39,35]."
+        },
+        "Multi-person extreme motion prediction": {
+            "authors": [
+                "Wen Guo",
+                "Xiaoyu Bie",
+                "Xavier Alameda",
+                "Francesc Moreno"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Multi-Person_Extreme_Motion_Prediction_CVPR_2022_paper.pdf",
+            "ref_texts": "[34] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020. 2.2",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Modeling such interactions and the contextual information has been proven to be effective in the topic of 3D human pose estimation [27, 28, 34, 68, 69, 72]."
+        },
+        "Cloth-vton: Clothing three-dimensional reconstruction for hybrid image-based virtual try-on": {
+            "authors": [
+                "Matiur Rahman",
+                "Heejune Ahn"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ACCV2020/papers/Minar_CloTH-VTON_Clothing_Three-dimensional_reconstruction_for_Hybrid_image-based_Virtual_Try-ON_ACCV_2020_paper.pdf",
+            "ref_texts": "43. Jiang, W., Kolotouros, N., Pavlakos, G., Zhou, X., Daniili dis, K.: Coherent reconstruction of multiple humans from a single image. In: Proceed ings of the IEEE/CVFConferenceonComputerVisionandPatternRecognitio n.(2020)5579\u2013",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "[43] detect multiple 3D humans from single images, and VIBE [44] estimates multiple 3D humans from videos."
+        },
+        "PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers": {
+            "authors": [
+                "Zhongwei Qiu",
+                "Qiansheng Yang",
+                "Jian Wang",
+                "Haocheng Feng",
+                "Junyu Han",
+                "Errui Ding",
+                "Chang Xu",
+                "Dongmei Fu",
+                "Jingdong Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Qiu_PSVT_End-to-End_Multi-Person_3D_Pose_and_Shape_Estimation_With_Progressive_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , pages 5579\u2013",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Compared with single-person method [32] and other multiperson methods [11, 44, 45, 56], PSVT achieves a PCDR0:2 of 71.",
+            "2": "47 CRMH [11] 34.",
+            "3": "4 CRMH [11] 129."
+        },
+        "Music-Driven Group Choreography": {
+            "authors": [
+                "Nhat Le",
+                "Thang Pham",
+                "Tuong Do",
+                "Erman Tjiputra",
+                "Quang D. Tran",
+                "Anh Nguyen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Le_Music-Driven_Group_Choreography_CVPR_2023_paper.pdf",
+            "ref_texts": "[22] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 3",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Given the 3D motion sequence of each dancer p:{\u03b8p t,\u03c4p t}, we further resolve the motion trajectory problems in group dance by solving the following objective: Eglobal=EJ+\u03bbpenEpen+\u03bbreg/summationdisplay pEreg(p)\n+\u03bbdep/summationdisplay p,p\u2032,tEdep(p,p\u2032,t)+\u03bbgc/summationdisplay pEgc(p),(2) whereEpen is the Signed Distance Function penetration term based on [22] to prevent the overlapping of reconstructed motions between dancers."
+        },
+        "Crowd3D: Towards hundreds of people reconstruction from a single image": {
+            "authors": [
+                "Hao Wen",
+                "Jing Huang",
+                "Huili Cui",
+                "Haozhe Lin",
+                "Kun Lai",
+                "Lu Fang",
+                "Kun Li"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_Crowd3D_Towards_Hundreds_of_People_Reconstruction_From_a_Single_Image_CVPR_2023_paper.pdf",
+            "ref_texts": "[13] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020. 1, 3, 6, 7",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Existing methods [13,35] reconstruct 3D poses, shapes and relative positions of the reconstructed human meshes by assuming a constant focal length.",
+            "2": "[13] propose CRMH, an R-CNNbased architecture, to detect all the people in an image and estimate their SMPL parameters by using an interpenetration loss and a depth ordering-aware loss in training.",
+            "3": "[38] propose a multi-stage optimization-based method to optimize the 3D translations and scales of body meshes estimated by CRMH [13].",
+            "4": "25 CRMH [13]-Large 59.",
+            "5": "Comparison Because no existing methods can directly handle largescene images with hundreds of people, we compare our method with three baselines that are modified from the state-of-the-art methods: SMAP [45], CRMH [13], and 8942\n\n23456\n78912\n345\n68710\n123456789\n2345678910\n1Input CRMHLarge OursBEVLarge123\n45\n78\n9\n12345678910123456789\n2345678910\n1123456789\n2345678910\n1\n1\n2\n35468\n79\n10 Bird's-eye view Front View19123\n45\n67\n89Figure 4.",
+            "6": "For CRMH [13] which predicts human bodies in bounding boxes by a weak perspective camera model, we use its transform from bounding box position to depth of 8943\n full image to infer the predicted locations in the global camera space."
+        },
+        "Neural mocon: Neural motion control for physically plausible human motion capture": {
+            "authors": [
+                "Buzhen Huang",
+                "Liang Pan",
+                "Yuan Yang",
+                "Jingyi Ju",
+                "Yangang Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Huang_Neural_MoCon_Neural_Motion_Control_for_Physically_Plausible_Human_Motion_CVPR_2022_paper.pdf",
+            "ref_texts": "[17] Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. Human3.6m: Large scale datasets and predictive methods for 3d human sensing in natural environments. IEEE TPAMI , 36(7):1325\u20131339, jul 2014. 5[18] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 4",
+            "ref_ids": [
+                "17",
+                "18"
+            ],
+            "1": "To reconstruct more accurate human-scene interactions from single-view videos, we generate a differentiable SDF of the scene mesh using [18].",
+            "2": "6M [17] is a large-scale dataset, which consists of 3.",
+            "3": "4, 6, 7, 8\n[17] Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu."
+        },
+        "Shape-aware weakly/semi-supervised optic disc and cup segmentation with regional/marginal consistency": {
+            "authors": [],
+            "url": "https://livrepository.liverpool.ac.uk/3169382/1/MICCAI2022_Shape-Aware%20Weakly_Semi-Supervised%20Optic%20Disc%20and%20Cup%20Segmentation%20with%20Regional_Marginal%20Consistency.pdf",
+            "ref_texts": "6. Jiang, W., Kolotouros, N., Pavlakos, G., Zhou, X., Daniilidis, K.: Coherent reconstruction of multiple humans from a single image. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 5579{",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "Inspired by [6], we propose a modiffed Signed Distance Function (mSDF ), which is deffned as: mSDF (x) =8\n>><\n>>:1; x2Bin 0; x2\u0001B\n\u0000inf y2\u0001Bjjx\u0000yjj2; x2Bout(1) wherejjx\u0000yjj2is the Euclidean distance between pixel xandy."
+        },
+        "Toward realistic single-view 3d object reconstruction with unsupervised learning from multiple images": {
+            "authors": [
+                "Nhat Ho",
+                "Anh Tuan",
+                "Quynh Phung",
+                "Minh Hoai"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Ho_Toward_Realistic_Single-View_3D_Object_Reconstruction_With_Unsupervised_Learning_From_ICCV_2021_paper.pdf",
+            "ref_texts": "[24] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020. 1, 3",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Inspired by this observation, many category-specific 3D modeling methods have been proposed for specific object categories such as faces [3, 40, 59, 46, 39, 44, 47, 13], hands [60, 30, 4, 18], and bodies [34, 24].",
+            "2": "Some research focus on reconstructing 3D models of a specific object class, such as human faces [3, 40, 59, 46, 39, 44, 47, 13], hands [60, 30, 4, 18], and bodies [34, 24]."
+        },
+        "Multi-Person 3D Pose and Shape Estimation via Inverse Kinematics and Refinement": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650650.pdf",
+            "ref_texts": "23. Jiang, W., Kolotouros, N., Pavlakos, G., Zhou, X., Daniilidis, K.: Coherent reconstruction of multiple humans from a single image. In: CVPR (2020)",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Keywords: Multi-person, 3D mesh reconstruction, Transformer 1 Introduction Recovering 3D human body meshes for a single person or multi-person from a monocular RGB image has made great progress in recent years [3, 10, 12, 17, 23, 27, 28, 30\u201333, 38, 39, 62, 65, 69, 73, 71].",
+            "2": "Recently, deep convolutional neural network-based mesh reconstruction methods [6, 10, 12, 17, 23, 27, 28, 30\u201333, 38, 39, 62, 65, 69, 73, 71] have shown the practical performance on in-the-wild scenes [21, 25, 44, 45].",
+            "3": "A few recent methods [23, 73] applied direct regression for multiple persons which do not require individual person detection.",
+            "4": "There have been few works [12, 23, 62, 63, 70, 73] that concern the multi-person 3D body mesh regression: The approaches could be categorized into two: bottom-up and top-down methods.",
+            "5": "Bottom-up methods [23, 62, 63, 73] perform multi-person detection and 3D mesh reconstruction simultaneously.",
+            "6": "[23] represented a coherent reconstruction of multiple humans (CRMH) model, which utilizes the Faster R-CNN based RoI-aligned feature of all persons to estimate SMPL parameters.",
+            "7": "[23] 69.",
+            "8": "[23] 72.",
+            "9": "Several multi-person frameworks are also involved for the comparisons [12, 23, 62, 73]: Jiang et al.",
+            "10": "[23], ROMP [62] and BMP [73] are bottom-up methods that estimate the multi-person SMPL pose and shape parameters at once and simultaneously localizes multi-person instances and predicts 3D body meshes in a single stage, respectively.",
+            "11": "[23] proposed inter-penetration loss to avoid collision and depth ordering loss for the rendering.",
+            "12": "We obtained even better performance than works exploiting temporal information [28, 30] and several multi-person 3D mesh reconstruction methods [12, 23, 62, 73]."
+        },
+        "IKOL: Inverse kinematics optimization layer for 3D human pose and shape estimation via Gauss-Newton differentiation": {
+            "authors": [
+                "Juze Zhang",
+                "Ye Shi",
+                "Yuexin Ma",
+                "Lan Xu",
+                "Jingyi Yu",
+                "Jingya Wang"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25454/25226",
+            "ref_texts": "2013. Human3. 6m: Large scale datasets and predictive methods for 3d human sensing in natural environments. PAMI, 36(7): 1325\u20131339. Jiang, W.; Kolotouros, N.; Pavlakos, G.; Zhou, X.; and Daniilidis, K. 2020. Coherent reconstruction of multiple humans from a single image. In CVPR, 5579\u20135588. Kanazawa, A.; Black, M. J.; Jacobs, D. W.; and Malik, J.",
+            "ref_ids": [
+                "2013"
+            ]
+        },
+        "Three Recipes for Better 3D Pseudo-GTs of 3D Human Mesh Estimation in the Wild": {
+            "authors": [
+                "Gyeongsik Moon",
+                "Hongsuk Choi",
+                "Sanghyuk Chun",
+                "Jiyoung Lee",
+                "Sangdoo Yun"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/CV4MR/papers/Moon_Three_Recipes_for_Better_3D_Pseudo-GTs_of_3D_Human_Mesh_CVPRW_2023_paper.pdf",
+            "ref_texts": "[15] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 5, 6",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "We additionally use 3DPCK as an evaluation metric of MuPoTS as previous works [8, 15].",
+            "2": "[15] 69."
+        },
+        "POTTER: Pooling Attention Transformer for Efficient Human Mesh Recovery": {
+            "authors": [
+                "Ce Zheng",
+                "Xianpeng Liu",
+                "Jun Qi",
+                "Chen Chen"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_POTTER_Pooling_Attention_Transformer_for_Efficient_Human_Mesh_Recovery_CVPR_2023_paper.pdf"
+        },
+        "Towards part-aware monocular 3d human pose estimation: An architecture search approach": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480715.pdf",
+            "ref_texts": "21. Jiang, W., Kolotouros, N., Pavlakos, G., Zhou, X., Daniilidis, K.: Coherent reconstruction of multiple humans from a single image. In: CVPR (2020)",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "More recent works [22, 37, 21, 26, 1] tend to focus on reconstructing ffne-grained 3D human shapes."
+        },
+        "CAT-NeRF: Constancy-Aware Tx2Former for Dynamic Body Modeling": {
+            "authors": [
+                "Haidong Zhu",
+                "Zhaoheng Zheng",
+                "Wanrong Zheng",
+                "Ram Nevatia"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/DynaVis/papers/Zhu_CAT-NeRF_Constancy-Aware_Tx2Former_for_Dynamic_Body_Modeling_CVPRW_2023_paper.pdf",
+            "ref_texts": "[14] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction ofmultiple humans from a single image. In CVPR , pages 5579\u2013",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "Recently, researchers have mainly developed two different methods: statisticbased methods [3, 7, 11, 14, 16, 28, 37, 55, 56] and databased methods [25, 26, 38, 39, 41, 52, 54]."
+        },
+        "NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation": {
+            "authors": [
+                "Jiefeng Li",
+                "Siyuan Bian",
+                "Qi Liu",
+                "Jiasheng Tang",
+                "Fan Wang",
+                "Cewu Lu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_NIKI_Neural_Inverse_Kinematics_With_Invertible_Neural_Networks_for_3D_CVPR_2023_paper.pdf",
+            "ref_texts": "[15] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 2",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Direct regression approaches [15, 19, 22, 46, 63] are more robust to occlusions and truncations but less accurate in non-occlusion scenarios."
+        },
+        "Multi-person implicit reconstruction from a single image": {
+            "authors": [
+                "Armin Mustafa",
+                "Akin Caliskan",
+                "Lourdes Agapito",
+                "Adrian Hilton"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Mustafa_Multi-Person_Implicit_Reconstruction_From_a_Single_Image_CVPR_2021_paper.pdf",
+            "ref_texts": "[17] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2020. 1,2,3,5,6",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Recently, model-based approaches have been introduced that can reconstruct multiple humans in a scene [13,17,45] using SMPL, so cannot capture clothing details.",
+            "2": "RGB\n[7,22,18,21]\u00d7 \u00d7 \u00d7\u00d7/check [3,46,35,11]/check \u00d7 \u00d7\u00d7/check [17,43,44] \u00d7 /check /check/check/check [5,9] /check \u00d7 \u00d7/check\u00d7 Holopose [13]\u00d7 /check \u00d7/check/check PHOSA [45]\u00d7 /check /check/check/check Proposed /check /check /check/check/check Table 1.",
+            "3": "Jiang et al [17] performed more accurate and robust SMPL-based multi-human reconstruction by directly regressing the SMLP parameters from pixels.",
+            "4": "We add both local and global depth features along with an ordinal depth loss [17] to the network, to improve the location/orientation estimation in crowded scenes.",
+            "5": "Previous approaches for multi-human spatially coherent reconstruction either incorporate coherency constraints within the SMPL model estimation [17] or use an optimization framework to estimate the 6DOF pose and scale [45].",
+            "6": "The network is trained using a combination of dense pose loss (LDP) [40] and ordinal depth loss (LOD)\n[17],LPose=LDP+\u03b3LODdefined as: LDP=1 U/summationtext i\u2208U/parenleftBig ci Q/summationtext j\u2208Q/vextenddouble/vextenddouble/vextenddouble(Rxj+t)+(\u02c6Rixj+\u02c6ti)/vextenddouble/vextenddouble/vextenddouble/parenrightBig \u2212(wlogci); LOD=/summationtext i\u2208Slog/parenleftbig 1+exp(Dy(i)(i)+D\u02c6y(i)(i))/parenrightbig whereR,t are ground-truth pose and \u02c6R,\u02c6tare predicted poses,Uis randomly sampled dense-pixel features, Qis randomly selected 3D points, cis confidence score for each prediction, wis weight selected empirically and D()is the 14478\n Figure 9.",
+            "7": "We were unable to compare with [17] because of unavailability of code and the datasets they used do not have 3D shape only joints."
+        },
+        "Pi-net: Pose interacting network for multi-person monocular 3d pose estimation": {
+            "authors": [
+                "Wen Guo",
+                "Enric Corona",
+                "Francesc Moreno",
+                "Xavier Alameda"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2021/papers/Guo_PI-Net_Pose_Interacting_Network_for_Multi-Person_Monocular_3D_Pose_Estimation_WACV_2021_paper.pdf",
+            "ref_texts": "[24] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Recently, some works begin to pay attention to using contextual information in 3D pose estimation problem by integrating scene constraints [55] or considering the depthorder to resolve the overlapping problem [24, 28].",
+            "2": "[24] propose a depth ordering-aware loss to consider the occlusion relationship and interpenetration of people in multi-person scenarios."
+        },
+        "Implicit 3D Human Mesh Recovery using Consistency with Pose and Shape from Unseen-view": {
+            "authors": [
+                "Hanbyel Cho",
+                "Yooshin Cho",
+                "Jaesung Ahn",
+                "Junmo Kim"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Implicit_3D_Human_Mesh_Recovery_Using_Consistency_With_Pose_and_CVPR_2023_paper.pdf",
+            "ref_texts": "[14] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2020. 2",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "To avoid the issues of optimization-based methods, recent works have adopted regression-based approaches and utilized the powerful learning capability of deep neural networks [6, 9, 10, 14, 19, 25, 41, 45]."
+        },
+        "From points to multi-object 3D reconstruction": {
+            "authors": [
+                "Francis Engelmann",
+                "Konstantinos Rematas",
+                "Bastian Leibe",
+                "Vittorio Ferrari"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Engelmann_From_Points_to_Multi-Object_3D_Reconstruction_CVPR_2021_paper.pdf",
+            "ref_texts": "[20] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent Reconstruction of Multiple Humans from A Single Image. In Conference on Computer Vision and Pattern Recognition (CVPR) , 2020.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Inspired by recent methods on human body pose estimation in 3D scenes [14,20,49], we add a collision loss that supports plausible reconstructions such that reconstructed objects do not intersect."
+        },
+        "3d reconstruction using deep learning: a survey": {
+            "authors": [],
+            "url": "https://www.intlpress.com/site/pub/files/_fulltext/journals/cis/2020/0020/0004/CIS-2020-0020-0004-a001.pdf",
+            "ref_texts": "[46] W. Jiang, N. Kolotouros, G. Pavlakos, X. Zhou, and K. Daniilidk, \u201cCoherent reconstruction of multiple humans from a single image,\u201d in Proceedings of the I EEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp. 5579\u20135588.",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "[46] coherently reconstruct poses and shapes of multi-person in a single image based on zeng\u2019s work.",
+            "2": "[46] W."
+        },
+        "Survey on 3D Human Pose Estimation of Deep Learning": {
+            "authors": [],
+            "url": "http://fcst.ceaj.org/EN/article/downloadArticleFile.do?attachType=PDF&id=3211"
+        },
+        "LCR-SMPL: Toward Real-time Human Detection and 3D Reconstruction from a Single RGB Image": {
+            "authors": [],
+            "url": "http://hvrl.ics.keio.ac.jp/paper/pdf/international_Conference/2020/ISMAR2020_Elena.pdf",
+            "ref_texts": "[1] W. Jiang, N. Kolotouros, G. Pavlakos, X. Zhou, and K. Daniilidis. Coherent reconstruction of multiple humans from a single image. In Proceedings of CVPR , pp. 5579\u20135588, 2020.",
+            "ref_ids": [
+                "1"
+            ],
+            "1": "Nor are they multi-person, except for very recent contributions such as [1].",
+            "2": "[1] W."
+        },
+        "Inferring Dense Human Representation from Sparse or Incomplete Point Clouds": {
+            "authors": [],
+            "url": "https://inria.hal.science/tel-03880124/file/ZHOU_2022_archivage.pdf",
+            "ref_texts": "106 BIBLIOGRAPHY. Sandro Lombardi, Bangbang Yang, Tianxing Fan, Hujun Bao, Guofeng Zhang, Marc Pollefeys, and Zhaopeng Cui. Latenthuman: Shape-and-pose disentangled latent representation for human bodies. In 2021 International Conference on 3D Vision (3DV) , pages 278\u2013288. IEEE, 2021. Matthew Loper, Naureen Mahmood, and Michael J Black. Mosh: Motion and shape capture from sparse markers. ACM Transactions on Graphics (TOG) , 33(6):220, 2014. Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. Combining implicit function learning and parametric models for 3d human reconstruction. In Proceedings of the European Conference on Computer Vision . Springer, August 2020a. Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, and Gerard Pons-Moll. Learning to reconstruct people in clothing from a single rgb camera. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2019b. Verica Lazova, Eldar Insafutdinov, and Gerard Pons-Moll. 360-degree textures of people in clothing from a single image. In International Conference on 3D Vision (3DV) , sep 2019. Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. Loopreg: Self-supervised learning of implicit surface correspondences, pose and shape for 3d human mesh registration. In Advances in Neural Information Processing Systems (NeurIPS) , December 2020b. Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, and Kostas Daniilidis. Learning to estimate 3d human pose and shape from a single color image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 459\u2013468, 2018. Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter Gehler, and Bernt Schiele. Neural body fitting: Unifying deep learning and model based human pose and shape estimation. In 2018 international conference on 3D vision (3DV) , pages 484\u2013494. IEEE, 2018. Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020a. BIBLIOGRAPHY. 107 Muhammed Kocabas, Nikos Athanasiou, and Michael J Black. Vibe: Video inference for human body pose and shape estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5253\u20135263, 2020. Zhengyi Luo, S Alireza Golestaneh, and Kris M Kitani. 3d human motion estimation via motion compression and refinement. In Proceedings of the Asian Conference on Computer Vision , 2020. Jathushan Rajasegaran, Georgios Pavlakos, Angjoo Kanazawa, and Jitendra Malik. Tracking people with 3d representations. arXiv preprint arXiv:2111.07868 , 2021. Angela Dai, Charles Ruizhongtai Qi, and Matthias Nie\u00dfner. Shape completion using 3d-encoder-predictor cnns and shape synthesis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 5868\u2013"
+        },
+        "\u4ece\u4f20\u7edf\u6e32\u67d3\u5230\u53ef\u5fae\u6e32\u67d3: \u57fa\u672c\u539f\u7406, \u65b9\u6cd5\u548c\u5e94\u7528": {
+            "authors": [],
+            "url": "http://scis.scichina.com/cn/2021/SSI-2020-0272.pdf",
+            "ref_texts": ""
+        },
+        "Supplementary Material for \u201cLearning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\u201d": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/supplemental/Choi_Learning_To_Estimate_CVPR_2022_supplemental.pdf",
+            "ref_texts": "[7] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In CVPR , 2020. 1, 2",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "We selected four sequences that show people doing social activities, namely Haggling ,Mafia ,Ultimatum , and Pizza following [7, 22].",
+            "2": "We used pre-processed GT annotations and followed the evaluation protocol of [7] in their official code repository."
+        },
+        "Supplementary Material for SPEC: Seeing People in the Wild with an Estimated Camera": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/supplemental/Kocabas_SPEC_Seeing_People_ICCV_2021_supplemental.pdf",
+            "ref_texts": "[4] Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. In IEEE Conference on Computer Vision and Pattern Recognition , 2020. 1",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "Similar to [4, 7], we perform a coordinate transformation to obtain the final tbvector w."
+        },
+        "Multi-Person 3D Pose and Shape Estimation via Inverse Kinematics and Refinement\u2013Supplementary Material": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650650-supp.pdf",
+            "ref_texts": "5. Jiang, W., Kolotouros, N., Pavlakos, G., Zhou, X., Daniilidis, K.: Coherent reconstruction of multiple humans from a single image. In: CVPR (2020)",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "Further, we extend our framework to use the original camera parameter and measure the depth-order accuracy similar to [5, 20, 22] and its result is shown in \u2018dOrder\u2019 column of the Table."
+        },
+        "Inf\u00e9rer une repr\u00e9sentation dense de l'humain avec un nuage de points \u00e9pars ou incomplet": {
+            "authors": [],
+            "url": "https://www.theses.fr/2022GRALM033.pdf",
+            "ref_texts": "106 BIBLIOGRAPHY. Sandro Lombardi, Bangbang Yang, Tianxing Fan, Hujun Bao, Guofeng Zhang, Marc Pollefeys, and Zhaopeng Cui. Latenthuman: Shape-and-pose disentangled latent representation for human bodies. In 2021 International Conference on 3D Vision (3DV) , pages 278\u2013288. IEEE, 2021. Matthew Loper, Naureen Mahmood, and Michael J Black. Mosh: Motion and shape capture from sparse markers. ACM Transactions on Graphics (TOG) , 33(6):220, 2014. Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. Combining implicit function learning and parametric models for 3d human reconstruction. In Proceedings of the European Conference on Computer Vision . Springer, August 2020a. Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, and Gerard Pons-Moll. Learning to reconstruct people in clothing from a single rgb camera. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2019b. Verica Lazova, Eldar Insafutdinov, and Gerard Pons-Moll. 360-degree textures of people in clothing from a single image. In International Conference on 3D Vision (3DV) , sep 2019. Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. Loopreg: Self-supervised learning of implicit surface correspondences, pose and shape for 3d human mesh registration. In Advances in Neural Information Processing Systems (NeurIPS) , December 2020b. Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, and Kostas Daniilidis. Learning to estimate 3d human pose and shape from a single color image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 459\u2013468, 2018. Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter Gehler, and Bernt Schiele. Neural body fitting: Unifying deep learning and model based human pose and shape estimation. In 2018 international conference on 3D vision (3DV) , pages 484\u2013494. IEEE, 2018. Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, and Kostas Daniilidis. Coherent reconstruction of multiple humans from a single image. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5579\u20135588, 2020a. BIBLIOGRAPHY. 107 Muhammed Kocabas, Nikos Athanasiou, and Michael J Black. Vibe: Video inference for human body pose and shape estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5253\u20135263, 2020. Zhengyi Luo, S Alireza Golestaneh, and Kris M Kitani. 3d human motion estimation via motion compression and refinement. In Proceedings of the Asian Conference on Computer Vision , 2020. Jathushan Rajasegaran, Georgios Pavlakos, Angjoo Kanazawa, and Jitendra Malik. Tracking people with 3d representations. arXiv preprint arXiv:2111.07868 , 2021. Angela Dai, Charles Ruizhongtai Qi, and Matthias Nie\u00dfner. Shape completion using 3d-encoder-predictor cnns and shape synthesis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 5868\u2013"
+        },
+        "\u8054\u5408\u6ce8\u610f\u529b\u548c\u6761\u4ef6 GAN \u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5": {
+            "authors": [],
+            "url": "https://www.jcad.cn/cn/article/pdf/preview/35d4af76-431b-40af-91d8-7179a9581e85.pdf",
+            "ref_texts": "): [1]Agarwal A, Triggs B. Recovering 3D human pose from monoc -ular images[J]. IEEE Transactions on Pattern Analysis and MachineIntelligence, 2005, 28(1):44\u201358. [2]Kolotouros N, Pavlakos G, Daniilidis K. Convolutional meshregression for single-image human shape reconstruction[C] //Pro -ceedings of IEEE/CVF Conference on Computer Vision and PatternRecognition. Los Alamitos: IEEE Computer Society Press , 2019:4501\u20134510.[3]Loper M, Mahmood N, Romero J, et al. SMPL: A skinnedmulti-person linear model[J]. ACM Transactions on Graphics, 2015,34(6):1\u201316. [4]Omran M, Lassner C, Pons-Moll G, et al Neural body fitting:Unifying deep learning and model based human pose and shape esti -mation[C] //Proceedings of International Conference on 3D Vision.Los Alamitos: IEEE Computer Society Press , 2018: 484\u2013494. [5]Zhang H, Tian Y , Zhou X, et al. PyMAF: 3D human pose andshape regression with pyramidal mesh alignment feedback loop[C] //Proceedings of IEEE/CVF International Conference on Computer Vi -sion. Los Alamitos: IEEE Computer Society Press , 2021: 11446\u201311456.[6]Lin K, Wang L, Liu Z. End-to-end human pose and mesh re -construction with transformers[C] //Proceedings of IEEE/CVF Con -ference on Computer Vision and Pattern Recognition. Los Alamitos:IEEE Computer Society Press , 2021: 1954\u20131963.[7]Zanfir M, Zanfir A, Bazavan E G, et al. THUNDR: Trans-former based 3D human reconstruction with markers[C] // Proceed -ings of IEEE/CVF International Conference on Computer Vision . LosAlamitos: IEEE Computer Society Press , 2021: 12971\u201312980.[8]Creswell A, White T, Dumoulin V , et al. Generative adversarialnetworks: An overview[J]. IEEE Signal Processing Magazine, 2018,35(1):53\u201365.[9]Mirza M, Osindero S [J/OL]. Conditional generative adversar -ial nets. arXiv preprint arXiv:1411.1784, 2014[2022-7-20]. https://arxiv.org/abs/1411.1784[10]Li J, Xu C, Chen Z, et al. HybrIK: A hybrid analytical-neuralinverse kinematics solution for 3D human pose and shapeestimation[C] //Proceedings of IEEE/CVF Conference on ComputerVision and Pattern Recognition. Los Alamitos: IEEE Computer Soci -ety Press, 2021: 3383\u20133393.[11]Jiang W, Kolotouros N, Pavlakos G, et al. Coherent reconstruc-tion of multiple humans from a single image[C] //Proceedings ofIEEE/CVF Conference on Computer Vision and Pattern Recognition.Los Alamitos: IEEE Computer Society Press , 2020: 5579\u20135588. [12]Sun Y , Bao Q, Liu W, et al. CenterHMR: A bottom-up single-shot method for multi-person 3D mesh recovery from a singleimage[J/OL]. arXiv e-prints, 2020: arXiv\u20132008 [2022-7-20]. https://",
+            "ref_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "1": "\u7b2c3*\u5377 \u7b2c*\u671f \u8ba1\u7b97\u673a\u8f85\u52a9\u8bbe\u8ba1\u4e0e\u56fe\u5f62\u5b66\u5b66\u62a5 Vol.",
+            "2": "3* No.",
+            "3": "*\n2022\u5e74*\u6708 Journal of Computer-Aided Design & Computer Graphics ***.",
+            "4": "2022\n\u8054\u5408\u6ce8\u610f\u529b\u548c \u6761\u4ef6GAN\u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1 \u65b9\u6cd5\n\u6731\u598d1,2), \u6c6a\u69772), \u6c6a\u7cbc\u6ce22), \u65b9\u8d24\u52c72)*\n1) (\u5b89\u5fbd\u5927\u5b66\u4f53\u80b2\u519b\u4e8b\u6559\u5b66\u90e8 \u5408\u80a5 230601)2) (\u5b89\u5fbd\u5927\u5b66\u8ba1\u7b97\u673a\u79d1\u5b66\u4e0e\u6280\u672f\u5b66\u9662 \u5408\u80a5 230601) (fangxianyong@ahu.",
+            "5": "\u5728 Ubuntu\u73af\u5883\u4e0b, \u4ee5\u516c\u5f00\u6570\u636e\u96c6\u4e3a3DPW, 3DOH50K\u4ee5\u53caHuman3.",
+            "6": "6M\u57fa\u7840\u5bf9\u8be5\u65b9\u6cd5\u8fdb\u884c\u4e86\u5b9e\u9a8c , \u7ed3\u679c\u8868\u660e\u8be5\u65b9\u6cd5\u8f83SMPLify, GraphCMR\u4ee5\u53caSPIN\u7b49\u524d\u4eba\u65b9\u6cd5\u5728\u8eab\u4f53\u90e8\u5206\u88ab\u906e\u6321\u65f6\u6709\u66f4\u597d\u7684\u91cd\u5efa\u6548\u679c , \u5e76\u5728ACK\u3001AVE\u548cPA-MPJPE\u7b49\u5b9a\u91cf\u8bc4\u4ef7\u6307\u6807\u4e0a\u90fd\n\u53ef\u53d6\u5f97\u8f83\u8fd9\u4e9b\u65b9\u6cd5\u66f4\u597d\u7684\u7ed3\u679c .",
+            "7": "\u5173\u952e\u8bcd: \u4eba\u4f53\u4f53\u5f62\u548c\u59ff\u6001\u4f30\u8ba1; \u5355\u5e45\u56fe\u50cf; \u591a\u5c3a\u5ea6\u6ce8\u610f\u529b; \u751f\u6210\u5bf9\u6297\u7f51\u7edc\n\u4e2d\u56fe\u6cd5\u5206\u7c7b\u53f7: TP391.",
+            "8": "41 DOI: 10.",
+            "9": "3724/SP.",
+            "10": "1089.",
+            "11": "2022.",
+            "12": "19863 Pose and Shape Estimation of Occluded Humans with Attention and Conditional GAN Zhu Yan1,2), Wang Kai2), Wang Linbo2), and Fang Xianyong2)* \n1) (Department of Sports and Military Education , Anhui University, Hefei 230601) 2) (School of Computer Science and Technology, Anhui University , Hefei 230601) Abstract: The occlusions of body parts often appear in the i mages, which makes the human pose and shape estimation from single images difficult.",
+            "13": "\u5df2\u7ecf\u63d0\u51fa\u9488\u5bf9\u4e0d\u540c\u8f93\u5165\n\u5982\u89c6\u9891\u3001RGB-D\u56fe\u50cf\u7b49\u7684\u65b9\u6cd5, \u5305\u62ec\u4f20\u7edf\u7684\u4f18\u5316\u65b9\n\u6cd5[1]\u4ee5\u53ca\u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u7684\u65b9\u6cd5[2].",
+            "14": "\u5176\u4e2d, \u8fd1\u5e74\u6765\u53c2\u6570\n\u6a21\u578b[3]\u7684\u53d1\u5c55\u6781\u5927\u7684\u964d\u4f4e\u4e86\u5efa\u6a21\u8fc7\u7a0b\u590d\u6742\u5ea6 , \u5b9e\u73b0\u4e86\u4fbf\u6377\u7684\u64cd\u63a7\u4ee5\u53ca\u51c6\u786e\u7684\u6a21\u578b\u8868\u8fbe[4-5].",
+            "15": "\u540c\u65f6, \u975e\u53c2\n\u6570\u5316\u7684\u6a21\u578b\u5728\u8fd1\u5e74\u6765\u4e5f\u6e10\u6e10\u6d41\u884c\u8d77\u6765[6-7].",
+            "16": "\u4e00\u4e2a\u597d\u7684\u9488\u5bf9\u88ab\u906e\u6321\u4eba\u4f53\u7684\u6df1\u5ea6\n \n\u6536\u7a3f\u65e5\u671f: 20**-**-**; \u4fee\u56de\u65e5\u671f: 20**-**-**.",
+            "17": "\u57fa\u91d1\u9879\u76ee: \u5b89\u5fbd\u7701\u81ea\u7136\u79d1\u5b66\u57fa\u91d1(2108085MF210)\u548c\u5b89\u5fbd\u7701\u6559\u80b2\u5385\u81ea\u7136\u79d1\u5b66\u57fa\u91d1\n(KJ2021A0042).",
+            "18": "\u6731\u598d(1985\u2014), \u5973, \u7855\u58eb, \u8bb2\u5e08, \u4e3b\u8981\u7814\u7a76\u65b9\u5411\u4e3a\u865a\u62df\u73b0\u5b9e\u548c\u4f53\u80b2\u4fe1\u606f\u5b66 ; \u6c6a\u6977(1997\u2014), \u7537, \u7855\u58eb\u7814\u7a76\u751f, \u4e3b\u8981\u7814\u7a76\u65b9\u5411\u4e3a\n\u865a\u62df\u73b0\u5b9e\u548c\u8ba1\u7b97\u673a\u89c6\u89c9; \u6c6a\u7cbc\u6ce2(1984\u2014), \u7537, \u535a\u58eb, \u526f\u6559\u6388,\u7855\u58eb\u751f\u5bfc\u5e08, \u4e3b\u8981\u7814\u7a76\u65b9\u5411\u4e3a\u8ba1\u7b97\u673a\u89c6\u89c9\u548c\u6a21 \u5f0f\u8bc6\u522b; \u65b9\u8d24\u52c7(1978\u2014), \u7537,\u535a\u58eb, \u6559\u6388, \u535a\u58eb\u751f\u5bfc\u5e08/\u7855\u58eb\u751f\u5bfc\u5e08, CCF\u4f1a\u5458, \u901a\u4fe1\u4f5c\u8005, \u4e3b\u8981\u7814\u7a76\u65b9\u5411\u4e3a\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66\u3001\u865a\u62df\u73b0\u5b9e\u3001\u8ba1\u7b97\u673a\u89c6\u89c9\u548c\u6a21 \u5f0f\u8bc6\u522b.",
+            "19": "\u6700\u65b0\u5f55\u7528\n\n 2 \u8ba1\u7b97\u673a\u8f85\u52a9\u8bbe\u8ba1\u4e0e\u56fe\u5f62\u5b66\u5b66\u62a5 \u7b2c3*\u5377\n\u5b66\u4e60\u65b9\u6cd5\u5c24\u5176\u91cd\u8981\u7684\u4e00\u4e2a\u56e0\u7d20\u662f\u83b7\u5f97\u5177\u6709\u5168\u5c40\u548c\u5c40\n\u90e8\u4e0a\u4e0b\u6587\u4fe1\u606f\u7684\u6709\u6548\u7279\u5f81 , \u56e0\u4e3a\u8fd9\u6837\u624d\u53ef\u4ee5\u63a8\u65ad\u51fa\n\u88ab\u906e\u4f4f\u7684\u8eab\u4f53\u90e8\u5206.",
+            "20": "\u5728\u6b64, \u53ef\u4ee5\u83b7\u5f97\u8fd9\u79cd\u9c81\u68d2\u5148\u9a8c\u8ba4\u77e5\u7684\u751f\n\u6210\u5bf9\u6297\u7f51\u7edc(generative adversarial networks, GAN)[8]\u662f\u4e00\u79cd\u91cd\u8981\u7684\u53c2\u8003\u65b9\u6cd5; \u800c\u5176\u53d8\u79cd\u6761\u4ef6\u751f\u6210\u5bf9\u6297\n\u7f51\u7edc(conditional GAN, CGAN)[9]-\u5219\u662f\u5bf9GAN\u6307\u5b9a\n\u6761\u4ef6\u7ea6\u675f\u65f6\u5b9e\u65bd\u51c6\u786e\u63a8\u7406\u7684\u9ad8\u6548\u6269\u5c55.",
+            "21": "\u8003\u8651\u5230\u70ed\u56fe\u5df2\u88ab\u5e7f\u6cdb\u8bc1\n\u660e\u662f\u59ff\u6001\u4f30\u8ba1\u7684\u6709\u6548\u65b9\u6cd5[10], \u672c\u6587\u62df\u91c7\u7528\u57fa\u4e8e\u70ed\u56fe\n\u4f30\u8ba1\u7684\u5173\u8282\u70b9\u4f5c\u4e3a\u59ff\u6001\u6761\u4ef6\u7ea6\u675f .",
+            "22": "\u8be5\u65b9\u6cd5\u91c7\u7528\u4e0a\u8ff0\n\u63d0\u51fa\u76842\u4e2a\u7b56\u7565\u5b9e\u73b0\u5168\u5c40\u5230\u5c40\u90e8\u7684\u51c6\u786e\u91cd\u5efa : \u4e00\u4e2a\n\u662f\u591a\u5c3a\u5ea6\u7684\u6ce8\u610f\u529b\u6a21\u5757 ; \u53e6\u4e00\u4e2a\u662f\u57fa\u4e8e\u70ed\u56fe\u7684 CGAN.",
+            "23": "\u76ee\u524d\u5df2\u6709\u4e00\u4e9b\u5229\u7528\u5355\u5e45\u56fe\u50cf\u5bf9\u88ab\u906e\u6321\u4eba\u4f53\u5b9e\n\u73b0\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u7684 \u5de5\u4f5c[6,11-14].",
+            "24": "\u5176\u4e2d\u4e00\u4e9b\u8ba8\u8bba\u591a\u4eba\n\u60c5\u51b5\u4e0b\u4eba\u906e\u4eba\u7684\u60c5\u5f62[11-12].",
+            "25": "\u53e6\u5916, \u672c\u6587\u65b9\u6cd5\u4e5f\u4e0d\u9700\u8981\n\u4e0d\u7a33\u5b9a\u663e\u8457\u6027\u68c0\u6d4b\u548cUV\u56fe\u8ba1\u7b97[13]; \u4e5f\u4e0d\u540c\u4e8e\u73b0\u6709\n\u7684\u5176\u4ed6\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u65b9\u6cd5[6,14]; \u5e76\u4e14, \u672c\u6587\u8fd8\u989d\u5916\u91c7\n\u7528\u57fa\u4e8e\u70ed\u56fe\u7684CGAN\u5b9e\u73b0\u8ba1\u7b97\u6c42\u7cbe.",
+            "26": "\u5bf9\u4e8e\u5176\n\u4ed6\u8f93\u5165\u65b9\u5f0f\u5982\u89c6\u9891[15]\u6216\u8005RGB-D[16]\u7b49\u4e0b\u7684\u59ff\u6001\u548c\n\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5, \u6216\u9762\u5411\u4eba\u4f53\u8868\u9762\u91cd\u5efa\u548c\u8868\u6f14\u6355\u6349\u7684\n\u6280\u672f[17], \u53ef\u53c2\u8003\u6587\u732e[18]\u4f5c\u8fdb\u4e00\u6b65\u7684\u4e86\u89e3.",
+            "27": "1 \u65e0\u906e\u6321\u4eba\u4f53\n\u5728\u8fd9\u4e2a\u65b9\u9762, \u5e7f\u6cdb\u4f7f\u7528\u7684\u662f\u53c2\u6570\u5316\u65b9\u5f0f[19], \u5373\n\u4ee53D\u4f53\u5f62\u6a21\u578b[3,20]\u4f5c\u4e3a\u8f93\u51fa\u76ee\u6807.",
+            "28": "\u4f20\u7edf\u57fa\u4e8e\u4f18\u5316\u7684\u65b9\u6cd5[1]\u5df2\u91c7\u53d6\u56de\u5f52\n\u7b49\u5404\u7c7b\u65b9\u6cd5.",
+            "29": "\u6700\u8fd1, Song\u7b49[21]\u63a2\u7d22\u62df\u5408\u8fc7\u7a0b\u4e2d\u52a0\u5165\u68af\u5ea6\u4e0b\u964d\n\u5b66\u4e60, \u4f46\u662f\u8fd9\u4e00\u65b9\u6cd5\u4ecd\u7136 \u4f9d\u8d56\u4e8e\u51c6\u786e\u76842D\u59ff\u6001.",
+            "30": "Bogo\u7b49[22]\u63d0\u51fa\u4e00\u79cd\u7aef\u5230\u7aef\u7684\u65b9\u6cd5SMPLify, \u5bf9 CNN\u5f97\u5230\u7684\u5173\u952e\u70b9\u5b9e\u65bd\u57fa\u4e8eSMPL\u6a21\u578b[3]\u7684\u62df\u5408.",
+            "31": "\u6b64\u540e, \u9646\u7eed\u63d0\u51fa\u4e86\u5f88\u591a\u76f4\u63a5\u4ece\u50cf\u7d20\u56de\u5f52\u53c2\u6570\u5316\u4eba\u4f53\u6a21\u578b\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc[2,11].",
+            "32": "\u8fd9\u4e9b\u65b9\u6cd5\u56e0\u6ca1\u6709\u81ea\u7136\u7684\n3D\u771f\u503c\u6807\u7b7e\u800c\u91c7\u7528\u4e86\u5404\u79cd\u5f31\u76d1\u7763\u65b9\u6cd5, \u5305\u62ec: \u4f5c\u4e3a\n\u4e2d\u95f4\u8868\u8fbe\u7684\u4eba\u4f53\u6216\u90e8\u4f4d\u7684\u5206\u5272[4]\u3001\u5305\u542b\u4eba\u7684\u5faa\u73af[23]\n\u7b49.",
+            "33": "\u6700\u8fd1, Zhang\u7b49[5]\u5728\u56de\u5f52\u7f51\u7edc\u4e2d\u8bbe\u8ba1\u4e00\u79cd\u91d1\u5b57\u5854\n\u7f51\u7edc\u5bf9\u9f50\u53cd\u9988\u5faa\u73af, \u4ee5\u83b7\u5f97\u591a\u5c3a\u5ea6\u4e0a\u4e0b\u6587 , \u8fbe\u5230\u66f4\n\u51c6\u786e\u7684\u7f51\u683c-\u56fe\u50cf\u5bf9\u9f50.",
+            "34": "\u6587\u732e[20,24]\u8ba8\u8bba\u5c06\u57fa\u4e8e\u56de\u5f52\u548c\u57fa\u4e8e\u4f18\u53162\u7c7b\u65b9\u6cd5\n\u8054\u5408\u8d77\u6765\u7684\u6280\u672f.",
+            "35": "\u4f8b\u5982, \u795e\u7ecf\u4e0b\u964d\u6cd5 [20]\u4f7f\u7528\u8868\u8fbe\u4e30\n\u5bcc\u7684\u5168\u4eba\u4f533D\u6a21\u578b[25], \u5e76\u5728\u57fa\u4e8e\u5faa\u73af\u795e\u7ecf\u7f51\u7edc\u7684\n3D\u9884\u6d4b\u7ed3\u6784\u7684\u672a\u7aef\u4f7f\u7528\u4e00\u4e2a\u975e\u7ebf\u6027\u7684\u68af\u5ea6\u6c42\u7cbe\u7b56\n\u7565.",
+            "36": "\u6700\u8fd1, Li\u7b49[10]\u5229\u7528\u70ed\u56fe\u4f30\u8ba1\u56de\u5f523D\u5173\u952e\u70b9, \u5e76\n\u7528\u9006\u5411\u8fd0\u52a8\u5b66\u65b9\u5f0f\u9884\u6d4b\u4eba\u4f53\u53c2\u6570.",
+            "37": "\u9664\u4e86\u4e0a\u8ff0\u53c2\u6570\u5316\u6a21\u578b\u4e4b\u4e0a\u7684\u65b9\u6cd5\u5916 , \u975e\u53c2\u6570\u5316\n\u7684\u4eba\u4f53\u7f51\u7edc\u91cd\u5efa\u65b9\u6cd5\u4e5f\u6709\u4e00\u4e9b \u5de5\u4f5c[2,26-27].",
+            "38": "\u76f8\u5e94\u7684\u5efa\n\u6a21\u8868\u8fbe\u65b9\u5f0f\u6709\u4f53\u7d20[27]\u3001\u9876\u70b9[2],\u4ee5\u53ca\u50cf\u7d20\u5bf9\u9f50\u7684\u9690\u51fd\n\u6570\u7b49[26].",
+            "39": "\u6700\u8fd1, Zanfir\u7b49[7]\u5c06\u53c2\u6570\u5316\u4eba\u4f53\u6a21\u578b\u548c\u975e\u53c2\u6570\n\u5316\u8868\u9762\u6807\u8bb0\u76f8\u7ed3\u5408, \u9884\u6d4b\u57fa\u4e8e\u6a21\u578b\u7684\u7f51\u683c\u4ee5\u53ca\u6ca1\u6709\n\u6a21\u578b\u7684\u7f51\u683c.",
+            "40": "\u4e5f\u8981\u6ce8\u610f\u5230\u4e00\u4e9b\u5de5\u4f5c\u81f4\u529b\u4e8e\u6062\u590d\u591a\u4eba\u7684\u7f51\u683c[11], \u6216\u4ece\u8fd0\u52a8\u5e8f\u5217\u7684\u8fdb\u884c\u9884\u6d4b\u6216\u4f30\u8ba1[28].",
+            "41": "\u8fd8\u6709\u4e00\u4e9b\u8ba8\n\u8bba\u59ff\u6001\u4f30\u8ba1\u4e2d\u7684\u95ee\u9898\u5173\u8282\u70b9\u51cf\u9664\u95ee\u9898[29].",
+            "42": "2 \u6709\u88ab\u906e\u6321\u4eba\u4f53\n\u5df2\u6709\u5c11\u91cf\u9488\u5bf9\u4eba\u906e\u4eba\u7684\u65b9\u6cd5[12-13].",
+            "43": "Jiang\u7b49[12]\u4f7f\n\u7528\u4e92\u7a7f\u635f\u5931\u9632\u6b62\u78b0\u649e, \u5e76\u7528\u4e00\u4e2a\u6709\u5e8f\u635f\u5931\u89e3\u51b3\u6df1\u5ea6\n\u6a21\u7cca\u95ee\u9898.",
+            "44": "Sun\u7b49[13]\u4ece\u4e00\u5e45\u56fe\u50cf\u4e2d\u5b66\u4e60\u4eba\u4e0e\u4eba\u906e\u6321 , \u5b9e\u65bd\u591a\u4eba\u540c\u65f6\u4f30\u8ba1.",
+            "45": "\u4e0e\u672c\u6587\u65b9\u6cd5\u6bd4\u8f83\u76f8\u8fd1\u5de5\u4f5c\u662f\u6587\u732e[6,13-14].",
+            "46": "Zhang \u7b49[13]\u5229\u7528\u663e\u8457\u63a9\u7801\u4f5c\u4e3a\u53ef\u89c1\u4fe1\u606f\u63d0\u9ad8\u5b58\u5728\u906e\u6321\u65f6\u7684\n\u9c81\u68d2\u6027.",
+            "47": "\u4ed6\u4eec\u5c06\u4eba\u4f53\u7f51\u683c\u7528UV\u56fe\u53c2\u6570\u5316, \u5176\u50cf\u7d20\u70b9\n\u4fdd\u5b58\u77403D\u9876\u70b9\u4f4d\u7f6e, \u8fd9\u6837\u906e\u6321\u5c31\u53d8\u5316\u6210\u4e00\u4e2a\u56fe\u50cf\n\u4fee\u590d\u7684\u95ee\u9898.",
+            "48": "\u4f46\u662fUV\u56fe\u53ef\u80fd\u4f1a\u4ea7\u751f\u7f51\u683c\u7455\u75b5[14], \u53e6\n\u5916, \u663e\u8457\u6027\u5728\u5b9e\u9645\u4e2d\u4e5f\u4e0d\u5bb9\u6613\u8ba1\u7b97\u51fa.",
+            "49": "\u6700\u8fd1, Kocabas\u7b49[14]\u63d0\u51fa\u7528\u8f6f\u6ce8\u610f\u529b\u673a\u5236\u5b66\u4e60\n\u53ef\u89c1\u4eba\u4f53\u90e8\u5206\u7684\u5206\u5e03, \u63d0\u9ad8\u906e\u6321\u90e8\u5206\u4f30\u8ba1\u7684\u6548 \u7387.",
+            "50": "Lin\u7b49[6]\u4f7f\u7528\u591a\u5c42Transformer\u7f16\u7801\u5668\u5bf9\u9876\u70b9\u5230\u9876\u70b9\u4ee5\u53ca\n\u9876\u70b9\u5230\u5173\u8282\u7684\u4ea4\u4e92\u8fdb\u884c\u8054\u5408\u5efa\u6a21, \u5b9e\u73b03D\u5173\u8282\u5750\n\u6807\u4ee5\u53ca\u7f51\u683c\u9876\u70b9\u7684\u540c\u65f6\u8f93\u51fa.",
+            "51": "3 \u5176\u4ed6\n\u5728\u4eba\u4f53\u59ff\u6001\u4f30\u8ba1\u9886\u57df , \u57fa\u4e8e\u70ed\u56fe\u4f30\u8ba1\u662f\u4e00\u79cd\u5e38\n\u89c1\u7684\u68c0\u6d4b\u65b9\u6cd5[10,30,31], \u5176\u76ee\u6807\u83b7\u5f97\u6bcf\u4e2a\u5173\u8282\u70b9\u5728\u9ad8\n\u65af\u70ed\u56fe\u4e0a\u4e00\u4e2a\u663e\u8457\u7684\u9ad8\u54cd\u5e94\u503c.",
+            "52": "\u8fd9\u5176\u4e2d\u53ef\u80fd\u6700\u6709\u540d\n\u7684\u65b9\u6cd5\u662fOpenPose[30], \u5b83\u5229\u7528\u4eb2\u548c\u573a\u89e3\u51b3\u591a\u4eba\u5173\u8282\n\u5206\u914d\u95ee\u9898.",
+            "53": "\u70ed\u56fe\u8fd8\u53ef\u4ee5\u88ab\u5e94\u7528\u5230\u5176\u4ed6\u89c6\u89c9\u9886\u57df, \u4f8b\n\u5982, \u8fd0\u52a8\u4f30\u8ba1[32]\u7b49.",
+            "54": "\u5728\u7269\u4f53\u59ff\u6001\u4f30\u8ba1\u9886\u57df, \u4e5f\u6709\u7814\u7a76\n\u8005\u4e0e\u672c\u6587\u4e00\u6837\u7684\u5229\u7528\u70ed\u56fe\u4f5c\u4e3a\u989d\u5916\u7279\u5f81\u8f85\u52a9\u6d88\u9664\u906e\n \n \u6700\u65b0\u5f55\u7528\n\n\u7b2c*\u671f \u6731\u598d, \u7b49: \u8054\u5408\u6ce8\u610f\u529b\u548c\u6761\u4ef6GAN\u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5 3\n\u6321[31].",
+            "55": "GAN[8]\u662f\u7531\u4e00\u79cd\u751f\u6210\u5668\u548c\u5224\u522b\u5668\u7ec4\u6210\u7684\u70ed\u95e8\u7f51\n\u7edc\u6a21\u578b.",
+            "56": "CGAN[9]\u9488\u5bf9\n\u539f\u59cbGAN\u4e0d\u5047\u8bbe\u5206\u5e03\u5e26\u6765\u7684\u8fc7\u4e8e\u81ea\u7531\u95ee\u9898, \u63d0\u51fa\n\u65bd\u52a0\u7ea6\u675f\u5f15\u5bfc\u7684\u65b9\u6cd5\u63d0\u9ad8\u6548\u7387, \u5f15\u8d77\u5e7f\u6cdb\u7684\u5171\u9e23, \u5e76\u4e14\u5728\u5404\u4e2a\u9886\u57df\u6709\u4e86\u5927\u91cf\u7684\u7814\u7a76 , \u4f8b\u5982, \u5728\u89c6\u89c9\u9886\n\u57df, \u5df2\u6709\u56fe\u50cf\u878d\u5408[33]\u548c\u56fe\u50cf\u589e\u5f3a[34]\u7b49.",
+            "57": "2 \u672c\u6587\u65b9\u6cd5\n\u672c\u6587\u65b9\u6cd5\u57fa\u4e8e\u53c2\u6570\u5316\u6a21\u578b , \u5e76\u4e14\u91c7\u7528\u6d41\u884c\u7684 SMPL\u6a21\u578b[3]\u4f5c\u4e3a\u6807\u51c6\u7684\u4eba\u4f53\u7f51\u683c\u8868\u8fbe .",
+            "58": "\u8be5\u65b9\u6cd5\u4ece2\u4e2a\u89d2\u5ea6\u89e3\u51b3\u906e\u6321\u5f71\u54cd: (1) \u5305\u542b\u4e30\u5bcc\n\u4e0a\u4e0b\u6587\u4fe1\u606f\u7684\u9c81\u68d2\u7279\u5f81, \u5b9e\u73b0\u4e0d\u53d7\u906e\u6321\u90e8\u5206\u5f71\u54cd\u7684\n\u6574\u4f53\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62 \u8bc6\u522b; (2) \u6709\u6548\u7684\u59ff\u6001\u7ea6\u675f\u4e0b\u7684\n\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u5148\u9a8c, \u4f7f\u5f97\u6574\u4f53\u4eba\u4f53\u7f51\u683c\u53ef\u4ee5\u6536 \u655b\n\u51fa\u5305\u62ec\u88ab\u906e\u6321\u4eba\u4f53\u5728 \u5185\u7684\u7ec6\u8282, \u5b9e\u73b0\u51c6\u786e\u7684\u91cd\u5efa.",
+            "59": "\u7279\u522b\u7684, \u4e3a\u4e86\u8ba9GAN\n\u5f97\u5230\u7684\u5148\u9a8c\u5206\u5e03\u7b26\u5408\u7279\u5b9a\u7684\u4eba\u4f53\u59ff\u6001, \u672c\u6587\u8fdb\u4e00\u6b65\n\u4f7f\u7528CGAN, \u5728\u5c06\u4f30\u8ba1\u51fa2D\u548c3D\u5173\u8282\u70b9\u8868\u793a\u7684\u59ff\n\u6001\u4f5c\u4e3a\u6761\u4ef6\u7ea6\u675f, \u800c\u5173\u8282\u70b9\u5219\u7528\u57fa\u4e8e\u70ed\u56fe\u7684\u65b9\u6cd5\u4f30\n\u8ba1\u51fa.",
+            "60": "\u8fd9\u91cc\u91c7\u7528ResNet[35]\n\u63d0\u53d6\u4e3b\u5e72\u7279\u5f81.",
+            "61": "\u7b2c2\u4e2a\u5b50\u90e8\u5206\u662fGAN\u751f\u6210\u5668.",
+            "62": "\u5b83\u4ee5\u5173\u8282\u70ed\u56fe\u56de\u5f52\u51fa\u76843D\u5173\u8282\u70b9\u4e3a\u7ea6\u675f, \u5e76\u7ed3\u5408\n\u4ece\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u7279\u5f81\u4e2d\u56de \u5f52\u51fa\u7684\u6444\u50cf\u673a\u548c\u4f53\u5f62\u53c2\u6570, \u5f97\u5230\u4eba\u4f53\u7684\u59ff\u6001\u548c\u4f53\u5f62 .",
+            "63": "\u5b83\u7684\u76ee\u6807\u662f\u4ee5\u5173\u8282\u70ed\u56fe\u5f97\u5230\u7684 2D\u5173\u8282\u8868\u793a\u7684\u59ff\u6001\n\u4f5c\u4e3a\u7ea6\u675f, \u5bf9GAN\u751f\u6210\u5668\u5f97\u5230\u7684\u4eba\u4f53\u59ff\u6001\u5b9e \u65bd\u771f\n\u5047\u8bc6\u522b, \u4ece\u800c\u4fdd\u8bc1\u6700\u540e\u8f93\u51fa\u6b63\u786e\u7684\u7ecf\u8fc7\u5148\u9a8c\u7ec6\u5316\u540e\n\u7684\u4eba\u4f53\u7f51\u683c.",
+            "64": "\u63a5\u4e0b\u6765, \u672c\u6587\u91cd\u70b9\u8ba8\u8bba\u8fd9\u4e00\u6d41\u7a0b\u4e2d\u6700\u91cd\u8981\u76842\n\u90e8\u5206: \u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u4ee5\u53ca\u57fa\u4e8e\u70ed\u56fe\u7684 CGAN.",
+            "65": "2.",
+            "66": "\u76f8\u5e94\u7684, \u8fd9\u4e2a\u591a\u5c3a\u5ea6\u7684\u6ce8\u610f\u529b\u7279\u5f81 \u5c31\u53ef\u4ee5\u8bbe\u8ba1\n\u6210\u5982\u56fe2\u6240\u793a.",
+            "67": "\u6700\u65b0\u5f55\u7528\n\n 4 \u8ba1\u7b97\u673a\u8f85\u52a9\u8bbe\u8ba1\u4e0e\u56fe\u5f62\u5b66\u5b66\u62a5 \u7b2c3*\u5377\n\u56fe2 \u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u7ed3 \u6784\u56fe.",
+            "68": "\u56fe3\u7ed9\u51fa\u91c7\u7528\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u7279\u5f81\u56de \u5f52SMPL\u53c2\n\u6570\u540e\u7684\u91cd\u8981\u7ed3\u679c.",
+            "69": "\u4f30\u8ba1\u7684\u7f51\u683c\n\u56fe3 \u53ea\u6709\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u4f5c\u7528\u65f6\u91cd\u5efa\u7684\u7f51\u683c \u793a\u4f8b\n2.",
+            "70": "2 \u57fa\u4e8e\u70ed\u56fe\u7684CGAN\n\u57fa\u4e8e\u70ed\u56fe\u7684CGAN\u4f7f\u7528\u70ed\u56fe\u4f30\u8ba1\u7684\u59ff\u6001\u4f5c\u4e3a\n\u6761\u4ef6\u7ea6\u675f\u751f\u6210\u5668\u548c\u5224\u522b\u5668, \u4ece\u800c\u4fdd\u969c\u8ba1\u7b97\u51fa\u7684\u4f53\u5f62\n\u66f4\u52a0\u7b26\u5408\u7279\u5b9a\u7684\u4eba\u4f53\u59ff\u6001, \u76f8\u5e94\u7684\u66f4\u52a0\u771f\u5b9e.",
+            "71": "\u751f\u6210\u5668\u5c06\u6444\u50cf\u673a\u548c\u4f53\u5f62\u53c2\u6570\u56de \u5f52\u5668\u7684\u8f93\u51fa\u4f5c\u4e3a\u8f93\u5165, \u540c\u65f6, \u4e5f\u5c06\u5173\u8282\u70ed\u56fe\u7ecf3D\u59ff\u6001\u56de\u5f52\u5668\u540e\u7684\u8f93\n\u51fa\u4f5c\u4e3a\u6761\u4ef6\u8f93\u5165, \u76f4\u63a5\u751f\u6210\u7b26\u5408SMPL\u6a21\u578b\u7684\u4eba\u4f53\n\u7f51\u683c.",
+            "72": "\u8fd9\u91cc\u7684\u6bcf\u4e2a\u56de\u5f52\u5668\u90fd\u662f\u75314\u4e2a\u5168\u8fde\u63a5\u5c42\u6784\u6210\n\u7684\u591a\u5c42\u611f\u77e5\u5668\u7ec4\u6210.",
+            "73": "2.",
+            "74": "2.",
+            "75": "\u8fd9\u91cc\u91c7\u53d6U-Net[36]\u98ce\u683c\u7684\u7f51\u7edc\u5b9e\u73b0.",
+            "76": "\u5176\u4e2d, \u7f16\u7801\n\u5668\u51714\u4e2a\u5377\u79ef\u5c42, \u524d\u4e00\u5c42\u901a\u8fc7\u6700\u5927\u6c60\u5316\u540e\u4e0b\u91c7\u6837\u8f93\n\u51fa\u5230\u540e\u4e00\u5c42; \u89e3\u7801\u5668\u5219\u91c7\u53d6\u548c\u7f16\u7801\u5668\u4e00\u6837\u76844\u5c42\u8bbe\n\u8ba1, \u4f46\u662f\u901a\u8fc7\u53cc\u7ebf\u6027\u63d2\u503c\u5b9e\u73b0\u9010\u5c42\u7684\u4e0a\u91c7\u6837.",
+            "77": "\u56e0\n\u6b64, \u751f\u6210\u5668\u91cc\u9996\u5148\u91c7\u7528\u4e00\u4e2a\u59ff\u6001\u56de\u5f52\u5668\u83b7\u5f973D\u7684\n\u8eab\u4f53\u59ff\u6001, \u5373: 3D\u5173\u8282; \u800c2D\u59ff\u6001(2D\u5173\u8282)\u5219\u76f4\u63a5\n\u4ece\u70ed\u56fe\u4e2d\u4f30\u8ba1\u51fa.",
+            "78": "\u8fd92\u4e2a\u59ff\u6001\u5c06\u4f5c\u4e3a\u6761\u4ef6\u7ea6\u675f\u5206 \u522b\n\u8f93\u5165\u5230\u751f\u6210\u5668\u548c\u5224\u522b\u5668\u4e2d\u5b9e\u73b0\u7f51\u683c\u751f\u6210\u548c\u4f18\u5316 .",
+            "79": "2.",
+            "80": "2.",
+            "81": "2 \u5173\u8282\u7ea6\u675f\u7684\u5224\u522b\u5668 CGAN\u7684\u5224\u522b\u5668\u91c7\u7528\u5bf9\u79f0\u7684U-Net\u98ce\u683c\u7ed3\u6784\n(\u56fe4).",
+            "82": "\u5b83\u5c06\u4eba\u4f53\u7684\u7531\u5173\u8282\u70ed\u56fe\u5f97\u5230\u7684 2D\u59ff\u6001\u4f5c\u4e3a\n\u6761\u4ef6\u8f93\u5165, \u4e5f\u5c063D\u5173\u8282\u4f5c\u4e3a\u8f93\u5165.",
+            "83": "\u5b83\u7684\u5185\u90e8\u91c7\u75284\n\u5c42\u5377\u79ef\u8bbe\u8ba1, \u7ed3\u5408\u6700\u5927\u6c60\u5316\u5b9e\u73b0\u4e0b\u91c7\u6837\u4ee5\u53ca\u8df3\u8dc3\u8fde\n\u63a5\u4f20\u9012\u7f16\u7801\u7279\u5f81\u5230\u5bf9\u5e94\u89e3\u7801\u5c42, \u6700\u7ec8\u5b9e\u73b0\u8f93\u51fa.",
+            "84": "\u6700\u65b0\u5f55\u7528\n\n\u7b2c*\u671f \u6731\u598d, \u7b49: \u8054\u5408\u6ce8\u610f\u529b\u548c\u6761\u4ef6GAN\u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5 5\n\u56fe4 \u57fa\u4e8e\u70ed\u56fe\u7684CGAN\u4e2d\u5224\u522b\u5668\u7684\u7ed3\u6784.",
+            "85": "\u4e0d\u540c\u4e8e\u57fa\u4e8e\u771f\u6216\u5047\u7684\u4f20\u7edf\u5224\u522b\u5668, \u672c\u6587\u6839\u636e\u70ed\n\u56fe\u63d0\u4f9b\u768424\u4e2a\u5173\u8282\u70b9\u8bbe\u8ba124\u4e2a\u53ef\u4ee5\u5224\u65ad\u751f\u6210\u7684\u5173\n\u8282\u6b63\u786e\u4e0e\u5426\u7684\u6807\u7b7e.",
+            "86": "\u76f8\u5e94\u7684, \u7b2c\n\u4e2a\u5173\u8282\u7684\u6807\u7b7e\u53ef\u4ee5\n\u5b9a\u4e49\u4e3a\n, \u5176\u4e2d, \n\u548c\n\u5206\u522b\u8868\u793a\u751f\u6210\u7f51\u7edc\u6295\u5f71\u51fa\u6765\u76842D\u5173\n\u8282\u70b9\u4f4d\u7f6e\u4ee5\u53ca\u76f8\u5e94\u76842D\u6761\u4ef6\u5173\u8282\u4f4d\u7f6e, \u662f\u9600\u503c, \u8868\u793a\u8f83\u6613\u5b9e\u73b0\u7684\u66fc\u54c8\u987f\u8ddd\u79bb.",
+            "87": "2.",
+            "88": "3 \u635f\u5931\u51fd\u6570\n\u6574\u4e2a\u7f51\u7edc\u6846\u67b6\u91c7\u7528\u57fa\u4e8eGAN\u7684\u635f\u5931\u8bbe\u8ba1, \u516c\n\u5f0f\u4e3a\n, \u5176\u4e2d, \n\u548c\n\u5206\u522b\u8868\u793a\u751f\u6210\u5668\u548c\u5224\u522b\u5668\u7684\u6574\u4f53\u635f\n\u5931.",
+            "89": "\u57fa\u4e8e3D\u548c2D\u5173\u8282\u7684\u635f\u5931\n\u548c\n\u4e5f\u53ef\u7528\u4e8e\n\u6307\u5bfc\u51c6\u786e\u9884\u6d4b\n, , \u5176\u4e2d, \n\u548c\n\u5206\u522b\u8868\u793a3D\u5173\u8282\u70b9\u7684\u9884\u6d4b\u503c\u548c\u771f\u503c, \u8868\u793a2D\u5173\u8282\u70b9\u4f4d\u7f6e\u771f\u503c, \n\u548c\n\u5206\u522b\u8868\u793a\u4e3a\u83b7\n\u5f972D\u6a21\u578b\u5173\u8282\u70b9\u4f4d\u7f6e\u6240\u7528\u7684\u5c3a\u5ea6\u548c\u6b63\u4ea4\u6295\u5f71\u64cd\u4f5c, \u548c\n\u5206\u522b\u8868\u793a\u4f30\u8ba1\u7684\u5e73\u79fb\u548c\u5168\u5c40\u65cb\u8f6c.",
+            "90": "\u53e6\u5916, \u8fd8\u9700\u89813.",
+            "91": "2.",
+            "92": "3 \u6570\u636e\u51c6\u5907\u548c\u8bad\u7ec3\n\u672c\u6587\u65b9\u6cd5\u7684\u8bad\u7ec3\u548c\u6d4b\u8bd5\u662f\u5728\u914d\u7f6e\u4e3a16 GB DDR4 \u5185\u5b58\u300112 GB GEFORCE GTX TITAN X \u663e\u5361\u3001 Intel\u00a9Xeon\u00a9E5-2609 v4 CPU \u548cUbuntu18.",
+            "93": "04 LTS\n\u64cd\u4f5c\u7cfb\u7edf\u7684\u53f0\u5f0f\u7535\u8111\u4e2d\u5b8c\u6210.",
+            "94": "3.",
+            "95": "1 \u6570\u636e\u51c6\u5907\n\u5b9e\u9a8c\u91c7\u7528\u4e86\u4e00\u4e9b\u516c \u5171\u7684\u6570\u636e\u96c6, \u5305\u62ec: 3DPW[37], 3DOH50K[13]\u4ee5\u53caHuman3.",
+            "96": "6M[38-39].",
+            "97": "3DOH50K\u670951 600\u5e45\u56fe\u50cf, \u5747\u67092D\u548c3D\u5173\u8282\u6807\u7b7e\u4ee5\n\u53caSMPL\u771f\u503c.",
+            "98": "3DPW\u4e2d\u7684\u4e00\u4e9b\u906e\u6321\u56fe\u50cf\u7528\u4f5c\u4e86\u6d4b\n\u8bd5\u56fe\u50cf.",
+            "99": "\u5bf9\u4e8eHuman3.",
+            "100": "6M, \u7531\u4e8e\u90fd\u6ca1\u6709\u906e\u6321, \u672c\u6587\u4eba\n\u5de5\u9884\u5904\u7406\u4ee5\u83b7\u5f97\u4e00\u4e9b\u771f\u503c.",
+            "101": "\u603b\u7684\u6765\u8bb2, \u5b58\u57282\u79cd\u9884\u5904\u7406.",
+            "102": "\u5bf9\u4e8e\u7b2c\u4e00\u79cd\u9884\u5904\u7406(\u56fe5), \u53ef\u4ee5\u91c7\u53d6\u64e6\u9664\n\u6216\u8005\u878d\u5408\u7684\u65b9\u5f0f.",
+            "103": "\u64e6\u9664\u6cd5\u5148\u7528OpenPose[30]\u751f\u6210\u56fe\u50cf\n\u4e2d\u4eba\u7269\u76842D\u59ff\u6001; \u7136\u540e\u7528\u4e00\u4e2a\u77e9\u5f62\u6846\u968f\u673a\u653e\u5728\u5173\n\u8282\u4e0a\u9020\u6210\u906e\u6321\u6548\u679c[40].",
+            "104": "\u8fd9\u6837, \u4e00\u5171\n\u53ef\u4ee5\u83b7\u5f97200\u5e45\u7528\u4e8e\u6d4b\u8bd5\u7684\u906e\u6321\u56fe\u50cf.",
+            "105": "\u6700\u65b0\u5f55\u7528\n\n 6 \u8ba1\u7b97\u673a\u8f85\u52a9\u8bbe\u8ba1\u4e0e\u56fe\u5f62\u5b66\u5b66\u62a5 \u7b2c3*\u5377\n \n \n a.",
+            "106": "\u878d\u5408\u6cd5\u7ed3\u679c \n\u56fe5 \u4eba\u5de5\u5236\u4f5c\u906e\u6321\u56fe\u50cf\u7684\u8fc7\u7a0b.",
+            "107": "\u5b9e\u65bd\u7b2c2\u4e2a\u9884\u5904\u7406\u7684\u539f\u56e0\u662f\u4e0d\u540c\u7684\u6570\u636e\u96c6 \u7ed9\u51fa\n\u5173\u8282\u7ed3\u6784\u4e0d\u5c3d\u76f8\u540c, \u6709\u5fc5\u8981\u7edf\u4e00\u5230SMPL\u6a21\u578b\u7684\u7ed3\n\u6784\u4e2d.",
+            "108": "SMPL, 3DPW\u4ee5\u53caHuman3.",
+            "109": "6M\u8bbe\u8ba1\u7684\u5173\u8282\n\u6570\u5206\u522b\u662f24, 18\u548c32, \u5e76\u4e14Human3.",
+            "110": "6M\u53ea\u670917\u4e2a\n\u5173\u8282\u53ef\u79fb\u52a8(\u56fe6).",
+            "111": "\u6807\u5b9a\u7ed3\u679c\u662f3DPW\u548cHuman3.",
+            "112": "6M\u4e2d\u548cSMPL\u5173\u8282\u76f8\u540c\u7684\u4fdd\u7559\u4e0b\u6765, \u5e76\u6309\u7167 SMPL\u7684\u7f16\u53f7\u91cd\u65b0\u7f16\u53f7\u5bf9\u9f50.",
+            "113": "3DPW c.",
+            "114": "Human3.",
+            "115": "6M\n\u56fe6 3\u79cd\u59ff\u6001\u7ed3\u6784\u5bf9\u6bd4\n3.",
+            "116": "2 \u8bad\u7ec3\n\u6574\u4e2a\u6a21\u578b\u7684\u8bad\u7ec3\u5206\u62102\u90e8\u5206: \u5224\u522b\u5668\u548c\u975e\u5224\u522b\n\u5668.",
+            "117": "\u7136\u540e, 2\u4e2a\n\u90e8\u5206\u5bf9\u6297\u8bad\u7ec3\u76f4\u81f3\u6536\u655b.",
+            "118": "\u516c\u5f0f(8)\u4e2d\u7684\u5404\u9879\u6743\u91cd\u8bbe\u7f6e\n\u4e3a: \n, \n, \u548c\n.",
+            "119": "\u8bad\n\u7ec3\u65f6\u4f7f\u7528\u7684\u6279\u5927\u5c0f\u4e3a16.",
+            "120": "4 \u5b9e\u9a8c\u53ca\u7ed3\u679c\u5206\u6790\n\u672c\u6587\u65b9\u6cd5\u4e0e\u4e00\u4e9b \u4ee3\u8868\u6027\u7684\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\n\u8ba1\u65b9\u6cd5\u8fdb\u884c\u5bf9\u6bd4, \u5305\u62ecSMPLify[41], GraphCMR[2]\u4ee5\n\u53caSPIN[24].",
+            "121": "4.",
+            "122": "1 \u5b9a\u6027\u7ed3\u679c\n\u56fe7\u7ed9\u51fa\u4e0d\u540c\u65b9\u6cd5\u91cd\u5efa\u7ed3\u679c\u7684\u5bf9 \u6bd4.",
+            "123": "\u53ef\u4ee5\u770b\u51fa, SMPLify-X\u548cGraphCMR\u5bf9\u51e0\u4e4e\u6240\u6709\u7684\u56fe\u50cf\u90fd\u4e0d\n\u80fd\u6b63\u786e\u4f30\u8ba1; SPIN\u76f8\u8f83\u5b83\u4eec\u597d\u4e00\u4e9b, \u4f46\u662f\u4ecd\u7136\u6709\u4e00\n\u4e9b\u7455\u75b5, \u5982\u4ece\u5de6\u6570\u7b2c3\u4e2a\u4eba\u7684\u5de6\u81c2.",
+            "124": "GraphCMR\n \n \u6700\u65b0\u5f55\u7528\n\n\u7b2c*\u671f \u6731\u598d, \u7b49: \u8054\u5408\u6ce8\u610f\u529b\u548c\u6761\u4ef6GAN\u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5 7 d.",
+            "125": "\u672c\u6587\u65b9\u6cd5\n\u56fe7 4\u79cd\u65b9\u6cd5\u7684\u5b9a\u6027\u5bf9\u6bd4.",
+            "126": "4.",
+            "127": "2 \u5b9a\u91cf\u7ed3\u679c\n\u91c7\u7528\u5e73\u5747\u6b63\u786e\u9876\u70b9\u6bd4\u4f8b(precentage of average correct keypoints, ACK) \u4ee5\u53ca\u5e73\u5747\u9876\u70b9\u8bef\u5dee(precentage of average vertex error, AVE) 2\u79cd\u91cf\u5316\u6307\u6807\u4ece2D\n\u548c3D\u4e24\u4e2a\u89d2\u5ea6\u8fdb\u884c\u6027\u80fd\u7edf\u8ba1\u8bc4\u4ef7.",
+            "128": "ACK \u8ba1\u7b97\u6b63\u786e\n\u4f30\u8ba1\u76842D\u5173\u8282\u6bd4\u4f8b: \u9996\u5148\u5c06\u4f30\u8ba1\u6a21\u578b\u76843D\u5173\u8282\u6295\n\u5f71\u52302D\u4e2d, \u7136\u540e\u6bd4\u8f83\u4e0e\u51762D\u771f\u503c\u5dee\u5f02.",
+            "129": "\u88681 4\u79cd\u65b9\u6cd5\u7684ACK\u548cAVE\u5bf9\u6bd4\n\u6307\u6807SMPLify-XGraphCMRSPIN\u672c\u6587\u65b9\u6cd5ACK\u219168.",
+            "130": "769.",
+            "131": "472.",
+            "132": "176.",
+            "133": "7AVE\u2193128.",
+            "134": "3119.",
+            "135": "3126.",
+            "136": "8110.",
+            "137": "2\n\u66f4\u52a0\u51c6\u786e\u7684\u6d4b\u5ea6-\u57fa\u4e8e\u666e\u6d1b\u514b\u8def\u65af\u5fd2\u65af\u5bf9\u9f50\u7684\n\u5e73\u5747\u6bcf\u5173\u8282\u5b9a\u4f4d\u8bef\u5dee(Procrustes-aligned mean per joint position error, PA-MPJPE)\u4e5f\u7528\u6765\u8bc4\u4ef7\u4e0d\u540c\u65b9\n\u6cd5\u7684\u91cd\u5efa\u6027\u80fd.",
+            "138": "\u56fe8\u7ed9\u51fa100\u5e45\u6765\u81ea3DOH50K\u6d4b\u8bd5\u96c6\u7684\u56fe\u50cf\u7684\u6d4b\n\u91cf\u7ed3\u679c.",
+            "139": "\u56fe8 \u91c7\u7528PA-MPJPE\u7684\u5b9a\u91cf\u5bf9\u6bd4\u7ed3\u679c\n\u6700\u540e, \u4e3a\u4e86\u8fdb\u4e00\u6b65\u8bc4\u4ef7\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u7684 \u6027\u80fd, \u672c\u6587\u5c062\u5e45\u6765\u81ea3DOH5157K\u56fe\u50cf\u7684\u91cd\u5efa\u7ed3\u679c\u4e0e \u771f\n\u503c\u95f4\u9876\u70b9\u8bef\u5dee\u7528\u70ed\u56fe\u8fdb\u884c\u53ef\u89c6\u5316\u5bf9 \u6bd4, \u5982\u56fe9\u6240\u793a.",
+            "140": "\u56fe9 4\u79cd\u65b9\u6cd5\u4e0b\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u7ed3\u679c \u8bef\u5dee\u7684\u70ed\u56fe\u5bf9\u6bd4\u793a\u4f8b\n4.",
+            "141": "3 \u6d88\u878d\u5b9e\u9a8c\n\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u4ee5\u53ca\u57fa\u4e8e\u70ed\u56fe\u7684 CGAN\u662f\u672c\u6587\u65b9\u6cd5\u76842\u4e2a\u4e3b\u8981\u7ec4\u4ef6.",
+            "142": "\u4e3a\u4e86\u5c55\u793a\u5b83\u4eec\u7684\u4f5c\u7528, \u672c\n\u6587\u8bbe\u8ba1\u4e09\u79cd\u4e0d\u540c\u7684\u914d\u7f6e, \u4ee5\u76f8\u5e94\u7684\u6d88\u878d\u5b9e\u9a8c\u8fdb\u884c\u9a8c\n \n \u6700\u65b0\u5f55\u7528\n\n 8 \u8ba1\u7b97\u673a\u8f85\u52a9\u8bbe\u8ba1\u4e0e\u56fe\u5f62\u5b66\u5b66\u62a5 \u7b2c3*\u5377\n\u8bc1.",
+            "143": "(1)\u57fa\u7ebf\u7ed3\u6784(Baseline): \u672c\u6587\u65b9\u6cd5\u6846\u67b6\u4e2d\u53bb\u6389\n\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u548c\u57fa\u4e8e\u70ed\u56fe\u7684 CGAN\n\u540e\u7684\u90e8\u5206;\n(2)\u4ec5\u5305\u62ec\u6ce8\u610f\u529b\u7684\u7ed3 \u6784(Attention-only): \u5728 Baseline\u7684\u57fa\u7840\u4e0a\u589e\u52a0\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757;\n(3)\u5b8c\u6574\u6a21\u578b(Full): \u672c\u6587\u63d0\u51fa\u7684\u5b8c\u6574\u65b9\u6848, \u5305\n\u62ec\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u4ee5\u53ca\u57fa\u4e8e\u70ed\u56fe\u7684 CGAN.",
+            "144": "\u88682\u7ed9\u51fa\u4e0d\u540c\u914d\u7f6e\u4e0b\u7684ACK\u548cAVE.",
+            "145": "\u56fe10\u7ed9\n\u51fa2\u4e2a\u5178\u578b\u914d\u7f6e\u4e0b\u5b9a\u6027\u5bf9\u6bd4\u7ed3\u679c.",
+            "146": "\u88682 \u672c\u6587\u65b9\u6cd53\u79cd\u914d\u7f6e\u4e0b\u7684ACK\u548cAVE\u5bf9\u6bd4\n\u6307\u6807BaselineAttention-onlyFullACK\u219170.",
+            "147": "974.",
+            "148": "376.",
+            "149": "7AVE\u2193120.",
+            "150": "8114.",
+            "151": "2110.",
+            "152": "2\n\u4ece\u5b9a\u91cf\u7684\u7edf\u8ba1\u503c\u53d8\u5316\u548c\u5b9a\u6027\u7684\u7ed3\u679c\u89c2\u5bdf\u53ef\u4ee5\n\u53d1\u73b0: (1) \u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\u80fd \u591f\u53d6\u5f97\u906e\u6321\u4eba\u4f53\u8f83\u4e3a\n\u51c6\u786e\u7684\u4f53\u4f1a, \u662f\u8de8\u5411\u4e0d\u53d7\u906e\u6321\u5f71\u54cd\u7684\u5173\u952e\u4e00\u6b65 , \u5bf9\n\u63d0\u9ad8\u906e\u6321\u4eba\u4f53\u91cd\u5efa\u5177\u6709 \u51b3\u5b9a\u4f5c\u7528; (2) \u57fa\u4e8e\u70ed\u56fe\u7684 CGAN\u867d\u7136\u5bf9\u6574\u4f53\u7684\u8d21\u732e\u6ca1\u6709\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\u6a21\u5757\n\u5f3a, \u4f46\u5728\u7ec6\u8282\u63d0\u5347\u65b9\u6cd5\u5374\u6709\u7740\u975e\u5e38\u91cd\u8981\u7684\u4f5c\u7528.",
+            "153": "Full \u56fe10 \u672c\u6587\u65b9\u6cd5\u7684\u6d88\u878d\u5b9e\u9a8c\u7ed3\u679c\u5bf9\u6bd4.",
+            "154": "4.",
+            "155": "4 \u5c40\u9650\u6027\n\u672c\u6587\u65b9\u6cd5\u5728\u9c81\u68d2\u4e0a\u4e0b\u6587\u83b7\u53d6\u7684\u591a\u5c3a\u5ea6\u6ce8\u610f\u529b\n\u6a21\u5757\u4ee5\u53ca\u57fa\u4e8e\u70ed\u56fe \u63a8\u5bfc\u7684\u59ff\u6001\u4e3a\u7ea6\u675f\u7684CGAN\u4e24\n\u8005\u4ece\u6574\u4f53\u5230\u7ec6\u8282\u7684\u53cc\u91cd\u4f5c\u7528\u4e0b, \u53ef\u4ee5\u6709\u6548\u7684\u5904\u7406\u5355\n\u5e45\u56fe\u50cf\u5b58\u5728\u4eba\u4f53\u906e\u6321\u65f6\u7684\u59ff\u6001\u548c\u4f53\u5f62\u91cd\u5efa .",
+            "156": "5 \u7ed3 \u8bed\n\u672c\u6587\u9762\u5411\u88ab\u906e\u6321\u7684\u4eba\u4f53\u63d0\u51fa\u4e00\u79cd\u65b0\u7684\u57fa\u4e8e\u5355\n\u5e45\u56fe\u50cf\u7684\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u91cd\u5efa\u65b9\u6cd5 .",
+            "157": "\u8be5\u65b9\u6cd5\u5c06\u591a\u5c3a\n\u5ea6\u6ce8\u610f\u529b\u548c\u57fa\u4e8e\u70ed\u56fe\u7684 CAN\u76f8\u7ed3\u5408: \u524d\u8005\u83b7\u5f97\u4e30\n\u5bcc\u4e0a\u4e0b\u6587\u7684\u591a\u5c3a\u5ea6\u7279\u5f81 , \u5b9e\u73b0\u4e0d\u53d7\u906e\u6321\u5f71\u54cd\u7684\u6574\u4f53\n\u59ff\u6001\u548c\u4f53\u5f62\u6062\u590d; \u540e\u8005\u5229\u7528\u70ed\u56fe\u5f97\u52302D\u548c3D\u5173\u8282\n\u70b9\u4fe1\u606f, \u5e76\u7528\u5b83\u4eec\u4f5c\u4e3a\u5f3a\u7ea6\u675f\u6307\u5bfc\u8fdb\u4e00\u6b65\u7684\u4eba\u4f53\u7ec6\n\u8282\u6c42\u7cbe.",
+            "158": "): [1]Agarwal A, Triggs B.",
+            "159": "Recovering 3D human pose from monoc -ular images[J].",
+            "160": "IEEE Transactions on Pattern Analysis and MachineIntelligence, 2005, 28(1):44\u201358.",
+            "161": "[2]Kolotouros N, Pavlakos G, Daniilidis K.",
+            "162": "Los Alamitos: IEEE Computer Society Press , 2019:4501\u20134510.",
+            "163": "[3]Loper M, Mahmood N, Romero J, et al.",
+            "164": "ACM Transactions on Graphics, 2015,34(6):1\u201316.",
+            "165": "[4]Omran M, Lassner C, Pons-Moll G, et al Neural body fitting:Unifying deep learning and model based human pose and shape esti -mation[C] //Proceedings of International Conference on 3D Vision.",
+            "166": "Los Alamitos: IEEE Computer Society Press , 2018: 484\u2013494.",
+            "167": "[5]Zhang H, Tian Y , Zhou X, et al.",
+            "168": "PyMAF: 3D human pose andshape regression with pyramidal mesh alignment feedback loop[C] //Proceedings of IEEE/CVF International Conference on Computer Vi -sion.",
+            "169": "Los Alamitos: IEEE Computer Society Press , 2021: 11446\u201311456.",
+            "170": "[6]Lin K, Wang L, Liu Z.",
+            "171": "Los Alamitos:IEEE Computer Society Press , 2021: 1954\u20131963.",
+            "172": "[7]Zanfir M, Zanfir A, Bazavan E G, et al.",
+            "173": "THUNDR: Trans-former based 3D human reconstruction with markers[C] // Proceed -ings of IEEE/CVF International Conference on Computer Vision .",
+            "174": "LosAlamitos: IEEE Computer Society Press , 2021: 12971\u201312980.",
+            "175": "[8]Creswell A, White T, Dumoulin V , et al.",
+            "176": "IEEE Signal Processing Magazine, 2018,35(1):53\u201365.",
+            "177": "[9]Mirza M, Osindero S [J/OL].",
+            "178": "arXiv preprint arXiv:1411.",
+            "179": "1784, 2014[2022-7-20].",
+            "180": "org/abs/1411.",
+            "181": "1784[10]Li J, Xu C, Chen Z, et al.",
+            "182": "HybrIK: A hybrid analytical-neuralinverse kinematics solution for 3D human pose and shapeestimation[C] //Proceedings of IEEE/CVF Conference on ComputerVision and Pattern Recognition.",
+            "183": "Los Alamitos: IEEE Computer Soci -ety Press, 2021: 3383\u20133393.",
+            "184": "[11]Jiang W, Kolotouros N, Pavlakos G, et al.",
+            "185": "Los Alamitos: IEEE Computer Society Press , 2020: 5579\u20135588.",
+            "186": "[12]Sun Y , Bao Q, Liu W, et al.",
+            "187": "CenterHMR: A bottom-up single-shot method for multi-person 3D mesh recovery from a singleimage[J/OL].",
+            "188": "arXiv e-prints, 2020: arXiv\u20132008 [2022-7-20].",
+            "189": "https://\n \n \u6700\u65b0\u5f55\u7528\n\n\u7b2c*\u671f \u6731\u598d, \u7b49: \u8054\u5408\u6ce8\u610f\u529b\u548c\u6761\u4ef6GAN\u7684\u88ab\u906e\u6321\u4eba\u4f53\u59ff\u6001\u548c\u4f53\u5f62\u4f30\u8ba1\u65b9\u6cd5 9 arxiv.",
+            "190": "org/abs/2008.",
+            "191": "12272v1[13]Zhang T, Huang B, Wang Y .",
+            "192": "LosAlamitos: IEEE Computer Society Press , 2020: 7376\u20137385.",
+            "193": "[14]Kocabas M, Huang C-H P, Hilliges O, et al.",
+            "194": "PARE: Part atten-tion regressor for 3D human body estimation[C] //Proceedings ofIEEE/CVF International Conference on Computer Vision.",
+            "195": "Los Alami -tos: IEEE Computer Society Press , 2021: 11127\u201311137.",
+            "196": "[15]Guan S, Xu J, Wang Y , et al.",
+            "197": "LosAlamitos: IEEE Computer Society Press , 2021: 10472\u201310481.",
+            "198": "[16]Fang X, Yang J, Rao J, et al.",
+            "199": "Single RGB-D fitting: Total hu -man modeling with an RGB-D shot[C] // Proceedings of ACM Sym -posium on Virtual Reality Software and Technology, New York:ACM, 2019: 1\u201311.",
+            "200": "[17]Guo C, Chen X, Song J, et al.",
+            "201": "Human performance capturefrom monocular video in the wild[C] //Proceedings of InternationalConference on 3D Vision.",
+            "202": "Los Alamitos: IEEE Computer SocietyPress, 2021: 889\u2013898.",
+            "203": "[18]Chen L, Peng S, Zhou X.",
+            "204": "Towards efficient and photorealistic3D human reconstruction: A brief survey[J].",
+            "205": "Visual Informatics, 2021,5(4):11-19.",
+            "206": "[19]Cheng Z-Q, Chen Y , Martin R R, et al.",
+            "207": "Parametric modeling of3D human body shape\u2014A survey[J].",
+            "208": "Computers & Graphics, 2018,71:88\u2013100.",
+            "209": "[20]Zanfir A, Bazavan E G, Zanfir M, et al.",
+            "210": "Neural descent for vis-ual 3D human pose and shape[C] //Proceedings of IEEE/CVF Con -ference on Computer Vision and Pattern Recognition.",
+            "211": "Los Alamitos:IEEE Computer Society Press , 2021: 14484\u201314493.",
+            "212": "[21]Song J, Chen X, Hilliges O.",
+            "213": "Heidelberg: Springer Berlin, 2020: 744\u2013760.",
+            "214": "[22]Bogo F, Kanazawa A, Lassner C, et al.",
+            "215": "Keep it SMPL: Auto-matic estimation of 3D human pose and shape from a single image[C]//Proceedings of European Conference on Computer Vision .",
+            "216": "Heidel-berg: Springer Berlin, 2016: 561\u2013578.",
+            "217": "[23]Lassner C, Romero J, Kiefel M, et al.",
+            "218": "Unite the people: Closingthe loop between 3D and 2D human representations[C] //Proceedingsof IEEE Conference on Computer Vision and Pattern Recognition.",
+            "219": "Los Alamitos: IEEE Computer Society Press , 2017: 6050\u20136059.",
+            "220": "[24]Kolotouros N, Pavlakos G, Black M J, et al.",
+            "221": "Learning to recon-struct 3D human pose and shape via model-fitting in the loop[C] //Proceedings of IEEE/CVF International Conference on Computer Vi -sion.",
+            "222": "Los Alamitos: IEEE Computer Society Press , 2019: 2252\u20132261.",
+            "223": "[25]Xu H, Bazavan E G, Zanfir A, et al.",
+            "224": "GHUM & GHUML: Gen-erative 3D human shape and articulated pose models[C] //Proceed -ings of IEEE/CVF Conference on Computer Vision and PatternRecognition.",
+            "225": "Los Alamitos: IEEE Computer Society Press , 2020:6184\u20136193.",
+            "226": "[26]Saito S, Huang Z, Natsume R, et al.",
+            "227": "Los Alamitos: IEEE Computer Society Press , 2019: 2304\u20132314.",
+            "228": "[27]Varol G, Ceylan D, Russell B, et al.",
+            "229": "BodyNet: V olumetric infer-ence of 3D human body shapes[C] //Proceedings of European Con -ference on Computer Vision .",
+            "230": "Heidelberg: Springer Berlin, 2018: 20\u201336.",
+            "231": "[28]Kanazawa A, Zhang J Y , Felsen P, et al.",
+            "232": "Learning 3D humandynamics from video[C] //Proceedings of IEEE/CVF Conference onComputer Vision and Pattern Recognition.",
+            "233": "Los Alamitos: IEEE Com -puter Society Press, 2019: 5614\u20135623.",
+            "234": "[29]Cheng Y , Yang B, Wang B, et al.",
+            "235": "Occlusion-aware networks for3D human pose estimation in video[C] //Proceedings of IEEE Inter -national Conference on Computer Vision.",
+            "236": "Los Alamitos: IEEE Com -puter Society Press, 2019: 723\u2013732.",
+            "237": "[30]Cao Z, Simon T, Wei S-E, et al.",
+            "238": "Realtime multi-person 2D poseestimation using part affinity fields[C] //Proceedings of IEEE Confer -ence on Computer Vision and Pattern Recognition.",
+            "239": "Los Alamitos:IEEE Computer Society Press , 2017: 7291\u20137299.",
+            "240": "[31]Hu Y , Hugonot J, Fua P, et al.",
+            "241": "Segmentation-driven 6D objectpose estimation[C] //Proceedings of IEEE/CVF Conference on Com -puter Vision and Pattern Recognition.",
+            "242": "Los Alamitos: IEEE ComputerSociety Press, 2019: 3385\u20133394.",
+            "243": "[32]Gilles T, Sabatini S, Tsishkou D, et al.",
+            "244": "GOHOME: Graph-ori-ented heatmap output for future motion estimation[C] //Proceedingsof International Conference on Robotics and Automation, Piscataway :IEEE, 2022: 9107\u20139114.",
+            "245": "[33]Yang Y , Liu J, Huang S, et al.",
+            "246": "IEEETransactions on Circuits and Systems for Video Technology, 2021,31(12):4771\u20134783.",
+            "247": "[34]Zhang H, Sindagi V , Patel V M.",
+            "248": "IEEE Transactions on Cir -cuits and Systems for Video Technology, 2019, 30(11):3943\u20133956.",
+            "249": "[35]He K, Zhang X, Ren S, et al.",
+            "250": "Los Alamitos: IEEE Computer SocietyPress, 2016: 770\u2013778.",
+            "251": "[36]Ronneberger O, Fischer P, Brox T.",
+            "252": "Cham: Springer, 2015: 234\u2013241.",
+            "253": "[37]Marcard T, Henschel R, Black M, et al.",
+            "254": "Recovering accurate3D human pose in the wild using IMUs and a moving camera[C] //Proceedings of European Conference on Computer Vision .",
+            "255": "Heidel-berg: Springer Berlin, 2018: 601\u2013617.",
+            "256": "[38]Ionescu C, Papava D, Olaru V , et al.",
+            "257": "Human3.",
+            "258": "6M: Large scaledatasets and predictive methods for 3D human sensing in natural en -vironments[J].",
+            "259": "IEEE Transactions on Pattern Analysis and MachineIntelligence, 2014, 36(7):1325\u20131339.",
+            "260": "[39]Ionescu C, Li F, Sminchisescu C.",
+            "261": "Los Alamitos: IEEE Computer SocietyPress, 2011: 2220\u20132227.",
+            "262": "[40]Zhong Z, Zheng L, Kang G, et al.",
+            "263": "Palo Alto: AAAI Press, 2020: 13001\u201313008.",
+            "264": "[41]Pavlakos G, Choutas V , Ghorbani N, et al.",
+            "265": "Expressive bodycapture: 3D hands, face, and body from a single image[C] //Proceed -ings of IEEE/CVF Conference on Computer Vision and PatternRecognition.",
+            "266": "Los Alamitos: IEEE Computer Society Press , 2019:10975\u201310985."
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "You Don't Only Look Once: Constructing Spatial-Temporal Memory for Integrated 3D Object Detection and Tracking",
+    "id": 61,
+    "valid_pdf_number": "1/5",
+    "matched_pdf_number": "0/1",
+    "matched_rate": 0.0,
+    "citations": {
+        "Muti-Frame Point Cloud Feature Fusion Based on Attention Mechanisms for 3D Object Detection": {
+            "authors": [
+                "Zhenyu Zhai",
+                "Qiantong Wang",
+                "Zongxu Pan",
+                "Zhentong Gao",
+                "Wenlong Hu"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/22/19/7473/pdf",
+            "ref_texts": "7. Sun, J.; Xie, Y.; Zhang, S.; Chen, L.; Zhang, G.; Bao, H.; Zhou, X. You Don\u2019t Only Look Once: Constructing Spatial-Temporal Memory for Integrated 3D Object Detection and Tracking. In Proceedings of the IEEE/CVF International Conference on Computer Vision, Montreal, QC, Canada, 10\u201317 October 2021; pp. 3185\u20133194.",
+            "ref_ids": [
+                "7"
+            ]
+        }
+    }
+}

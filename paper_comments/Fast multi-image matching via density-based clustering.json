@@ -1,0 +1,284 @@
+{
+    "title": "Fast multi-image matching via density-based clustering",
+    "id": 26,
+    "valid_pdf_number": "23/42",
+    "matched_pdf_number": "19/23",
+    "matched_rate": 0.8260869565217391,
+    "citations": {
+        "Graduated assignment for joint multi-graph matching and clustering with application to unsupervised graph matching network learning": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf",
+            "ref_texts": "[29] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis, \u201cFast multi-image matching via density-based clustering,\u201d inCVPR , 2017, pp. 4057\u20134066.",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "analyzing video sequences, some authors propose to optimize matching based on a joint matching objective function [26,9,27], and others aim to develop a postprocessing technique to recover global consistency based on existing pairwise matching results [11, 28,29,30].",
+            "2": "[29]) and does not work with a strict QAP formulation.",
+            "3": "[29] R."
+        },
+        "Toward practical privacy-preserving processing over encrypted data in IoT: an assistive healthcare use case": {
+            "authors": [
+                "Linzhi Jiang"
+            ],
+            "url": "https://pureadmin.qub.ac.uk/ws/files/184231209/Practicalities.pdf",
+            "ref_texts": "[48] Tron, R., Zhou, X., Esteves, C., & Daniilidis, K. (2017). Fast multiimage matching via density-based clustering. In Proceedings of the IEEE International Conference on Computer Vision (pp. 4057-4066).",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "Because pairwise matching for retinal images of DRis inefficient, our application implements multi-image matching scheme called multi-image matching via density-based clustering [48] to classify the retinal images of DR.",
+            "2": "[48] Tron, R."
+        },
+        "Multi-image semantic matching by mining consistent features": {
+            "authors": [
+                "Qianqian Wang",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Image_Semantic_Matching_CVPR_2018_paper.pdf",
+            "ref_texts": "[40] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis. Fast multiimage matching via density-based clustering. In CVPR , 2017. 2",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "The recent work [40] proposes an efficient method to discover clusters of discriminative features for matching, but no geometric constraint is considered.",
+            "2": "2,4,7\n[40] R."
+        },
+        "Isometric multi-shape matching": {
+            "authors": [
+                "Maolin Gao",
+                "Zorah Lahner",
+                "Johan Thunberg",
+                "Daniel Cremers",
+                "Florian Bernard"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Isometric_Multi-Shape_Matching_CVPR_2021_paper.pdf",
+            "ref_texts": "[70] Roberto Tron, Xiaowei Zhou, Carloes Esteves, and Kostas Daniilidis. Fast Multi-Image Matching via Density-Based Clustering. In International Conference on Computer Vision (ICCV) , 2017. 3,4",
+            "ref_ids": [
+                "70"
+            ],
+            "1": "for matching multiple graphs [77,76,65,6,67,75], or matching keypoints in image collections [74,70,42].",
+            "2": "Establishing cycle consistency in a given set of pairwise matchings, known as permutation synchronisation, has been addressed extensively in the literature [50,52,29,15,81,64,70,45,62,7].",
+            "3": "Instead of using the explicit cycle consistency constraints in (2), one can represent multi-matchings by using shape-to-universe matchings [52,29,70,7]."
+        },
+        "A convex relaxation for multi-graph matching": {
+            "authors": [
+                "Paul Swoboda",
+                "Dagmar Kainm",
+                "Ashkan Mokarian",
+                "Christian Theobalt",
+                "Florian Bernard"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Swoboda_A_Convex_Relaxation_for_Multi-Graph_Matching_CVPR_2019_paper.pdf",
+            "ref_texts": "[37] Roberto Tron, Xiaowei Zhou, Carloes Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In ICCV , 2017.",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "A fast algorithm for MGM based on clustering was proposed in [37], where, however, only linear costs are considered."
+        },
+        "Synchronization problems in computer vision with closed-form solutions": {
+            "authors": [
+                "Federica Arrigoni"
+            ],
+            "url": "https://openreview.net/pdf?id=TjIWMgAg5B",
+            "ref_texts": "2448). Tron, R., Carlone, L., Dellaert, F., & Daniilidis, K. (2015). Rigid components identification and rigidity enforcement in bearing-only localization using the graph cycle basis. In IEEE American control conference . Tron, R., & Danilidis, K. (2014). Statistical pose averaging with varying and non-isotropic covariances. In Proceedings of the European conference on computer vision . Tron, R., & Vidal, R. (2014). Distributed 3-D localization of camera sensor networks from 2-D image measurements. IEEE Transactions on Automatic Control ,59(12), 3325\u20133340. Tron, R., Zhou, X., & Daniilidis, K. (2016). A survey on rotation optimization in structure from motion. In Computer vision and pattern recognition workshops (CVPRW) . Tron, R., Zhou, X., Esteves, C., & Daniilidis, K. (2017). Fast multiimage matching via density based clustering. In Proceedings of the International Conference on Computer Vision , pp. 4077\u20134086. V an Loan, C. (2000). The ubiquitous Kronecker product. Journal of Computational and Applied Mathematics ,123(1\u20132), 85\u2013100. V aradarajan, V . S. (1984). Lie groups, Lie algebras, and their representations. Graduate Texts in Mathematics (V ol. 102). Berlin: Springer. Wahlstr\u00f6m, M. (2014). Half-integrality, LP-branching and FPT algorithms (pp. 1762\u20131781). Wang, L., & Singer, A. (2013). Exact and stable recovery of rotations for robust synchronization. Information and Inference: A Journal of the IMA ,2(2), 145\u2013193. Wilson, K., & Snavely, N. (2014). Robust global translations with 1DSfM. In Proceedings of the European conference on computer vision (pp. 61\u201375). Wilson, K., Bindel, D., & Snavely, N. (2016). When is rotations averaging hard? In Proceedings of the European conference on computer vision (pp. 255\u2013270). Wright, S. (1997). Primal\u2013dual interior-point methods . Philadelphia, PA: Society for Industrial and Applied Mathematics. Y u, J. G., Xia, G. S., Samal, A., & Tian, J. (2016). Globally consistent correspondence of multiple feature sets using proximal Gauss\u2013Seidel relaxation. Pattern Recognition ,51, 255\u2013267. Zach, C., Klopschitz, M., & Pollefeys, M. (2010). Disambiguating visual relations using loop constraints. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1426\u2013"
+        },
+        "Hippi: Higher-order projected power iterations for scalable multi-matching": {
+            "authors": [
+                "Florian Bernard",
+                "Johan Thunberg",
+                "Paul Swoboda",
+                "Christian Theobalt"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Bernard_HiPPI_Higher-Order_Projected_Power_Iterations_for_Scalable_Multi-Matching_ICCV_2019_paper.pdf",
+            "ref_texts": "[48] Roberto Tron, Xiaowei Zhou, Carloes Esteves, and Kostas Daniilidis. Fast Multi-Image Matching via Density-Based Clustering. In ICCV , 2017. 1,2,3,5,6,7,8,12",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "Centre: methods that ignore geometric relations (Q UICK MATCH [48], S PECTRAL [38]) lead to wrong matchings, as evidenced by mismatching colours in the magnifications.",
+            "2": "[24,53,44,48,6]) and (ii) approaches that first establish matchings between points in each pair of objects independently, and then improve those matchings via a postprocessing procedure referred to as permutation synchronisation [38,14,61,43,33,7].",
+            "3": "Approaches that jointly optimise for multi-matchings either ignore geometric relations between the points [48], or are prohibitively expensive and thus only applicable to small problems (cf.",
+            "4": "in [48,7]: Lemma 2.",
+            "5": "As in [48], the similarity scores are based on a weighted Gaussian kernel, i.",
+            "6": "For details we refer the reader to [48].",
+            "7": "Multi-image matching: We compare our method with QUICK MATCH [48], M ATCH EIG[33], S PECTRAL [38]\n(implemented by the authors of [61] for partial permutation synchronisation), and M ATCH ALS [61].",
+            "8": "Since Q UICK MATCH [48] is tailored towards partial matchings, as it implicitly determines the universe size during its internal clustering, we have found that it does not perform so well on this dataset (see Table 2).",
+            "9": "All methods are initialised based on pairwise matches with linear costs (except Q UICK MATCH [48], which is initialisation-free).",
+            "10": "[16] is able to incorporate geometric relations between points, 10290\n QUICK MATCH [48]\n COSMO ET AL ."
+        },
+        "Deep Learning of Partial Graph Matching via Differentiable Top-K": {
+            "authors": [
+                "Runzhong Wang",
+                "Ziao Guo",
+                "Shaofei Jiang",
+                "Xiaokang Yang",
+                "Junchi Yan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.pdf",
+            "ref_texts": "[40] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis. Fast multiimage matching via density-based clustering. In Comput. Vis. Pattern Recog. , pages 4057\u20134066, 2017. 3",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "There is success in discovering common inliers among multiple graphs, which is addressed by a few multi-graph matching papers [4,37,40].",
+            "2": "3\n[40] R."
+        },
+        "Sparse quadratic optimisation over the Stiefel manifold with application to permutation synchronisation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/d4bad256c73a6b25b86cc9c1a77255b1-Paper.pdf",
+            "ref_texts": "[42] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis. Fast multi-image matching via density-based clustering. InCVPR , 2017.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "1 Permutation Synchronisation in a Nutshell Permutation synchronisation is a procedure to improve matchings between multiple objects [23,34], and related concepts have been utilised to address diverse tasks, such as multi-alignment [7,5, 5\n25], multi-shape matching [22,24,20], multi-image matching [51,42,9,13,12], or multi-graph matching [48,6,41], among many others.",
+            "2": "partial) permutations (see [42, 8] for details).",
+            "3": "[42] R."
+        },
+        "Large-scale, metric structure from motion for unordered light fields": {
+            "authors": [
+                "Sotiris Nousias",
+                "Manolis Lourakis",
+                "Christos Bergeles"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Nousias_Large-Scale_Metric_Structure_From_Motion_for_Unordered_Light_Fields_CVPR_2019_paper.pdf",
+            "ref_texts": "[51] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In IEEE International Conference on Computer Vision (ICCV) , pages 4077\u20134086, Oct 2017.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "[51], who use densitybased clustering to determine multi-image matches from the modes of a non-parametric density function estimated in feature space.",
+            "2": "However, [51] does not scale well to the thousands of matches arising from a set of even 100frames.",
+            "3": "Indeed, the authors argue in [51] that their algorithm can handle approximately up to 20K features, but this is only a fraction of the number of features obtained in a set of even 50frames."
+        },
+        "Motion segmentation via synchronization": {
+            "authors": [
+                "Federica Arrigoni",
+                "Tomas Pajdla"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/AUTONUE/Arrigoni_Motion_Segmentation_via_Synchronization_ICCVW_2019_paper.pdf",
+            "ref_texts": "[52] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In Proceedings of the International Conference on Computer Vision , pages 4077\u20134086, 2017.",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "We exploited two different algorithms for computing tracks from pairwise matches, namely StableSfM6[32] and QuichMatch7[52].",
+            "2": "2, we compared our approach with RSIM\n[16] and Subset [61], where StableSfM [32] and QuickMatch [52] were used to compute tracks over multiple images."
+        },
+        "On the usage of the trifocal tensor in motion segmentation": {
+            "authors": [],
+            "url": "https://re.public.polimi.it/bitstream/11311/1170768/1/trifocalECCV2020.pdf",
+            "ref_texts": "43. Tron, R., Zhou, X., Esteves, C., Daniilidis, K.: Fast multi-image matching via density-based clustering. In: Proceedings of the International Conference on Computer Vision. pp. 4077{4086 (2017)",
+            "ref_ids": [
+                "43"
+            ],
+            "1": ", QuickMatch [43] or StableSfM [29]) can be used for getting tracks starting from those (reffned) two-frame correspondences."
+        },
+        "Robust motion segmentation from pairwise matches": {
+            "authors": [
+                "Federica Arrigoni",
+                "Tomas Pajdla"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Arrigoni_Robust_Motion_Segmentation_From_Pairwise_Matches_ICCV_2019_paper.pdf",
+            "ref_texts": "[48] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In Proceedings of the International Conference on Computer Vision , pages 4077\u20134086, 2017.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "[30, 48]).",
+            "2": "We used two different techniques for computing tracks from pairwise matches, namely StableSfM5[30] and QuichMatch6[48].",
+            "3": "2, we compared M ODE with the baseline, which takes as input the results from pairwise segmentation, and we also considered two traditional methods, namely RSIM [17] and Subset [58], where StableSfM [30] and QuichMatch [48] were used to compute tracks over multiple images."
+        },
+        "pose: Pseudo object space error for initialization-free bundle adjustment": {
+            "authors": [
+                "Je Hyeong",
+                "Christopher Zach"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Hong_pOSE_Pseudo_Object_CVPR_2018_paper.pdf",
+            "ref_texts": "[53] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis. Fast multiimage matching via density-based clustering. In 2017 IEEE International Conference on Computer Vision (ICCV) , pages 4077\u20134086, Oct 2017. 6",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "[33,53] for recent developments).",
+            "2": "2\n[53] R."
+        },
+        "On the relevance of multi-graph matching for sulcal graphs": {
+            "authors": [],
+            "url": "https://hal.science/hal-03776013/file/Yadav_ICIP_2022.pdf",
+            "ref_texts": "[8] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis, \u201cFast Multi-image Matching via Density-Based Clustering,\u201d in 2017 IEEE International Conference on Computer Vision (ICCV) , Venice, Oct.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "The multi-matching solution is then obtained by solving KoopmansBeckmann\u2019s quadratic assignment problem [6, 7, 8] using bulk matrices: max X2Ctr(AXAX>) (2) whereX=fXijg1\u0014i;j\u0014Nis the bulk matrix containing all permutations matrices and identity matrices as block diagonal,A=fAijg1\u0014i;j\u0014Nis the bulk matrix with the adjacency matrices andCis the set of constraints which at least includethe consistency expressed in (1) and permutations requirement onfXijg1\u0014i;j\u0014N."
+        },
+        "Joint deep multi-graph matching and 3d geometry learning from inhomogeneous 2d image collections": {
+            "authors": [
+                "Zhenzhang Ye",
+                "Tarun Yenamandra",
+                "Florian Bernard",
+                "Daniel Cremers"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20220/19979",
+            "ref_texts": "3132 Pachauri, D.; Kondor, R.; and Singh, V . 2013. Solving the Multi-way Matching Problem by Permutation Synchronization. In Advances in Neural Information Processing Systems. Pardalos, P.; Rendl, F.; and Wolkowitz, H. 1994. The Quadratic Assignment Problem: A Survey and Recent Developments. Quadratic Assignment and related problem. DIMACS: Series in Discrete Mathematics and Theoretical Computer Science. Park, K.; Sinha, U.; Barron, J. T.; Bouaziz, S.; Goldman, D. B.; Seitz, S. M.; and Martin-Brualla, R. 2020. Deformable Neural Radiance Fields. arXiv preprint arXiv:2011.12948. Rol\u00b4\u0131nek, M.; Swoboda, P.; Zietlow, D.; Paulus, A.; Musil, V .; and Martius, G. 2020. Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers. In European Conference on Computer Vision. Swoboda, P.; Rother, C.; Alhaija, H. A.; Kainm \u00a8uller, D.; and Savchynskyy, B. 2017. Study of Lagrangean Decomposition and Dual Ascent Solvers for Graph Matching. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Tewari, A.; Zoll \u00a8ofer, M.; Kim, H.; Garrido, P.; Bernard, F.; Perez, P.; and Christian, T. 2017. MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction. In Proceedings of the IEEE International Conference on Computer Vision. Tron, R.; Zhou, X.; Esteves, C.; and Daniilidis, K. 2017. Fast Multi-Image Matching via Density-Based Clustering. In Proceedings of the IEEE International Conference on Computer Vision. Wang, Q.; Zhou, X.; and Daniilidis, K. 2018. Multi-Image Semantic Matching by Mining Consistent Features. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Wang, R.; Yan, J.; and Yang, X. 2019a. Learning Combinatorial Embedding Networks for Deep Graph Matching. In Proceedings of the IEEE International Conference on Computer Vision. Wang, R.; Yan, J.; and Yang, X. 2019b. Neural Graph Matching Network: Learning Lawler\u2019s Quadratic Assignment Problem with Extension to Hypergraph and Multiplegraph Matching. arXiv preprint arXiv:1911.11308. Wang, R.; Yan, J.; and Yang, X. 2020. Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning. In Larochelle, H.; Ranzato, M.; Hadsell, R.; Balcan, M. F.; and Lin, H., eds., Advances in Neural Information Processing Systems, volume 33, 19908\u201319919. Curran Associates, Inc. Wang, R.; Yang, N.; Stueckler, J.; and Cremers, D. 2020a. DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation. In Proceedings of the IEEE International Conference on Robotics and Automation. Wang, T.; Ling, H.; Lang, C.; and Feng, S. 2018. Graph Matching with Adaptive and Branching Path Following.IEEE Transactions on Pattern Analysis and Machine Intelligence. Wang, T.; Liu, H.; Li, Y .; Jin, Y .; Hou, X.; and Ling, H."
+        },
+        "Using machine learning methods to identify atrocity perpetrators": {
+            "authors": [],
+            "url": "http://www.orekoren.com/wp-content/uploads/2018/01/BagozziKorenIEEEofficial.pdf"
+        },
+        "Motion segmentation with pairwise matches and unknown number of motions": {
+            "authors": [],
+            "url": "https://re.public.polimi.it/bitstream/11311/1170775/1/2020_ICPR_segmentation.pdf",
+            "ref_texts": "[35] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis, \u201cFast multi-image matching via density-based clustering,\u201d in Proceedings of the International Conference on Computer Vision , 2017, pp. 4077\u20134086.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Permutation synchronization is hard to solve due to the combinatorial nature of the problem, hence existing approaches usually rely on approximate solutions (see [30], [31], [32], [33], [34], [35], [36], [37]).",
+            "2": "Among existing methods, we are particularly interested in MatchEIG [34] and QuickMatch [35], which are illustrated here and will be used in the next section.",
+            "3": "The authors of [35] interpret the measurement matrix as the adjacency matrix of a graph, hence permutation synchronization is cast to a \u201cgraph clustering\u201d problem.",
+            "4": "In order to solve permutation synchronization, we proceed as follows: 1) a measurement matrix is constructed from the permutationstPfiffupfi;ffqPEwhich is refined with MatchEIG\n[34]; the parameter t(which is used to threshold the entries in order to get binary values) is set to t\u00100:3in our experiments1;\n2) QuickMatch [35] is applied to the refined measurement matrix constructed in the previous step; the parameter \u001c(which defines the cardinality of micro-clusters to be removed) is set to \u001c\u00105in our experiments1.",
+            "5": "59\n[27] for two-frame segmentation and MatchEIG [34] combined with QuickMatch [35] for permutation synchronization.",
+            "6": "Two-frame segmentation Permutation synchronization MODE [4] RPA [28] Spectral [30] MODE-U T-Linkage [27] MatchEIG [34] + QuickMatch [35] IV.",
+            "7": "The key components of our approach are a \u201cmulti-model fitting\u201d block, which is solved with TLinkage [27], and a \u201cpermutation synchronization\u201d block, which is solved with MatchEIG [34] and QuickMatch [35].",
+            "8": "[35] R."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[140] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4057\u20134066, 2017.",
+            "ref_ids": [
+                "140"
+            ],
+            "1": "Multiway matching has been successfully applied to computing consistent pointwise maps among a collection of shapes [93, 64, 54, 53] and to estimating consistent associations among a collection of images between either traditional feature descriptors [101, 23, 156, 148, 147] such as SIFT [81] and shape context features [10] or semantic descriptors [156, 140].",
+            "2": "[140] proposedageneralizationoftheQuickShiftalgorithm[142]formultiwaymatching."
+        },
+        "Density-based clustering: algorithms and evaluation techniques": {
+            "authors": [],
+            "url": "https://e-archivo.uc3m.es/bitstream/handle/10016/33547/tesis_eduardo_pla_sacristan_2021.pdf?sequence=1",
+            "ref_texts": "[66] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis, \u201cFast multi-image matching via density-based clustering,\u201d in Proceedings of the IEEE international conference on computer vision, 2017, pp. 4057\u20134066.",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "Other applications can be also found in the literature, like those that deal with image databases: image matching [66], generic color image segmentation [12] and, particularly, biomedical image segmentation [67].",
+            "2": "[66] R."
+        },
+        "Modeling of universal stitching parameters for feature-based image stitching algorithm": {
+            "authors": [],
+            "url": "https://scholarworks.unist.ac.kr/bitstream/201301/27727/1/Modeling%20of%20universal%20stitching%20parameters%20for%20feature-based%20image%20stitching%20algorithm.pdf",
+            "ref_texts": "[28] R. Tron, X. Zhou, C. Esteves, and K. Daniilidis, \u201cFast Multi -Image Matching via Density -Based Clustering, \u201d in IEEE International Conference on Computer Vision (ICCV) , 2017, p. 4057 -4066. ",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "[28] R."
+        },
+        "Toward More Robust Graph Matching: Models and Algorithms": {
+            "authors": [],
+            "url": "https://thinklab.sjtu.edu.cn/src/gm_survey.pdf",
+            "ref_texts": "[Tron et al. , 2017 ]R. Tron, X. Zhou, C. Esteves, and K. Daniilidis. Fast multi-image matching via density-based clustering. In CVPR , pages 4057\u20134066, 2017.",
+            "ref_ids": [
+                "Tron et al\\. , 2017 "
+            ]
+        },
+        "Supplementary Material Robust Motion Segmentation From Pairwise Matches": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/supplemental/Arrigoni_Robust_Motion_Segmentation_ICCV_2019_supplemental.pdf",
+            "ref_texts": "[8] Roberto Tron, Xiaowei Zhou, Carlos Esteves, and Kostas Daniilidis. Fast multi-image matching via density-based clustering. In Proceedings of the International Conference on Computer Vision , pages 4077\u20134086, 2017.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "Indeed, there are not significative differences between StableSfM\n[6] and QuichMatch [8] in terms of misclassification error, but the former is better in terms of amount of classified data."
+        }
+    }
+}

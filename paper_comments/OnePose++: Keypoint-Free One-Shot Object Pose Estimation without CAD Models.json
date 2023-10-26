@@ -1,0 +1,48 @@
+{
+    "title": "OnePose++: Keypoint-Free One-Shot Object Pose Estimation without CAD Models",
+    "id": 62,
+    "valid_pdf_number": "2/7",
+    "matched_pdf_number": "2/2",
+    "matched_rate": 1.0,
+    "citations": {
+        "AutoRecon: Automated 3D Object Discovery and Reconstruction": {
+            "authors": [
+                "Yuang Wang",
+                "Xingyi He",
+                "Sida Peng",
+                "Haotong Lin",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_AutoRecon_Automated_3D_Object_Discovery_and_Reconstruction_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Xingyi He, Jiaming Sun, Yuang Wang, Di Huang, Hujun Bao, and Xiaowei Zhou. Onepose++: Keypoint-free one-shot object pose estimation without CAD models. In NeurIPS , 2022. 4, 8",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "It can recover the complete geometry of foreground objects, even the low-textured ones, which is discussed in [11].",
+            "2": "The reconstruction quality of SfM point clouds can be further improved with refinement methods like [11, 17], which can further improve the quality of surface reconstruction and potentially eliminate reconstruction ambiguities."
+        },
+        "Long-term Visual Localization with Mobile Sensors": {
+            "authors": [
+                "Shen Yan",
+                "Yu Liu",
+                "Long Wang",
+                "Zehong Shen",
+                "Zhen Peng",
+                "Haomin Liu",
+                "Maojun Zhang",
+                "Guofeng Zhang",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Long-Term_Visual_Localization_With_Mobile_Sensors_CVPR_2023_paper.pdf",
+            "ref_texts": "[26] Xingyi He, Jiaming Sun, Yuang Wang, Di Huang, Hujun Bao, and Xiaowei Zhou. Onepose++: Keypoint-free one-shot object pose estimation without CAD models. In NeurIPS , 2022. 2, 4, 5",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "In the second stage, inspired by the recent CADfree object pose estimation method, OnePose++ [26], we design a transformer-based network to directly match 3D points of the retrieved sub-map to dense 2D pixels of the query photo in a coarse-to-fine manner.",
+            "2": "As for the time-consumption issue, inspired by recent 6-DoF pose estimation works [26,61], we aim to directly match 3D sub-map and 2D query image in one-shot with selfand cross-attention modules.",
+            "3": "Similar to [26, 60], we first use positional encoding to augment the features {\u02dcF2D,\u02dcF3D}, resulting in {\u02dcFpe 2D,\u02dcFpe 3D}.",
+            "4": "Following [26, 60], we supervise the network by a focal loss [38] for coarse matching and variance-weighted \u21132 loss for fine refinement."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "title": "NIID-Net: Adapting Surface Normal Knowledge for Intrinsic Image Decomposition in Indoor Scenes",
+    "id": 53,
+    "valid_pdf_number": "3/10",
+    "matched_pdf_number": "2/3",
+    "matched_rate": 0.6666666666666666,
+    "citations": {
+        "Unsupervised Intrinsic Image Decomposition with LiDAR Intensity": {
+            "authors": [
+                "Shogo Sato",
+                "Yasuhiro Yao",
+                "Taiga Yoshida",
+                "Takuhiro Kaneko",
+                "Shingo Ando",
+                "Jun Shimamura"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sato_Unsupervised_Intrinsic_Image_Decomposition_With_LiDAR_Intensity_CVPR_2023_paper.pdf",
+            "ref_texts": "[29] Jundan Luo, Zhaoyang Huang, Yijin Li, Xiaowei Zhou, Guofeng Zhang, and Hujun Bao. NIID-Net: adapting surface normal knowledge for intrinsic image decomposition in indoor scenes. IEEE TVCG , 26(12):3434\u20133445, 2020. 1, 2",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "With the development of deep learning, supervised learning methods began to be used for IID [9, 29, 32\u201334, 45, 46].",
+            "2": "Recently, many researchers have trained supervised learning models based on albedo and shade from synthetic data [29, 46], since observing the ground truth albedo and shade in a practical scenario is difficult."
+        },
+        "Reflectance edge guided networks for detail-preserving intrinsic image decomposition": {
+            "authors": [],
+            "url": "http://scis.scichina.com/en/2023/122105.pdf",
+            "ref_texts": ""
+        },
+        "A Self-occlusion Aware Lighting Model for Real-time Dynamic Reconstruction": {
+            "authors": [],
+            "url": "https://chengwei-zheng.github.io/pdf/selfocc.pdf",
+            "ref_texts": "[56] J. Luo, Z. Huang, Y . Li, X. Zhou, G. Zhang, and H. Bao, \u201cNiid-net: Adapting surface normal knowledge for intrinsic image decomposition in indoor scenes,\u201d IEEE Transactions on Visualization and Computer Graphics , vol. 26, no. 12, pp. 3434\u20133445, 2020.",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "[56] proposed a novel learning-based framework that adapted surface normal knowledge to decompose a natural image into a reflectance image and a shading image.",
+            "2": "Comparison with intrinsic fusions using NIID-Net [56] and InverseRenderNet [55].",
+            "3": "Based on a state-of-theart intrinsic decomposition method NIID-Net [56], we fuse the output albedo map of each frame into a model.",
+            "4": "There are also some color distortions in the output albedos of NIID-Net [56] and InverseRenderNet [55], such as lower color saturation, which can lead to great RGB errors.",
+            "5": "Besides, the method in NIID-Net [56] and InverseRenderNet [55] can not reach real-time performance.",
+            "6": "28 Fusion of NIID-Net [56] 0.",
+            "7": "28 Fusion of NIID-Net [56] 14.",
+            "8": "So we multiplied a uniform constant to all the output albedo values of [56] to make sure its average intensity is the same as the ground truth, and also for [55].",
+            "9": "Comparisons with [3], NIID-Net [56], InverseRenderNet [55], and AO reconstruction on different dynamic objects.",
+            "10": "[56] J."
+        }
+    }
+}

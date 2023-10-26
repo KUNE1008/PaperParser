@@ -1,0 +1,196 @@
+{
+    "title": "Distributed consistent data association via permutation synchronization",
+    "id": 32,
+    "valid_pdf_number": "19/34",
+    "matched_pdf_number": "8/19",
+    "matched_rate": 0.42105263157894735,
+    "citations": {
+        "Deep neural network fusion via graph matching with applications to model ensemble and federated learning": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v162/liu22k/liu22k.pdf",
+            "ref_texts": "Acar, D. A. E., Zhao, Y ., Matas, R., Mattina, M., Whatmough, P., and Saligrama, V . Federated learning based on dynamic regularization. In ICLR , 2020. Breiman, L. Bagging predictors. Machine learning , 24(2): 123\u2013140, 1996. Chen, W., Horvath, S., and Richtarik, P. Optimal client sampling for federated learning. arXiv preprint arXiv:2010.13723 , 2020. Cho, M., Lee, J., and Lee, K. M. Reweighted random walks for graph matching. In Eur. Conf. Comput. Vis. , 2010. Dai, R., Shen, L., He, F., Tian, X., and Tao, D. Dispfl: Towards communication-efficient personalized federated learning via decentralized sparse training. In International Conference on Machine Learning , 2022. Deng, Y ., Kamani, M. M., and Mahdavi, M. Adaptive personalized federated learning. arXiv preprint arXiv:2003.13461 , 2020. Dinh, C. T., Tran, N. H., and Nguyen, T. D. Personalized federated learning with moreau envelopes. arXiv preprint arXiv:2006.08848 , 2020. Du, X., El-Khamy, M., Lee, J., and Davis, L. Fused dnn: A deep neural network fusion approach to fast and robust pedestrian detection. In 2017 IEEE winter conference on applications of computer vision (WACV) , pp. 953\u2013961. IEEE, 2017. Fraboni, Y ., Vidal, R., Kameni, L., and Lorenzi, M. Clustered sampling: Low-variance and improved representativity for clients selection in federated learning. arXiv preprint arXiv:2105.05883 , 2021. Gold, S. and Rangarajan, A. A graduated assignment algorithm for graph matching. IEEE Transactions on Pattern Analysis and Machine Intelligence , 1996. He, C., Annavaram, M., and Avestimehr, S. Group knowledge transfer: Federated learning of large cnns at the edge. arXiv preprint arXiv:2007.14513 , 2020a. He, C., Li, S., So, J., Zeng, X., Zhang, M., Wang, H., Wang, X., Vepakomma, P., Singh, A., Qiu, H., et al. Fedml: A research library and benchmark for federated machine learning. arXiv preprint arXiv:2007.13518 , 2020b. He, C., Balasubramanian, K., Ceyani, E., Yang, C., Xie, H., Sun, L., He, L., Yang, L., Yu, P. S., Rong, Y ., et al. Fedgraphnn: A federated learning system and benchmark for graph neural networks. arXiv preprint arXiv:2104.07145 , 2021a.He, C., Shah, A. D., Tang, Z., Sivashunmugam, D. F. N., Bhogaraju, K., Shimpi, M., Shen, L., Chu, X., Soltanolkotabi, M., and Avestimehr, S. Fedcv: A federated learning framework for diverse computer vision tasks. arXiv preprint arXiv:2111.11066 , 2021b. Huang, T., Lin, W., Shen, L., Li, K., and Zomaya, A. Y . Stochastic client selection for federated learning with volatile clients. IEEE Internet of Things Journal , 2022a. Huang, T., Liu, S., Shen, L., He, F., Lin, W., and Tao, D. Achieving personalized federated learning with sparse local models. arXiv preprint arXiv:2201.11380 , 2022b. Jiang, Z., Wang, T., and Yan, J. Unifying offline and online multi-graph matching via finding shortest paths on supergraph. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2020. Jiang, Z., Wang, T., and Yan, J. Unifying offline and online multi-graph matching via finding shortest paths on supergraph. IEEE Transactions on Pattern Analysis and Machine Intelligence , 43(10):3648\u20133663, 2021. Kairouz, P., McMahan, H. B., Avent, B., Bellet, A., Bennis, M., Bhagoji, A. N., Bonawitz, K., Charles, Z., Cormode, G., Cummings, R., et al. Advances and open problems in federated learning. arXiv preprint arXiv:1912.04977 , 2019. Karimireddy, S. P., Kale, S., Mohri, M., Reddi, S., Stich, S., and Suresh, A. T. Scaffold: Stochastic controlled averaging for federated learning. In ICML , 2020. Krizhevsky, A., Hinton, G., et al. Learning multiple layers of features from tiny images. 2009. Kuhn, H. W. The hungarian method for the assignment problem. In Export. Naval Research Logistics Quarterly , pp. 83\u201397, 1955. Lawler, E. L. The quadratic assignment problem. Management Science , 1963. LeCun, Y . The mnist database of handwritten digits. http://yann. lecun. com/exdb/mnist/ , 1998. LeCun, Y ., Bottou, L., Bengio, Y ., and Haffner, P. Gradientbased learning applied to document recognition. Proceedings of the IEEE , 86(11):2278\u20132324, 1998. Leonardos, S., Zhou, X., and Daniilidis, K. Distributed consistent data association via permutation synchronization. In2017 IEEE International Conference on Robotics and Automation (ICRA) , pp. 2645\u20132652, 2017. Leontev, M. I., Islenteva, V ., and Sukhov, S. V . Non-iterative knowledge fusion in deep convolutional neural networks. Neural Processing Letters , 51(1):1\u201322, 2020. Deep Neural Network Fusion via Graph Matching with Applications to Model Ensemble and Federated Learning Leordeanu, M. and Hebert, M. A spectral technique for correspondence problems using pairwise constraints. ICCV , 2005. Li, Q., He, B., and Song, D. Model-contrastive federated learning. In CVPR , pp. 10713\u201310722, 2021. Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., and Smith, V . Federated optimization in heterogeneous networks. arXiv preprint arXiv:1812.06127 , 2018. Liu, C., Wang, R., Jiang, Z., Yan, J., Huang, L., and Lu, P. Revocable deep reinforcement learning with affinity regularization for outlier-robust graph matching. arXiv preprint arXiv:2012.08950 , 2020. Liu, Q., Chen, C., Qin, J., Dou, Q., and Heng, P.-A. Feddg: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space. In CVPR , 2021a. Liu, S., Chen, T., Chen, X., Atashgahi, Z., Yin, L., Kou, H., Shen, L., Pechenizkiy, M., Wang, Z., and Mocanu, D. C. Sparse training via boosting pruning plasticity with neuroregeneration. Advances in Neural Information Processing Systems , 34, 2021b. Liu, S., Chen, T., Chen, X., Shen, L., Mocanu, D. C., Wang, Z., and Pechenizkiy, M. The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training. arXiv preprint arXiv:2202.02643 , 2022. Loiola, E. M., de Abreu, N. M. M., Boaventura-Netto, P. O., Hahn, P., and Querido, T. A survey for the quadratic assignment problem. European Journal of Operational Research , 2007. Malinovskiy, G., Kovalev, D., Gasanov, E., Condat, L., and Richtarik, P. From local sgd to local fixed-point methods for federated learning. In ICML , 2020. McMahan, B., Moore, E., Ramage, D., Hampson, S., and y Arcas, B. A. Communication-efficient learning of deep networks from decentralized data. In AISTATS , 2017. Optimization, G. Gurobi optimizer reference manual. http://www.gurobi.com , 2020. Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., Antiga, L., Desmaison, A., Kopf, A., Yang, E., DeVito, Z., Raison, M., Tejani, A., Chilamkurthy, S., Steiner, B., Fang, L., Bai, J., and Chintala, S. Pytorch: An imperative style, high-performance deep learning library. In NeurIPS ."
+        },
+        "Learning for graph matching and related combinatorial optimization problems": {
+            "authors": [],
+            "url": "https://eprints.whiterose.ac.uk/160087/1/MLGM_SVY_IJCAI20_Review_14_1.pdf",
+            "ref_texts": ""
+        },
+        "Learning transformation synchronization": {
+            "authors": [
+                "Xiangru Huang",
+                "Zhenxiao Liang",
+                "Xiaowei Zhou",
+                "Yao Xie",
+                "Leonidas J. Guibas",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Learning_Transformation_Synchronization_CVPR_2019_paper.pdf",
+            "ref_texts": "[33] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data association via permutation synchronization. In ICRA , pages 2645\u20132652. IEEE, 2017. 2",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "The second category of methods [47,31,25,23,24,13,53,42,33,26, 7,39,38,2,9,4,5,41,19,46,6,21] can be viewed from the perspective that there is an equivalence between cycleconsistent transformations and the fact that the map collection matrix that stores relative transformations in blocks is semidefinite and/or low-rank (c.",
+            "2": "In the literature, people have proposed convex optimization [47, 23,24,13], non-convex optimization [11,53,33,26], and spectral techniques [31,25,39,38,42,44,7,2,9] for solving various low-rank matrix recovery formulations."
+        },
+        "Consistent ZoomOut: Efficient Spectral Map Synchronization": {
+            "authors": [],
+            "url": "https://www.lix.polytechnique.fr/~maks/papers/ConsistentZoomOut_SGP2020_compressed.pdf"
+        },
+        "Visual-inertial-semantic scene representation for 3D object detection": {
+            "authors": [
+                "Jingming Dong",
+                "Xiaohan Fei",
+                "Stefano Soatto"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Dong_Visual-Inertial-Semantic_Scene_Representation_CVPR_2017_paper.pdf",
+            "ref_texts": ""
+        },
+        "Pose Synchronization Under Multiple Pair-Wise Relative Poses": {
+            "authors": [
+                "Yifan Sun",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Pose_Synchronization_Under_Multiple_Pair-Wise_Relative_Poses_CVPR_2023_paper.pdf",
+            "ref_texts": "[24] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data association via permutation synchronization. In ICRA , pages 2645\u20132652. IEEE, 2017.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "State-of-the-art techniques include semidefinite programming relaxation [11,15,16,28, 30, 34, 37], spectral techniques [1\u20133, 17, 20, 23, 26, 27, 29, 31, 32], and non-convex optimization [4, 6, 19, 24, 25, 39]."
+        },
+        "Synchronization of Group-labelled Multi-graphs": {
+            "authors": [
+                "Andrea Porfiri",
+                "Dal Cin",
+                "Luca Magri",
+                "Federica Arrigoni",
+                "Andrea Fusiello",
+                "Giacomo Boracchi"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Dal_Cin_Synchronization_of_Group-Labelled_Multi-Graphs_ICCV_2021_paper.pdf",
+            "ref_texts": "[35] S. Leonardos, X. Zhou, and K. Daniilidis. Distributed consistent data association via permutation synchronization. In 2017 IEEE International Conference on Robotics and Automation (ICRA) , pages 2645\u20132652, 2017. 2",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Existing approaches include spectral decomposition [41, 47, 10], Gauss-Seidel relaxation [60], distributed optimization [35], and Riemannian optimization [13].",
+            "2": "6\n[35] S."
+        },
+        "A condition number for joint optimization of cycle-consistent networks": {
+            "authors": [
+                "Leonidas J. Guibas",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/9ad6aaed513b73148b7d49f70afcfb32-Paper.pdf",
+            "ref_texts": "[26] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data association via permutation synchronization. In ICRA , pages 2645\u20132652. IEEE, 2017.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "This equivalence leads to a simple formulation of joint map computation via low-rank matrix recovery [41,24,15,14,17,10,48,36,26,18,3,33,32,1,6,2]."
+        },
+        "SMAC: simultaneous mapping and clustering using spectral decompositions": {
+            "authors": [
+                "Chandrajit Bajaj",
+                "Tingran Gao",
+                "Zihang He",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "http://proceedings.mlr.press/v80/bajaj18a/bajaj18a.pdf",
+            "ref_texts": "2004 Papers , SIGGRAPH \u201904, pp. 861\u2013869, 2004. Le, C. M., Levina, E., and Vershynin, R. Concentration and regularization of random graphs. Random Struct. Algorithms , 51(3):538\u2013561, 2017. Lederman, R. R. and Singer, A. A representation theory perspective on simultaneous alignment and classification. arXiv preprint arXiv:1607.03464 , 2016. Lei, J. and Rinaldo, A. Consistency of spectral clustering in stochastic block models. Annals of Statistics , 43(1): 215\u2013237, February 2015. Leonardos, S., Zhou, X., and Daniilidis, K. Distributed consistent data association via permutation synchronization. InICRA , pp. 2645\u20132652. IEEE, 2017. SMAC: Simultaneous Mapping and Clustering Using Spectral Decompositions Liu, C., Yuen, J., and Torralba, A. Sift flow: Dense correspondence across scenes and its applications. IEEE Trans. Pattern Anal. Mach. Intell. , 33(5):978\u2013994, 2011. Lowe, D. G. Distinctive image features from scale-invariant keypoints. Int. J. Comput. Vision , 60(2):91\u2013110, nov 2004. Luxburg, U. A tutorial on spectral clustering. Statistics and Computing , 17(4):395\u2013416, December 2007. Mandad, M., Cohen-Steiner, D., Kobbelt, L., Alliez, P., and Desbrun, M. Variance-minimizing transport plans for inter-surface mapping. ACM Transactions on Graphics , 36(4), 2017. Ng, A. Y ., Jordan, M. I., and Weiss, Y . On spectral clustering: Analysis and an algorithm. In Advances in neural information processing systems , pp. 849\u2013856, 2002. Nguyen, A., Ben-Chen, M., Welnicka, K., Ye, Y ., and Guibas, L. J. An optimization approach to improving collections of shape maps. Comput. Graph. Forum , 30"
+        },
+        "Optimal Visual Representation Engineering and Learning for Computer Vision": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt7c52d31g/qt7c52d31g.pdf",
+            "ref_texts": ""
+        },
+        "Path-invariant map networks": {
+            "authors": [
+                "Zaiwei Zhang",
+                "Zhenxiao Liang",
+                "Lemeng Wu",
+                "Xiaowei Zhou",
+                "Qixing Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Path-Invariant_Map_Networks_CVPR_2019_paper.pdf",
+            "ref_texts": "[29] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data association via permutation synchronization. In ICRA , pages 2645\u20132652. IEEE, 2017. 1",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Computationally, state-of-the-art map synchronization techniques [3,7,15,19,43,16,18, 25,57,58,29] employ matrix representations of maps [25, 18,15,48,16]."
+        },
+        "Distributable consistent multi-object matching": {
+            "authors": [
+                "Nan Hu",
+                "Qixing Huang",
+                "Boris Thibert",
+                "Leonidas J. Guibas"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Distributable_Consistent_Multi-Object_CVPR_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "Joint map and symmetry synchronization": {
+            "authors": [
+                "Qixing Huang",
+                "Xiangru Huang",
+                "Zhenxiao Liang",
+                "Yifan Sun"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Qixing_Huang_Joint_Map_and_ECCV_2018_paper.pdf",
+            "ref_texts": ""
+        },
+        "K-best transformation synchronization": {
+            "authors": [
+                "Yifan Sun",
+                "Jiacheng Zhuo",
+                "Arnav Mohan",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Sun_K-Best_Transformation_Synchronization_ICCV_2019_paper.pdf",
+            "ref_texts": "[29] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data association via permutation synchronization. In ICRA , pages 2645\u20132652. IEEE, 2017. 2",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Based on this fact, convex optimization techniques formulate map synchronization as solving a constrained low-rank matrix recovery problem [24,42,4,15,13,8,29, 33,10], where the input matrix encodes the input maps, and the recovered matrix describes the cycle-consistent maps."
+        },
+        "Data-Efficient Deep Functional Maps for 3D Shape and Graph Analysis": {
+            "authors": [
+                "Julie Rakotosaona"
+            ],
+            "url": "https://www.theses.fr/2022IPPAX069.pdf",
+            "ref_texts": "[51]S. Leonardos, X. Zhou, and K. Daniilidis ,Distributed consistent data associationviapermutationsynchronization , in 2017 IEEE International Conference on Robotics and Automation (ICRA), IEEE, 2017, pp. 2645\u20132652. (Cited on page 66.)",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "More recent approaches have associated cycle consistency with low-rank properties of matrices that encode the map network [35,111,51], which leads to relatively simple formulations.",
+            "2": "75\n[51]S."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[76] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Distributed consistent data 176 association via permutation synchronization. In Robotics and Automation (ICRA), 2017 IEEE International Conference on , pages 2645\u20132652. IEEE, 2017.",
+            "ref_ids": [
+                "76"
+            ]
+        },
+        "Synchronization on group-labelled multigraphs": {
+            "authors": [],
+            "url": "https://www.politesi.polimi.it/bitstream/10589/174921/1/thesis.pdf",
+            "ref_texts": "[26] S. Leonardos, X. Zhou, and K. Daniilidis. Distributed consistent data association via permutation synchronization. In 2017 IEEE International Conference on Robotics and Automation (ICRA) , pages 2645\u20132652, 2017.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Available approaches include spectral decomposition [6], Gauss-Seidel relaxation [43], distributed optimization [26], and Riemannian optimization [10].",
+            "2": "[26] S."
+        },
+        "Inertial-aided Visual Perception of Geometry and Semantics": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt9pd173p9/qt9pd173p9.pdf",
+            "ref_texts": ""
+        },
+        "Toward More Robust Graph Matching: Models and Algorithms": {
+            "authors": [],
+            "url": "https://thinklab.sjtu.edu.cn/src/gm_survey.pdf",
+            "ref_texts": ""
+        }
+    }
+}

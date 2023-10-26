@@ -1,0 +1,711 @@
+{
+    "title": "Image based tracking",
+    "id": 56,
+    "valid_pdf_number": "144/399",
+    "matched_pdf_number": "0/144",
+    "matched_rate": 0.0,
+    "citations": {
+        "DeepPoseKit, a software toolkit for fast and robust animal pose estimation using deep learning": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/47994.pdf"
+        },
+        "TRex, a fast multi-animal tracking system with markerless identification, and 2D estimation of posture and visual fields": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/64000.pdf"
+        },
+        "The Mouse Action Recognition System (MARS) software pipeline for automated analysis of social behaviors in mice": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/63720.pdf",
+            "ref_texts": ""
+        },
+        "Emerging technologies to conserve biodiversity": {
+            "authors": [
+                "Stuart L. Pimm"
+            ],
+            "url": "https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/23548/297%20Pimm%20et%20al%202015%20TREE.pdf?sequence=2&isAllowed=y"
+        },
+        "Drones for research on sea turtles and other marine vertebrates\u2013A review": {
+            "authors": [],
+            "url": "https://cronfa.swan.ac.uk/Record/cronfa51929/Download/0051929-24092019120900.pdf"
+        },
+        "Big behavioral data: psychology, ethology and the foundations of neuroscience": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2014/07/17/006809.full.pdf"
+        },
+        "Understanding forest health with remote sensing-part I\u2014a review of spectral traits, processes and remote-sensing characteristics": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2072-4292/8/12/1029/pdf",
+            "ref_texts": ""
+        },
+        "Emerging network-based tools in movement ecology": {
+            "authors": [
+                "David Jacoby"
+            ],
+            "url": "https://discovery.ucl.ac.uk/id/eprint/1502390/3/Jacoby__Emerging%20Network-based-Main_document_R2.pdf"
+        },
+        "Task programming: Learning data efficient behavior representations": {
+            "authors": [
+                "Jennifer J. Sun",
+                "Ann Kennedy",
+                "Eric Zhan",
+                "David J. Anderson",
+                "Yisong Yue",
+                "Pietro Perona"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Task_Programming_Learning_Data_Efficient_Behavior_Representations_CVPR_2021_paper.pdf",
+            "ref_texts": ""
+        },
+        "Synchronization: the key to effective communication in animal collectives": {
+            "authors": [],
+            "url": "https://collectivebehaviour.com/wp-content/uploads/2019/05/Couzin_Sync_2018.pdf"
+        },
+        "Model-free information-theoretic approach to infer leadership in pairs of zebrafish": {
+            "authors": [],
+            "url": "https://link.aps.org/accepted/10.1103/PhysRevE.93.042411"
+        },
+        "Animal pose estimation from video data with a hierarchical von Mises-Fisher-Gaussian model": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v130/zhang21h/zhang21h.pdf",
+            "ref_texts": ""
+        },
+        "Range-gated imaging system for underwater monitoring in ocean environment": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2071-1050/11/1/162/pdf"
+        },
+        "A rapid whisker-based decision underlying skilled locomotion in mice": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/63596.pdf"
+        },
+        "Re-wilding collective behaviour: an ecological perspective": {
+            "authors": [],
+            "url": "https://ora.ox.ac.uk/objects/uuid:81f36c96-61c0-4536-9dd5-20c21611aaca/download_file?file_format=pdf&safe_filename=RewildingCB_Tree_AcceptedVersion.pdf&type_of_work=Journal+article"
+        },
+        "anTraX, a software package for high-throughput video tracking of color-tagged insects": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/58145.pdf"
+        },
+        "A machine vision-based method for monitoring scene-interactive behaviors of dairy calf": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2076-2615/10/2/190/pdf"
+        },
+        "An automated barcode tracking system for behavioural studies in birds": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2017/10/11/201590.full.pdf"
+        },
+        "On the inference speed and video-compression robustness of DeepLabCut": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/457242.full.pdf"
+        },
+        "Vitbat: Video tracking and behavior annotation tool": {
+            "authors": [],
+            "url": "http://dellecologylab.org/s/24-Biresaw-et-al-ViTBAT-paper.pdf",
+            "ref_texts": ""
+        },
+        "Towards image-based animal tracking in natural environments using a freely moving camera": {
+            "authors": [],
+            "url": "https://eprints.whiterose.ac.uk/154514/1/manuscript-risse.pdf"
+        },
+        "Towards computer vision and deep learning facilitated pollination monitoring for agriculture": {
+            "authors": [
+                "Malika Nisal",
+                "Adrian G. Dyer",
+                "Alan Dorin"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021W/AgriVision/papers/Ratnayake_Towards_Computer_Vision_and_Deep_Learning_Facilitated_Pollination_Monitoring_for_CVPRW_2021_paper.pdf"
+        },
+        "The potential of video imagery from worldwide cabled observatory networks to provide information supporting fish-stock and biodiversity assessment": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/ej6fep2wgzarrksmtsab6vlxay/access/wayback/https://digital.csic.es/bitstream/10261/227421/1/Aguzzi_et_al_2020.pdf",
+            "ref_texts": ""
+        },
+        "Advances in image acquisition and processing technologies transforming animal ecological studies": {
+            "authors": [],
+            "url": "https://researchonline.gcu.ac.uk/files/42925381/Nazir_S._Kaleem_M._2020_Advances_in_image_acquisition_and_processing_technologies_transforming_animal_ecological_studies.pdf"
+        },
+        "Hidden layers of density dependence in consumer feeding rates": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2020.08.25.263806.full.pdf"
+        },
+        "Social interactions drive efficient foraging and income equality in groups of fish": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/56196.pdf"
+        },
+        "The role of the ethogram in equitation science": {
+            "authors": [],
+            "url": "https://irep.ntu.ac.uk/id/eprint/31192/1/8747_Hall.pdf"
+        },
+        "Learning to recognize rat social behavior: Novel dataset and cross-dataset application": {
+            "authors": [
+                "Malte Lorbach"
+            ],
+            "url": "https://dspace.library.uu.nl/bitstream/handle/1874/427765/1_s2.0_S0165027017301255_main.pdf?sequence=1"
+        },
+        "Visual tracking of small animals in cluttered natural environments using a freely moving camera": {
+            "authors": [
+                "Benjamin Risse",
+                "Michael Mangan",
+                "Luca Del",
+                "Barbara Webb"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Risse_Visual_Tracking_of_ICCV_2017_paper.pdf"
+        },
+        "Importance of machine learning for enhancing ecological studies using information-rich imagery": {
+            "authors": [],
+            "url": "https://www.int-res.com/articles/esr2019/39/n039p091.pdf"
+        },
+        "Body size and the behavioral ecology of insects: linking individuals to ecological communities": {
+            "authors": [],
+            "url": "http://dellecologylab.org/s/cois-kalinkat-et-al-2015.pdf"
+        },
+        "How can models foster the transition towards future agricultural landscapes?": {
+            "authors": [
+                "Sylvain Poggi"
+            ],
+            "url": "https://agents.cirad.fr/pjjimg/philippe.tixier@cirad.fr/Poggi_et_al_2021_Advances_in_Ecological_Research.pdf"
+        },
+        "Arena size modulates functional responses via behavioral mechanisms": {
+            "authors": [
+                "Stella F. Uiterwaal",
+                "Anthony I. Dell",
+                "John P. De"
+            ],
+            "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1831&context=bioscifacpub"
+        },
+        "I-MuPPET: Interactive multi-pigeon pose estimation and tracking": {
+            "authors": [],
+            "url": "https://urs-waldmann.github.io/i-muppet/docs/muppet_supplemental.pdf"
+        },
+        "Ethoflow: computer vision and artificial intelligence-based software for automatic behavior analysis": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/21/9/3237/pdf"
+        },
+        "Biotic interactions, community assembly, and eco-evolutionary dynamics as drivers of long-term biodiversity\u2013ecosystem functioning relationships": {
+            "authors": [],
+            "url": "https://www.zora.uzh.ch/id/eprint/180629/1/2019_EisenhauerEtAlRIO19_openaccess.pdf"
+        },
+        "Gait-level analysis of mouse open field behavior using deep learning-based pose estimation": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424780.full.pdf",
+            "ref_texts": ""
+        },
+        "OpenLabCluster: Active learning based clustering and classification of animal behaviors in videos based on automatically extracted kinematic body keypoints": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/21/2022.10.10.511660.full.pdf"
+        },
+        "Analysis of Feeding Behavior Characteristics in the Cu/Zn Superoxide Dismutase 1 (SOD1) SOD1G93A Mice Model for Amyotrophic Lateral Sclerosis (ALS)": {
+            "authors": [
+                "Yoshihiro Kitaoka",
+                "Soju Seki",
+                "Sou Kawata",
+                "Akira Nishiura",
+                "Kohei Kawamura",
+                "Mikihiko Kogo",
+                "Susumu Tanaka"
+            ],
+            "url": "https://www.mdpi.com/2072-6643/15/7/1651/pdf"
+        },
+        "Biosense: Real-time object tracking for animal movement and behavior research": {
+            "authors": [],
+            "url": "http://cell.missouri.edu/media/publications/2018_08707411.pdf"
+        },
+        "Pervasive enablement of business processes": {
+            "authors": [
+                "Dipanjan Chakraborty"
+            ],
+            "url": "https://ebiquity.umbc.edu/get/a/publication/102.pdf"
+        },
+        "Automated monitoring of livestock behavior using frequency-modulated continuous-wave radars": {
+            "authors": [],
+            "url": "https://www.jpier.org/ac_api/download.php?id=18040404"
+        },
+        "Use of 3-dimensional videography as a non-lethal way to improve visual insect sampling": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2073-445X/9/10/340/pdf"
+        },
+        "Quantitatively scoring behavior from video-recorded, long-lasting fish trajectories": {
+            "authors": [],
+            "url": "https://bio.uib.no/te/papers/Marti-Puig_2018_Quantitatively_scoring_behaviour_from_video-recorded.pdf"
+        },
+        "\" Corvid Tracking Studio\": A custom-built motion capture system to track head movements of corvids.": {
+            "authors": [],
+            "url": "https://www.jstage.jst.go.jp/article/janip/72/1/72_72.1.1/_pdf"
+        },
+        "Behavioral Response of Juvenile Chinook Salmon to Surgical Implantation of Micro\u2010acoustic Transmitters": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt8t93f2mx/qt8t93f2mx.pdf"
+        },
+        "ThruTracker: open-source software for 2-D and 3-D animal video tracking": {
+            "authors": [
+                "Aaron Corcoran"
+            ],
+            "url": "https://www.biorxiv.org/content/10.1101/2021.05.12.443854.full.pdf"
+        },
+        "Experience shapes social information use in foraging fish": {
+            "authors": [
+                "Mike Webster"
+            ],
+            "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/18928/Webster_Laland_2018_accepted_version_PURE.pdf?sequence=1&isAllowed=y"
+        },
+        "A data-driven simulation of the trophallactic network and intranidal food flow dissemination in ants": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2076-2615/12/21/2963/pdf",
+            "ref_texts": ""
+        },
+        "Trajectory clustering and k-NN for robust privacy preserving spatiotemporal databases": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1999-4893/11/12/207/pdf",
+            "ref_texts": ""
+        },
+        "Adapting Small Unmanned Aerial Systems for Behavioral Research with Coastal Marine Mammals": {
+            "authors": [
+                "Eric Angel"
+            ],
+            "url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=5821&context=gc_etds"
+        },
+        "Markerless mouse tracking for social experiments": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/21/2021.10.20.464614.full.pdf"
+        },
+        "Interactive tracking of insect posture": {
+            "authors": [],
+            "url": "https://kops.uni-konstanz.de/bitstream/123456789/31291/1/Shen_0-295654.pdf"
+        },
+        "Turbulence, instream wood and fish: Ecohydraulic interactions under field conditions": {
+            "authors": [],
+            "url": "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/63774/Trinci%20Turbulence,%20instream%20wood%20and%20fish:%20Ecohydraulic%20interactions%20under%20field%20conditions%202020%20Accepted.pdf?sequence=2",
+            "ref_texts": ""
+        },
+        "Tracking and re-identification system for multiple laboratory animals": {
+            "authors": [],
+            "url": "https://homepages.inf.ed.ac.uk/rbf/VAIB18PAPERS/vaib18naiser.pdf"
+        },
+        "Shortwave infrared (SWIR) fluorescence imaging of peripheral organs in awake and freely moving mice": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2023.04.26.538387.full.pdf",
+            "ref_texts": ""
+        },
+        "Predicting long-term collective animal behavior with deep learning": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/15/2023.02.15.528318.full.pdf"
+        },
+        "Integrating trait-based movement into mechanistic predictions of thermal performance": {
+            "authors": [],
+            "url": "https://www.researchsquare.com/article/rs-1815379/latest.pdf",
+            "ref_texts": ""
+        },
+        "Closing the loop: tracking and perturbing behaviour of individuals in a group in real-time": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/071308.full.pdf"
+        },
+        "The Bander's Grip: A Techno-Political Ecology of Western Atlantic Shorebird Conservation": {
+            "authors": [
+                "Jenny Isaacs"
+            ],
+            "url": "https://rucore.libraries.rutgers.edu/rutgers-lib/66043/PDF/1/"
+        },
+        "replicAnt-generating annotated images of animals in complex environments with Unreal Engine": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2023.04.20.537685.full.pdf",
+            "ref_texts": ""
+        },
+        "Quantitative comparison of Drosophila behavior annotations by human observers and a machine learning algorithm": {
+            "authors": [
+                "Kenta Asahina"
+            ],
+            "url": "https://www.biorxiv.org/content/10.1101/2020.06.16.153130.full.pdf"
+        },
+        "Long-term video tracking of cohoused aquatic animals: a case study of the daily locomotor activity of the Norway Lobster (Nephrops norvegicus)": {
+            "authors": [],
+            "url": "https://digital.csic.es/bitstream/10261/189739/3/Garcia_et_al_2019_preprint.pdf"
+        },
+        "A computer vision approach for studying fossorial and cryptic crabs": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/05/12/2020.05.11.085803.full.pdf"
+        },
+        "Proximate stimuli: An overlooked driving force for risk\u2010induced trait responses affecting interactions in aquatic ecosystems": {
+            "authors": [],
+            "url": "https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/90117/1/okamiya%26kishida2022_poplecol.pdf"
+        },
+        "Identifying individual polar bears at safe distances: A test with captive animals": {
+            "authors": [],
+            "url": "https://research.rug.nl/files/128195980/journal.pone.0228991.pdf"
+        },
+        "Population and community body size structure across a complex environmental gradient": {
+            "authors": [],
+            "url": "http://dellecologylab.org/s/Dell-et-al-2015-MS.pdf"
+        },
+        "Calibration-free 3D reconstruction of firefly trajectories from 360-degree cameras": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/04/09/2021.04.07.438867.full.pdf"
+        },
+        "Kinematics and behaviour in fish escape responses: guidelines for conducting, analysing, and reporting experiments": {
+            "authors": [
+                "Dominique Roche"
+            ],
+            "url": "https://ecoevorxiv.org/repository/object/5056/download/10001/"
+        },
+        "Using remote camera traps to assess mammal and bird assemblages across a complex environmental landscape": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2017/02/17/109538.full.pdf"
+        },
+        "Evaluating methods to deter bats": {
+            "authors": [],
+            "url": "https://research-information.bris.ac.uk/ws/portalfiles/portal/220238146/Lia_Gilmour_final_thesis.pdf",
+            "ref_texts": ""
+        },
+        "A biometric for shark dorsal fins based on boundary descriptor matching": {
+            "authors": [],
+            "url": "https://5wwwww.easychair.org/publications/download/1Rr8"
+        },
+        "A Data-Driven Simulation of the Trophallactic Network and Intranidal Food Flow Dissemination in Ants. Animals 2022, 12, 2963": {
+            "authors": [],
+            "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/355136/1/doi_338780.pdf",
+            "ref_texts": ""
+        },
+        "A wireless, user-friendly, and unattended robotic flower system to assess pollinator foraging behaviour": {
+            "authors": [
+                "Kamiel Debeuckelaere"
+            ],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/31/2022.06.14.496104.full.pdf"
+        },
+        "A Study on Combined CNN-SVM Model for Visual Object Recognition.": {
+            "authors": [],
+            "url": "https://bit.nkust.edu.tw/2019/vol1/01-v10n4-1527.pdf"
+        },
+        "Cascaded regression for 3d pose estimation for mouse in fisheye lens distorted monocular images": {
+            "authors": [],
+            "url": "https://www.nibib.nih.gov/sites/default/files/2022-08/SCORHE_GlobalSIP2016.pdf"
+        },
+        "3D tracking reveals energy-distance trade-offs in two dominant grazers on a degraded coral reef": {
+            "authors": [],
+            "url": "https://www.researchsquare.com/article/rs-3034321/latest.pdf"
+        },
+        "Three dimensional pose estimation of mouse from monocular images in compact systems": {
+            "authors": [],
+            "url": "https://www.nibib.nih.gov/sites/default/files/2022-08/SCORHE_ICPR2016.pdf"
+        },
+        "Postural analysis reveals persistent vigilance in paper wasps after conspecific challenge": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/29/2022.05.25.493496.full.pdf",
+            "ref_texts": ""
+        },
+        "Using fine-scale spatial analysis to study behavioural strategies prevalence in wild groups of drift-feeding fish": {
+            "authors": [],
+            "url": "https://tspace.library.utoronto.ca/bitstream/1807/95398/1/cjfas-2018-0221.pdf"
+        },
+        "Multi-Scale Evaluation of Dominant Factors (MSDF) on Forage: An Ecosystemic Method to Understand the Function of Forage": {
+            "authors": [
+                "Shanning Lou",
+                "Jiao Ning",
+                "Cheng Zhang",
+                "Chunmei Wang",
+                "Wanhe Zhu",
+                "Shenghua Chang",
+                "Fujiang Hou"
+            ],
+            "url": "https://www.mdpi.com/2071-1050/13/4/2163/pdf"
+        },
+        "Aerial Plant Recognition Through Machine Learning": {
+            "authors": [],
+            "url": "https://edepot.wur.nl/504259"
+        },
+        "Behavioral Strategies and Neural Control of Skilled Locomotion in Mice": {
+            "authors": [],
+            "url": "https://academiccommons.columbia.edu/doi/10.7916/kvhb-e816/download"
+        },
+        "Single-image insect pose estimation by graph based geometric models and random forests": {
+            "authors": [],
+            "url": "https://kops.uni-konstanz.de/bitstreams/f1f7af47-04c3-417a-84fe-42145f157b10/download"
+        },
+        "A non-invasive radar system for automated behavioural tracking: application to sheep": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2020.12.09.418038.full.pdf"
+        },
+        "Optimal evasive strategies for groups of interacting agents with motion constraints": {
+            "authors": [
+                "William Lewis"
+            ],
+            "url": "https://naomi.princeton.edu/wp-content/uploads/sites/744/2021/03/Scott_thesis.pdf",
+            "ref_texts": ""
+        },
+        "Social structures and interactions in electric fish explored by large-scale signal tracking": {
+            "authors": [],
+            "url": "https://tobias-lib.ub.uni-tuebingen.de/xmlui/bitstream/handle/10900/126231/thesis.pdf?sequence=2&isAllowed=y"
+        },
+        "Automated tracking of aquatic crustaceans with potential application on the quantification of animals movement": {
+            "authors": [],
+            "url": "https://ojs.ecologiaaustral.com.ar/index.php/Ecologia_Austral/article/download/1920/1337"
+        },
+        "Predicting patterns of gene family evolution in taxa with similar ecological niches": {
+            "authors": [
+                "Kim Vertacnik"
+            ],
+            "url": "https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1067&context=biology_etds",
+            "ref_texts": ""
+        },
+        "Investigating the impacts of environmental change on social behaviour in fish": {
+            "authors": [
+                "Molly Clark"
+            ],
+            "url": "https://research-information.bris.ac.uk/files/353353284/Molly_Clark_MScR_Thesis_with_corrections.pdf"
+        },
+        "Using Image Deep Learning to Measure Flight Speeds and Patterns of Honeybees (Apis mellifera) and Bumblebees (Bombus terrestris) near Their Hives": {
+            "authors": [
+                "Media Contents"
+            ],
+            "url": "http://journal.bee.or.kr/xml/34955/34955.pdf"
+        },
+        "Robotic manipulation to investigate the physical principles of biological self-organization": {
+            "authors": [
+                "Fazil Emre"
+            ],
+            "url": "https://infoscience.epfl.ch/record/294002/files/EPFL_TH8578.pdf"
+        },
+        "Biodiversity beyond species census: assessing organisms' traits and functional attributes using computer vision": {
+            "authors": [],
+            "url": "https://researchonline.jcu.edu.au/69800/4/JCU_69800_Herrera-Acosta_2021_thesis.pdf",
+            "ref_texts": ""
+        },
+        "5iD Viewer-observation of fish school behaviour in labyrinths and use of semantic and syntactic entropy for school structure definition": {
+            "authors": [],
+            "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f1985ff427d4c7e40718d59e9f9547d8ca4aed7b"
+        },
+        "Cultural evolution of birdsong in the laboratory": {
+            "authors": [],
+            "url": "https://theses.hal.science/tel-03091982/file/2019PA100157.pdf"
+        },
+        "\u201cQuantitative analysis reveals the basic behavioural repertoire of the urochordate Ciona intestinalis\u201d": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/382465.full.pdf"
+        },
+        "Deep Learning for Multi-Animal Tracking": {
+            "authors": [],
+            "url": "https://repositorio.ul.pt/bitstream/10451/49385/1/TM_Madalena_Valente.pdf"
+        },
+        "Collective Computation Across Scales of Biological Organisation": {
+            "authors": [
+                "Vivek Hari"
+            ],
+            "url": "https://kops.uni-konstanz.de/bitstream/123456789/53739/3/Sridhar_2-1edmbqc8i73560.pdf"
+        },
+        "Hierarchical compression of C. elegans locomotion reveals phenotypic differences in the organisation of behaviour": {
+            "authors": [
+                "Andre Brown"
+            ],
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2016/06/10/029462.full.pdf"
+        },
+        "Cognition in a social world: assessing cognitive variation by sex and dominance status in Gambusia affinis and Astatotilapia burtoni": {
+            "authors": [],
+            "url": "https://repositories.lib.utexas.edu/bitstream/handle/2152/115183/WALLACE-DISSERTATION-2021.pdf?sequence=1"
+        },
+        "Quantification Analysis of Behavioral Changes after Sciatic Nerve Ligation in Rats": {
+            "authors": [],
+            "url": "http://www.apsipa.org/proceedings/2020/pdfs/0000952.pdf"
+        },
+        "Using neural networks to identify individual animals from photographs": {
+            "authors": [
+                "Emmanuel Kabuga"
+            ],
+            "url": "https://open.uct.ac.za/bitstream/handle/11427/31834/thesis_sci_2019_kabuga_emmanuel.pdf?sequence=1",
+            "ref_texts": ""
+        },
+        "Visual Similarity Using Limited Supervision": {
+            "authors": [],
+            "url": "https://archiv.ub.uni-heidelberg.de/volltextserver/29285/1/BIagioBrattoli_PhD_Thesis.pdf",
+            "ref_texts": ""
+        },
+        "Better Modeling of Matching Possibilities and Uncertainty for Offline Visual Multiple Object Tracking": {
+            "authors": [],
+            "url": "https://repository.charlotte.edu/islandora/object/etd%3A2701/datastream/PDF/download/citation.pdf",
+            "ref_texts": ""
+        },
+        "Bemovi, software for extracting BEhaviour and MOrphology from VIdeos": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/011072.full.pdf"
+        },
+        "Swine applied ethology methods for a model of mild traumatic brain injury": {
+            "authors": [],
+            "url": "https://krex.k-state.edu/bitstream/handle/2097/35760/YunzhiLuo2017.pdf?sequence=3",
+            "ref_texts": ""
+        },
+        "An extreme decline effect in ocean acidification ecology": {
+            "authors": [
+                "Jeff Clements"
+            ],
+            "url": "https://ecoevorxiv.org/repository/object/4273/download/8542/"
+        },
+        "An\u00e1lisis de la estabilidad ecol\u00f3gica de un reoambiente a lo largo de un gradiente altitudinal a trav\u00e9s de los macroinvertebrados acu\u00e1ticos y el procesamiento digital \u2026": {
+            "authors": [
+                "Juan Serna"
+            ],
+            "url": "https://bibliotecadigital.udea.edu.co/bitstream/10495/17307/1/SernaJuan_2020_EstabilidadEcologicaRios.pdf"
+        },
+        "Experimental analysis and modelling of the behavioural interactions underlying the coordination of collective motion and the propagation of information in fish schools": {
+            "authors": [],
+            "url": "https://theses.hal.science/tel-02287362/file/2017TOU30361b.pdf"
+        },
+        "Incremental Environmental Monitoring for Revealing the Ecology of Endangered Fish": {
+            "authors": [],
+            "url": "https://search.ieice.org/bin/pdf_advpub.php?category=B&lang=E&fname=2017NEI0003&abst="
+        },
+        "How interpatch distance affects matrix movement in": {
+            "authors": [],
+            "url": "https://libstore.ugent.be/fulltxt/RUG01/003/014/735/RUG01-003014735_2021_0001_AC.pdf"
+        },
+        "Automated Recognition of Rodent Social Behavior": {
+            "authors": [],
+            "url": "https://dspace.library.uu.nl/bitstream/handle/1874/356090/Lorbach.pdf?sequence=1",
+            "ref_texts": ""
+        },
+        "University of Lisbon, Champalimaud Institute": {
+            "authors": [],
+            "url": "https://enkrateialucca.github.io/pdf/Thesis_final_Version.pdf"
+        },
+        "An extreme \u201cdecline effect\u201d in ocean acidification effects on fish behaviour": {
+            "authors": [
+                "Jeff Clements"
+            ],
+            "url": "https://ecoevorxiv.org/repository/object/4273/download/8537/"
+        },
+        "Novel Tools for Quantification and Automatic Classification of Behavior in Laboratory Animals-Advancing Computational Ethology": {
+            "authors": [],
+            "url": "https://repositorio-aberto.up.pt/bitstream/10216/143076/2/573703.pdf",
+            "ref_texts": "(2015). The Use of Infrared Thermography as a Rapid, Quantitative, and Noninvasive Method for Evaluation of Inflammation Response in Different Anatomical Regio ns of Rats. BioMed Research International, 2015 , 9. doi:10.1155/2015/972535 Cantzler, H. (1997). An overview of range cameras. Retrieved from http://homepages.inf.ed.ac.uk/rbf/CVonline/ CVentry.htm Che, W., & Peng, S. (2018). Convolutional LSTM Networks and RGB -D Video for Human Motion Recognition. Paper presented at the 2018 IEEE 4th Information Technology and Mechatronics Engineering Conference (ITOEC). Chen, C., Liu, K., & Kehtarnavaz , N. (2016). Real -time human action recognition based on depth motion maps. Journal of real -time image processing, 12 (1), 155 -163. Chen, C., Liu, M., Liu, H., Zhang, B., Han, J., & Kehtarnavaz, N. (2017). Multi -temporal depth motion maps -based local binar y patterns for 3 -D human action recognition. IEEE Access, 5 , 22590 22604. Chen, L. -C., Papandreou, G., Kokkinos, I., Murphy, K., & Yuille, A. L. (2017). Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully conne cted crfs. IEEE transactions on pattern analysis and machine intelligence, 40 (4), 834 -848. Retrieved from https://ieeexplore.ieee.org/document/7913730/ Chen, L. -C., Papandreou, G., Schroff, F., & Adam, H. (2017). Rethinking atrous convolution for semantic image segmentation. arXiv preprint ar Xiv:1706.05587 . Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A simple framework for contrastive learning of visual representations. Paper pre sented at the International conference on machine learning. Chen, Z., Zhang, R., Zhang, Y. E., Zhou, H., Fang, H. -S., Rock, R. R., . . . Tye, K. M. (2020). AlphaTracker: a multi -animal tracking and behavioral analysis tool. BioRxiv . REFERENCES. "
+        },
+        "DEPARTMENT OF COMPUTER ENGINEERING AND INFORMATICS UNIVERSITY OF PATRAS": {
+            "authors": [],
+            "url": "https://nemertes.library.upatras.gr/bitstream/10889/14050/1/PhD_thesis_Elias_Dritsas.pdf",
+            "ref_texts": ""
+        },
+        "Improved Activity Recognition Combining Inertial Motion Sensors and Electroencephalogram Signals": {
+            "authors": [],
+            "url": "https://addi.ehu.es/bitstream/handle/10810/50210/s0129065720500537.pdf?sequence=1&isAllowed=y"
+        },
+        "Evaluation of Baited Remote Underwater Video Systems (BRUVS) for monitoring fish communities in Lake Malawi/Niassa": {
+            "authors": [],
+            "url": "https://commons.ru.ac.za/vital/access/services/Download/vital:38448/SOURCE1"
+        },
+        "An unsupervised generative strategy for detection and characterization of rare behavioural events in mice in open fiel to assess effect of optogenetic activation of \u2026": {
+            "authors": [],
+            "url": "https://repositorio.ul.pt/bitstream/10451/40873/1/ulfl274966_tm.pdf"
+        },
+        "Markerless 3D tracking and reconstruction of subjects with multiple stereo cameras": {
+            "authors": [],
+            "url": "https://www.duo.uio.no/bitstream/handle/10852/80806/1/Master_Thesis__DeepLabCut.pdf"
+        },
+        "\u300cCorvid Tracking Studio\u300d \u30ab\u30e9\u30b9\u306e\u982d\u90e8\u306e\u52d5\u304d\u3092\u8a18\u9332\u3059\u308b \u30e2\u30fc\u30b7\u30e7\u30f3\u30ad\u30e3\u30d7\u30c1\u30e3\u30b7\u30b9\u30c6\u30e0\u306e\u69cb\u7bc9": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/m7qqqvbdrvaevm6k6ojokec5na/access/wayback/https://www.jstage.jst.go.jp/article/janip/advpub/0/advpub_72.1.1/_pdf"
+        },
+        "Dolphins in Space: Quantifying the Relative Positions of Bottlenose Dolphins (Tursiops truncatus)": {
+            "authors": [
+                "Megan S. Mc"
+            ],
+            "url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1459&context=hc_sas_etds"
+        },
+        "4.6 SPOT\u2013Single Penguin Observation and Tracking": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/335360854.pdf#page=35"
+        },
+        "Collective defenses of garden ants against a fungal pathogen": {
+            "authors": [],
+            "url": "https://research-explorer.ista.ac.at/download/6435/6438/tesisDoctoradoBC.pdf",
+            "ref_texts": ""
+        },
+        "A Model-Based Pose Estimation Framework: From Single Insects To Multiple Hands": {
+            "authors": [
+                "Le Duan"
+            ],
+            "url": "https://kops.uni-konstanz.de/bitstream/handle/123456789/48384/Duan_2-1uk7l79yrh6ea5.pdf?sequence=3",
+            "ref_texts": ""
+        },
+        "Persisting in an ever-changing world Integrating plastic and genetic responses across the life cycle": {
+            "authors": [],
+            "url": "https://repository.ubn.ru.nl/bitstream/handle/2066/199746/199746.pdf"
+        },
+        "of August 201": {
+            "authors": [
+                "Ruandha Agung"
+            ],
+            "url": "https://edepot.wur.nl/468978"
+        },
+        "Learning to Recognize A-Life Behaviours": {
+            "authors": [],
+            "url": "http://www.cogsys.org/posters/2018/poster-2018-18.pdf"
+        },
+        "Kl\u00edmav\u00e1ltoz\u00e1si hat\u00e1sok a talaj-mezofauna k\u00f6z\u00f6ss\u00e9gekre\u2013\u00faj m\u00f3dszertani megk\u00f6zel\u00edt\u00e9sek": {
+            "authors": [
+                "Florian Norbert"
+            ],
+            "url": "http://real-phd.mtak.hu/1567/2/florian_norbert_tezis.pdf"
+        },
+        "BioTracker 3-Implementation of a generic visualization and functional enhancement of the UI": {
+            "authors": [],
+            "url": "https://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Bachelor-theses/2018/Piotrowski/BA-Piotrowski.pdf"
+        },
+        "Single-Image Insect Pose Estimation by Graph Based Geometric Models and Random Forests": {
+            "authors": [],
+            "url": "http://graphics.uni-konstanz.de/incide/publications/Shen2016SingleImageInsect/Shen2016SingleImageInsect.pdf"
+        },
+        "\u52d5\u7269\u793e\u4f1a\u306b\u304a\u3051\u308b\u884c\u52d5\u306e\u5b9a\u91cf\u7684\u8a08\u6e2c\u3068\u30c7\u30fc\u30bf\u89e3\u6790": {
+            "authors": [],
+            "url": "https://www.jstage.jst.go.jp/article/jrsj/35/6/35_35_455/_pdf"
+        },
+        "Bio-Image Analysis for Understanding Plant Development and Mosquito Behaviors": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt87x6n02g/qt87x6n02g.pdf"
+        },
+        "Experimental analysis and modelling of the behavioural interactions underlying the coordination of collective motion and the propagation of information in fish \u2026": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/189831065.pdf"
+        },
+        "Chordotonal organ mechanosensory pathways as potential targets for the control of mosquito borne diseases": {
+            "authors": [],
+            "url": "https://discovery.ucl.ac.uk/id/eprint/1542425/1/Chordotonal%20organ%20mechanosensory%20pathways%20as%20potential%20targets%20for%20the%20control%20of%20mosquito%20borne%20diseases.pdf",
+            "ref_texts": ""
+        },
+        "Mapping Moves On Arabidopsis: From Natural Variation to Single Genes Affecting Aphid Behaviour": {
+            "authors": [],
+            "url": "https://library.wur.nl/WebQuery/wurpubs/fulltext/370445",
+            "ref_texts": ""
+        },
+        "3D single point imaging technology for tracking multiple fish": {
+            "authors": [],
+            "url": "https://www.scitepress.org/PublishedPapers/2016/56340/56340.pdf"
+        },
+        "Pennekalll> F": {
+            "authors": [
+                "Ali Soleymani",
+                "Frank Pennekamp",
+                "Owen L. Petchey",
+                "Robert Weibel"
+            ],
+            "url": "https://www.dora.lib4ri.ch/eawag/islandora/object/eawag%3A9250/datastream/PDF/Soleymani-2015-Developing_and_integrating_advanced_movement-%28published_version%29.pdf"
+        },
+        "Tracking nutrient decisions in Drosophila melanogaster": {
+            "authors": [],
+            "url": "https://run.unl.pt/bitstream/10362/19977/1/Carvajal_2016.pdf"
+        },
+        "Genetic architecture of an animal architecture: introgression of a complex behavioral phenotype in advanced backcross lines": {
+            "authors": [],
+            "url": "https://dash.harvard.edu/bitstream/handle/1/17467514/METZ-DISSERTATION-2015.pdf?sequence=1#page=59",
+            "ref_texts": ""
+        },
+        "Automated Behavior Analysis of Mice Considering Undefined Behaviors": {
+            "authors": [],
+            "url": "https://naist.repo.nii.ac.jp/?action=repository_action_common_download&item_id=8094&item_no=1&attribute_id=12&file_no=1"
+        },
+        "C0325 A multitrophic perspective on biodiversity\u2013ecosystem functioning research": {
+            "authors": [],
+            "url": "https://hal.science/hal-02309326v1/file/EisenhaueretalAER2019Amultitrophicperspective_proof-1.pdf"
+        },
+        "KL\u00cdMAV\u00c1LTOZ\u00c1SI HAT\u00c1SOK A TALAJ-MEZOFAUNA K\u00d6Z\u00d6SS\u00c9GEKRE\u2013\u00daJ M\u00d3DSZERTANI MEGK\u00d6ZEL\u00cdT\u00c9SEK": {
+            "authors": [],
+            "url": "https://archive.szie.hu/sites/default/files/florian_norbert_ertekezes.pdf"
+        },
+        "\u8d64\u5916\u7dda\u6df1\u5ea6\u30bb\u30f3\u30b5\u3092\u7528\u3044\u305f\u4e0b\u90e8\u5f62\u72b6\u8a8d\u8b58\u306b\u3088\u308b\u30de\u30a6\u30b9\u6b69\u884c\u89e3\u6790\u30b7\u30b9\u30c6\u30e0\u306e\u958b\u767a": {
+            "authors": [],
+            "url": "https://naist.repo.nii.ac.jp/?action=repository_action_common_download&item_id=10786&item_no=1&attribute_id=14&file_no=1"
+        }
+    }
+}

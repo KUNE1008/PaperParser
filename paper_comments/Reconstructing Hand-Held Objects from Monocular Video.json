@@ -1,0 +1,25 @@
+{
+    "title": "Reconstructing Hand-Held Objects from Monocular Video",
+    "id": 72,
+    "valid_pdf_number": "1/3",
+    "matched_pdf_number": "1/1",
+    "matched_rate": 1.0,
+    "citations": {
+        "In-Hand 3D Object Scanning from an RGB Sequence": {
+            "authors": [
+                "Shreyas Hampali",
+                "Tomas Hodan",
+                "Luan Tran",
+                "Lingni Ma",
+                "Cem Keskin",
+                "Vincent Lepetit"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hampali_In-Hand_3D_Object_Scanning_From_an_RGB_Sequence_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Di Huang, Xiaopeng Ji, Xingyi He, Jiaming Sun, Tong He, Qing Shuai, Wanli Ouyang, and Xiaowei Zhou. Reconstructing hand-held objects from monocular video. In SIGGRAPH Asia Conference Proceedings , 2022. 2",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "This is in contrast with the recent work [11] that considers only static grasps."
+        }
+    }
+}

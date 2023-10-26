@@ -1,0 +1,1143 @@
+{
+    "title": "Polar Transformer Networks",
+    "id": 13,
+    "valid_pdf_number": "128/156",
+    "matched_pdf_number": "63/128",
+    "matched_rate": 0.4921875,
+    "citations": {
+        "Making convolutional networks shift-invariant again": {
+            "authors": [
+                "Richard Zhang"
+            ],
+            "url": "http://proceedings.mlr.press/v97/zhang19a/zhang19a.pdf",
+            "ref_texts": "Adelson, E. H., Anderson, C. H., Bergen, J. R., Burt, P. J., and Ogden, J. M. Pyramid methods in image processing. RCA engineer , 29(6):33\u201341, 1984. Aubry, M. and Russell, B. C. Understanding deep features with computer-generated imagery. In ICCV , 2015. Azulay, A. and Weiss, Y . Why do deep convolutional networks generalize so poorly to small image transformations? In arXiv , 2018. Bietti, A. and Mairal, J. Invariance and stability of deep convolutional representations. In NIPS , 2017. Bruna, J. and Mallat, S. Invariant scattering convolution networks. TPAMI , 2013. Burt, P. J. and Adelson, E. H. The laplacian pyramid as a compact image code. In Readings in Computer Vision , pp. 671\u2013679. Elsevier, 1987. Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A. L. Semantic image segmentation with deep convolutional nets and fully connected crfs. In ICLR , 2015. Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A. L. Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs. TPAMI , 2018. Cohen, T. and Welling, M. Group equivariant convolutional networks. In ICML , 2016. Dosovitskiy, A. and Brox, T. Generating images with perceptual similarity metrics based on deep networks. In NIPS , 2016a. Dosovitskiy, A. and Brox, T. Inverting visual representations with convolutional networks. In CVPR , 2016b. Engstrom, L., Tsipras, D., Schmidt, L., and Madry, A. A rotation and a translation suffice: Fooling cnns with simple transformations. In ICML , 2019.Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In ICLR , 2018. Fawzi, A. and Frossard, P. Manitest: Are classifiers really invariant? In BMVC , 2015. Fowler, J. E. The redundant discrete wavelet transform and additive noise. IEEE Signal Processing Letters , 12(9): 629\u2013632, 2005. Fukushima, K. and Miyake, S. Neocognitron: A selforganizing neural network model for a mechanism of visual pattern recognition. In Competition and cooperation in neural nets , pp. 267\u2013285. Springer, 1982. Girshick, R., Donahue, J., Darrell, T., and Malik, J. Rich feature hierarchies for accurate object detection and semantic segmentation. In CVPR , 2014. Gonzalez, R. C. and Woods, R. E. Digital Image Processing . Pearson, 2nd edition, 1992. Goodfellow, I., Lee, H., Le, Q. V ., Saxe, A., and Ng, A. Y . Measuring invariances in deep networks. In NIPS , 2009. Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and Bengio, Y . Generative adversarial nets. In NIPS , 2014a. Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. ICLR , 2014b. He, K., Zhang, X., Ren, S., and Sun, J. Deep residual learning for image recognition. In CVPR , 2016. H\u00b4enaff, O. J. and Simoncelli, E. P. Geodesics of learned representations. In ICLR , 2016. Hendrycks, D., Lee, K., and Mazeika, M. Using pre-training can improve model robustness and uncertainty. In ICLR , 2019. Huang, G., Liu, Z., Van Der Maaten, L., and Weinberger, K. Q. Densely connected convolutional networks. In CVPR , 2017. Hubel, D. H. and Wiesel, T. N. Receptive fields, binocular interaction and functional architecture in the cat\u2019s visual cortex. The Journal of physiology , 160(1):106\u2013154, 1962. Isola, P., Zhu, J.-Y ., Zhou, T., and Efros, A. A. Image-toimage translation with conditional adversarial networks. InCVPR , 2017. Kanazawa, A., Sharma, A., and Jacobs, D. Locally scaleinvariant convolutional neural networks. In NIPS Workshop , 2014. Making Convolutional Networks Shift-Invariant Again Karras, T., Laine, S., and Aila, T. A style-based generator architecture for generative adversarial networks. ICLR , 2019. Kiros, R., Zhu, Y ., Salakhutdinov, R. R., Zemel, R., Urtasun, R., Torralba, A., and Fidler, S. Skip-thought vectors. In NIPS , 2015. Krizhevsky, A. and Hinton, G. Learning multiple layers of features from tiny images. Technical report, Citeseer, 2009. Krizhevsky, A., Sutskever, I., and Hinton, G. E. Imagenet classification with deep convolutional neural networks. InNIPS , 2012. LeCun, Y ., Boser, B. E., Denker, J. S., Henderson, D., Howard, R. E., Hubbard, W. E., and Jackel, L. D. Handwritten digit recognition with a back-propagation network. InNIPS , 1990. LeCun, Y ., Bottou, L., Bengio, Y ., and Haffner, P. Gradientbased learning applied to document recognition. Proceedings of the IEEE , 86(11):2278\u20132324, 1998. Lee, C.-Y ., Gallagher, P. W., and Tu, Z. Generalizing pooling functions in convolutional neural networks: Mixed, gated, and tree. In AISTATS , 2016. Lenc, K. and Vedaldi, A. Understanding image representations by measuring their equivariance and equivalence. InCVPR , 2015. Leung, T. and Malik, J. Representing and recognizing the visual appearance of materials using three-dimensional textons. IJCV , 2001. Lowe, D. G. Object recognition from local scale-invariant features. In ICCV , 1999. Mahendran, A. and Vedaldi, A. Understanding deep image representations by inverting them. In CVPR , 2015. Mairal, J., Koniusz, P., Harchaoui, Z., and Schmid, C. Convolutional kernel networks. In NIPS , 2014. Mordvintsev, A., Olah, C., and Tyka, M. Deepdream-a code example for visualizing neural networks. Google Research , 2:5, 2015. Nguyen, A., Clune, J., Bengio, Y ., Dosovitskiy, A., and Yosinski, J. Plug & play generative networks: Conditional iterative generation of images in latent space. In CVPR , 2017. Nyquist, H. Certain topics in telegraph transmission theory.Transactions of the American Institute of Electrical Engineers , pp. 617\u2013644, 1928.Odena, A., Dumoulin, V ., and Olah, C. Deconvolution and checkerboard artifacts. Distill , 2016. doi: 10.23915/ distill.00003. URL http://distill.pub/2016/ deconv-checkerboard . Oppenheim, A. V ., Schafer, R. W., and Buck, J. R. DiscreteTime Signal Processing . Pearson, 2nd edition, 1999. Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L., and Lerer, A. Automatic differentiation in pytorch. 2017. Ronneberger, O., Fischer, P., and Brox, T. U-net: Convolutional networks for biomedical image segmentation. In MICCAI , 2015. Ruderman, A., Rabinowitz, N. C., Morcos, A. S., and Zoran, D. Pooling is neither necessary nor sufficient for appropriate deformation stability in cnns. In arXiv , 2018. Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., et al. Imagenet large scale visual recognition challenge. IJCV , 115(3):211\u2013252, 2015. Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., and Chen, L.-C. Mobilenetv2: Inverted residuals and linear bottlenecks. In CVPR , 2018. Scherer, D., Muller, A., and Behnke, S. Evaluation of pooling operations in convolutional architectures for object recognition. In ICANN . 2010. Sifre, L. and Mallat, S. Rotation, scaling and deformation invariant scattering for texture discrimination. In CVPR , 2013. Simoncelli, E. P., Freeman, W. T., Adelson, E. H., and Heeger, D. J. Shiftable multiscale transforms. IEEE transactions on Information Theory , 38(2):587\u2013607, 1992. Simonyan, K. and Zisserman, A. Very deep convolutional networks for large-scale image recognition. In ICLR , 2015. Su, J., Vargas, D. V ., and Sakurai, K. One pixel attack for fooling deep neural networks. IEEE Transactions on Evolutionary Computation , 2019. Tyle\u02c7cek, R. and \u02c7S\u00b4ara, R. Spatial pattern templates for recognition of objects with regular structure. In German Conference on Pattern Recognition , pp. 364\u2013374. Springer, 2013. Vedaldi, A. and Fulkerson, B. VLFeat: An open and portable library of computer vision algorithms. http: //www.vlfeat.org/ , 2008. Making Convolutional Networks Shift-Invariant Again Worrall, D. E., Garbin, S. J., Turmukhambetov, D., and Brostow, G. J. Harmonic networks: Deep translation and rotation equivariance. In CVPR , 2017. Xiao, C., Zhu, J.-Y ., Li, B., He, W., Liu, M., and Song, D. Spatially transformed adversarial examples. ICLR , 2018. Yu, F. and Koltun, V . Multi-scale context aggregation by dilated convolutions. ICLR , 2016. Yu, F., Koltun, V ., and Funkhouser, T. Dilated residual networks. In CVPR , 2017. Zeiler, M. D. and Fergus, R. Visualizing and understanding convolutional networks. In ECCV , 2014. Zhang, R., Isola, P., Efros, A. A., Shechtman, E., and Wang, O. The unreasonable effectiveness of deep features as a perceptual metric. In CVPR , 2018. Zhou, B., Khosla, A., Lapedriza, A., Oliva, A., and Torralba, A. Object detectors emerge in deep scene cnns. In ICLR , 2015."
+        },
+        "A practical method for constructing equivariant multilayer perceptrons for arbitrary matrix groups": {
+            "authors": [
+                "Marc Finzi",
+                "Max Welling",
+                "Andrew Gordon"
+            ],
+            "url": "http://proceedings.mlr.press/v139/finzi21a/finzi21a.pdf",
+            "ref_texts": "127\u2013134, 2004. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Finzi, M., Bondesan, R., and Welling, M. Probabilistic numeric convolutional neural networks. arXiv preprint arXiv:2010.10876 , 2020a. Finzi, M., Stanton, S., Izmailov, P., and Wilson, A. G. Generalizing convolutional neural networks for equivariance to lie groups on arbitrary continuous data. In International Conference on Machine Learning , 2020b. Francis, J. G. The qr transformation a unitary analogue to the lr transformation\u2014part 1. The Computer Journal , 4"
+        },
+        "Why do deep convolutional networks generalize so poorly to small image transformations?": {
+            "authors": [],
+            "url": "https://www.jmlr.org/papers/volume20/19-519/19-519.pdf",
+            "ref_texts": "20 Why do deep convolutional networks generalize so poorly to small image transformations? Taco Cohen and Max Welling. Group equivariant convolutional networks. In International Conference on Machine Learning , pages 2990{2999, 2016. Taco S Cohen and Max Welling. Transformation properties of learned visual representations. arXiv preprint arXiv:1412.7659 , 2014. Sander Dieleman, Kyle W Willett, and Joni Dambre. Rotation-invariant convolutional neural networks for galaxy morphology prediction. Monthly notices of the royal astronomical society , 450(2):1441{1459, 2015. Sander Dieleman, Jefirey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. arXiv preprint arXiv:1602.02660 , 2016. Logan Engstrom, Dimitris Tsipras, Ludwig Schmidt, and Aleksander Madry. A rotation and a translation suflce: Fooling cnns with simple transformations. CoRR , abs/1712.02779, 2017a. URL http://arxiv.org/abs/1712.02779 . Logan Engstrom, Dimitris Tsipras, Ludwig Schmidt, and Aleksander Madry. A rotation and a translation suflce: Fooling cnns with simple transformations. arXiv preprint arXiv:1712.02779 , 2017b. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Kunihiko Fukushima and Sei Miyake. Neocognitron: A self-organizing neural network model for a mechanism of visual pattern recognition. In Competition and cooperation in neural nets, pages 267{285. Springer, 1982. Robert Gens and Pedro M Domingos. Deep symmetry networks. In Advances in neural information processing systems , pages 2537{2545, 2014. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Delving deep into rectiffers: Surpassing human-level performance on imagenet classiffcation. In Proceedings of the IEEE international conference on computer vision , pages 1026{1034, 2015. Gao Huang, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q Weinberger. Densely connected convolutional networks. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 4700{4708, 2017. Yann LeCun, Bernhard Boser, John S Denker, Donnie Henderson, Richard E Howard, Wayne Hubbard, and Lawrence D Jackel. Backpropagation applied to handwritten zip code recognition. Neural computation , 1(4):541{551, 1989. Karel Lenc and Andrea Vedaldi. Understanding image representations by measuring their equivariance and equivalence. In Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on , pages 991{999. IEEE, 2015. Elad Mezuman and Yair Weiss. Learning about canonical views from internet image collections. In Advances in Neural Information Processing Systems , pages 719{727, 2012."
+        },
+        "Generalizing convolutional neural networks for equivariance to lie groups on arbitrary continuous data": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v119/finzi20a/finzi20a.pdf",
+            "ref_texts": "Brandon Anderson, Truong Son Hy, and Risi Kondor. Cormorant: Covariant molecular neural networks. In Advances in Neural Information Processing Systems , pages 14510\u201314519, 2019. Peter Battaglia, Razvan Pascanu, Matthew Lai, Danilo Jimenez Rezende, et al. Interaction networks for learning about objects, relations and physics. InAdvances in neural information processing systems , pages 4502\u20134510, 2016. Erik J Bekkers. B-spline cnns on lie groups. arXiv preprint arXiv:1909.12057 , 2019. L. C. Blum and J.-L. Reymond. 970 million druglike small molecules for virtual screening in the chemical universe database GDB-13. J. Am. Chem. Soc. , 131:8732, 2009. Jeremy Butterfield. On symmetry and conserved quantities in classical mechanics. In Physical theory and its interpretation , pages 43\u2013100. Springer, 2006. Tian Qi Chen, Yulia Rubanova, Jesse Bettencourt, and David K Duvenaud. Neural ordinary differential equations. In Advances in neural information processing systems, pages 6571\u20136583, 2018. Kurtland Chua, Roberto Calandra, Rowan McAllister, and Sergey Levine. Deep reinforcement learning in a handful of trials using probabilistic dynamics models. In Advances in Neural Information Processing Systems , pages 4754\u20134765, 2018. Taco Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning , pages 2990\u20132999, 2016a. Taco S Cohen and Max Welling. Steerable cnns. arXiv preprint arXiv:1612.08498 , 2016b. Taco S Cohen, Mario Geiger, Jonas K\u00f6hler, and Max Welling. Spherical cnns. arXiv preprint arXiv:1801.10130 , 2018.Taco S Cohen, Mario Geiger, and Maurice Weiler. A general theory of equivariant cnns on homogeneous spaces. InAdvances in Neural Information Processing Systems , pages 9142\u20139153, 2019. Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision , pages 764\u2013773, 2017. Ethan Eade. Lie groups for computer vision. Cambridge Univ., Cam-bridge, UK, Tech. Rep , 2014. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, and Kostas Daniilidis. Learning so (3) equivariant representations with spherical cnns. In Proceedings of the European Conference on Computer Vision (ECCV) , pages 52\u201368, 2018. Justin Gilmer, Samuel S Schoenholz, Patrick F Riley, Oriol Vinyals, and George E Dahl. Neural message passing for quantum chemistry. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 , pages 1263\u20131272. JMLR. org, 2017. Samuel Greydanus, Misko Dzamba, and Jason Yosinski. Hamiltonian neural networks. In Advances in Neural Information Processing Systems , pages 15353\u201315363, 2019. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 770\u2013778, 2016. Zhiwu Huang, Chengde Wan, Thomas Probst, and Luc Van Gool. Deep learning on lie groups for skeleton-based action recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6099\u20136108, 2017. J\u00f6rn-Henrik Jacobsen, Bert De Brabandere, and Arnold WM Smeulders. Dynamic steerable blocks in deep residual networks. arXiv preprint arXiv:1706.00598 , 2017. Michael Janner, Justin Fu, Marvin Zhang, and Sergey Levine. When to trust your model: Model-based policy optimization. arXiv preprint arXiv:1906.08253 , 2019. Sanket Kamthe and Marc Peter Deisenroth. Data-efficient reinforcement learning with probabilistic model predictive control. arXiv preprint arXiv:1706.06491 , 2017. Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 , 2014. Risi Kondor and Shubhendu Trivedi. On the generalization of equivariance and convolution in neural networks to the action of compact groups. arXiv preprint arXiv:1802.03690 , 2018. Akira Kono and Kiminao Ishitoya. Squaring operations in mod 2 cohomology of quotients of compact lie groups by maximal tori. In Algebraic Topology Barcelona 1986 , pages 192\u2013206. Springer, 1987. James J Kuffner. Effective sampling and distance metrics for 3d rigid body path planning. In IEEE International Conference on Robotics and Automation, 2004. Proceedings. ICRA\u201904. 2004 , volume 4, pages 3993\u20133998. IEEE, 2004. Dmitry Laptev, Nikolay Savinov, Joachim M Buhmann, and Marc Pollefeys. Ti-pooling: transformation-invariant pooling for feature learning in convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 289\u2013297, 2016. Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. An empirical evaluation of deep architectures on problems with many factors of variation. In Proceedings of the 24th international conference on Machine learning , pages 473\u2013480, 2007. Yann LeCun, Yoshua Bengio, et al. Convolutional networks for images, speech, and time series. The handbook of brain theory and neural networks , 3361(10):1995, 1995. Ian Lenz, Ross A Knepper, and Ashutosh Saxena. Deepmpc: Learning deep latent features for model predictive control. InRobotics: Science and Systems . Rome, Italy, 2015. Diego Marcos, Michele V olpi, Nikos Komodakis, and Devis Tuia. Rotation equivariant vector field networks. In Proceedings of the IEEE International Conference on Computer Vision , pages 5048\u20135057, 2017. Cleve Moler and Charles Van Loan. Nineteen dubious ways to compute the exponential of a matrix, twenty-five years later. SIAM review , 45(1):3\u201349, 2003. Anusha Nagabandi, Gregory Kahn, Ronald S Fearing, and Sergey Levine. Neural network dynamics for modelbased deep reinforcement learning with model-free finetuning. In 2018 IEEE International Conference on Robotics and Automation (ICRA) , pages 7559\u20137566. IEEE, 2018.Emmy Noether. Invariant variation problems. Transport Theory and Statistical Physics , 1(3):186\u2013207, 1971. Prajit Ramachandran, Barret Zoph, and Quoc V Le. Searching for activation functions. arXiv preprint arXiv:1710.05941 , 2017. M. Rupp, A. Tkatchenko, K.-R. M\u00fcller, and O. A. von Lilienfeld. Fast and accurate modeling of molecular atomization energies with machine learning. Physical Review Letters , 108:058301, 2012. Alvaro Sanchez-Gonzalez, Victor Bapst, Kyle Cranmer, and Peter Battaglia. Hamiltonian graph networks with ode integrators. arXiv preprint arXiv:1909.12790 , 2019. Kristof T Sch\u00fctt, Huziel E Sauceda, P-J Kindermans, Alexandre Tkatchenko, and K-R M\u00fcller. Schnet\u2013a deep learning architecture for molecules and materials. The Journal of Chemical Physics , 148(24):241722, 2018. Martin Simonovsky and Nikos Komodakis. Dynamic edgeconditioned filters in convolutional neural networks on graphs. In CVPR , 2017. Nathaniel Thomas, Tess Smidt, Steven Kearnes, Lusann Yang, Li Li, Kai Kohlhoff, and Patrick Riley. Tensor field networks: Rotation-and translation-equivariant neural networks for 3d point clouds. arXiv preprint arXiv:1802.08219 , 2018. Maurice Weiler and Gabriele Cesa. General e (2)equivariant steerable cnns. In Advances in Neural Information Processing Systems , pages 14334\u201314345, 2019. Maurice Weiler, Mario Geiger, Max Welling, Wouter Boomsma, and Taco S Cohen. 3d steerable cnns: Learning rotationally equivariant features in volumetric data. InAdvances in Neural Information Processing Systems , pages 10381\u201310392, 2018. Benjamin Willson. Reiter nets for semidirect products of amenable groups and semigroups. Proceedings of the American Mathematical Society , 137(11):3823\u20133832, 2009. Daniel E Worrall, Stephan J Garbin, Daniyar Turmukhambetov, and Gabriel J Brostow. Harmonic networks: Deep translation and rotation equivariance. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 5028\u20135037, 2017. Wenxuan Wu, Zhongang Qi, and Li Fuxin. Pointconv: Deep convolutional networks on 3d point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 9621\u20139630, 2019. Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data Zhenqin Wu, Bharath Ramsundar, Evan N Feinberg, Joseph Gomes, Caleb Geniesse, Aneesh S Pappu, Karl Leswing, and Vijay Pande. Moleculenet: a benchmark for molecular machine learning. Chemical science , 9(2):513\u2013530, 2018. Sergey Zagoruyko and Nikos Komodakis. Wide residual networks. arXiv preprint arXiv:1605.07146 , 2016. Yaofeng Desmond Zhong, Biswadip Dey, and Amit Chakraborty. Symplectic ode-net: Learning hamiltonian dynamics with control. arXiv preprint arXiv:1909.12077 , 2019. Yanzhao Zhou, Qixiang Ye, Qiang Qiu, and Jianbin Jiao. Oriented response networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 519\u2013528, 2017."
+        },
+        "Deep learning for unmanned aerial vehicle-based object detection and tracking: A survey": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.12638",
+            "ref_texts": "[106] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "106"
+            ],
+            "1": "Approaches like, Oriented Response Networks (ORNs)\n[105], Polar Transformer Network (PTN) [106], and Equivariant Transformer Networks (ETNs) [107], which were proposed IEEE GRSM 2021, XX, XX 6 for object detection from natural scenes, also provided a qualitative or qualitative analysis of rotation invariant features.",
+            "2": "IEEE GRSM 2021, XX, XX 21\n[106] C."
+        },
+        "Disc-aware ensemble network for glaucoma screening from fundus image": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1805.07549",
+            "ref_texts": "[33] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar Transformer Networks,\u201d in ICLR , 2018, pp. 1\u201314.",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "2) Due to the pixel-wise mapping, the polar transformation is equivariant to the data augmentation on the original fundus image [33].",
+            "2": "[33] C."
+        },
+        "Model-based domain generalization": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf",
+            "ref_texts": "[2]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "2"
+            ]
+        },
+        "Deviant: Depth equivariant network for monocular 3d object detection": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.10758",
+            "ref_texts": "22. Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K.: Polar transformer networks. In: ICLR (2018) 3, 4",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "The first [22,31] infers the global scale using log-polar transform [106], while the other infers the scale locally by convolving with multiple scales of images [34] or 4 A.",
+            "2": "Scale equivariant networks have been used for classification [22,29,74], 2D tracking [73] and 3D object classification [22]."
+        },
+        "Equivariant point network for 3d point cloud analysis": {
+            "authors": [
+                "Haiwei Chen",
+                "Shichen Liu",
+                "Weikai Chen",
+                "Hao Li",
+                "Randall Hill"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Equivariant_Point_Network_for_3D_Point_Cloud_Analysis_CVPR_2021_paper.pdf",
+            "ref_texts": "[12] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. 3",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Starting from the 2D domain, various approaches have been proposed to achieve rotation equivariance by applying multiple oriented filters [29], performing a log-polar transform of the input [12], replacing filters with circular harmonics [42] or rotating the filters [26,40]."
+        },
+        "Person re-identification by contour sketch under moderate clothing change": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2002.02295",
+            "ref_texts": ""
+        },
+        "Expansion and shrinkage of localization for weakly-supervised semantic segmentation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/66738d21d3cddb8717ca52deff5a5546-Paper-Conference.pdf",
+            "ref_texts": "[13] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "However, to achieve this usually needs specific designs for certain kinds of deformation, such as offset shifts, rotation, reflection and scaling [4,10,13,25,45,56]."
+        },
+        "Deep scale-spaces: Equivariance over scale": {
+            "authors": [
+                "Daniel Worrall",
+                "Max Welling"
+            ],
+            "url": "https://proceedings.neurips.cc/paper/2019/file/f04cd7399b2b0128970efb6d20b5c551-Paper.pdf",
+            "ref_texts": "2016.350. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. CoRR , abs/1709.01889, 2017. Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, and Kostas Daniilidis. Learning SO(3) equivariant representations with spherical cnns. In Computer Vision ECCV 2018 15th European Conference, Munich, Germany, September 8-14, 2018, Proceedings, Part XIII , pages 54\u201370, 2018. doi: 10.1007/978-3-030-01261-8\\_4. Luc Florack, Bart M. ter Haar Romeny, Jan J. Koenderink, and Max A. Viergever. Scale and the differential structure of images. Image Vision Comput. , 10(6):376\u2013388, 1992. doi: 10.1016/"
+        },
+        "B-spline cnns on lie groups": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1909.12057",
+            "ref_texts": "12 Published as a conference paper at ICLR 2020 Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. In International Conference on Learning Representations , 2018b. URL https: //openreview.net/forum?id=HktRlUlAZ . Marta Favali, Samaneh Abbasi-Sureshjani, Bart ter Haar Romeny, and Alessandro Sarti. Analysis of vessel connectivities in retinal images by cortically inspired spectral clustering. Journal of Mathematical Imaging and Vision , 56(1):158\u2013172, 2016. Matthias Fey, Jan Eric Lenssen, Frank Weichert, and Heinrich M \u00a8uller. SplineCNN: Fast geometric deep learning with continuous B-spline kernels. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 869\u2013877, 2018. Erik Franken and Remco Duits. Crossing-preserving coherence-enhancing diffusion on invertible orientation scores. International Journal of Computer Vision , 85(3):253, 2009. Erik M Franken. Enhancement of crossing elongated structures in images . PhD thesis, Eindhoven University of Technology, Eindhoven, The Netherlands, 2008. Robert Gens and Pedro M Domingos. Deep symmetry networks. In Advances in neural information processing systems , pp. 2537\u20132545, 2014. Joao F Henriques and Andrea Vedaldi. Warped convolutions: Efficient invariance to spatial transformations. In Proceedings of the 34th International Conference on Machine Learning-Volume 70, pp. 1461\u20131469. JMLR. org, 2017. Geoffrey E Hinton, Alex Krizhevsky, and Sida D Wang. Transforming auto-encoders. In International Conference on Artificial Neural Networks , pp. 44\u201351. Springer, 2011. Matthias Holschneider, Richard Kronland-Martinet, Jean Morlet, and Ph Tchamitchian. A real-time algorithm for signal analysis with the help of the wavelet transform. In Wavelets , pp. 286\u2013297. Springer, 1990. Emiel Hoogeboom, Jorn WT Peters, Taco S Cohen, and Max Welling. HexaConv. In Proceedings of the International Conference on Learning Representations (ICLR) , 2018. D. H. Hubel and T. N. Wiesel. Receptive fields of single neurones in the cat\u2019s striate cortex. The Journal of Physiology , 148(3):574\u2013591, 1959. ISSN 1469-7793. doi: 10.1113/jphysiol.1959. sp006308. URL http://dx.doi.org/10.1113/jphysiol.1959.sp006308 . Max Jaderberg, Karen Simonyan, Andrew Zisserman, and others. Spatial transformer networks. In Advances in neural information processing systems , pp. 2017\u20132025, 2015. L. V . Kantorovich and G. P. Akilov. Functional analysis . English transl.: Pergamon Press, Oxford, Moscow (1977) (Russian), 2nd rev. ed, \u2019nauka\u2019 edition, 1982. Risi Kondor and Shubhendu Trivedi. On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups. In Jennifer Dy and Andreas Krause (eds.), Proceedings of the 35th International Conference on Machine Learning , volume 80 of Proceedings of Machine Learning Research , pp. 2747\u20132755, Stockholmsm \u00a8assan, Stockholm Sweden, July 2018. PMLR. URL http://proceedings.mlr.press/v80/kondor18a.html . Yann LeCun, Bernhard E Boser, John S Denker, Donnie Henderson, Richard E Howard, Wayne E Hubbard, and Lawrence D Jackel. Handwritten digit recognition with a back-propagation network. In Advances in neural information processing systems , pp. 396\u2013404, 1990. Jan Eric Lenssen, Matthias Fey, and Pascal Libuschewski. Group equivariant capsule networks. In Advances in Neural Information Processing Systems , pp. 8844\u20138853, 2018. Yanghao Li, Yuntao Chen, Naiyan Wang, and Zhaoxiang Zhang. Scale-Aware Trident Networks for Object Detection. In The IEEE International Conference on Computer Vision (ICCV) , October 2019. Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. Deep Learning Face Attributes in the Wild. InProceedings of International Conference on Computer Vision (ICCV) , December 2015."
+        },
+        "Universal approximations of invariant maps by neural networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1804.10306",
+            "ref_texts": "58 George Cybenko. Approximation by superpositions of a sigmoidal function. Mathematics of Control, Signals, and Systems (MCSS) , 2(4):303{314, 1989. Sander Dieleman, Jefirey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. arXiv preprint arXiv:1602.02660 , 2016. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Ken-Ichi Funahashi. On the approximate realization of continuous mappings by neural networks. Neural networks , 2(3):183{192, 1989. Robert Gens and Pedro M Domingos. Deep symmetry networks. In Advances in neural information processing systems , pages 2537{2545, 2014. Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning . MIT Press, 2016. http://www.deeplearningbook.org . Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 770{778, 2016. Jo~ ao F Henriques and Andrea Vedaldi. Warped convolutions: Eflcient invariance to spatial transformations. arXiv preprint arXiv:1609.04382 , 2016. David Hilbert. \u007fUber die Theorie der algebraischen Formen. Mathematische annalen , 36(4): 473{534, 1890. David Hilbert. \u007fUber die vollen Invariantensysteme. Mathematische Annalen , 42(3):313{373, 1893. Kurt Hornik. Some new results on neural network approximation. Neural networks , 6(8): 1069{1072, 1993. Kurt Hornik, Maxwell Stinchcombe, and Halbert White. Multilayer feedforward networks are universal approximators. Neural networks , 2(5):359{366, 1989. Hanspeter Kraft and Claudio Procesi. Classical invariant theory, a primer. Lecture Notes , 2000. Yann le Cun. Generalization and network design strategies. In Connectionism in perspective , pages 143{155. 1989. Yann LeCun, Yoshua Bengio, and Geofirey Hinton. Deep learning. Nature , 521(7553): 436{444, 2015."
+        },
+        "Beyond cartesian representations for local descriptors": {
+            "authors": [
+                "Patrick Ebel",
+                "Anastasiia Mishchuk",
+                "Kwang Moo",
+                "Pascal Fua",
+                "Eduard Trulls"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ebel_Beyond_Cartesian_Representations_for_Local_Descriptors_ICCV_2019_paper.pdf",
+            "ref_texts": "[11] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. In ICLR , 2018. 3",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "We use a Polar Transformer Network (PTN) [11] to extract a L\u00d7Lpatch around keypoint pi.",
+            "2": "Finally, we construct the warped patches by looking up the intensity values in imageIat coordinates (xt i,yt i)with bilinear interpolation, as done in [11]."
+        },
+        "Gift: Learning transformation-invariant dense visual descriptors via group cnns": {
+            "authors": [
+                "Yuan Liu",
+                "Zehong Shen",
+                "Zhixuan Lin",
+                "Sida Peng",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/34306d99c63613fad5b2a140398c0420-Paper.pdf",
+            "ref_texts": "[15] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In ICLR , 2018.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Some recent works [8,38,28,10,58,15,27,9,28,57,38,24,14, 16,4] design special architectures to make CNNs equivariant to specific transformations."
+        },
+        "Cubenet: Equivariance to 3d rotation and translation": {
+            "authors": [
+                "Daniel Worrall",
+                "Gabriel Brostow"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Daniel_Worrall_CubeNet_Equivariance_to_ECCV_2018_paper.pdf",
+            "ref_texts": "14.Dieleman, S., Fauw, J.D., Kavukcuoglu, K.: Exploiting cycl ic symmetry in convolutional neural networks. In: Proceedings of the 33nd International Conference on Machine Learning, ICML 2016, New York City, NY, USA, June 19-24, 2016 . pp. 1889\u20131898 (2016), http://jmlr.org/proceedings/papers/v48/dieleman16.h tml 16 D. Worrall and G. Brostow 15.Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K .: Polar transformer networks. CoRR (2017), http://arxiv.org/abs/1709.01889",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "3 Related Work Recently there has been an explosion of interest into CNNs wi th predefined transformation equivariances, beyond translation [8,50,11,29 ,16,42,36,14,19,31,18,22, 15,55,49,26,25,48,33,28,9].",
+            "2": "[14]maintainmultiple rotated feature maps at every layer of a network; whereas, Co hen & Welling [8] rotate the filters."
+        },
+        "You only hypothesize once: Point cloud registration with rotation-equivariant descriptors": {
+            "authors": [
+                "Haiping Wang"
+            ],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3503161.3548023",
+            "ref_texts": ""
+        },
+        "Equivariance with learned canonicalization functions": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v202/kaba23a/kaba23a.pdf",
+            "ref_texts": "\u2013 606, 2020. doi: 10.1214/19-AOS1829. URL https: //doi.org/10.1214/19-AOS1829 . Cuturi, M. Sinkhorn distances: Lightspeed computation of optimal transport. In NeurIPS , 2013. Deng, C., Litany, O., Duan, Y ., Poulenard, A., Tagliasacchi, A., and Guibas, L. J. Vector neurons: A general framework for so (3)-equivariant networks. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 12200\u201312209, 2021. Du, W., Zhang, H., Du, Y ., Meng, Q., Chen, W., Zheng, N., Shao, B., and Liu, T.-Y . SE(3) equivariant graph neural networks with complete local frames. In Chaudhuri, K., Jegelka, S., Song, L., Szepesvari, C., Niu, G., and Sabato, S. (eds.), Proceedings of the 39th International Conference on Machine Learning , pp. 5583\u20135608, 2022. URL https://proceedings.mlr.press/ v162/du22e.html . Esteves, C., Allen-Blanchette, C., Makadia, A., and Daniilidis, K. Learning SO(3) equivariant representations with spherical cnns. pp. 52\u201368, 2018a. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In International Conference on Learning Representations , 2018b. URL https: //openreview.net/forum?id=HktRlUlAZ . Finzi, M., Welling, M., and Wilson, A. G. A practical method for constructing equivariant multilayer perceptrons for arbitrary matrix groups. arXiv preprint arXiv:2104.09459 , 2021. Fuchs, F. B., Worrall, D. E., Fischer, V ., and Welling, M. Se(3)-transformers: 3d roto-translation equivariant attention networks. In Advances in Neural Information Processing Systems 34 (NeurIPS) , 2020. Gould, S., Fernando, B., Cherian, A., Anderson, P., Cruz, R. S., and Guo, E. On differentiating parameterized argmin and argmax problems with application to bi-level optimization. arXiv preprint arXiv:1607.05447 , 2016. Hinton, G. E. and Parsons, L. M. Frames of reference and mental imagery. Attention and performance IX , pp."
+        },
+        "Spin-weighted spherical cnns": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/6217b2f7e4634fa665d31d3b4df81b56-Paper.pdf",
+            "ref_texts": "[17] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. \u201cPolar Transformer Networks\u201d. In: 6th International Conference on Learning Representations, ICLR",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Recently, there has been significant work extending equivariance to other groups of transformations [20, 9, 13, 44, 33, 17, 45, 40, 43, 18, 4] and designing equivariant CNNs on non-Euclidean domains [11, 16, 26, 37, 35, 8, 27, 37, 48].",
+            "2": "While initial methods were constrained to small discrete groups of rotations on the plane, they were later extended to larger groups [41], continuous rotations [44], rotations and scale [17], 3D rotations of voxel grids [43, 40], and point clouds [37]."
+        },
+        "Equivariant multi-view networks": {
+            "authors": [
+                "Carlos Esteves",
+                "Yinshuang Xu",
+                "Christine Allen",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Esteves_Equivariant_Multi-View_Networks_ICCV_2019_paper.pdf",
+            "ref_texts": "[11] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. 3,4,5",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "The second way is through a change of coordinates; [11, 18] take the log-polar transform of the input and transfer rotational and scaling equivariance about a single point to translational equivariance.",
+            "2": "Since planar convolutions are equivariant to translation, converting an image to log-polar and applying a CNN results in features equivariant to dilated rotation, which can be pooled to invariant descriptors on the last layer [11,18].",
+            "3": "Since fully convolutional networks can produce translationinvariant descriptors, by applying them to polar images we effectively achieve invariance to in-plane rotations [11,18], which makes only one view per viewpoint necessary."
+        },
+        "Model-based robust deep learning: Generalizing to natural, out-of-distribution data": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2005.10247",
+            "ref_texts": "[7]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "Rapidly growing bodies of work continue to improve the state-of-the-art in generative modeling [2,3,4], computer vision [5,6,7], and natural language processing [8,9].",
+            "2": "In many of these studies, one considers a transformation T:Rd\u0002D!Rdwhere Dhas some algebraic structure [7].",
+            "3": "To this end, there has been a great deal of recent work that involves designing architectures that are equivariant to various transformations of data [6,7,52,53,54]."
+        },
+        "Learning symmetric embeddings for equivariant world models": {
+            "authors": [
+                "Anonymous Submission"
+            ],
+            "url": "https://arxiv.org/pdf/2204.11371",
+            "ref_texts": "1321\u20131330, 2019. Dehmamy, N., Walters, R., Liu, Y ., Wang, D., and Yu, R. Automatic symmetry discovery with Lie algebra convolutional network. Advances in Neural Information Processing Systems , 34:2503\u20132515, 2021. Dym, N. and Maron, H. On the universality of rotation equivariant point cloud networks. In International Conference on Learning Representations , 2020. Learning Symmetric Embeddings for Equivariant World Models Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In International Conference on Learning Representations , 2018. Falorsi, L., de Haan, P., Davidson, T. R., De Cao, N., Weiler, M., Forr \u00b4e, P., and Cohen, T. S. Explorations in homeomorphic variational auto-encoding. ICML 2018 Workshop on Theoretical Foundations and Applications of Deep Generative Models , 2018. Ha, D. and Schmidhuber, J. World models. In Advances in Neural Information Processing Systems (NeurIPS) , 2018. Hafner, D., Lillicrap, T., Fischer, I., Villegas, R., Ha, D., Lee, H., and Davidson, J. Learning latent dynamics for planning from pixels. In International Conference on Machine Learning , pp. 2555\u20132565. PMLR, 2019. Hafner, D., Lillicrap, T. P., Norouzi, M., and Ba, J. Mastering atari with discrete world models. In International Conference on Learning Representations , 2020. Hall, B. C. Lie groups, Lie algebras, and representations: an elementary introduction , volume 10. Springer, 2003. Higgins, I., Amos, D., Pfau, D., Racaniere, S., Matthey, L., Rezende, D., and Lerchner, A. Towards a definition of disentangled representations, 2018. Ioffe, S. and Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. InProceedings of the 32nd International Conference on Machine Learning , volume 37 of Proceedings of Machine Learning Research , pp. 448\u2013456. PMLR, 07\u201309 Jul 2015. Kipf, T. N., van der Pol, E., and Welling, M. Contrastive learning of structured world models. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 , 2020. Kondor, R. and Trivedi, S. On the generalization of equivariance and convolution in neural networks to the action of compact groups. In Proceedings of the 35th International Conference on Machine Learning (ICML) , volume 80, pp."
+        },
+        "Trajectory prediction using equivariant continuous convolution": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.11344",
+            "ref_texts": "Alexandre Alahi, Kratarth Goel, Vignesh Ramanathan, Alexandre Robicquet, Li Fei-Fei, and Silvio Savarese. Social lstm: Human trajectory prediction in crowded spaces. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 961\u2013971, 2016. Matan Atzmon, Haggai Maron, and Yaron Lipman. Point convolutional neural networks by extension operators. ACM Transactions on Graphics (TOG) , 37(4):71, 2018. Erkao Bao and Linqi Song. Equivariant neural networks and equivarification. arXiv preprint arXiv:1906.07172 , 2019. Peter W Battaglia, Jessica B Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, et al. Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261 , 2018. Erik J Bekkers. B-spline CNNs on Lie groups. In International Conference on Learning Representations , 2020. Richard C Brown and Gerton Lunter. An equivariant Bayesian convolutional network predicts recombination hotspots and accurately resolves binding motifs. Bioinformatics , 35(13):2177\u20132184, 2019. Ming-Fang Chang, John Lambert, Patsorn Sangkloy, Jagjeet Singh, Slawomir Bak, Andrew Hartnett, De Wang, Peter Carr, Simon Lucey, Deva Ramanan, et al. Argoverse: 3d tracking and forecasting with rich maps. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 8748\u20138757, 2019. Benjamin Chidester, Minh N. Do, and Jian Ma. Rotation equivariance and invariance in convolutional neural networks. arXiv preprint arXiv:1805.12301 , 2018. Taco S. Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning (ICML) , pp. 2990\u20132999, 2016a. Taco S. Cohen and Max Welling. Steerable CNNs. arXiv preprint arXiv:1612.08498 , 2016b. Taco S Cohen, Mario Geiger, and Maurice Weiler. A general theory of equivariant CNNs on homogeneous spaces. In Advances in Neural Information Processing Systems , pp. 9142\u20139153, 2019a. Taco S. Cohen, Maurice Weiler, Berkay Kicanaoglu, and Max Welling. Gauge equivariant convolutional networks and the icosahedral CNN. In Proceedings of the 36th International Conference on Machine Learning (ICML) , volume 97, pp. 1321\u20131330, 2019b. Sander Dieleman, Jeffrey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. In International Conference on Machine Learning (ICML) , 2016. Nemanja Djuric, Vladan Radosavljevic, Henggang Cui, Thi Nguyen, Fang-Chieh Chou, Tsung-Han Lin, and Jeff Schneider. Short-term motion prediction of traffic actors for autonomous driving using deep convolutional networks. arXiv preprint arXiv:1808.05819 , 2018. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations (ICLR) , 2018. Marc Finzi, Samuel Stanton, Pavel Izmailov, and Andrew Gordon Wilson. Generalizing convolutional neural networks for equivariance to Lie groups on arbitrary continuous data. arXiv preprint arXiv:2002.12880 , 2020. Fabian B Fuchs, Daniel E Worrall, V olker Fischer, and Max Welling. SE(3) -transformers: 3D roto-translation equivariant attention networks. arXiv preprint arXiv:2006.10503 , 2020. Jiyang Gao, Chen Sun, Hang Zhao, Yi Shen, Dragomir Anguelov, Congcong Li, and Cordelia Schmid. Vectornet: Encoding HD maps and agent dynamics from vectorized representation. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp."
+        },
+        "Equivariant transformer networks": {
+            "authors": [
+                "Kai Sheng",
+                "Peter Bailis",
+                "Gregory Valiant"
+            ],
+            "url": "http://proceedings.mlr.press/v97/tai19a/tai19a.pdf",
+            "ref_texts": "Amari, S. Feature Spaces which Admit and Detect Invariant Signal Transformations. In International Joint Conference on Pattern Recognition , 1978. Amit, Y ., Grenander, U., and Piccioni, M. Structural image restoration through deformable templates. Journal of the American Statistical Association , 1991. Cohen, T. S. and Welling, M. Group Equivariant Convolutional Networks. In International Conference on Machine Learning , 2016. Cohen, T. S., Geiger, M., K \u00a8ohler, J., and Welling, M. Spherical CNNs. In International Conference on Learning Representations , 2018. De Castro, E. and Morandi, C. Registration of translated and rotated images using finite Fourier transforms. IEEE Transactions on Pattern Analysis and Machine Intelligence , pp. 700\u2013703, 1987. Dieleman, S., De Fauw, J., and Kavukcuoglu, K. Exploiting cyclic symmetry in convolutional neural networks. International Conference on Machine Learning , 2016. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar Transformer Networks. In International Conference on Learning Representations , 2018. Freeman, W. T. and Adelson, E. H. The design and use of steerable filters. IEEE Transactions on Pattern Analysis and Machine Intelligence , pp. 891\u2013906, 1991. Gens, R. and Domingos, P. M. Deep Symmetry Networks. InAdvances in Neural Information Processing Systems , 2014. Hashimoto, T. B., Liang, P. S., and Duchi, J. C. Unsupervised transformation learning via convex relaxations. InAdvances in Neural Information Processing Systems , 2017.He, K., Zhang, X., Ren, S., and Sun, J. Deep residual learning for image recognition. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2016. Henriques, J. F. and Vedaldi, A. Warped Convolutions: Efficient Invariance to Spatial Transformations. In International Conference on Machine Learning , 2017. Jacobsen, J.-H., De Brabandere, B., and Smeulders, A. W. Dynamic Steerable Blocks in Deep Residual Networks. arXiv preprint arXiv:1706.00598 , 2017. Jaderberg, M., Simonyan, K., Zisserman, A., and Kavukcuoglu, K. Spatial Transformer Networks. In Advances in Neural Information Processing Systems , 2015. Laptev, D., Savinov, N., Buhmann, J. M., and Pollefeys, M. TI-POOLING: transformation-invariant pooling for feature learning in convolutional neural networks. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2016. Larochelle, H., Erhan, D., Courville, A., Bergstra, J., and Bengio, Y . An empirical evaluation of deep architectures on problems with many factors of variation. In International Conference on Machine Learning , 2007. Lin, C.-H. and Lucey, S. Inverse Compositional Spatial Transformer Networks. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2017. Lucas, B. D. and Kanade, T. An iterative image registration technique with an application to stereo vision. In International Joint Conference on Artificial intelligence , 1981. Marcos, D., V olpi, M., Komodakis, N., and Tuia, D. Rotation Equivariant Vector Field Networks. In International Conference on Computer Vision , 2017. Netzer, Y ., Wang, T., Coates, A., Bissacco, A., Wu, B., and Ng, A. Y . Reading digits in natural images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning , 2011. Rawlinson, D., Ahmed, A., and Kowadlo, G. Sparse unsupervised capsules generalize better. arXiv preprint arXiv:1804.06094 , 2018. Reddi, S. J., Kale, S., and Kumar, S. On the Convergence of Adam and Beyond. In International Conference on Learning Representations , 2018. Reddy, B. S. and Chatterji, B. N. An FFT-based technique for translation, rotation, and scale-invariant image registration. IEEE Transactions on Image Processing , 5(8): 1266\u20131271, 1996. Equivariant Transformer Networks Rubinstein, J., Segman, J., and Zeevi, Y . Recognition of distorted patterns by invariance kernels. Pattern Recognition , 24(10):959\u2013967, 1991. Sabour, S., Frosst, N., and Hinton, G. E. Dynamic routing between capsules. In Advances in Neural Information Processing Systems , 2017. Segman, J., Rubinstein, J., and Zeevi, Y . Y . The canonical coordinates method for pattern deformation: Theoretical and computational considerations. IEEE Transactions on Pattern Analysis and Machine Intelligence , pp. 1171\u2013"
+        },
+        "Rsl-net: Localising in satellite images from a radar on the ground": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2001.03233",
+            "ref_texts": "[38] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d in ICLR , 2018. [Online]. Available: https://openreview.net/forum?id=HktRlUlAZ",
+            "ref_ids": [
+                "38",
+                "Online"
+            ],
+            "1": "Other approaches learn canonical representations [38], which are not applicable to our task as canonical representations do not exist for arbitrary radar images.",
+            "2": "[Online].",
+            "3": "[38] C.",
+            "4": "[Online].",
+            "5": "[Online].",
+            "6": "[Online].",
+            "7": "[Online]."
+        },
+        "Hexaconv": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1803.02108",
+            "ref_texts": "Taco S Cohen and Max Welling. Group equivariant convolutional networks. Proceedings of the International Conference on Machine Learning (ICML) , 2016. Taco S Cohen and Max Welling. Steerable cnn. International Conference on Learning Representations (ICLR) , 2017. Laurent Condat and Dimitri Van De Ville. Quasi-interpolating spline models for hexagonallysampled data. IEEE Transactions on Image Processing , 16(5):1195\u20131206, 2007. Navneet Dalal and Bill Triggs. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on , volume 1, pp. 886\u2013893. IEEE, 2005. Sander Dieleman, Jeffrey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. arXiv preprint arXiv:1602.02660 , 2016. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Robert Gens and Pedro M Domingos. Deep symmetry networks. In Advances in neural information processing systems , pp. 2537\u20132545, 2014. N Peri Hartman and Steven L Tanimoto. A hexagonal pyramid data structure for image processing. IEEE transactions on systems, man, and cybernetics , (2):247\u2013256, 1984."
+        },
+        "Deformable kernels: Adapting effective receptive fields for object deformation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1910.02940",
+            "ref_texts": "Joan Bruna and St \u00b4ephane Mallat. Invariant scattering convolution networks. TPAMI , 2013. Taco Cohen and Max Welling. Group equivariant convolutional networks. In ICML , 2016. Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In CVPR , 2017. Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In CVPR , 2009. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In ICLR , 2018. James J Gibson. The perception of the visual world. Houghton Mifflin , 1950. Priya Goyal, Piotr Doll \u00b4ar, Ross Girshick, Pieter Noordhuis, Lukasz Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, and Kaiming He. Accurate, large minibatch sgd: Training imagenet in 1 hour. arXiv preprint arXiv:1706.02677 , 2017. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR , 2016. Andrew G Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam. Mobilenets: Efficient convolutional neural networks for mobile vision applications. In CVPR , 2017. Jie Hu, Li Shen, and Gang Sun. Squeeze-and-excitation networks. In CVPR , 2018. Drew A Hudson and Christopher D Manning. Learning by abstraction: The neural state machine. arXiv preprint arXiv:1907.03950 , 2019. Max Jaderberg, Karen Simonyan, Andrew Zisserman, et al. Spatial transformer networks. In NeurIPS , 2015. Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc V Gool. Dynamic filter networks. In NeurIPS , 2016. Angjoo Kanazawa, Abhishek Sharma, and David W. Jacobs. Locally scale-invariant convolutional neural networks. In NeurIPS Workshop , 2016. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce. Beyond bags of features: Spatial pyramid matching for recognizing natural scene categories. In CVPR , 2006. Xiang Li, Wenhai Wang, Xiaolin Hu, and Jian Yang. Selective kernel networks. In CVPR , 2019. Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Doll\u00b4ar, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In ECCV , 2014. Tsung-Yi Lin, Piotr Doll \u00b4ar, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR , 2017. Ilya Loshchilov and Frank Hutter. Sgdr: Stochastic gradient descent with warm restarts. In ICLR , 2017. David G Lowe et al. Object recognition from local scale-invariant features. In ICCV , 1999. Wenjie Luo, Yujia Li, Raquel Urtasun, and Richard Zemel. Understanding the effective receptive field in deep convolutional neural networks. In NeurIPS , 2016. Laurens van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning research , 2008. Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In NeurIPS , 2015."
+        },
+        "Unified fourier-based kernel and nonlinearity design for equivariant networks on homogeneous spaces": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v162/xu22e/xu22e.pdf",
+            "ref_texts": "5002, 2019. Chen, H., Liu, S., Chen, W., Li, H., and Hill, R. Equivariant point network for 3d point cloud analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 14514\u201314523, 2021. Chirikjian, G. S., Kyatkin, A. B., and Buckingham, A. Engineering applications of noncommutative harmonic analysis: with emphasis on rotation and motion groups. Appl. Mech. Rev. , 54(6):B97\u2013B98, 2001. Cobb, O. J., Wallis, C. G., Mavor-Parker, A. N., Marignier, A., Price, M. A., d\u2019Avezac, M., and McEwen, J. D. Efficient generalized spherical cnns. arXiv preprint arXiv:2010.11661 , 2020. Cohen, T. and Welling, M. Group equivariant convolutional networks. In International conference on machine learning, pp. 2990\u20132999. PMLR, 2016. Cohen, T., Geiger, M., and Weiler, M. A general theory of equivariant cnns on homogeneous spaces. arXiv preprint arXiv:1811.02017 , 2018a. Cohen, T. S., Geiger, M., K \u00a8ohler, J., and Welling, M. Spherical cnns. arXiv preprint arXiv:1801.10130 , 2018b. De Haan, P., Weiler, M., Cohen, T., and Welling, M. Gauge equivariant mesh cnns: Anisotropic convolutions on geometric graphs. arXiv preprint arXiv:2003.05425 , 2020. Deng, C., Litany, O., Duan, Y ., Poulenard, A., Tagliasacchi, A., and Guibas, L. Vector neurons: A general framework for so (3)-equivariant networks. arXiv preprint arXiv:2104.12229 , 2021. Dym, N. and Maron, H. On the universality of rotation equivariant point cloud networks. arXiv preprint arXiv:2010.02449 , 2020.Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Esteves, C., Allen-Blanchette, C., Makadia, A., and Daniilidis, K. Learning so (3) equivariant representations with spherical cnns. In Proceedings of the European Conference on Computer Vision (ECCV) , pp. 52\u201368, 2018. Esteves, C., Xu, Y ., Allen-Blanchette, C., and Daniilidis, K. Equivariant multi-view networks. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 1568\u20131577, 2019. Esteves, C., Makadia, A., and Daniilidis, K. Spin-weighted spherical cnns. arXiv preprint arXiv:2006.10731 , 2020. Finzi, M., Stanton, S., Izmailov, P., and Wilson, A. G. Generalizing convolutional neural networks for equivariance to lie groups on arbitrary continuous data. In International Conference on Machine Learning , pp. 3165\u20133176. PMLR, 2020. Finzi, M., Welling, M., and Wilson, A. G. A practical method for constructing equivariant multilayer perceptrons for arbitrary matrix groups. arXiv preprint arXiv:2104.09459 , 2021. Folland, G. B. A course in abstract harmonic analysis , volume 29. CRC press, 2016. Fuchs, F. B., Worrall, D. E., Fischer, V ., and Welling, M. Se (3)-transformers: 3d roto-translation equivariant attention networks. arXiv preprint arXiv:2006.10503 , 2020. Fukushima, K. Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position. Biological cybernetics , 36"
+        },
+        "Pdo-econvs: Partial differential operator based equivariant convolutions": {
+            "authors": [
+                "Zhengyang Shen",
+                "Lingshen He",
+                "Zhouchen Lin",
+                "Jinwen Ma"
+            ],
+            "url": "http://proceedings.mlr.press/v119/shen20a/shen20a.pdf",
+            "ref_texts": "660, 2017. Esteves, C., Allenblanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In ICLR , 2018. Fang, C., Zhao, Z., Zhou, P., and Lin, Z. Feature learning via partial differential equation with applications to face recognition. Pattern Recognition , 69:14\u201325, 2017. Glorot, X. and Bengio, Y . Understanding the difficulty of training deep feedforward neural networks. In AISTATS , pp. 249\u2013256, 2010. He, K., Zhang, X., Ren, S., and Sun, J. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In ICCV , pp. 1026\u20131034, 2015. He, K., Zhang, X., Ren, S., and Sun, J. Identity mappings in deep residual networks. In ECCV , pp. 630\u2013645. Springer, 2016. PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions Helor, Y . and Teo, P. C. Canonical decomposition of steerable functions. Journal of Mathematical Imaging and Vision , 9(1):83\u201395, 1996. Hinton, G. E., Sabour, S., and Frosst, N. Matrix capsules with EM routing. In ICLR , 2018. Hoogeboom, E., Peters, J. W., Cohen, T. S., and Welling, M. HexaConv. In ICLR , 2018. Ioffe, S. and Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. InICML , pp. 448\u2013456, 2015. Jaderberg, M., Simonyan, K., Zisserman, A., and Kavukcuoglu, K. Spatial transformer networks. In NeurIPS , pp. 2017\u20132025, 2015. Jain, A. K. and Jain, J. Partial differential equations and finite difference methods in image processing\u2013Part II: Image restoration. IEEE Transactions on Automatic Control , 23(5):817\u2013834, 1978. Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. In ICLR , 2015. Koenderink, J. J. The structure of images. Biological Cybernetics , 50(5):363\u2013370, 1984. Krizhevsky, A. and Hinton, G. Learning multiple layers of features from tiny images. Technical report, Citeseer, 2009. Krizhevsky, A., Sutskever, I., and Hinton, G. E. Imagenet classification with deep convolutional neural networks. InNeurIPS , pp. 1097\u20131105, 2012. Laptev, D., Savinov, N., Buhmann, J. M., and Pollefeys, M. TI-POOLING: transformation-invariant pooling for feature learning in convolutional neural networks. In CVPR , pp. 289\u2013297, 2016. Larochelle, H., Erhan, D., Courville, A., Bergstra, J., and Bengio, Y . An empirical evaluation of deep architectures on problems with many factors of variation. In ICML , pp."
+        },
+        "Rotation equivariant feature image pyramid network for object detection in optical remote sensing imagery": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.00880",
+            "ref_texts": "[45] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d Proc. Int. Conf. Learn. Represent. , 2017.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "In [45], a polar transformer network is proposed which combines STN and canonical coordinate representations.",
+            "2": "Our method substantially outperforms the other methods on the image with tiny angles and still have more than 85% of accurate estimations for the rotations around 45flwhile less than 70% is achieved by LR-CNN [36] and HSP [5] and less than 50% is achieved by PTN [45] and CyCNN [46].",
+            "3": "[45] C."
+        },
+        "Probably unknown: Deep inverse sensor modelling radar": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1810.08151",
+            "ref_texts": "[20] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "In order to map from an inherently polar sensor observation to a Cartesian map we utilise Polar Transformer Units (PTUs) [20].",
+            "2": "Information is allowed to flow from the encoder to the decoder through skip connections, where polar features uare converted to Cartesian features vthrough bi-linear interpolation, with a fixed polar to Cartesian grid [20].",
+            "3": "[20] C."
+        },
+        "Riconv++: Effective rotation invariant convolutions for 3d point clouds deep learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2202.13094",
+            "ref_texts": "(2018a) Learning so (3) equivariant representations with spherical cnns. In: Proceedings of the European Conference on Computer Vision (ECCV), pp 52{68 8, 9, 13 Esteves C, Allen-Blanchette C, Zhou X, Daniilidis K (2018b) Polar transformer networks. In: International Conference on Learning Representations 3 Esteves C, Xu Y, Allen-Blanchette C, Daniilidis K (2019) Equivariant multi-view networks. In: Proceedings of the IEEE International Conference on Computer Vision, pp 1568{1577 2 Furuya T, Ohbuchi R (2016) Deep aggregation of local 3d geometric features for 3d model retrieval. In: BMVC, vol 7, p 8 13 Guo Y, Sohel F, Bennamoun M, Lu M, Wan J (2013) Rotational projection statistics for 3d local surface description and object recognition. International journal of computer vision 105(1):63{86 11 Guo Y, Wang H, Hu Q, Liu H, Liu L, Bennamoun M"
+        },
+        "Pdo-s3dcnns: Partial differential operator based steerable 3d cnns": {
+            "authors": [
+                "Anonymous Submission"
+            ],
+            "url": "https://proceedings.mlr.press/v162/shen22c/shen22c.pdf",
+            "ref_texts": "14514\u201314523, 2021. Cobb, O. J., Wallis, C. G., Mavor-Parker, A. N., Marignier, A., Price, M. A., d\u2019Avezac, M., and McEwen, J. D. Efficient generalized spherical CNNs. In ICLR , 2020. Cohen, T. and Welling, M. Group equivariant convolutional networks. In ICML , pp. 2990\u20132999, 2016. Cohen, T., Weiler, M., Kicanaoglu, B., and Welling, M. Gauge equivariant convolutional networks and the icosahedral CNN. In ICML , pp. 1321\u20131330, 2019. Cohen, T. S. and Welling, M. Steerable CNNs. In ICLR , 2017. Cohen, T. S., Geiger, M., K \u00a8ohler, J., and Welling, M. Spherical CNNs. In ICLR , 2018. Esteves, C., Allen-Blanchette, C., Makadia, A., and Daniilidis, K. Learning SO(3) equivariant representations with spherical CNNs. In ECCV , pp. 52\u201368, 2018a. Esteves, C., Allenblanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In ICLR , 2018b. Esteves, C., Xu, Y ., Allen-Blanchette, C., and Daniilidis, K. Equivariant multi-view networks. In ICCV , pp. 1568\u2013"
+        },
+        "CyCNN: A rotation invariant CNN using polar mapping and cylindrical convolution layers": {
+            "authors": [
+                "Jinpyo Kim",
+                "Wookeun Jung",
+                "Hyungmo Kim",
+                "Jaejin Lee"
+            ],
+            "url": "https://arxiv.org/pdf/2007.10588",
+            "ref_texts": "(2):170\u2013184, 1998. Bradski, G. The OpenCV Library. Dr. Dobb\u2019s Journal of Software Tools , 2000. Carlos Esteves, Christine Allen-Blanchette, X. Z. K. D. Polar transformer networks. International Conference on Learning Representations , 2018. URL https: //openreview.net/forum?id=HktRlUlAZ . accepted as poster. Cheng, G., Zhou, P., and Han, J. Learning rotationinvariant convolutional neural networks for object detection in vhr optical remote sensing images. IEEE Transactions on Geoscience and Remote Sensing , 54"
+        },
+        "Automated diagnosis of cardiovascular diseases from cardiac magnetic resonance imaging using deep learning models: A review": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2210.14909",
+            "ref_texts": "[359] Esteves, C., Allen -Blanchette, C., Zhou, X., & Daniilidis, K. (2017). Polar transformer networks. arXiv preprint arXiv:1709.01889 . ",
+            "ref_ids": [
+                "359"
+            ],
+            "1": "Graph transformers [358], polar transformer s [359], and Vit transformer s [360] are am ong the most important models.",
+            "2": "[359] Esteves, C."
+        },
+        "Accurate 3-DoF camera geo-localization via ground-to-satellite image matching": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2203.14148",
+            "ref_texts": "[51] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d International Conference on Learning Representations , 2018. 5",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "Hence, we employ circular convolutions [51] with periodical padding along the horizontal direction.",
+            "2": "5\n[51] C."
+        },
+        "Homography decomposition networks for planar object tracking": {
+            "authors": [
+                "Xinrui Zhan",
+                "Yueran Liu",
+                "Jianke Zhu",
+                "Yang Li"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20232/19991",
+            "ref_texts": "Bay, H.; Tuytelaars, T.; and Gool, L. 2006. SURF: Speeded Up Robust Features. In Proceedings of the European Conference on Computer Vision (ECCV), 404\u2013417. Benhimane, S.; and Malis, E. 2004. Real-time image-based tracking of planes using efficient second-order minimization. 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 1: 943\u2013948 vol.1. Bertinetto, L.; Valmadre, J.; Henriques, J. F.; Vedaldi, A.; and Torr, P. H. 2016. Fully-convolutional siamese networks for object tracking. In Proceedings of the European Conference on Computer Vision (ECCV), 850\u2013865. Black, M. J.; and Jepson, A. 2004. EigenTracking: Robust Matching and Tracking of Articulated Objects Using a View-Based Representation. International Journal of Computer Vision, 26: 63\u201384. Chen, L.; Ling, H.; Shen, Y .; Zhou, F.; Wang, P.; Tian, X.; and wu Chen, Y . 2019. Robust visual tracking for planar objects using gradient orientation pyramid. Journal of Electronic Imaging, 28: 013007 \u2013 013007. Chen, X.; Yan, B.; Zhu, J.; Wang, D.; Yang, X.; and Lu, H. 2021. Transformer tracking. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 8126\u20138135. Chen, Z.; Zhong, B.; Li, G.; Zhang, S.; and Ji, R. 2020. Siamese Box Adaptive Network for Visual Tracking. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 6668\u20136677. Cohen, S. T.; and Welling, M. 2015. Transformation Properties of Learned Visual Representations. International Conference on Learning Representations (ICLR). DeTone, D.; Malisiewicz, T.; and Rabinovich, A. 2016. Deep Image Homography Estimation. arXiv:1606.03798. Esteves, C.; Allen-Blanchette, C.; Zhou, X.; and Daniilidis, K. 2018. Polar Transformer Networks. arXiv:1709.01889. Gauglitz, S.; H \u00a8ollerer, T.; and Turk, M. 2011. Evaluation of Interest Point Detectors and Feature Descriptors for Visual Tracking. International Journal of Computer Vision, 94: 335\u2013360. Girshick, R. B. 2015. Fast R-CNN. In Proceedings of the IEEE international conference on computer vision (ICCV) , 1440\u20131448. Guo, D.; Wang, J.; Cui, Y .; Wang, Z.; and Chen, S. 2020. SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 6269\u20136277. Gupta, D. K.; Arya, D.; and Gavves, E. 2021. Rotation Equivariant Siamese Networks for Tracking. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 12362\u201312371.Harltey, A.; and Zisserman, A. 2003a. Multiple view geometry in computer vision, chapter 4, 88. Cambridge University Press, 2 edition. Harltey, A.; and Zisserman, A. 2003b. Multiple view geometry in computer vision, chapter 2, 42. Cambridge University Press, 2 edition. Henriques, J. F.; and Vedaldi, A. 2017. Warped Convolutions: Efficient Invariance to Spatial Transformations. In Conference on International Conference on Machine Learning (ICML), 1461\u20131469. Huang, L.; Zhao, X.; and Huang, K. 2019. GOT-10k: A large high-diversity benchmark for Ggeneric object tracking in the wild. IEEE Transactions on Pattern Analysis and Machine Intelligence. Jaderberg, M.; Simonyan, K.; Zisserman, A.; and Kavukcuoglu, K. 2015. Spatial Transformer Networks. In Proceedings of the Neural Information Processing Systems (NeurIPS), 6992\u20137003. Kwon, J.; Lee, H. S.; Park, F.; and Lee, K. M. 2014. A Geometric Particle Filter for Template-Based Visual Tracking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 36: 625\u2013643. Lenc, K.; and Vedaldi, A. 2015. Understanding image representations by measuring their equivariance and equivalence. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 991\u2013999. Li, Y .; Zhu, J.; Hoi, S. C.; Song, W.; Wang, Z.; and Liu, H."
+        },
+        "Roi tanh-polar transformer network for face parsing in the wild": {
+            "authors": [
+                "Yiming Lin",
+                "Jie Shen",
+                "Yujiang Wang",
+                "Maja Pantic"
+            ],
+            "url": "https://arxiv.org/pdf/2102.02717",
+            "ref_texts": ""
+        },
+        "Building deep, equivariant capsule networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1908.01300"
+        },
+        "Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness": {
+            "authors": [
+                "Fanny Yang",
+                "Zuowen Wang",
+                "Christina Heinze"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/1d01bd2e16f57892f0954902899f0692-Paper.pdf",
+            "ref_texts": "[12] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. InProceedings of the International Conference on Learning Representations, 2018.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "the mathematical model for rotations and translations has led to carefully hand-engineered architectures that incorporate spatial invariance directly [19,24,8,27,44,42,12,40].",
+            "2": "1 Spatial equivariant networks We compare the robust prediction accuracies from networks trained with the regularizers with three specialized architectures, designed to be equivariant against spatial transformations and translations: (a)G-ResNet44 (GRN ) [8] using p4m convolutional layers (90 degree rotations, translations and mirror reflections) on CIFAR-10; (b) Equivariant Transformer Networks (ETN) [40], a generalization of Polar Transformer Networks (PTN) [12], on SVHN; and (c) Spatial Transformer Networks (STN)\n[19] on SVHN.",
+            "3": "For continuous transformations, steerability [42,9] and coordinate transformation [12,40] based approaches have been suggested."
+        },
+        "Learning invariant weights in neural networks": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v180/ouderaa22a/ouderaa22a.pdf",
+            "ref_texts": "Erik J Bekkers. B-spline cnns on lie groups. arXiv preprint arXiv:1909.12057 , 2019. Gregory Benton, Marc Finzi, Pavel Izmailov, and Andrew Gordon Wilson. Learning invariances in neural networks. arXiv preprint arXiv:2010.11882 , 2020. Michael M Bronstein, Joan Bruna, Taco Cohen, and Petar Veli \u02c7ckovi \u00b4c. Geometric deep learning: Grids, groups, graphs, geodesics, and gauges. arXiv preprint arXiv:2104.13478 , 2021. Taco Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning , pages 2990\u20132999. PMLR, 2016. Ekin D Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, and Quoc V Le. Autoaugment: Learning augmentation policies from data. arXiv preprint arXiv:1805.09501 , 2018. Tri Dao, Albert Gu, Alexander Ratner, Virginia Smith, Chris De Sa, and Christopher R\u00e9. A kernel theory of modern data augmentation. In International Conference on Machine Learning , pages 1528\u20131537. PMLR, 2019. Vincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, and Nicolas Durrande. Deep neural networks as point estimates for deep gaussian processes. arXiv preprint arXiv:2105.04504 , 2021. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Luca Falorsi, Pim de Haan, Tim R Davidson, and Patrick Forr\u00e9. Reparameterizing distributions on lie groups. In The 22nd International Conference on Artificial Intelligence and Statistics , pages 3244\u20133253. PMLR, 2019. Marc Finzi, Max Welling, and Andrew Gordon Wilson. A practical method for constructing equivariant multilayer perceptrons for arbitrary matrix groups. arXiv preprint arXiv:2104.09459 , 2021. Edwin Fong and CC Holmes. On the marginal likelihood and cross-validation. Biometrika , 107(2):489\u2013496, 2020. Matthew D Hoffman, David M Blei, Chong Wang, and John Paisley. Stochastic variational inference. Journal of Machine Learning Research , 14(5), 2013. Alexander Immer, Matthias Bauer, Vincent Fortuin, Gunnar R\u00e4tsch, and Mohammad Emtiyaz Khan. Scalable marginal likelihood estimation for model selection in deep learning. arXiv preprint arXiv:2104.04975 , 2021.Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu. Spatial transformer networks. arXiv preprint arXiv:1506.02025 , 2015. Eric Jang, Shixiang Gu, and Ben Poole. Categorical reparameterization with gumbel-softmax. arXiv preprint arXiv:1611.01144 , 2016. T Anderson Keller and Max Welling. Topographic vaes learn equivariant capsules. arXiv preprint arXiv:2109.01394 , 2021. Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 , 2014. Diederik P Kingma and Max Welling. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114 , 2013. Alex Krizhevsky, Geoffrey Hinton, et al. Learning multiple layers of features from tiny images. 2009. Siddharth Krishna Kumar. On weight initialization in deep neural networks. arXiv preprint arXiv:1704.08863 , 2017. Yann LeCun, L\u00e9on Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE , 86(11):2278\u20132324, 1998. Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. Deep learning. nature , 521(7553):436\u2013444, 2015. Jonathan Lorraine, Paul Vicol, and David Duvenaud. Optimizing millions of hyperparameters by implicit differentiation. In International Conference on Artificial Intelligence and Statistics , pages 1540\u20131552. PMLR, 2020. Ilya Loshchilov and Frank Hutter. Sgdr: Stochastic gradient descent with warm restarts. arXiv preprint arXiv:1608.03983 , 2016. Diego Marcos, Michele V olpi, Nikos Komodakis, and Devis Tuia. Rotation equivariant vector field networks. In Proceedings of the IEEE International Conference on Computer Vision , pages 5048\u20135057, 2017. Cleve Moler and Charles Van Loan. Nineteen dubious ways to compute the exponential of a matrix, twenty-five years later. SIAM review , 45(1):3\u201349, 2003. Kevin P Murphy. Machine learning: a probabilistic perspective . MIT press, 2012. Sebastian W Ober and Laurence Aitchison. Global inducing point variational posteriors for bayesian neural networks and deep gaussian processes. arXiv preprint arXiv:2005.08140 , 2020."
+        },
+        "Learning canonical 3d object representation for fine-grained recognition": {
+            "authors": [
+                "Sunghun Joung",
+                "Seungryong Kim",
+                "Minsu Kim",
+                "Jae Kim",
+                "Kwanghoon Sohn"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Joung_Learning_Canonical_3D_Object_Representation_for_Fine-Grained_Recognition_ICCV_2021_paper.pdf",
+            "ref_texts": "[13] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In ICLR , 2018.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Inspired by STN [25], many variants were proposed by using recurrent formalism [39], deformable convolution [7], polar transformation [13], and attention based warping [52, 76].",
+            "2": "Note that conventional methods cannot enforce the warped feature to be consistent under different camera viewpoint [25, 39, 13], or only can localize a few semantic parts [1, 32, 17, 75].",
+            "3": "Unlike existing methods [25, 39, 13] that estimate geometric variation to remove spatial variation, we take advantage of modeling 3D shape."
+        },
+        "A simple strategy to provable invariance via orbit mapping": {
+            "authors": [
+                "Kanchana Vaishnavi",
+                "Jonas Geiping",
+                "Zorah L",
+                "Adam Czaplin",
+                "Michael M"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Gandikota_A_Simple_Strategy_to_Provable_Invariance_via_Orbit_Mapping_ACCV_2022_paper.pdf",
+            "ref_texts": "49.Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K.: Polar transformer networks. In: International Conference on Learning Representations. (2018)",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "The use of spatial transformer networks [47] is an alternate learning based approach to 2D/3D pose normalization which can be used along with an application-dependent coordinate transformation [48,49]."
+        },
+        "RIC-CNN: rotation-invariant coordinate convolutional neural network": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2211.11812",
+            "ref_texts": "[31] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations (ICLR) , 2018.",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Recently, some approaches also used log-polar representation of an image as the input of classical CNNs [30,31,32], because as stated above traditional convolution is natually invariant 5 to image translation."
+        },
+        "RRL: regional rotate layer in convolutional neural networks": {
+            "authors": [
+                "Zongbo Hao",
+                "Tao Zhang",
+                "Mingwang Chen",
+                "Zou Kaixu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19964/19723",
+            "ref_texts": "1898. PMLR. Dieleman, S.; Willett, K. W.; and Dambre, J. 2015. Rotationinvariant convolutional neural networks for galaxy morphology prediction. Monthly notices of the royal astronomical society, 450(2): 1441\u20131459. Esteves, C.; Allen-Blanchette, C.; Zhou, X.; and Daniilidis, K. 2018. Polar Transformer Networks. In International Conference on Learning Representations. Follmann, P.; and Bottger, T. 2018. A rotationally-invariant convolution module by feature map back-rotation. In 2018 IEEE Winter Conference on Applications of Computer Vision (WACV), 784\u2013792. IEEE. Gao, L.; Li, H.; Lu, Z.; and Lin, G. 2019. Rotationequivariant convolutional neural network ensembles in image processing. In Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers, 551\u2013557. London: Association for Computing Machinery,New York. He, K.; Zhang, X.; Ren, S.; and Sun, J. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, 770\u2013778. Jaderberg, M.; Simonyan, K.; Zisserman, A.; et al. 2015. Spatial transformer networks. Advances in neural information processing systems, 28: 2017\u20132025. Jiang, R.; and Mei, S. 2019. Polar coordinate convolutional neural network: from rotation-invariance to translationinvariance. In 2019 IEEE International Conference on Image Processing (ICIP), 355\u2013359. IEEE. Laptev, D.; Savinov, N.; Buhmann, J. M.; and Pollefeys, M.",
+            "ref_ids": [
+                "1898"
+            ]
+        },
+        "Towards high-accuracy deep learning inference of compressible turbulent flows over aerofoils": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2109.02183",
+            "ref_texts": "[34] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. arXiv:1709.01889, 2018.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Early theoretical work has addressed the equivalence of image representations in networks [33] and showed promising applications with warped images in polar and spherical coordinate systems [34, 35].",
+            "2": "[34] C."
+        },
+        "Real-time, highly accurate robotic grasp detection using fully convolutional neural network with rotation ensemble module": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1812.07762",
+            "ref_texts": "[6] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. In International Conference on Learning Representations (ICLR) , 2018.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "Recently, there have been some works on rotation-invariant neural network such as rotating weights [4], [7], enlarged receptive field using dialed convolutional neural network (CNN) [29] or a pyramid pooling layer [10], rotation region proposals for recognizing arbitrarily placed texts [19] and polar transform network to extract rotation-invariant features [6].",
+            "2": "proposed a rotation-invariant network by replacing the grid generation of STN with a polar transform [6].",
+            "3": "[6] C."
+        },
+        "EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning": {
+            "authors": [
+                "Chenxin Xu",
+                "Robby T. Tan",
+                "Yuhong Tan",
+                "Siheng Chen",
+                "Yu Guang",
+                "Xinchao Wang",
+                "Yanfeng Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_EqMotion_Equivariant_Multi-Agent_Motion_Prediction_With_Invariant_Interaction_Reasoning_CVPR_2023_paper.pdf",
+            "ref_texts": "[11] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. 2",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Since CNN structure is sensitive to rotations, researchers start to explore rotationequivariant designs like oriented convolutional filters [8, 49], log-polar transform [11], circular harmonics [67] or steerable filters [66]."
+        },
+        "Log-Polar Space Convolution Layers": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/25eb42c46526071479f871b8bc9ad331-Paper-Conference.pdf",
+            "ref_texts": "[51] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. International Conference on Learning Representations , 2018.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "In [51], the polar transformer network generates a log-polar representation of the input by differentiable sampling and interpolation techniques."
+        },
+        "Spherical coordinates transformation pre-processing in Deep Convolution Neural Networks for brain tumor segmentation in MRI": {
+            "authors": [
+                "Carlo Russo"
+            ],
+            "url": "https://arxiv.org/pdf/2008.07090",
+            "ref_texts": "[38] C. Esteves, C. Allen -Blanchette, X. Zhou, K. Daniilidis, Polar Transformer Networks, ArXiv. (2018). ",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "presented a Polar Transformer Network (PTN) model to classify objects with rotational invariance, also extending the model to 3D objects with the use of a cylindrical coordinate system [38].",
+            "2": "[38] C."
+        },
+        "Discrete rotation equivariance for point cloud recognition": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1904.00319",
+            "ref_texts": "[14] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "Systematic and explainable method by constraining the filter [8], [9], extending the convolutional domain to general groups [10], [11], [12], [13], and making use of log-polar transforms [14], [15], etc, have been proposed recently.",
+            "2": "Among the methods that work with 3D data, voxelization [11], [14], [13] relies on 3D voxel grid which is computationally heavy and not scalable.",
+            "3": "Polar Transformer Network (PTN) [14] applies STN to predict an origin or axis and then projects images or voxels to the polar coordinate representation.",
+            "4": "1 PTN[14] voxel 89.",
+            "5": "2 \u00191 Polar Transformer Net[14] 0.",
+            "6": "[14] C."
+        },
+        "Vn-transformer: Rotation-equivariant attention for vector neurons": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.04176",
+            "ref_texts": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. Layer normalization, 2016. (Cited on Page 6) Michael M. Bronstein, Joan Bruna, Taco Cohen, and Petar Veli\u010dkovi\u0107. Geometric deep learning: Grids, groups, graphs, geodesics, and gauges. ArXiv, abs/2104.13478, 2021. (Cited on Page 3) Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. Shapenet: An information-rich 3d model repository. arXiv preprint arXiv:1512.03012 , 2015. (Cited on Page 2, 3) Benjamin Chidester, Minh N. Do, and Jian Ma. Rotation equivariance and invariance in convolutional neural networks, 2018. (Cited on Page 3) Taco Cohen and Max Welling. Group equivariant convolutional networks. In Maria Florina Balcan and Kilian Q. Weinberger (eds.), Proceedings of The 33rd International Conference on Machine Learning , volume 48 of Proceedings of Machine Learning Research , pp. 2990\u20132999, New York, New York, USA, 20\u201322 Jun 2016. PMLR. URL https://proceedings.mlr.press/v48/cohenc16.html . (Cited on Page 3) Congyue Deng, Or Litany, Yueqi Duan, Adrien Poulenard, Andrea Tagliasacchi, and Leonidas Guibas. Vector neurons: A general framework for so(3)-equivariant networks, 2021. (Cited on Page 2, 5, 6, 8, 9, 10, 14, 15, 20, 21) Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding, 2019. (Cited on Page 4) AlexeyDosovitskiy, LucasBeyer, AlexanderKolesnikov, DirkWeissenborn, XiaohuaZhai, ThomasUnterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale, 2021. (Cited on Page 4) Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. InInternational Conference on Learning Representations , 2018. (Cited on Page 2, 3) Scott Ettinger, Shuyang Cheng, Benjamin Caine, Chenxi Liu, Hang Zhao, Sabeek Pradhan, Yuning Chai, Ben Sapp, Charles R. Qi, Yin Zhou, Zoey Yang, Aur\u00e9lien Chouard, Pei Sun, Jiquan Ngiam, Vijay Vasudevan, Alexander McCauley, Jonathon Shlens, and Dragomir Anguelov. Large scale interactive motion forecasting for autonomous driving: The waymo open motion dataset. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) , pp. 9710\u20139719, October 2021. (Cited on Page 10, 15) Marc Anton Finzi, Gregory Benton, and Andrew Gordon Wilson. Residual pathway priors for soft equivariance constraints. In A. Beygelzimer, Y. Dauphin, P. Liang, and J. Wortman Vaughan (eds.), Advances in Neural Information Processing Systems , 2021. URL https://openreview.net/forum?id=k505ekjMzww . (Cited on Page 4) Fabian B. Fuchs, Daniel E. Worrall, Volker Fischer, and Max Welling. Se(3)-transformers: 3d roto-translation equivariant attention networks, 2020. (Cited on Page 2, 4, 6, 14) Geoffrey E Hinton, Sara Sabour, and Nicholas Frosst. Matrix capsules with em routing. In International conference on learning representations , 2018. (Cited on Page 3) Max Jaderberg, Karen Simonyan, Andrew Zisserman, et al. Spatial transformer networks. Advances in neural information processing systems , 28:2017\u20132025, 2015. (Cited on Page 2, 3) Andrew Jaegle, Sebastian Borgeaud, Jean-Baptiste Alayrac, Carl Doersch, Catalin Ionescu, David Ding, Skanda Koppula, Daniel Zoran, Andrew Brock, Evan Shelhamer, Olivier H\u00e9naff, Matthew M. Botvinick, Andrew Zisserman, Oriol Vinyals, and Jo\u00e3o Carreira. Perceiver io: A general architecture for structured inputs & outputs, 2021. (Cited on Page 7)"
+        },
+        "Oriental language recognition (OLR) 2020: Summary and analysis": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.05365",
+            "ref_texts": "[26] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d in International Conference on Learning Representations , 02 2018.",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "Some of them used other network structures, such as Convolutional Neural Networks (CNN), incorporating the SE blocks in the deep Residual Networks (ResNet-SE), Polar Transformer Network (PTN) [26], GRU, BLSTM [27], attention structure, attentive pooling, Global Context Network (GCNet) [28], NetVLAD [29] or inspired Vector of Locally Aggregated Descriptors (VLAD) [30].",
+            "2": "[26] C."
+        },
+        "Improving the sample-complexity of deep classification networks with invariant integration": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2202.03967",
+            "ref_texts": "2019, 9-15 June 2019, Long Beach, California, USA , pages 1586\u20131595. Esteves, C., Allen-Blanchette, C., Makadia, A., and Daniilidis, K. (2018a). Learning SO(3) equivariant representations with spherical cnns. In ECCV 2018, Munich, Germany, September 8-14, 2018, Proceedings, Part XIII , pages 54\u201370. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. (2018b). Polar transformer networks. In ICLR"
+        },
+        "Fourier series expansion based filter parametrization for equivariant convolutions": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.14519",
+            "ref_texts": "[12] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "1 Equivariant CNNs Early attempts for exploiting transformation symmetry prior in images are mainly designed by heuristics [10], [11], [12], [13].",
+            "2": "[12], [14] further transformed feature maps with differentiable modules to enforce equivariance transformations.",
+            "3": "The competing methods include H-Net [17], OR-TIPooling [15], RotEqNet [16], PTN-CNN [12], SFCNN\n[3], E2-CNN [4] and PDO-eConv [5].",
+            "4": "10M PTN-CNN [12] 0."
+        },
+        "Linearized multi-sampling for differentiable image transformation": {
+            "authors": [
+                "Wei Jiang",
+                "Weiwei Sun",
+                "Andrea Tagliasacchi",
+                "Eduard Trulls",
+                "Kwang Moo"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Linearized_Multi-Sampling_for_Differentiable_Image_Transformation_ICCV_2019_paper.pdf",
+            "ref_texts": "[12] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In ICLR , 2018. 2",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Polar Transformer Networks [12] were used by [11] to build scale-invariant descriptors by transforming the input patch into log-polar space."
+        },
+        "Deformation robust roto-scale-translation equivariant CNNs": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2111.10978",
+            "ref_texts": ""
+        },
+        "Robustness of rotation-equivariant networks to adversarial perturbations": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1802.06627",
+            "ref_texts": "Naveed Akhtar and Ajmal Mian. Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey. arXiv preprint arXiv:1801.00553 , 2018. Taco S. Cohen and Max Welling. Group Equivariant Convolutional Networks. In International Conference on Machine Learning (ICML) , 2016. Taco S. Cohen and Max Welling. Steerable CNNs. In International Conference on Learning Representations (ICLR) , 2017. Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. ImageNet: A Large-Scale Hierarchical Image Database. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2009. Sander Dieleman, Jeffrey De Fauw, and Koray Kavukcuoglu. Exploiting Cyclic Symmetry in Convolutional Neural Networks. In International Conference on Machine Learning (ICML) , 2016. Logan Engstrom, Dimitris Tsipras, Ludwig Schmidt, and Aleksander Madry. A Rotation and a Translation Suffice: Fooling CNNs with Simple Transformations. In NIPS 2017 Workshop on Machine Learning and Computer Security , 2017. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. In International Conference on Learning Representations (ICLR) , 2018. Alhussein Fawzi and Pascal Frossard. Manitest: Are classifiers really invariant? In British Machine Vision Conference (BMVC) , 2015. Diego Marcos Gonzalez, Michele V olpi, Nikos Komodakis, and Devis Tuia. Rotation equivariant vector field networks. In International Conference on Computer Vision (ICCV) , 2017. Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and Harnessing Adversarial Examples. In International Conference on Learning Representations (ICLR) , 2015. Jo\u02dcao F. Henriques and Andrea Vedaldi. Warped Convolutions: Efficient Invariance to Spatial Transformations. In International Conference on Machine Learning (ICML) , 2017. Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu. Spatial Transformer Networks. In Advances in Neural Information Processing Systems (NIPS) , 2015. Can Kanbak, Seyed-Mohsen Moosavi-Dezfooli, and Pascal Frossard. Geometric robustness of deep networks: analysis and improvement. arXiv preprint arXiv:1711.09115 , 2017. Risi Kondor and Shubhendu Trivedi. On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups. arXiv preprint arXiv:1802.03690 , 2018. Alex Krizhevsky and Geoffrey Hinton. Learning Multiple Layers of Features from Tiny Images. Master\u2019s thesis, Department of Computer Science, University of Toronto , 2009. Dmitry Laptev, Nikolay Savinov, Joachim M. Buhmann, and Marc Pollefeys. TI-POOLING: transformation-invariant pooling for feature learning in Convolutional Neural Networks. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2016. Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. An Empirical Evaluation of Deep Architectures on Problems with Many Factors of Variation. International Conference on Machine Learning (ICML) , 2007. Junying Li, Zichen Yang, Haifeng Liu, and Deng Cai. Deep Rotation Equivariant Network. arXiv preprint arXiv:1705.08623 , 2017. Bo Luo, Yannan Liu, Lingxiao Wei, and Qiang Xu. Towards Imperceptible and Robust Adversarial Example Attacks against Neural Networks. arXiv preprint arXiv:1801.04693 , 2018. S.-M. Moosavi-Dezfooli, A. Fawzi, and P. Frossard. Deepfool: a simple and accurate method to fool deep neural networks. arXiv preprint arXiv:1511.04599 , 2017."
+        },
+        "Deep neural networks with efficient guaranteed invariances": {
+            "authors": [],
+            "url": "https://proceedings.mlr.press/v206/rath23a/rath23a.pdf",
+            "ref_texts": "(2021). An image is worth 16x16 words: Transformers for image recognition at scale. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021 . OpenReview.net. Elesedy, B. and Zaidi, S. (2021). Provably strict generalisation benefit for equivariant models. In Meila, M. and Zhang, T., editors, Proceedings of the 38th International Conference on Machine Learning, ICML 2021, 18-24 July 2021, Virtual Event , volume 139 of Proceedings of Machine Learning Research , pages 2959\u20132969. PMLR. Esteves, C. (2020). Theoretical aspects of group equivariant neural networks. CoRR , abs/2004.05154. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. (2018). Polar transformer networks. In International Conference on Learning Representations . Esteves, C., Makadia, A., and Daniilidis, K. (2020). Spinweighted spherical cnns. In Larochelle, H., Ranzato, M., Matthias Rath?;y, Alexandru Paul Condurache?;y Hadsell, R., Balcan, M., and Lin, H., editors, Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual . Falkner, S., Klein, A., and Hutter, F. (2018). BOHB: Robust and efficient hyperparameter optimization at scale. InProceedings of the 35th International Conference on Machine Learning , pages 1436\u20131445. Finzi, M., Stanton, S., Izmailov, P., and Wilson, A. G."
+        },
+        "Training or architecture? how to incorporate invariance in neural networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.10044",
+            "ref_texts": "[7] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018. 3",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "A similar approach is also adopted by [7, 35], which uses an application-dependent coordinate transformation and a spatial transformer network [14] to learn to undo transformations.",
+            "2": "[7] proposes a polar transformer network, that works for both images and voxel grids, learning a transformation into a log-polar space in which rotations become translations such that they can be handled via usual convolutions."
+        },
+        "VolterraNet: A higher order convolutional network with group equivariance for homogeneous manifolds": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.15301",
+            "ref_texts": "[9] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "In [9], authors present polar transformer networks, which are equivariant to rotations and scaling transformations.",
+            "2": "[9] C."
+        },
+        "SurReal: Complex-valued learning as principled transformations on a scaling and rotation manifold": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1910.11334",
+            "ref_texts": "(2):1441\u20131459, 2015. David Steven Dummit and Richard M Foote. Abstract algebra , volume 3. Wiley Hoboken, 2004. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou , and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Maurice Fr\u00b4 echet. Les \u00b4 el\u00b4 ements al\u00b4 eatoires de nature que lconque dans un espace distanci\u00b4 e. volume 10, pages 215\u2013310. Annales de l\u2019institut Henri Poincar\u00b4 e, France, 1948. William T. Freeman and Edward H Adelson. The design and use of steerable filters. IEEE Transactions on Pattern Analysis & Machine Intelligence , (9):891\u2013906, 1991. G.M. Georgiou and C. Koutsougeras. Complex domain backprop agation. IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing , 39, 1992. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep 12"
+        },
+        "Unsupervised learning of depth and ego-motion from cylindrical panoramic video": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1901.00979",
+            "ref_texts": "[25] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar Transformer Networks,\u201d in Int. Conf. Learning Representations , 2018.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Despite this benefit, little research has been done using deep networks with the cylindrical projection model [25], [26].",
+            "2": "[25] C."
+        },
+        "Rotation invariant CNN using scattering transform for image classification": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.10175",
+            "ref_texts": "[17] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis, \u201cPolar transformer networks,\u201d in International Conference on Learning Representations , 2018.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Polar Transformer Networks [17] achieve rotation invariance by transforming the input into polar coordinates with the origin learned as the centroid of a single channel."
+        },
+        "Empowering Networks With Scale and Rotation Equivariance Using A Similarity Convolution": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2303.00326",
+            "ref_texts": "Erik J Bekkers. B-spline cnns on lie groups. In International Conference on Learning Representations , 2020. URL https://openreview.net/forum?id=H1gBhkBFDH . Xiuyuan Cheng, Qiang Qiu, Robert Calderbank, and Guillermo Sapiro. Rotdcf: Decomposition of convolutional filters for rotation-equivariant deep networks. In International Conference on Learning Representations 2019 (ICLR\u201919) , 2019. Adam Coates, Andrew Ng, and Honglak Lee. An analysis of single-layer networks in unsupervised feature learning. In Proceedings of the fourteenth international conference on artificial intelligence and statistics , pp. 215\u2013223. JMLR Workshop and Conference Proceedings, 2011. Taco Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning , pp. 2990\u20132999. PMLR, 2016. Taco S. Cohen and Max Welling. Steerable CNNs. In International Conference on Learning Representations , 2017. URL https://openreview.net/forum?id=rJQKYt5ll . Taco S Cohen, Mario Geiger, and Maurice Weiler. A general theory of equivariant cnns on homogeneous spaces. Advances in neural information processing systems , 32, 2019. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018. URL https:// openreview.net/forum?id=HktRlUlAZ . Marc Finzi, Samuel Stanton, Pavel Izmailov, and Andrew Gordon Wilson. Generalizing convolutional neural networks for equivariance to lie groups on arbitrary continuous data. In International Conference on Machine Learning , pp. 3165\u20133176. PMLR, 2020. Liyao Gao, Guang Lin, and Wei Zhu. Deformation robust roto-scale-translation equivariant CNNs. Transactions on Machine Learning Research , 2022. URL https://openreview.net/ forum?id=yVkpxs77cD . Xavier Glorot and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. In Proceedings of the thirteenth international conference on artificial intelligence and statistics , pp. 249\u2013256. JMLR Workshop and Conference Proceedings, 2010. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 770\u2013778, 2016. Erik Jenner and Maurice Weiler. Steerable partial differential operators for equivariant neural networks. In ICLR , 2022. Angjoo Kanazawa, Abhishek Sharma, and David Jacobs. Locally scale-invariant convolutional neural networks. arXiv preprint arXiv:1412.5104 , 2014. Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR (Poster) , 2015. Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems , 25:1097\u20131105, 2012. Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. An empirical evaluation of deep architectures on problems with many factors of variation. In Proceedings of the 24th international conference on Machine learning , pp. 473\u2013480, 2007. Yanghao Li, Yuntao Chen, Naiyan Wang, and Zhaoxiang Zhang. Scale-aware trident networks for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 6054\u20136063, 2019. Tony Lindeberg. Scale-space theory in computer vision , volume 256. Springer Science & Business Media, 2013."
+        },
+        "DeDA: Deep Directed Accumulator": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2303.08434",
+            "ref_texts": "17. Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K.: Polar transformer networks. In: International Conference on Learning Representations (2018)",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "2 Related Works There are quite a few classic methods involving a process of accumulating feature values, and examples include not limited to histogram of gradients [10], local binary pattern [19] and polar transformation [17].",
+            "2": "Polar or log polar features have also been widely used in various applications including but not limited to modulation classiffcation [60], rotationand scale-invariant polar transformer network [17], general object detection [52,64,66], correspondence matching [16], and cell detection [56] and segmentation [58]."
+        },
+        "Human Eyes Inspired Recurrent Neural Networks are More Robust Against Adversarial Noises": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.07282",
+            "ref_texts": "[35] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Arguably better than hard cropping, the attended region may be subject to retinal transformation [15,8,34] or polar transformation [35] inspired by the primate retina [6,36\u201338]."
+        },
+        "Addressing the topological defects of disentanglement via distributed operators": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2102.05623",
+            "ref_texts": "11 Taco Cohen and Max Welling. Learning the Irreducible Representations of Commutative Lie Groups. arXiv:1402.4437 [cs] , May 2014. URL http://arxiv.org/abs/1402.4437 . arXiv: 1402.4437. Taco Cohen, Mario Geiger, and Maurice Weiler. A General Theory of Equivariant CNNs on Homogeneous Spaces. arXiv:1811.02017 [cs, stat] , January 2020. URL http://arxiv.org/ abs/1811.02017 . arXiv: 1811.02017. Taco S. Cohen, Mario Geiger, Jonas K \u00a8ohler, and Max Welling. Spherical cnns. arXiv preprint arXiv:1801.10130 , 2018. Marissa Connor and Christopher Rozell. Representing Closed Transformation Paths in Encoded Network Latent Space. In AAAI , pp. 3666\u20133675, 2020. Marissa C. Connor, Gregory H. Canal, and Christopher J. Rozell. Variational Autoencoder with Learned Latent Structure. arXiv:2006.10597 [cs, stat] , June 2020. URL http://arxiv. org/abs/2006.10597 . arXiv: 2006.10597. Elliot Creager, David Madras, Joern-Henrik Jacobsen, Marissa Weis, Kevin Swersky, Toniann Pitassi, and Richard Zemel. Flexibly fair representation learning by disentanglement. In Kamalika Chaudhuri and Ruslan Salakhutdinov (eds.), Proceedings of the 36th International Conference on Machine Learning , volume 97 of Proceedings of Machine Learning Research , pp. 1436\u20131445. PMLR, 09\u201315 Jun 2019. Benjamin Culpepper and Bruno Olshausen. Learning transport operators for image manifolds. Advances in Neural Information Processing Systems , 22:423\u2013431, 2009. URL https://proceedings.neurips.cc/paper/2009/hash/ a1d50185e7426cbb0acad1e6ca74b9aa-Abstract.html . Tim R. Davidson, Luca Falorsi, Nicola De Cao, Thomas Kipf, and Jakub M. Tomczak. Hyperspherical Variational Auto-Encoders. arXiv:1804.00891 [cs, stat] , September 2018. URL http://arxiv.org/abs/1804.00891 . arXiv: 1804.00891. Emilien Dupont, Miguel Angel Bautista, Alex Colburn, Aditya Sankar, Carlos Guestrin, Josh Susskind, and Qi Shan. Equivariant Neural Rendering. arXiv preprint arXiv:2006.07630 , 2020. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv:1709.01889 [cs] , February 2018. URL http://arxiv.org/abs/1709."
+        },
+        "Manifoldnet: A deep network framework for manifold-valued data": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1809.06211",
+            "ref_texts": "[17]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "In another recent work [17], authors describe a polar transformer network, which is equivariant to rotations and scaling transformations."
+        },
+        "A visual inductive priors framework for data-efficient image classification": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=Vh-OGLzvNeo",
+            "ref_texts": "9. Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K.: Polar transformer networks. arXiv preprint arXiv:1709.01889 (2017)",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "To reduce the inuence of translation, several augmentation operations are often used such as scaling, rotation and reection[2][4][9][20][31]."
+        },
+        "Can we have it all? On the Trade-off between Spatial and Adversarial Robustness of Neural Networks": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/e6ff107459d435e38b54ad4c06202c33-Paper.pdf",
+            "ref_texts": "[13] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations (ICLR) , 2018.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "While standard Convolutional Neural Networks (StdCNNs) are translation-equivariant, recent efforts have resulted in equivariant NN models for other transformations such as rotation, flip [16,8,10,45,31,26,27,13], and scaling [30,46,38]."
+        },
+        "Frequency domain methods in recurrent neural networks for sequential data processing": {
+            "authors": [],
+            "url": "https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/9245/6336.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[Est+ 18] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. \u201cPolar Transformer Networks.\u201d In: International Conference on Learning Representations .2018 . url:https://openreview.net/forum?id=HktRlUlAZ .",
+            "ref_ids": [
+                "Est\\+ 18"
+            ],
+            "1": "Work similar to ours couples CNN s and the log polar transform [Est+ 18] or estimates image translation by phase correlation [FB 19]."
+        },
+        "Autoequivariant network search via group decomposition": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2104.04848",
+            "ref_texts": "[40] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d in Proceedings of the 6th International Conference on Learning Representations (ICLR) , May 2018.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Spatial [39] and polar transformer networks [40] introduce differentiable modules that are used on top of existing classifiers that transform the input itself to obtain invariance.",
+            "2": "[40] C."
+        },
+        "Sur-real: Frechet mean and distance transform for complex-valued deep learning": {
+            "authors": [
+                "Rudrasis Chakraborty",
+                "Jiayun Wang",
+                "Stella X. Yu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Chakraborty_Sur-Real_Frechet_Mean_and_Distance_Transform_for_Complex-Valued_Deep_Learning_CVPRW_2019_paper.pdf",
+            "ref_texts": "[9]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "There is a long line of works that propose definitions of convolutions in a non-Euclidean space by treating each data sample as a function in that space [21, 5, 6, 9, 3, 13]."
+        },
+        "Explaining V1 Properties with a Biologically Constrained Deep Learning Architecture": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.11275",
+            "ref_texts": "[39] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. International Conference on Learning Representations , 2018.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Recent works have demonstrated that introducing log polar-space sampling into CNNs can give rise to improved invariance and equivariance to spatial transformations [39, 40] and adversarial robustness [41].",
+            "2": "Reflective padding was used after this transformation to enable a periodic stride along the angular axis at each radial position [39]."
+        },
+        "Warped convolution networks for homography estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.11657",
+            "ref_texts": "[9]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations (ICLR) , 2018. 2, 6, 7, 9",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Some taskoriented works [9, 10, 36] show the preliminary results in the application while rarely establishing the connection to the corresponding group.",
+            "2": "[9] estimate the translation firstly and then classify the image in the log-polar coordinates [43], which is in fact a special case for the similarity group Sim(2).",
+            "3": "74)n PTN [9] 2.",
+            "4": "PDO-econv [31] and PTN [9] handle the rotation well, yet we still attain a lower error rate.",
+            "5": "Therefore, there is no way to warp the image like the log-polar coordinates for in-plane rotation [9]."
+        },
+        "Filtra: Rethinking steerable CNN by filter transform": {
+            "authors": [
+                "Bo Li",
+                "Qili Wang",
+                "Gim Hee"
+            ],
+            "url": "http://proceedings.mlr.press/v139/li21v/li21v.pdf",
+            "ref_texts": "Cheng, X., Qiu, Q., Calderbank, R., and Sapiro, G. Rotdcf: Decomposition of convolutional filters for rotation-equivariant deep networks. arXiv preprint arXiv:1805.06846 , 2018. Clanuwat, T., Bober-Irizar, M., Kitamoto, A., Lamb, A., Yamamoto, K., and Ha, D. Deep learning for classical japanese literature. arXiv preprint arXiv:1812.01718 , 2018. Cohen, G., Afshar, S., Tapson, J., and Van Schaik, A. Emnist: Extending mnist to handwritten letters. In 2017 International Joint Conference on Neural Networks (IJCNN) , pp. 2921\u20132926. IEEE, 2017. Cohen, T. and Welling, M. Learning the irreducible representations of commutative lie groups. In International Conference on Machine Learning , pp. 1755\u20131763, 2014. Cohen, T. S. and Welling, M. Steerable cnns. arXiv preprint arXiv:1612.08498 , 2016. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. Polar transformer networks. In International Conference on Learning Representations , 2018. Henriques, J. F. and Vedaldi, A. Warped convolutions: Efficient invariance to spatial transformations. In International Conference on Machine Learning , pp. 1461\u20131469. PMLR, 2017. Laptev, D., Savinov, N., Buhmann, J. M., and Pollefeys, M. Ti-pooling: transformation-invariant pooling for feature learning in convolutional neural networks. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 289\u2013297, 2016. Marcos, D., V olpi, M., Komodakis, N., and Tuia, D. Rotation equivariant vector field networks. In Proceedings of the IEEE International Conference on Computer Vision , pp. 5048\u20135057, 2017. Oyallon, E. and Mallat, S. Deep roto-translation scattering for object classification. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 2865\u20132873, 2015.Serre, J.-P. Linear representations of finite groups , volume 42. Springer, 1977. Shen, Z., He, L., Lin, Z., and Ma, J. Pdo-econvs: Partial differential operator based equivariant convolutions. In International Conference on Machine Learning , pp. 8697\u2013"
+        },
+        "Lie Group Algebra Convolutional Filters": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.04431",
+            "ref_texts": "[20] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "In the new basis, group convolution is computed through the familiar planar convolution [20], so the architecture becomes a preprocessing step before a CNN network, bearing similarity to the first approach."
+        },
+        "Occlusion-invariant rotation-equivariant semi-supervised depth based cross-view gait pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2109.01397",
+            "ref_texts": "[35] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d in International Conference on Learning Representations , 2018. 3, 5",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "[35] proposed a simple yet effective Polar transformer network for rotation equivariant 2D/3D recognition problem.",
+            "2": "In our case, the rotation Raroundzaxis can be viewed as the SO(2) rotation group [35], and our objective is to perform convolution on the SO(2) group with the goal of realizing rotational equivariance3.",
+            "3": "3, 5\n[35] C."
+        },
+        "Fast aerial image geolocalization using the projective-invariant contour feature": {
+            "authors": [
+                "Yongfei Li",
+                "Shicheng Wang",
+                "Hao He",
+                "Deyu Meng",
+                "Dongfang Yang"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/13/3/490/pdf",
+            "ref_texts": "21. Esteves, C.; Allen-Blanchette, C.; Zhou, X.; Daniilidis, K. Polar Transformer Networks. In Proceedings of the International Conference on Learning Representations, Vancouver, BC, Canada, 30 April\u20133 May 2018. Remote Sens. 2021 ,13, 490 23 of 23",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Similar to the equivariance defined for the image in [21], the equivariance for the point set can be defined as follows: Equivariance for the point set: Let Gbe a transformation group and LgPbe the group action applied to a point set P."
+        },
+        "A minimal model for classification of rotated objects with prediction of the angle of rotation": {
+            "authors": [],
+            "url": "https://hal-mines-paristech.archives-ouvertes.fr/hal-03118567/document",
+            "ref_texts": "[30] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \\Polar transformer networks,\" inInternational Conference on Learning Representations , 2018, pp. 1 { 15. [Online]. Available: https://openreview.net/forum?id=HktRlUlAZ",
+            "ref_ids": [
+                "30",
+                "Online"
+            ],
+            "1": "Notice that there exist a similar approach published earlier, Polar Transformer Network [30].",
+            "2": "[Online].",
+            "3": "[Online].",
+            "4": "[Online].",
+            "5": "[Online].",
+            "6": "[Online].",
+            "7": "pdf 18\n[30] C.",
+            "8": "[Online].",
+            "9": "[Online].",
+            "10": "[Online].",
+            "11": "[Online]."
+        },
+        "DDNet: cartesian-polar dual-domain network for the joint optic disc and cup segmentation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1904.08773",
+            "ref_texts": "[10] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. In ICLR , 2018.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "are equivariant to rotation [10].",
+            "2": "To build the correspondence of the feature maps on different grids, we adopt the PTL [10] and transform the feature maps on the rectilinear grid to that on polar grid.",
+            "3": "feature maps with K(l)channels and size of H(l)\u0002W(l) in Cartesian domain from the l-th stage asf(l)(X)and the point coordinates on rectilinear grid as (u;v), the PTL [10] adopts the differentiable image sampling technique [12] and outputs the sampled polar feature maps f(l) polar(X)with the same spatial size and channel whose point coordinates on polar grid are denoted as (\u0018;\u0012).",
+            "4": "Different from the Cartesian domain encoding branch, the polar domain encoding branch learns feature representations by performing rotation convolutions on a rotation symmetry group SO(2)[10].",
+            "5": "[10] C."
+        },
+        "Boosting deep neural networks with geometrical prior knowledge: A survey": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2006.16867",
+            "ref_texts": "2018 15th European Conference, Munich, Germany, September 8-14, 2018, Proceedings, Part XIII, pp 54{70 Esteves C, Allen-Blanchette C, Zhou X, et al (2018b) Polar transformer networks. In: International Conference on Learning Representations Esteves C, Daniilidis K, Makadia A (2018c) Labeling panoramas with spherical hourglass networks. CoRR abs/1809.02123. https://arxiv.org/abs/arXiv:1809.02123 Springer Nature 2021 L ATEX template 46 Boosting Deep Neural Networks with Geometrical Prior Knowledge: A Survey Esteves C, Xu Y, Allen-Blanchette C, et al (2019) Equivariant multi-view networks. In: 2019 IEEE/CVF International Conference on Computer Vision, ICCV 2019, Seoul, Korea (South), October 27 November 2, 2019. IEEE, pp 1568{1577 Esteves C, Makadia A, Daniilidis K (2020) Spin-weighted spherical cnns. In: Larochelle H, Ranzato M, Hadsell R, et al (eds) Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 612, 2020, virtual, URL https://proceedings.neurips.cc/paper/2020/hash/"
+        },
+        "A CNN for homogneous Riemannian manifolds with applications to Neuroimaging": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1805.05487",
+            "ref_texts": "[11]Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "In [11], authors describe what they call polar transformer networks, which are equivariant to rotations and scaling transformations defined on the domain of the data."
+        },
+        "FinderNet: A Data Augmentation Free Canonicalization aided Loop Detection and Closure technique for Point clouds in 6-DOF separation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2304.01074",
+            "ref_texts": "[33] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d arXiv preprint arXiv:1709.01889 , 2017. 4",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "The polar coordinate system forms such canonical coordinates for the group of rotation transformations [32], [33], and can be obtained from Cartesian coordinates x: (x1;x2)as: \u001a(x) =\u0012 arctanx2 x1;q x2\n1+x2\n2\u0013\n: (1) CPC is performed for each channel of the embedding tensor \u001e, that results in an output tensor of the same size.",
+            "2": "4\n[33] C."
+        },
+        "Learning Symmetric Representations for Equivariant World Models": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=D637S6zBRLD",
+            "ref_texts": "1597\u20131607. PMLR, 2020. Taco S. Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning (ICML) , pp. 2990\u20132999, 2016a. Taco S. Cohen and Max Welling. Steerable CNNs. arXiv preprint arXiv:1612.08498 , 2016b. Taco S. Cohen, Mario Geiger, Jonas K ohler, and Max Welling. Spherical CNNs. In International Conference on Learning Representations (ICLR) , 2018. Taco S. Cohen, Maurice Weiler, Berkay Kicanaoglu, and Max Welling. Gauge equivariant convolutional networks and the icosahedral CNN. In Proceedings of the 36th International Conference on Machine Learning (ICML) , volume 97, pp. 1321\u20131330, 2019. Nima Dehmamy, Robin Walters, Yanchen Liu, Dashun Wang, and Rose Yu. Automatic symmetry discovery with lie algebra convolutional network. arXiv preprint arXiv:2109.07103 , 2021. Nadav Dym and Haggai Maron. On the universality of rotation equivariant point cloud networks. arXiv preprint arXiv:2010.02449 , 2020. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Luca Falorsi, Pim de Haan, Tim R Davidson, Nicola De Cao, Maurice Weiler, Patrick Forr \u00b4e, and Taco S Cohen. Explorations in homeomorphic variational auto-encoding. arXiv preprint arXiv:1807.04689 , 2018."
+        },
+        "Representing Input Transformations by Low-Dimensional Parameter Subspaces": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.13536",
+            "ref_texts": "Ainsworth, S. K., Hayase, J., & Srinivasa, S. (2022). Git Re-Basin: Merging models modulo permutation symmetries. arXiv preprint .https://arxiv.org/abs/2209.04836 Allen-Zhu, Z., Li, Y., & Song, Z. (2019). A convergence theory for deep learning via over-parameterization. International Conference on Machine Learning , 242\u2013252. Biscione, V. & Bowers, J. S. (2022). Convolutional neural networks are not invariant to translation, but they can learn to be. J. Mach. Learn. Res. , 22(1). Blything, R., Biscione, V., Vankov, I. I., Ludwig, C. J. H., & Bowers, J. S. (2020). The human visual system and cnns can both support robust online translation tolerance following extreme displacements. arXiv preprint.https://arxiv.org/abs/2009.12855 Botev, A., Bauer, M., & De, S. (2022). Regularising for invariance to data augmentation improves supervised learning. arXiv preprint .https://arxiv.org/abs/2203.03304 Bronstein, M. M., Bruna, J., Cohen, T., & Veli\u010dkovi\u0107, P. (2021). Geometric deep learning: Grids, groups, graphs, geodesics, and gauges. arXiv preprint .https://arxiv.org/abs/2104.13478 Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A simple framework for contrastive learning of visual representations. arXiv preprint .https://arxiv.org/abs/2002.05709 Cohen, T. S. & Welling, M. (2016). Group equivariant convolutional networks. arXiv preprint .https: //arxiv.org/abs/1602.07576 Dai, W., Dai, C., Qu, S., Li, J., & Das, S. (2016). Very deep convolutional neural networks for raw waveforms. CoRR.http://arxiv.org/abs/1610.00087 Dao, T., Gu, A., Eichhorn, M., Rudra, A., & R\u00e9, C. (2019). Learning fast algorithms for linear transforms using butterfly factorizations. arXiv preprint .https://arxiv.org/abs/1903.05895 Engstrom, L., Tran, B., Tsipras, D., Schmidt, L., & Madry, A. (2017). Exploring the landscape of spatial robustness. arXiv preprint .https://arxiv.org/abs/1712.02779 Entezari, R., Sedghi, H., Saukh, O., & Neyshabur, B. (2021). The role of permutation invariance in linear mode connectivity of neural networks. arXiv preprint .https://arxiv.org/abs/2110.06296 Esteves, C., Allen-Blanchette, C., Zhou, X., & Daniilidis, K. (2017). Polar transformer networks. arXiv preprint.https://arxiv.org/abs/1709.01889 Fort, S., Hu, H., & Lakshminarayanan, B. (2019). Deep ensembles: A loss landscape perspective. arXiv preprint.https://arxiv.org/abs/1912.02757 Frankle, J., Dziugaite, G. K., Roy, D., & Carbin, M. (2020). Linear mode connectivity and the lottery ticket hypothesis. International Conference on Machine Learning , 3259\u20133269. Frasca, F., Bevilacqua, B., Bronstein, M. M., & Maron, H. (2022). Understanding and extending subgraph GNNs by rethinking their symmetries. arXiv preprint .https://arxiv.org/abs/2206.11140 Gandikota, K. V., Geiping, J., L\u00e4hner, Z., Czaplinski, A., & M\u00f6ller, M. (2021). Training or architecture? how to incorporate invariance in neural networks. CoRR, abs/2106.10044."
+        },
+        "Perspective transformation layer": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2201.05706",
+            "ref_texts": "[14] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar transformer networks,\u201d in ICLR , 2018. [Online]. Available: https://openreview.net/forum?id=HktRlUlAZ",
+            "ref_ids": [
+                "14",
+                "Online"
+            ],
+            "1": "[14] proposed a polar transformer network that achieved the invariance to translations and equivariance to rotations and dilations.",
+            "2": "[Online].",
+            "3": "[14] C.",
+            "4": "[Online].",
+            "5": "[Online].",
+            "6": "[Online].",
+            "7": "[Online].",
+            "8": "[Online].",
+            "9": "[Online].",
+            "10": "[Online]."
+        },
+        "Unsupervised learning of depth and ego-motion from cylindrical panoramic video with applications for virtual reality": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.07704",
+            "ref_texts": "[28] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar Transformer Networks,\u201d in Int. Conf. Learning Representations (ICLR) , pp. 1\u201314, 2018.",
+            "ref_ids": [
+                "28"
+            ],
+            "1": "Despite this benefit, little research has been done using deep networks with the cylindrical projection model [28], [29].",
+            "2": "[28] C."
+        },
+        "Self-refining deep symmetry enhanced network for rain removal": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1811.04761",
+            "ref_texts": ""
+        },
+        "Using the Polar Transform for Efficient Deep Learning-Based Aorta Segmentation in CTA Images": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2206.10294",
+            "ref_texts": "[6] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \u201cPolar Transformer Networks,\u201d arXiv:1709.01889 [cs] , Feb. 2018.",
+            "ref_ids": [
+                "6",
+                "cs"
+            ],
+            "1": "[6] train an end-to-end network which predicts a polar origin, transforms the image to polar coordinates and then performs classification.",
+            "2": "[6] C.",
+            "3": "01889 [cs] , Feb."
+        },
+        "Sorted Convolutional Network for Achieving Continuous Rotational Invariance": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.14462",
+            "ref_texts": "[10] C. Esteves, C. Allen-Blanchette, X.-W. Zhou, and K. Daniilidis. \u201cPolar transformer networks,\u201d in Proc. ICLR , 2018.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Based on various methods, such as orientation assignment, polar/log-polar transform, steerable filters, and multi-orientation feature extraction, researchers successively propose Spatial Transformer Network (STN) [9], Polar Transformer Network [10], General E(2)-Equivariant Steerable CNN (E(2)-CNN) [11], Group Equivariant Convolutional Network (G-CNN) [12], Rotation Equivariant Vector Field Network (RotEqNet) [13], Harmonic Network (H-Net)\n[8], Bessel CNN (B-CNN) [14], Rotation-Invariant Coordinate CNN (RIC-CNN) [15] and so on [16], [17].",
+            "2": "[10] C."
+        },
+        "Volumetric transformer networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.09433",
+            "ref_texts": "12. Esteves, C., Allen-Blanchette, C., Zhou, X., Daniilidis, K.: Polar transformer networks. In: ICLR (2018)",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "of which many variants were proposed, using a recurrent formalism [37], polar transformations [12], deformable convolutional kernels [10], and attention based samplers [48,73].",
+            "2": "As shown in previous works [28,69,37,12], training a localization network to achieve spatial invariance is challenging, and most methods [28,69,37,12] rely on indirect supervision via a task-dependent loss function, as supervision for the warping ffelds is typically unavailable.",
+            "3": "Recent work on spatial deformation modeling seeks to spatially warp the features to a canonical conffguration so as to facilitate recognition [28,37,10,12,48].",
+            "4": ", a recurrent formalism [37], polar transformations [12], deformable convolutional kernels [10], and attention based warping [48,73].",
+            "5": "To attend to the discriminative object parts and reduce the inter-instance spatial variations in the feature map, recent works [28,69,37,12] predict a warping ffeld to transform the features to a canonical pose.",
+            "6": "4 Loss Function Similarly to existing deformation modeling methods [28,69,37,12], our network can be learned using only the ffnal task-dependent loss function Ltask, without using ground-truth warping ffelds, since all modules are difierentiable.",
+            "7": "Together, this helps to improve the features' discriminative power, which is superior to relying solely on a task-dependent loss function, as in previous methods [28,69,37,12]."
+        },
+        "Higher Order Gauge Equivariant CNNs on Riemannian Manifolds and Applications": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2305.16657",
+            "ref_texts": "[20] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar Transformer Networks. In International Conference on Learning Representations , 2018.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Previously published CNNs that are equivariant to 2D and 3D rotations were reported in [37,35,7] and [14,15,20,25], respectively.",
+            "2": "[20] C."
+        },
+        "SurReal: Fr\\'echet Mean and Distance Transform for Complex-Valued Deep Learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1906.10048",
+            "ref_texts": "[9] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "There is a long line of works that define convolution in a non-Euclidean space by treating each data sample as a function in that space [23, 5, 6, 9, 3, 14]."
+        },
+        "Restore Translation Using Equivariant Neural Networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2306.16938"
+        },
+        "DAGrid: Directed Accumulator Grid": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2306.02589"
+        },
+        "Recurrent attention model with log-polar mapping is robust against adversarial attacks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2002.05388",
+            "ref_texts": "[EABZD17] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "EABZD17"
+            ],
+            "1": "Model Error (%) HNet [WGTB17] implementation in [EABZD17] 9.",
+            "2": "28 PTN-S [EABZD17] 5.",
+            "3": "44 PTN-B [EABZD17] 5.",
+            "4": "00 STN-B [JBKS15] implementation in [EABZD17] 12."
+        },
+        "Modularizing deep learning for geometry-aware registration and reconstruction": {
+            "authors": [
+                "Wei Jiang"
+            ],
+            "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0427395/4",
+            "ref_texts": "[73] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018.!page 16",
+            "ref_ids": [
+                "73"
+            ],
+            "1": "Polar Transformer Networks [73] were used by [70] to build scale-invariant descriptors by transforming the input patch into log-polar space.",
+            "2": "!page 85\n[73] C."
+        },
+        "Principled Deep Learning for Healthcare Applications": {
+            "authors": [],
+            "url": "https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/27622/Assaad_duke_0066D_17169.pdf?sequence=1",
+            "ref_texts": ""
+        },
+        "Generating shift-invariant neural network outputs": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/9d/43/18/3f2ee6b231d54a/US11048935.pdf",
+            "ref_texts": " Elsevier , 1987 . John Canny . A computational approach to edge detection . IEEE Transactions on pattern analysis and machine intelligence , (6 ) : 679 698 , 1986 . Liang Chieh Chen , George Papandreou , Iasonas Kokkinos , Kevin Murphy , and Alan L Yuille . Semantic image segmentation with deep convolutional nets and fully connected crfs . arXiv preprint arXiv : 1412 . 7062 , 2014 Liang Chieh Chen , George Papandreou , lasonas Kokkinos , Kevin Murphy , and Alan L Yuille . Deeplab : Semantic image segmentation with deep convolutional nets , atrous convolution , and fully con nected crfs . IEEE transactions on pattern analysis and machine intelligence , 40 (4 ) : 834-848 , 2018 . Taco Cohen and Max Welling . Group equivariant convolutional networks . In International conference on machine learning , pp . 2990-2999 , 2016 . Alexey Dosovitskiy and Thomas Brox . Generating images with perceptual similarity metrics based on deep networks . In Advances in Neural Information Processing Systems , pp . 658-666 , 2016a . Alexey Dosovitskiy and Thomas Brox . Inverting visual represen tations with convolutional networks . In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp . 4829-4837 , 2016b . Logan Engstrom , Dimitris Tsipras , Ludwig Schmidt , and Aleksander Madry . A rotation and a translation suffice : Fooling cnns with simple transformations . arXiv preprint arXiv : 1712.02779 , 2017 . Carlos Esteves , Christine Allen Blanchette , Xiaowei Zhou , and Kostas Daniilidis . Polar transformer networks . arXiv preprint arXiv : 1709.01889 , 2017 . "
+        },
+        "Physical symmetry enhanced neural networks": {
+            "authors": [],
+            "url": "https://dspace.mit.edu/bitstream/handle/1721.1/128294/1201326165-MIT.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[20] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017.",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "[20] use polar coordinates to map rotations into translations.",
+            "2": "[20] and [77], apply specific transformations before applying pose predictors.",
+            "3": "In order to assist CNNs to predict coefficients and take advantage of the linear translational property, we use the centroid layer proposed in [20].",
+            "4": "Second, a polar transformer model similar to [20] that uses a simple polar coordinate transfer instead of our manifold transfer."
+        },
+        "Warped Convolutional Networks: Bridge Homography to  algebra by Group Convolution": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=BcmrpOpUGN2"
+        },
+        "Deep Learning for 2D and 3D Rotatable Data: An Overview of Methods": {
+            "authors": [
+                "Luca Della",
+                "Vladimir Golkov",
+                "Yue Zhu",
+                "Arman Mielke",
+                "Daniel Cremers"
+            ],
+            "url": "https://arxiv.org/pdf/1910.14594",
+            "ref_texts": "[Esteves et al. , 2018b ]C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. In ICLR , 2018. 2, 4",
+            "ref_ids": [
+                "Esteves et al\\. , 2018b "
+            ]
+        },
+        "Object-centered Fourier Motion Estimation and Segment-Transformation Prediction.": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=uNqAX8eacq2",
+            "ref_texts": "[8] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations, 2018.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "WorksimilartoourscouplesCNNsand thelogpolartransform[8]orestimatesimagetranslationbyphasecorrelation[9]."
+        },
+        "Model-based robust deep learning": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/6f/52/b5/ee4569eb7ddc46/US20220101627A1.pdf"
+        },
+        "Generalization to Out-of-Distribution transformations": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=YxWU4YZ4Cr",
+            "ref_texts": "Fred Attneave and Malcolm D Arnoult. The quantitative study of shape and pattern perception. Psychological bulletin , 53(6):452, 1956. Lawrence W. Barsalou. Grounded cognition. Annual Review of Psychology , 59(1):617\u2013645, jan 2008. ISSN 00664308. doi: 10.1146/annurev.psych.59.103006.093639. URL http://www. annualreviews.org/doi/10.1146/annurev.psych.59.103006.093639 . Peter W. Battaglia, Jessica B. Hamrick, and Joshua B. Tenenbaum. Simulation as an engine of physical scene understanding. Proceedings of the National Academy of Sciences of the United States of America , 110(45):18327\u201318332, nov 2013. ISSN 00278424. doi: 10.1073/ pnas.1306572110. URL https://www.pnas.org/content/110/45/18327https: //www.pnas.org/content/110/45/18327.abstract . Ali Borji, Saeed Izadi, and Laurent Itti. ilab-20m: A large-scale controlled object dataset to investigate deep learning. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 2221\u20132230, 2016. Axel Carlier, Kathryn Leonard, Stefanie Hahmann, Geraldine Morin, and Misha Collins. The 2d shape structure dataset: A user annotated open access database. Computers & Graphics , 58: 23\u201330, 2016. Franc \u00b8ois Chollet. On the Measure of Intelligence. arXiv 1911.01547v2 , 2019. Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, and Shirley Ho. Lagrangian neural networks. arXiv preprint arXiv:2003.04630 , 2020. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. arXiv preprint arXiv:1709.01889 , 2017. Ysbrand Galama and Thomas Mensink. IterGANs: Iterative GANs to learn and control 3D object transformation. Computer Vision and Image Understanding , 189, 2019. ISSN 1090235X. doi: 10."
+        },
+        "Log-Polar Space Convolution": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=vEIVxSN8Xhx",
+            "ref_texts": "10 Under review as a conference paper at ICLR 2022 Jifeng Dai, Yi Li, Kaiming He, and Jian Sun. R-fcn: Object detection via region-based fully convolutional networks. In Advances in neural information processing systems , pp. 379\u2013387, 2016. Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision , pp. 764\u2013773, 2017. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. International Conference on Learning Representations , 2018. Mark Everingham, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The pascal visual object classes (voc) challenge. International journal of computer vision , 88(2): 303\u2013338, 2010. Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The pascal visual object classes challenge: A retrospective. International journal of computer vision , 111(1):98\u2013136, 2015. Huazhu Fu, Yanwu Xu, Stephen Lin, Damon Wing Kee Wong, and Jiang Liu. Deepvessel: Retinal vessel segmentation via deep learning and conditional random field. In International conference on medical image computing and computer-assisted intervention , pp. 132\u2013139. Springer, 2016. Hang Gao, Xizhou Zhu, Steve Lin, and Jifeng Dai. Deformable kernels: Adapting effective receptive fields for object deformation. arXiv preprint arXiv:1910.02940 , 2019. Zaiwang Gu, Jun Cheng, Huazhu Fu, Kang Zhou, Huaying Hao, Yitian Zhao, Tianyang Zhang, Shenghua Gao, and Jiang Liu. Ce-net: Context encoder network for 2d medical image segmentation. IEEE transactions on medical imaging , 38(10):2281\u20132292, 2019. Bharath Hariharan, Pablo Arbel \u00b4aez, Lubomir Bourdev, Subhransu Maji, and Jitendra Malik. Semantic contours from inverse detectors. In Proceedings of the IEEE international conference on computer vision , pp. 991\u2013998. IEEE, 2011. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp."
+        },
+        "RetinotopicNet: An iterative attention mechanism using local descriptors with global context": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2005.05701",
+            "ref_texts": ""
+        },
+        "A closed-form learned pooling for deep classification networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1906.03808",
+            "ref_texts": "Arandjelovic, R., Gronat, P., Torii, A., Pajdla, T., and Sivic, J. (2016). Netvlad: Cnn architecture for weakly supervised place recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 5297\u20135307. Azulay, A. and Weiss, Y. (2018). Why do deep convolutional networks generalize so poorly to small image transformations? arXiv preprint arXiv:1805.12177 . Boureau, Y.-L., Le Roux, N., Bach, F., Ponce, J., and LeCun, Y. (2011). Ask the locals: multi-way local pooling for image recognition. In ICCV\u201911-The 13th International Conference on Computer Vision. Bruna, J. and Mallat, S. (2013). Invariant scattering convolution networks. IEEE transactions on pattern analysis and machine intelligence , 35(8):1872\u20131886. Cohen, N. and Shashua, A. (2016). Inductive bias of deep convolutional networks through pooling geometry. arXiv preprint arXiv:1605.06743 . Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. (2018a). Polar transformer networks. InInternational Conference on Learning Representations . Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. (2018b). Polar transformer networks. InInternational Conference on Learning Representations . Felzenszwalb, P. F., Girshick, R. B., McAllester, D., and Ramanan, D. (2009). Object detection with discriminatively trained part-based models. IEEE transactions on pattern analysis and machine intelligence , 32(9):1627\u20131645. Fukushima, K. and Miyake, S. (1982). Neocognitron: A self-organizing neural network model for a mechanism of visual pattern recognition. In Competition and cooperation in neural nets , pages 267\u2013285. Springer. Girshick, R., Iandola, F., Darrell, T., and Malik, J. (2015). Deformable part models are convolutional neural networks. In Proceedings of the IEEE conference on Computer Vision and Pattern Recognition , pages 437\u2013446. Gong, Y., Wang, L., Guo, R., and Lazebnik, S. (2014). Multi-scale orderless pooling of deep convolutional activation features. In European conference on computer vision , pages 392\u2013407. Springer. He, K., Gkioxari, G., Doll\u00e1r, P., and Girshick, R. (2017). Mask r-cnn. In Proceedings of the IEEE international conference on computer vision , pages 2961\u20132969."
+        },
+        "Deep Face Tracking and Parsing in the Wild": {
+            "authors": [],
+            "url": "https://spiral.imperial.ac.uk/bitstream/10044/1/91613/1/Lin-Y-2021-PhD-Thesis.pdf",
+            "ref_texts": ""
+        },
+        "Vision based Generous Deep Neural Network Grasping Detector for Robot Grasping Task": {
+            "authors": [],
+            "url": "https://scholarworks.unist.ac.kr/bitstream/201301/50498/1/Vision%20based%20Generous%20Deep%20Neural%20Network%20Grasping%20Detector%20for%20Robot%20Grasping%20Task.pdf",
+            "ref_texts": "[10] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis, \u201cPolar transformer networks,\u201d in International Conference on Learning Representations (ICLR) , 2018. i, 5",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Recently, there have been some works on rotation-invariant neural network such as rotating weights [5, 6], enlarged receptive field using dialed convolutional neural network (CNN) [7] or a pyramid pooling layer [8], rotation region proposals for recognizing arbitrarily placed texts [9] and polar transform network to extract rotation-invariant features [10].",
+            "2": "proposed a rotation-invariant network by replacing the grid generation of STN with a polar transform [10]."
+        },
+        "Monte-Carlo Convolutions on Foveated Images": {
+            "authors": [],
+            "url": "https://eprints.gla.ac.uk/259770/2/259770.pdf",
+            "ref_texts": "Amorim, M., Bortoloti, F., Ciarelli, P. M., de Oliveira, E., and de Souza, A. F. (2018). Analysing rotationinvariance of a log-polar transformation in convolutional neural networks. In 2018 International Joint Conference on Neural Networks (IJCNN) , pages 1\u20136. IEEE. Balasuriya, L. and Siebert, J. (2003). A low level vision hierarchy based on an irregularly sampled retina. In Proceedings of the International Conference on Computational Intelligence, Robotics and Autonomous Systems, Singapore . Balasuriya, S. (2006). A computational model of spacevariant vision based on a self-organised artificial retina tessellation . PhD thesis, University of Glasgow. Clippingdale, S. and Wilson, R. (1996). Self-similar neural networks based on a kohonen learning rule. Neural Networks , 9(5):747\u2013763. Esteves, C., Allen-Blanchette, C., Zhou, X., and Daniilidis, K. (2017). Polar transformer networks. arXiv preprint arXiv:1709.01889 . Hermosilla, P., Ritschel, T., V \u00b4azquez, P.-P., Vinacua, `A., and Ropinski, T. (2018). Monte carlo convolution for learning on non-uniformly sampled point clouds. ACM Transactions on Graphics (TOG) , 37(6):1\u201312. Jaderberg, M., Simonyan, K., Zisserman, A., et al. (2015). Spatial transformer networks. Advances in neural information processing systems , 28:2017\u20132025. Karpathy, A., Toderici, G., Shetty, S., Leung, T., Sukthankar, R., and Fei-Fei, L. (2014). Large-scale video classification with convolutional neural networks. In Proceedings of the IEEE conference on Computer Vision and Pattern Recognition , pages 1725\u20131732. Kim, J., Jung, W., Kim, H., and Lee, J. (2020). Cycnn: a rotation invariant cnn using polar mapping and cylindrical convolution layers. arXiv preprint arXiv:2007.10588 . Kingma, D. P. and Ba, J. (2014). Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 . Li, X., Jie, Z., Wang, W., Liu, C., Yang, J., Shen, X., Lin, Z., Chen, Q., Yan, S., and Feng, J. (2017). Foveanet: Perspective-aware urban scene parsing. In Proceedings of the IEEE International Conference on Computer Vision , pages 784\u2013792. Mildenhall, B., Srinivasan, P. P., Tancik, M., Barron, J. T., Ramamoorthi, R., and Ng, R. (2020). Nerf: Repre-senting scenes as neural radiance fields for view synthesis. In European conference on computer vision , pages 405\u2013421. Springer. Nakada, M., Chen, H., and Terzopoulos, D. (2018). Deep learning of biomimetic visual perception for virtual humans. In Proceedings of the 15th ACM Symposium on Applied Perception , pages 1\u20138. Ozimek, P., Hristozova, N., Balog, L., and Siebert, J. P."
+        },
+        "Robust image representation for classification, retrieval and object discovery": {
+            "authors": [],
+            "url": "https://www.theses.fr/2020REN1S082.pdf",
+            "ref_texts": "[Est+18] Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis, \u201cPolar Transformer Networks\u201d, in:ICLR, 2018.",
+            "ref_ids": [
+                "Est\\+18"
+            ]
+        },
+        "Addressing the Topological Defects of Disentanglement": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=cbdp6RLk2r7",
+            "ref_texts": "Anonymous. Quantifying and learning disentangled representations with limited supervision. In Submitted to International Conference on Learning Representations , 2021. URL https:// openreview.net/forum?id=YZ-NHPj6c6O . under review. Fabio Anselmi, Georgios Evangelopoulos, Lorenzo Rosasco, and Tomaso Poggio. Symmetryadapted representation learning. Pattern Recognition , 86:201\u2013208, February 2019. ISSN 00313203. doi: 10.1016/j.patcog.2018.07.025. URL http://www.sciencedirect.com/ science/article/pii/S0031320318302620 . Yoshua Bengio, Aaron Courville, and Pascal Vincent. Representation learning: A review and new perspectives. IEEE transactions on pattern analysis and machine intelligence , 35(8):1798\u20131828, 2013. Publisher: IEEE. R. Berndt. Representations of Linear Groups: An Introduction Based on Examples from Physics and Number Theory . Vieweg+Teubner Verlag, 2007. ISBN 9783834894014. URL https: //books.google.fr/books?id=tIGl77fdspAC . Christopher P. Burgess, Irina Higgins, Arka Pal, Loic Matthey, Nick Watters, Guillaume Desjardins, and Alexander Lerchner. Understanding disentangling in $ nbeta$-V AE. arXiv:1804.03599 [cs, stat], April 2018. URL http://arxiv.org/abs/1804.03599 . arXiv: 1804.03599. Hugo Caselles-Dupr \u00b4e, Michael Garcia Ortiz, and David Filliat. Symmetry-Based Disentangled Representation Learning requires Interaction with Environments. In H. Wallach, H. Larochelle, 10 Under review as a conference paper at ICLR 2021 A. Beygelzimer, F. d ntextquotesingle Alch \u00b4e-Buc, E. Fox, and R. Garnett (eds.), Advances in Neural Information Processing Systems 32 , pp. 4606\u20134615. Curran Associates, Inc., 2019. Taco Cohen and Max Welling. Learning the Irreducible Representations of Commutative Lie Groups. arXiv:1402.4437 [cs] , May 2014. URL http://arxiv.org/abs/1402.4437 . arXiv: 1402.4437. Taco Cohen, Mario Geiger, and Maurice Weiler. A General Theory of Equivariant CNNs on Homogeneous Spaces. arXiv:1811.02017 [cs, stat] , January 2020. URL http://arxiv.org/ abs/1811.02017 . arXiv: 1811.02017. Taco S. Cohen, Mario Geiger, Jonas K \u00a8ohler, and Max Welling. Spherical cnns. arXiv preprint arXiv:1801.10130 , 2018. Marissa Connor and Christopher Rozell. Representing Closed Transformation Paths in Encoded Network Latent Space. In AAAI , pp. 3666\u20133675, 2020. Marissa C. Connor, Gregory H. Canal, and Christopher J. Rozell. Variational Autoencoder with Learned Latent Structure. arXiv:2006.10597 [cs, stat] , June 2020. URL http://arxiv. org/abs/2006.10597 . arXiv: 2006.10597. Tim R. Davidson, Luca Falorsi, Nicola De Cao, Thomas Kipf, and Jakub M. Tomczak. Hyperspherical Variational Auto-Encoders. arXiv:1804.00891 [cs, stat] , September 2018. URL http://arxiv.org/abs/1804.00891 . arXiv: 1804.00891. Emilien Dupont, Miguel Angel Bautista, Alex Colburn, Aditya Sankar, Carlos Guestrin, Josh Susskind, and Qi Shan. Equivariant Neural Rendering. arXiv preprint arXiv:2006.07630 , 2020. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv:1709.01889 [cs] , February 2018. URL http://arxiv.org/abs/1709."
+        },
+        "EMPOWERING NETWORKS WITH SCALE AND ROTA-TION EQUIVARIANCE USING ASimilarity CONVO": {
+            "authors": [],
+            "url": "https://zikaisun.github.io/papers/iclr0.pdf",
+            "ref_texts": "Erik J Bekkers. B-spline cnns on lie groups. In International Conference on Learning Representations , 2020. URL https://openreview.net/forum?id=H1gBhkBFDH . Xiuyuan Cheng, Qiang Qiu, Robert Calderbank, and Guillermo Sapiro. Rotdcf: Decomposition of convolutional filters for rotation-equivariant deep networks. In International Conference on Learning Representations 2019 (ICLR\u201919) , 2019. Adam Coates, Andrew Ng, and Honglak Lee. An analysis of single-layer networks in unsupervised feature learning. In Proceedings of the fourteenth international conference on artificial intelligence and statistics , pp. 215\u2013223. JMLR Workshop and Conference Proceedings, 2011. Taco Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning , pp. 2990\u20132999. PMLR, 2016. Taco S. Cohen and Max Welling. Steerable CNNs. In International Conference on Learning Representations , 2017. URL https://openreview.net/forum?id=rJQKYt5ll . Taco S Cohen, Mario Geiger, and Maurice Weiler. A general theory of equivariant cnns on homogeneous spaces. Advances in neural information processing systems , 32, 2019. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018. URL https:// openreview.net/forum?id=HktRlUlAZ . Marc Finzi, Samuel Stanton, Pavel Izmailov, and Andrew Gordon Wilson. Generalizing convolutional neural networks for equivariance to lie groups on arbitrary continuous data. In International Conference on Machine Learning , pp. 3165\u20133176. PMLR, 2020. Liyao Gao, Guang Lin, and Wei Zhu. Deformation robust roto-scale-translation equivariant CNNs. Transactions on Machine Learning Research , 2022. URL https://openreview.net/ forum?id=yVkpxs77cD . Xavier Glorot and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. In Proceedings of the thirteenth international conference on artificial intelligence and statistics , pp. 249\u2013256. JMLR Workshop and Conference Proceedings, 2010. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 770\u2013778, 2016. Erik Jenner and Maurice Weiler. Steerable partial differential operators for equivariant neural networks. In ICLR , 2022. Angjoo Kanazawa, Abhishek Sharma, and David Jacobs. Locally scale-invariant convolutional neural networks. arXiv preprint arXiv:1412.5104 , 2014. Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR (Poster) , 2015. Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems , 25:1097\u20131105, 2012. Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. An empirical evaluation of deep architectures on problems with many factors of variation. In Proceedings of the 24th international conference on Machine learning , pp. 473\u2013480, 2007. Yanghao Li, Yuntao Chen, Naiyan Wang, and Zhaoxiang Zhang. Scale-aware trident networks for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 6054\u20136063, 2019. Tony Lindeberg. Scale-space theory in computer vision , volume 256. Springer Science & Business Media, 2013."
+        },
+        "Diagnosis of Brain Disorders in Fusion Neuroimaging Multimodalities Based on MRI Using Deep Learning Methods: A Review": {
+            "authors": [],
+            "url": "https://kclpure.kcl.ac.uk/portal/files/191382096/MRI_Fusion_DL_ASH_REv_11_2_.pdf"
+        },
+        "Deep Learning for Unmanned Aerial Vehicle-Based Object Detection and Tracking": {
+            "authors": [
+                "Xin Wu",
+                "Wei Li",
+                "Danfeng Hong",
+                "Ran Tao",
+                "Qian Du"
+            ],
+            "url": "https://my.ece.msstate.edu/faculty/du/GRSM-ODT.pdf",
+            "ref_texts": ""
+        },
+        "The face inversion effect and the anatomical mapping from the visual field to the primary visual cortex.": {
+            "authors": [],
+            "url": "https://www.cognitivesciencesociety.org/cogsci20/papers/0770/0770.pdf",
+            "ref_texts": "Esteves, C., Allen-Blanchette, C., Zhou, X., & Daniilidis, K. (2018). Polar Transformer Networks. 2018 International Conference on Learning Representations (ICLR). Farah, M. J., Tanaka, J. W., & Drain, H. M. (1995). What causes the face inversion effect? Journal of Experimental Psychology: Human Perception and Performance. "
+        },
+        "Person Re-identification by Contour Sketch under Moderate": {
+            "authors": [],
+            "url": "https://www.isee-ai.cn/~yangqize/main_document.pdf",
+            "ref_texts": ""
+        },
+        "Self-refining deep symmetry enhanced network for rain removal.(2019)": {
+            "authors": [
+                "Hong L",
+                "Hanrong Y",
+                "Xia L",
+                "Wei S",
+                "Mengyuan L",
+                "Qianru S"
+            ],
+            "url": "https://core.ac.uk/download/pdf/244049393.pdf",
+            "ref_texts": ""
+        },
+        "Reduced CNN Model for Rotation-Invariant Classification": {
+            "authors": [],
+            "url": "https://www.theses.fr/2021UEFL2015.pdf",
+            "ref_texts": "111 REFERENCES. C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis. Polar transformer networks. In International Conference on Learning Representations , pages 1"
+        },
+        "Simulating Proto Planetary Disks with Deep Networks": {
+            "authors": [],
+            "url": "http://dspace.library.uvic.ca/bitstream/handle/1828/11078/Shen_Haotian_MSc_2019.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[9] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, \\Polar transformer networks,\" Feb 2018.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "For example, Polar Transformer Networks (PTN) [9] utilizes the logpolar transformation to provide equivalence for rotation and translation, avoiding 5 the fully connected layer required by the pose regression in the spatial transformer [10].",
+            "2": "27\n[9] C."
+        },
+        "Generating shift-invariant neural network feature maps and outputs": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/31/44/1b/1e1e92f686257e/US11562166.pdf"
+        },
+        "MANIFOLDNET: A DEEP NEURAL NETWORK FOR MANIFOLD-VALUED DATA": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=SyzjBiR9t7",
+            "ref_texts": "801\u2013809, 2017. R. Chakraborty, C.-H. Yang, X. Zhen, M. Banerjee, D. Archer, D. Vaillancourt, V . Singh, and B. C. Vemuri. Statistical Recurrent Models on Manifold valued Data. ArXiv e-prints , May 2018. Rudrasis Chakraborty, Monami Banerjee, and Baba C Vemuri. H-CNNs: Convolutional Neural Networks for Riemannian Homogeneous Spaces. arXiv preprint arXiv:1805.05487 , 2018. Isaac Chavel. Riemannian geometry: a modern introduction , volume 98. Cambridge university press, 2006. Taco Cohen and Max Welling. Group equivariant convolutional networks. In International conference on machine learning , pp. 2990\u20132999, 2016. Taco S Cohen, Mario Geiger, Jonas K\u00f6hler, and Max Welling. Spherical CNNs. arXiv preprint arXiv:1801.10130 , 2018. Micha\u00ebl Defferrard, Xavier Bresson, and Pierre Vandergheynst. Convolutional neural networks on graphs with fast localized spectral filtering. In Advances in Neural Information Processing Systems , pp. 3844\u20133852, 2016. Sander Dieleman, Kyle W. Willett, and Joni Dambre. Rotation-invariant convolutional neural networks for galaxy morphology prediction. Monthly Notices of the Royal Astronomical Society , 2015. ISSN 13652966. doi: 10.1093/mnras/stv632. David Steven Dummit and Richard M Foote. Abstract algebra , volume 3. Wiley Hoboken, 2004. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar Transformer Networks. arXiv preprint arXiv:1709.01889 , 2017. Robert Gens. Deep Symmetry Networks. Nips 2014 , 2014. ISSN 10495258. doi: 10.1561/"
+        },
+        "Universal Attacks on Equivariant Networks": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=B1MX5j0cFX",
+            "ref_texts": "Rajendra Bhatia. Matrix Analysis , volume 169. Springer, 1997. ISBN 0387948465. Taco S. Cohen and Max Welling. Group equivariant convolutional networks. In Proceedings of the International Conference on Machine Learning (ICML) , 2016. Taco S. Cohen and Max Welling. Steerable CNNs. In International Conference on Learning Representations , 2017. Sander Dieleman, Jeffrey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. In Proceedings of the International Conference on Machine Learning (ICML) , 2016. Beranger Dumont, Simona Maggio, and Pablo Montalvo. Robustness of rotation-equivariant networks to adversarial perturbations. CoRR , abs/1802.06627, 2018. URL http://arxiv.org/ abs/1802.06627 . Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018. Justin Gilmer, Ryan P. Adams, Ian Goodfellow, David Andersen, and George E. Dahl. Motivating the rules of the game for adversarial example research. CoRR , abs/1807.06732, 2018. URL http://arxiv.org/abs/1807.06732 . Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. In International Conference on Learning Representations , 2015. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp."
+        },
+        "Robustness and Equivariance of Neural Networks": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=Ske25sC9FQ",
+            "ref_texts": "Taco S. Cohen and Max Welling. Group equivariant convolutional networks. In Proceedings of the International Conference on Machine Learning (ICML) , 2016. Taco S. Cohen and Max Welling. Steerable CNNs. In International Conference on Learning Representations , 2017. Sander Dieleman, Jeffrey De Fauw, and Koray Kavukcuoglu. Exploiting cyclic symmetry in convolutional neural networks. In Proceedings of the International Conference on Machine Learning (ICML) , 2016. Beranger Dumont, Simona Maggio, and Pablo Montalvo. Robustness of rotation-equivariant networks to adversarial perturbations. CoRR , abs/1802.06627, 2018. URL http://arxiv.org/ abs/1802.06627 . Logan Engstrom, Dimitris Tsipras, Ludwig Schmidt, and Aleksander Madry. A rotation and a translation suffice: Fooling CNNs with simple transformations. arXiv preprint arXiv:1712.02779 , 2017. Carlos Esteves, Christine Allen-Blanchette, Xiaowei Zhou, and Kostas Daniilidis. Polar transformer networks. In International Conference on Learning Representations , 2018. Justin Gilmer, Ryan P. Adams, Ian Goodfellow, David Andersen, and George E. Dahl. Motivating the rules of the game for adversarial example research. CoRR , abs/1807.06732, 2018. URL http://arxiv.org/abs/1807.06732 . Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. In International Conference on Learning Representations , 2015. Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp."
+        }
+    }
+}

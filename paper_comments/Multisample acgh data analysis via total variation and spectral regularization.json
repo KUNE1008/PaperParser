@@ -1,0 +1,49 @@
+{
+    "title": "Multisample acgh data analysis via total variation and spectral regularization",
+    "id": 46,
+    "valid_pdf_number": "5/19",
+    "matched_pdf_number": "2/5",
+    "matched_rate": 0.4,
+    "citations": {
+        "Empirical Bayesian analysis of simultaneous changepoints in multiple data sequences": {
+            "authors": [
+                "Zhou Fan",
+                "Lester Mackey"
+            ],
+            "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-11/issue-4/Empirical-Bayesian-analysis-of-simultaneous-changepoints-in-multiple-data-sequences/10.1214/17-AOAS1075.pdf"
+        },
+        "Detection copy number variants from NGS with sparse and smooth constraints": {
+            "authors": [],
+            "url": "https://www.comp.hkbu.edu.hk/~ymc/papers/journal/TCBB-2015-10-0416_publication_version.pdf",
+            "ref_texts": "[34] X. Zhou, C. Yang, X. Wan, H. Zhao, and W. Yu, \u201cMultisample acgh data analysis via total variation and spectral regularization,\u201d IEEE/ACM Trans Comput. Biology Bioinf. , vol. 10, no. 1, pp. 230\u2013",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "To obtain a sparse solution attributing to the TV norm, a normal practice is to use the Lasso numerical method to solve the problem [27], [34].",
+            "2": "Recent researches [31], [34] have successfully demonstrated the efficiency of ADM in solving image restoration problems involving TV norms.",
+            "3": "The separable structure decomposition is particularly useful in sequencing data analysis due both to its large/huge dimensionality, and to the large amount of data involved; plus it dramatically reduces computational cost by overcoming the matrix inversion burden, required by Lasso and majority minimization schemes [31], [34].",
+            "4": "[34] X."
+        },
+        "Robust Group Fused Lasso for Multisample CNV Detection under Uncertainty": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/029769.full.pdf",
+            "ref_texts": "[6] X. Zhou, C. Yang, X. Wan, H. Zhao, and W. Yu, \u201cMultisample acgh data analysis via total variation and spectral regularization,\u201d IEEE/ ACM Trans. Comput. Biol. Bioinformatics, vol. 10, pp. 230\u2013235, Jan. 2013.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "[6] X."
+        },
+        "Mat-aCGH: a Matlab toolbox for simultaneous multisample aCGH data analysis and visualization": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/028761.full.pdf",
+            "ref_texts": "[12] Xiaowei Zhou, Can Yang, Xiang Wan, Hongyu Zhao, and Weichuan Yu. Multisample acgh data analysis via total variation and spectral regularization. Computational Biology and Bioinformatics, IEEE /ACM Transactions on , 10(1):230\u2013235, 2013.",
+            "ref_ids": [
+                "12"
+            ]
+        },
+        "\u57fa\u4e8e\u4ea4\u66ff\u65b9\u5411\u4f4e\u79e9\u6a21\u578b\u7684\u8fd0\u52a8\u76ee\u6807\u68c0\u6d4b\u7b97\u6cd5": {
+            "authors": [],
+            "url": "http://www.shcas.net/jsjyup/pdf/2015/7/%E5%9F%BA%E4%BA%8E%E4%BA%A4%E6%9B%BF%E6%96%B9%E5%90%91%E4%BD%8E%E7%A7%A9%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%BF%90%E5%8A%A8%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95.pdf"
+        }
+    }
+}

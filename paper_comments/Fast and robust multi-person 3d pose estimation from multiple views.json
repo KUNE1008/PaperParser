@@ -1,0 +1,780 @@
+{
+    "title": "Fast and robust multi-person 3d pose estimation from multiple views",
+    "id": 18,
+    "valid_pdf_number": "53/110",
+    "matched_pdf_number": "37/53",
+    "matched_rate": 0.6981132075471698,
+    "citations": {
+        "SPEC: Seeing people in the wild with an estimated camera": {
+            "authors": [
+                "Muhammed Kocabas",
+                "Hao P. Huang",
+                "Joachim Tesch",
+                "Lea Muller",
+                "Otmar Hilliges",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.pdf",
+            "ref_texts": "[9] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In IEEE Conference on Computer Vision and Pattern Recognition , 2019. 2",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "They can be largely classified to \u201cbottom up\u201d approaches [4, 6, 9, 14, 57, 76] that assemble 3D body poses from multi-view image evidence (keypoints, silhouettes), and \u201ctop down\u201d approaches [3, 11, 12, 20, 27, 62] that deform a pre-defined 3D human template according to detected image features in each view."
+        },
+        "Single-stage multi-person pose machines": {
+            "authors": [
+                "Xuecheng Nie",
+                "Jiashi Feng",
+                "Jianfeng Zhang",
+                "Shuicheng Yan"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Nie_Single-Stage_Multi-Person_Pose_Machines_ICCV_2019_paper.pdf",
+            "ref_texts": "[8] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. arXiv , 2019.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "down strategy [12,35,17,9,8,34] that employs off-theshelf detectors to localize person instances at first and then locates their joints individually; or the bottom-up strategy [3,16,26,31,25] that locates all the body joints at first and then assigns them to the corresponding person.",
+            "2": "Dong [8] performed top-down multi-person 2D pose estimation for images from multiple views and reconstructed 3D pose for each person from multi-view 2D poses.",
+            "3": "Since previous works [19,8] only conduct qualitative evaluation on this dataset, there are no reported quantitative results for comparison.",
+            "4": "Moreover, its single-stage design also significantly simplifies the pipeline for multi-person 3D pose estimation from a single monocular RGB image, alleviating the requirements of intermediate 2D pose estimations [25] or 3D pose reconstructions from multiple views [8]."
+        },
+        "Physical inertial poser (pip): Physics-aware real-time human motion tracking from sparse inertial sensors": {
+            "authors": [
+                "Xinyu Yi",
+                "Yuxiao Zhou",
+                "Marc Habermann",
+                "Soshi Shimada",
+                "Vladislav Golyanik",
+                "Christian Theobalt",
+                "Feng Xu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Yi_Physical_Inertial_Poser_PIP_Physics-Aware_Real-Time_Human_Motion_Tracking_From_CVPR_2022_paper.pdf",
+            "ref_texts": "[6] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , 2019. 1",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "which can be either multi-view imagery [4, 6, 58, 82], depth images [71\u201373,84], or a single RGB stream [5,8,14,23,25, 36, 80, 88]."
+        },
+        "Capturing and inferring dense full-body human-scene contact": {
+            "authors": [
+                "Hao P. Huang",
+                "Hongwei Yi",
+                "Markus Hoschle",
+                "Matvey Safroshkin",
+                "Tsvetelina Alexiadis",
+                "Senya Polikovsky",
+                "Daniel Scharstein",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_Capturing_and_Inferring_Dense_Full-Body_Human-Scene_Contact_CVPR_2022_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robustmulti-person 3D pose estimation and tracking from multiple views. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2021. 3,4",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Powered by CNNs, recent methods leverage multiview consistency to improve keypoint detection [27,31,59,73], to re-identify subjects across views [14] or across view and time [13,96], but they estimate only joints, not body meshes.",
+            "2": "Other methods that build such 4D associations [13,96] could also be applied here."
+        },
+        "Low-rank tensor graph learning for multi-view subspace clustering": {
+            "authors": [
+                "Yongyong Chen",
+                "Xiaolin Xiao",
+                "Chong Peng",
+                "Guangming Lu",
+                "Yicong Zhou"
+            ],
+            "url": "https://www.fst.um.edu.mo/personal/wp-content/uploads/2022/01/Low-Rank_Tensor_Graph_Learning.pdf",
+            "ref_texts": "[13] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou, \u201cFast and robust multi-person 3D pose estimation from multiple views,\u201d in Proc. Conf. Comput. Vis. Pattern Recognit. , 2019, pp. 7792\u20137801.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "With the advance of technology, it has been increasingly common to capture multi-view data for dimension reduction [9], outlier detection [10], subspace learning [11], [12], 3D position estimation [13], and vehicle re-identification [14].",
+            "2": "[13] J."
+        },
+        "Direct multi-view multi-person 3d pose estimation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/6da9003b743b65f4c0ccd295cc484e57-Paper.pdf",
+            "ref_texts": "[6]Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In CVPR , 2019.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "It is a fundamental task that benefits many real-world applications (such as surveillance, sportscast, gaming and mixed reality) and is mainly tackled by reconstruction-based [6,14,4] and volumetric [40] approaches in previous literature, as shown in Fig.",
+            "2": "Current approaches mainly exploit a multi-stage pipeline for multi-person tasks, including reconstruction-based [6,4,14,21,26] and volumetric [40] paradigms.",
+            "3": "We split them into training and testing sets following [1, 6, 40].",
+            "4": "The reconstruction-based methods [2,9,6] use 3D pictorial model [2,6] or conditional random field [9] within a multi-stage paradigm; and the volumetric approach V oxelPose [40] highly relies on computationally intensive intermediate tasks.",
+            "5": "[6] 98."
+        },
+        "Deepmulticap: Performance capture of multiple characters using sparse multiview cameras": {
+            "authors": [
+                "Yang Zheng",
+                "Ruizhi Shao",
+                "Yuxiang Zhang",
+                "Tao Yu",
+                "Zerong Zheng",
+                "Qionghai Dai",
+                "Yebin Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_DeepMultiCap_Performance_Capture_of_Multiple_Characters_Using_Sparse_Multiview_Cameras_ICCV_2021_paper.pdf",
+            "ref_texts": "[12] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In CVPR , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Some of them even achieve real-time performance [6, 12, 66, 39]."
+        },
+        "Tessetrack: End-to-end learnable multi-person articulated 3d pose tracking": {
+            "authors": [
+                "N Dinesh",
+                "Laurent Guigues",
+                "Leonid Pishchulin",
+                "Jayan Eledath",
+                "Srinivasa G. Narasimhan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Reddy_TesseTrack_End-to-End_Learnable_Multi-Person_Articulated_3D_Pose_Tracking_CVPR_2021_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE Con-ference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019. 1,2,3,6,7",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Most multi-view strategies rely on multistage inference [9,13,20,7,8,21,15,35] to first estimate 2D poses in each frame, cluster same person poses across views, reconstruct 3D poses from clusters based on triangulation, and finally link 3D poses over time [9,8].",
+            "2": "Multiview approaches often rely on triangulation [18] of per view 2D poses to determine a 3D pose [9,13,21].",
+            "3": "In multiview scenarios, recent approaches typically rely on triangulation of 2D poses of the same individual to reconstruct 3D poses [13,15], while earlier methods extend pictorial structures model to deal with multiple views [6,8,7].",
+            "4": "Percentage of Correct Keypoints (3D-PCK) [13] provides a more global view on the accuracy of 3D pose estimation and is computed similarly to its 2D PCK counterpart [3].",
+            "5": "[13] 97.",
+            "6": "[13] 98."
+        },
+        "Lightweight multi-person total motion capture using sparse multi-view cameras": {
+            "authors": [
+                "Yuxiang Zhang",
+                "Zhe Li",
+                "Liang An",
+                "Mengcheng Li",
+                "Tao Yu",
+                "Yebin Liu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Lightweight_Multi-Person_Total_Motion_Capture_Using_Sparse_Multi-View_Cameras_ICCV_2021_paper.pdf",
+            "ref_texts": "[14] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In CVPR , 2019. 3",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "[14] proposed a multi-way matching algorithm to guarantee cycle consistency across all the views."
+        },
+        "Shape-aware multi-person pose estimation from multi-view images": {
+            "authors": [
+                "Zijian Dong",
+                "Jie Song",
+                "Xu Chen",
+                "Chen Guo",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Dong_Shape-Aware_Multi-Person_Pose_Estimation_From_Multi-View_Images_ICCV_2021_paper.pdf",
+            "ref_texts": "[10] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Due to the real-world importance of this problem, several recent approaches have attempted to predict the poses of multiple people, observed from multiple cameras [6, 10, 18, 45, 46, 54].",
+            "2": "The first group formulates the problem as a cross-view matching and association problem [6, 10, 54].",
+            "3": "Since we study the setting of multi-person pose estimation from multiple views [1, 2, 10, 12, 23, 24, 28, 54], the focus of this literature review is on multi-person pose estimation.",
+            "4": "[10] first performs per-view person parsing, followed by a cross-view person matching via a convex optimization method constrained by cycle consistency.",
+            "5": "We achieve slightly better results compared to methods [1, 2, 10, 12, 54] which do not rely on 3D supervision and achieve comparable performance compared to learning-based methods [18, 46] which train the model based on this dataset.",
+            "6": "[10] No 98.",
+            "7": "[10] 71.",
+            "8": "We also compare our algorithm with matching-based methods [10, 54]."
+        },
+        "Cross-view tracking for multi-human 3d pose estimation at over 100 fps": {
+            "authors": [
+                "Long Chen",
+                "Haizhou Ai",
+                "Rui Chen",
+                "Zijie Zhuang",
+                "Shuang Liu"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Cross-View_Tracking_for_Multi-Human_3D_Pose_Estimation_at_Over_100_CVPR_2020_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estima-tion from multiple views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019. 1,2,3,4,6,7",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Recent multi-view approaches generally employ the de-tected 2D body joints from multiple views as inputs with the advance of 2D human pose estimation [9,11,35], and address the 3D pose estimation in a two-step formulation [2,13].",
+            "2": "[13] propose solving the cross-view association problem at the body level in advance before applying 3DPS.",
+            "3": "The problem of 3D human pose estimation has been studied from monocular [26,1,21,25,12] and multi-view perspectives [8,4,13,32].",
+            "4": "[13] propose to solve the cross-view association problem at the body level first.",
+            "5": "Similar to [13], we associate the joints at the body level, but not just across views, also across times.",
+            "6": "Compared with matching in pairs of views in the camera coordinates [13], our formulation has three advantages: 1) matching in 3-space is robust to partial occlusion and inaccurate 2D localization, as the 3D pose actually combines the x\ud835\udc61\u2032\u2032 x\ud835\udc61 \ud835\udc342\ud835\udc37 X\ud835\udc61\u2032Camera \ud835\udc50 Person 1Person 2(a) 2D correspondence Person 1Person 2Camera \ud835\udc50 x\ud835\udc61\u2032\u2032 x\ud835\udc61\n\u0de1\ud835\udc17\ud835\udc61 X\ud835\udc61(\u03bc)\n\ud835\udc343\ud835\udc37X\ud835\udc61\u2032X\ud835\udc50 (b) 3D correspondence Figure 2: Geometric affinity measurement.",
+            "7": "Particularly, we solve the association problem in weighted graph partitioning [31,10], to comply the cycleconsistency constraint as there are multiple cameras [13].",
+            "8": "We follow the same evaluation protocol as in previous works [2,3,15,13] and compute the PCP (percentage of correctly estimated parts) scores to measure the accuracy of 3D pose estimation.",
+            "9": "In contrast to previous works [13,17] that exploit only a few cameras (about two to five) for 3D pose estimation, we present analysis with different numbers of cameras in our ablation study.",
+            "10": "[13] propose to cluster joints at the body level to reduce the state space.",
+            "11": "6 CVPR19 [13] 97.",
+            "12": "0 CVPR19 [13] 98.",
+            "13": "cent work [13], while our method is much faster with only a single laptop CPU.",
+            "14": "Note that, for the fair comparison, we use the same 2D pose detections for the experiments as that in [13], which are provided by an off-the-shelf 2D pose estimation method [11].",
+            "15": "[13] Dong et.",
+            "16": "[13] w/o Geometry Dong et.",
+            "17": "[13] w/o Appearance Matching in 3D (proposed)Figure 3: Association accuracy on the Campus dataset.",
+            "18": "The following three baselines are taken from the official implementation of [13], which employs geometric information and human appearance features for matching 2D poses between camera views."
+        },
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[15] Junting Dong, Qi Fang, Wen Jiang, Yurou Yang, Hujun Bao, and Xiaowei Zhou. Fast and robust multiperson 3d pose estimation and tracking from multiple views. T-PAMI , 2021.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Given four monocular part-specific videos (body, head, and two hands) of the performer, we first utilize the EasyMoCap [1,16,15] to estimate SMPL+H [42] parameters for the body and hands videos and utilize an adaptation of [49] to estimate the FLAME [28] parameters for the face video."
+        },
+        "Multi-person 3d pose estimation and tracking in sports": {
+            "authors": [
+                "Lewis Bridgeman",
+                "Marco Volino",
+                "Yves Guillemaut",
+                "Adrian Hilton"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPRW_2019/papers/CVSports/Bridgeman_Multi-Person_3D_Pose_Estimation_and_Tracking_in_Sports_CVPRW_2019_paper.pdf",
+            "ref_texts": "[12] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou. Fast and robust multi-person 3d pose estimation from multiple views. CVPR , 2019. 1,2,7,8",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "The task of combining multi-person 2D detections from multiple views to generate 3D skeletons has also been explored [6,12,20].",
+            "2": "Recent work [12] finds correspondences between 2D poses in multiple views in an optimization framework, combining epipolar geometry costs and CNN appearance descriptors.",
+            "3": "The alternative definition used by [12] uses the average of the distance of the two joints; we also compute this metric, which we denote by (A).",
+            "4": "We compare to the methods in [1,6,12,14].",
+            "5": "However, all other methods use a 3DPS model to constrain the final joint positions; pictorial structure models have been shown to result in more accurate joint estimations than triangulation when the number of views is small [12].",
+            "6": "[12] 97.",
+            "7": "[12] 98.",
+            "8": "The methods in [6] and [12], which both use pictorial structure models, run at approximately 1fps and 10fps respectively.",
+            "9": "2\n[12] J."
+        },
+        "4d association graph for realtime multi-person motion capture using multiple video cameras": {
+            "authors": [
+                "Yuxiang Zhang",
+                "Liang An",
+                "Tao Yu",
+                "Xiu Li",
+                "Kun Li",
+                "Yebin Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_4D_Association_Graph_for_Realtime_Multi-Person_Motion_Capture_Using_Multiple_CVPR_2020_paper.pdf",
+            "ref_texts": "[14] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In CVPR , 2019.",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "For example, the state-of-theart methods [14, 10, 39] share a similar high-level framework by first performing per-view person parsing, followed by cross-view person matching, and temporal tracking sequentially.",
+            "2": "Compared with [14, 24, 8, 7] which adopt sequential processing strategy on image space, viewpoint, and time dimensions, our 4D graph formulation enables unified optimization on all these dimensions, thereby allowing better mutual benefit among them.",
+            "3": "Most recent work [14] matches per-view parsed human instances cross view with convex optimization method constrained by cycle-consistency.",
+            "4": "Note that besides evaluating our method using the proposed dataset, we also provide evaluation results using Shelf and Panoptic Studio dataset following previous works [8, 7, 14].",
+            "5": "Benefiting from our 4D association formulation, we achieve more accurate results than both temporal tracking methods based on 3DPS ([8, 6, 7, 16]) and appearancebased global optimization methods [14].",
+            "6": "We also compare with [14] on our testing dataset according to \u2018precision\u2019 (the ratio of correct joints in all estimated joints) and \u2018recall\u2019 (the ratio of correct joints in all ground truth joints).",
+            "7": "2, our method outperforms [14] under both metrics.",
+            "8": "[14] 97.",
+            "9": "[14] 98.",
+            "10": "Our Dataset Dong[14] Ours(final) Precision(%) 71.",
+            "11": "Comparison with [14] using our testing dataset.",
+            "12": "Qualitative Comparison To further demonstrate the advantages of our bottomup system, we perform qualitative comparison with the state-of-the-art method [14], which utilizes top-down human pose detector [12] to perform single view parsing.",
+            "13": "Qualitative comparison with Dong[14] on Shelf (left figure) and our captured data (right figure), both with 5 cameras.",
+            "14": "Without using tracking edges, our method still exhibits competent result and out-performs state-of-the-art method [14] (93."
+        },
+        "Fusing wearable imus with multi-view images for human pose estimation: A geometric approach": {
+            "authors": [
+                "Zhe Zhang",
+                "Chunyu Wang",
+                "Wenhu Qin",
+                "Wenjun Zeng"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Fusing_Wearable_IMUs_With_Multi-View_Images_for_Human_Pose_Estimation_CVPR_2020_paper.pdf",
+            "ref_texts": "[4] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. arXiv preprint arXiv:1901.04111 , 2019.",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "The third class of methods such as [1, 3, 17, 2, 7, 11, 4, 19] adopt a two-step framework."
+        },
+        "Hi4d: 4d instance segmentation of close human interaction": {
+            "authors": [
+                "Yifei Yin",
+                "Chen Guo",
+                "Manuel Kaufmann",
+                "Juan Jose",
+                "Jie Song",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yin_Hi4D_4D_Instance_Segmentation_of_Close_Human_Interaction_CVPR_2023_paper.pdf",
+            "ref_texts": "[18] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019. 3, 7",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "[18, 19, 34, 41, 42, 55, 66, 67, 71], mainly deal with the case where people are far away from each other and do not interact naturally in close range.",
+            "2": "8 Multi-viewMVPose (4-views) [18] 61.",
+            "3": "8 MVPose (8-views) [18] 50.",
+            "4": "We evaluate the opensourced multi-view SMPL estimation method MVPose [18] on 4-view and 8-view settings."
+        },
+        "Graph-based 3d multi-person pose estimation using multi-view images": {
+            "authors": [
+                "Size Wu",
+                "Sheng Jin",
+                "Wentao Liu",
+                "Lei Bai",
+                "Chen Qian",
+                "Dong Liu",
+                "Wanli Ouyang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Graph-Based_3D_Multi-Person_Pose_Estimation_Using_Multi-View_Images_ICCV_2021_paper.pdf",
+            "ref_texts": "[11] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In IEEE Conf. Comput. Vis. Pattern Recog. , pages 7792\u20137801, 2019. 1, 2, 6, 7",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "As shown in Figrue 1(a), 2D-to-3D lifting approaches [3, 4] first estimate 2D joints in each view through monocular pose estimator, then associate 2D poses across views, and finally lift the matched 2D single-view poses to 3D via triangulation [2] or Pictorial Structure Models (PSM) [11].",
+            "2": "Previous methods perform associa11148\n tion across views by multi-view geometric constraints [18] and appearance similarity [11].",
+            "3": "Existing approaches can be mainly categorized into 2D-to-3D pose lifting approaches [1, 3, 4, 6, 11, 13, 15, 22, 44] and direct 3D pose estimation approaches [35].",
+            "4": "2D-to-3D lifting approaches [1, 3, 4, 6, 11, 13] first estimate 2D joints of the same person in each view through monocular pose estimator, then lift the matched 2D singleview poses to 3D locations.",
+            "5": "The 3D poses are recovered using triangulation [6] or singleperson 3D PSM [11].",
+            "6": "We follow [3, 11, 35] to prepare the training and testing datasets.",
+            "7": "We follow [3, 4, 5, 11, 13] to use the percentage of correctly estimated parts (PCP3D) to evaluate the estimated 3D poses.",
+            "8": "[11] 98."
+        },
+        "Multi-view multi-person 3d pose estimation with plane sweep stereo": {
+            "authors": [
+                "Jiahao Lin",
+                "Gim Hee"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Lin_Multi-View_Multi-Person_3D_Pose_Estimation_With_Plane_Sweep_Stereo_CVPR_2021_paper.pdf",
+            "ref_texts": "[7] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "Previous works such as [5,7,11] address this problem in three steps.",
+            "2": "Traditional methods use either greedy matching approach [11] for fast inference speed, or optimization-based approach [5,7,8] for better global consistency.",
+            "3": "Recent works [5,7,11,18] adopt a multistage pipeline for the multi-view multi-person 3D pose estimation task.",
+            "4": "[7] enhance the cross-view consistency with appearance features.",
+            "5": "We follow previous works [7,11,25] and perform evaluation on the test set frames: 350-470, 650-750.",
+            "6": "We follow previous works [7,11,25] in evaluating only three of the four persons on the test set frames: 300-600 since one person is occluded in majority of the frames.",
+            "7": "Following [7,11,25], we use the Percentage of Correctly estimated Parts (PCP) to evaluate the accuracy of the estimated 3D poses for the Campus and the Shelf datasets.",
+            "8": "[7] 97."
+        },
+        "Pose2Sim: an end-to-end workflow for 3D markerless sports kinematics\u2014part 1: robustness": {
+            "authors": [
+                "David Pagnon",
+                "Mathieu Domalain",
+                "Lionel Reveret"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/21/19/6530/pdf",
+            "ref_texts": "51. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; Zhou, X. Fast and Robust Multi-Person 3D Pose Estimation From Multiple Views. In Proceedings of the 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Long Beach, CA, USA, 15\u201320 June 2019; pp. 7784\u20137793.",
+            "ref_ids": [
+                "51"
+            ]
+        },
+        "DeepFuse: An IMU-aware network for real-time 3D human pose estimation from multi-view image": {
+            "authors": [
+                "Fuyang Huang",
+                "Ailing Zeng",
+                "Minhao Liu",
+                "Qiuxia Lai",
+                "Qiang Xu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_WACV_2020/papers/Huang_DeepFuse_An_IMU-Aware_Network_for_Real-Time_3D_Human_Pose_Estimation_WACV_2020_paper.pdf",
+            "ref_texts": "[10] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou. Fast and robust multi-person 3d pose estimation from multiple views. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Recently, many multi-view based methods[17, 43, 35, 10, 37, 19] try to get more effective and accurate information from different views.",
+            "2": "[10] J."
+        },
+        "Self-supervised multi-view multi-human association and tracking": {
+            "authors": [
+                "Yiyang Gan"
+            ],
+            "url": "https://www.cse.sc.edu/~songwang/document/acmmm21b.pdf",
+            "ref_texts": "[13] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. 2019. Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views. In CVPR.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Also related to our work is a study on multi-view multi-object association (matching) [13,20,21,60,61] by exploring the matching cues, including human appearance [13,60], spatial relation [20,21] and motions [61], all of which only focus on cross-view association but not involving the over-time tracking."
+        },
+        "Part-aware measurement for robust multi-view multi-human 3d pose estimation and tracking": {
+            "authors": [
+                "Hau Chu",
+                "Hong Lee",
+                "Chih Lee",
+                "Hsien Hsu",
+                "Da Li",
+                "Song Chen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021W/AMFG/papers/Chu_Part-Aware_Measurement_for_Robust_Multi-View_Multi-Human_3D_Pose_Estimation_and_CVPRW_2021_paper.pdf",
+            "ref_texts": "[11] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Leveraging 2D poses, recent studies [4,32,11,7] follow an initialization-and-tracking framework for 3D pose inference.",
+            "2": "Previous approaches such as [11,32,36] construct the 3D skeletons from multiple current views at first, and then the 3D skeletons obtained are smoothed temporally for each individual.",
+            "3": "3D Human Pose Estimation Depending on the number of input cameras, 3D human pose estimation methods are divided into a monocular camera for taking single-view video [2,23,31,14,21,10,22, 16,38] and multiple cameras for taking multi-view videos synchronously [3,13,4,32,11,26,7,36,39,35].",
+            "4": "Since CNN has a great performance in the human detector and 2D human pose estimation, most multi-person 3D pose estimation approaches [13,11,36] utilize sophisticated CNN-based 2D human pose estimation techniques at the beginning.",
+            "5": "[11] utilize Faster R-CNN [29] with lightweight backbone network and Cascaded Pyramid Network [8] to detect humans\u2019 location and their 2D poses in multi-view images.",
+            "6": "[11]et al.",
+            "7": "[11]et al.",
+            "8": "[11]et al.",
+            "9": "[11] develop a multi-way matching with circle consistency to match 2D poses in multiple views optimally after constructing 3D poses.",
+            "10": "Furthermore, we also evaluate some approaches [11,7] on the extended Campus testing set.",
+            "11": "[11] method slightly degrade the performance(96.",
+            "12": "[11] 25 20 60 9.",
+            "13": "[11] test their experiment on GeForce 1080Ti GPU, which spent an average of 25ms to compute affinities and 20 ms for finding the crossview association, and 60 ms for reconstruction."
+        },
+        "Weakly supervised 3d multi-person pose estimation for large-scale scenes based on monocular camera and single lidar": {
+            "authors": [
+                "Peishan Cong",
+                "Yiteng Xu",
+                "Yiming Ren",
+                "Juze Zhang",
+                "Lan Xu",
+                "Jingya Wang",
+                "Jingyi Yu",
+                "Yuexin Ma"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25120/24892",
+            "ref_texts": "5724. Chen, X.; Ma, H.; Wan, J.; Li, B.; and Xia, T. 2017. Multiview 3D Object Detection Network for Autonomous Driving. 6526\u20136534. Cheng, Y .; Yang, B.; Wang, B.; and Tan, R. T. 2020. 3d human pose estimation using spatio-temporal networks with explicit occlusion training. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, 10631\u201310638. Cong, P.; Zhu, X.; and Ma, Y . 2021. Input-output balanced framework for long-tailed lidar semantic segmentation. In 2021 IEEE International Conference on Multimedia and Expo (ICME), 1\u20136. IEEE. Cong, P.; Zhu, X.; Qiao, F.; Ren, Y .; Peng, X.; Hou, Y .; Xu, L.; Yang, R.; Manocha, D.; and Ma, Y . 2022. STCrowd: A Multimodal Dataset for Pedestrian Perception in Crowded Scenes. In CVPR, 19608\u201319617. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; and Zhou, X. 2019. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 7792\u20137801. Fan, H.; Su, H.; and Guibas, L. J. 2017. A Point Set Generation Network for 3D Object Reconstruction from a Single Image. In CVPR. F\u00a8urst, M.; Gupta, S. T.; Schuster, R.; Wasenm \u00a8uller, O.; and Stricker, D. 2021. HPERL: 3d human pose estimation from RGB and lidar. In 2020 25th International Conference on Pattern Recognition (ICPR), 7321\u20137327. IEEE. Han, X.; Cong, P.; Xu, L.; Wang, J.; Yu, J.; and Ma, Y . 2022. LiCamGait: Gait Recognition in the Wild by Using LiDAR and Camera Multi-modal Visual Sensors. arXiv preprint arXiv:2211.12371. Ionescu, C.; Papava, D.; Olaru, V .; and Sminchisescu, C.",
+            "ref_ids": [
+                "5724"
+            ]
+        },
+        "Learning global pose features in graph convolutional networks for 3d human pose estimation": {
+            "authors": [
+                "Kenkun Liu",
+                "Zhiming Zou",
+                "Wei Tang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ACCV2020/papers/Liu_Learning_Global_Pose_Features_in_Graph_Convolutional_Networks_for_3D_ACCV_2020_paper.pdf",
+            "ref_texts": "8. Dong, J., Jiang, W., Huang, Q., Bao, H., Zhou, X.: Fast and rob ust multi-person 3d pose estimation from multiple views. In: Proceedings of the I EEE Conference on Computer Vision and Pattern Recognition. (2019) 7792\u2013780 1",
+            "ref_ids": [
+                "8"
+            ]
+        },
+        "Metafuse: A pre-trained fusion model for human pose estimation": {
+            "authors": [
+                "Rongchang Xie",
+                "Chunyu Wang",
+                "Yizhou Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_MetaFuse_A_Pre-trained_Fusion_Model_for_Human_Pose_Estimation_CVPR_2020_paper.pdf",
+            "ref_texts": "[8] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In CVPR , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "With the development of 2D pose estimation techniques, some approaches such as [1, 7, 6, 24, 4, 8, 25] adopt a simple two-step framework."
+        },
+        "Geometry-driven self-supervised method for 3d human pose estimation": {
+            "authors": [
+                "Yang Li",
+                "Kan Li",
+                "Shuai Jiang",
+                "Ziyue Zhang",
+                "Congzhentao Huang",
+                "Richard Yi",
+                "Da Xu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/6808/6662",
+            "ref_texts": "5724. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; and Zhou, X. 2019. Fast and robust multi-person 3d pose estimation from multi-ple views. In CVPR , 7792\u20137801. Fang, H.; Xu, Y .; Wang, W.; Liu, X.; and Zhu, S. 2018. Learning pose grammar to encode human body configura-tion for 3d pose estimation. In AAAI , 6821\u20136828. Habibie, I.; Xu, W.; Mehta, D.; Pons-Moll, G.; and Theobalt, C. 2019. In the wild human pose estimation using explicit2d features and intermediate 3d representations. In CVPR , 10905\u201310914. Ionescu, C.; Papava, D.; Olaru, V .; and Sminchisescu, C.",
+            "ref_ids": [
+                "5724"
+            ]
+        },
+        "End-to-end dynamic matching network for multi-view multi-person 3d pose estimation": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730477.pdf",
+            "ref_texts": "10. Dong, J., Jiang, W., Huang, Q., Bao, H., Zhou, X.: Fast and robust multi-person 3d pose estimation from multiple views. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 7792{7801 (2019)",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "In contrast to the above two-step models, a recent direction is to use a matching algorithm that identiffes matched 2d skeletons from multiple views before the estimation for 3d poses [10].",
+            "2": "Recent work [10] has End-to-end Dynamic Matching Network 5 Fig.",
+            "3": "5) to measure the model performance, which is the most commonly adopted in this area [2, 10].",
+            "4": "[10]*Actor 1 88.",
+            "5": "[10]*Actor 1 100.",
+            "6": "[10], which uses person re-id and geometry methods to match 2d poses."
+        },
+        "Deep learning methods for 3D human pose estimation under different supervision paradigms: a survey": {
+            "authors": [
+                "Dejun Zhang",
+                "Yiqi Wu",
+                "Mingyue Guo",
+                "Yilin Chen"
+            ],
+            "url": "https://www.mdpi.com/2079-9292/10/18/2267/pdf"
+        },
+        "Isacs: In-store autonomous checkout system for retail": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3478086",
+            "ref_texts": "[11] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. 2019. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition . 7792\u20137801.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "There are works [5,6,11,30] that focus on leveraging cameras to track people continuously across multiple camera views [6], focused on dense environments [30] or on the ability to reconstruct the 3D motion of people [45] in order to understand their behavior."
+        },
+        "Recursive bayesian filtering for multiple human pose tracking from multiple cameras": {
+            "authors": [
+                "Hun Kwon",
+                "Julian Tanke",
+                "Juergen Gall"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2020/papers/Kwon_Recursive_Bayesian_Filtering_for_Multiple_Human_Pose_Tracking_from_Multiple_ACCV_2020_paper.pdf",
+            "ref_texts": "5. Dong, J., Jiang, W., Huang, Q., Bao, H., Zhou, X.: Fast and rob ust multi-person 3d pose estimation from multiple views. In: Conference on Comput er Vision and Pattern Recognition. (2019)",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "This way, the time complexity grows quadratic [9] or even exponential [4,5] with the number of tracked individuals, making tracking of large numbers of persons impractical.",
+            "2": "[5] solve the correspondence problem of 2D poses per camera utiliz ing a top-down 2D pose estimator [28] for each view.",
+            "3": "[5] 97.",
+            "4": "[5] 97.",
+            "5": "As metric we use percentage of correct par ts (PCP) in 3D [10] and we adopt the head position alignment utilized in [5] as well as the temporal Gaussian smoothing described in [9].",
+            "6": "We argue that the top-down pose estimation model and the appearanc e model of [5] are beneficial when the full bodies are visible and the sc enes are relatively uncluttered, as it is the case with the Campus dataset (F igure 5 top row).",
+            "7": "In the future our approach could be extended using an appearance model similar to [5]."
+        },
+        "Multi-view pose generator based on deep learning for monocular 3d human pose estimation": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2073-8994/12/7/1116/pdf",
+            "ref_texts": "18. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; Zhou, X. Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 16\u201320 June 2019; pp. 7792\u20137801.",
+            "ref_ids": [
+                "18"
+            ]
+        },
+        "Progressive Multi-View Human Mesh Recovery with Self-Supervision": {
+            "authors": [
+                "Xuan Gong",
+                "Liangchen Song",
+                "Meng Zheng",
+                "Benjamin Planche",
+                "Terrence Chen",
+                "Junsong Yuan",
+                "David Doermann",
+                "Ziyan Wu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25144/24916",
+            "ref_texts": ""
+        },
+        "ElliPose: Stereoscopic 3D Human Pose Estimation by Fitting Ellipsoids": {
+            "authors": [
+                "Christian Grund",
+                "Julian Tanke",
+                "Jurgen Gall"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Grund_ElliPose_Stereoscopic_3D_Human_Pose_Estimation_by_Fitting_Ellipsoids_WACV_2023_paper.pdf",
+            "ref_texts": "[13] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Other approaches learn 3D poses directly from 2D pose [46] or image data [13, 54]."
+        },
+        "Role of Reference Frames for a Safe Human\u2013Robot Interaction": {
+            "authors": [
+                "Alberto Borboni",
+                "Roberto Pagani",
+                "Samuele Sandrini",
+                "Giuseppe Carbone",
+                "Nicola Pellegrini"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/23/12/5762/pdf",
+            "ref_texts": "56. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; Zhou, X. Fast and robust multi-person 3D pose estimation from multiple views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019.",
+            "ref_ids": [
+                "56"
+            ]
+        },
+        "Towards locality similarity preserving to 3D human pose estimation": {
+            "authors": [
+                "Shihao Zhou",
+                "Mengxi Jiang",
+                "Qicong Wang",
+                "Yunqi Lei"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2020W/MMHAU/papers/Zhou_Towards_Locality_Similarity_Preserving_to_3D_Human_Pose_Estimation_ACCVW_2020_paper.pdf",
+            "ref_texts": "40. Dong, J., Jiang, W., Huang, Q., Bao, H., Zhou, X.: Fast and ro bust multi-person 3d pose estimation from multiple views. In: Proceedings of the I EEE Conference on Computer Vision and Pattern Recognition (CVPR). (2019) 77 92\u20137801",
+            "ref_ids": [
+                "40"
+            ]
+        },
+        "A review of 3D human pose estimation from 2D images": {
+            "authors": [],
+            "url": "http://www.3dbodyscanning.org/cap/papers/2020/2029bartol.pdf",
+            "ref_texts": ""
+        },
+        "Matching and recovering 3D people from multiple views": {
+            "authors": [
+                "Alejandro Perez",
+                "Antonio Agudo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2022/papers/Perez-Yus_Matching_and_Recovering_3D_People_From_Multiple_Views_WACV_2022_paper.pdf",
+            "ref_texts": "[19] A. Doering, U. Iqbal, and J. Gall. Jointflow: Temporal flow fields for multi person pose tracking. In BMVC , 2018.[20] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou. Fast and robust multi-person 3D pose estimation from multiple views. InCVPR , 2019.",
+            "ref_ids": [
+                "19",
+                "20"
+            ],
+            "1": "More recently, other works have suggested to match the detected 2D poses among multiple views at the body level [20], and then inferring the 3D pose in a reduced state space, decreasing drastically the computational cost without sacrificing the accuracy.",
+            "2": "Later, these solutions were extended to jointly incorporate the tracking and improve the results over time [19, 22, 54].",
+            "3": "These 3DPS approaches are often combined with matching strategies, where before inferring the 3D pose, a multi-view matching algorithm was performed to group the bodies across views, like [20], that uses geometry and appearance, or [13], that performs people matching with feet assignment.",
+            "4": "As it was reported by [20], if the correspondences are cycle consistent, this matrix will be semidefinite X\u2ab00and low-rank, i.",
+            "5": "To solve this, some works have simplified the process by setting the state space for each 3D joint to be the 3D proposals triangulated from all pairs of corresponding 2D joints [20], which are the only candidate points used to find the solution.",
+            "6": "To make the analysis more complete, we include the partial affinities based on Geometry , appearance cuesCampus Shelf Affinity Optimization Precision Recall F1-score Precision Recall F1-score Geometry [20] 95.",
+            "7": "40 ReID [20] 98.",
+            "8": "+ ReID [20] [20] 99.",
+            "9": "+ ReID [20] Ours 99.",
+            "10": "39 Ours [20] 99.",
+            "11": "Multiple combinations are provided by considering the partial affinities geometry and re-identification (ReID), as well as their combination as it was done by [20]; and our proposal.",
+            "12": "Moreover, it is also included the optimization algorithms provided by [20] and ours.",
+            "13": "(ReID) and the combination of both, as proposed by [20], as well as their optimization algorithm.",
+            "14": "3right obtained by [20]).",
+            "15": "To evaluate the missing or correctly estimated joints, we pro3627\n\n3D reconstruction from [20]\n Match from our method \n Match from [20] Match from our method Match from [20] 3D reconstruction from our methodFigure 3.",
+            "16": "Left: Multi-body matching in two instants (top and bottom, respectively) by using [20] and our algorithm.",
+            "17": "Right: Joint multi-body matching and 3D reconstruction in two novel instants by using [20] and our algorithm.",
+            "18": "15\n[20] 95.",
+            "19": "Campus PCP2 (1-3) PCP2 (4) MPJPE PCK 50 PCK 100 PCK 150\n[20] 56.",
+            "20": "45 Shelf PCP2 (1-3) PCP2 (4) MPJPE PCK 50 PCK 100 PCK 150\n[20] 64.",
+            "21": "3D reconstruction error in terms of an MPJPE, as well as the accuracy by using PCP2 (actors 1-3 and 4, respectively) and PCK (with 50, 100 and 150mm threshold) in datasets Campus andShelf , compared to [20].",
+            "22": "Additionally, we use the source code provided by [20] to report a full analysis, including the remaining metrics defined previously.",
+            "23": "We can observe our method clearly outperforms [20] in all metrics, meaning that it is much more accurate since estimated joints are closer to the ground truth, especially in highly occluded instances (e.",
+            "24": "[19] A.",
+            "25": "[20] J."
+        },
+        "Multi-Agent Deep Reinforcement Learning for Online 3D Human Poses Estimation": {
+            "authors": [
+                "Zhen Fan",
+                "Xiu Li",
+                "Yipeng Li"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/13/19/3995/pdf",
+            "ref_texts": "10. Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; Zhou, X. Fast and Robust Multi-Person 3D Pose Estimation From Multiple Views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 16\u201320 June 2019; pp. 7792\u20137801.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "After 2D pose detection from images, various algorithms [9,10] are exploited to find cross-view joints correspondence and triangulate all 2D joints to 3D in an epipolar geometry framework."
+        },
+        "Reconstruction of Trajectories of Athletes Using Computer Vision Models and Kinetic Analysis": {
+            "authors": [],
+            "url": "https://hal.science/hal-04126067/document"
+        },
+        "3D hypothesis clustering for cross-view matching in multi-person motion capture": {
+            "authors": [],
+            "url": "https://link.springer.com/content/pdf/10.1007/s41095-020-0171-y.pdf",
+            "ref_texts": "[14] Dong, J.; Jiang, W.; Huang, Q.; Bao, H.; Zhou X. Fast and robust multi-person 3D pose estimation from multiple views. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 7792\u2013",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "[14] address these challenges with a convex optimization basedmulti-way matching algorithm, which determinescorrespondences for all views at once.",
+            "2": "3D hypothesis clustering for cross-view matching in multi-person motion capture 153 uses 300 frames, and on Campus, 220 frames, following previous works [9,10,14].",
+            "3": "[9,10,14].",
+            "4": "[14] is a very recent method, which combines a human detector [15] and a singleperson pose estimator [16] to obtain multi-person 2D poses in all views, and then uses a convex optimization based multi-way matching algorithm to match detected poses across views, from which the 3Dpose of each person is inferred.",
+            "5": "[\n14] which re-implements the approach of Belagiannis et al.",
+            "6": "[14] 97.",
+            "7": "[14] 90.",
+            "8": "[14], in which, like in our method, 3D poses are reconstructed by direct triangulation.",
+            "9": "[14] (a human detector [15], a single-person pose detector [16], and a person reidentification CNN [17]): only a 2D pose CNN [4] is needed.",
+            "10": "[14] Dong, J."
+        },
+        "SOAR improved artificial neural network for multistep decision-making tasks": {
+            "authors": [
+                "Guoyu Zuo"
+            ],
+            "url": "http://140.143.150.151/pdfs/CognitiveComputation_SOAR_2020.pdf",
+            "ref_texts": "23. Dong J, Jiang W, Huang Q, Bao H, Zhou X. Fast and robust multi-person 3d pose estimation from multiple views. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; 2019. p. 7792\u20137801.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "In addition, with the development of deep reinforcement learning, DNNs have also been successfully applied to the robot-related tasks, such as motion planning [20,21], pose estimation [22, 23], 3D environment sensation [16,24], robot-human interaction [21,25], and related games, such as Atari 2600 games [26] and DeepMind Go games [27]."
+        },
+        "Personal training mirror": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/0c/0f/89/21b219b63a13f3/USD953754.pdf"
+        },
+        "Collaborative Wireless Deep Learning System for Edge Intelligence": {
+            "authors": [],
+            "url": "https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13417569070002976&download=true",
+            "ref_texts": "[30] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7792{7801, 2019.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Recent efiorts have been shifted to studying multi-view approaches [30, 31, 32, 33] where the 3D poses are constructed from multiple camera views.",
+            "2": "2 3D Pose Estimation Accuracy Multi-human 3D pose estimation solutions [91, 92, 30, 31, 32, 33, 93, 94] in the computer vision literature focus on how to improve the estimation accuracy with agiven set of camera views.",
+            "3": "3D pose and the ground truth, following the same evaluation protocol in the literature [33, 93, 94, 31, 30].",
+            "4": "We follow the previous works [33, 93, 94, 31, 30] to evaluate the accuracy of 3D pose estimation.",
+            "5": "\u00883D Pose Estimation Accuracy : For the Shelf dataset, we use the Percentage of Correctly estimated Parts (PCP) as a metric to evaluate the accuracy of the estimated 3D poses to enable a direct comparison with existing works [33, 93, 94, 31, 30].",
+            "6": "Among these methods, [91, 92, 30, 31, 32, 109] study 3D pose estimation from a pure computer vision view without considering system design.",
+            "7": "0 CVPR2019 [30] 98.",
+            "8": "2 3D Pose Estimation Depending on the number of input cameras, 3D human pose estimation methods are categorized into single-view-based methods [27, 28, 29, 118, 119, 120] and multiview-based methods [93, 91, 92, 30, 31, 32, 34, 33, 94].",
+            "9": "Most state-of-the-art multi-human 3D pose estimation methods [91, 92, 30, 31, 32, 33]\n118 match the 2D poses estimation results from cross-view cameras, and fuse the matched 2D poses into 3D human poses."
+        },
+        "Research Article Motion Direction Inconsistency-Based Fight Detection for Multiview Surveillance Videos": {
+            "authors": [],
+            "url": "https://scholar.archive.org/work/iajgfgzhy5bwxkxxzv2jkefkwa/access/wayback/https://downloads.hindawi.com/journals/wcmc/2021/9965781.pdf",
+            "ref_texts": "[4] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou, \u201cFast and robust multi-person 3D pose estimation from multiple views, \u201d in2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 921 \u2013929, Long Beach, CA, USA, June 2019.",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "[4] J."
+        },
+        "Human Object Ownership Tracking in Autonomous Retail": {
+            "authors": [],
+            "url": "https://kilthub.cmu.edu/articles/thesis/Human_Object_Ownership_Tracking_in_Autonomous_Retail/21514734/1/files/38135961.pdf",
+            "ref_texts": "[23] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7792\u20137801, 2019. Cited on page 101.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "There are works [13, 15, 23, 59] that focus on leveraging cameras to track people continuously across multiple camera views [15], focused on dense environments [59] or on the ability to reconstruct the 3D motion of people [104] in order to understand their behavior."
+        },
+        "Markerless Motion Analysis from Synchronized 2D Camera Views: A Convolutional Neural Network Approach": {
+            "authors": [],
+            "url": "https://thesis.unipd.it/bitstream/20.500.12608/24614/1/francesco_piemontese_tesi.pdf",
+            "ref_texts": "[57] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou, \u201cF ast and robust multiperson 3d pose estimation from multiple views,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2019, pp. 7792\u20137801.",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "The approach most similar to ours is perhaps the one presented in [57].",
+            "2": "Compared to other tracking techniques making use of neural networks [56, 57], a greater emphasis was placed on the retrieval of anatomically accurate movement information, via the implementation of a subject-specific prediction refinement routine.",
+            "3": "82\n[57] J."
+        },
+        "Object Detection and Person Tracking in CathLab with Automatically Calibrated Cameras": {
+            "authors": [],
+            "url": "https://research.utwente.nl/files/296202644/Proceedings_SITB2022.pdf#page=64",
+            "ref_texts": ""
+        },
+        "DEEP LEARNING MODEL FOR 2D TRACKING AND 3D POSE TRACKING OF FOOTBALL PLAYERS": {
+            "authors": [
+                "Arman Hesamian"
+            ],
+            "url": "https://webthesis.biblio.polito.it/15254/1/tesi.pdf",
+            "ref_texts": " 7 REFERENCES. Babenko, B., Yang, M. -H., & Belongie, S. (2009). Visual Tracking with Online Multiple Instance Learning . Baker, S., & Matthews, I. (2004). Lucas -Kanade 20 Years On \u202f: A Unifying Framework . 56(3), 221 \u2013255. Bernardin, K., & Stiefelhagen, R. (2008). Evaluating Multiple Object Tracking Performance: The CLEAR MOT Metrics. EURASIP Journal on Image and Video Process ing 2008 2008:1 , 2008 (1), 1 \u201310. https://doi.org/10.1155/2008/246309 Bewley, A., Ge, Z., Ott, L., Ram os, F., & Upcroft, B. (2016). Simple online and realtime tracking. Proceedings International Conference on Image Processing, ICIP , 2016 -Augus , 3464 \u20133468. https://doi.org/10.1109/ICIP.2016.7533003 Bridgeman, L., Volino, M., Guillemaut, J. -Y., & Hilton, A. (2019). Multi -person 3D Pose Estimation and Tracking in Sports. Computer Vision and Pattern Recognition , 0\u20130. Briechle, K., & Hanebeck, U. D. (2001). <title>Template matching using fast normalized cross correlation</title> (D. P. Casasent & T. -H. Chao (Ed s.); pp. 95 \u2013102). https://doi.org/10.1117/12.421129 Cao, Z., Hidalgo, G., Simon, T., Wei, S., & Sheikh, Y. (2018). OpenPose: Realtime Multi -Person 2D Pose Estimation using Part Affinity Fields . XXX(Xxx). http://arxiv.org/abs/1812.08008 Cao, Z., Simon, T., Wei, S., & Sheikh, Y. (2016). Realtime Multi -Person 2D Pose Estimation using Part Affinity Fields . http://arxiv.org/abs/1611.08050 Carraro, M., Munaro, M., Burke, J., & Menegatti, E. (2017). Real -time marker -less multi -person 3D pose estimation in RGB -Dept h camera networks . http://arxiv.org/abs/1710.06235 Chen, Y., Wang, Z., Peng, Y., Zhang, Z., Yu, G., & Sun, J. (2017). Cascaded Pyramid Network for Multi Person Pose Estimation . http://arxiv.org/abs/1711.07319 Chollet, F. (2017). Xception: Deep learning wit h depthwise separable convolutions. Proceedings 30th IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017 , 2017 -Janua , 1800 \u20131807. https:/ /doi.org/10.1109/CVPR.2017.195 Ciaparrone, G., S \u00e1nchez, F. L., Tabik, S., Troiano, L., Tagliaferri, R., & Herrera, F. (2019). Deep Learning in Video Multi -Object Tracking: A Survey . 1\u201342. https://doi.org/10.1016/j.neucom.2019.11.023 CMU Panoptic Dataset . (2020). http://domedb.perception.cs.cmu.edu/ Comaniciu, D., & Ramesh, V. (2000). Mean shift and optim al prediction for efficient object tracking. Proceedings 2000 International Conference on Image Processing (Cat. No.00CH37101) , 70\u201373. https://doi.org/10.11 09/ICIP.2000.899297 Dai, J. (2016). R-FCN\u202f: Object Detection via Region -based Fully Convolutional Ne tworks . Nips . Dai, J., He, K., & Sun, J. (2015). Instance -aware Semantic Segmentation via Multi -task Network Cascades . http://arxiv.org/abs/1512.04412 Datas et Resources . (2020). http://alov300pp.joomlafree.it/dataset -resources.html Dong, J., Jiang, W., Hua ng, Q., Bao, H., & Zhou, X. (2019). Fast and Robust Multi -Person 3D Pose Estimation from Multiple Views . http://arxiv.org/abs/1901.04111 Dubuisson, S., & Go nzales, C. (2016). A survey of datasets for visual tracking. Machine Vision and Applications , 27(1), 23\u201352. https://doi.org/10.1007/s00138 -015-0713 -y Everingham, M., Eslami, S. M. A., Van Gool, L., Williams, C. K. I., Winn, J., & Zisserman, A. (2015). The Pascal Visual Object Classes Challenge: A Retrospective. International Journal of Computer Vision , "
+        },
+        "\u9762\u5411\u672a\u6765\u7684\u667a\u80fd\u5bb6\u5c45\u524d\u6cbf\u8fdb\u5c55": {
+            "authors": [],
+            "url": "http://www.kjdb.org/CN/article/downloadArticleFile.do?attachType=PDF&id=17113",
+            "ref_texts": ""
+        },
+        "Skeleton-based human action and gesture recognition for human-robot collaboration": {
+            "authors": [],
+            "url": "https://thesis.unipd.it/bitstream/20.500.12608/9880/1/Lazzaretto_Margherita.pdf"
+        },
+        "Supplementary Material: Dynamic Multi-Person Mesh Recovery From Uncalibrated Multi-View Cameras": {
+            "authors": [],
+            "url": "http://www.buzhenhuang.com/publications/papers/3DV2021-SupplementaryMaterial.pdf",
+            "ref_texts": "[3] J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou. Fast and robust multi-person 3d pose estimation from multiple views. InCVPR , 2019. 1",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "We follow the same evaluation protocol as in previous works [3] and compute the PCP (percentage of correctly estimated parts) scores to measure the accuracy of 3D pose estimation.",
+            "2": "3\n[3] J."
+        },
+        "Deep Learning based Human Pose Estimation": {
+            "authors": [
+                "Yang Li"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/149022/2/02Whole.pdf",
+            "ref_texts": "[21]J. Dong, W. Jiang, Q. Huang, H. Bao, and X. Zhou, \u201cFast and robustmulti-person 3d pose estimation from multiple views,\u201d in Proceedings of the 92 IEEE Conference on Computer Vision and Pattern Recognition,2 0 1 9 ,p p .",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Some recent methods [41, 21, 85, 15, 70] introduced deep learning to improve the robustness of multi-view 3D pose reconstruction methods.",
+            "2": "Dong et al[21] proposed a real-time multi-person 3D pose reconstruction algorithm that focuses on solving the personmatching problem in multi-view multi-person scenarios.",
+            "3": "[21]J."
+        },
+        "Human detection and behaviour prediction algorithms for robot reactive motion planning": {
+            "authors": [],
+            "url": "https://skemman.is/bitstream/1946/39955/1/Human%20detection%20and%20behaviour%20prediction%20algorithms%20for%20robot%20reactive%20motion%20planning.pdf",
+            "ref_texts": "[42] Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou. Fast and robust multi-person 3d pose estimation from multiple views. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 7784{7793, Jun 2019.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "[42] 97.",
+            "2": "[42] 98."
+        }
+    }
+}

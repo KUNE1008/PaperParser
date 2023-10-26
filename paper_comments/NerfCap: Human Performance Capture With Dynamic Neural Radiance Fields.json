@@ -1,0 +1,43 @@
+{
+    "title": "NerfCap: Human Performance Capture With Dynamic Neural Radiance Fields",
+    "id": 79,
+    "valid_pdf_number": "1/2",
+    "matched_pdf_number": "1/1",
+    "matched_rate": 1.0,
+    "citations": {
+        "Clothed Human Performance Capture With a Double-Layer Neural Radiance Fields": {
+            "authors": [
+                "Kangkan Wang",
+                "Guofeng Zhang",
+                "Suxu Cong",
+                "Jian Yang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Clothed_Human_Performance_Capture_With_a_Double-Layer_Neural_Radiance_Fields_CVPR_2023_paper.pdf",
+            "ref_texts": "[34] Kangkan Wang, Sida Peng, Xiaowei Zhou, Jian Yang, and Guofeng Zhang. NerfCap: Human performance capture withdynamic neural radiance fields. IEEE Transactions on Visualization and Computer Graphics , 2022. 1,3,4,5,6,7",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Recent works [20,34,41] adopt dynamic human NeRFs to capture human motion and obtain impressive tracking results.",
+            "2": "By capturing the temporally-varying appearance inthe videos, dynamic NeRFs [34] can provide dense photometric constraints to track the deforming geometry of theperformer.",
+            "3": "The re-cent work, NerfCap [34] incorporates the embedded graph prior into the human NeRFs and represents nonlinear surface deformations for loose clothes successfully.",
+            "4": "Double-layer NeRFs for Dynamic Humans Unlike a single NeRFs for clothed humans [17,24,25,34, 41], we represent the clothing with an independent NeRFs on the body, which forms a double-layer NeRFs.",
+            "5": "Following [34], we transform sampled points in observed space to canonical space with theinverse deformation of the nearest vertex on the deformed template.",
+            "6": ", embedded graph deformation as in [34]) and the articulated skeletal motion.",
+            "7": "Following [10,34], the IoU (%) is computed on all views (AMVIoU), all views except the input view (RVIoU), and the input view (SVIoU).",
+            "8": ", peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM) as [24,34].",
+            "9": "We adopt the SDF network from [30], and the same occupancy and color network as [34].",
+            "10": "Comparison to state-of-the-art methods We compare our method with two state-of-the-art approaches for human performance capture, DeepCap [10] and NerfCap [34].",
+            "11": "For DeepCap and NerfCap, the experimental results are from [34].",
+            "12": "90 NerfCap [34] 88.",
+            "13": "41 NerfCap [34] 88.",
+            "14": "The test dataset are the same as [34] which include 300\u2212400 frames randomly sampled from the original dataset.",
+            "15": "(c) NerfCap [34].",
+            "16": "Based on one-piece personalized template, it is hard for both DeepCap [10] and NerfCap [34] to extract the clothing motion, which is important for downstream applications in AR/VR.",
+            "17": "Without a pre-scanned cloth template, our method still obtains a high tracking accuracyMethodS4 of [10] \u2018FranziRed\u201d of [8] PSNR SSIM PSNR SSIM NerfCap [34]24.",
+            "18": "Comparison to NerfCap [34] in terms of novel-view synthesis on two datasets.",
+            "19": "We also compare the quality of free-viewpoint synthesis with NerfCap [34].",
+            "20": "Comparison of novel-view synthesis with NerfCap [34].",
+            "21": "(b,e) NerfCap [34]."
+        }
+    }
+}

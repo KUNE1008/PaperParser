@@ -1,0 +1,179 @@
+{
+    "title": "Path-invariant map networks",
+    "id": 54,
+    "valid_pdf_number": "9/13",
+    "matched_pdf_number": "8/9",
+    "matched_rate": 0.8888888888888888,
+    "citations": {
+        "Self-supervised pretraining of 3d features on any point-cloud": {
+            "authors": [
+                "Zaiwei Zhang",
+                "Rohit Girdhar",
+                "Armand Joulin",
+                "Ishan Misra"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Self-Supervised_Pretraining_of_3D_Features_on_Any_Point-Cloud_ICCV_2021_paper.pdf",
+            "ref_texts": "[113] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 11084\u201311094, 2019.",
+            "ref_ids": [
+                "113"
+            ]
+        },
+        "Hybridpose: 6d object pose estimation under hybrid representations": {
+            "authors": [
+                "Chen Song",
+                "Jiaru Song",
+                "Qixing Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Song_HybridPose_6D_Object_Pose_Estimation_Under_Hybrid_Representations_CVPR_2020_paper.pdf",
+            "ref_texts": "[46] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 11084\u201311094, 2019. 8",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "Another possible direction is to enforce consistency across different representations in a similar way to [46] as a self-supervision loss in network training."
+        },
+        "Predicting what you already know helps: Provable self-supervised learning": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/02e656adee09f8394b402d9958389b7d-Paper.pdf",
+            "ref_texts": "[68] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 11084\u201311094, 2019. Checklist The checklist follows the references. Please read the checklist guidelines carefully for information on how to answer these questions. For each question, change the default [TODO] to [Yes] , [No] , or [N/A] . You are strongly encouraged to include a justification to your answer , either by referencing the appropriate section of your paper or providing a brief inline description. For example: \u2022 Did you include the license to the code and datasets? [Yes] See Section ??.",
+            "ref_ids": [
+                "68",
+                "TODO",
+                "Yes",
+                "No",
+                "N/A",
+                "Yes"
+            ],
+            "1": "Note that such an expressive and sample efficient (summarized as good ) representation is often not a-priori available.",
+            "2": "The natural ordering or topology of data is also exploited in video-based [64,43,19], graph-based [65,33] or map-based [68] SSL.",
+            "3": "1 Notation We use lower case symbols (x) to denote scalar quantities, bold lower case symbols (x) for vector values, capital letters (X) for random variables, and capital and bold letters Xfor matrices.",
+            "4": "Note that this assumption does not trivialize the problem and that even though \u03c8is designed to predict X2, it can still be a better representation than X2for downstream tasks.",
+            "5": "Note that Ydoes not have to be linear in X2but is proven to be linear in \u03c8, since \u03c8learns to ignore some information in X2that is irrelevant to Y.",
+            "6": "Note that allowing for extra latent variable can trivially make X1andX2to be conditionally independent by picking a large enough Z(e.",
+            "7": ", x n)\u2208[V]Nof length Nis then sampled from a mixture of the ktopics \u00b5\u2208\u2206[k].",
+            "8": "Note that the p-separability is not necessarily needed, and the bound with \u03bbmin(A)can be invoked instead.",
+            "9": "Journal of Machine Learning Research , 3(Nov):463\u2013482, 2002.",
+            "10": "[13] Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton.",
+            "11": "[14] Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, and Geoffrey Hinton.",
+            "12": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models.",
+            "13": "Noise contrastive estimation and negative sampling for conditional models: Consistency and statistical efficiency.",
+            "14": "[45] Mehdi Noroozi and Paolo Favaro.",
+            "15": "For each question, change the default [TODO] to [Yes] , [No] , or [N/A] .",
+            "16": "For example: \u2022 Did you include the license to the code and datasets? [Yes] See Section ??.",
+            "17": "\u2022Did you include the license to the code and datasets? [No] The code and the data are proprietary.",
+            "18": "\u2022 Did you include the license to the code and datasets? [N/A] Please do not modify the questions and only use the provided macros for your answers.",
+            "19": "Note that the Checklist section does not count towards the page limit.",
+            "20": "(a)Do the main claims made in the abstract and introduction accurately reflect the paper\u2019s contributions and scope? [Yes] See Section 1, especially the contribution paragraph.",
+            "21": "(b)Did you describe the limitations of your work? [Yes] See the Conclusion section and line 314-326.",
+            "22": "(c)Did you discuss any potential negative societal impacts of your work? [No] This is mainly a theoretical work with simulations and should not cause much social impacts.",
+            "23": "(d)Have you read the ethics review guidelines and ensured that your paper conforms to them? [Yes]\n14\n2.",
+            "24": "(a)Did you state the full set of assumptions of all theoretical results? [Yes] Every assumption is listed as a standalone block.",
+            "25": "(b)Did you include complete proofs of all theoretical results? [Yes] For every theorem, lemma, claim, and some technical remarks, we indicate where their proof is located in the Appendix.",
+            "26": "(a)Did you include the code, data, and instructions needed to reproduce the main experimental results (either in the supplemental material or as a URL)? [No] The codes will be made public after this work is accepted for publish.",
+            "27": ", data splits, hyperparameters, how they were chosen)? [Yes] The details are provided in the sections 6 and J\n(c)Did you report error bars (e.",
+            "28": ", with respect to the random seed after running experiments multiple times)? [Yes] See Figure 1, Figure 5 and Figure 2.",
+            "29": ", type of GPUs, internal cluster, or cloud provider)? [Yes] The details are provided in the Appendix 4.",
+            "30": "(a) If your work uses existing assets, did you cite the creators? [Yes] See Section 6.",
+            "31": "(b)Did you mention the license of the assets? [Yes] The details are provided in the Appendix (c)Did you include any new assets either in the supplemental material or as a URL? [N/A]\n(d)Did you discuss whether and how consent was obtained from people whose data you\u2019re using/curating? [N/A]\n(e)Did you discuss whether the data you are using/curating contains personally identifiable information or offensive content? [N/A] All the portrait in the Yearbook dataset are in public domain.",
+            "32": "(a)Did you include the full text of instructions given to participants and screenshots, if applicable? [N/A]\n(b)Did you describe any potential participant risks, with links to Institutional Review Board (IRB) approvals, if applicable? [N/A]\n(c)Did you include the estimated hourly wage paid to participants and the total amount spent on participant compensation? [N/A]\n15\n."
+        },
+        "Robust learning through cross-task consistency": {
+            "authors": [
+                "Amir R. Zamir",
+                "Alexander Sax",
+                "Nikhil Cheerla",
+                "Rohan Suri",
+                "Zhangjie Cao",
+                "Jitendra Malik",
+                "Leonidas J. Guibas"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Zamir_Robust_Learning_Through_Cross-Task_Consistency_CVPR_2020_paper.pdf",
+            "ref_texts": "[47] Yu Zhang and Qiang Yang. A survey on multi-task learning. CoRR , abs/1707.08114, 2017. 2[48] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. CoRR , abs/1812.11647, 2018. 2",
+            "ref_ids": [
+                "47",
+                "48"
+            ],
+            "1": ", in language as \u2018back-translation\u2019 [2,1,25,7] or in vision over the temporal domain [41,6], 3D geometry [9,32, 8,13,49,46,15,44,51,48,23,5], and in recognition and (conditional/unconditional) image translation [12,28,17,50, 14,4].",
+            "2": "works [21,47,43,38], as consistency is not directly enforced during training.",
+            "3": "2\n[47] Yu Zhang and Qiang Yang."
+        },
+        "Quantum permutation synchronization": {
+            "authors": [
+                "Tolga Birdal",
+                "Vladislav Golyanik",
+                "Christian Theobalt",
+                "Leonidas J. Guibas"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Birdal_Quantum_Permutation_Synchronization_CVPR_2021_paper.pdf",
+            "ref_texts": "[107] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In Computer Vision and Pattern Recognition (CVPR) , pages 11084\u201311094, 2019.",
+            "ref_ids": [
+                "107"
+            ],
+            "1": "In fact, most of the multiview-consistent inference problems can be expressed as some form of a synchronization [107,15].",
+            "2": "The notion of cycle consistency for directed graphs is known as path invariance [107] and differs from cycle consistency as shown in Fig."
+        },
+        "Hpnet: Deep primitive segmentation using hybrid representations": {
+            "authors": [
+                "Siming Yan",
+                "Zhenpei Yang",
+                "Chongyang Ma",
+                "Haibin Huang",
+                "Etienne Vouga",
+                "Qixing Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Yan_HPNet_Deep_Primitive_Segmentation_Using_Hybrid_Representations_ICCV_2021_paper.pdf",
+            "ref_texts": "[35] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019 , pages 11084\u201311094. Computer Vision Foundation / IEEE, 2019. 2",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Examples include leveraging different types of keypoints for relative pose estimation [6,32], utilizing hybrid geometric primitivesfor 3D object detection and segmentation [35,36], and geometric synthesis under hybrid representations [37,19]."
+        },
+        "A condition number for joint optimization of cycle-consistent networks": {
+            "authors": [
+                "Leonidas J. Guibas",
+                "Qixing Huang",
+                "Zhenxiao Liang"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/9ad6aaed513b73148b7d49f70afcfb32-Paper.pdf",
+            "ref_texts": "[45] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. CoRR , abs/1812.11647, 2018.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "A recent trend in map computation seeks to address this issue by performing map synchronization, which jointly optimizes maps among a collection of related objects/domains to improve the maps between pairs of objects/domains in isolation [29,24,15,14,39,9,17,11,19,45,34].",
+            "2": "[45]), which is a popular setting for neural networks between domains.",
+            "3": "[45]).",
+            "4": "[46, 45]).",
+            "5": "We compare our approach with three state-of-the-art joint shape matching approaches: Huang14 [17], Cosmo17 [11] and Zhang19 [45].",
+            "6": "Our approach also outperforms [45] (i.",
+            "7": "We compare our approach with four state-of-the-art data-driven dense image flow approaches: Zhou15 [47], Dosovitskiy15 [12],Zhou16 [46], Zhang19 [45].",
+            "8": "In addition, our approach is also superior to [46] and [45]."
+        },
+        "Scene synthesis via uncertainty-driven attribute synchronization": {
+            "authors": [
+                "Haitao Yang",
+                "Zaiwei Zhang",
+                "Siming Yan",
+                "Haibin Huang",
+                "Chongyang Ma",
+                "Yi Zheng",
+                "Chandrajit Bajaj",
+                "Qixing Huang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Scene_Synthesis_via_Uncertainty-Driven_Attribute_Synchronization_ICCV_2021_paper.pdf",
+            "ref_texts": "[54] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Path-invariant map networks. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 11084\u201311094, June 2019. 2",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "[17,10,19,2,21,54,15,48,39, 55,51]).",
+            "2": "Our approach is also relevant to recent works on transformation synchronization [1,17,47,4,10, 19,2,21,54,15,20], which takes relative transformations among a collection of geometric objects as input and outputs absolute transformations across the entire object collection."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[154] Zaiwei Zhang, Zhenxiao Liang, Lemeng Wu, Xiaowei Zhou, and Qixing Huang. Pathinvariant map networks. arXiv preprint arXiv:1812.11647 , 2018.",
+            "ref_ids": [
+                "154"
+            ],
+            "1": "A potential future direction consists of enforcing cycle consistency in neural networks, a direction which has recently gained attention [154, 55, 105]."
+        }
+    }
+}

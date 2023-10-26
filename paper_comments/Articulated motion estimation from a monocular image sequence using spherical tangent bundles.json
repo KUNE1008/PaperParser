@@ -1,0 +1,97 @@
+{
+    "title": "Articulated motion estimation from a monocular image sequence using spherical tangent bundles",
+    "id": 49,
+    "valid_pdf_number": "8/12",
+    "matched_pdf_number": "7/8",
+    "matched_rate": 0.875,
+    "citations": {
+        "Sparseness meets deepness: 3d human pose estimation from monocular video": {
+            "authors": [
+                "Xiaowei Zhou",
+                "Menglong Zhu",
+                "Spyridon Leonardos",
+                "Konstantinos G. Derpanis",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhou_Sparseness_Meets_Deepness_CVPR_2016_paper.pdf",
+            "ref_texts": "[20] H. Lee and Z. Chen. Determination of 3D human body postures from a single view. CVGIP , 30(2):148\u2013168, 1985. 1, 2[21] S. Leonardos, X. Zhou, and K. Daniilidis. Articulated motion estimation from a monocular image sequence using spherical tangent bundles. In ICRA , 2016. 2",
+            "ref_ids": [
+                "20",
+                "21"
+            ],
+            "1": "From a geometric perspective, 3D articulated pose recovery is inherently ambiguous from monocular imagery [20].",
+            "2": ", non-rigid structure from motion (NRSFM), and human pose recovery models based on known skeletons [20,43,47,30,21] or sparse representations [32,15, 2,55,56].",
+            "3": "2\n[20] H.",
+            "4": "1, 2[21] S."
+        },
+        "Robust Monocular 3D Human Motion With Lasso-Based Differential Kinematics": {
+            "authors": [
+                "Abed Malti"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/DynaVis/papers/Malti_Robust_Monocular_3D_Human_Motion_With_Lasso-Based_Differential_Kinematics_CVPRW_2023_paper.pdf",
+            "ref_texts": "[31] S. Leonardos, X. Zhou, and K. Daniilidis. Articulated motion estimation from a monocular image sequence using spherical tangent bundles. In 2016 IEEE International Conference on Robotics and Automation (ICRA) , pages 587\u2013593, May 2016. 1",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Instead of using a dictionary of shapes, some authors used articulated skeleton as in [50], [20], [31], probabilistic graphical models as in [47], [3], explicit regression by [16], [1].",
+            "2": "3\n[31] S."
+        },
+        "Structure from articulated motion: accurate and stable monocular 3D reconstruction without training data": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/20/4603/pdf",
+            "ref_texts": "4. Leonardos, S.; Zhou, X.; Daniilidis, K. Articulated motion estimation from a monocular image sequence using spherical tangent bundles. In Proceedings of the International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 16\u201321 May 2016; pp. 587\u2013593.",
+            "ref_ids": [
+                "4"
+            ]
+        },
+        "Spatio-temporal reconstruction for 3D motion recovery": {
+            "authors": [],
+            "url": "https://orca.cardiff.ac.uk/id/eprint/121049/1/MotionRecovery_TCSVT-final.pdf",
+            "ref_texts": "[21] S. Leonardos, X. Zhou, and K. Daniilidis, \u201cArticulated motion estimation from a monocular image sequence using spherical tangent bundles,\u201d in IEEE ICRA , 2016.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[21] introduced spherical tangent bundles and a Riemannian Extended Kalman Filter (REKF) model into the human motion reconstruction, achieving accurate reconstruction from image sequences with corrupted skeletons.",
+            "2": "Most skeleton recovery approaches [21], [19], [18] require either RGB-D images or silhouettes as auxiliary input which are not always available.",
+            "3": "[21] S."
+        },
+        "3-D motion recovery via low rank matrix restoration on articulation graphs": {
+            "authors": [],
+            "url": "https://orca.cardiff.ac.uk/id/eprint/99894/1/ICME2017_68_final.pdf",
+            "ref_texts": "[9] S. Leonardos, X. Zhou, and K. Daniilidis, \u201cArticulated motion estimation from a monocular image sequence using spherical tangent bundles,\u201d in IEEE Intl. Conf. Robotics and Automation , 2016.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "[9] introduce spherical tangent bundles and a Riemannian Extended Kalman Filter (REKF) model into the human motion reconstruction problem, achieving accurate reconstruction from image sequences with corrupted skeletons.",
+            "2": "[9] S."
+        },
+        "A literature review: Geometric methods and their applications in human-related analysis": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/12/2809/pdf",
+            "ref_texts": "138. Leonardos, S.; Zhou, X.; Daniilidis, K. Articulated Motion Estimation from a Monocular Image Sequence Using Spherical Tangent Bundles. In Proceedings of the IEEE International Conference on Robotics and Automation, Stockholm, Sweden, 16\u201321 May 2016; pp. 587\u2013593.",
+            "ref_ids": [
+                "138"
+            ],
+            "1": "For example, the authors in [138] proposed a second-order stochastic dynamical model in the state space (a Riemannian manifold) of articulated objects and derived equations of a Riemannian extended Kalman filter to perform the structure estimation from an image sequence captured by a camera from one perspective."
+        },
+        "Riemannian spatio-temporal features of locomotion for individual recognition": {
+            "authors": [],
+            "url": "https://www.mdpi.com/1424-8220/19/1/56/pdf",
+            "ref_texts": "9. Leonardos, S.; Zhou, X.; Daniilidis, K. Articulated motion estimation from a monocular image sequence using spherical tangent bundles. In Proceedings of the 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 16\u201321 May 2016; pp. 587\u2013593.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "(c) A certain movement from different individuals can be approximately modeled by a unified dynamic system on Riemannian manifold [9], and the real difference between the individuals can be measured by the intrinsic geodesic distance against the mean system.",
+            "2": "This representation has been used in human pose tracking and estimation approaches [9,34]."
+        },
+        "Collaborative Perception from Data Association to Localization": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/227276841.pdf",
+            "ref_texts": "[74] Spyridon Leonardos, Xiaowei Zhou, and Kostas Daniilidis. Articulated motion estimation from a monocular image sequence using spherical tangent bundles. In IEEE International Conference on Robotics and Automation , pages 587\u2013593, 2016.",
+            "ref_ids": [
+                "74"
+            ],
+            "1": ", [74])."
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Representing Volumetric Videos as Dynamic MLP Maps",
+    "id": 80,
+    "valid_pdf_number": "1/1",
+    "matched_pdf_number": "0/1",
+    "matched_rate": 0.0,
+    "citations": {
+        "Neural Scene Chronology": {
+            "authors": [
+                "Haotong Lin",
+                "Qianqian Wang",
+                "Ruojin Cai",
+                "Sida Peng",
+                "Hadar Averbuch",
+                "Xiaowei Zhou",
+                "Noah Snavely"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Neural_Scene_Chronology_CVPR_2023_paper.pdf",
+            "ref_texts": ""
+        }
+    }
+}

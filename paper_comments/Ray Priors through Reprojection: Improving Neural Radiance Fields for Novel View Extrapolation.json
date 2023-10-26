@@ -1,0 +1,57 @@
+{
+    "title": "Ray Priors through Reprojection: Improving Neural Radiance Fields for Novel View Extrapolation",
+    "id": 63,
+    "valid_pdf_number": "4/8",
+    "matched_pdf_number": "3/4",
+    "matched_rate": 0.75,
+    "citations": {
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[58] Jian Zhang, Yuanqing Zhang, Huan Fu, Xiaowei Zhou, Bowen Cai, Jinchi Huang, Rongfei Jia, Binqiang Zhao, and Xing Tang. Ray priors through reprojection: Improving neural radiance fields for novel view extrapolation. CVPR , 2022.",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "Finally, we extend the ray transformation [58] to the non-rigid case to improve the quality of rendered images under novel human poses.",
+            "2": "Inspired by [58] that constructs a ray atlas for a rigid object, we extend it to the non-rigid human."
+        },
+        "Nope-nerf: Optimising neural radiance field with no pose prior": {
+            "authors": [
+                "Wenjing Bian",
+                "Zirui Wang",
+                "Kejie Li",
+                "Wang Bian",
+                "Victor Adrian"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf",
+            "ref_texts": "[54] Jian Zhang, Yuanqing Zhang, Huan Fu, Xiaowei Zhou, Bowen Cai, Jinchi Huang, Rongfei Jia, Binqiang Zhao, and Xing Tang. Ray priors through reprojection: Improving neural radiance fields for novel view extrapolation. In CVPR , 2022. 2",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "A number of techniques are proposed to improve NeRF\u2019s performance with additional regularisation [13, 26, 54], depth priors [7,32,47,53], surface enhancements [27,43,49] or latent codes [40, 44, 52]."
+        },
+        "NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds": {
+            "authors": [
+                "Chen Yang",
+                "Peihao Li",
+                "Zanwei Zhou",
+                "Shanxin Yuan",
+                "Bingbing Liu",
+                "Xiaokang Yang",
+                "Weichao Qiu",
+                "Wei Shen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_NeRFVS_Neural_Radiance_Fields_for_Free_View_Synthesis_via_Geometry_CVPR_2023_paper.pdf",
+            "ref_texts": "[35] Jian Zhang, Yuanqing Zhang, Huan Fu, Xiaowei Zhou, Bowen Cai, Jinchi Huang, Rongfei Jia, Binqiang Zhao, and Xing Tang. Ray priors through reprojection: Improving neural radiance fields for novel view extrapolation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 18376\u201318386, 2022. 2",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Although NeRF can achieve impressive interpolation performance, its extrapolation ability is relatively poor [35], especially for low-texture and few-shot regions."
+        },
+        "MaskNeRF: Masked Neural Radiance Fields for Sparse View Synthesis": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=jpWa2RnZpIK",
+            "ref_texts": "11 Under review as a conference paper at ICLR 2023 Qianqian Wang, Zhicheng Wang, Kyle Genova, Pratul P Srinivasan, Howard Zhou, Jonathan T Barron, Ricardo Martin-Brualla, Noah Snavely, and Thomas Funkhouser. Ibrnet: Learning multi-view image-based rendering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 4690\u20134699, 2021. Zhou Wang, Alan C Bovik, Hamid R Sheikh, and Eero P Simoncelli. Image quality assessment: from error visibility to structural similarity. IEEE transactions on image processing , 13(4):600\u2013612, 2004. Yi Wei, Shaohui Liu, Yongming Rao, Wang Zhao, Jiwen Lu, and Jie Zhou. Nerfingmvs: Guided optimization of neural radiance fields for indoor multi-view stereo. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 5610\u20135619, 2021. Qiangeng Xu, Zexiang Xu, Julien Philip, Sai Bi, Zhixin Shu, Kalyan Sunkavalli, and Ulrich Neumann. Point-nerf: Point-based neural radiance fields. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 5438\u20135448, 2022. Jiayu Yang, Wei Mao, Jose M Alvarez, and Miaomiao Liu. Cost volume pyramid based depth inference for multi-view stereo. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 4877\u20134886, 2020. Lin Yen-Chen. Nerf-pytorch. https://github.com/yenchenlin/nerf-pytorch/ , 2020. Alex Yu, Vickie Ye, Matthew Tancik, and Angjoo Kanazawa. pixelnerf: Neural radiance fields from one or few images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 4578\u20134587, 2021. Jian Zhang, Yuanqing Zhang, Huan Fu, Xiaowei Zhou, Bowen Cai, Jinchi Huang, Rongfei Jia, Binqiang Zhao, and Xing Tang. Ray priors through reprojection: Improving neural radiance fields for novel view extrapolation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 18376\u201318386, 2022. Richard Zhang, Phillip Isola, Alexei A Efros, Eli Shechtman, and Oliver Wang. The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 586\u2013595, 2018. Kaichen Zhou, Lanqing Hong, Changhao Chen, Hang Xu, Chaoqiang Ye, Qingyong Hu, and Zhenguo Li. Devnet: Self-supervised monocular depth learning via density volume construction. arXiv preprint arXiv:2209.06351 , 2022."
+        }
+    }
+}

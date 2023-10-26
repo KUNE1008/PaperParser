@@ -1,0 +1,337 @@
+{
+    "title": "Neural 3D Scene Reconstruction with the Manhattan-world Assumption",
+    "id": 30,
+    "valid_pdf_number": "21/43",
+    "matched_pdf_number": "20/21",
+    "matched_rate": 0.9523809523809523,
+    "citations": {
+        "Monosdf: Exploring monocular geometric cues for neural implicit surface reconstruction": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9f0b1220028dfa2ee82ca0a0e0fc52d1-Paper-Conference.pdf",
+            "ref_texts": "[18] H. Guo, S. Peng, H. Lin, Q. Wang, G. Zhang, H. Bao, and X. Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. In Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2022. 2, 3, 7, 8, 9",
+            "ref_ids": [
+                "18"
+            ],
+            "1": ", depth smoothness [40], surface smoothness [43, 81], semantic similarity [27], or Manhattan world assumptions [18].",
+            "2": "Concurrently, Manhattan-SDF [18] uses dense MVS depth maps from COLMAP [57] as supervision and adopts Manhattan world priors [10] to handle low-textured planar regions corresponding to walls, floors, etc.",
+            "3": "1Manhattan-SDF [18] requires semantic segmentation to determine where to enforce the assumption.",
+            "4": "We compare against a) state-of-the-art neural implicit surfaces methods: UNISURF [43], V olSDF [74], NeuS [69], and Manhattan-SDF [18].",
+            "5": "For Replica and ScanNet, following [18, 37, 47, 48, 62, 82], we report the Chamfer Distance, the F-score with a threshold of 5cm, as well as a Normal Consistency measure.",
+            "6": "On ScanNet, we use the test split from [18] and also follow their evaluation protocol in which depth maps are rendered from input camera poses and then re-fused using TSDF Fusion [11] to evaluate only observed areas.",
+            "7": "8 COLMAP [56] V olSDF [38] Manhattan-SDF [18] Ours (MLP) Ground Truth COLMAP [56] UNISURF [43] NeuS [69] V olSDF [74] M-SDF [18] NeuRIS [68] Ours (Grids) Ours (MLP) ChamferL1# 0.",
+            "8": "6\n[18] H."
+        },
+        "Learning neural volumetric representations of dynamic humans in minutes": {
+            "authors": [
+                "Chen Geng",
+                "Sida Peng",
+                "Zhen Xu",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Geng_Learning_Neural_Volumetric_Representations_of_Dynamic_Humans_in_Minutes_CVPR_2023_paper.pdf",
+            "ref_texts": "[23] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. In CVPR , 2022. 2",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Recently, some methods [11, 41, 44, 51, 77, 97, 104] propose implicit neural representations to represent scenes, which uses MLP networks to predict scene properties for any point in 3D space, such as occupancy [44, 67], signed distance [41, 51], and semantics [23, 104]."
+        },
+        "Towards better gradient consistency for neural signed distance functions via level set alignment": {
+            "authors": [
+                "Baorui Ma",
+                "Junsheng Zhou",
+                "Shen Liu",
+                "Zhizhong Han"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_Towards_Better_Gradient_Consistency_for_Neural_Signed_Distance_Functions_via_CVPR_2023_paper.pdf",
+            "ref_texts": "[24] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InIEEE Conference on Computer Vision and Pattern Recognition, 2022. 1,2,3,7",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Using gradient descent, we can train neural networks by adjusting parameters to minimize errors to either signed distance ground truth [9, 31, 45, 51, 52] or signed distances inferred from 3D point clouds [1, 2,11,22,38,60,77] or multiview images [19, 24,66\u201369, 73,74,76].",
+            "2": "Following methods improve accuracy of implicit functions using multi-view consistency [10, 20,27,68,69,76] or additional priors including depth [3, 76,80], normals [24, 67,76].",
+            "3": "Without signed distance ground truth, current methods infer SDFs by mining supervision from 3D point clouds with normals [1,23,60], 3D point clouds without normals [11, 38, 54], or multi-view images [19, 24,66\u2013\n69,73,74,76].",
+            "4": "COLMAP [\n59] UNISURF [\n49] NeuS [\n68] VolSDF\n[73] Manhattan-SDF [\n24] MonoSDF [\n76] Ours(MonoSDF) CD 0."
+        },
+        "HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes with Iterative Intertwined Regularization": {
+            "authors": [
+                "Zhihao Liang",
+                "Zhangjin Huang",
+                "Changxing Ding",
+                "Kui Jia"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Liang_HelixSurf_A_Robust_and_Efficient_Neural_Implicit_Surface_Learning_of_CVPR_2023_paper.pdf",
+            "ref_texts": "[14] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022. 2, ",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "Most recent works [14,40,50] try to get rid of this dilemma by in13166\n\n corporating geometric cues provided by models pre-trained on auxiliary data.",
+            "2": "For the ScanNet, we follow ManhattanSDF [14] and select 4 scenes to conduct our experiments.",
+            "3": "291\n 531\n Manhattan-SDF\u2020 [14]\n 0.",
+            "4": "We compare our method with the state-of-the-art neural implicit surface learning methods [14, 28, 40, 41, 48, 50] and PatchMatch based multi-view stereo methods (PM-MVS) [37, 44]."
+        },
+        "Painting 3D Nature in 2D: View Synthesis of Natural Scenes from a Single Semantic Mask": {
+            "authors": [
+                "Shangzhan Zhang",
+                "Sida Peng",
+                "Tianrun Chen",
+                "Linzhan Mou",
+                "Haotong Lin",
+                "Kaicheng Yu",
+                "Yiyi Liao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Painting_3D_Nature_in_2D_View_Synthesis_of_Natural_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[14] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2022. 4",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "We adopt a continuous neural field to represent the semantics and geometryof a 3D scene, similar to [14]."
+        },
+        "Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids": {
+            "authors": [
+                "Wei Dong",
+                "Christopher Choy",
+                "Charles Loop",
+                "Or Litany",
+                "Yuke Zhu",
+                "Anima Anandkumar"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Dong_Fast_Monocular_Scene_Reconstruction_With_Global-Sparse_Local-Dense_Grids_CVPR_2023_paper.pdf",
+            "ref_texts": "[14] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InCVPR, pages 5511\u20135520, 2022. 1,2,3,7,8",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "[14] and Yu et al.",
+            "2": "4263\n\n(a) COLMAP [34] (b) NeRF [22] (c) V olSDF [47] (d) NeuS [43]\n(e) ManhattanSDF [14] (f) MonoSDF-MLP [49] (g) MonoSDF-Grid [49] (h) Ours Figure 2.",
+            "3": "Experiments show that our method is 10\u00d7 faster in training, 100\u00d7 faster in inference, and has comparable accuracy measured by F-scores against state-of-the-art implicit reconstruction systems [14, 49].",
+            "4": "To enable large-scale indoor scene reconstruction, ManhattanSDF [14] and MonoSDF [49] incorporate monocular geometric priors and achieve state-ofthe-art results.",
+            "5": "Similarly, monocular priors are used to enhance SDF-based neural reconstruction [14, 49] with remarkable performance.",
+            "6": "Prior to reconstruction, similar to previous works [14, 49], we generate per-image monocular priors including unscaled depth {Di}and normal {Ni}predicted by Omnidata [11], and semantic logits {Si}from LSeg [17].",
+            "7": "Setup We follow Manhattan SDF [14] and evaluate on 4 scenes from ScanNet [7] and 4 scenes from 7-scenes [13] in evaluation.",
+            "8": "We compare against COLMAP [34], NeRF [22], UNISURF [29], NeuS [43], V olSDF [47], Manhattan SDF [14], and MonoSDF [49].",
+            "9": "For the rest of the compared approaches, we reuse reconstructions provided by the authors from Manhattan SDF [14], and evaluate them against highresolution ground truth via TSDF fusion.",
+            "10": "64 ManhattanSDF [14] 16.",
+            "11": "246 ManhattanSDF [14] 0."
+        },
+        "Neural 3D reconstruction from sparse views using geometric priors": {
+            "authors": [],
+            "url": "https://link.springer.com/content/pdf/10.1007/s41095-023-0337-5.pdf",
+            "ref_texts": "[39]Guo, H. Y.; Peng, S. D.; Lin, H. T.; Wang, Q. Q.; Zhang, G. F.; Bao, H. J.; Zhou, X. Neural 3D scene reconstruction with the Manhattan-world assumption. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5501\u20135510, 2022.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Some recent reconstruction methods consider depths [38] or normals [39,40] as geometric priors to help reconstruction; however, to obtain finely detailed geometry, these methods usually require a large number of views to be input to perform perscene optimization, leading to difficulties to generalize to new scenes.",
+            "2": "[39]Guo, H."
+        },
+        "Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM": {
+            "authors": [
+                "Hengyi Wang",
+                "Jingwen Wang",
+                "Lourdes Agapito"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Co-SLAM_Joint_Coordinate_and_Sparse_Parametric_Encodings_for_Neural_Real-Time_CVPR_2023_paper.pdf",
+            "ref_texts": "[8] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3D Scene Reconstruction with the Manhattan-world Assumption. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022. 3",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "While these methods focus on novel view synthesis, others instead focus on surface reconstruction from RGB images, with implicit surface representations and differentiable renderers [8, 33, 39, 40]."
+        },
+        "Panoptic Compositional Feature Field for Editable Scene Rendering With Network-Inferred Labels via Metric Learning": {
+            "authors": [
+                "Xinhua Cheng",
+                "Yanmin Wu",
+                "Mengxi Jia",
+                "Qian Wang",
+                "Jian Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cheng_Panoptic_Compositional_Feature_Field_for_Editable_Scene_Rendering_With_Network-Inferred_CVPR_2023_paper.pdf",
+            "ref_texts": "[13] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 5511\u20135520, 2022. 1",
+            "ref_ids": [
+                "13"
+            ],
+            "1": ")tion [13, 31, 43] tasks."
+        },
+        "Self-Supervised Super-Plane for Neural 3D Reconstruction": {
+            "authors": [
+                "Botao Ye",
+                "Sifei Liu",
+                "Xueting Li",
+                "Hsuan Yang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Self-Supervised_Super-Plane_for_Neural_3D_Reconstruction_CVPR_2023_paper.pdf",
+            "ref_texts": "[9] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InCVPR , 2022. 1, 2, 5, 6, 7",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "For instance, ManhattanSDF [9] introduces the Manhattan assumption on the floor and wall regions, which are predicted by a semantic segmentation model.",
+            "2": "MethodsExplicit 3D supervisionImplicit 2D/3D supervisionHandle texture-less Patch Match-based MVS \u00d7 \u00d7 \u00d7 Data-driven MVS \u2713 \u00d7 \u2713 NeuS [39], V olSDF [46] \u00d7 \u00d7 \u00d7 ManhattanSDF [9] \u00d7 \u2713(2D) \u2713 NeuRIS [37], MonoSDF [48] \u00d7 \u2713(3D) \u2713 Ours \u00d7 \u00d7 \u2713 Table 1.",
+            "3": "Depth supervision has been proven to be beneficial for the geometric representation [9, 40].",
+            "4": "We use the eight randomly selected scenes (four from Scannet validation set and four from 7-Scenes) to perform the experiments as in [9].",
+            "5": "We evaluate our 3D reconstruction model against 1) MVS methods: COLMAP [29] and variants with the plane fitting [9] (denoted as COLMAP\u2217).",
+            "6": "4) Neural volume rendering methods with explicit supervision: ManhattanSDF [9], NeuRIS [37], and MonoSDF [48].",
+            "7": "In addition, our model performs better than the method requiring a segmentation network trained on annotated 2D datasets (ManhattanSDF [9]) and on par with the scheme requiring a normal network trained on 3D datasets (NeuRIS [37]).",
+            "8": "ManhattenSDF [9] achieves compelling results by introducing an assistive segmentation network to find floors and walls, then applying Manhattan as21421\n COLMAP\n VolSDF ManhattanSDF Ours Ground TruthFigure 7."
+        },
+        "I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs": {
+            "authors": [
+                "Jingsen Zhu",
+                "Yuchi Huo",
+                "Qi Ye",
+                "Fujun Luan",
+                "Jifan Li",
+                "Dianbing Xi",
+                "Lisha Wang",
+                "Rui Tang",
+                "Wei Hua",
+                "Hujun Bao",
+                "Rui Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_I2-SDF_Intrinsic_Indoor_Scene_Reconstruction_and_Editing_via_Raytracing_in_CVPR_2023_paper.pdf",
+            "ref_texts": "[8] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InCVPR , 2022. 2",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "To tackle with texture-less regions, additional priors are exploited to guide the network optimization, including semantic priors [8], normal priors [34, 42] and depth priors [42]."
+        },
+        "TMO: Textured Mesh Acquisition of Objects with a Mobile Device by using Differentiable Rendering": {
+            "authors": [
+                "Jaehoon Choi",
+                "Dongki Jung",
+                "Taejae Lee",
+                "Sangwook Kim",
+                "Youngdong Jung",
+                "Dinesh Manocha",
+                "Donghwan Lee"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_TMO_Textured_Mesh_Acquisition_of_Objects_With_a_Mobile_Device_CVPR_2023_paper.pdf",
+            "ref_texts": "[19] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022. 2",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "Their follow-up works [19, 34, 54, 67] import prior information from the learning-based network."
+        },
+        "NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds": {
+            "authors": [
+                "Chen Yang",
+                "Peihao Li",
+                "Zanwei Zhou",
+                "Shanxin Yuan",
+                "Bingbing Liu",
+                "Xiaokang Yang",
+                "Weichao Qiu",
+                "Wei Shen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_NeRFVS_Neural_Radiance_Fields_for_Free_View_Synthesis_via_Geometry_CVPR_2023_paper.pdf",
+            "ref_texts": "[9] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022. 2, 3, 4, 5, 8",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "In contrast, some neural reconstruction methods can recover the holistic scene geometry successfully with various priors [9,22,25,34], while the synthesized images from these methods contain plenty of artifacts and are over-smoothed.",
+            "2": "We first generate a geometry scaffold from off-the-shelf geometry reconstruction methods [9] using the images and camera parameters (Sec.",
+            "3": "To construct this scaffold, we use the geometry from neural geometry reconstruction methods [9, 21, 37] as they can reconstruct a complete and smooth global mesh containing holistic priors.",
+            "4": "Specifically, we apply the geometry produced by [9] which incorporates Manhattan world assumptions on the structure of the scene into the optimization process.",
+            "5": "[9] achieves smooth and coherent geometry reconstruction with semantic information, especially in planar regions.",
+            "6": "We choose the scenes chosen in [9] for experiments.",
+            "7": "3 shows that NeRFVS significantly outperforms DS-NeRF\u2191PSNR \u2191SSIM \u2193LPIPS ManhattanSDF [9] 19."
+        },
+        "Learning Signed Distance Functions from Noisy 3D Point Clouds via Noise to Noise Mapping": {
+            "authors": [
+                "Baorui Ma",
+                "Shen Liu",
+                "Zhizhong Han"
+            ],
+            "url": "https://openreview.net/pdf?id=2qflscc6A8",
+            "ref_texts": "3789\u20133799, 2020. Groueix, T., Fisher, M., Kim, V . G., Russell, B. C., and Aubry, M. A papier-m \u02c6ach\u00b4e approach to learning 3d surface generation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 216\u2013224, 2018. Guo, H., Peng, S., Lin, H., Wang, Q., Zhang, G., Bao, H., and Zhou, X. Neural 3d scene reconstruction with the manhattan-world assumption. In IEEE Conference on Computer Vision and Pattern Recognition, 2022. Gupta, A., Xiong, W., Nie, Y ., Jones, I., and Ouz, B. 3dgen: Triplane latent diffusion for textured mesh generation."
+        },
+        "Multimodal neural radiance field": {
+            "authors": [],
+            "url": "https://assets.amazon.science/a6/3d/ee31b6e24eec89e428f5ec4ad849/multimodal-neural-radiance-field.pdf",
+            "ref_texts": "[2] H. Guo, S. Peng, H. Lin, Q. Wang, G. Zhang, H. Bao, and X. Zhou, \u201cNeural 3d scene reconstruction with the manhattan-world assumption,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2022, pp. 5511\u20135520.",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "Recently some research [2], [3] has focused on using modalities, such as semantic labels, in addition to the input of RGB images.",
+            "2": "[2] H."
+        },
+        "Classification and Object Detection of 360\u00b0 Omnidirectional Images Based on Continuity-Distortion Processing and Attention Mechanism": {
+            "authors": [
+                "Xin Zhang",
+                "Degang Yang",
+                "Tingting Song",
+                "Yichen Ye",
+                "Jie Zhou",
+                "Yingze Song"
+            ],
+            "url": "https://www.mdpi.com/2076-3417/12/23/12398/pdf",
+            "ref_texts": "2. Guo, H.; Peng, S.; Lin, H.; Wang, Q.; Zhang, G.; Bao, H.; Zhou, X. Neural 3D scene reconstruction with the manhattan-world assumption. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, New Orleans, LA, USA, 18\u201324 June 2022; pp. 5511\u20135520.",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "Briefly, 360 \u00b0omnidirectional images have been widely used in various fields, such as automatic driving [1], 3D scene reconstruction [2], virtual reality [3], and virtual navigation [4]."
+        },
+        "Neural mesh reconstruction": {
+            "authors": [],
+            "url": "https://summit.sfu.ca/_flysystem/fedora/2023-06/etd22528.pdf",
+            "ref_texts": "[89] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022.",
+            "ref_ids": [
+                "89"
+            ],
+            "1": "ManhattanSDF [89] incorporates planer constraints to regularize the geometry in floor and wall regions."
+        },
+        "Supplementary Material for MonoSDF: Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9f0b1220028dfa2ee82ca0a0e0fc52d1-Supplemental-Conference.pdf",
+            "ref_texts": "[9]H. Guo, S. Peng, H. Lin, Q. Wang, G. Zhang, H. Bao, and X. Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. In Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , 2022. 2, 7, 12",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "For Replica [22] and ScanNet [4], we report Accuracy ,Completeness ,Chamfer Distance ,Precision , Recall , and F-score with a threshold of 5cm following [9, 23, 32].",
+            "2": "We further report Normal Consistency for the Replica dataset following [9, 13, 18, 19, 23, 32] as near-perfect ground truth is available.",
+            "3": "346 Manhattan-SDF [9] 0.",
+            "4": "We report reconstruction results for our methods and baselines on ScanNet (baselines from [9]).",
+            "5": "2\n[9]H.",
+            "6": "11 COLMAP [21] V olSDF [15] Manhattan-SDF [9] Ours (MLP) Ground Truth Figure 5: Qualitative Comparison on ScanNet."
+        },
+        "Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/supplemental/Dong_Fast_Monocular_Scene_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[4] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InCVPR , pages 5511\u20135520, 2022. 1, 2, 3, 4",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "Metrics We follow the evaluation protocols defined by ManhattanSDF [4], where the metrics between predicted point set 1\n0050 0084 0580 0616 Figure 1.",
+            "2": "Sparse reconstruction and covisibility matrix of ScanNet scenes selected by ManhattanSDF [4].",
+            "3": "Generation of PandP\u2217 We follow previous works [4, 17] that applied TSDF refusion to generate Pfor evaluation: use Marching Cubes [5] to generate a global mesh; render depth map from mesh at selected viewpoints to crop points out of viewports; apply TSDF fusion [18] to obtain the final mesh and point cloud P.",
+            "4": "Scene-wise statistics on ScanNet We use reconstructed mesh provided by ManhattanSDF [4], and report scene-wise statistics in Table 2.",
+            "5": "Scene-wise statistics on 7-scenes The reconstructed mesh and scene-wise statistics are not provided by ManhattanSDF [4] for COLMAP, NeRF, UNISURF, NeuS, V olSDF, and ManhattanSDF.",
+            "6": "196 ManhattanSDF [4] 0.",
+            "7": "217 ManhattanSDF [4] 0."
+        },
+        "NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/supplemental/Yang_NeRFVS_Neural_Radiance_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[3] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou. Neural 3d scene reconstruction with the manhattan-world assumption. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5511\u20135520, 2022. 1",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "For training image selection, we first uniformly sample 10% views from the raw image sequence for each scene following the setting of [3]."
+        },
+        "SCALABLE MAV INDOOR RECONSTRUCTION WITH NEURAL IMPLICIT SURFACES": {
+            "authors": [],
+            "url": "http://www-video.eecs.berkeley.edu/papers/haoda/ICIP_0221_li.pdf",
+            "ref_texts": "[2] Haoyu Guo, Sida Peng, Haotong Lin, Qianqian Wang, Guofeng Zhang, Hujun Bao, and Xiaowei Zhou, \u201cNeural 3d scene reconstruction with the manhattan-world assumption,\u201d in CVPR , 2022.",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "We leverage both traditional Structure from Motion (SfM) [1] and neural surface reconstruction [2] methods.",
+            "2": "Thereafter, we employ a divide-and-conquer strategy, perform neural surface reconstruction while embedding the Manhattan-world assumption [2], and finally merge theblock-wise reconstructions through depth refinement.",
+            "3": "Recently, novel approaches specifically tackle indoor scene reconstruction by introducing additional priors such as depth [2, 14, 15], geometric consistency [16], and planar region assumptions [2, 17].",
+            "4": "Each block is then reconstructed with a modified ManhattanSDF [2] method with 2D depth maps and segmentation supervision.",
+            "5": "Among prior works on neural scene reconstruction [15\u201317], we observe that embedding the Manhattan world assumption is likely the most robust for our task [2].",
+            "6": "Thus, we apply [2] as our backbone.",
+            "7": "[2] observes that the low-texture regions obey the Manhattan-world assumption.",
+            "8": "We also include the semantic field to estimate semantic logits at each 3D location, the field is trained with the joint optimization loss described in [2]."
+        }
+    }
+}

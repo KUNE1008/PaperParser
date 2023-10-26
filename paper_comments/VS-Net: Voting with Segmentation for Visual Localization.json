@@ -1,0 +1,133 @@
+{
+    "title": "VS-Net: Voting with Segmentation for Visual Localization",
+    "id": 51,
+    "valid_pdf_number": "9/17",
+    "matched_pdf_number": "8/9",
+    "matched_rate": 0.8888888888888888,
+    "citations": {
+        "Rnnpose: Recurrent 6-dof object pose refinement with robust correspondence field estimation and pose optimization": {
+            "authors": [
+                "Yan Xu",
+                "Yee Lin",
+                "Guofeng Zhang",
+                "Xiaogang Wang",
+                "Hongsheng Li"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Xu_RNNPose_Recurrent_6-DoF_Object_Pose_Refinement_With_Robust_Correspondence_Field_CVPR_2022_paper.pdf",
+            "ref_texts": "[17] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. VS-Net: V oting with segmentation for visual localization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6101\u2013",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Non-linear least squares optimization algorithms, such as Gauss-Newton [30] and Levenberg-Marquardt [31], are widely used in computer vision [17, 25, 32, 53], given their efficient and effective nature."
+        },
+        "Flowformer++: Masked cost volume autoencoding for pretraining optical flow estimation": {
+            "authors": [
+                "Xiaoyu Shi",
+                "Zhaoyang Huang",
+                "Dasong Li",
+                "Manyuan Zhang",
+                "Ka Chun",
+                "Simon See",
+                "Hongwei Qin",
+                "Jifeng Dai",
+                "Hongsheng Li"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Shi_FlowFormer_Masked_Cost_Volume_Autoencoding_for_Pretraining_Optical_Flow_Estimation_CVPR_2023_paper.pdf",
+            "ref_texts": "[25] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. Vs-net: V oting with segmentation for visual localization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6101\u2013",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Image correspondence is a critical intermediate representation for downstream applications [6, 7, 23, 25, 35\u201337, 46, 53, 76]."
+        },
+        "Deeplsd: Line segment detection and refinement with deep image gradients": {
+            "authors": [
+                "Remi Pautrat",
+                "Daniel Barath",
+                "Viktor Larsson",
+                "Martin R. Oswald",
+                "Marc Pollefeys"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Pautrat_DeepLSD_Line_Segment_Detection_and_Refinement_With_Deep_Image_Gradients_CVPR_2023_paper.pdf",
+            "ref_texts": "[21] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. VS-Net: V oting with segmentation for visual localization. In Computer Vision and Pattern Recognition (CVPR) , 2021. 3",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Attraction fields have also been leveraged for keypoint detection [21], where 2D vectors are voting for the closest keypoint in the image."
+        },
+        "Pats: Patch area transportation with subdivision for local feature matching": {
+            "authors": [
+                "Junjie Ni",
+                "Yijin Li",
+                "Zhaoyang Huang",
+                "Hongsheng Li",
+                "Hujun Bao",
+                "Zhaopeng Cui",
+                "Guofeng Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_PATS_Patch_Area_Transportation_With_Subdivision_for_Local_Feature_Matching_CVPR_2023_paper.pdf",
+            "ref_texts": "[19] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. Vs-net: V oting with segmentation for visual localization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6101\u2013",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "In the past decades, local feature matching [3, 40] has been widely used in a large number of applications such as structure from motion (SfM) [44, 64], simultaneous localization and mapping (SLAM) [30,36,62], visual localization [19,41], object pose estimation [22, 61], etc."
+        },
+        "Efficient large-scale localization by global instance recognition": {
+            "authors": [
+                "Fei Xue",
+                "Ignas Budvytis",
+                "Daniel Olmeda",
+                "Roberto Cipolla"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Xue_Efficient_Large-Scale_Localization_by_Global_Instance_Recognition_CVPR_2022_paper.pdf",
+            "ref_texts": "[20] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. VS-Net: V oting with segmentation for visual localization. In CVPR , 2021. 8",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "Besides, directly recognizing a large number of global instances in large-scale scenes is memory-consuming, but hierarchical recognition [20] has the potential to solve this problem."
+        },
+        "SFD2: Semantic-guided Feature Detection and Description": {
+            "authors": [
+                "Fei Xue",
+                "Ignas Budvytis",
+                "Roberto Cipolla"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xue_SFD2_Semantic-Guided_Feature_Detection_and_Description_CVPR_2023_paper.pdf",
+            "ref_texts": "[26] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. VS-Net: V oting with segmentation for visual localization. In CVPR , 2021. 2, 3",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "PoseNet [28] and its variations [80], or regress scene coordinates [5\u20137,26].",
+            "2": "Compared to local features, high-level semantics are more robust to appearance changes and have been widely used in visual localization [7, 25, 26, 30, 31, 44, 62\u201364, 66, 73, 78]."
+        },
+        "SGLoc: Scene Geometry Encoding for Outdoor LiDAR Localization": {
+            "authors": [
+                "Wen Li",
+                "Shangshu Yu",
+                "Cheng Wang",
+                "Guosheng Hu",
+                "Siqi Shen",
+                "Chenglu Wen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SGLoc_Scene_Geometry_Encoding_for_Outdoor_LiDAR_Localization_CVPR_2023_paper.pdf",
+            "ref_texts": "[22] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. Vs-net: V oting with segmentation for visual localization. In CVPR, pages 6101\u20136111, 2021. 2",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Regression-based Localization Recently, in camera localization, the scene coordinate regression method has been designed, which regresses 2D-3D correspondences and estimates the pose with PnPRANSAC [4, 6,7,22,54]."
+        },
+        "Keypoint Matching via Random Network Consensus": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=WhbWzFg8cZ",
+            "ref_texts": "(6):381\u2013395, 1981. Ben Glocker, Jamie Shotton, Antonio Criminisi, and Shahram Izadi. Real-time rgb-d camera relocalization via randomized ferns for keyframe encoding. IEEE transactions on visualization and computer graphics , 21(5):571\u2013583, 2014. Chris Harris, Mike Stephens, et al. A combined corner and edge detector. In Alvey vision conference , volume 15, pp. 10\u20135244. Citeseer, 1988. Kun He, Yan Lu, and Stan Sclaroff. Local descriptors optimized for average precision. In Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 596\u2013605, 2018. Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. Vs-net: V oting with segmentation for visual localization. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp."
+        },
+        "RNNPose: Recurrent 6-DoF Object Pose Refinement with Robust Correspondence Field Estimation and Pose Optimization": {
+            "authors": [],
+            "url": "https://decayale.github.io/publication/rnnpose/paper.pdf",
+            "ref_texts": "[17] Zhaoyang Huang, Han Zhou, Yijin Li, Bangbang Yang, Yan Xu, Xiaowei Zhou, Hujun Bao, Guofeng Zhang, and Hongsheng Li. VS-Net: V oting with segmentation for visual localization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6101\u2013",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Non-linear least squares optimization algorithms, such as Gauss-Newton [30] and Levenberg-Marquardt [31], are widely used in computer vision [17, 25, 32, 54], given their efficient and effective nature."
+        }
+    }
+}

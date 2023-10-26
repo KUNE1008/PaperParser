@@ -1,0 +1,1492 @@
+{
+    "title": "Harvesting multiple views for marker-less 3d human pose annotations",
+    "id": 12,
+    "valid_pdf_number": "123/152",
+    "matched_pdf_number": "97/123",
+    "matched_rate": 0.7886178861788617,
+    "citations": {
+        "Coarse-to-fine volumetric prediction for single-image 3D human pose": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Xiaowei Zhou",
+                "Konstantinos G. Derpanis",
+                "Kostas Daniilidis"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Pavlakos_Coarse-To-Fine_Volumetric_Prediction_CVPR_2017_paper.pdf",
+            "ref_texts": "[23] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. CVPR , 2017. 3,4",
+            "ref_ids": [
+                "23"
+            ],
+            "1": ", [12,31,4,11]), it is interesting to note that the representation of 3D human pose in a discretized 3D space has also been previously adopted in multi-view settings [7,15,23], where it was used to accommodate predictions from different viewpoints.",
+            "2": ", [7,23].",
+            "3": "2,6,8\n[23] G."
+        },
+        "Learnable triangulation of human pose": {
+            "authors": [
+                "Karim Iskakov",
+                "Egor Burkov",
+                "Victor Lempitsky",
+                "Yury Malkov"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Iskakov_Learnable_Triangulation_of_Human_Pose_ICCV_2019_paper.pdf",
+            "ref_texts": "[15] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. Proceedings 30th IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017 , 2017-Janua:1253\u20131262, 2017. 1,2,6",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "At the same time, in such a regime, modern multi-view methods have accuracy comparable to well-developed monocular methods [22,15,6,20,16].",
+            "2": "Few works used volumetric pose representation in multiview setups [15,5].",
+            "3": "[15] 41."
+        },
+        "SPEC: Seeing people in the wild with an estimated camera": {
+            "authors": [
+                "Muhammed Kocabas",
+                "Hao P. Huang",
+                "Joachim Tesch",
+                "Lea Muller",
+                "Otmar Hilliges",
+                "Michael J. Black"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kocabas_SPEC_Seeing_People_in_the_Wild_With_an_Estimated_Camera_ICCV_2021_paper.pdf",
+            "ref_texts": "[48] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In IEEE Conference on Computer Vision and Pattern Recognition , 2017. 3",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "Some monocular approaches [42, 43, 48, 56] are trained with direct supervision from multi-view data, while others [16, 22, 34, 51] enforce multi-view consistency as weak, or self, supervision."
+        },
+        "Self-supervised learning of 3d human pose using multi-view geometry": {
+            "authors": [
+                "Muhammed Kocabas",
+                "Salih Karagoz",
+                "Emre Akbas"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kocabas_Self-Supervised_Learning_of_3D_Human_Pose_Using_Multi-View_Geometry_CVPR_2019_paper.pdf",
+            "ref_texts": "[30] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In IEEE Conference on Computer Vision and Pattern Recognition , 2017. 1, 2,6,7,8",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "These methods, in addition to ground-truth 2D poses, require either additional supervision in various forms (such as unpaired 3D ground truth data[41], a small subset of labels [31]) or (extrinsic) camera parameters in multiview settings [30].",
+            "2": "Weakly/self-supervised methods Weak and self supervision based methods for human pose estimation have been explored by many [9,31,41,30] due to lack of 3D annotations.",
+            "3": "[30] use a pictorial structures model to obtain a global pose configuration from the keypoint heatmaps of multi-view images.",
+            "4": "[30] 56.",
+            "5": "\u2019s [30] results, our triangulation using an MPII-pretrained detector is 11mm better in terms of MPJPE.",
+            "6": "Our SS model (with or without R) outperforms all previous methods [41,30] by a large margin in MPJPE metric.",
+            "7": "[30] (CVPR\u20192017) 118."
+        },
+        "Cross view fusion for 3d human pose estimation": {
+            "authors": [
+                "Haibo Qiu",
+                "Chunyu Wang",
+                "Jingdong Wang",
+                "Naiyan Wang",
+                "Wenjun Zeng"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Qiu_Cross_View_Fusion_for_3D_Human_Pose_Estimation_ICCV_2019_paper.pdf",
+            "ref_texts": "[18] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , pages 1253\u20131262, 2017. 1,2,8",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "In this paper, we tackle the problem of estimating absolute3D poses in the world coordinate system from multiple cameras [1,15,4,18,3,20].",
+            "2": "On the other hand, using the Pictorial Structure Model (PSM) [14,18,3] for3D pose estimation can alleviate the influence of inaccurate 2D joints by considering their spatial dependence.",
+            "3": "Multi-view 3D Pose Estimation Many approaches [15, 10,4,18,3,19,20] are proposed for multi-view pose estimation.",
+            "4": "This technique is also used for 2D [32,5,1] and3D [4,18] pose estimation where the parts are the body joints or limbs.",
+            "5": "[18] extend PSM to multi-view 3D human pose estimation.",
+            "6": "For example, in [18], they first estimate 2D poses independently for each view and then recover the 3D pose using PSM.",
+            "7": "Our work differs from [18] in that we extend PSM to a recursive version, i.",
+            "8": "In addition, they [18] do not perform cross-view feature fusion as we do.",
+            "9": "[18] 56."
+        },
+        "Cascaded deep monocular 3d human pose estimation with evolutionary training data": {
+            "authors": [
+                "Shichao Li",
+                "Lei Ke",
+                "Kevin Pratama",
+                "Wing Tai",
+                "Keung Tang",
+                "Ting Cheng"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Cascaded_Deep_Monocular_3D_Human_Pose_Estimation_With_Evolutionary_Training_CVPR_2020_paper.pdf",
+            "ref_texts": "[44] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "To address this problem, weakly-supervised methods explore other potential supervision to improve network performance when only few training data is available [44, 49, 50, 23, 11, 65, 27].",
+            "2": "Multi-view consistency [44, 49, 50, 23, 11] is proposed and validated as useful supervisory signal when training data is scarce, yet a minimum of two views are needed.",
+            "3": "This problem is even exacerbated for the weakly-supervised methods [44, 50, 11] where only a subset of training data is used to simulate the data scarcity scenario."
+        },
+        "Unsupervised geometry-aware representation for 3d human pose estimation": {
+            "authors": [
+                "Helge Rhodin",
+                "Mathieu Salzmann",
+                "Pascal Fua"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Helge_Rhodin_Unsupervised_Geometry-Aware_Representation_ECCV_2018_paper.pdf",
+            "ref_texts": "25. Pavlakos, G., Zhou, X., Konstantinos, K.D.G., Kostas, D.: Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In: Conference o n Computer Vision and Pattern Recognition (2017)",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "For e xample, methods based on articulated 3D skeletons can be trained not only with act ual 3Dannotationsbutalsousing2Dannotations[21,54]andmulti-viewfootage[25, 47].",
+            "2": "While most current human pose estimation methods [25,54,24,42,27,20,22,33,38] are fully supervised, relying on large training sets annotated with ground-truth 3D positions comi ng from multi-view motion capture systems [21,12], several methods have recently been proposed to limit the requirement for labeled data.",
+            "3": "Furthermore, given mul tiple views of the same person, 3D pose can be triangulated from 2D detections [25,14] and a 2D pose network can be trained to be view-consistent after bootstrappi ng from annotations."
+        },
+        "Epipolar transformers": {
+            "authors": [
+                "Yihui He",
+                "Rui Yan",
+                "Katerina Fragkiadaki",
+                "I Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Epipolar_Transformers_CVPR_2020_paper.pdf",
+            "ref_texts": "[25] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2017. 8",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "[25] 41."
+        },
+        "Learning monocular 3d human pose estimation from multi-view images": {
+            "authors": [
+                "Helge Rhodin",
+                "Jorg Sporri",
+                "Isinsu Katircioglu",
+                "Victor Constantin",
+                "Frederic Meyer",
+                "Erich Muller",
+                "Mathieu Salzmann",
+                "Pascal Fua"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Rhodin_Learning_Monocular_3D_CVPR_2018_paper.pdf",
+            "ref_texts": "[19] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In Conference on Computer Vision and Pattern Recognition , 2017. 2,4,5",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "Related work Algorithms for 3D human pose estimation from single images [18,27,20,15,17,23,19,31,26,25] have now matured to the point where they can operate in real-time and in the wild.",
+            "2": "In a controlled studio environment, marker-suits [9] and marker-less motion capture systems [16,11,19] can be used to estimate the pose automatically.",
+            "3": "Therefore, unlike other recent multi-view approaches [24,19], we do notrequire a full camera calibration.",
+            "4": "[19] 118.",
+            "5": "In the top portion of Table 1, we report the MPJPE and NMPJPE values of fully-supervised methods on H36M using the same protocol as in [13,31,16,26,18, 19]: Five subjects (S1, S5, S6, S7, S8) are used for training and the remaining two (S9, S11) for testing.",
+            "6": "1,2,5,6\n[19] G."
+        },
+        "Direct multi-view multi-person 3d pose estimation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/6da9003b743b65f4c0ccd295cc484e57-Paper.pdf",
+            "ref_texts": "[34] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Research works on single-person scenes use either multi-view geometry [11] for feature fusion [36,13] and triangulation [16,37], or pictorial structure models for fast and robust 3D pose reconstruction [34,36], achieving promising results."
+        },
+        "Generating multiple hypotheses for 3d human pose estimation with mixture density network": {
+            "authors": [
+                "Chen Li",
+                "Gim Hee"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Generating_Multiple_Hypotheses_for_3D_Human_Pose_Estimation_With_Mixture_CVPR_2019_paper.pdf",
+            "ref_texts": "[21] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In IEEE Conference on Computer Vision and Pattern Recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Table 2: Results by using multi-view information Methods Lee[14] Hossain[10] Pavlakos [21] Ours Avg.",
+            "2": "We list our result in Table 2and compare with other state-of-the-art approaches based on multi-view [21]\n(spatial constraint) or video (temporal constraint) information [14,10].",
+            "3": "[21] G."
+        },
+        "Weakly-supervised 3d human pose learning via multi-view images in the wild": {
+            "authors": [
+                "Umar Iqbal",
+                "Pavlo Molchanov",
+                "Jan Kautz"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Iqbal_Weakly-Supervised_3D_Human_Pose_Learning_via_Multi-View_Images_in_the_CVPR_2020_paper.pdf",
+            "ref_texts": "[29] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017. 1, 2,8",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "There have been only few works [14,29,33,34] that utilize multi-view data to learn monocular 3D pose estimation models.",
+            "2": "While the approaches [29,33] need extrinsic camera calibration, [33,34] require at least some part of their training data to be labelled with ground-truth 3D poses.",
+            "3": "Weakly-supervised methods do not require paired 2D3D data and only use weak supervision in form of motioncapture data [42], images/videos with 2D annotations [25, 47], collection of 2D poses [4,7,46], or multi-view images [14,29].",
+            "4": "The closest to our work are the approaches of [14,29] in that they also use unlabeled multi-view data for training.",
+            "5": "The approach of [29], however, requires calibrated camera views that are very hard to acquire in unconstrained environments.",
+            "6": "[29] (CVPR\u201917) 118."
+        },
+        "DeepFly3D, a deep learning-based approach for 3D limb and appendage tracking in tethered, adult Drosophila": {
+            "authors": [],
+            "url": "https://elifesciences.org/articles/48571.pdf",
+            "ref_texts": "10.1016/j.cub.2018.12.019 ,PMID: 30661796 Mehta D , Sridhar S, Sotnychenko O, Rhodin H, Shafiei M, Seidel H, Xu W, Casas D, Theobalt C. 2017. Vnect: Real-Time3D Human Pose Estimation with a Single RGB Camera. SIGGRAPH. Mendes CS , Bartos I, Akay T, Ma \u00b4rka S, Mann RS. 2013. Quantification of gait parameters in freely walking wild type and sensory deprived Drosophila Melanogaster. eLife 2:e00231. DOI: https://doi.org/10.7554/eLife.00231 , PMID: 23326642 Moeslund TB , Granum E. 2000. Multiple cues used in model-based human motion capture.. Proceedings Fourth IEEE International Conference on Automatic Face and Gesture Recognition (Cat. No. PR00580) 362\u2013367. DOI: https://doi.org/10.1109/AFGR.2000.840660 Moreno-noguer F . 2017. 3d human pose estimation from a single image via distance matrix regression. CVPR. Murphy KP , Weiss Y, Jordan MI. 1999. Loopy belief propagation for approximate inference: an empirical study. Onference on Uncertainty in Artificial Intelligence p. 467\u2013475. Nath T , Mathis A, Chen AC, Patel A, Bethge M, Mathis MW. 2019. Using DeepLabCut for 3D markerless pose estimation across species and behaviors. Nature Protocols 14:2152\u20132176. DOI: https://doi.org/10.1038/ s41596-019-0176-0 ,PMID: 31227823 Newell A , Yang K, Deng J. 2016. European Conference on Computer Vision. In: Stacked Hourglass Networks for Human Pose Estimation . Springer. p. 483\u2013499. Gu\u00a8nelet al. eLife 2019;8:e48571. DOI: https://doi.org/10.7554/eLife.48571 22 of 23Tools and resources Neuroscience Pavlakos G , Zhou X, Derpanis K, Konstantinos G, Daniilidis K. 2017a. Coarse-To-Fine volumetric prediction for Single-Image 3D human pose. CVPR. Pavlakos G , Zhou X, Konstantinos KDG, Kostas D. 2017b. Harvesting multiple views for Marker-Less 3D human pose annotations. In: CVPR. Pereira TD , Aldarondo DE, Willmore L, Kislin M, Wang SS, Murthy M, Shaevitz JW. 2019. Fast animal pose estimation using deep neural networks. Nature Methods 16:117\u2013125. DOI: https://doi.org/10.1038/s41592018-0234-5 ,PMID: 30573820 Popa AI , Zanfir M, Sminchisescu C. 2017. Deep multitask architecture for integrated 2D and 3D human sensing. In: CVPR. Puwein J , Ballan L, Ziegler R, Pollefeys M. 2014. Accelerated Kmeans Clustering Using Binary Random Projection. In: Joint Camera Pose Estimation and 3D Human Pose Estimation in a Multi-Camera Setup . springer. p. 473\u2013487. Rhodin H , Robertini N, Casas D, Richardt C, Seidel HP, Theobalt C. 2016. General automatic human shape and motion capture using volumetric contour cues. ECCV. Rogez G , Weinzaepfel P, Schmid C. 2017. Lcr-Net: localization-classification-regression for human pose. In: CVPR. Seeds AM , Ravbar P, Chung P, Hampel S, Midgley FM, Mensh BD, Simpson JH. 2014. A suppression hierarchy among competing motor programs drives sequential grooming in Drosophila. eLife 3:e02951. DOI: https://doi. org/10.7554/eLife.02951 ,PMID: 25139955 Seelig JD , Chiappe ME, Lott GK, Dutta A, Osborne JE, Reiser MB, Jayaraman V. 2010. Two-photon calcium imaging from head-fixed Drosophila during optomotor walking behavior. Nature Methods 7:535\u2013540. DOI: https://doi.org/10.1038/nmeth.1468 ,PMID: 20526346 Simon T , Joo H, Matthews I, Sheikh Y. 2017. Hand keypoint detection in single images using multiview bootstrapping. In: CVPR. Sun X , Shang J, Liang S, Wei Y. 2017. Compositional human pose regression. ICCV. Takahashi K , Mikami D, Isogawa M, Kimata H. 2018. Human pose as calibration pattern; 3D human pose estimation with multiple unsynchronized and uncalibrated cameras. The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. Tekin B , Marquez-neila P, Salzmann M, Fua P. 2017. Learning to fuse 2D and 3D image cues for monocular body pose estimation. ICCV. Todd JG , Kain JS, de Bivort BL. 2017. Systematic exploration of unsupervised methods for mapping behavior. Physical Biology 14:015002. DOI: https://doi.org/10.1088/1478-3975/14/1/015002 ,PMID: 28166059 Tome D , Russell C, Agapito L. 2017. Lifting from the deep: convolutional 3D pose estimation from a single image. arXiv .https://arxiv.org/abs/1701.00295 . Triggs B , Mclauchlan P, Hartley R, Fitzgibbon A. 2000. Vision Algorithms: Theory and Practice . Springer. Uhlmann V , Ramdya P, Delgado-Gonzalo R, Benton R, Unser M. 2017. FlyLimbTracker: an active contour based approach for leg segment tracking in unmarked, freely behaving Drosophila. PLOS ONE 12:e0173433. DOI: https://doi.org/10.1371/journal.pone.0173433 ,PMID: 28453566 Zhou X , Huang Q, Sun X, Xue X, Wei Y. 2017. Weakly-supervised transfer for 3d human pose estimation in the wild. IEEE International Conference on Computer Vision. Gu\u00a8nelet al. eLife 2019;8:e48571. DOI: https://doi.org/10.7554/eLife.48571 23 of 23Tools and resources Neuroscience "
+        },
+        "Fast and robust multi-person 3d pose estimation from multiple views": {
+            "authors": [
+                "Junting Dong",
+                "Wen Jiang",
+                "Qixing Huang",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Fast_and_Robust_Multi-Person_3D_Pose_Estimation_From_Multiple_Views_CVPR_2019_paper.pdf",
+            "ref_texts": "[32] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017. 2,6",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Therefore, more recent works are generally based on a bottom-up scheme where the 3D pose is reconstructed from 2D features detected from images [36,6,32].",
+            "2": "Inference: The typical strategy to maximize p(T|I)is first discretizing the state space as a uniform 3D grid, and applying the max-product algorithm [6,32].",
+            "3": "3\n[32] G."
+        },
+        "Tessetrack: End-to-end learnable multi-person articulated 3d pose tracking": {
+            "authors": [
+                "N Dinesh",
+                "Laurent Guigues",
+                "Leonid Pishchulin",
+                "Jayan Eledath",
+                "Srinivasa G. Narasimhan"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Reddy_TesseTrack_End-to-End_Learnable_Multi-Person_Articulated_3D_Pose_Tracking_CVPR_2021_paper.pdf",
+            "ref_texts": "[38] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 8[39] Dario Pavllo, Christoph Feichtenhofer, David Grangier, and Michael Auli. 3d human pose estimation in video with temporal convolutions and semi-supervised training. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 7753\u20137762, 2019. 8",
+            "ref_ids": [
+                "38",
+                "39"
+            ],
+            "1": "[39] 45.",
+            "2": "[38] 41.",
+            "3": "8[39] Dario Pavllo, Christoph Feichtenhofer, David Grangier, and Michael Auli."
+        },
+        "C3dpo: Canonical 3d pose networks for non-rigid structure from motion": {
+            "authors": [
+                "David Novotny",
+                "Nikhila Ravi",
+                "Benjamin Graham",
+                "Natalia Neverova",
+                "Andrea Vedaldi"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Novotny_C3DPO_Canonical_3D_Pose_Networks_for_Non-Rigid_Structure_From_Motion_ICCV_2019_paper.pdf",
+            "ref_texts": "[29] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proc. CVPR , 2017.",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Besides the fully supervised methods [25, 26], several works have explored multi-view supervision [20, 29, 31], ordinal depth supervision [28], unpaired 2D-3D data [30, 36, 41, 15] or videos [17] to alleviate the need for full 2D-3D annotations."
+        },
+        "Texturepose: Supervising human mesh estimation with texture consistency": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Nikos Kolotouros",
+                "Kostas Daniilidis"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Pavlakos_TexturePose_Supervising_Human_Mesh_Estimation_With_Texture_Consistency_ICCV_2019_paper.pdf",
+            "ref_texts": "[34] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , 2017. 3",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "[34] estimate 3D poses combining reliable 2D pose estimates, and treats them as pseudo ground truth to train a network for 3D human pose.",
+            "2": "Multi-view consistency is also well explored as discussed earlier [21,34,38,39,44]."
+        },
+        "Lightweight multi-view 3D pose estimation through camera-disentangled representation": {
+            "authors": [
+                "Edoardo Remelli",
+                "Shangchen Han",
+                "Sina Honari",
+                "Pascal Fua",
+                "Robert Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Remelli_Lightweight_Multi-View_3D_Pose_Estimation_Through_Camera-Disentangled_Representation_CVPR_2020_paper.pdf",
+            "ref_texts": "[21] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017. 1,2,6,8",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Unfortunately, the state-of-the-art multi-camera 3D pose estimation algorithms tend to be computationally expensive because they rely on deep networks that operate on volumetric grids [14], or volumetric Pictorial Structures [22, 21], to combine features coming from different views in accordance with epipolar geometry.",
+            "2": "The state-of-the-art approaches project 2D detections to 3D grids and reason jointly across views through computationally intensive volumetric convolutional neural networks [14] or Pictorial Structures (PSM) [22,21].",
+            "3": "[21] project 2D keypoint heatmaps to 3D grids and use Pictorial Structures aggregation to estimate 3D poses.",
+            "4": "Similar to other methods [19,21,27,15,22], we use all available views during training and inference.",
+            "5": "[21] 41."
+        },
+        "Context modeling in 3d human pose estimation: A unified perspective": {
+            "authors": [
+                "Xiaoxuan Ma",
+                "Jiajun Su",
+                "Chunyu Wang",
+                "Hai Ci",
+                "Yizhou Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Ma_Context_Modeling_in_3D_Human_Pose_Estimation_A_Unified_Perspective_CVPR_2021_paper.pdf",
+            "ref_texts": "[26] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for markerless 3D human pose annotations. In CVPR , pages 1253\u20131262, 2017. 2,3",
+            "ref_ids": [
+                "26"
+            ],
+            "1": "PSM [1,3,18,26,28] had been commonly used for both 2D and3D pose estimation before deep networks dominate the field.",
+            "2": "Some works [8,26,28] also combine PSM with deep learning by first applying CNN to estimate features and then using PSM to do inference on the features.",
+            "3": "To our best knowledge, there is no work discussing the pros and cons of PSM [1,3,18,26] and GNN [10,40] since they were developed in different fields.",
+            "4": "On the other hand, PSM-based methods [1,3,18,26,28] are more robust to occlusion and get better out-of-distribution generalization performance.",
+            "5": "Reformulate PSM PSM is commonly used in multiview 3D pose estimation [26,28]."
+        },
+        "Voxeltrack: Multi-person 3d human pose estimation and tracking in the wild": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2108.02452",
+            "ref_texts": ""
+        },
+        "Shape-aware multi-person pose estimation from multi-view images": {
+            "authors": [
+                "Zijian Dong",
+                "Jie Song",
+                "Xu Chen",
+                "Chen Guo",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Dong_Shape-Aware_Multi-Person_Pose_Estimation_From_Multi-View_Images_ICCV_2021_paper.pdf",
+            "ref_texts": "[36] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "Related Work A vast amount of work on single-person 3D pose estimation from monocular [8, 9, 11, 26, 36, 40, 40, 47] and multi-view [17, 20, 39] images exists."
+        },
+        "Cross-view tracking for multi-human 3d pose estimation at over 100 fps": {
+            "authors": [
+                "Long Chen",
+                "Haizhou Ai",
+                "Rui Chen",
+                "Zijie Zhuang",
+                "Shuang Liu"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Cross-View_Tracking_for_Multi-Human_3D_Pose_Estimation_at_Over_100_CVPR_2020_paper.pdf",
+            "ref_texts": "[27] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 2",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "Given images from multiple camera views, most previous methods [27,29,8,2] are generally based on the 3D Pictorial Structure model (3DPS) [8], which discretizes the 3-space by an N\u00d7N\u00d7Ngrid and assigns each joint to one of the N3bins (hypothesis)."
+        },
+        "Eventcap: Monocular 3d capture of high-speed human motions using an event camera": {
+            "authors": [
+                "Lan Xu",
+                "Weipeng Xu",
+                "Vladislav Golyanik",
+                "Marc Habermann",
+                "Lu Fang",
+                "Christian Theobalt"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_EventCap_Monocular_3D_Capture_of_High-Speed_Human_Motions_Using_an_CVPR_2020_paper.pdf",
+            "ref_texts": "[41] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017. 2",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Recent work [2,6,14,46,47,41,52] even demonstrates robust out-of-studio motion capture."
+        },
+        "Shape-aware human pose and shape reconstruction using multi-view images": {
+            "authors": [
+                "Junbang Liang",
+                "Ming C. Lin"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Liang_Shape-Aware_Human_Pose_and_Shape_Reconstruction_Using_Multi-View_Images_ICCV_2019_paper.pdf",
+            "ref_texts": "[32] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 3,8",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Learning-Based Pose/Shape Estimations Recently a number of methods have been proposed to improve the 3D pose estimation with calibrated multi-view input, either using LSTM [46,29], auto-encoder [36,45] or heat map refinement [32,44].",
+            "2": "[32] 56."
+        },
+        "Towards accurate marker-less human shape and pose estimation over time": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1707.07548",
+            "ref_texts": "[34] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Another very recent work, concurrent with ours, is the one proposed in [34].",
+            "2": "6M [23], and compared with state-of-the-art methods [5], [10], [18], [34], [39], [43].",
+            "3": "We compare it with SMPLify [12] and other state-of-the-art multi-view pose estimation methods [34].",
+            "4": "our 3D joint estimation accuracy is quite close to that of [34], which is concurrent with our work.",
+            "5": "[34] 41.",
+            "6": "[34] 119.",
+            "7": "[34] on H3.",
+            "8": "The accuracy of our method is comparable with that of the recent method proposed in [34].",
+            "9": "[34] G."
+        },
+        "Adafuse: Adaptive multiview fusion for accurate human pose estimation in the wild": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2010.13302",
+            "ref_texts": "617 Martinez J, Hossain R, Romero J, Little JJ (2017) A simple yet effective baseline for 3D human pose estimation. In: ICCV , p 5 Moeslund TB, Hilton A, Kr \u00a8uger V (2006) A survey of advances in vision-based human motion capture and analysis. Computer vision and image understanding 104(23):90\u2013126 Newell A, Yang K, Deng J (2016) Stacked hourglass networks for human pose estimation. In: ECCV , Springer, pp 483\u2013499 Pavlakos G, Zhou X, Derpanis KG, Daniilidis K (2017) Harvesting multiple views for marker-less 3D human pose annotations. In: CVPR, pp 1253\u20131262 Pavlakos G, Zhou X, Daniilidis K (2018) Ordinal depth supervision for 3d human pose estimation. In: CVPR, pp 7307\u20137316 Pavllo D, Feichtenhofer C, Grangier D, Auli M (2019) 3d human pose estimation in video with temporal convolutions and semi-supervised training. In: CVPR, pp 7753\u2013"
+        },
+        "Mo2Cap2: Real-time Mobile 3D Motion Capture with a Cap-mounted Fisheye Camera": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1803.05959",
+            "ref_texts": "[37] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017.",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "xxxxxxxposed, which use a single or multiple cameras placed statically around the user [13, 32, 33, 37, 40, 50].",
+            "2": "Marker-less motion-capture algorithms overcome this constraint [6, 15, 19, 25, 34, 48, 49, 53, 59, 61], with recent work [2, 7, 13, 37, 40, 42, 50] even succeeding in outdoor scenes and using fewer cameras.",
+            "3": "[37] G."
+        },
+        "Fusing wearable imus with multi-view images for human pose estimation: A geometric approach": {
+            "authors": [
+                "Zhe Zhang",
+                "Chunyu Wang",
+                "Wenhu Qin",
+                "Wenjun Zeng"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Fusing_Wearable_IMUs_With_Multi-View_Images_for_Human_Pose_Estimation_CVPR_2020_paper.pdf",
+            "ref_texts": "[16] Julieta Martinez, Rayat Hossain, Javier Romero, and James J Little. A simple yet effective baseline for 3D human pose estimation. In ICCV , page 5, 2017.[17] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , pages 1253\u20131262, 2017.",
+            "ref_ids": [
+                "16",
+                "17"
+            ],
+            "1": "With the development of deep learning models, the recent approaches [5, 17, 2, 20, 21, 26] have achieved promising results on the public datasets.",
+            "2": "In the second step, we estimate 3D pose from multi-view 2D poses (heatmaps) by a Pictorial Structure Model (PSM)\n[12, 17, 2].",
+            "3": "The previous works such as [17, 19] often use the limb length prior to prevent from generating abnormal 3D poses.",
+            "4": "With the development of deep learning, some approaches such as [20, 21, 16, 26, 10, 18] propose to learn a mapping from images to 3D pose in a supervised way.",
+            "5": "The third class of methods such as [1, 3, 17, 2, 7, 11, 4, 19] adopt a two-step framework.",
+            "6": "Following the previous works [12, 17, 2, 19], we use the pictorial model to estimate 3D pose as it is more robust to inaccurate 2D poses.",
+            "7": "[16] Julieta Martinez, Rayat Hossain, Javier Romero, and James J Little."
+        },
+        "Soccer on your tabletop": {
+            "authors": [
+                "Konstantinos Rematas",
+                "Ira Kemelmacher",
+                "Brian Curless",
+                "Steve Seitz"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Rematas_Soccer_on_Your_CVPR_2018_paper.pdf",
+            "ref_texts": "[36] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017. 2",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "In the case of a single camera, motion capture can be obtained using 3D pose estimators [35,36,30].",
+            "2": "2\n[36] G."
+        },
+        "Motion capture from internet videos": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2008.07931",
+            "ref_texts": "34. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harvesting multiple views for marker-less 3d human pose annotations. In: CVPR (2017)",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Hence, more recent works [41,4,34,22] generally tend to estimate 3D human body based on 2D features detected from images.",
+            "2": "[34] propose to use a ConvNet for 2D pose estimation and combine with the 3D pictorial structure model to 4 J."
+        },
+        "Skeleton-aware 3d human shape reconstruction from point clouds": {
+            "authors": [
+                "Haiyong Jiang",
+                "Jianfei Cai",
+                "Jianmin Zheng"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Skeleton-Aware_3D_Human_Shape_Reconstruction_From_Point_Clouds_ICCV_2019_paper.pdf",
+            "ref_texts": "[30] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In 2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Another category of related works is about human pose estimation [37, 38, 9, 29, 30], which focuses on predicting 2D or 3D joint positions.",
+            "2": "Recent works [37, 38, 30] harvest 3D joint prediction in an unsupervised way by exploring multiview consistency or geometry consistency, but do not explore joint dependency for pose estimation."
+        },
+        "Faster voxelpose: Real-time 3d human pose estimation by orthographic projection": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.10955",
+            "ref_texts": "27. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harvesting multiple views for marker-less 3D human pose annotations. In: CVPR (2017)",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "[27] applied CNN with 3D PSM for markerless motion capture."
+        },
+        "Rethinking pose in 3d: Multi-stage refinement and recovery for markerless motion capture": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1808.01525",
+            "ref_texts": "[21] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 6988\u2013",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[21] proposed a geometry-driven multi-view approach that automatically annotated images with 3D poses starting from generic 2D detections [18].",
+            "2": "Unlike approaches such as [6, 21, 36], we do not perform pose estimation1for each view before fusing them in a final stage.",
+            "3": "[21] with an improvement of more than 4milimetres.",
+            "4": "[21] 41.",
+            "5": "All methods above the first line are monocular while those below ([21, 36] and Ours ) are multi-camera approaches.",
+            "6": "3, 7\n[21] G."
+        },
+        "DeepFuse: An IMU-aware network for real-time 3D human pose estimation from multi-view image": {
+            "authors": [
+                "Fuyang Huang",
+                "Ailing Zeng",
+                "Minhao Liu",
+                "Qiuxia Lai",
+                "Qiang Xu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_WACV_2020/papers/Huang_DeepFuse_An_IMU-Aware_Network_for_Real-Time_3D_Human_Pose_Estimation_WACV_2020_paper.pdf",
+            "ref_texts": "[35] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. Conference on Computer Vision and Pattern Recognition , page 12531262, 2017.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Recently, many multi-view based methods[17, 43, 35, 10, 37, 19] try to get more effective and accurate information from different views.",
+            "2": "0 Pavlakos2017[35] \u00d7 41.",
+            "3": "[35] G."
+        },
+        "Animal pose estimation from video data with a hierarchical von Mises-Fisher-Gaussian model": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v130/zhang21h/zhang21h.pdf",
+            "ref_texts": "(3):480{490, Feb. 2017. A. Mathis, P. Mamidanna, K. M. Cury, T. Abe, V. N. Murthy, M. W. Mathis, and M. Bethge. DeepLabCut: markerless pose estimation of user-deffned body parts with deep learning. Nat. Neurosci. , 21(9):1281{1289, Sept. 2018. M. Mukhopadhyay, D. Li, and D. B. Dunson. Estimating densities with nonlinear support using FisherGaussian kernels. arXiv preprint arXiv:1907.05918 , 2019. S. Musall, A. E. Urai, D. Sussillo, and A. K. ChurchGIMBAL: A hierarchical von Mises-Fisher-Gaussian model land. Harnessing behavioral diversity to understand neural computations for cognition. Curr. Opin. Neurobiol. , 58:229{238, Oct. 2019. T. Nath, A. Mathis, A. C. Chen, A. Patel, M. Bethge, and M. W. Mathis. Using DeepLabCut for 3D markerless pose estimation across species and behaviors. Nat. Protoc. , 14(7):2152{2176, July 2019. R. Neal. MCMC using Hamiltonian dynamics. In S. Brooks, A. Gelman, G. Jones, and X.-L. Meng, editors, Handbook of Markov Chain Monte Carlo , pages 113{162. CRC Press, May 2011. G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6988{6997, 2017. T. D. Pereira, D. E. Aldarondo, L. Willmore, M. Kislin, S. S.-H. Wang, M. Murthy, and J. W. Shaevitz. Fast animal pose estimation using deep neural networks. Nat. Methods , 16(1):117{125, Jan."
+        },
+        "On boosting single-frame 3d human pose estimation via monocular videos": {
+            "authors": [
+                "Zhi Li",
+                "Xuan Wang",
+                "Fei Wang",
+                "Peilin Jiang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Li_On_Boosting_Single-Frame_3D_Human_Pose_Estimation_via_Monocular_Videos_ICCV_2019_paper.pdf",
+            "ref_texts": "[17] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Related Works Nowadays, 3D human pose estimation [4, 6, 20, 11, 17, 16, 15, 19, 21, 22, 24, 25, 26, 28, 29, 30] has grown to the point where it can yield accurate poses even in realtime.",
+            "2": "Given the generic 2D pose detector, the method in [17] automatically collects the annotations relying on the constraints from the calibrated multi-camera system."
+        },
+        "Deformation-aware unpaired image translation for pose estimation on laboratory animals": {
+            "authors": [
+                "Siyuan Li",
+                "Semih Gunel",
+                "Mirela Ostrek",
+                "Pavan Ramdya",
+                "Pascal Fua",
+                "Helge Rhodin"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Deformation-Aware_Unpaired_Image_Translation_for_Pose_Estimation_on_Laboratory_Animals_CVPR_2020_paper.pdf",
+            "ref_texts": "[32] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. InCVPR , 2017. 2",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "There is also a wide literature on capturing 3D pose directly from images, or as a function of 2D keypoints instead [35,29,39,32,61,44,33]."
+        },
+        "Learnable human mesh triangulation for 3d human pose and shape estimation": {
+            "authors": [
+                "Sungho Chun",
+                "Sungbum Park",
+                "Ju Yong"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Chun_Learnable_Human_Mesh_Triangulation_for_3D_Human_Pose_and_Shape_WACV_2023_paper.pdf",
+            "ref_texts": "[29] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , 2017.",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Multi-view Joint Estimation Many methods [9, 11, 12, 29, 30, 36, 40] have been proposed to estimate the 3D human pose in the form of joint coordinates from the input multi-view images."
+        },
+        "Part-aware measurement for robust multi-view multi-human 3d pose estimation and tracking": {
+            "authors": [
+                "Hau Chu",
+                "Hong Lee",
+                "Chih Lee",
+                "Hsien Hsu",
+                "Da Li",
+                "Song Chen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021W/AMFG/papers/Chu_Part-Aware_Measurement_for_Robust_Multi-View_Multi-Human_3D_Pose_Estimation_and_CVPRW_2021_paper.pdf",
+            "ref_texts": "[25] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Introduction Multi-human 3D pose estimation and tracking based on multi-view streaming videos have many applications, including marker-less motion capture [20,12,35,25], sports analysis [4], and video surveillance [7].",
+            "2": "Most previous approaches [3,25,27] for singleperson 3D pose estimation are developed based on the 3D Pictorial Structure model (3DPS) [5], which discretizes the 3D-space as a grid and assigns each joint to one assumed location in the grid."
+        },
+        "Neural scene decomposition for multi-person motion capture": {
+            "authors": [
+                "Helge Rhodin",
+                "Victor Constantin",
+                "Isinsu Katircioglu",
+                "Mathieu Salzmann",
+                "Pascal Fua"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Rhodin_Neural_Scene_Decomposition_for_Multi-Person_Motion_Capture_CVPR_2019_paper.pdf",
+            "ref_texts": "[42] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In Conference on Computer Vision and Pattern Recognition , 2017. 2",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "In practice, this data bottleneck starkly limits the applicability of deep learningbased single [41,67,45,38,34,37,51,42,89,63,59] and multi-person [36,52,83] 3D pose estimation methods.",
+            "2": "This has been exploited via transfer learning [37], cross-modal vari-ational [58] and adversarial [81] learning both 2D and 3D pose estimation; minimizing the re-projection error of 3D poses to 2D labels in single [89,28,30] and multiple views [22,42]; annotating the joint depth order instead of the absolute position [44,40]; re-projection to silhouettes [60,73,23,43,74].",
+            "3": "2\n[42] G."
+        },
+        "A generalizable approach for multi-view 3d human pose regression": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1804.10462",
+            "ref_texts": "34. Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 1253{",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "Secondly, current multi-view approaches [38, 13, 34] learn model parameters that are speciffc to each multi-view camera setup.",
+            "2": "[34] has used deep neural network to predict body part score maps across all views and then estimated body poses by using a 3D pictorial structures approach.",
+            "3": "Training the model<MV, [10]>on 2D pose detections by the same detector model as the one used at test time achieves the average MPJPE of 49 millimeters, which outperforms [34].",
+            "4": "[34] 41.",
+            "5": "6M this model performs similarly to [34], which has been trained on Human3."
+        },
+        "Pedx: Benchmark dataset for metric 3-d pose estimation of pedestrians in complex urban intersections": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1809.03605",
+            "ref_texts": "[27] D. Mehta, H. Rhodin, D. Casas, P. Fua, O. Sotnychenko, W. Xu, and C. Theobalt, \u201cMonocular 3d human pose estimation in the wild using improved cnn supervision,\u201d in 3D Vision (3DV), 2017 Fifth International Conference on . IEEE, 2017. [Online]. Available: http://gvv.mpi-inf.mpg.de/3dhp dataset [28] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in 2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR",
+            "ref_ids": [
+                "27",
+                "Online",
+                "28"
+            ],
+            "1": "While there have been attempts to improve the photo-realism of these synthetic data generation pipelines [25], [26], [27], state-of-the-art synthetic images are still easy to distinguish from real images.",
+            "2": "Others have explored techniques to automatically do 3D labeling with limited human intervention [28], [17], [29].",
+            "3": "For instance, some have taken advantage of a multiview camera setup to obtain reliable 3D annotations using optimization [28].",
+            "4": "[27] D.",
+            "5": "[Online].",
+            "6": "de/3dhp dataset [28] G."
+        },
+        "Adaptive multi-view and temporal fusing transformer for 3d human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.05092",
+            "ref_texts": "[62] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2017, pp. 6988\u20136997. 6, 7",
+            "ref_ids": [
+                "62"
+            ],
+            "1": "[62] (*, T= 1) 41.",
+            "2": "Compared to multi-view methods with camera calibration, MTFTransformer is superior to [62], [64], and [21] but inferior to others.",
+            "3": "6, 12\n[62] G."
+        },
+        "Kama: 3d keypoint aware body mesh articulation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2104.13502",
+            "ref_texts": "[54] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017. 2",
+            "ref_ids": [
+                "54"
+            ],
+            "1": "Since the acquisition of ground-truth 3D data is very hard, many recent works try to learn 3D keypoint regressors in semi [37, 56, 58, 59, 76, 78] and weakly [9, 15, 23, 29, 33, 47, 49, 54, 74, 75] supervised ways."
+        },
+        "Challencap: Monocular 3d capture of challenging human performances using multi-modal references": {
+            "authors": [
+                "Yannan He",
+                "Anqi Pang",
+                "Xin Chen",
+                "Han Liang",
+                "Minye Wu",
+                "Yuexin Ma",
+                "Lan Xu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/He_ChallenCap_Monocular_3D_Capture_of_Challenging_Human_Performances_Using_Multi-Modal_CVPR_2021_paper.pdf",
+            "ref_texts": "[50] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017. 2",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Early solutions [18,60,40,53,50,56,72] require 11401\n\n\u00d7Sparse -view References."
+        },
+        "Weakly supervised adversarial learning for 3D human pose estimation from point clouds": {
+            "authors": [
+                "Zihao Zhang",
+                "Lei Hu",
+                "Xiaoming Deng",
+                "Shihong Xia"
+            ],
+            "url": "http://www.idengxm.com/paper/tvcg_2020.pdf",
+            "ref_texts": "[22] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on Computer Vision and Pattern Recognition , pp.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Recently, several 3D human pose estimation methods using weakly-supervised manner are proposed [14, 22, 27, 38].",
+            "2": "[22] propose a pictorial structure model to predict human pose from the multi-view heatmaps.",
+            "3": "[22] G."
+        },
+        "Metafuse: A pre-trained fusion model for human pose estimation": {
+            "authors": [
+                "Rongchang Xie",
+                "Chunyu Wang",
+                "Yizhou Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_MetaFuse_A_Pre-trained_Fusion_Model_for_Human_Pose_Estimation_CVPR_2020_paper.pdf",
+            "ref_texts": "[24] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , pages 1253\u20131262, 2017.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "With the development of 2D pose estimation techniques, some approaches such as [1, 7, 6, 24, 4, 8, 25] adopt a simple two-step framework.",
+            "2": "Later the authors in [6] and in [24] propose to apply a multi-view pictorial structure model to recover 3D poses.",
+            "3": "3mm Pavlakos [24] \u2713 56."
+        },
+        "Distill knowledge from nrsfm for weakly supervised 3d pose learning": {
+            "authors": [
+                "Chaoyang Wang",
+                "Chen Kong",
+                "Simon Lucey"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Distill_Knowledge_From_NRSfM_for_Weakly_Supervised_3D_Pose_Learning_ICCV_2019_paper.pdf",
+            "ref_texts": "[30] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 2",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Weakly supervised 3D pose learning Most 3D pose estimation methods [36,30,29,47,45,44,28,8,26,6] are fully supervised."
+        },
+        "Monet: Multiview semi-supervised keypoint detection via epipolar divergence": {
+            "authors": [
+                "Yuan Yao",
+                "Yasamin Jafarian",
+                "Hyun Soo"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yao_MONET_Multiview_Semi-Supervised_Keypoint_Detection_via_Epipolar_Divergence_ICCV_2019_paper.pdf",
+            "ref_texts": "[46] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for markerless 3d human pose annotations. In CVPR , 2017. 3",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "Semi-supervised and weakly-supervised learning frameworks train CNN models with limited number of training data [5,23,36,38,45,46,59,61,66,75].",
+            "2": "Active learning that finds the most informative images to be annotated can alleviate the amount of labeling effort [38], and geometric [46] and temporal [23] in 2D [30] and 3D [27,72] consistency can also be used to augment annotation data."
+        },
+        "Real-time multi-view 3D human pose estimation using semantic feedback to smart edge sensors": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2106.14729",
+            "ref_texts": "[23] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , pages 1253\u20131262, 2017.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Most state-of-the-art methods [24, 23, 7, 26, 9] follow a two-step approach: First, 2D pose detections are generated for each available view (cf.",
+            "2": "With the increasing success of deeplearning methods, more recent approaches [24, 23, 9] employ 2D convolutional neural networks (CNNs) for human joint detection [6, 30] and recover the 3D pose using variants of the Pictorial Structures Model (PSM) [2, 5].",
+            "3": "[23] 41.",
+            "4": "As is common practice in literature [24, 23, 29], we use subjects 1, 5, 6, 7, 8 for training and subjects 9 and 11 for testing.",
+            "5": "The recent approaches [24] and [26] as well as our method provide significant improvements over the older methods [23] and [29]."
+        },
+        "Geometry-driven self-supervised method for 3d human pose estimation": {
+            "authors": [
+                "Yang Li",
+                "Kan Li",
+                "Shuai Jiang",
+                "Ziyue Zhang",
+                "Congzhentao Huang",
+                "Richard Yi",
+                "Da Xu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/6808/6662",
+            "ref_texts": ""
+        },
+        "Mining multi-view information: a strong self-supervised framework for depth-based 3D hand pose and mesh estimation": {
+            "authors": [
+                "Pengfei Ren",
+                "Haifeng Sun",
+                "Jiachang Hao",
+                "Jingyu Wang",
+                "Qi Qi",
+                "Jianxin Liao"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Mining_Multi-View_Information_A_Strong_Self-Supervised_Framework_for_Depth-Based_3D_CVPR_2022_paper.pdf",
+            "ref_texts": "[35] Markus Oberweger, Paul Wohlhart, and Vincent Lepetit. Training a feedback loop for hand pose estimation. In Proceedings of the IEEE International Conference on Computer Vision , pages 3316\u20133324, December 2015. 2[36] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 2",
+            "ref_ids": [
+                "35",
+                "36"
+            ],
+            "1": "Learning-based methods [3,4,11\u201313,15,17,20,30,31,34,35,41,54,59,69] use labeled data to learn a hand pose estimator.",
+            "2": "Some methods [22, 36, 38] project estimated 2D heatmaps in each view to a 3D volume and estimate the 3D pose from 20556\n UGCN Encoder Lms \ud835\udc17\ud835\udc17\ud835\udfcf\ud835\udfcf\ud835\udc60\ud835\udc60\n\ud835\udc17\ud835\udc17\ud835\udfcf\ud835\udfcf\ud835\udc91\ud835\udc91\ud835\udc16\ud835\udc16\ud835\udfcf\ud835\udfcf\n\ud835\udc09\ud835\udc09\ud835\udfcf\ud835\udfcf\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f \ud835\udc07\ud835\udc07\ud835\udfcf\ud835\udfcf\ud835\udc03\ud835\udc03\ud835\udfcf\ud835\udfcf&\n\ud835\udc09\ud835\udc09\ud835\udfcf\ud835\udfcf\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc05\ud835\udc05\ud835\udfcf\ud835\udfcfEncoder DecoderRegressor Conv Conv UGCN Decoder \ud835\udc09\ud835\udc09\ud835\udc6d\ud835\udc6d\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\n\ud835\udc0c\ud835\udc0c\ud835\udfcf\ud835\udfcf\n\ud835\udc0c\ud835\udc0c\ud835\udc6d\ud835\udc6dF A P\n\ud835\udc09\ud835\udc09\ud835\udc6d\ud835\udc6d\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6fRegressor Single -view Estimation Network\ud835\udc08\ud835\udc08\ud835\udfcf\ud835\udfcf\n\ud835\udc08\ud835\udc08\ud835\udc75\ud835\udc75Cross-view Fusion Network Lsm + Lcm \u0302\ud835\udc09\ud835\udc09\ud835\udfcf\ud835\udfcf\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\n\ud835\udc0e\ud835\udc0e\ud835\udfcf\ud835\udfcf\n\u0302\ud835\udc09\ud835\udc09\ud835\udc75\ud835\udc75\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\ud835\udc6f\n\ud835\udc0e\ud835\udc0e\ud835\udc75\ud835\udc75 Graph Construction\ud835\udc17\ud835\udc17\ud835\udfcf\ud835\udfcfFVisual Feature Embedding AAdaptive Weighting Regression PCoordinate Projection Data Flow Loss Flow Confidence Lsm + Lcm+ LmsFigure 1.",
+            "3": "2\n[35] Markus Oberweger, Paul Wohlhart, and Vincent Lepetit."
+        },
+        "3D human pose and shape estimation through collaborative learning and multi-view model-fitting": {
+            "authors": [
+                "Zhongguo Li",
+                "Magnus Oskarsson",
+                "Anders Heyden"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2021/papers/Li_3D_Human_Pose_and_Shape_Estimation_Through_Collaborative_Learning_and_WACV_2021_paper.pdf",
+            "ref_texts": "[30] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "On the other hand, regression-based methods for human pose and shape estimation have attracted much research with the significant achievements of deep neural networks in many image processing problems [36,42,26,38,30,35, 37].",
+            "2": "Regression-based methods have also been developed and achieved significant success on 2D [36,42,7] and 3D hu1889\n man pose estimation [30,38,9,37,35].",
+            "3": "[30] 56."
+        },
+        "3d human pose estimation with relational networks": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1805.08961",
+            "ref_texts": "[25] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derp anis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose ann otations. In The IEEE Conference on Computer Vision and Pattern Recognition (CVP R), July 2017.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "There are a few approaches that exploit temporal informatio n using various methods such asovercomplete dictionaries [38,39], 3D CNNs [7], sequence-to-sequence networks [10], andmultiple-view settings [25]."
+        },
+        "Activemocap: Optimized viewpoint selection for active human motion capture": {
+            "authors": [
+                "Sena Kiciroglu",
+                "Helge Rhodin",
+                "Sudipta N. Sinha",
+                "Mathieu Salzmann",
+                "Pascal Fua"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Kiciroglu_ActiveMoCap_Optimized_Viewpoint_Selection_for_Active_Human_Motion_Capture_CVPR_2020_paper.pdf",
+            "ref_texts": "[22] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Related work Most recent approaches to markerless motion capture rely on deep networks that regress 3D pose from monocular images [16, 17, 21, 38, 25, 31, 22, 44, 36, 34, 41, 39, 15].",
+            "2": "[22] G."
+        },
+        "Towards part-aware monocular 3d human pose estimation: An architecture search approach": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480715.pdf",
+            "ref_texts": "41. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harvesting multiple views for marker-less 3d human pose annotations. In: CVPR (2017)",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Compared with multi-view methods [43, 19, 61, 41, 52], monocular 3D human pose estimation is more exible for deployment in outdoor environments."
+        },
+        "Capturing detailed deformations of moving human bodies": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2102.07343",
+            "ref_texts": ""
+        },
+        "Proactive Multi-Camera Collaboration For 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2303.03767",
+            "ref_texts": "3286\u20133295, 2018. Wenhan Luo, Peng Sun, Fangwei Zhong, Wei Liu, Tong Zhang, and Yizhou Wang. End-to-end active object tracking and its real-world deployment via reinforcement learning. IEEE Transactions on Pattern Analysis and Machine Intelligence , 42(6):1317\u20131332, 2019. Xiaoxuan Ma, Jiajun Su, Chunyu Wang, Hai Ci, and Yizhou Wang. Context modeling in 3d human pose estimation: A unified perspective. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 6238\u20136247, 2021. Julieta Martinez, Rayat Hossain, Javier Romero, and James J Little. A simple yet effective baseline for 3d human pose estimation. In Proceedings of the IEEE International Conference on Computer Vision , pp. 2640\u20132649, 2017. Takashi Matsuyama, Shohei Nobuhara, Takeshi Takai, and Tony Tung. Active camera system for object tracking and multi-view observation. In 3D Video and Its Applications , pp. 45\u201385. Springer, 2012. Dushyant Mehta, Srinath Sridhar, Oleksandr Sotnychenko, Helge Rhodin, Mohammad Shafiei, HansPeter Seidel, Weipeng Xu, Dan Casas, and Christian Theobalt. Vnect: Real-time 3d human pose estimation with a single rgb camera. ACM Transactions on Graphics (TOG) , 36(4):1\u201314, 2017. Tobias N\u00e4geli, Samuel Oberholzer, Silvan Pl\u00fcss, Javier Alonso-Mora, and Otmar Hilliges. Flycon: real-time environment-independent multi-view human pose estimation with aerial vehicles. ACM Transactions on Graphics (TOG) , 37(6):1\u201314, 2018. Xuehai Pan, Mickel Liu, Fangwei Zhong, Yaodong Yang, Song-Chun Zhu, and Yizhou Wang. MATE: Benchmarking multi-agent reinforcement learning in distributed target coverage control. In Thirtysixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track , 2022. URL https://openreview.net/forum?id=SyoUVEyzJbE . Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Coarse-to-fine volumetric prediction for single-image 3d human pose. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 7025\u20137034, 2017a. Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 6988\u20136997, 2017b. Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, and Kostas Daniilidis. Learning to estimate 3d human pose and shape from a single color image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 459\u2013468, 2018. Dario Pavllo, Christoph Feichtenhofer, David Grangier, and Michael Auli. 3d human pose estimation in video with temporal convolutions and semi-supervised training. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 7753\u20137762, 2019. Aleksis Pirinen, Erik G\u00e4rtner, and Cristian Sminchisescu. Domes to drones: Self-supervised active triangulation for 3d human pose reconstruction. Advances in Neural Information Processing Systems , 32, 2019. Haibo Qiu, Chunyu Wang, Jingdong Wang, Naiyan Wang, and Wenjun Zeng. Cross view fusion for 3d human pose estimation. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pp. 4342\u20134351, 2019. Weichao Qiu, Fangwei Zhong, Yi Zhang, Siyuan Qiao, Zihao Xiao, Tae Soo Kim, and Yizhou Wang. Unrealcv: Virtual worlds for computer vision. In Proceedings of the 25th ACM International Conference on Multimedia , pp. 1221\u20131224, 2017."
+        },
+        "Weakly-supervised 3D human pose estimation with cross-view U-shaped graph convolutional network": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.10882",
+            "ref_texts": "[8] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3D human pose annotations,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2017, pp. 6988\u20136997.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "Instead, exploiting multiview information is arguably the best way to achieve absolute 3D pose estimation [8].",
+            "2": "Many existing multi-view based methods [9]\u2013[11] follow a pipeline that first takes multi-view images as input to predict 2D detection heatmaps and then projects them to 3D poses through volumetric convolutional networks or Pictorial Structure Model (PSM) [8], [12], as shown in Figure 1 (a).",
+            "3": "(CVPR\u201917) [8] 4X 41.",
+            "4": "[8] G."
+        },
+        "Hybridcap: Inertia-aid monocular capture of challenging human motions": {
+            "authors": [
+                "Han Liang",
+                "Yannan He",
+                "Chengfeng Zhao",
+                "Mutian Li",
+                "Jingya Wang",
+                "Jingyi Yu",
+                "Lan Xu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25240/25012",
+            "ref_texts": ""
+        },
+        "Iterative greedy matching for 3d human pose tracking from multiple views": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2101.09745",
+            "ref_texts": "[34] Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harvesting Multiple Views for Marker-less 3D Human Pose Annotations. In: Conference on Computer Vision and Pattern Recognition (2017)",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "In contrast to previous works [7,23,34,13], our approach does not discretize the solution space but combines triangulation with an efficient pose association approach across camera views and time.",
+            "2": "While multiple views are used in [34,35] to guide the training for monocular 3D pose estimation, there are also approaches that use multiple views for inference.",
+            "3": "A common technique to estimate a single 3D human pose from multiple views is to extend the well-known pictorial structure model [14] to 3D [2,5,7,23,34].",
+            "4": "[34] outperform all previous models by utilizing the stacked hourglass network [32] to extract human joint confidence maps from the camera views.",
+            "5": "[7]*[23]*[34]*[3] [4] [13] Ours Ours+ ua .",
+            "6": "Typical methods [7, 23,34] find a solution over the complete discretized state space which is intractable for multiple persons.",
+            "7": "Our model outperforms all other multi-person approaches and gets close to the state-of-the-art for single human pose estimation [34] which makes strong 1https://github.",
+            "8": "In: Conference on Computer Vision and Pattern Recognition (2017)\n[34] Pavlakos, G."
+        },
+        "Flex: Extrinsic parameters-free multi-view 3d human motion reconstruction": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2105.01937",
+            "ref_texts": ""
+        },
+        "Semi-and weakly-supervised human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1906.01399",
+            "ref_texts": "[23] G. Pavlakos, X. Zhou, K. G. Derpanis, K. Daniilidis, Harvesting multiple views for marker-less 3D human pose annotations, in: CVPR, 2017.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Pose estimation using DCNNs is also extended to a variety of scenarios such as personalized pose estimation in videos [22] and 3D pose estimation with multiple views [23].",
+            "2": "[23] G."
+        },
+        "Vehicle pose and shape estimation through multiple monocular vision": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1802.03515",
+            "ref_texts": "[12] G. Pavlakos, X. Zhou, K. G. Derpanis and K. Daniilidis, \u201cHarvesting Multiple Views for Marker-less 3D Human Pose Annotations,\u201d in Proc.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Most multi-camera systems are applied to the field of human pose estimation, such as [12], [13], [14].",
+            "2": "[14] utilized random forest to classify each pixel in each image, [12] recovered a volumetric prediction from multiple images.",
+            "3": "[12] G."
+        },
+        "Unsupervised domain adaptation for 3D human pose estimation": {
+            "authors": [],
+            "url": "http://zju-capg.org/unsupervised_domain_adaptation/main.pdf",
+            "ref_texts": "[38] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. 2017. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR . 6988\u20136997.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "To overcome the limitation of existing 3D human pose datasets, researchers have either resorted to weakly supervised approaches [38,43,52] to reduce the demand of ground-truth training data, or using synthetically-generated but photo-realistic images of people rendered from MoCap data to enlarge the training data pool [44].",
+            "2": "On the one hand, the previous weakly-supervised methods, in addition to ground-truth 2D poses, mainly require either additional supervision such as unpaired 3D ground-truth data [50], a small subset of labels [42], or extrinsic camera parameters in multi-view settings [38].",
+            "3": "In [38], Pavlakos et al.",
+            "4": "[38] 118."
+        },
+        "MBW: Multi-view Bootstrapping in the Wild": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/144258c36a5559a6cf9f7d53a527eb57-Paper-Datasets_and_Benchmarks.pdf",
+            "ref_texts": "[21] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "[21] 41."
+        },
+        "On Triangulation as a Form of Self-Supervision for 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2203.15865",
+            "ref_texts": "33. Pavlakos, G., Zhou, X., Konstantinos, K.D.G., Kostas, D.: Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In: Conference on Computer Vision and Pattern Recognition (2017) 2 Robust Weighted Triangulation 19",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "Thus, in recent years, the attention has shifted from learning 3D human poses in fully supervised setups to semior weaklysupervised ones [3, 14, 30, 33, 46, 47], with a view to drastically reduce the required amount of annotated images."
+        },
+        "DensePose 3D: Lifting canonical surface maps of articulated objects to the third dimension": {
+            "authors": [
+                "Roman Shapovalov",
+                "David Novotny",
+                "Benjamin Graham",
+                "Patrick Labatut",
+                "Andrea Vedaldi"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Shapovalov_DensePose_3D_Lifting_Canonical_Surface_Maps_of_Articulated_Objects_to_ICCV_2021_paper.pdf",
+            "ref_texts": "[46] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In IEEE Conf. Comput. Vis. Pattern Recog. , 2017. 3",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "Some works leverages multi-view constraints [27,46,47] while Pavlakos et al."
+        },
+        "POEM: Reconstructing Hand in a Point Embedded Multi-view Stereo": {
+            "authors": [
+                "Lixin Yang",
+                "Jian Xu",
+                "Licheng Zhong",
+                "Xinyu Zhan",
+                "Zhicheng Wang",
+                "Kejian Wu",
+                "Cewu Lu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Yang_POEM_Reconstructing_Hand_in_a_Point_Embedded_Multi-View_Stereo_CVPR_2023_paper.pdf",
+            "ref_texts": "[33] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017. 1, 2",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "algebraic triangulation [17,18,39], Pictorial Structures Model (PSM) [33, 38], 3D CNN [18, 43], This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+            "2": "The features are fused in a 3D voxel space via PSM [33, 38] or 3D CNNs [18, 43]; (3) Fusing via 3D-2D projection."
+        },
+        "Multi-hypothesis 3D human pose estimation metrics favor miscalibrated distributions": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2210.11179",
+            "ref_texts": "625\u2013632, New York, NY , USA, August 2005. Association for Computing Machinery. Tuomas P. Oikarinen, Daniel C. Hannah, and Sohrob Kazerounian. Graphmdn: Leveraging graph structure and deep learning to solve inverse problems. arXiv [cs.LG] , Oct 2020. doi: 10.48550/ ARXIV .2010.13668. URL http://arxiv.org/abs/2010.13668 . Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Coarse-to-Fine volumetric prediction for Single-Image 3D human pose. November 2016. Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR , 2017. Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, and Kostas Daniilidis. Learning to estimate 3D human pose and shape from a single color image. May 2018. Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, and Max Welling. Modeling relational data with graph convolutional networks. The Semantic Web , pp."
+        },
+        "MocapNET: Ensemble of SNN Encoders for 3D Human Pose Estimation in RGB Images.": {
+            "authors": [],
+            "url": "https://bmvc2019.org/wp-content/uploads/papers/0710-paper.pdf",
+            "ref_texts": "[48] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "Other works are focused in acquiring 3D points from 2D images using either a single [47], or more cameras [19, 48]."
+        },
+        "LiDAR-aid Inertial Poser: Large-scale Human Motion Capture by Sparse Inertial and LiDAR Sensors": {
+            "authors": [
+                "Yiming Ren",
+                "Chengfeng Zhao",
+                "Yannan He",
+                "Peishan Cong",
+                "Han Liang",
+                "Jingyi Yu",
+                "Lan Xu",
+                "Yuexin Ma"
+            ],
+            "url": "https://arxiv.org/pdf/2205.15410",
+            "ref_texts": "[47] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "Previous multi-view algorithms [1, 6, 10, 47, 51, 52, 57] demonstrate robust motion capture even in the wild.",
+            "2": "[47] G."
+        },
+        "Multi-view pose generator based on deep learning for monocular 3d human pose estimation": {
+            "authors": [],
+            "url": "https://www.mdpi.com/2073-8994/12/7/1116/pdf",
+            "ref_texts": "23. Pavlakos, G.; Zhou, X.; Derpanis, K.G.; Daniilidis, K. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Honolulu, HI, USA, 21\u201326 July 2017; pp. 6988\u20136997.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "To alleviate this problem, the majority of conducted research have focused on using weakly or self-supervised training methods to harvest annotations from different perspectives [12,23], or fusing features to achieve better results with as few perspectives as possible [17,19,21,24,25], such as, fusing the Inertial Measurement Unit (IMU) data and vision data to achieve better results [21,24], using multi-camera setup as an additional training source and fusing it with 3D models generated by individual cameras [25], and cross-view fusion [17]."
+        },
+        "Progressive Multi-View Human Mesh Recovery with Self-Supervision": {
+            "authors": [
+                "Xuan Gong",
+                "Liangchen Song",
+                "Meng Zheng",
+                "Benjamin Planche",
+                "Terrence Chen",
+                "Junsong Yuan",
+                "David Doermann",
+                "Ziyan Wu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25144/24916",
+            "ref_texts": "2017. Harvesting multiple views for marker-less 3d human pose annotations. In CVPR, 6988\u20136997. Pavlakos, G.; Zhu, L.; Zhou, X.; and Daniilidis, K. 2018. Learning to estimate 3D human pose and shape from a single color image. In CVPR, 459\u2013468. Pavllo, D.; Feichtenhofer, C.; Grangier, D.; and Auli, M.",
+            "ref_ids": [
+                "2017"
+            ]
+        },
+        "Epipolar transformer for multi-view human pose estimation": {
+            "authors": [
+                "Yihui He",
+                "Rui Yan",
+                "Katerina Fragkiadaki",
+                "I Yu"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPRW_2020/papers/w70/He_Epipolar_Transformer_for_Multi-View_Human_Pose_Estimation_CVPRW_2020_paper.pdf",
+            "ref_texts": "[15] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 4",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "[15] 41."
+        },
+        "Structural Triangulation: A Closed-Form Solution to Constrained 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650685.pdf",
+            "ref_texts": "24. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harvesting multiple views for marker-less 3d human pose annotations. In: CVPR (2017)",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "To overcome this shortcoming, some methods, like 3DPSM [4,24] and post-process methods [10,19] are proposed, and exceed previous methods in precision so the effectiveness of using human priors is demonstrated."
+        },
+        "Consensus-based optimization for 3D human pose estimation in camera coordinates": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1911.09245",
+            "ref_texts": "[38] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting Multiple Views for Marker-less 3D Human Pose Annotations. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2017. 3, 9",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Deep neural networks have been used to estimate relative 3D poses from a set of 2D predictions from different views [42, 38, 36].",
+            "2": "[38] proposed to collect 3D poses from 2D multi-view image, which are used to learn a second model to perform 3D estimations.",
+            "3": "[38] GT 41.",
+            "4": "[38] GT 97.",
+            "5": "2, 4, 7\n[38] G."
+        },
+        "What face and body shapes can tell us about height": {
+            "authors": [
+                "Semih Gunel",
+                "Helge Rhodin",
+                "Pascal Fua"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/WIDER/Gunel_What_Face_and_Body_Shapes_Can_Tell_Us_About_Height_ICCVW_2019_paper.pdf",
+            "ref_texts": "[38] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas, \u201cHarvesting Multiple Views for MarkerLess 3D Human Pose Annotations,\u201d in Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Our network architecture is inspired by deep networks used for 3D human pose prediction [33, 34, 35, 36, 37, 38, 39, 40].",
+            "2": "[38] G."
+        },
+        "What Face and Body Shapes Can Tell Us About Height.": {
+            "authors": [
+                "Semih Gunel",
+                "Helge Rhodin",
+                "Pascal Fua"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/WIDER/Gunel_What_Face_and_Body_Shapes_Can_Tell_Us_About_Height_ICCVW_2019_paper.pdf",
+            "ref_texts": "[38] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas, \u201cHarvesting Multiple Views for MarkerLess 3D Human Pose Annotations,\u201d in Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Our network architecture is inspired by deep networks used for 3D human pose prediction [33, 34, 35, 36, 37, 38, 39, 40].",
+            "2": "[38] G."
+        },
+        "Self-supervised multi-view synchronization learning for 3d pose estimation": {
+            "authors": [
+                "Simon Jenni",
+                "Paolo Favaro"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ACCV2020/papers/Jenni_Self-Supervised_Multi-View_Synchronization_Learning_for_3D_Pose_Estimation_ACCV_2020_paper.pdf",
+            "ref_texts": "29. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K.: Harv esting multiple views formarker-less3d human poseannotations. In:Proceedingsofth eIEEEconference on computer vision and pattern recognition. (2017) 6988\u20136997",
+            "ref_ids": [
+                "29"
+            ]
+        },
+        "Motion capture from pan-tilt cameras with unknown orientation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/1908.11676",
+            "ref_texts": "[30] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. 2017. 1, 2",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Recent deep-learning-based monocular human pose estimation methods are able to reconstruct articulated 3D pose from moving cameras [23, 24, 29, 42, 31, 27, 36, 30, 44, 41, 39, 43], however, only relative to the camera pose and without accurate scale and depth information [14].",
+            "2": "[30] propose to extend pictorial structure models by taking CNN generated 2D heatmaps and resolving the 3D structure in a quantized grid by maximizing a likelihood term explaining the 2D detections.",
+            "3": "1\n[30] G."
+        },
+        "A review of 3D human pose estimation from 2D images": {
+            "authors": [],
+            "url": "http://www.3dbodyscanning.org/cap/papers/2020/2029bartol.pdf",
+            "ref_texts": ""
+        },
+        "Matching and recovering 3D people from multiple views": {
+            "authors": [
+                "Alejandro Perez",
+                "Antonio Agudo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2022/papers/Perez-Yus_Matching_and_Recovering_3D_People_From_Multiple_Views_WACV_2022_paper.pdf",
+            "ref_texts": "[43] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In CVPR , 2017.",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "More recently, 3DPS-based models were used to train a network to infer the 3D pose from a single image [43].",
+            "2": "7\n[43] 100.",
+            "3": "We observe that [43] reported perfect results here, but it is important to point out that said method only works for one single human.",
+            "4": "[43] G."
+        },
+        "Multi-view human pose and shape estimation using learnable volumetric aggregation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2011.13427",
+            "ref_texts": "[31] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , Jul 2017.",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "One major approach for 3D keypoint detection is to aggregate information from multiple viewpoints into volumetric 3D space [12, 31, 9]."
+        },
+        "High Fidelity 3D Reconstructions with Limited Physical Views": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2110.11599",
+            "ref_texts": "[41] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views formarker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 2, 7, 8",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "[18] and others [43, 21, 49, 41] have explored how supervised learning can be used to enhance multi-view reconstruction.",
+            "2": "Generation to unseen 2D data Several multi-view approaches exists for 3D human pose estimation that leverage either full or weak 3D supervision [18, 43, 21, 49, 41, 44, 25].",
+            "3": "[41] 56."
+        },
+        "Fixing implicit derivatives: Trust-region based learning of continuous energy functions": {
+            "authors": [
+                "Chris Russell",
+                "Matteo Toso",
+                "Neill Campbell"
+            ],
+            "url": "https://proceedings.neurips.cc/paper/2019/file/b0b183c207f46f0cca7dc63b2604f5cc-Paper.pdf",
+            "ref_texts": "[38] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3D human pose annotations. In Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "The closest competitor [38] made use of a personalised model of 2D joint appearance while we learn a better model for fitting 3D pose; as such, the two approaches are strongly complementary.",
+            "2": "[38] (a) 41.",
+            "3": "[38] (b) 46."
+        },
+        "A Distributed Real-time 3D Pose Estimation Framework based on Asynchronous Multiviews": {
+            "authors": [],
+            "url": "https://itiis.org/journals/tiis/digital-library/manuscript/file/38401/TIIS%20Vol%2017,%20No%202-15.pdf",
+            "ref_texts": "[25] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting Multiple Views for Marker Less 3D Human Pose Annotations,\u201d in Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, HI, USA, pp. 6988\u2013 6997, 2017. Article (CrossRef Link) ",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "combine d each 2D joint heatmap obtained from multi ple view s using a 3D pictorial structures model [25].",
+            "2": "Article (CrossRef Link) \n[25] G."
+        },
+        "Temporal Representation Learning on Monocular Videos for 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2012.01511",
+            "ref_texts": "[3] G. Pavlakos, X. Zhou, K. D. G. Konstantinos, and D. Kostas, \u201cHarvesting Multiple Views for Marker-Less 3D Human Pose Annotations,\u201d in Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "Key to the success is a good unsupervised learning objective, for which many existing techniques exploit the availability of multi-view footage [3], [4], [5], [6], [7].",
+            "2": "However, capturing data with multiple cameras increases complexity because it requires synchronizing the cameras and calibrating them to obtain the camera parameters that several of these models [3], [5], [6], [7] require during training.",
+            "3": "[3] G."
+        },
+        "Single-Frame-Based Deep View Synchronization for Unsynchronized Multicamera Surveillance": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2007.03891",
+            "ref_texts": "[24] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2017, pp. 6988\u20136997.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "By utilizing multi-view cues and the strong mapping power of DNNs, many DNNs models have been proposed to solve multi-view surveillance tasks, such as multi-view tracking and detection [18], [6], [7], crowd counting [9], 3D reconstruction [4], [5], [19], [20] and 3D human pose estimation [2], [21], [22], [23], [24].",
+            "2": "[24] G."
+        },
+        "InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2304.05684",
+            "ref_texts": "9900 Nichol AQ, Dhariwal P (2021) Improved denoising difiusion probabilistic models. In: International Conference on Machine Learning, PMLR, pp 8162{8171 OpenAI (2023) Gpt-4 technical report. 2303.08774 Osman AA, Bolkart T, Black MJ (2020) Star: Sparse trained articulated human body regressor. In: Computer Vision{ ECCV 2020: 16th European Conference, Glasgow, UK, August 23{28, 2020, Proceedings, Part VI 16, Springer, pp 598{613 Pavlakos G, Zhou X, Derpanis KG, Daniilidis K (2017) Harvesting multiple views for marker-less 3d human pose annotations. In: Computer Vision and Pattern Recognition (CVPR) Pavlakos G, Choutas V, Ghorbani N, Bolkart T, Osman AA, Tzionas D, Black MJ (2019) Expressive body capture: 3d hands, face, and body from a single image. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp 10975{10985 Peng XB, Ma Z, Abbeel P, Levine S, Kanazawa A (2021) Amp: Adversarial motion priors for stylized physics-based character control. ACM Transactions on Graphics (TOG)"
+        },
+        "Light3DPose: Real-time Multi-Person 3D Pose Estimation from Multiple Views": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2004.02688",
+            "ref_texts": "[30] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2017, pp. 6988\u20136997.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Multiple-view pose reconstruction may focus on single [29], [30], [31], [32], [2] or multiple poses [33], and they can exploit geometrical constraints [34], [35], in pair with visual features [36].",
+            "2": "[30] G."
+        },
+        "Hand Pose Estimation via Multiview Collaborative Self-Supervised Learning": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2302.00988",
+            "ref_texts": "[44] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017. 3",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "V olume-based methods [28, 44, 45, 55] unproject 2D features or heatmaps of joints to a 3D space for estimation."
+        },
+        "System for estimating a three dimensional pose of one or more persons in a scene": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/87/60/fe/2e9c24e672d8ef/US11521373.pdf",
+            "ref_texts": " resentations . (Oct. 2017 ) pp . 1-4 . G. Pavlakos , X. Zhou , and K. Daniilidis . Ordinal depth supervision for 3D human pose estimation . In IEEE Conference on Computer Vision and Pattern Recognition . (Jun . 2018 ) pp . 7307-7316 . G. Pavlakos , X. Zhou , K. G. Derpanis , and K. Daniilidis . Coarse to fine volumetric prediction for single image 3D human pose . In IEEE Conference on Computer Vision and Pattern Recognition . (Jul . 2017 ) pp . 1-10 . G. Pavlakos , X. Zhou , K. G. Derpanis , and K. Daniilidis . Harvesting multiple views for marker less 3d human pose annotations . In IEEE Conference on Computer Vision and Pattern Recognition . (Jul . 2017 ) pp . 6988-6997 . H. Rhodin , J. Sporri , I. Katircioglu , V. Constantin , F. Meyer , E. Muller , M. Salzmann , and P. Fua . Learning monocular 3d human pose estimation from multi view images . In IEEE Conference on Computer Vision and Pattern Recognition . (Mar. 2018 ) pp . 1-10 . G. Rogez , P. Weinzaepfel , and C. Schmid . Lcr net : Localization classification regression for human pose . In IEEE Conference on Computer Vision and Pattern Recognition . (Jul . 2017 ) pp . 3433 "
+        },
+        "Markerless Body Motion Capturing for 3D Character Animation based on Multi-view Cameras": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2212.05788",
+            "ref_texts": "[39] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in IEEE Conference on Computer Vision and Pattern Recognition , 2017, pp.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Many methods can be used to obtain the human body joints, such as human 3D scanning [36], [31], [38], reconstruction [36], [31], [38] or CNN-based methods [25], [39], for example.",
+            "2": "[39] G."
+        },
+        "Explicit Residual Descent for 3D Human Pose Estimation from 2D Joint Locations.": {
+            "authors": [],
+            "url": "https://www.bmvc2020-conference.com/assets/papers/0151.pdf",
+            "ref_texts": "[22] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 6988\u20136997, 2017.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Some works [21, 22, 31] integrate the volumetric representation built upon 2D feature maps with different supervision strategies or regression schemes for single-view 3D pose estimation."
+        },
+        "View Consistency Aware Holistic Triangulation for 3D Human Pose Estimation": {
+            "authors": [
+                "Xiaoyue Wan",
+                "Zhuo Chen",
+                "Xu Zhao"
+            ],
+            "url": "https://arxiv.org/pdf/2302.11301",
+            "ref_texts": "7034. Pavlakos, G., Zhou, X., Derpanis, K.G., Daniilidis, K., 2017b. Harvesting multiple views for marker-less 3d human pose annotations, in: Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 6988\u2013",
+            "ref_ids": [
+                "7034"
+            ]
+        },
+        "PoseRN: A 2D pose refinement network for bias-free multi-view 3D human pose estimation": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2107.03000",
+            "ref_texts": "[10] Kun Zhou, Xiaoguang Han, Nianjuan Jiang, Kui Jia, and Jiangbo Lu, \u201cHemlets pose: Learning part-centric heatmap triplets for accurate 3d human pose estimation,\u201d in Proceedings of the IEEE International Conference on Computer Vision , 2019, pp. 2344\u20132353.[11] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis, and Kostas Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2017, pp. 6988\u20136997.",
+            "ref_ids": [
+                "10",
+                "11"
+            ],
+            "1": "To take advantage of the publicly available large 2D datasets, methods were proposed to estimate 3D human poses from multi-view 2D images [7, 8, 9, 10, 11, 12].",
+            "2": "To cope with noise in the 2D pose estimate two strategies exist: (1) defining a robust 3D triangulation algorithm [7, 9, 10] or (2) refining the 2D pose estimates prior to doing the 3D triangulation [8, 11, 12].",
+            "3": "[10] Kun Zhou, Xiaoguang Han, Nianjuan Jiang, Kui Jia, and Jiangbo Lu, \u201cHemlets pose: Learning part-centric heatmap triplets for accurate 3d human pose estimation,\u201d in Proceedings of the IEEE International Conference on Computer Vision , 2019, pp."
+        },
+        "Automated Human Motion Analysis and Synthesis": {
+            "authors": [],
+            "url": "https://infoscience.epfl.ch/record/300270/files/EPFL_TH8976.pdf",
+            "ref_texts": "[126] G. Pavlakos, X. Zhou, K. Derpanis. G. Konstantinos, and D. Kostas. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "126"
+            ],
+            "1": "1 Active Human Pose Estimation Most recent approaches to 3D pose estimation rely on deep networks that regress pose from monocular images [75,109,110,125,126,131,139,159,165,167,175,184,195].",
+            "2": "[126] G."
+        },
+        "Generative Multi-View Based 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3479645.3479708",
+            "ref_texts": "[44] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. 2017. Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. In In Conference on Computer Vision and Pattern Recognition .",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "for training [35,37,43,44,48,53,57,59,60,74].",
+            "2": "Researchers have invested in adding more content to the training data through more annotations [22,36,44] and data augmentation [20,27,52].",
+            "3": "Our work is aligned with [28,44] in using the generated data for semi supervised training.",
+            "4": "The approach of [44], however, calibrates a set of cameraviews parameters that are hard to obtain in open environments.",
+            "5": "In contrast to [44] and [28], our learning which uses two generative models is robust to challenging poses in the captured data and unbound to view constrains which concurrently optimize for 2D and 3D poses.",
+            "6": "[44] G."
+        },
+        "Survey on 3D Human Pose Estimation of Deep Learning": {
+            "authors": [],
+            "url": "http://fcst.ceaj.org/EN/article/downloadArticleFile.do?attachType=PDF&id=3211"
+        },
+        "Multi-view Generative Networks for 3D Pose Estimation": {
+            "authors": [],
+            "url": "https://www.dpublication.com/wp-content/uploads/2020/12/04-353.pdf",
+            "ref_texts": "3D Multi -Person Pose Estimation from a Single RGB Image. In ICCV . G. Ning, Z. Zhang, Z. He. (2018) Knowledge -Guided Deep Fractal Neural Networks for Human Pose Estimation. In Transactions on Multimedia. G. Pavlakos, X. Zhou, K. G. Derpanis, K. Daniilidis. (2017) Harvesting Multiple Views for Marker -Less 3D Human Pose Annotations. In CVPR . G. Pavlakos, X. Zhou, K. G. Derpanis, K. Daniilidis. (2017) Coarse -to-fine volumetric prediction for single -image 3d human pose. In CVPR . G. Rogez, Cordelia Schmid. (2016). MoCap -guided data augmentation for 3D pose estimation in the wild. In NIPS . H. F. Tung, A. W. Harley, W. Seto, K. Fragkiadaki. (2017) Adversarial inverse graphics networks: Learning 2d -to-3d lifting and image -to-image translation from unpaired supervision. In ICCV . H. Joo . (2015 ) Panoptic Studio: A Massively Multiview System for S ocial Motion Capture. In ICCV. I. Habibie, W. Xu, D. Mehta, G. Pons -Moll t, C. Theobalt. (2019) In the Wild Human Pose Estimation Using Explicit 2D Features and Intermediate 3D Representations. In CVPR . I. Goodfellow, J. Pouget -Abadie, M. Mirza, B. Xu,D. W arde-Farley, S. Ozair, A. Courville, Y. Bengio. (2014) Generative adversarial nets. In NIPS . "
+        },
+        "Instance-specific 6-dof object pose estimation from minimal annotations": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2207.13264",
+            "ref_texts": "[12] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3D human pose annotations,\u201d in Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Techniques have been proposed for reducing the dependence on annotated data [4] or generating 3D ground truth data using 2D pose estimators [12], [7].",
+            "2": "[12] G."
+        },
+        "Using Animal Motion Capture to Learn Neural Representations": {
+            "authors": [],
+            "url": "https://infoscience.epfl.ch/record/293821/files/EPFL_TH9124.pdf",
+            "ref_texts": "[98] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations\u201d, in IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "98"
+            ],
+            "1": "Increased robustness to occlusions can be obtained by using multi-camera setups [98, 171\u2013173] and triangulating the 2D detections.",
+            "2": "Ultimately, we may work solely with monocular images by lifting the 2D detections [98] to 3D or by directly regressing to 3D [170] as has been achieved in human pose estimation studies.",
+            "3": "[98] G."
+        },
+        "Continuous Learning of Inverse Problems with Applications to Structure from Motion": {
+            "authors": [],
+            "url": "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12152228770002346/13152228760002346",
+            "ref_texts": "[83] G. Pavlakos, X. Zhou, K. G Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. Conference on Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "83"
+            ],
+            "1": "For the modelling step, the different approaches can be categorised according to the following aspects: \u2022Camera setting: pose estimation can be approached either from single [82, 116, 117] or multiple [83, 123] view images.",
+            "2": "[83] proposed a geometry-driven multi-view approach that automatically annotated images with 3D poses starting from generic 2D detections [76].",
+            "3": "[83] proposed a geometry-driven multi-view approach that, starting from generic 2D detections [76], could provide 3D annotations for applications such as 2D pose personalisation and training from scratch of ConvNet for single-view 3D human pose prediction.",
+            "4": "This is a significant deviation from previous approaches such as [30, 83, 123], that perform independent predictions for 2D poses1for each view before fusing them in a final stage.",
+            "5": "[83] 41.",
+            "6": "All methods above the first line are monocular while those below ([83, 123] and Ours ) are multi-camera approaches.",
+            "7": "[83] (a) 41.",
+            "8": "[83] (b) 46.",
+            "9": "The closest approach to ours [83] makes use of a personalised model of 2D joint appearance while we learn a better model for fitting 3D poses and as such the two approaches are strongly complementary.",
+            "10": "[83] G."
+        },
+        "CGAP2: Context and gap aware predictive pose framework for early detection of gestures": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2011.09216",
+            "ref_texts": "[25] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , Jul 2017. 2, 6",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "[25], Kocabas et al.",
+            "2": "[25] 41."
+        },
+        "Development of a non-invasive motion capture system for swimming biomechanics": {
+            "authors": [],
+            "url": "https://e-space.mmu.ac.uk/628369/1/GA%20PhD%20thesis%20MMU.pdf",
+            "ref_texts": "[52] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \\Harvesting multiple views for marker-less 3d human pose annotations,\" in Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 6988{6997, 2017.",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "[52] G."
+        },
+        "Human 3D keypoints via spatial uncertainty modeling": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2012.10518",
+            "ref_texts": "[11] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "In particular, existing multi-camera techniques [4,6,11,13,14] suffer from two significant shortcomings: 1they assume a training set with a sufficiently large set of cameras to minimize self-occlusion and enable accurate extraction of groundtruth 3D labels; 2they are not equipped with spatial uncertainty estimates about their prediction.",
+            "2": "[11] G."
+        },
+        "2d/3d human pose estimation using deep convolutional neural nets": {
+            "authors": [],
+            "url": "https://open.metu.edu.tr/bitstream/handle/11511/27978/index.pdf",
+            "ref_texts": "[24] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d IEEE Conference on Computer Vision and Pattern Recognition , 2017.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "These methods, in addition to ground-truth 2D poses, require either additional supervision in various forms (such as unpaired 3D ground truth data[22], a small subset of labels [23]) or (extrinsic) camera parameters in multiview settings [24].",
+            "2": "These methods, in addition to ground-truth 2D poses, require either additional supervision in various forms (such as unpaired 3D ground truth data[22], a small subset of labels [23]) or (extrinsic) camera parameters in multiview settings [24].",
+            "3": "3 Weakly/self-supervised methods Weak and self supervision based methods for human pose estimation have been explored by many [25, 23, 22, 24] due to lack of 3D annotations.",
+            "4": "[24] use a pictorial structures model to obtain a global pose configuration from the keypoint heatmaps of multi-view images.",
+            "5": "[24] 56.",
+            "6": "\u2019s [24] results, our triangulation using an MPII-pretrained detector is 11mm better in terms of MPJPE.",
+            "7": "Our SS model (with or without R) outperforms all previous methods [22, 24] by a large margin in MPJPE metric.",
+            "8": "[24] (CVPR\u20192017) 118.",
+            "9": "[24] G."
+        },
+        "Learning Generalizable Visual Patterns Without Human Supervision": {
+            "authors": [],
+            "url": "https://boris.unibe.ch/168473/1/phd_simon_jenni.pdf",
+            "ref_texts": "[179] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations\u201d, in Proceedings of the ieee conference on computer vision and pattern recognition , 2017, pp. 6988\u20136997.",
+            "ref_ids": [
+                "179"
+            ],
+            "1": "We identify two main categories of methods: 1) methods that learn the mapping to 3D pose directly from images [174], [175], [176], [177], [178], [179], [180], [181], [182] often trained jointly with 2D poses [183], [184], [185], [186], [187], and 2) methods that learn the mapping of images to 3D poses from predicted or ground truth 2D poses [188], [189], [190], [191], [192], [193], [194], [195], [196].",
+            "2": "[179] G."
+        },
+        "Geometric computer vision meets deep learning for autonomous driving applications": {
+            "authors": [],
+            "url": "https://upcommons.upc.edu/bitstream/handle/2117/355673/TJGL1de1.pdf?sequence=1",
+            "ref_texts": "[82] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, Kostas Daniilidis, \u201cHarvesting multiple views for marker-less 3d human pose annotations,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "82"
+            ],
+            "1": "Many research papers used these cameras for extracting human-pose form only planar images, like [82] or [83]."
+        },
+        "Understanding the sources of error for 3D human pose estimation from monocular images and videos": {
+            "authors": [
+                "Johnny Canuck"
+            ],
+            "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0361162/4",
+            "ref_texts": "[86] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2017.",
+            "ref_ids": [
+                "86"
+            ],
+            "1": "Additionally, some techniques leverage multiple views from different cameras to estimate the 3D pose, thereby making the task much easier [3, 10, 18, 31, 86, 106].",
+            "2": "[86] used the CNN-based stacked-hourglass model for 2D pose estimation to estimate 2D pose from multiple views and combined them using 3D pictorial structure model to obtain a volumetric heatmap of 3D joint uncertainties.",
+            "3": "!pages 2, 18, 21, 44, 48, 49, 65, 76\n[86] G."
+        },
+        "Computer Vision-based Marker-less Real Time Motion Analysis for Rehabilitation\u2013An Interdisciplinary Research Project": {
+            "authors": [],
+            "url": "https://www.theseus.fi/bitstream/handle/10024/452905/AWP-1-2021_Hellsten_Karlsson_Pulkkis.pdf?sequence=1",
+            "ref_texts": "\"Quantitative measurements of forward head posture in a clinical settings: a technical feasibility study\", European journal of physiotherapy, vol. 19, no. 3, pp. 119123. Mishima, N. & Berg, M. 2020, M\u00e4tning av vinkeln i kn\u00e4leden vid ett aktivt kn\u00e4b\u00f6j med ett mark\u00f6rl\u00f6st datorseendeprogram , Arcada UAS. Mohsin, F., McGarry, A. & Bowers, R. 2018, \"The Reliability of a Video Analysis System (PnO Clinical Movement Data) and the Universal Goniometer in the Measurement of Hip, Knee, and Ankle Sagittal Plane Motion among Healthy Subjects\", Journal of prosthetics and orthotics, vol. 30, no. 3, pp. 1. Pavlakos, G., Zhou, X., Derpanis, K.G. & Daniilidis, K. 2017, \"Harvesting multiple views for marker-less 3d human pose annotations\", Proceedings of the IEEE conference on computer vision and pattern recognition , pp. 6988. Pavlakos, G., Zhu, L., Zhou, X. & Daniilidis, K. 2018, \"Learning to estimate 3D human pose and shape from a single color image\", Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 459. Reissner, L., Fischer, G., List, R., Taylor, W.R., Giovanoli, P. & Calcagni, M. 2019, "
+        },
+        "Deep Learning Analysis of Human Pose and Actions": {
+            "authors": [],
+            "url": "https://opal.latrobe.edu.au/ndownloader/files/38777829",
+            "ref_texts": "[84] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G Derpanis and Kostas Daniilidis. \u2018Harvesting multiple views for marker-less 3d human pose annotations\u2019. In: Proceedings of the IEEE conference on computer vision and pattern recognition . 2017, pp. 6988\u20136997 (cit. on p. 78).",
+            "ref_ids": [
+                "84"
+            ],
+            "1": "One approach taken in the existing literature is to use footage from multiple cameras with different viewpoints to infer 3D pose [29, 84, 91]."
+        },
+        "Deep Learning based Human Pose Estimation": {
+            "authors": [
+                "Yang Li"
+            ],
+            "url": "https://opus.lib.uts.edu.au/bitstream/10453/149022/2/02Whole.pdf",
+            "ref_texts": ""
+        },
+        "Deep Neural Networks for Human Motion Analysis in Biomechanics Applications": {
+            "authors": [],
+            "url": "https://rucore.libraries.rutgers.edu/rutgers-lib/60894/PDF/1/play/",
+            "ref_texts": "[135] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis, \"Harvesting multiple views for marker -less 3d human pose annotations,\" arXiv preprint arXiv:1704.04793, 2017. ",
+            "ref_ids": [
+                "135"
+            ],
+            "1": "[135] is the o nly w ork reporting results for multi -view 3D pose estimation on this dataset.",
+            "2": "[135] employ the whole 2D pose heatmaps to estimate 3D joint coordinates, while we only use 2D joint coordinates, which has lower d imensionality and can significantly reduce training time \n(Section 4.",
+            "3": "1 \n[135] 41.",
+            "4": "9 \n[135] 97.",
+            "5": "[135] G."
+        },
+        "Extraction de comportements reproductibles en avatar virtuel": {
+            "authors": [
+                "Kodjine Dare"
+            ],
+            "url": "https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/26525/Dare_Kodjine_2021_Memoire.pdf?sequence=4",
+            "ref_texts": ""
+        },
+        "Articulated body mesh estimation using three-dimensional (3D) body keypoints": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/87/eb/55/270b9c9108bee3/US11361507.pdf",
+            "ref_texts": ""
+        },
+        "Dense motion tracking mechanism": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/9d/20/f0/0e538ff9838f4c/US10891742.pdf"
+        },
+        "3D human body mesh generation from 2D images using body silhouette, bone orientation, and joints triangulation": {
+            "authors": [],
+            "url": "https://espace.etsmtl.ca/id/eprint/2769/1/AJANOHOUN_Jordy.pdf",
+            "ref_texts": "10 19. Loper, M., Mahmood, N., Romero, J., Pons-Moll, G. & Black, M. J. (2015). SMPL: A Skinned Multi-Person Linear Model. ACM Transactions on Graphics , 34(6), 248:1\u2013248:16. Loper, M. M. & Black, M. J. (2014). OpenDR: An Approximate Differentiable Renderer. European Conference on Computer Vision (ECCV) , 8695, 154\u2013169. Madadi, M., Bertiche, H. & Escalera, S. (2020). SMPLR: Deep learning based SMPL reverse for 3D human pose and shape recovery. Pattern Recognition , 106, 107472. Newell, A., Yang, K. & Deng, J. (2016). Stacked Hourglass Networks for Human Pose Estimation. European Conference on Computer Vision (ECCV) , pp. 483\u2013499. Nocedal, J. & Wright, S. J. (2006). Numerical optimization (ed. 2). Springer. Omran, M., Lassner, C., Pons-Moll, G., Gehler, P. V. & Schiele, B. (2018). Neural Body Fitting: Unifying Deep Learning and Model-Based Human Pose and Shape Estimation. International Conference on 3D Vision (3DV) , pp. 484\u2013494. Pavlakos, G., Zhou, X., Derpanis, K. G. & Daniilidis, K. (2017a). Coarse-to-Fine Volumetric Prediction for Single-Image 3D Human Pose. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 1263-1272. Pavlakos, G., Zhou, X., Derpanis, K. G. & Daniilidis, K. (2017b, July). Harvesting Multiple Views for Marker-Less 3D Human Pose Annotations. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 1253-1262. Pavlakos, G., Zhu, L., Zhou, X. & Daniilidis, K. (2018). Learning to Estimate 3D Human Pose and Shape from a Single Color Image. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 459\u2013468. Pishchulin, L., Insafutdinov, E., Tang, S., Andres, B., Andriluka, M., Gehler, P. & Schiele, B."
+        },
+        "3D Reconstruction, Weakly-Supervised Learning, and Supervised Learning Methods for 3D Human Pose Estimation": {
+            "authors": [],
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/152572/1/000000155042.pdf",
+            "ref_texts": "[86] G. Pavlakos, X. Zhou, K. G. Derpanis, and K. Daniilidis. Harvesting multiple views for marker-less 3d human pose annotations. arXiv preprint arXiv:1704.04793 , 2017.",
+            "ref_ids": [
+                "86"
+            ],
+            "1": "There are a few approaches that exploit temporal information using various methods such as overcomplete dictionaries [131, 132], 3D CNNs [41], sequence-to-sequence networks [88], and multiple-view settings [86].",
+            "2": "[86] G."
+        },
+        "Global Motion Estimation from Pan-Tilt Cameras": {
+            "authors": [],
+            "url": "https://cescg.org/wp-content/uploads/2019/03/Bachmann-Global-Motion-Estimation-from-Pan-Tilt-Cameras.pdf",
+            "ref_texts": "[11] Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, and Kostas Daniilidis. Harvesting Multiple Views for Marker-less 3D Human Pose Annotations. CVPR , 2017.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "[11] propose to extend pictorial structure models by taking CNN generated 2D heatmaps and resolving the 3D structure in a quantized grid by maximizing a likelihood term explaining the 2D detections.",
+            "2": "joints [0,1,2,3,4,6,7,8,10,11,12,13,14,15] shown in Figure 2a."
+        },
+        "Body Capture and Marker-based Garment Reconstruction": {
+            "authors": [],
+            "url": "https://www-cs.stanford.edu/~zpzhou/data/ugvr-report.pdf"
+        },
+        "Um estudo comparativo de redes neurais profundas para classifica\u00e7\u00e3o autom\u00e1tica de texto": {
+            "authors": [],
+            "url": "https://repositorio.ufmg.br/bitstream/1843/50545/1/Disserta__o_corrigida_biblioteca%20%281%29.pdf",
+            "ref_texts": "78 Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 . Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013b). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 . Mikolov, T., Karafi\u00e1t, M., Burget, L., \u010cernock` y, J., and Khudanpur, S. (2010). Recurrent neural network based language model. In Eleventh annual conference of the international speech communication association . Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., and Dean, J. (2013c). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems , pages 3111--3119. Pal, A. and Prakash, P. (2017). Practical Time Series Analysis: Master Time Series Data Processing, Visualization, and Modeling using Python . Packt Publishing Ltd. Patterson, J. and Gibson, A. (2017). Deep learning: A practitioner\u2019s approach . \" O\u2019Reilly Media, Inc.\". Pavlakos, G., Zhou, X., Derpanis, K. G., and Daniilidis, K. (2017). Harvesting multiple views for marker-less 3d human pose annotations. CoRR , abs/1704.04793. Pennington, J., Socher, R., and Manning, C. (2014). Glove: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP) , pages 1532--1543. Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., and Zettlemoyer, L. (2018). Deep contextualized word representations. arXiv preprint arXiv:1802.05365 . Raina, R., Madhavan, A., and Ng, A. Y. (2009). Large-scale deep unsupervised learning using graphics processors. In Proceedings of the 26th annual international conference on machine learning , pages 873--880. ACM. Rashid, T. A., Mustafa, A. M., and Saeed, A. (2017). A robust categorization system for kurdish sorani text documents. Information Technology Journal , 16(1):27--34. Razavian, A. S., Azizpour, H., Sullivan, J., and Carlsson, S. (2014). Cnn features offthe-shelf: an astounding baseline for recognition. In Computer Vision and Pattern Recognition Workshops (CVPRW), 2014 IEEE Conference on , pages 512--519. IEEE."
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "title": "Reconstructing 3D Human Pose by Watching Humans in the Mirror",
+    "id": 43,
+    "valid_pdf_number": "18/25",
+    "matched_pdf_number": "15/18",
+    "matched_rate": 0.8333333333333334,
+    "citations": {
+        "Neural body: Implicit neural representations with structured latent codes for novel view synthesis of dynamic humans": {
+            "authors": [
+                "Sida Peng",
+                "Yuanqing Zhang",
+                "Yinghao Xu",
+                "Qianqian Wang",
+                "Qing Shuai",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf",
+            "ref_texts": "[15] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , 2021. 2",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "To obtain the 3D representation at a frame, we first transform the code locations based on the human pose, which can be reliably estimated from sparse camera views [3,13,15]."
+        },
+        "Neural human performer: Learning generalizable radiance fields for human performance rendering": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf",
+            "ref_texts": ""
+        },
+        "PINA: Learning a personalized implicit neural avatar from a single RGB-D video sequence": {
+            "authors": [
+                "Zijian Dong",
+                "Chen Guo",
+                "Jie Song",
+                "Xu Chen",
+                "Andreas Geiger",
+                "Otmar Hilliges"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Dong_PINA_Learning_a_Personalized_Implicit_Neural_Avatar_From_a_Single_CVPR_2022_paper.pdf",
+            "ref_texts": "[18] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 12814\u2013",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "These works typically leverage parametric models for minimally clothed human bodies [9, 17, 18, 29, 46, 55] (e."
+        },
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[19] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , 2021.",
+            "ref_ids": [
+                "19"
+            ],
+            "1": "Based on the statistical human model, most works [8,25,26,18,17,19] reconstruct the naked body mesh from various inputs and some works further add surface deformation to capture more details [63,27,48,11,61]."
+        },
+        "Virtual correspondence: Humans as a cue for extreme-view geometry": {
+            "authors": [
+                "Chiu Ma",
+                "Anqi Joyce",
+                "Shenlong Wang",
+                "Raquel Urtasun",
+                "Antonio Torralba"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Virtual_Correspondence_Humans_as_a_Cue_for_Extreme-View_Geometry_CVPR_2022_paper.pdf",
+            "ref_texts": "[25] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , 2021. 3",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "With the flourishing of deep learning, these methods have made tremendous progress, either from a single image [41,44,47] or multi-view images [21,22,25,61]."
+        },
+        "Human mesh recovery from multiple shots": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Jitendra Malik",
+                "Angjoo Kanazawa"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Pavlakos_Human_Mesh_Recovery_From_Multiple_Shots_CVPR_2022_paper.pdf",
+            "ref_texts": "[12] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3D human pose by watching humans in the mirror. In CVPR , 2021. 4",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "[12] use mirror reflections as an additional view for resolving the depth ambiguity."
+        },
+        "Egobody: Human body shape and motion of interacting people from head-mounted devices": {
+            "authors": [],
+            "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136660176.pdf",
+            "ref_texts": "20.Fang, Q., Shuai, Q., Dong, J., Bao, H., Zhou, X.: Reconstructing 3d human pose by watching humans in the mirror. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12814\u201312823 (2021) 2,5",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "While there are a large number of methods for full-body pose (and sometimes also shape) estimation from RGB(D) frames [14,20,30,40,41,45,48,60,73,82,91,94,99\u2013102], they tend to perform poorly on data captured with an HMD (see Sec.",
+            "2": "The problem of estimating 3D human pose from third-person-view RGB(D) images has been extensively studied in the literature \u2013 either from single frames [5,9,12,15,20,26,28,30,40,46\u201350,55,57,66,71,73, 81,83,87,89,91,94,101,105], monocular videos [14,41,45,60,82,99,100,102] or multi-view camera sequences [19,24,33,39,78,90]."
+        },
+        "Learning to estimate robust 3d human mesh from in-the-wild crowded scenes": {
+            "authors": [
+                "Hongsuk Choi",
+                "Gyeongsik Moon",
+                "Kyu Park",
+                "Kyoung Mu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Choi_Learning_To_Estimate_Robust_3D_Human_Mesh_From_In-the-Wild_Crowded_CVPR_2022_paper.pdf",
+            "ref_texts": "[7] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3D human pose by watching humans in the mirror. In CVPR , 2021. 8",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "[7] 85."
+        },
+        "Learning Analytical Posterior Probability for Human Mesh Recovery": {
+            "authors": [
+                "Qi Fang",
+                "Kang Chen",
+                "Yinghui Fan",
+                "Qing Shuai",
+                "Jiefeng Li",
+                "Weidong Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Fang_Learning_Analytical_Posterior_Probability_for_Human_Mesh_Recovery_CVPR_2023_paper.pdf",
+            "ref_texts": "[9] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , pages 12814\u201312823, 2021. 2",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Leveraging the parametric humanmodel [41,54], optimization-based approaches [2,9,15,51] fit the parameters via iteration while learning-based approaches regress the parameters with neural networks."
+        },
+        "PLIKS: A Pseudo-Linear Inverse Kinematic Solver for 3D Human Body Estimation": {
+            "authors": [
+                "Karthik Shetty",
+                "Annette Birkhold",
+                "Srikrishna Jaganathan",
+                "Norbert Strobel",
+                "Markus Kowarschik",
+                "Andreas Maier",
+                "Bernhard Egger"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Shetty_PLIKS_A_Pseudo-Linear_Inverse_Kinematic_Solver_for_3D_Human_Body_CVPR_2023_paper.pdf",
+            "ref_texts": "[6] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 12814\u2013",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "Optimization-based approaches [3, 6] make use of 2D keypoints estimated by a Deep Neural Network (DNN) which are iteratively fit with the SMPL model."
+        },
+        "Overview of 3d human pose estimation": {
+            "authors": [],
+            "url": "https://cdn.techscience.cn/ueditor/files/cmes/134-3/TSP_CMES_20857/TSP_CMES_20857.pdf",
+            "ref_texts": "65. Fang, Q., Shuai, Q., Dong, J., Bao, H., Zhou, X. (2021). Reconstructing 3D human pose by watching humans in the mirror. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp, 12814\u201312823.",
+            "ref_ids": [
+                "65"
+            ],
+            "1": "In addition, theground-truth values have been converted into the Mirrored-Human dataset by using an optimizationmethod [65]."
+        },
+        "Decanus to Legatus: Synthetic training for 2D-3D human pose lifting": {
+            "authors": [
+                "Yue Zhu",
+                "David Picard"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Zhu_Decanus_to_Legatus_Synthetic_training_for_2D-3D_human_pose_lifting_ACCV_2022_paper.pdf",
+            "ref_texts": "13. Fang, Q., Shuai, Q., Dong, J., Bao, H., Zhou, X.: Reconstructing 3d human pose by watching humans in the mirror. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2021) 3",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "On the other hand, a difficulty that the discriminative models have is that depth information is hard to infer from a single image when it is not explicitly modeled, and thus additional bias must be learned using 3D supervision [25,26], multiview spatial consistency [13, 45, 48] or temporal consistency [1, 9, 23].",
+            "2": "[13] propose a virtual mirror so that the estimated 3D poses, after being symmetrically projected into the other side of the mirror, should also look correctly, thus simulating another way of \u2018multiview\u2019 consistency."
+        },
+        "Deep reconstruction of 3D human poses from video": {
+            "authors": [],
+            "url": "https://research-repository.uwa.edu.au/files/261511101/JIAN_TAI.pdf",
+            "ref_texts": "[8] Q. Fang, Q. Shuai, J. Dong, H. Bao, and X. Zhou, \u201cReconstructing 3d human pose by watching humans in the mirror,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , June 2021, pp. 12 814\u201312 823.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "However, recent findings [6], [7], [8], [9], [10] ascertain that, using deep learning, it is possible to reconstruct full 3D human meshes from monocular images with the help of parameterized body and shape configurations [11].",
+            "2": "[8] Q."
+        },
+        "FlexNeRF: Photorealistic free-viewpoint rendering of moving humans from sparse views": {
+            "authors": [
+                "Vinoj Jayasundara",
+                "Amit Agrawal",
+                "Nicolas Heron",
+                "Abhinav Shrivastava",
+                "Larry S. Davis"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Jayasundara_FlexNeRF_Photorealistic_Free-Viewpoint_Rendering_of_Moving_Humans_From_Sparse_Views_CVPR_2023_paper.pdf",
+            "ref_texts": "[7] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , 2021. 6, 7",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "9043 ZJU-MoCap [7, 28]HumanNeRF [40] 36.",
+            "2": "Benchmark Datasets and Metrics We evaluate the proposed method on two public datasets: ZJU-MoCap [7, 28] and People Snapshot [2], and one SelfCaptured Fashion (SCF) dataset."
+        },
+        "Lights, Camera, Mirrors, Action! Toolbox for 3D Reconstruction and Analysis Using a Single Camera and Planar Mirrors": {
+            "authors": [],
+            "url": "https://www.biorxiv.org/content/10.1101/2023.03.14.532636.full.pdf",
+            "ref_texts": "19872, 350-351. Fang, Q., Shuai, Q., Dong, J., Bao, H. and Zhou, X. (2021). Reconstructing 3d human pose by watching humans in the mirror. IEEE/CVF conference on computer vision and pattern recognition. 12814-12823. Shotton, J., Girshick, R., Fitzgibbon, A., Sharp, T., Cook, M., Finocchio, M., Moore, R., Kohli, P., Criminisi, A., Kipman, A. and others (2012). Efficient human pose estimation from single depth images. IEEE transactions on pattern analysis and machine intelligence. 35, 2821-2840. Newcombe, R. A., Lovegrove, S. J. and Davison, A. J. (2011). DTAM: Dense tracking and mapping in real-time. International conference on computer vision. 2320-2327. Silberman, N., Hoiem, D., Kohli, P. and Fergus, R. (2012). Indoor segmentation and support inference from rgbd images. European conference on computer vision. 746-760. Lai, K., Bo, L., Ren, X. and Fox, D. (2011). A large-scale hierarchical multiview rgb-d object dataset. IEEE international conference on robotics and automation. 1817-1824. Bansal, A., Russell, B., and Gupta, A. (2016). Marr revisited: 2d-3d alignment via surface normal prediction. International conference on computer vision. 5965-5974. Lowe, D. G. (2004). Distinctive image features from scale-invariant keypoints. International journal of computer vision. 60, 91-110. Hartley, R. and Zisserman, A. (2003). Multiple view geometry in computer vision. Cambridge university press."
+        },
+        "M-NeRF: model-based human reconstruction from scratch with mirror-aware neural radiance fields": {
+            "authors": [],
+            "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0423218/3",
+            "ref_texts": "[14] Q. Fang, Q. Shuai, J. Dong, H. Bao, and X. Zhou. Reconstructing 3D human pose by watching humans in the mirror. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 12814\u201312823, 2021. \u2192pages 2, 3, 7, 8, 26, 27, 28, 30, 31, 32, 34, 41",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "In this line of research, previous work [14, 41] has leveraged reflections in mirrors for better human pose reconstruction.",
+            "2": "However, [14] require manual annotation of the mirror in the scene, use a 3D pose estimator as starting point, and both [14,41] do not model any shape and appearance detail.",
+            "3": "Given an input image (bottom left) from the mirror human eval dataset [14] with the real and virtual person, we show the pose reconstruction and image rendering of our proposed model compared to A-NeRF [69] and DANBO [70].",
+            "4": "[14] calibrate the mirror position and orientation using people as reference.",
+            "5": "[14].",
+            "6": "Similar to [14], Liu et al.",
+            "7": "We compare against the mirror-based pose algorithm [14], which however uses ground truth 2D poses and mirror annotations.",
+            "8": "We use the MirrorHuman-eval dataset from [14].",
+            "9": "Following [14], we optimize the pose separately for each video, treating this dataset as five independent recordings instead of a multi-view setup.",
+            "10": "We follow [14]\n26 for evaluating Step 2 and 3 on every 100th frame.",
+            "11": "Unlike [14], we do not use manually annotated 2D pose but use the Alphapose [13] detector, which outputs a set of 2D poses for every frame.",
+            "12": "To be able to demonstrate generality and showcase the simplicity of capturing with a mirror, we utilize the Internet dancing recordings from [14] and recorded a new dataset that is more diverse in terms of appearance, e.",
+            "13": "We use the original A-NeRF [69] and DANBO [70] as baselines as well as the mirror-based pose estimation method [14] and the established single-view reconstruction techniques SPIN [37] and SMPLify [57].",
+            "14": "There exists 3 separate skeleton joints structure employed, namely the 2D Alphapose detector [13] that initializes 2D-to-3D pose lifting (Step 2) in our mirror approach, the groundtruth 3D pose from MirrorHuman-eval dataset [14] used for evaluation and error measurement, and lastly, the SPIN 3D estimator [37] used by prior works [69,70].",
+            "15": "Following [14], we use body15 to compare against established baselines [37, 57] and prior mirror approaches [14].",
+            "16": "2: Skeleton joints structure where J1, J2, and J3 are joints from Alphapose [13],MirrorHuman-eval dataset [14] and SPIN [37] respectively.",
+            "17": "Following [14], 15 joints are selected (in red) within S2 and referred to as body15 while\u2217are invalid joints with non-usable 0 coordinates.",
+            "18": "47 MirrorHuman [14] (automatic camera calibration) \u2714 \u2714 \u2714 33.",
+            "19": "24 MirrorHuman [14] (manual camera calibration) \u2714 \u2714 \u2714 32.",
+            "20": "MirrorHuman [14] achieves the lowest error, however, they use 2D ground truth, manual annotation of the mirror position, and require a good 3D initialization.",
+            "21": ", we believe both methods were initialized with groundtruth 2D as deduced from their mirror paper [14].",
+            "22": "[14], outperforms the supervised approach SPIN\n[37] and single-view optimization SMPLify-X [57], and is comparable to their combination, as these single-view approaches do not fare well under occlusion and are prone to depth ambiguity.",
+            "23": "mirrors [14], as they used groundtruth 2D and manually annotated mirror edges.",
+            "24": "Given an input image (bottom) from the mirror human eval dataset [14], we show the body reconstruction of our proposed model (top) compared to A-NeRF [69] and DANBO [70].",
+            "25": "Furthermore, we only use datasets that have been captured for the purpose of developing motion capture algorithms [14], recorded new ones internally with approval ID H20-03387 and 41 only utilized internet videos for which explicit consent was received.",
+            "26": "\u2192pages 19, 27, 28, 30\n[14] Q."
+        },
+        "SAgA-NeRF: Subject-agnostic and animatable neural radiance fields for human avatar": {
+            "authors": [],
+            "url": "https://summit.sfu.ca/_flysystem/fedora/2023-01/etd22141.pdf",
+            "ref_texts": "[11] Qi Fang, Qing Shuai, Junting Dong, Hujun Bao, and Xiaowei Zhou. Reconstructing 3d human pose by watching humans in the mirror. In CVPR , 2021.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "We perform our training and testing on the ZJUMoCap dataset [11, 30]."
+        },
+        "\u5f71\u5b50\u8f85\u52a9\u7684\u4e09\u7ef4\u4eba\u4f53\u91cd\u5efa": {
+            "authors": [],
+            "url": "https://www.jcad.cn/cn/article/pdf/preview/d7b354ea-fad5-46d4-b755-4d349a8f8b64.pdf",
+            "ref_texts": ""
+        }
+    }
+}

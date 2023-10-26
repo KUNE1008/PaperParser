@@ -1,0 +1,109 @@
+{
+    "title": "A survey on monocular 3D human pose estimation",
+    "id": 44,
+    "valid_pdf_number": "8/18",
+    "matched_pdf_number": "5/8",
+    "matched_rate": 0.625,
+    "citations": {
+        "Unified end-to-end YOLOv5-HR-TCM framework for automatic 2D/3D human pose estimation for real-time applications": {
+            "authors": [
+                "Cuong Nguyen",
+                "Hao Nguyen",
+                "Rafal Scherer",
+                "Hung Le"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/22/14/5419/pdf",
+            "ref_texts": "21. Ji, X.; Fang, Q.; Dong, J.; Shuai, Q.; Jiang, W.; Zhou, X. A survey on monocular 3D human pose estimation. Virtual Real. Intell. Hardw. 2020 ,2, 471\u2013500. [CrossRef]",
+            "ref_ids": [
+                "21"
+            ]
+        },
+        "Neural Puppeteer: Keypoint-Based Neural Rendering of Dynamic Shapes": {
+            "authors": [
+                "Simon Giebenhain",
+                "Urs Waldmann",
+                "Ole Johannsen",
+                "Bastian Goldluecke"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Giebenhain_Neural_Puppeteer_Keypoint-Based_Neural_Rendering_of_Dynamic_Shapes_ACCV_2022_paper.pdf",
+            "ref_texts": "18. Iskakov, K., Burkov, E., Lempitsky, V., Malkov, Y.: Learnable triangulation of human pose (2019), https://github.com/kary/learnable-triangulation-pytorch 19. Ji, X., Fang, Q., Dong, J., Shuai, Q., Jiang, W., Zhou, X.: A survey on monocular 3d human pose estimation. Virtual Reality & Intelligent Hardware 2(6), 471{500",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "We use their implementation from [18] with their provided conffguration ffle for hyperparameters."
+        },
+        "Cross-View Self-fusion for Self-supervised 3D Human Pose Estimation in the Wild": {
+            "authors": [
+                "Woo Kim",
+                "Hee Lee",
+                "Seok Oh",
+                "Whan Lee"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Kim_Cross-View_Self-Fusion_for_Self-Supervised_3D_Human_Pose_Estimation_in_the_ACCV_2022_paper.pdf",
+            "ref_texts": "7. Ji, X., Fang, Q., Dong, J., Shuai, Q., Jiang, W., Zhou, X.: A survey on monocular 3d human pose estimation. Virtual Reality Intelligent Hardware 2(2020) 471\u2013 500",
+            "ref_ids": [
+                "7"
+            ]
+        },
+        "Cofopose: Conditional 2D Pose Estimation with Transformers": {
+            "authors": [
+                "Evans Aidoo",
+                "Xun Wang",
+                "Zhenguang Liu",
+                "Edwin Kwadwo",
+                "Kwabena Owusu",
+                "Seth Larweh",
+                "Victor Nonso",
+                "Esther Stacy"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/22/18/6821/pdf",
+            "ref_texts": "2. Ji, X.; Fang, Q.; Dong, J.; Shuai, Q.; Jiang, W.; Zhou, X. A Survey on Monocular 3D Human Pose Estimation. Virtual Real. Intell. Hardw. 2020 ,2, 471\u2013500. [CrossRef]",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "Fundamentally, human pose estimation [1,2] concerns discovering the configuration of the body parts of a human from either consecutive images or single images."
+        },
+        "Learning Monocular 3D Human Pose Estimation With Skeletal Interpolation": {
+            "authors": [
+                "Ziyi Chen",
+                "Akihiro Sugimoto",
+                "Hong Lai"
+            ],
+            "url": "https://openreview.net/pdf?id=m4X_VPt0MKl",
+            "ref_texts": "[1] Xiaopeng Ji, Qi Fang, Junting Dong, Qing Shuai, Wen Biao Jiang, and Xiaowei Zhou, \u201cA survey on monocular 3d human pose estimation,\u201d Virtual Real. Intell. Hardw. , vol. 2, pp. 471\u2013500, 2020.",
+            "ref_ids": [
+                "1"
+            ],
+            "1": "INTRODUCTION Monocular human pose estimation [1] is the process of estimating joint position in a given image or video, which has recently received increasing attention due to its wide application in many areas, such as virtual reality and sports performance analysis."
+        },
+        "Control and Convolutional Neural Net Based Pose Estimation for On-Orbit Assembly": {
+            "authors": [],
+            "url": "https://dspace.mit.edu/bitstream/handle/1721.1/138935/Dolan-sydneyd-SM-AeroAstro-2021-thesis.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[52] XiaopengJi, QiFang, JuntingDong, QingShuai, WenJiang, andXiaoweiZhou. A survey on monocular 3d human pose estimation. Virtual Reality Intelligent Hardware , 2(6):471\u2013500, 2020.",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "Significant progress has been made in the field of human pose estimation and autonomous vehicle estimation with the aid of deep learning[52] [105].",
+            "2": "[52] XiaopengJi, QiFang, JuntingDong, QingShuai, WenJiang, andXiaoweiZhou."
+        },
+        "Learning 3D human pose estimation from dozens of datasets using a geometry-aware autoencoder to bridge between skeleton formats": {
+            "authors": [
+                "Istvan Sarandi",
+                "Alexander Hermans",
+                "Bastian Leibe"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Sarandi_Learning_3D_Human_Pose_Estimation_From_Dozens_of_Datasets_Using_WACV_2023_paper.pdf",
+            "ref_texts": "[34] X. Ji, Q. Fang, J. Dong, Q. Shuai, W. Jiang, and X. Zhou. A survey on monocular 3D human pose estimation. Virtual Reality & Intelligent Hardware , 2(6):471\u2013500, 2020.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "For an overview on the current trends in 3D pose estimator design, we refer the reader to excellent current surveys [11, 15, 34, 47, 79].",
+            "2": "[34] X."
+        },
+        "\u5f71\u5b50\u8f85\u52a9\u7684\u4e09\u7ef4\u4eba\u4f53\u91cd\u5efa": {
+            "authors": [],
+            "url": "https://www.jcad.cn/cn/article/pdf/preview/d7b354ea-fad5-46d4-b755-4d349a8f8b64.pdf",
+            "ref_texts": ""
+        }
+    }
+}

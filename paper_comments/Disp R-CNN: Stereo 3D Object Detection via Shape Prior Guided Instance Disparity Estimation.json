@@ -1,0 +1,308 @@
+{
+    "title": "Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation",
+    "id": 22,
+    "valid_pdf_number": "23/65",
+    "matched_pdf_number": "16/23",
+    "matched_rate": 0.6956521739130435,
+    "citations": {
+        "Liga-stereo: Learning lidar geometry aware representations for stereo-based 3d detector": {
+            "authors": [
+                "Xiaoyang Guo",
+                "Shaoshuai Shi",
+                "Xiaogang Wang",
+                "Hongsheng Li"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Guo_LIGA-Stereo_Learning_LiDAR_Geometry_Aware_Representations_for_Stereo-Based_3D_Detector_ICCV_2021_paper.pdf",
+            "ref_texts": "[49] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , 2020.",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "Stereo-based 3D detection algorithms can be roughly divided into three types: 1)2D-based methods [7, 54, 30, 39, 65, 49, 38] first detect 2D bounding box proposals and then regress instancewise 3D boxes.",
+            "2": "Disp R-CNN [49] and ZoomNet [65] incorporated extra instance segmentation mask and part location map to improve detection quality.",
+            "3": "06 Disp-RCNN [49] 64.",
+            "4": "56 Disp-RCNN [49] 68.",
+            "5": "93 Disp-RCNN [49] 37."
+        },
+        "Monodtr: Monocular 3d object detection with depth-aware transformer": {
+            "authors": [
+                "Chih Huang",
+                "Han Wu",
+                "Ting Su",
+                "Winston H. Hsu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Huang_MonoDTR_Monocular_3D_Object_Detection_With_Depth-Aware_Transformer_CVPR_2022_paper.pdf",
+            "ref_texts": "[44] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , 2020. 1",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "Previous methods have achieved superior performance based on the accurate depth information from multiple sensors, such as LiDAR signal [16,22,39,40] or stereo matching [6,23,44,52]."
+        },
+        "Learning auxiliary monocular contexts helps monocular 3D object detection": {
+            "authors": [
+                "Xianpeng Liu",
+                "Nan Xue",
+                "Tianfu Wu"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20074/19833",
+            "ref_texts": "2021. Categorical depth distribution network for monocular 3d object detection. In CVPR, 8555\u20138564. Rezatofighi, H.; Tsoi, N.; Gwak, J.; Sadeghian, A.; Reid, I.; and Savarese, S. 2019. Generalized intersection over union: A metric and a loss for bounding box regression. In CVPR, 658\u2013666. Shi, S.; Wang, Z.; Shi, J.; Wang, X.; and Li, H. 2020. From points to parts: 3d object detection from point cloud with part-aware and part-aggregation network. TPAMI. Shi, X.; Chen, Z.; and Kim, T.-K. 2020. Distancenormalized unified representation for monocular 3d object detection. In ECCV, 91\u2013107. Springer. Shi, X.; Ye, Q.; Chen, X.; Chen, C.; Chen, Z.; and Kim, T.-K. 2021. Geometry-based Distance Decomposition for Monocular 3D Object Detection. arXiv:2104.03775. Simonelli, A.; Bulo, S. R.; Porzi, L.; L \u00b4opez-Antequera, M.; and Kontschieder, P. 2019. Disentangling monocular 3d object detection. In ICCV, 1991\u20131999. Simonelli, A.; Bulo, S. R.; Porzi, L.; Ricci, E.; and Kontschieder, P. 2020. Towards generalization across depth for monocular 3d object detection. In ECCV, 767\u2013782. Springer. Sun, J.; Chen, L.; Xie, Y .; Zhang, S.; Jiang, Q.; Zhou, X.; and Bao, H. 2020. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR, 10548\u201310557. Valada, A.; Radwan, N.; and Burgard, W. 2018. Deep auxiliary learning for visual localization and odometry. In ICRA, 6939\u20136946. IEEE. Wang, L.; Du, L.; Ye, X.; Fu, Y .; Guo, G.; Xue, X.; Feng, J.; and Zhang, L. 2021a. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection. In CVPR, 454\u2013463. Wang, L.; Zhang, L.; Zhu, Y .; Zhang, Z.; He, T.; Li, M.; and Xue, X. 2021b. Progressive Coordinate Transforms for Monocular 3D Object Detection. arXiv:2108.05793. Wang, T.; Zhu, X.; Pang, J.; and Lin, D. 2021c. FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection. arXiv:2104.10956. Wang, T.; Zhu, X.; Pang, J.; and Lin, D. 2021d. Probabilistic and Geometric Depth: Detecting Objects in Perspective. arXiv:2107.14160. Wang, X.; Yin, W.; Kong, T.; Jiang, Y .; Li, L.; and Shen, C.",
+            "ref_ids": [
+                "2021"
+            ]
+        },
+        "R-msfm: Recurrent multi-scale feature modulation for monocular depth estimating": {
+            "authors": [
+                "Zhongkai Zhou",
+                "Xinnan Fan",
+                "Pengfei Shi",
+                "Yuanxue Xin"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_R-MSFM_Recurrent_Multi-Scale_Feature_Modulation_for_Monocular_Depth_Estimating_ICCV_2021_paper.pdf",
+            "ref_texts": "[36] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 10548\u201310557, 2020.",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "Depth estimation as a low-level task is crucial to complete higher-level tasks, including 3-D reconstruction[23], autonomous driving[6], 3-D target detection[36], underwater image restoration[43], and many more."
+        },
+        "Wasserstein distances for stereo disparity estimation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/fe7ecc4de28b2c83c016b5c6c2acd826-Paper.pdf",
+            "ref_texts": "[36] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , 2020. 8",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "3 DISPR-CNN [36] 74."
+        },
+        "Transferability of convolutional neural network models for identifying damaged buildings due to earthquake": {
+            "authors": [
+                "Wanting Yang",
+                "Xianfeng Zhang",
+                "Peng Luo"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/13/3/504/pdf",
+            "ref_texts": "17. Sun, J.; Chen, L.; Xie, Y.; Zhang, S.; Jiang, Q.; Zhou, X.; Bao, H. Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 10548\u201310557.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "However, considering the cost and difficulty of interpretation, satellite or aerial high-resolution optical remote sensing images are more widely used [17,18]."
+        },
+        "Exploring intermediate representation for monocular vehicle pose estimation": {
+            "authors": [
+                "Shichao Li",
+                "Zengqiang Yan",
+                "Hongyang Li",
+                "Ting Cheng"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Exploring_intermediate_representation_for_monocular_vehicle_pose_estimation_CVPR_2021_paper.pdf",
+            "ref_texts": "[55] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 10548\u201310557, 2020.",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "To pursue high accuracy, recent studies have exploited active sensors to obtain point clouds [63, 69, 47] or the use of stereo cameras [32, 55, 46].",
+            "2": "74 Disp R-CNN [55] CVPR\u2019 20 RGB + LiDAR Stereo 93.",
+            "3": "Without using LiDAR data [26] or temporal information [4], our system out-performs previous monocular RGB-based methods and even stereo methods [11, 55].",
+            "4": "Ego-Net even outperforms DSGN [11] and Disp RCNN [55] that use stereo cameras."
+        },
+        "Visual tracking of deepwater animals using machine learning-controlled robotic underwater vehicles": {
+            "authors": [
+                "Kakani Katija",
+                "Paul L. D",
+                "Joost Daniels",
+                "Alexandra Lapides",
+                "Kevin Barnard",
+                "Mike Risi",
+                "Ben Y. Ranaan",
+                "Benjamin G. Woodward",
+                "Jonathan Takahashi"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2021/papers/Katija_Visual_Tracking_of_Deepwater_Animals_Using_Machine_Learning-Controlled_Robotic_Underwater_WACV_2021_paper.pdf",
+            "ref_texts": "[42] J. Sun, L. Chen, Y . Xie, S. Zhang, Q. Jiang, X. Zhou, and H. Bao. Disp R-CNN: Stereo 3D object detection via shape prior guided instance disparity estimation. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 10545\u201310554. IEEE, jun 2020.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Leveraging object-centric model output, stereo matching algorithms can integrate correspondence matching into the network to outperform pixel-level matching [33], compute object-specific disparity [42], or estimate volumetric bounding boxes from monocular imagery [30].",
+            "2": "[42] J."
+        },
+        "Rts3d: Real-time stereo 3d detection from 4d feature-consistency embedding space for autonomous driving": {
+            "authors": [
+                "Peixuan Li",
+                "Shun Su",
+                "Huaici Zhao"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/16288/16095",
+            "ref_texts": "10535. URL http://dblp.uni-trier.de/db/conf/cvpr/cvpr2020. html#ShiGJ0SWL20. Shi, S.; Wang, X.; and Li, H. 2019. PointRCNN: 3D Object Proposal Generation and Detection From Point Cloud. In (CVPR2019), 770\u2013779. URL http://dblp.uni-trier.de/db/ conf/cvpr/cvpr2019.html#ShiWL19. Simonelli, A.; Bulo, S. R.; Porzi, L.; L \u00b4opez-Antequera, M.; and Kontschieder, P. 2019. Disentangling monocular 3d object detection. In Proceedings of the IEEE International Conference on Computer Vision, 1991\u20131999. Sun, J.; Chen, L.; Xie, Y .; Zhang, S.; Jiang, Q.; Zhou, X.; and Bao, H. 2020. Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation. In 1938",
+            "ref_ids": [
+                "10535"
+            ]
+        },
+        "Semi-Supervised Stereo-Based 3D Object Detection via Cross-View Consensus": {
+            "authors": [
+                "Wenhao Wu",
+                "Hau San",
+                "Si Wu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Semi-Supervised_Stereo-Based_3D_Object_Detection_via_Cross-View_Consensus_CVPR_2023_paper.pdf",
+            "ref_texts": "[35] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 10548\u201310557, 2020. 2",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "[35] implemented disparity estimation at the instance-level supervised by disparity maps generated from a shape prior model."
+        },
+        "Stereo neural vernier caliper": {
+            "authors": [
+                "Shichao Li",
+                "Zechun Liu",
+                "Zhiqiang Shen",
+                "Ting Cheng"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/20026/19785",
+            "ref_texts": "59.13. BMV A Press. Seitz, S. M.; and Dyer, C. R. 1999. Photorealistic scene reconstruction by voxel coloring. International Journal of Computer Vision, 35(2): 151\u2013173. Shi, S.; Wang, X.; and Li, H. 2019. Pointrcnn: 3d object proposal generation and detection from point cloud. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 770\u2013779. Snow, D.; Viola, P.; and Zabih, R. 2000. Exact voxel occupancy with graph cuts. In Proceedings IEEE Conference onComputer Vision and Pattern Recognition. CVPR 2000 (Cat. No. PR00662), volume 1, 345\u2013352. IEEE. Sun, J.; Chen, L.; Xie, Y .; Zhang, S.; Jiang, Q.; Zhou, X.; and Bao, H. 2020. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 10548\u201310557. Sun, K.; Xiao, B.; Liu, D.; and Wang, J. 2019. Deep highresolution representation learning for human pose estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5693\u20135703. V ogiatzis, G.; Torr, P. H.; and Cipolla, R. 2005. Multi-view stereo via volumetric graph-cuts. In 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR\u201905), volume 2, 391\u2013398. IEEE. Wang, J.; Sun, K.; Cheng, T.; Jiang, B.; Deng, C.; Zhao, Y .; Liu, D.; Mu, Y .; Tan, M.; Wang, X.; et al. 2020. Deep high-resolution representation learning for visual recognition. IEEE transactions on pattern analysis and machine intelligence. Wang, L.; Du, L.; Ye, X.; Fu, Y .; Guo, G.; Xue, X.; Feng, J.; and Zhang, L. 2021a. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 454\u2013463. Wang, Y .; Chao, W.-L.; Garg, D.; Hariharan, B.; Campbell, M.; and Weinberger, K. Q. 2019. Pseudo-lidar from visual depth estimation: Bridging the gap in 3d object detection for autonomous driving. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 8445\u20138453. Wang, Y .; Yang, B.; Hu, R.; Liang, M.; and Urtasun, R."
+        },
+        "Attention-based depth distillation with 3d-aware positional encoding for monocular 3d object detection": {
+            "authors": [
+                "Zizhang Wu",
+                "Yunzhe Wu",
+                "Jian Pu",
+                "Xianzhi Li",
+                "Xiaoquan Wang"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25391/25163",
+            "ref_texts": "2020. Pv-rcnn: Point-voxel feature set abstraction for 3d object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 10529\u201310538. Shi, S.; Wang, X.; and Li, H. 2019. Pointrcnn: 3d object proposal generation and detection from point cloud. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 770\u2013779. Shi, X.; Chen, Z.; and Kim, T.-K. 2020. Distance-normalized unified representation for monocular 3d object detection. In European Conference on Computer Vision, 91\u2013107. Springer. Shi, X.; Ye, Q.; Chen, X.; Chen, C.; Chen, Z.; and Kim, T.-K. 2021. Geometry-based distance decomposition for monocular 3d object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 15172\u201315181. Simonelli, A.; Bulo, S. R.; Porzi, L.; Kontschieder, P.; and Ricci, E. 2021. Are we missing confidence in pseudo-lidar methods for monocular 3d object detection? In Proceedings of the IEEE/CVF International Conference on Computer Vision, 3225\u20133233. Stewart, R.; Andriluka, M.; and Ng, A. Y . 2016. End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, 2325\u20132333. Sun, J.; Chen, L.; Xie, Y .; Zhang, S.; Jiang, Q.; Zhou, X.; and Bao, H. 2020. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 10548\u201310557. Tung, F.; and Mori, G. 2019. Similarity-preserving knowledge distillation. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 1365\u20131374.Wang, L.; Du, L.; Ye, X.; Fu, Y .; Guo, G.; Xue, X.; Feng, J.; and Zhang, L. 2021. Depth-conditioned dynamic message propagation for monocular 3d object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 454\u2013463. Wang, T.; Yuan, L.; Zhang, X.; and Feng, J. 2019a. Distilling object detectors with fine-grained feature imitation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 4933\u20134942. Wang, Y .; Chao, W.-L.; Garg, D.; Hariharan, B.; Campbell, M.; and Weinberger, K. Q. 2019b. Pseudo-lidar from visual depth estimation: Bridging the gap in 3d object detection for autonomous driving. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 8445\u20138453. Weng, X.; and Kitani, K. 2019. Monocular 3d object detection with pseudo-lidar point cloud. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, 0\u20130. Yim, J.; Joo, D.; Bae, J.; and Kim, J. 2017. A gift from knowledge distillation: Fast optimization, network minimization and transfer learning. In Proceedings of the IEEE conference on computer vision and pattern recognition, 4133\u20134141. Zhang, R.; Qiu, H.; Wang, T.; Xu, X.; Guo, Z.; Qiao, Y .; Gao, P.; and Li, H. 2022. Monodetr: Depth-aware transformer for monocular 3d object detection. arXiv preprint arXiv:2203.13310. Zhang, Y .; Lu, J.; and Zhou, J. 2021. Objects are Different: Flexible Monocular 3D Object Detection. In 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 3288\u20133297. Zhou, X.; Wang, D.; and Kr \u00a8ahenb \u00a8uhl, P. 2019. Objects as points. arXiv preprint arXiv:1904.07850. Zhou, Y .; He, Y .; Zhu, H.; Wang, C.; Li, H.; and Jiang, Q. 2021. Monocular 3d object detection: An extrinsic parameter free approach. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 7556\u20137566.",
+            "ref_ids": [
+                "2020"
+            ]
+        },
+        "BAAM: Monocular 3D pose and shape reconstruction with bi-contextual attention module and attention-guided modeling": {
+            "authors": [
+                "Jun Lee",
+                "Hanul Kim",
+                "Min Choi",
+                "Gyun Jeong",
+                "Yeong Jun"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Lee_BAAM_Monocular_3D_Pose_and_Shape_Reconstruction_With_Bi-Contextual_Attention_CVPR_2023_paper.pdf",
+            "ref_texts": "[44] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , pages 10548\u201310557, 2020. 1",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "To acquire precise 3D information, some prior arts have relied on specific devices such as LiDAR [3,10,42] and stereo vision [26,44]."
+        },
+        "Dimension Embeddings for Monocular 3D Object Detection": {
+            "authors": [
+                "Yunpeng Zhang",
+                "Wenzhao Zheng",
+                "Zheng Zhu",
+                "Guan Huang",
+                "Dalong Du",
+                "Jie Zhou",
+                "Jiwen Lu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf",
+            "ref_texts": "[45] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , 2020. 1",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Most existing methods rely on point clouds from LiDAR devices [18, 40, 41, 51] or binocular images from stereo cameras [7, 20, 37, 45] for accurate 3D object detec*Corresponding author."
+        },
+        "A Simple Baseline for Multi-Camera 3D Object Detection": {
+            "authors": [
+                "Yunpeng Zhang",
+                "Wenzhao Zheng",
+                "Zheng Zhu",
+                "Guan Huang",
+                "Jiwen Lu",
+                "Jie Zhou"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25460/25232",
+            "ref_texts": "2021. Categorical depth distribution network for monocular 3d object detection. In CVPR. Redmon, J.; Divvala, S. K.; Girshick, R. B.; and Farhadi, A. 2016. You Only Look Once: Unified, Real-Time Object Detection. In CVPR. Ren, S.; He, K.; Girshick, R.; and Sun, J. 2015. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. In NeurIPS. Shi, S.; Wang, X.; and Li, H. 2019. Pointrcnn: 3d object proposal generation and detection from point cloud. In CVPR. Sun, J.; Chen, L.; Xie, Y .; Zhang, S.; Jiang, Q.; Zhou, X.; and Bao, H. 2020a. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR. Sun, P.; Kretzschmar, H.; Dotiwalla, X.; Chouard, A.; Patnaik, V .; Tsui, P.; Guo, J.; Zhou, Y .; Chai, Y .; Caine, B.; et al.",
+            "ref_ids": [
+                "2021"
+            ]
+        },
+        "FCNet: Stereo 3D Object Detection with Feature Correlation Networks": {
+            "authors": [
+                "Yingyu Wu",
+                "Ziyan Liu",
+                "Yunlei Chen",
+                "Xuhui Zheng",
+                "Qian Zhang",
+                "Mo Yang",
+                "Guangming Tang"
+            ],
+            "url": "https://www.mdpi.com/1099-4300/24/8/1121/pdf",
+            "ref_texts": "25. Sun, J.; Chen, L.; Xie, Y.; Zhang, S.; Jiang, Q.; Zhou, X.; Bao, H. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 10548\u201310557.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Some researchers directly introduced point clouds to improve the detection performance [16,24], while others utilized instance segmentation to focus on the foreground [25,26].",
+            "2": "Disp RCNN [25] predicts disparity only for pixels on objects of interest and generates dense disparity without needing LiDAR point clouds.",
+            "3": ", Pseudo-LiDAR [20], Pseudo-LiDAR++ [16], Disp R-CNN [25] and DSGN [47]).",
+            "4": "99 Disp R-CNN [25] Stereo 0."
+        },
+        "Keypoint3D: Keypoint-Based and Anchor-Free 3D Object Detection for Autonomous Driving with Monocular Vision": {
+            "authors": [
+                "Zhen Li",
+                "Yuliang Gao",
+                "Qingqing Hong",
+                "Yuren Du",
+                "Seiichi Serikawa",
+                "Lifeng Zhang"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/15/5/1210/pdf",
+            "ref_texts": "15. Sun, J.; Chen, L.; Xie, Y.; Zhang, S.; Jiang, Q.; Zhou, X.; Bao, H. Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 14\u201319 June 2020; pp. 10545\u201310554. [CrossRef]",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "[15] proposed Disp R-CNN to build a novel instance disparity estimation network (iDispNet) to estimate depth values only for objects of interest."
+        },
+        "Star-Convolution for Image-Based 3D Object Detection": {
+            "authors": [
+                "Yuxuan L",
+                "Zhenhua Xu",
+                "Ming Liu"
+            ],
+            "url": "https://ram-lab.com/papers/2022/ICRA22LiuStar.pdf",
+            "ref_texts": "[13] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, and and Hujun Bao Xiaowei Zhou. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Conference on Computer Vision and Pattern Recognition (CVPR) , 2020.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "DispRCNN [13], ZoomNet [14], and OC Stereo [15] apply instance segmentation on both images to construct a local point cloud for each proposed instance to improve the accuracy of stereo matching on foreground pixels."
+        },
+        "PA-LoFTR: Local Feature Matching with 3D Position-Aware Transformer": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=U8MtHLRK06q"
+        },
+        "Semi-Supervised Stereo-based 3D Object Detection via Cross-View Consensus Supplementary Material": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Wu_Semi-Supervised_Stereo-Based_3D_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[7] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 10548\u201310557, 2020. 4",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "97 Disp R-CNN [7] \u2713 59."
+        },
+        "Pseudo-LiDAR: Camera-Based 3D Object Detection for Autonomous Driving": {
+            "authors": [],
+            "url": "https://ecommons.cornell.edu/bitstream/handle/1813/110914/Wang_cornellgrad_0058F_12812.pdf?sequence=1",
+            "ref_texts": "[51] Jiaming Sun, Linghao Chen, Yiming Xie, Siyu Zhang, Qinhong Jiang, Xiaowei Zhou, and Hujun Bao. Disp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation. In CVPR , 2020.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "OC-Stereo [41], CG-stereo [31] and disp-RCNN [51] add auxiliary 2D bounding box regression or instance segmentation tasks to help distinguish the background from foreground pixels.",
+            "2": "0 350 Disp-RCNN [51] 73.",
+            "3": "3 400 Disp-RCNN [51] 90."
+        },
+        "Disparity Estimation in Stereo Images": {
+            "authors": [],
+            "url": "https://www.loevliedl.com/static/Portfolio/PDF/DL_Final.pdf",
+            "ref_texts": "[2]J. Sun, L. Chen, Y . Xie, S. Zhang, Q. Jiang, X. Zhou, and H. Bao, \u201cDisp r-cnn: Stereo 3d object detection via shape prior guided instance disparity estimation,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 10548\u201310557, 2020.",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "[2]J."
+        },
+        "G\u00f6r\u00fcnt\u00fclerden 3 Boyutlu Y\u00fczey Olu\u015fturulmas\u0131 Y\u00f6ntemlerinin \u0130ncelenmesi": {
+            "authors": [],
+            "url": "https://acikerisim.erbakan.edu.tr/xmlui/bitstream/handle/20.500.12452/8030/YA%C4%9EMUR%20DARICI.pdf?sequence=1&isAllowed=y"
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "title": "Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation",
+    "id": 47,
+    "valid_pdf_number": "10/23",
+    "matched_pdf_number": "9/10",
+    "matched_rate": 0.9,
+    "citations": {
+        "Expressive talking head generation with granular audio-visual control": {
+            "authors": [
+                "Borong Liang",
+                "Yan Pan",
+                "Zhizhi Guo",
+                "Hang Zhou",
+                "Zhibin Hong",
+                "Xiaoguang Han",
+                "Junyu Han",
+                "Jingtuo Liu",
+                "Errui Ding",
+                "Jingdong Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Liang_Expressive_Talking_Head_Generation_With_Granular_Audio-Visual_Control_CVPR_2022_paper.pdf",
+            "ref_texts": "[22] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for cospeech gesture generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2022. 2",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "The task of animating virtual humans [5, 22, 23, 50, 52] from arbitrary speech sequence has drawn considerable attention in both computer vision and graphics, among which talking face generation is particular important."
+        },
+        "Visual sound localization in the wild by cross-modal interference erasing": {
+            "authors": [
+                "Xian Liu",
+                "Rui Qian",
+                "Hang Zhou",
+                "Di Hu",
+                "Weiyao Lin",
+                "Ziwei Liu",
+                "Bolei Zhou",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20073/19832",
+            "ref_texts": "900. Caron, M.; Bojanowski, P.; Joulin, A.; and Douze, M. 2018. Deep clustering for unsupervised learning of visual features. InProceedings of the European Conference on Computer Vision (ECCV), 132\u2013149. Chen, H.; Xie, W.; Afouras, T.; Nagrani, A.; Vedaldi, A.; and Zisserman, A. 2021. Localizing Visual Sounds the Hard Way. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 16867\u201316876. Gan, C.; Huang, D.; Zhao, H.; Tenenbaum, J. B.; and Torralba, A. 2020. Music Gesture for Visual Sound Separation. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 10478\u201310487. Gao, R.; and Grauman, K. 2019. Co-separating sounds of visual objects. In Proceedings of the IEEE International Conference on Computer Vision, 3879\u20133888. He, K.; Zhang, X.; Ren, S.; and Sun, J. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, 770\u2013778. Hinton, G.; Vinyals, O.; and Dean, J. 2015. Distilling the Knowledge in a Neural Network. In NIPS Deep Learning and Representation Learning Workshop.Hu, D.; Qian, R.; Jiang, M.; Tan, X.; Wen, S.; Ding, E.; Lin, W.; and Dou, D. 2020. Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching. arXiv preprint arXiv:2010.05466. Korbar, B.; Tran, D.; and Torresani, L. 2018. Cooperative learning of audio and video models from self-supervised synchronization. In Advances in Neural Information Processing Systems, 7763\u20137774. Lin, T.-Y .; Doll \u00b4ar, P.; Girshick, R.; He, K.; Hariharan, B.; and Belongie, S. 2017. Feature pyramid networks for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, 2117\u20132125. Lin, Y .-B.; Tseng, H.-Y .; Lee, H.-Y .; Lin, Y .-Y .; and Yang, M.-H. 2021. Unsupervised Sound Localization via Iterative Contrastive Learning. arXiv preprint arXiv:2104.00315. Liu, X.; Wu, Q.; Zhou, H.; Xu, Y .; Qian, R.; Lin, X.; Zhou, X.; Wu, W.; Dai, B.; and Zhou, B. 2022a. Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. Liu, X.; Xu, Y .; Wu, Q.; Zhou, H.; Wu, W.; and Zhou, B. 2022b. Semantic-Aware Implicit Neural Audio-Driven Video Portrait Generation. arXiv preprint arXiv:2201.07786. Owens, A.; and Efros, A. A. 2018. Audio-visual scene analysis with self-supervised multisensory features. In Proceedings of the European Conference on Computer Vision (ECCV), 631\u2013648. Patrick, M.; Asano, Y . M.; Fong, R.; Henriques, J. F.; Zweig, G.; and Vedaldi, A. 2020. Multi-modal self-supervision from generalized data transformations. arXiv preprint arXiv:2003.04298. Phan, H.; Koch, P.; Katzberg, F.; Maass, M.; Mazur, R.; McLoughlin, I.; and Mertins, A. 2017. What makes audio event detection harder than classification? In 2017 25th European signal processing conference (EUSIPCO), 2739\u2013",
+            "ref_ids": [
+                "900"
+            ]
+        },
+        "Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation": {
+            "authors": [
+                "Lingting Zhu",
+                "Xian Liu",
+                "Xuanyu Liu",
+                "Rui Qian",
+                "Ziwei Liu",
+                "Lequan Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf",
+            "ref_texts": "[30] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for cospeech gesture generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 10462\u201310472, June 2022. 1, 2, 3, 4, 5, 6, 7, 8",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "To this end, recent researches focus on the problem of audio-driven co-speech gesture generation [16, 25, 30, 41], which synthesizes human upper body gesture sequences that are aligned to the speech audio.",
+            "2": "Previous studies establish large-scale speech-gesture corpus to learn the mapping from speech audio to human skeletons in an end-to-end manner [4,5,25, 27,30,34,39].",
+            "3": "Recent works exploit neural networks to learn the mapping from speech to gesture based on a large training corpus, where an off-the-shelf pose estimator is leveraged to label the online videos for pseudo annotations [1, 16, 30, 34, 41, 42].",
+            "4": "Notably, several recent works are based on GANs to guarantee realistic results [16, 30, 34, 41], which involve the adversarial training between the generator and the discriminator.",
+            "5": "We follow baseline methods [30, 41] to pre-process such skeletal representation as the concatenation of unit direction vectors as pi= [di,1,di,2, .",
+            "6": "In contrast to most previous studies that resort to recurrent networks [30, 41], we propose to make use of the Transformer\u2019s strong capacity in sequential data modeling.",
+            "7": "We follow the data process in former works [30, 41], where the poses are resampled with 15 FPS, and frame segments of length 34 are obtained with a stride of 10.",
+            "8": "While the poses in TED Gesture only contain 10 upper body key points without vivid finger movements, the TED Expressive dataset [30] is further expressive of both finger and body movements.",
+            "9": "5) HA2G [30] introduces a hierarchical audio learner that captures information across different semantic granularities, achieving state-of-the-art performances.",
+            "10": "There are Jupper body joints in 10548\n TED Gesture [41] TED Expressive [30] Methods FGD \u2193BC\u2191Diversity \u2191FGD\u2193BC\u2191Diversity \u2191 Ground Truth 0 0.",
+            "11": "088 HA2G [30] 3.",
+            "12": "The Quantitative Results on TED Gesture [41] and TED Expressive [30].",
+            "13": "We compare the proposed diffusion-based method against recent SOTA methods [3, 16, 30, 41, 42] and ground truth.",
+            "14": "Evaluation Metrics In evaluation, we use three metrics that are used in cospeech gesture generation and relative fields [24, 30].",
+            "15": "Considering that the kinematic velocities vary from different joints, we use the change of included angle between bones to track motion beats following [30].",
+            "16": "[41] HA2G [30] DiffGesture(Ours) Naturalness 4.",
+            "17": "For TED Gesture, we report FGD of all baselines in [30] and evaluate BC and Diversity on our own\u2020.",
+            "18": "For TED Expressive, all the results of baselines are reported from [30].",
+            "19": "It is observed that our DiffGesture achieves state-of-the-art performance on both datasets, especially outperforming existing methods by a large margin on TED\n\u2020Since there exists an evaluation bug for the BC metric in HA2G [30], we report the re-implemented results from Liu et al.",
+            "20": "In contrast, DiffGesture produces diverse human-like poses without resulting in 10550\n TED Gesture [41] TED Expressive [30] Methods FGD \u2193BC\u2191Diversity \u2191FGD\u2193BC\u2191Diversity \u2191 DiffGesture Base 2.",
+            "21": "We investigate the performance of the GRU architecture in diffusion models, autoregressively generating poses in [30, 41]."
+        },
+        "Learning to Dub Movies via Hierarchical Prosody Models": {
+            "authors": [
+                "Gaoxiang Cong",
+                "Liang Li",
+                "Yuankai Qi",
+                "Jun Zha",
+                "Qi Wu",
+                "Wenyu Wang",
+                "Bin Jiang",
+                "Hsuan Yang",
+                "Qingming Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Cong_Learning_To_Dub_Movies_via_Hierarchical_Prosody_Models_CVPR_2023_paper.pdf",
+            "ref_texts": "[31] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for cospeech gesture generation. In CVPR , pages 10452\u201310462, 2022. 2",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Numerous methods have been developed for audio-visual translation [58] or speaking style transfer [57] by reconstructing the visual content in video [8, 30, 31, 50, 53, 59, 61\u201363]."
+        },
+        "Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement": {
+            "authors": [
+                "Xingqun Qi",
+                "Chen Liu",
+                "Muyi Sun",
+                "Lincheng Li",
+                "Changjie Fan",
+                "Xin Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Qi_Diverse_3D_Hand_Gesture_Prediction_From_Body_Dynamics_by_Bilateral_CVPR_2023_paper.pdf",
+            "ref_texts": "[24] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for cospeech gesture generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 10462\u201310472, 2022. 1, 6",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Such non-verbal body-hand coordination plays an important role in various virtual avatar scenarios, including human-agent interface [13,17,35,40,41], co-speech gesture synthesis [5, 20, 24, 46, 47], holoportation [29].",
+            "2": "\u2022Diversity : To verify the diversity of sampled hand gestures, we calculate the average feature distance between 500 random combined sequential pairs [20, 24]."
+        },
+        "Audio-Driven Co-Speech Gesture Video Generation": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8667f264f88c7938a73a53ab01eb1327-Paper-Conference.pdf",
+            "ref_texts": "[33] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for co-speech gesture generation. arXiv preprint arXiv:2203.13161 , 2022. 2, 3, 7, 8",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "Besides, the error in structural prior labeling impairs cross-modal audio-to-gesture learning [33].",
+            "2": "One strand of methods use small-scale MoCap datasets to learn specific models [16,18,30,42,48,51,55], while another strand of works exploit off-the-shelf estimator to label enormous videos as structural prior [1\u20133,21,33,39,61\u201363].",
+            "3": "To further improve the diversity of generated gestures and grasp the fine-grained cross-modal associations, components like adversarial loss [21], V AE sampling [30,59] and hierarchical encoder-decoder design [33] are proposed.",
+            "4": "Some approaches treat single modality of speech audio [2,19,21\u2013\n23,30,39] or text transcription [3,6,25,63] as input to drive the co-speech gesture, while some others use both modalities as stimuli for generation [1,33,62].",
+            "5": "We compare the proposed Audio-drive N Gesture v Ideo g Eneration (ANGIE ) against recent SOTA methods [21,33,39,62] and ground truth on four speakers\u2019 subsets.",
+            "6": "3 HA2G [33] 3.",
+            "7": "We compare with recent SOTA works: 1) Speech to Gesture (S2G) [21], a GAN-based pipeline that maps audio to 2D keypoints with a U-Net; 2) Hierarchical Audio to Gesture (HA2G) [33] which captures the hierarchical associations between multi-level audio features and treelike human skeletons; 3) Speech Drives Template (SDT) [39] which relieves the one-to-many mapping ambiguity by a set of continuous gesture template vectors; 4) Trimodal Context (TriCon) [62], a representative framework that considers the trimodal context of audio, text and speaker identity.",
+            "8": "We compare the Realness ,Synchrony andDiversity to baselines [21,33,39,62].",
+            "9": "Methods GT S2G [21] HA2G [33] SDT [39] TriCon [62] ANGIE (Ours) Realness 4.",
+            "10": ") [31,33] to account for the speech-motion alignment and the diversity among generated gestures.",
+            "11": "Note that HA2G [33] tends to generate over-expressive gestures with multi-level audio features, which makes their results on BC even better than the ground truth in some cases."
+        },
+        "The ReprGesture entry to the GENEA Challenge 2022": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3536221.3558066",
+            "ref_texts": "[17] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. 2022. Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 10462\u201310472.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "propose the hierarchical audio features extractor and pose inferrer to learn discriminative representations [17]."
+        },
+        "QPGesture: Quantization-Based and Phase-Guided Motion Matching for Natural Speech-Driven Gesture Generation": {
+            "authors": [
+                "Sicheng Yang",
+                "Zhiyong Wu",
+                "Minglei Li",
+                "Zhensong Zhang",
+                "Lei Hao",
+                "Weihong Bao",
+                "Haolin Zhuang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_QPGesture_Quantization-Based_and_Phase-Guided_Motion_Matching_for_Natural_Speech-Driven_Gesture_CVPR_2023_paper.pdf",
+            "ref_texts": "[32] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for co-speech gesture generation. In IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR , pages 10452\u201310462, 2022. 2",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "The present studies mainly consider four modalities: text [6,43,47], audio [15,18,24,29,36], gesture motion, and speaker identity [4, 5, 9, 31, 32, 44, 46].",
+            "2": "[32] propose a hierarchical audio learner extracts audio representations across semantic granularities and a hierarchical pose inferior renders the entire human pose."
+        },
+        "Audio-Driven Co-Speech Gesture Video Generation (Supplemental Document)": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8667f264f88c7938a73a53ab01eb1327-Supplemental-Conference.pdf",
+            "ref_texts": "[6]Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for co-speech gesture generation. arXiv preprint arXiv:2203.13161 , 2022. 4, 5",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "We compare the Realness ,Synchrony andDiversity to baselines [4, 6, 9, 15].",
+            "2": "Methods GT S2G [4] HA2G [6] SDT [9] TriCon [15] ANGIE (Ours) Realness 0.",
+            "3": "As proved in Automatic Speech Recognition (ASR) [16,14] and recent co-speech gesture studies [6], the speech audio actually contains some high-level semantic information.",
+            "4": "Such implicit semantic information in the speech audio could guide the model to capture some specific co-speech gesture patterns like metaphorics [6]."
+        },
+        "Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation\u2014\u2014Supplementary Material\u2014\u2014": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhu_Taming_Diffusion_Models_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[3] Xian Liu, Qianyi Wu, Hang Zhou, Yinghao Xu, Rui Qian, Xinyi Lin, Xiaowei Zhou, Wayne Wu, Bo Dai, and Bolei Zhou. Learning hierarchical cross-modal association for co-speech gesture generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pages 10462\u201310472, June 2022. 3",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "Following former works [3, 6], the shape of the inial poses is num pose\u00d7(dimpose+ 1) , where num pose denotes the number of ground truth poses, 34 for both two datasets, dimpose denotes the dimension of poses, 27 for TED Gesture and 126 for TED Expressive, and an indicator logit is set to 1 for the use of initial poses.",
+            "2": "For TED Expressive, we train a new auto-encoder on this dataset following [3] and use this one to evaluate FGD on TED Expressive.",
+            "3": "TED Gesture [6] TED Expressive [3] Context Input Logits FGD \u2193BC\u2191Diversity \u2191FGD\u2193BC\u2191Diversity \u2191 Ground Truth 0 0.",
+            "4": "The quantitative results on TED Gesture [6] and TED Expressive [3]."
+        }
+    }
+}

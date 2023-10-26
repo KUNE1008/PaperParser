@@ -1,0 +1,29 @@
+{
+    "title": "Key Point Detection Method and Apparatus, and Storage Medium",
+    "id": 83,
+    "valid_pdf_number": "5/5",
+    "matched_pdf_number": "0/5",
+    "matched_rate": 0.0,
+    "citations": {
+        "Camera calibration method and apparatus based on deep learning": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/c2/0b/d9/812b61f2ec8fc0/US10977831.pdf"
+        },
+        "Electronic apparatus and controlling method thereof": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/42/4a/71/506472ea9eedb5/US20210158077A1.pdf"
+        },
+        "Method and apparatus for positioning key point, device, and storage medium": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/d1/0a/a5/7b821505f4ef37/US11610389.pdf"
+        },
+        "Method and apparatus for identifying key point locations in image, and medium": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/d5/ab/ea/a387e9dd51fb6b/US20210279500A1.pdf"
+        },
+        "Image manipulation using deep learning techniques in a patch matching operation": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/34/b1/38/2f2258fd016207/US11080833.pdf"
+        }
+    }
+}

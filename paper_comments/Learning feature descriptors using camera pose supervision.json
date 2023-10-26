@@ -1,0 +1,573 @@
+{
+    "title": "Learning feature descriptors using camera pose supervision",
+    "id": 21,
+    "valid_pdf_number": "35/76",
+    "matched_pdf_number": "28/35",
+    "matched_rate": 0.8,
+    "citations": {
+        "LoFTR: Detector-free local feature matching with transformers": {
+            "authors": [
+                "Jiaming Sun",
+                "Zehong Shen",
+                "Yuang Wang",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Sun_LoFTR_Detector-Free_Local_Feature_Matching_With_Transformers_CVPR_2021_paper.pdf",
+            "ref_texts": "[50] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020.",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Inspired by [50], we use a correlation-based approach for this purpose.",
+            "2": "Following [50], for each query point \u02c6i, we also measure its uncertainty by calculating the total variance \u03c32(\u02c6i)of the corresponding heatmap."
+        },
+        "Gmflow: Learning optical flow via global matching": {
+            "authors": [
+                "Haofei Xu",
+                "Jing Zhang",
+                "Jianfei Cai",
+                "Hamid Rezatofighi",
+                "Dacheng Tao"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_GMFlow_Learning_Optical_Flow_via_Global_Matching_CVPR_2022_paper.pdf",
+            "ref_texts": "[43] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , pages 757\u2013774. Springer, 2020.",
+            "ref_ids": [
+                "43"
+            ],
+            "1": ", sparse matching between an image pair [34, 38, 43], which usually features a large viewpoint change , moves into a different track.",
+            "2": ", softmax layer [43]).",
+            "3": "Considering the correspondences in the two frames should share high similarity, we first compare the feature similarity for each pixel in F1with respect to all pixels in F2by computing their correlations [43].",
+            "4": "To tackle this issue, we use a differentiable matching layer [19,43,47]."
+        },
+        "Patch2pix: Epipolar-guided pixel-level correspondences": {
+            "authors": [
+                "Qunjie Zhou",
+                "Torsten Sattler",
+                "Laura Leal"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Patch2Pix_Epipolar-Guided_Pixel-Level_Correspondences_CVPR_2021_paper.pdf",
+            "ref_texts": "[40] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 1,2,3,6,7,8",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Therefore, recent works [5\u20137,16,17,28,40] propose to learn to detect and describe local features using neural networks, showing that learned features can be robustly matched under challenging conditions [6,17,28,40].",
+            "2": "To avoid such type of bias in the supervision, a recent work [40] proposes to use relative camera poses as weak supervision to learn local feature descriptors.",
+            "3": "Compared to [40], we optimize directly on match locations to learn matching, while they optimize through matching scores to learn feature descriptors.",
+            "4": "Related Work Researchers have recently opted for leveraging deep learning to detect robust and discriminative local features [5\u20137,17,28,40].",
+            "5": "Given the keypoints, CAPS [40] fuses features at several resolutions and obtains per-pixel descriptors by interpolation.",
+            "6": "Most local feature detectors and descriptors are trained on exact correspondences either calculated using camera poses and depth maps [6,10,17] or using synthetic homography transformations [5,28], except for CAPS [40] using epipolar geometry as weak supervision.",
+            "7": "In contrast, CAPS [40] uses the same level of supervision to learn feature descriptors and their loss optimizes through the matching scores whose indices give the match locations.",
+            "8": "4K SuperPoint + CAPS [40] + NN 2.",
+            "9": "We follow the corner correctness metric used in [5,33,40] and report the percentage of correctly estimated homographies whose average corner error distance is below 1/3/5 pixels.",
+            "10": "14 SuperPoint + CAPS [40] + NN 0.",
+            "11": "36 SIFT + CAPS [40] + NN 0.",
+            "12": "0 SuperPoint + CAPS [40] + NN Mix 82.",
+            "13": "0 SIFT + CAPS [40] + NN Weak 77.",
+            "14": "9 SuperPoint + CAPS [40] + NN Mix 86.",
+            "15": "4 SuperPoint + CAPS [40] + NN Mix 40.",
+            "16": "7 SIFT + CAPS [40] + NN Weak 38.",
+            "17": "While being worse than SuperPoint [5] + CAPS [40], which involves both full and weak supervision, we are on-par or better than all the other fully-supervised methods."
+        },
+        "DISK: Learning local features with policy gradient": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper/2020/file/a42a596fc71e17828440030074d15e74-Paper.pdf",
+            "ref_texts": "[43] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. European Conference on Computer Vision , 2020. 8",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "We also experimented with a variant of Rthat relies only on epipolar constraints , as in a recent paper [43]."
+        },
+        "Matchformer: Interleaving attention in transformers for feature matching": {
+            "authors": [
+                "Qing Wang",
+                "Jiaming Zhang",
+                "Kailun Yang",
+                "Kunyu Peng",
+                "Rainer Stiefelhagen"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Wang_MatchFormer_Interleaving_Attention_in_Transformers_for_Feature_Matching_ACCV_2022_paper.pdf",
+            "ref_texts": "42. Wang, Q., Zhou, X., Hariharan, B., Snavely, N.: Learning feature descriptors using camera pose supervision. In: ECCV (2020) 1, 4, 11, 12",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Recent works [22,27,42] based on deep learning focus on learning detectors \u2217Equal contribution \u2020Correspondence: kailun.",
+            "2": "CAPS [42] fuses multi-resolution features extracted by CNNs and obtains the descriptor of each pixel through interpolation.",
+            "3": "0K SP [8]+ CAPS [42]+NN ECCV\u201920 2.",
+            "4": "5K SP [8] + CAPS [42] ECCV\u201920 100% 0.",
+            "5": "81 SIFT + CAPS [42] ECCV\u201920 100% 0.",
+            "6": "4 SP [8] + CAPS [42] + NN ECCV\u201920 40.",
+            "7": "4 SIFT + CAPS [42] + NN ECCV\u201920 38."
+        },
+        "Onepose++: Keypoint-free one-shot object pose estimation without CAD models": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/e43f900f571de6c96a70d5724a0fb565-Paper-Conference.pdf",
+            "ref_texts": ""
+        },
+        "Decoupling makes weakly supervised local feature better": {
+            "authors": [
+                "Kunhong Li",
+                "Longguang Wang",
+                "Li Liu",
+                "Qing Ran",
+                "Kai Xu",
+                "Yulan Guo"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Li_Decoupling_Makes_Weakly_Supervised_Local_Feature_Better_CVPR_2022_paper.pdf",
+            "ref_texts": "[47] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning Feature Descriptors Using Camera Pose Supervision. In Proceedings of the European Conference on Computer Vision (ECCV) , volume 12346, pages 757\u2013774, 2020. 2, 3, 4, 5, 6, 7, 8",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "[47] introduced camera poses as weak supervision for descriptor learning.",
+            "2": "[47] used them as weak supervision and introduced an epipolar loss for descriptor learning.",
+            "3": "We follow CAPS [47] to use ResUNet as the description net, which produces a feature map with 1/4 resolution and 128 dimensions as dense descriptors.",
+            "4": "Feature Description Following the widely used paradigm [47], we impose supervision only on sparse query points sampled from paired images to conduct training of the description network.",
+            "5": "Since repetitive structures widely exist in a natural image, the commonly used coarse-to-fine strategy [42, 47] usually selects a mismatched patch such that inferior performance is produced (Fig.",
+            "6": "(5) Compared to the previous coarse-to-fine search strategy [47], our line-to-window search strategy can make better use of the camera pose information to reduce search space and further improve the discriminativeness of descriptors (as demonstrated in Sec.",
+            "7": "2 Loss Function With only weak supervision of camera pose, we calculate the distance of the correspondence \u02c6yito the epipolar line Lxias the loss of query point xi[47]: Lepi(\u02c6yi,xi) = distance(\u02c6yi, Lxi).",
+            "8": "We used a subset of the training split of CAPS [47].",
+            "9": "606 SIFT [22] + CAPS [47] 0.",
+            "10": "\u2022Weakly supervised dense feature methods: DELF\n[30], SuperPoint [12], DISK-W [46], and SIFT with CAPS [47] (SIFT + CAPS).",
+            "11": "90 CAPS [47] 851 242k 6.",
+            "12": "00 CAPS [47] 1179 627k 5.",
+            "13": "92 CAPS [47] 1104 452k 5.",
+            "14": "\u2022Weakly supervised dense feature methods: SuperPoint [12] and CAPS [47].",
+            "15": "\u201cL2W\u201d denotes our line-to-window search strategy (illustrated in Fig 4(b)) and \u201cC2F\u201d denotes the coarse-to-fine search strategy [47] (illustrated in Fig 4(a)).",
+            "16": "To validate the effectiveness of our line-to-window search strategy, we developed a network variant (Model 4) by replacing our search strategy with a coarse-to-fine one (as proposed in [47], illustrated in Fig."
+        },
+        "PyPose: A library for robot learning with physics-based optimization": {
+            "authors": [
+                "Chen Wang",
+                "Dasong Gao",
+                "Kuan Xu",
+                "Junyi Geng",
+                "Yaoyu Hu",
+                "Yuheng Qiu",
+                "Bowen Li",
+                "Fan Yang",
+                "Brady Moon",
+                "Abhinav Pandey",
+                "Jiahe Xu",
+                "Tianhao Wu",
+                "Haonan He",
+                "Daning Huang",
+                "Zhongqiang Ren",
+                "Shibo Zhao",
+                "Taimeng Fu",
+                "Pranay Reddy",
+                "Xiao Lin",
+                "Wenshan Wang",
+                "Jingnan Shi",
+                "Rajat Talak",
+                "Kun Cao",
+                "Yi Du",
+                "Han Wang",
+                "Huai Yu",
+                "Shanzhao Wang",
+                "Siyu Chen",
+                "Ananth Kashyap",
+                "Rohan Bandaru",
+                "Karthik Dantu",
+                "Jiajun Wu",
+                "Lihua Xie",
+                "Luca Carlone",
+                "Marco Hutter",
+                "Sebastian Scherer"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_PyPose_A_Library_for_Robot_Learning_With_Physics-Based_Optimization_CVPR_2023_paper.pdf",
+            "ref_texts": "[68] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In European Conference on Computer Vision , pages 757\u2013774. Springer, 2020. 6",
+            "ref_ids": [
+                "68"
+            ],
+            "1": "At the front end, we employ two recent works, SuperPoint [21] and CAPS [68], for feature extraction and matching, respectively."
+        },
+        "Virtual correspondence: Humans as a cue for extreme-view geometry": {
+            "authors": [
+                "Chiu Ma",
+                "Anqi Joyce",
+                "Shenlong Wang",
+                "Raquel Urtasun",
+                "Antonio Torralba"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Virtual_Correspondence_Humans_as_a_Cue_for_Extreme-View_Geometry_CVPR_2022_paper.pdf",
+            "ref_texts": "[81] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , volume 12346, 2020. 2",
+            "ref_ids": [
+                "81"
+            ]
+        },
+        "Transflow: Transformer as flow learner": {
+            "authors": [
+                "Yawen Lu",
+                "Qifan Wang",
+                "Siqi Ma",
+                "Tong Geng",
+                "Yingjie Victor",
+                "Huaijin Chen",
+                "Dongfang Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Lu_TransFlow_Transformer_As_Flow_Learner_CVPR_2023_paper.pdf",
+            "ref_texts": "[46] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 4",
+            "ref_ids": [
+                "46"
+            ],
+            "1": "Given the decoded feature maps between two consecutive frames, we compare the feature similarity by computing the correlation following [46]."
+        },
+        "Co-attention for conditioned image matching": {
+            "authors": [
+                "Olivia Wiles",
+                "Sebastien Ehrhardt",
+                "Andrew Zisserman"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wiles_Co-Attention_for_Conditioned_Image_Matching_CVPR_2021_paper.pdf",
+            "ref_texts": "[70] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In Proc. ECCV , 2020. 1,2,3,4,5,7,8",
+            "ref_ids": [
+                "70"
+            ],
+            "1": "In the latter case, we augment the recent self-supervised approach of learning camera pose of [70] by using CoAMs in a plug-and-play fashion.",
+            "2": "Our architecture can be viewed as a generalization of the standard correlation layer used in training end-to-end models for optical flow [12,18,61], stereo [22] or correspondence estimation [11,25,53,69,70,71].",
+            "3": "This is too coarse for geometric matching, so other methods use a hierarchical approach [11,53,70].",
+            "4": "3, we describe how CoAM is incorporated into the recent CAPSNet architecture [70] and trained in a self-supervised manner.",
+            "5": "Self\u00adsupervised training \u2013 the CAPSNet [70] with CoAM In this section we describe how CoAM can be added to the CAPSNet architecture of [70] and trained using the self-supervised framework of [70].",
+            "6": "We train the model as done in [70]: for 200K iterations, using a batch size of 6images, and an image size of480\u00d7640.",
+            "7": "5the benefits of the co-attention module are evaluated under self-supervised training [70].",
+            "8": "These differing results are somewhat explained by the implicit trade off between number of points and reprojection error [70].",
+            "9": "715926\n Method Accuracy on MegaDepth easy medium hard CAPS [70] w/ SIFT Kp.",
+            "10": "Experiments II: CoAM with CAPSNet Next, we evaluate CoAM when injected into the CAPSNet architecture [70] and trained in a self-supervised manner.",
+            "11": "Camera Pose Prediction This experiment follows that of [70].",
+            "12": "In order to determine the relative camera pose, we follow the approach of [70].",
+            "13": "14, whereas [70]\u2019s descriptors differ more, by 0."
+        },
+        "Vs-net: Voting with segmentation for visual localization": {
+            "authors": [
+                "Zhaoyang Huang",
+                "Han Zhou",
+                "Yijin Li",
+                "Bangbang Yang",
+                "Yan Xu",
+                "Xiaowei Zhou",
+                "Hujun Bao",
+                "Guofeng Zhang",
+                "Hongsheng Li"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_VS-Net_Voting_With_Segmentation_for_Visual_Localization_CVPR_2021_paper.pdf",
+            "ref_texts": "[53] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. arXiv preprint arXiv:2004.13324 , 2020.",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "Many feature detectors and descriptors have been proposed, such as handcrafted features [30,6,31,43,22] and learned features [35,15,17,41,19,53]."
+        },
+        "Self-supervised geometric perception": {
+            "authors": [
+                "Heng Yang",
+                "Wei Dong",
+                "Luca Carlone",
+                "Vladlen Koltun"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Self-Supervised_Geometric_Perception_CVPR_2021_paper.pdf",
+            "ref_texts": "[69] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In European Conf. on Computer Vision (ECCV) , 2020. 1,2,3,4,5,6,7",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "Learned feature descriptors have been shown to consistently and significantly outperform their hand-crafted counterparts across applications such as relative camera pose estimation [69,61], 3D point cloud registration [21,32], and object detection and pose estimation [58,86,64,72].",
+            "2": "For example, ground-truth relative camera poses are needed for training image keypoint descriptors [69,54,27], pairwise rigid transformations are required for training point cloud descriptors [21,32,74,85,70], and object poses are used to train image keypoint predictors [58,86].",
+            "3": "[69] only use 2D-2D camera poses to supervise the learning of feature descriptors.",
+            "4": ",SIFT [52],SuperPoint [24], or a dense random pixel location sampler [69], such that pa i=\u03c6(ai)\u2208R2\u21e5Nai andpb i=\u03c6(bi)\u2208R2\u21e5Nbiare two sets of 2D keypoint locations.",
+            "5": "2 In particular, following [69], letCbe a composition of a 2The translation t2S2.",
+            "6": "At first glance, the optimization (7) is different from the loss functions designed in the supervised feature learning literature [21,69,86].",
+            "7": "Let\u03c1(r)= min\u0000 r2,\u00afc2 be the TLScost function [79], where \u00afc>0 sets the maximum allowed inlier residual, supervised feature learning [69,21] in Examples 1-2can solve the optimization (7).",
+            "8": "In particular, the loss functions in [69,21] can be interpreted as the Augmented Lagrangian of problem (7).",
+            "9": "Recent work CAPS [69] is able to learn a descriptor under the supervision of fundamental matrices, which can be computed from relative pose and camera intrinsics [37].",
+            "10": "We used the recently proposed CAPS [69] feature learning framework as the student.",
+            "11": "To speed up the training of SGP, we sampled 10% of the original MegaDepth training set used in [69] uniformly at random, resulting in 78,836pairs of images without relative pose labels.",
+            "12": "We evaluated the performance of S-CAPS on (i) the MegaDepth test set, provided in [69], including 3,000image pairs equally divided into 4We assumed known camera intrinsics so the fundamental matrix can be computed from the essential matrix to supervise CAPS .",
+            "13": "We see that both versions of S-CAPS outperform the strong baseline using SIFT with ratio test and RANSAC10K , as well as the two SOTA results from the original CAPS [69] using both SIFT detector and SuperPoint detector [24].",
+            "14": "Following [69], we say a rotation or a translation is estimated correctly if it has angular error less than 10\u0000w.",
+            "15": "7We suspect the RANSAC in [69] is not carefully tuned.",
+            "16": "0 SIFT+Wang-CAPS [69]b70.",
+            "17": "1 SuperPoint +Wang-CAPS [69]b72.",
+            "18": "bRecall statistics adapted from the original CAPS paper [69]."
+        },
+        "Pump: Pyramidal and uniqueness matching priors for unsupervised learning of local descriptors": {
+            "authors": [
+                "Jerome Revaud",
+                "Vincent Leroy",
+                "Philippe Weinzaepfel",
+                "Boris Chidlovskii"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Revaud_PUMP_Pyramidal_and_Uniqueness_Matching_Priors_for_Unsupervised_Learning_of_CVPR_2022_paper.pdf",
+            "ref_texts": "[71] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 2, 3",
+            "ref_ids": [
+                "71"
+            ],
+            "1": "known camera poses [71].",
+            "2": "Usually, methods designed around this prior rely on supervision signals from epipolar geometry [9,73,75,78] or relative camera poses [4, 13, 71]."
+        },
+        "Mtldesc: Looking wider to describe better": {
+            "authors": [
+                "Changwei Wang",
+                "Rongtao Xu",
+                "Yuyang Zhang",
+                "Shibiao Xu",
+                "Weiliang Meng",
+                "Bin Fan",
+                "Xiaopeng Zhang"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20138/19897",
+            "ref_texts": "477. Springer. Tyszkiewicz, M.; Fua, P.; and Trulls, E. 2020. DISK: Learning local features with policy gradient. Advances in Neural Information Processing Systems, 33. Wang, H.; Zhu, Y .; Green, B.; Adam, H.; Yuille, A.; and Chen, L.-C. 2020a. Axial-deeplab: Stand-alone axialattention for panoptic segmentation. In European Conference on Computer Vision, 108\u2013126. Springer. Wang, Q.; Zhou, X.; Hariharan, B.; and Snavely, N. 2020b. Learning Feature Descriptors using Camera Pose Supervision. In Proc. European Conference on Computer Vision (ECCV). Wu, B.; Xu, C.; Dai, X.; Wan, A.; Zhang, P.; Tomizuka, M.; Keutzer, K.; and Vajda, P. 2020. Visual transformers: Tokenbased image representation and processing for computer vision. arXiv preprint arXiv:2006.03677. Yu, C.; Wang, J.; Peng, C.; Gao, C.; Yu, G.; and Sang, N.",
+            "ref_ids": [
+                "477"
+            ]
+        },
+        "Adaptive Spot-Guided Transformer for Consistent Local Feature Matching": {
+            "authors": [
+                "Jiahuan Yu",
+                "Jiahao Chang",
+                "Jianfeng He",
+                "Tianzhu Zhang",
+                "Jiyang Yu",
+                "Feng Wu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Adaptive_Spot-Guided_Transformer_for_Consistent_Local_Feature_Matching_CVPR_2023_paper.pdf"
+        },
+        "Adaptive assignment for geometry aware local feature matching": {
+            "authors": [
+                "Dihe Huang",
+                "Ying Chen",
+                "Yong Liu",
+                "Jianlin Liu",
+                "Shang Xu",
+                "Wenlong Wu",
+                "Yikang Ding",
+                "Fan Tang",
+                "Chengjie Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Adaptive_Assignment_for_Geometry_Aware_Local_Feature_Matching_CVPR_2023_paper.pdf",
+            "ref_texts": "[33] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , pages 757\u2013774, 2020. 6",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "58 SP [8]+CAPS [33] 0."
+        },
+        "Efficient large-scale localization by global instance recognition": {
+            "authors": [
+                "Fei Xue",
+                "Ignas Budvytis",
+                "Daniel Olmeda",
+                "Roberto Cipolla"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Xue_Efficient_Large-Scale_Localization_by_Global_Instance_Recognition_CVPR_2022_paper.pdf",
+            "ref_texts": "[61] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 2, 5, 6",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "These problems can be partially solved by leveraging more powerful local features [3,11,29,35,60,61] or matching networks [13, 14, 25, 36, 38, 49, 65, 67], while their high computational [35, 38] and memory [25, 36, 49] cost impair their efficiency in real applications.",
+            "2": "We also compare it with state-of-the-art pipeline HLoc [37] with different local features [10, 11, 28, 33, 35, 50, 61] (H) and those with advanced or dense matching networks [13, 31, 38, 39, 49, 59, 67] (M).",
+            "3": "2 CAPS + SIFT [27, 61] 82.",
+            "4": "0 CAPS + SIFT [27, 61] 77.",
+            "5": "0 CAPS + SPP [10, 61] 82."
+        },
+        "Neural reprojection error: Merging feature learning and camera pose estimation": {
+            "authors": [
+                "Hugo Germain",
+                "Vincent Lepetit",
+                "Guillaume Bourmaud"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Germain_Neural_Reprojection_Error_Merging_Feature_Learning_and_Camera_Pose_Estimation_CVPR_2021_paper.pdf",
+            "ref_texts": "[45] Q. Wang, X. Zhou, B. Hariharan, and N. Snavely. Learning Feature Descriptors Using Camera Pose Supervision. In ECCV , 2020.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Feature learning methods [5,6,15,16,18,24,26,29,30,35, 41,43,45,46] learn to transform an image into robust dense descriptors.",
+            "2": "[45] Q."
+        },
+        "SFD2: Semantic-guided Feature Detection and Description": {
+            "authors": [
+                "Fei Xue",
+                "Ignas Budvytis",
+                "Roberto Cipolla"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xue_SFD2_Semantic-Guided_Feature_Detection_and_Description_CVPR_2023_paper.pdf",
+            "ref_texts": "[77] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 3, 4, 6, 7",
+            "ref_ids": [
+                "77"
+            ],
+            "1": "Instead of using pixel-wise correspondences for training, CAPS [77], PoSFeat [32] and PUMP [50] utilize camera pose and local consistency of matches for supervision.",
+            "2": "Unlike previous descriptors [14, 37, 41, 50, 51, 77], which only differentiate keypoints based on local patch information, our descriptors enforce similarities of features in the same class while retain dissimilarities for intra-class matching.",
+            "3": "0 SIFT+CAPS [35, 77] 77.",
+            "4": "0 SPP+CAPS [14, 77] 82.",
+            "5": "2 CAPS+SIFT [35, 77] 82.",
+            "6": "We also compare our model with learned features [14, 16, 37, 50, 51, 77] (L).",
+            "7": "As prior methods [14, 16, 37, 50, 51, 77], we use HLoc [54] pipeline for reconstruction and mutual nearest matching (MNN).",
+            "8": "2 CAPS [77] 56."
+        },
+        "Data-driven feature tracking for event cameras": {
+            "authors": [
+                "Nico Messikommer",
+                "Carter Fang",
+                "Mathias Gehrig",
+                "Davide Scaramuzza"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Messikommer_Data-Driven_Feature_Tracking_for_Event_Cameras_CVPR_2023_paper.pdf",
+            "ref_texts": "[43] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning Feature Descriptors Using Camera Pose Supervision. In Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm, editors, Computer Vision \u2013 ECCV 2020 , pages 757\u2013774, Cham, 2020. Springer International Publishing. 2",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "[43] used pose data to supervise a network for pixel-wise correspondence estimation where the epipolar constraint between two frames is used to penalize incorrect predictions."
+        },
+        "Multi-Scale Local Implicit Keypoint Descriptor for Keypoint Matching": {
+            "authors": [
+                "Min Lee",
+                "Eunhyeok Park",
+                "Sungjoo Yoo"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/IMW/papers/Lee_Multi-Scale_Local_Implicit_Keypoint_Descriptor_for_Keypoint_Matching_CVPRW_2023_paper.pdf",
+            "ref_texts": "[38] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. CoRR , abs/2004.13324, 2020. 2, 7",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Another recent method [38]uses a coarse-to-fine architecture model, which is similar to our proposed one.",
+            "2": "More recently, [12,38] suggests a new loss that exploits the epipolar constraint using camera pose, and [36] suggests a pipeline where the detector and descriptor are learned via reinforcement learning.",
+            "3": "The image pairs for evaluation are provided by CAPS [38], where there are three subsets with 1,000 images each according to relative rotation angle: easy ([0\u25e6,15\u25e6]), moderate ([15\u25e6,30\u25e6]) and hard ([30\u25e6,60\u25e6]).",
+            "4": "We follow the sampled image pairs from LFnet [20] and CAPS [38] and each subset consists of about 1,000 image pairs.",
+            "5": "We consider a rotation or translation to be correct if the angular deviation is less than a threshold, and report the average accuracy for that threshold as CAPS [38]."
+        },
+        "FeatureBooster: Boosting Feature Descriptors with a Lightweight Neural Network": {
+            "authors": [
+                "Xinjiang Wang",
+                "Zeyu Liu",
+                "Yu Hu",
+                "Wei Xi",
+                "Wenxian Yu",
+                "Danping Zou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_FeatureBooster_Boosting_Feature_Descriptors_With_a_Lightweight_Neural_Network_CVPR_2023_paper.pdf",
+            "ref_texts": "[50] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , pages 757\u2013774, 2020. 2",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Learning-based dense descriptors [10,12,16,30,33,50] can leverage information beyond local patches in that they are typically extracted from theentire image using convolutional neural networks, thus exhibiting superior performances on large viewpoint and illu-mination changes."
+        },
+        "Axiomatic explanations for visual search, retrieval, and similarity learning": {
+            "authors": [],
+            "url": "https://dspace.mit.edu/bitstream/handle/1721.1/144951/Hamilton-markth-SM-EECS-2022-thesis.pdf?sequence=1&isAllowed=y",
+            "ref_texts": "[69] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In Proc. European Conference on Computer Vision (ECCV) , 2020.",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "Works such as [21, 62, 69, 13, 33] use feature correlation layers to estimate and utilize correspondences between images.",
+            "2": "10) We note that the first term of the summation corresponds to the frequently used correlation layer [22, 62, 69, 13] and generalizes the \u201cpoint-to-point\u201d signal in [75]."
+        },
+        "TUSK: Task-Agnostic Unsupervised Keypoints": {
+            "authors": [
+                "Yuhe Jin"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/be53aed1708d5828441087e5c7b97440-Paper-Conference.pdf",
+            "ref_texts": "[58] Wang, Q., Zhou, X., Hariharan, B., Snavely, N.: Learning Feature Descriptors using Camera Pose Supervision. In: European Conference on Computer Vision (2020) 4",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "They remain an open area of research [9,55,58,62], but are now relegated to applications such as 3D reconstruction and re-localization [39,52] or SLAM [42,12].",
+            "2": "While recent papers have drastically reduced supervision requirements [58,55,62], truly unsupervised learning for general-use local features remains a \u2018holy grail\u2019.",
+            "3": "Journal of machine learning research (2010) 3\n[58] Wang, Q."
+        },
+        "Active robot vision: from state estimation to motion planning": {
+            "authors": [
+                "Zichao Zhang"
+            ],
+            "url": "https://scholar.archive.org/work/imlattedxzclbeef6m3jnlbbhq/access/wayback/https://www.zora.uzh.ch/id/eprint/191571/1/191571.pdf",
+            "ref_texts": "[302] Q. Wang, X. Zhou, B. Hariharan, and N. Snavely. \u201cLearning Feature Descriptors using Camera Pose Supervision\u201d. In: arXiv e-prints (2020).",
+            "ref_ids": [
+                "302"
+            ],
+            "1": "Thus, recent work trains feature detectors and descriptors jointly [20,69,200,311,302,195], leading to state-of-the-art feature matching performance for images taken under strongly differing conditions.",
+            "2": "[232,311,302,20,74,25,179, 254,54,215,99,233,314] have already been evaluated on the dataset.",
+            "3": "[302] Q."
+        },
+        "Learned BRIEF\u2013transferring the knowledge from hand-crafted to learning-based descriptors": {
+            "authors": [],
+            "url": "https://biblio.ugent.be/publication/8684937/file/8684938.pdf",
+            "ref_texts": "[17] Q. Wang, X. Zhou, B. Hariharan, and N. Snavely, \u201cLearning feature descriptors using camera pose supervision,\u201d arXiv preprint arXiv:2004.13324 , 2020.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "In recent years, the development of deep learning techniques has resulted in numerous learned descriptors [4], [12]\u2013[17].",
+            "2": "[17] Q."
+        },
+        "Learning and Crafting for the Wide Multiple Baseline Stereo": {
+            "authors": [
+                "Andrea Vedaldi"
+            ],
+            "url": "https://dspace.cvut.cz/bitstream/handle/10467/94206/F3-X-posudek-Vedaldi_Andrea.pdf?sequence=-1"
+        },
+        "Patch2Pix: Epipolar-Guided Pixel-Level Correspondences Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/supplemental/Zhou_Patch2Pix_Epipolar-Guided_Pixel-Level_CVPR_2021_supplemental.pdf",
+            "ref_texts": "[22] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In ECCV , 2020. 2, 3",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Homography Estimation Details To compute the corner correctness metric used in [6,17,22], the four corners of one image are transformed into the other image using the estimated homography to compute the distance to the four GT corners.",
+            "2": "With the results of the complete table, we show that SuperPoint [6], SuperPoint + CAPS [22] and SIFT + CAPS [22] benefit from using a threshold of 0.",
+            "3": "4 SuperPoint + CAPS [22] + NN 0.",
+            "4": "0 SIFT + CAPS [22] + NN 0."
+        },
+        "Amodal Visual Scene Representations With and Without Geometry": {
+            "authors": [],
+            "url": "https://kilthub.cmu.edu/ndownloader/files/35469872",
+            "ref_texts": "[179] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In Proc. European Conference on Computer Vision (ECCV) , 2020. 86",
+            "ref_ids": [
+                "179"
+            ],
+            "1": "Instead of using proxy tasks, supervised approaches [45,71,179,186] directly train models using ground truth correspondences across images."
+        },
+        "Deep Structured Models for Spatial Intelligence": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=NO06lRxBSOLP",
+            "ref_texts": "1999 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No PR00149) , volume 1, pages 125\u2013131. IEEE, 1999. D. G. Lowe. Object recognition from local scale-invariant features. In ICCV ,1 9 9 9 . Z. Lu and K. Grauman. Story-driven summarization for egocentric video. In CVPR ,2 0 1 3 . W. Luo, A. G. Schwing, and R. Urtasun. Efficient deep learning for stereo matching. In CVPR , 2016. Z. Lv, F. Dellaert, J. M. Rehg, and A. Geiger. Taking a deeper look at the inverse compositional algorithm. In CVPR ,2 0 1 9 . BIBLIOGRAPHY. 156 W.-C. Ma, S. Wang, M. A. Brubaker, S. Fidler, and R. Urtasun. Find your way by observing the sun and other semantic cues. In ICRA ,2 0 1 7 . W.-C. Ma, S. Wang, R. Hu, Y. Xiong, and R. Urtasun. Deep rigid instance scene flow. In CVPR , 2019. W. Maddern, G. Pascoe, C. Linegar, and P. Newman. 1 year, 1000km: The oxford robotcar dataset. IJRR ,2 0 1 6 . J. Mairal, F. Bach, J. Ponce, G. Sapiro, and A. Zisserman. Non-local sparse models for image restoration. In ICCV ,2 0 0 9 . D. Martin, C. Fowlkes, D. Tal, and J. Malik. A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics. InICCV ,2 0 0 1 . R. Martin-Brualla, Y. He, B. C. Russell, and S. M. Seitz. The 3D Jigsaw Puzzle: Mapping Large Indoor Spaces. In ECCV ,2 0 1 4 . G. M\u00e1ttyus, S. Wang, S. Fidler, and R. Urtasun. Enhancing road maps by parsing aerial images around the world. In ICCV ,2 0 1 5 . G. M\u00e1ttyus, S. Wang, S. Fidler, and R. Urtasun. Hd maps: Fine-grained road segmentation by parsing ground and aerial images. In CVPR ,2 0 1 6 . D. Maturana and S. Scherer. Voxnet: A 3d convolutional neural network for real-time object recognition. In IROS ,2 0 1 5 . K. Matzen and N. Snavely. Nyc3dcars: A dataset of 3d vehicles in geographic context. In ICCV , 2013. N. Mayer, E. Ilg, P. H\u00e4usser, P. Fischer, D. Cremers, A. Dosovitskiy, and T. Brox. A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation. arXiv ,2 0 1 5 . T. Meinhardt, M. Moller, C. Hazirbas, and D. Cremers. Learning proximal operators: Using denoising networks for regularizing inverse imaging problems. In ICCV ,2 0 1 7 . A. Mensch and M. Blondel. Differentiable dynamic programming for structured prediction and attention. In ICML ,2 0 1 8 . M. Menze, C. Heipke, and A. Geiger. Discrete optimization for optical flow. In GCPR ,2 0 1 5 . L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger. Occupancy networks: Learning 3d reconstruction in function space. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 4460\u20134470, 2019. BIBLIOGRAPHY. 157 B. Mildenhall, P. P. Srinivasan, M. Tancik, J. T. Barron, R. Ramamoorthi, and R. Ng. Nerf: Representing scenes as neural radiance fields for view synthesis. In European Conference on Computer Vision , pages 405\u2013421. Springer, 2020. F. Monti, D. Boscaini, J. Masci, E. Rodol\u00e0, J. Svoboda, and M. M. Bronstein. Geometric deep learning on graphs and manifolds using mixture model cnns. CVPR ,2 0 1 7 . R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos. Orb-slam: a versatile and accurate monocular slam system. IEEE Transactions on Robotics ,2 0 1 5 . K. P. Murphy, Y. Weiss, and M. I. Jordan. Loopy belief propagation for approximate inference: an empirical study. In UAI,1 9 9 9 . R. Newcombe, S. Izadi, O. Hilliges, D. Molyneaux, D. Kim, A. Davison, P. Kohi, J. Shotton, S. Hodges, and A. Fitzgibbon. Kinectfusion: Real-time dense surface mapping and tracking. InISMAR ,2 0 1 1 a . R. A. Newcombe, S. J. Lovegrove, and A. J. Davison. Dtam: Dense tracking and mapping in real-time. In CVPR ,2 0 1 1 b . F. Nex, M. Gerke, F. Remondino, H. Przybilla, M. B\u00e4umker, and A. Zurhorst. Isprs benchmark for multi-platform photogrammetry. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences ,2 0 1 5 . J. Niemeyer, F. Rottensteiner, and U. Soergel. Contextual classification of lidar data and building object detection in urban areas. ISPRS journal of photogrammetry and remote sensing ,2 0 1 4 . D. Nist\u00e9r. An efficient solution to the five-point relative pose problem. IEEE transactions on pattern analysis and machine intelligence ,2 6 (6 ) : 7 5 6 \u2013 7 7 0 ,2 0 0 4 . N.Mayer, E.Ilg, P.H\u00e4usser, P.Fischer, D.Cremers, A.Dosovitskiy, and T.Brox. A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation. In CVPR , 2016. J. Nocedal and S. J. Wright. Numerical optimization 2ed. Springer-Verlag ,2 0 0 6 . N. Noorshams and M. J. Wainwright. Belief propagation for continuous state spaces: Stochastic message-passing with quantitative guarantees. JMLR ,2 0 1 3 . S. Nowozin and C. Lampert. Structured learning and prediction in computer vision. Foundations and Trends \u00aein Computer Graphics and Vision ,2 0 1 1 . Y. Ono, E. Trulls, P. Fua, and K. M. Yi. Lf-net: Learning local features from images. arXiv preprint arXiv:1805.09662 ,2 0 1 8 . A. Papachristodoulou, J. Anderson, G. Valmorbida, S. Prajna, P. Seiler, and P. Parrilo. Sostools version 3.00 sum of squares optimization toolbox for matlab. arXiv ,2 0 1 3 . BIBLIOGRAPHY. 158 N. Parikh and S. Boyd. Proximal algorithms. Foundations and Trends in optimization ,1 (3 ) : 127\u2013239, 2014a. N. Parikh and S. Boyd. Proximal algorithms. Foundations and Trends in optimization ,2 0 1 4 b . J. J. Park, P. Florence, J. Straub, R. Newcombe, and S. Lovegrove. Deepsdf: Learning continuous signed distance functions for shape representation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 165\u2013174, 2019. P. A. Parrilo. Structured semidefinite programs and semialgebraic geometry methods in robustness and optimization . PhD thesis, 2000. J. Pearl. Fusion, propagation, and structuring in belief networks. Artificial intelligence ,2 9 (3 ) : 241\u2013288, 1986. J. Pearl. Probabilistic reasoning in intelligent systems: networks of plausible inference .1 9 8 8 . J. Peng, T. Hazan, D. McAllester, and R. Urtasun. Convex max-product algorithms for continuous mrfs with applications to protein folding. In ICML ,2 0 1 1 . M. Pollefeys, R. Koch, and L. Van Gool. Self-calibration and metric reconstruction inspite of varying and unknown intrinsic camera parameters. International Journal of Computer Vision , 32(1):7\u201325, 1999. E. Prados and O. Faugeras. Shape from shading. 2006. P. Purkait, T.-J. Chin, and I. Reid. Neurora: Neural robust rotation averaging. In ECCV ,2 0 2 0 . P. Putzky and M. Welling. Recurrent inference machines for solving inverse problems. arXiv , 2017. C. R. Qi, H. Su, K. Mo, and L. J. Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. 2016a. C. R. Qi, H. Su, M. Nie\u00dfner, A. Dai, M. Yan, and L. J. Guibas. Volumetric and multi-view cnns for object classification on 3d data. In CVPR ,2 0 1 6 b . C. R. Qi, L. Yi, H. Su, and L. J. Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space. 2017a. X. Qi, R. Liao, J. Jia, S. Fidler, and R. Urtasun. 3d graph neural networks for rgbd semantic segmentation. In CVPR ,2 0 1 7 b . A. Quattoni and A. Torralba. Recognizing indoor scenes. In CVPR ,2 0 0 9 . M. Quigley, K. Conley, B. Gerkey, J. Faust, T. Foote, J. Leibs, R. Wheeler, and A. Y. Ng. Ros: an open-source robot operating system. In ICRA workshop ,2 0 0 9 . BIBLIOGRAPHY. 159 N. Radwan, A. Valada, and W. Burgard. VLocNet++: Deep Multitask Learning for Semantic Visual Localization and Odometry. arXiv ,2 0 1 8 . U. Ramer. An iterative procedure for the polygonal approximation of plane curves. Computer graphics and image processing ,1 9 7 2 . R. Ranftl and V. Koltun. Deep fundamental matrix estimation. In Proceedings of the European conference on computer vision (ECCV) , pages 284\u2013299, 2018. N. Ravi, P. Shankar, A. Frankel, A. Elgammal, and L. Iftode. Indoor localization using camera phones. In WMCSA ,2 0 0 6 . J. Rehder, J. Nikolic, T. Schneider, T. Hinzmann, and R. Siegwart. Extending kalibr: Calibrating the extrinsics of multiple imus and of individual axes. In 2016 IEEE International Conference on Robotics and Automation (ICRA) , pages 4304\u20134311. IEEE, 2016. X. Ren, L. Bo, and D. Fox. Rgb-(d) scene labeling: Features and algorithms. In CVPR ,2 0 1 2 . J. Revaud, P. Weinzaepfel, Z. Harchaoui, and C. Schmid. Epicflow: Edge-preserving interpolation of correspondences for optical flow. In CVPR ,2 0 1 5 . J. Revaud, P. Weinzaepfel, C. De Souza, N. Pion, G. Csurka, Y. Cabon, and M. Humenberger. R2d2: repeatable and reliable detector and descriptor. arXiv preprint arXiv:1906.06195 ,2 0 1 9 . S. R. Richter, V. Vineet, S. Roth, and V. Koltun. Playing for data: Ground truth from computer games. In ECCV ,2 0 1 6 . G. Riegler, A. O. Ulusoys, and A. Geiger. Octnet: Learning deep 3d representations at high resolutions. 2017. G. Ros, S. Ramos, M. Granados, A. Bakhtiary, D. Vazquez, and A. Lopez. Vision-based offline-online perception paradigm for autonomous driving. In WACV ,2 0 1 5 . G. Ros, L. Sellart, J. Materzynska, D. Vazquez, and A. M. Lopez. The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes. In CVPR ,2 0 1 6 . S. Ross, D. Munoz, M. Hebert, and J. Bagnell. Learning message-passing inference machines for structured prediction. In CVPR ,2 0 1 1 . S. Roth and M. Black. Fields of experts: A framework for learning image priors. In CVPR ,2 0 0 5 . S. Roth and M. J. Black. On the spatial statistics of optical flow. In IJCV ,2 0 0 7 . S. Roth and M. J. Black. Fields of experts. IJCV ,2 0 0 9 . F. Rottensteiner, G. Sohn, M. Gerke, and J. D. Wegner. Isprs test project on urban classification and 3d building reconstruction. 2013. BIBLIOGRAPHY. 160 S. Rusinkiewicz and M. Levoy. Efficient variants of the icp algorithm. In 3DIM ,2 0 0 1 . S. Saito, Z. Huang, R. Natsume, S. Morishima, A. Kanazawa, and H. Li. Pifu: Pixel-aligned implicit function for high-resolution clothed human digitization. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 2304\u20132314, 2019. R. Salakhutdinov, S. Roweis, and Z. Ghahramani. On the convergence of bound optimization algorithms. In UAI,2 0 0 2 . M. Salzmann. Continuous inference in graphical models with polynomial energies. In CVPR , 2013. P.-E. Sarlin, D. DeTone, T. Malisiewicz, and A. Rabinovich. Superglue: Learning feature matching with graph neural networks. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 4938\u20134947, 2020. T. Sattler, B. Leibe, and L. Kobbelt. Fast image-based localization using direct 2d-to-3d matching. InICCV ,2 0 1 1 . T. Sattler, A. Torii, J. Sivic, M. Pollefeys, H. Taira, M. Okutomi, T. Pajdla, T. Sattler, A. Torii, J. Sivic, M. Pollefeys, H. Taira, and A. Large-scale. Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? 2017. A. Saxena, M. Sun, and A. Y. Ng. Make3d: Learning 3d scene structure from a single still image. PAMI ,2 0 0 9 . F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini. The graph neural network model. TNN ,2 0 0 9 . G. Schindler, M. Brown, and R. Szeliski. City-scale location recognition. In CVPR ,2 0 0 7 . U. Schmidt and S. Roth. Shrinkage fields for effective image restoration. In CVPR ,2 0 1 4 . U. Schmidt, J. Jancsary, S. Nowozin, S. Roth, and C. Rother. Cascades of regression tree fields for image restoration. PAMI ,2 0 1 3 . H. Schneiderman and T. Kanade. A statistical method for 3d object detection applied to faces and cars. In CVPR ,2 0 0 0 . M. Schreiber, C. Kn\u00f6ppel, and U. Franke. Laneloc: Lane marking based localization using highly accurate maps. In IV,2 0 1 3 . K. T. Sch\u00fctt, P. Kindermans, H. Sauceda, S. Chmiela, A. Tkatchenko, and K. M\u00fcller. Schnet: A continuous-filter convolutional neural network for modeling quantum interactions. arXiv ,2 0 1 7 . A. Schwing and R. Urtasun. Fully connected deep structured networks. arXiv ,2 0 1 5 . BIBLIOGRAPHY. 161 A. Schwing, T. Hazan, and R. Urtasun. Efficient structured prediction for 3d indoor scene understanding. In ECCV ,2 0 1 2 a . A. Schwing, S. Fidler, M. Pollefeys, and R. Urtasun. Box in the box: Joint 3d layout and object reasoning from single images. In ICCV ,2 0 1 3 a . A. G. Schwing, T. Hazan, M. Pollefeys, and R. Urtasun. Distributed Message Passing for Large Scale Graphical Models. In CVPR ,2 0 1 1 . A. G. Schwing, T. Hazan, M. Pollefeys, and R. Urtasun. Efficient Structured Prediction with Latent Variables for General Graphical Models. In ICML ,2 0 1 2 b . A. G. Schwing, S. Fidler, M. Pollefeys, and R. Urtasun. Box in the box: Joint 3d layout and object reasoning from single images. In ICCV ,2 0 1 3 b . A. Shafaei, J. J. Little, and M. Schmidt. Play and learn: using video games to train computer vision models. arXiv ,2 0 1 6 . J. Shotton, A. Fitzgibbon, M. Cook, T. Sharp, M. Finocchio, R. Moore, A. Kipman, and A. Blake. Real-time human pose recognition in parts from single depth images. In CVPR ,2 0 1 1 . J. Shotton, B. Glocker, C. Zach, S. Izadi, A. Criminisi, and A. Fitzgibbon. Scene coordinate regression forests for camera relocalization in rgb-d images. In CVPR ,2 0 1 3 . N. Silberman, D. Hoiem, P. Kohli, and R. Fergus. Indoor segmentation and support inference from rgbd images. In ECCV .2 0 1 2 . E. Simo-Serra, E. Trulls, L. Ferraz, I. Kokkinos, P. Fua, and F. M. Noguer. Discriminative learning of deep convolutional feature point descriptors. In ICCV ,2 0 1 5 . M. Simonovsky and N. Komodakis. Dynamic edge-conditioned filters in convolutional neural networks on graphs. CVPR ,2 0 1 7 . K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. arXiv ,2 0 1 4 . K. Simonyan, A. Vedaldi, and A. Zisserman. Learning local feature descriptors using convex optimisation. In PAMI ,2 0 1 4 . S. Singh, A. Gupta, and A. Efros. Unsupervised discovery of mid-level discriminative patches. InECCV ,2 0 1 2 . V. Sitzmann, E. R. Chan, R. Tucker, N. Snavely, and G. Wetzstein. Metasdf: Meta-learning signed distance functions. arXiv preprint arXiv:2006.09662 ,2 0 2 0 a . V. Sitzmann, J. N. Martel, A. W. Bergman, D. B. Lindell, and G. Wetzstein. Implicit neural representations with periodic activation functions. arXiv preprint arXiv:2006.09661 ,2 0 2 0 b . BIBLIOGRAPHY. 162 A. Smola, S. Vishwanathan, and T. Hofmann. Kernel methods for missing variables. AISTATS , 2005. N. Snavely, S. M. Seitz, and R. Szeliski. Modeling the world from internet photo collections. IJCV ,2 0 0 8 . L. Song, A. Gretton, D. Bickson, Y. Low, and C. Guestrin. Kernel belief propagation. In AISTATS ,2 0 1 1 . D. Sontag, T. Meltzer, A. Globerson, T. Jaakkola, and Y. Weiss. Tightening lp relaxations for map using message passing. In UAI,2 0 0 8 . B. Sriperumbudur and G. Lanckriet. On the convergence of the concave-convex procedure. In NIPS ,\u2019 0 9 . B. Sriperumbudur, D. Torres, and G. Lanckriet. Sparse eigen methods by dc programming. In ICML ,\u2019 0 7 . C. Strecha, A. M. Bronstein, M. M. Bronstein, and P. Fua. Ldahash: Improved matching with smaller descriptors. In PAMI ,2 0 1 2 . E. Sudderth, A. Ihler, M. Isard, W. Freeman, and A. Willsky. Nonparametric belief propagation. Communications of the ACM ,2 0 1 0 a . E. B. Sudderth, A. T. Ihler, M. Isard, W. T. Freeman, and A. S. Willsky. Nonparametric belief propagation. Communications of the ACM ,2 0 1 0 b . D. Sun, S. Roth, and M. J. Black. Secrets of optical flow estimation and their principles. In CVPR ,2 0 1 0 . J. Sun, Z. Shen, Y. Wang, H. Bao, and X. Zhou. Loftr: Detector-free local feature matching with transformers. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 8922\u20138931, 2021. I. Sutskever, O. Vinyals, and Q. Le. Sequence to sequence learning with neural networks. In NIPS ,2 0 1 4 . C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In CVPR ,2 0 1 5 . R. Szeliski. Computer vision: algorithms and applications .2 0 1 0 . C. Tang and P. Tan. Ba-net: Dense bundle adjustment network. arXiv ,2 0 1 8 . L. P. Tchapmi, C. B. Choy, I. Armeni, J. Gwak, and S. Savarese. Segcloud: Semantic segmentation of 3d point clouds. arXiv ,2 0 1 7 . BIBLIOGRAPHY. 163 Z. Teed and J. Deng. Raft: Recurrent all-pairs field transforms for optical flow. In ECCV ,2 0 2 0 . R. Templeman, M. Korayem, D. Crandall, and A. Kapadia. Placeavoider: Steering first-person cameras away from sensitive spaces. In Network and Distributed System Security Symposium (NDSS) ,2 0 1 4 . H. Thomas, C. R. Qi, J.-E. Deschaud, B. Marcotegui, F. Goulette, and L. J. Guibas. Kpconv: Flexible and deformable convolution for point clouds. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 6411\u20136420, 2019. S. Thrun and M. Montemerlo. The graph slam algorithm with applications to large-scale mapping of urban structures. IJRR ,2 0 0 6 . J. Tighe and S. Lazebnik. Finding things: Image parsing with regions and per-exemplar detectors. InCVPR ,2 0 1 3 . E. Tola, V. Lepetit, and P. Fua. Daisy: An efficient dense descriptor applied to wide-baseline stereo. In PAMI ,2 0 1 0 . A. Torii, J. Sivic, T. Pajdla, and M. Okutomi. Visual place recognition with repetitive structures. InCVPR ,2 0 1 3 . A. Torralba, K. P. Murphy, and W. T. Freeman. Sharing visual features for multiclass and multiview object detection. PAMI ,2 0 0 7 . S. Treuillet and E. Royer. Outdoor/indoor vision based localization for blind pedestrian navigation assistance. Intl. J. of Image and Graphics ,2 0 1 0 . B. Triggs, P. F. McLauchlan, R. I. Hartley, and A. W. Fitzgibbon. Bundle adjustment\u2014a modern synthesis. In International workshop on vision algorithms , pages 298\u2013372. Springer, 1999. T. Trzcinski, M. Christoudias, P. Fua, and V. Lepetit. Boosting binary keypoint descriptors. In CVPR ,2 0 1 3 . I. Tsochantaridis, T. Hofmann, T. Joachims, and Y. Altun. Support vector machine learning for interdependent and structured output spaces. In ICML ,2 0 0 4 . D. J. Uherka and A. M. Sergott. On the continuous dependence of the roots of a polynomial on its coefficients. American Mathematical Monthly ,1 9 7 7 . D. Ulyanov, A. Vedaldi, and V. S. Lempitsky. Instance normalization: The missing ingredient for fast stylization. arXiv ,2 0 1 6 . B. Ummenhofer, H. Zhou, J. Uhrig, N. Mayer, E. Ilg, A. Dosovitskiy, and T. Brox. Demon: Depth and motion network for learning monocular stereo. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 5038\u20135047, 2017. BIBLIOGRAPHY. 164 B. Ummenhofer, L. Prantl, N. Thuerey, and V. Koltun. Lagrangian fluid simulation with continuous convolutions. In International Conference on Learning Representations ,2 0 1 9 . A. Varol, M. Salzmann, P. Fua, and R. Urtasun. A constrained latent variable model. In CVPR , 2012. S. Vicente and L. Agapito. Soft inextensibility constraints for template-free non-rigid reconstruction. In ECCV ,2 0 1 2 . A. Viterbi. Error bounds for convolutional codes and an asymptotically optimum decoding algorithm. IEEE transactions on Information Theory ,1 9 6 7 . L. von Stumberg, P. Wenzel, Q. Khan, and D. Cremers. Gn-net: The gauss-newton loss for multi-weather relocalization. IEEE Robotics and Automation Letters ,2 0 2 0 . M. J. Wainwright and M. I. Jordan. Graphical models, exponential families, and variational inference . Now Publishers Inc, 2008. R. Walters, J. Li, and R. Yu. Trajectory prediction using equivariant continuous convolution. arXiv preprint arXiv:2010.11344 ,2 0 2 0 . G. Wan, X. Yang, R. Cai, H. Li, H. Wang, and S. Song. Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes. arXiv ,2 0 1 7 . Q. Wang, X. Zhou, B. Hariharan, and N. Snavely. Learning feature descriptors using camera pose supervision. In European Conference on Computer Vision , pages 757\u2013774. Springer, 2020. S. Wang, A. Schwing, and R. Urtasun. Efficient inference of continuous markov random fields with polynomial potentials. In NIPS ,2 0 1 4 a . S. Wang, A. Schwing, and R. Urtasun. Efficient inference of continuous markov random fields with polynomial potentials. In NeurIPS ,2 0 1 4 b . S. Wang, S. Fidler, and R. Urtasun. Lost shopping! monocular localization in large indoor spaces. In ICCV ,2 0 1 5 a . S. Wang, S. Fidler, and R. Urtasun. Holistic 3d scene understanding from a single geo-tagged image. In CVPR ,2 0 1 5 b . S. Wang, S. Fidler, and R. Urtasun. Holistic 3d scene understanding from a single geo-tagged image. In CVPR , 2015c. S. Wang, S. Fidler, and R. Urtasun. Lost shopping! monocular localization in large indoor spaces. In ICCV ,2 0 1 5 d . S. Wang, M. Bai, G. Mattyus, H. Chu, W. Luo, B. Yang, J. Liang, J. Cheverie, S. Fidler, and R. Urtasun. Torontocity: Seeing the world with a million eyes. arXiv ,2 0 1 6 a . BIBLIOGRAPHY. 165 S. Wang, S. Fidler, and R. Urtasun. Proximal deep structured models. In NeurIPS ,2 0 1 6 b . S. Wang, R. Clark, H. Wen, and N. Trigoni. Deepvo: Towards end-to-end visual odometry with deep recurrent convolutional neural networks. In ICRA ,2 0 1 7 . S. Wang, S. Suo, W.-C. Ma, A. Pokrovsky, and R. Urtasun. Deep parametric continuous convolutional neural networks. In CVPR ,2 0 1 8 . X. Wang, A. Jabri, and A. A. Efros. Learning correspondence from the cycle-consistency of time. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 2566\u20132576, 2019a. Z. Wang, L. Chen, S. Rathore, D. Shin, and C. Fowlkes. Geometric pose affordance: 3d human pose with scene constraints. arXiv ,2 0 1 9 b . R. M. Webb, D. Lubinski, and C. P. Benbow. Spatial ability: A neglected dimension in talent searches for intellectually precocious youth. Journal of Educational Psychology ,2 0 0 7 . J. D. Wegner, S. Branson, D. Hall, K. Schindler, and P. Perona. Cataloging public objects using aerial and street-level images-urban trees. In CVPR ,2 0 1 6 . K. Wei, A. Aviles-Rivero, J. Liang, Y. Fu, C.-B. Sch\u00f6nlieb, and H. Huang. Tuning-free plugand-play proximal algorithm for inverse imaging problems. In International Conference on Machine Learning ,2 0 2 0 a . X. Wei, Y. Zhang, Z. Li, Y. Fu, and X. Xue. Deepsfm: Structure from motion via deep bundle adjustment. In ECCV ,2 0 2 0 b . P. Weinzaepfel, J. Revaud, Z. Harchaoui, and C. Schmid. Deepflow: Large displacement optical flow with deep matching. In ICCV ,2 0 1 3 . Y. Weiss and W. Freeman. Correctness of belief propagation in gaussian graphical models of arbitrary topology. Neural computation ,2 0 0 1 a . Y. Weiss and W. T. Freeman. Correctness of belief propagation in gaussian graphical models of arbitrary topology. Neural computation ,2 0 0 1 b . Y. Weiss and W. T. Freeman. Correctness of belief propagation in gaussian graphical models of arbitrary topology. Neural computation , 2001c. R. W. Wolcott and R. M. Eustice. Visual localization within lidar maps for automated urban driving. In IROS ,2 0 1 4 . R. W. Wolcott and R. M. Eustice. Fast LIDAR localization using multiresolution Gaussian mixture maps. In ICRA ,2 0 1 5 . BIBLIOGRAPHY. 166 O. Woodman and R. Harle. Pedestrian localisation for indoor environments. In International Conference on Ubiquitous Computing ,2 0 0 8 a . O. Woodman and R. Harle. Pedestrian localisation for indoor environments. In International Conference on Ubiquitous Computing ,2 0 0 8 b . W. Wu, Z. Qi, and L. Fuxin. Pointconv: Deep convolutional networks on 3d point clouds. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 9621\u20139630, 2019. Z. Wu, S. Song, A. Khosla, F. Yu, L. Zhang, X. Tang, and J. Xiao. 3d shapenets: A deep representation for volumetric shapes. In CVPR ,2 0 1 5 . X. Wei, I. A. B\u00e2rsan, S. Wang, J. Martinez, and R. Urtasun. Learning to localize through compressed binary maps. In CVPR ,2 0 1 9 . Y. Xiang and S. Savarese. Estimating the aspect layout of object categories. In CVPR ,2 0 1 2 . J. Xiao and Y. Furukawa. Reconstructing the World\u2019s Museums. In ECCV ,2 0 1 2 . Y. Xiong, M. Ren, R. Liao, K. Wong, and R. Urtasun. Deformable filter convolution for point cloud reasoning. arXiv preprint arXiv:1907.13079 ,2 0 1 9 . J. Xu, R. Ranftl, and V. Koltun. Accurate optical flow via direct cost volume processing. CVPR , 2017. L. Xu, J. Jia, and Y. Matsushita. Motion detail preserving optical flow estimation. In PAMI , 2012. Q. Xu, W. Wang, D. Ceylan, R. Mech, and U. Neumann. Disn: Deep implicit surface network for high-quality single-view 3d reconstruction. arXiv preprint arXiv:1905.10711 ,2 0 1 9 . B. Yang, M. Liang, and R. Urtasun. Hdnet: Exploiting hd maps for 3d object detection. In CoRL ,2 0 1 8 . N. Yang, L. v. Stumberg, R. Wang, and D. Cremers. D3vo: Deep depth, deep pose and deep uncertainty for monocular visual odometry. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 1281\u20131292, 2020. Z. Yang, O. Litany, T. Birdal, S. Sridhar, and L. Guibas. Continuous geodesic convolutions for learning on 3d shapes. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision , pages 134\u2013144, 2021a. Z. Yang, S. Wang, S. Manivasagam, Z. Huang, W.-C. Ma, X. Yan, E. Yumer, and R. Urtasun. S3: Neural shape, skeleton, and skinning fields for 3d human modeling. arXiv preprint arXiv:2101.06571 ,2 0 2 1 b . BIBLIOGRAPHY. 167 J. Yao, S. Fidler, and R. Urtasun. Describing the scene as a whole: Joint object detection, scene classification and semantic segmentation. In CVPR ,2 0 1 2 . L. Yi, H. Su, X. Guo, and L. Guibas. Syncspeccnn: Synchronized spectral cnn for 3d shape segmentation. CVPR ,2 0 1 7 . K. Yoneda, H. Tehrani, T. Ogawa, N. Hukuyama, and S. Mita. Lidar scan feature for localization with highly precise 3-d map. In IV,2 0 1 4 . C. N. Yu and T. Joachims. Learning structural svms with latent variables. In ICML ,2 0 0 9 . Z. Yu and S. Gao. Fast-mvsnet: Sparse-to-dense multi-view stereo with learned propagation and gauss-newton refinement. In CVPR ,2 0 2 0 . J. Yuan and A. M. Cheriyadat. Combining maps and street level images for building height and facade estimation. In SIGSPATIAL ,2 0 1 6 . A. L. Yuille and A. Rangarajan. The concave-convex procedure. Neural Computation ,2 0 0 3 . C. Zach and P. Kohli. A convex discrete-continuous approach for markov random fields. In ECCV .2 0 1 2 . S. Zagoruyko and N. Komodakis. Learning to compare image patches via convolutional neural networks. In CVPR ,2 0 1 5 a . S. Zagoruyko and N. Komodakis. Learning to compare image patches via convolutional neural networks. In CVPR ,2 0 1 5 b . A. R. Zamir and M. Shah. Accurate image localization based on google maps street view. In ECCV .2 0 1 0 . A. R. Zamir, T. Wekel, P. Agrawal, C. Wei, J. Malik, and S. Savarese. Generic 3d representation via pose estimation and matching. In ECCV ,2 0 1 6 . J. \u017dbontar and Y. LeCun. Computing the stereo matching cost with a convolutional neural network. In CVPR ,2 0 1 5 . J. Zbontar and Y. LeCun. Computing the stereo matching cost with a convolutional neural network. In CVPR ,2 0 1 5 a . J. Zbontar and Y. LeCun. Computing the stereo matching cost with a convolutional neural network. In CVPR ,2 0 1 5 b . A. Zeng, S. Song, M. Nie\u00dfner, M. Fisher, J. Xiao, and T. Funkhouser. 3dmatch: Learning local geometric descriptors from rgb-d reconstructions. In CVPR ,2 0 1 7 . BIBLIOGRAPHY. 168 X. Zeng, R. Liao, L. Gu, Y. Xiong, S. Fidler, and R. Urtasun. Dmm-net: Differentiable mask-matching network for video object segmentation. In ICCV ,2 0 1 9 . J. Zhang and B. Ghanem. Ista-net: Iterative shrinkage-thresholding algorithm inspired deep network for image compressive sensing. 2017. J. Zhang and B. Ghanem. Ista-net: Interpretable optimization-inspired deep network for image compressive sensing. In CVPR ,2 0 1 8 . J. Zhang and S. Singh. Loam: Lidar odometry and mapping in real-time. In RSS,2 0 1 4 . K. Zhang, G. Riegler, N. Snavely, and V. Koltun. Nerf++: Analyzing and improving neural radiance fields. arXiv preprint arXiv:2010.07492 ,2 0 2 0 . Z. Zhang. A flexible new technique for camera calibration. IEEE Transactions on pattern analysis and machine intelligence ,2 2 (1 1 ) : 1 3 3 0 \u2013 1 3 3 4 ,2 0 0 0 . H. Zhao, L. Jiang, C.-W. Fu, and J. Jia. Pointweb: Enhancing local neighborhood features for point cloud processing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 5565\u20135573, 2019. H. Zhao, L. Jiang, J. Jia, P. Torr, and V. Koltun. Point transformer. arXiv preprint arXiv:2012.09164 ,2 0 2 0 . S. Zheng, S. Jayasumana, B. Romera-Paredes, V. Vineet, Z. Su, D. Du, C. Huang, and P. Torr. Conditional random fields as recurrent neural networks. In ICCV ,2 0 1 5 . T. Zhou, M. Brown, N. Snavely, and D. G. Lowe. Unsupervised learning of depth and ego-motion from video. arXiv ,2 0 1 7 . M. Z. Zia, M. Stark, K. Schindler, and R. Vision. Are cars just 3d boxes?\u2013jointly estimating the 3d shape of multiple objects. In CVPR ,2 0 1 4 . J. Ziegler, H. Lategahn, M. Schreiber, C. G. Keller, C. Knoppel, J. Hipp, M. Haueis, and C. Stiller. Video based localization for bertha. In IV,2 0 1 4 . D. Zoran and Y. Weiss. From learning models of natural image patches to whole image restoration. InICCV ,2 0 1 1 ."
+        },
+        "Toward Semantic Scene Understanding for Fine-Grained 3D Modeling of Plants": {
+            "authors": [
+                "Mohamad Qadri",
+                "Harry Freeman",
+                "Eric Schneider",
+                "George Kantor"
+            ],
+            "url": "https://openreview.net/pdf?id=_1K0EZJQCy",
+            "ref_texts": "121904. Silwal, A.; Parhar, T.; Yand \u00b4un, F.; and Kantor, G. A. 2021. A Robust Illumination-Invariant Camera System for Agricultural Applications. ArXiv , abs/2101.02190. Sodhi, P.; Sun, H.; P \u00b4oczos, B.; and Wettergreen, D. 2018. Robust plant phenotyping via model-based optimization. In2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) , 7689\u20137696. IEEE. Wang, Q.; Zhou, X.; Hariharan, B.; and Snavely, N. 2020. Learning feature descriptors using camera pose supervision. In European Conference on Computer Vision , 757\u2013",
+            "ref_ids": [
+                "121904"
+            ]
+        },
+        "Supplementary Material for Decoupling Makes Weakly Supervised Local Feature Better": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/supplemental/Li_Decoupling_Makes_Weakly_CVPR_2022_supplemental.pdf",
+            "ref_texts": "[9] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning Feature Descriptors Using Camera Pose Supervision. In Proceedings of the European Conference on Computer Vision (ECCV) , volume 12346, pages 757\u2013774, 2020.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "For description network, we adopts the ResUNet used in [9], which follows a widely used encoder-decoder architecture."
+        },
+        "Self-supervised Geometric Perception": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/supplemental/Yang_Self-Supervised_Geometric_Perception_CVPR_2021_supplemental.pdf",
+            "ref_texts": "[15] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. InEuropean Conf. on Computer Vision (ECCV) , 2020. 1, 2",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "In [15], the authors designed another constraint that enforces cycle consistency, i.",
+            "2": "Finally, let the correspondence function be the form in (4), we recover the loss function in the CAPS paper [15].",
+            "3": "[15] used the dist (\u0001)instead of dist (\u0001)2."
+        },
+        "The Change You Want to See": {
+            "authors": [
+                "Ragav Sachdeva",
+                "Andrew Zisserman"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Sachdeva_The_Change_You_Want_To_See_WACV_2023_paper.pdf",
+            "ref_texts": "[34] Qianqian Wang, Xiaowei Zhou, Bharath Hariharan, and Noah Snavely. Learning feature descriptors using camera pose supervision. In Proc. ECCV, 2020.",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "There exists a plethora of literature proposing methods to find corresponding points between a pair of images [6, 15, 29, 33, 34, 35, 3, 30]."
+        }
+    }
+}

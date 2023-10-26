@@ -1,0 +1,18 @@
+{
+    "title": "Identifying disease-associated SNP clusters via contiguous outlier detection",
+    "id": 60,
+    "valid_pdf_number": "2/8",
+    "matched_pdf_number": "0/2",
+    "matched_rate": 0.0,
+    "citations": {
+        "Feature selection from biological bigdata: identification of significant associations applying multivariate machine learning algorithms to genome-wide association \u2026": {
+            "authors": [],
+            "url": "https://repositorio.tec.mx/bitstream/handle/11285/648490/GarzaHernandez_TesisDoctoradoPDFA.pdf?sequence=6&isAllowed=y",
+            "ref_texts": "(2021). Genome -wide association studies -based machine learning for prediction of age -related macular degeneration risk. Translational Vision Science and Techn ology , 10(2), 1 \u20138. https://doi.org/10.1167/tvst.10.2.29 Yang, C., Zhou, X., Wan, X., Yang, Q., Xue, H., & Yu, W. (2011). Identifying disease -associated SNP clusters via contiguous outlier detection. Bioinformatics , 27(18), 2578 \u20132585. https://doi.org/10.1093/BIOINFORMATICS/BTR424 Zhang, H., Yu, J. -Q., Yang, L. -L., Kramer, L. M., Zhang, X. -Y., Na, W., Reecy, J. M., & Li, H. "
+        },
+        "FLPCA: A Fused Lasso PCA-based approach to identify influential markers in differentiated populations from dense SNP data": {
+            "authors": [],
+            "url": "https://pdfs.semanticscholar.org/b3df/3b2a9da3c440f9d8c2880a35ac55648d19ee.pdf"
+        }
+    }
+}

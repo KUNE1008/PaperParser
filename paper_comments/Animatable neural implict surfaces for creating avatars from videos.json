@@ -1,0 +1,78 @@
+{
+    "title": "Animatable neural implict surfaces for creating avatars from videos",
+    "id": 55,
+    "valid_pdf_number": "5/14",
+    "matched_pdf_number": "4/5",
+    "matched_rate": 0.8,
+    "citations": {
+        "Learning neural volumetric representations of dynamic humans in minutes": {
+            "authors": [
+                "Chen Geng",
+                "Sida Peng",
+                "Zhen Xu",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Geng_Learning_Neural_Volumetric_Representations_of_Dynamic_Humans_in_Minutes_CVPR_2023_paper.pdf",
+            "ref_texts": "[57] Sida Peng, Shangzhan Zhang, Zhen Xu, Chen Geng, Boyi Jiang, Hujun Bao, and Xiaowei Zhou. Animatable neural implicit surfaces for creating avatars from videos. arXiv preprint arXiv:2203.08133 , 2022. 5, 6, 7, 8",
+            "ref_ids": [
+                "57"
+            ],
+            "1": "MonoCap dataset contains four multi-view videos collected by [57] from the DeepCap dataset [26] and the DynaCap dataset [25].",
+            "2": "[57] additionally estimate the SMPL parameters for each image.",
+            "3": "We adopt the setting of training and test camera views in [57].",
+            "4": "[57] extend [56] with a signed distance field and pose-dependent deformation field to better model the residual deformation and geometric 8763\n Ours ~5 min Ground-truth ~10 hNB\n~10 hAS\n~10 hHumanNeRF\n~1h fine-tuningNHP\n~1h fine-tuningPixelNeRF\n~10 hAN Figure 3.",
+            "5": "Table 1 compares our method with NB [58], AN [56], PixelNeRF [100], NHP [34], HN [93] and AS [57] on novel view synthesis.",
+            "6": "[57, 93] exhibit better results than [56, 58].",
+            "7": "52 AS [57] \u02dc10 h 30.",
+            "8": "[57, 93] demonstrate similar visual quality and show that representing the human motion with the LBS model and residual deformation works particularly well, but their models require 100x more time to optimize.",
+            "9": "(2) XYZ-Code: hash encoded xand a per-frame learnable latent code [57]."
+        },
+        "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/589c5bd0aa4322e37813e8e41ddf8034-Paper-Conference.pdf",
+            "ref_texts": "[40] Sida Peng, Shangzhan Zhang, Zhen Xu, Chen Geng, Boyi Jiang, Hujun Bao, and Xiaowei Zhou. Animatable neural implicit surfaces for creating avatars from videos. arXiv preprint arXiv:2203.08133 , 2022.",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "To improve the geometry, [53,40] represent the human geometry as the signed distance field and use the volume rendering to learn the representation from images.",
+            "2": "1 Multi-part human model in the canonical space Similar to [53,40], the human geometry and appearance are represented as signed distance fields Fsand color fields Fcgiven by MLP networks.",
+            "3": "21 AniSDF [40] 0.",
+            "4": "2 Comparison with the baselines Since most previous methods only focus on body modeling, we extend the state-of-the-art methods AniNeRF [39] and AniSDF [40] with hands to compare with our method.",
+            "5": "185 AniSDF [40] 21."
+        },
+        "Capturing and animation of body and clothing from monocular video": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3550469.3555423",
+            "ref_texts": "3504\u20133515. Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter Gehler, and Bernt Schiele. 2018. Neural body fitting: Unifying deep learning and model based human pose and shape estimation. In International Conference on Computer Vision (ICCV) . IEEE, 484\u2013494. Ahmed A. A. Osman, Timo Bolkart, and Michael J. Black. 2020. STAR: Sparse trained articulated human body regressor. In European Conference on Computer Vision (ECCV) . 598\u2013613. Chaitanya Patel, Zhouyingcheng Liao, and Gerard Pons-Moll. 2020. Tailornet: Predicting clothing in 3d as a function of human pose, shape and garment style. In Conference on Computer Vision and Pattern Recognition (CVPR) . 7365\u20137375. Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, and Michael J. Black. 2019. Expressive Body Capture: 3D Hands, Face, and Body From a Single Image. In Conference on Computer Vision and Pattern Recognition (CVPR) . 10975\u201310985. Sida Peng, Junting Dong, Qianqian Wang, Shangzhan Zhang, Qing Shuai, Xiaowei Zhou, and Hujun Bao. 2021a. Animatable Neural Radiance Fields for Modeling Dynamic Human Bodies. In ICCV . Sida Peng, Shangzhan Zhang, Zhen Xu, Chen Geng, Boyi Jiang, Hujun Bao, and Xiaowei Zhou. 2022. Animatable Neural Implicit Surfaces for Creating Avatars from Videos. arXiv preprint arXiv:2203.08133 (2022). Sida Peng, Yuanqing Zhang, Yinghao Xu, Qianqian Wang, Qing Shuai, Hujun Bao, and Xiaowei Zhou. 2021b. Neural body: Implicit neural representations with structured latent codes for novel view synthesis of dynamic humans. In Conference on Computer Vision and Pattern Recognition (CVPR) . 9054\u20139063. Gerard Pons-Moll, Sergi Pujades, Sonny Hu, and Michael J Black. 2017. ClothCap: Seamless 4D clothing capture and retargeting. Transactions on Graphics (TOG) 36, 4 (2017), 1\u201315. Sergey Prokudin, Michael J. Black, and Javier Romero. 2021. SMPLpix: Neural Avatars from 3D Human Models. In Winter Conference on Applications of Computer Vision (WACV) . 1810\u20131819. Nikhila Ravi, Jeremy Reizenstein, David Novotny, Taylor Gordon, Wan-Yen Lo, Justin Johnson, and Georgia Gkioxari. 2020. Accelerating 3D Deep Learning with PyTorch3D. arXiv:2007.08501 (2020). Capturing and Animation of Body and Clothing from Monocular Video SA \u201922 Conference Papers, December 6\u20139, 2022, Daegu, Republic of Korea Yu Rong, Takaaki Shiratori, and Hanbyul Joo. 2021. FrankMocap: A Monocular 3D Whole-Body Pose Estimation System via Regression and Integration. In International Conference on Computer Vision Workshops (ICCV-W) . Shunsuke Saito, Zeng Huang, Ryota Natsume, Shigeo Morishima, Angjoo Kanazawa, and Hao Li. 2019. PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization. In International Conference on Computer Vision (ICCV) . Shunsuke Saito, Tomas Simon, Jason Saragih, and Hanbyul Joo. 2020. PIFuHD: MultiLevel Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization. InConference on Computer Vision and Pattern Recognition (CVPR) . Igor Santesteban, Miguel A Otaduy, and Dan Casas. 2019. Learning-based animation of clothing for virtual try-on. In Computer Graphics Forum , Vol. 38. Wiley Online Library, 355\u2013366. Shih-Yang Su, Frank Yu, Michael Zollh\u00f6fer, and Helge Rhodin. 2021. A-NeRF: Articulated neural radiance fields for learning human shape, appearance, and pose. Advances in Neural Information Processing Systems (NeurIPS) 34 (2021). Yating Tian, Hongwen Zhang, Yebin Liu, and Limin Wang. 2022. Recovering 3D Human Mesh from Monocular Images: A Survey. arXiv preprint arXiv:2203.01923 (2022). Garvita Tiwari, Bharat Lal Bhatnagar, Tony Tung, and Gerard Pons-Moll. 2020. SIZER: A dataset and model for parsing 3d clothing and learning size sensitive 3d clothing. InEuropean Conference on Computer Vision (ECCV) . Springer, 1\u201318. Raquel Vidaurre, Igor Santesteban, Elena Garces, and Dan Casas. 2020. Fully Convolutional Graph Neural Networks for Parametric Virtual Try-On. In Computer Graphics Forum , Vol. 39. Wiley Online Library, 145\u2013156. Yi Wang, Xin Tao, Xiaojuan Qi, Xiaoyong Shen, and Jiaya Jia. 2018. Image inpainting via generative multi-column convolutional neural networks. In Advances in Neural Information Processing Systems (NeurIPS) . 331\u2013340. Chung-Yi Weng, Brian Curless, Pratul P. Srinivasan, Jonathan T. Barron, and Ira Kemelmacher-Shlizerman. 2022. HumanNeRF: Free-Viewpoint Rendering of Moving People From Monocular Video. In Conference on Computer Vision and Pattern Recognition (CVPR) . 16210\u201316220. Donglai Xiang, Hanbyul Joo, and Yaser Sheikh. 2019. Monocular Total Capture: Posing Face, Body, and Hands in the Wild. In Conference on Computer Vision and Pattern Recognition (CVPR) . 10965\u201310974. Donglai Xiang, Fabian Prada, Timur Bagautdinov, Weipeng Xu, Yuan Dong, He Wen, Jessica Hodgins, and Chenglei Wu. 2021. Modeling clothing as a separate layer for an animatable human avatar. Transactions on Graphics (TOG) 40, 6 (2021), 1\u201315. Yuliang Xiu, Jinlong Yang, Dimitrios Tzionas, and Michael J. Black. 2022. ICON: Implicit Clothed humans Obtained from Normals. In Conference on Computer Vision andPattern Recognition (CVPR) . Hongyi Xu, Thiemo Alldieck, and Cristian Sminchisescu. 2021. H-NeRF: Neural radiance fields for rendering and temporal reconstruction of humans in motion. Advances in Neural Information Processing Systems (NeurIPS) 34 (2021). Hongyi Xu, Eduard Gabriel Bazavan, Andrei Zanfir, William T Freeman, Rahul Sukthankar, and Cristian Sminchisescu. 2020. GHUM & GHUML: Generative 3d human shape and articulated pose models. In Conference on Computer Vision and Pattern Recognition (CVPR) . 6184\u20136193. Lu Yang, Qing Song, Zhihui Wang, Mengjie Hu, Chun Liu, Xueshi Xin, Wenhe Jia, and Songcen Xu. 2020. Renovating Parsing R-CNN for Accurate Multiple Human Parsing. In European Conference on Computer Vision (ECCV) (Lecture Notes in Computer Science, Vol. 12357) . Springer, 421\u2013437. Ze Yang, Shenlong Wang, Sivabalan Manivasagam, Zeng Huang, Wei-Chiu Ma, Xinchen Yan, Ersin Yumer, and Raquel Urtasun. 2021. S3: Neural shape, skeleton, and skinning fields for 3D human modeling. In Conference on Computer Vision and Pattern Recognition (CVPR) . 13284\u201313293. Lior Yariv, Jiatao Gu, Yoni Kasten, and Yaron Lipman. 2021. Volume rendering of neural implicit surfaces. Advances in Neural Information Processing Systems (NeurIPS) 34"
+        },
+        "Envisioning a Next Generation Extended Reality Conferencing System With Efficient Photorealistic Human Rendering": {
+            "authors": [
+                "Chuanyue Shen",
+                "Letian Zhang",
+                "Zhangsihao Yang",
+                "Masood Mortazavi",
+                "Xiyun Song",
+                "Liang Peng",
+                "Heather Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Shen_Envisioning_a_Next_Generation_Extended_Reality_Conferencing_System_With_Efficient_CVPRW_2023_paper.pdf",
+            "ref_texts": "[25] Sida Peng, Shangzhan Zhang, Zhen Xu, Chen Geng, Boyi Jiang, Hujun Bao, and Xiaowei Zhou. Animatable neural implicit surfaces for creating avatars from videos. arXiv preprint arXiv:2203.08133 , 2022. 4, 5",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Inspired by previous work [9,15,25,32,38], we represent human motion field Mas addition of skeleton-driven motion field Mskeland a residual non-rigid motion field Mres, M=Mskel+Mres.",
+            "2": "Similar to [9, 15, 17, 25, 31, 32, 38], we model the skeleton motion volume based on an inverse linear blend skinning algorithm that wraps the points in observation space to canonical space (equivalent to warping an observed pose \u03b8o to a predefined canonical pose \u03b8c) in a form as follows: Mskel(x, \u03b8o) =KX i=1wo i(x)Gi(x), (7)where wo iis the blend weight for the i-th bone in the observation space and Giis the skeleton motion basis for the i-th bone.",
+            "3": "In light of previous works [25, 32], we model the residual motion as a pose-dependent deformation field."
+        },
+        "Learning Neural Volumetric Representations of Dynamic Humans in Minutes Supplemental Material": {
+            "authors": [],
+            "url": "https://chen-geng.com/instant_nvr/files/supp.pdf",
+            "ref_texts": "[10] Sida Peng, Shangzhan Zhang, Zhen Xu, Chen Geng, Boyi Jiang, Hujun Bao, and Xiaowei Zhou. Animatable neural implicit surfaces for creating avatars from videos. arXiv preprint arXiv:2203.08133 , 2022. 3",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Details of baselines Neural Body [11], Ani-SDF [10], HumanNeRF [14] and Ani-NeRF [9] We use the released code and conduct experiments on a single NVIDIA RTX 3090 GPU."
+        }
+    }
+}

@@ -1,0 +1,561 @@
+{
+    "title": "3D shape estimation from 2D landmarks: A convex relaxation approach",
+    "id": 16,
+    "valid_pdf_number": "45/107",
+    "matched_pdf_number": "30/45",
+    "matched_rate": 0.6666666666666666,
+    "citations": {
+        "3d human pose estimation: A review of the literature and analysis of covariates": {
+            "authors": [
+                "Nikolaos Sarafianos"
+            ],
+            "url": "https://nsarafianos.github.io/assets/3DHumanPose.pdf",
+            "ref_texts": "3D pose estimation from a single image. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas, NV . Ye, M. , Zhang, Q. , Wang, L. , Zhu, J. , Yang, R. , Gall, J. , 2013. A survey on human motion analysis from depth data. In: Time-of-Flight and Depth Imaging. Sensors, Algorithms, and Applications. Springer, pp. 149\u2013187 . Zhang, Y. , Han, T. , Ren, Z. , Umetani, N. , Tong, X. , Liu, Y. , Shiratori, T. , Cao, X. , 2013. Bodyavatar: creating freeform 3D avatars using first-person body gestures. In: Proc. 26th annual ACM symposium on user interface software and technology. ACM, St. Andrews, Scotland, United Kingdom, pp. 387\u2013396 . Zheng, Y. , Liu, H. , Dorsey, J. , Mitra, N.J. , 2015. Ergonomics-inspired reshaping and exploration of collections of models. IEEE Trans. Visual Comput. Graphics 1\u201314 . Zhou, X., Leonardos, S., Hu, X., Daniilidis, K., 2015b. Source code for 3D shape reconstruction from 2D landmarks: a convex formulation. Available online at: https://fling.seas.upenn.edu/ \u223cxiaowz/dynamic/wordpress/3dshapeestimation/ . Zhou, X. , Leonardos, S. , Hu, X. , Daniilidis, K. , 2015a. 3D shape estimation from 2D landmarks: a convex relaxation approach. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Boston, MA, pp. 4 4 47\u20134 455 . Zhou, X., Zhu, M., Leonardos, S., Derpanis, K., Daniilidis, K., 2016a. Source code for Sparseness meets deepness: 3D human pose estimation from monocular video. Available online at: https://fling.seas.upenn.edu/ \u223cxiaowz/dynamic/ wordpress/monocap/ . Zhou, X. , Zhu, M. , Leonardos, S. , Derpanis, K. , Daniilidis, K. , 2016b. Sparseness meets deepness: 3D human pose estimation from monocular video. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas, NV . Zhou, X. , Zhu, M. , Leonardos, S. , Daniilidis, K. , 2016c. Sparse Representation for 3D shape estimation: A convex relaxation approach. In: IEEE Transactions on Pattern Analysis and Machine Intelligence . Zuffi, S. , Black, M. , 2015. The stitched puppet: A graphical model of 3D human shape and pose. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Boston, Massachusetts, pp. 3537\u20133546 . Zuffi, S. , Freifeld, O. , Black, M.J. , 2012. From pictorial structures to deformable structures. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition. Providence, Rhode Island, pp. 3546\u20133553 . "
+        },
+        "Recovering accurate 3d human pose in the wild using imus and a moving camera": {
+            "authors": [
+                "Roberto Henschel",
+                "Michael Black",
+                "Bodo Rosenhahn",
+                "Gerard Pons"
+            ],
+            "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Timo_von_Marcard_Recovering_Accurate_3D_ECCV_2018_paper.pdf",
+            "ref_texts": "49. Zhou, X., Leonardos, S., Hu, X., Daniilidis, K.: 3D shape es timation from 2D landmarks: A convex relaxation approach. In: IEEE Conference on Compu ter Vision and Pattern Recognition (CVPR). pp. 4447\u20134455 (2015)",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "Several works lift 2D detections to 3D using learning or geometric reasoning [18,29,35,9,26,49,33,48,44,34,13,43,45]."
+        },
+        "Coarse-to-fine volumetric prediction for single-image 3D human pose": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Xiaowei Zhou",
+                "Konstantinos G. Derpanis",
+                "Kostas Daniilidis"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Pavlakos_Coarse-To-Fine_Volumetric_Prediction_CVPR_2017_paper.pdf",
+            "ref_texts": "[43] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In CVPR , 2015. 1",
+            "ref_ids": [
+                "43"
+            ],
+            "1": "Given its ill-posed nature, researchers have generally approached 3D human pose estimation in simplified settings, such as assuming background subtraction is feasible [1], relying on groundtruth 2D joint locations to estimate 3D pose [26,43], employing additional camera views [7,15], and capitalizing on temporal consistency to improve upon single frame predictions [38,3].",
+            "2": "5,7\n[43] X."
+        },
+        "Towards 3d human pose estimation in the wild: a weakly-supervised approach": {
+            "authors": [
+                "Xingyi Zhou",
+                "Qixing Huang",
+                "Xiao Sun",
+                "Xiangyang Xue",
+                "Yichen Wei"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhou_Towards_3D_Human_ICCV_2017_paper.pdf",
+            "ref_texts": "[32] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4447\u20134455, 2015. 2, 4",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "The second step recovers a 3D pose from these 2D joints [21,32,1].",
+            "2": "Depth Regression Module Compared with previous methods that recover 3D joint locations from only 2D joint predictions [21,32,1], our approach innovates in terms of (i) the integration of 2D and 3D modules for end-to-end network training, and (ii) the usage of a 3D geometric constraint induced loss.",
+            "3": "2\n[32] X."
+        },
+        "Total capture: A 3d deformation model for tracking faces, hands, and bodies": {
+            "authors": [
+                "Hanbyul Joo",
+                "Tomas Simon",
+                "Yaser Sheikh"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Joo_Total_Capture_A_CVPR_2018_paper.pdf",
+            "ref_texts": "[64] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In CVPR , 2015.",
+            "ref_ids": [
+                "64"
+            ],
+            "1": "More recently, a collection of approaches aims to reconstruct 3D skeletons directly from monocular images, either by fitting 2D keypoint detections with a prior on human pose [64,10] or getting even closer to direct regression methods [65,35,51].",
+            "2": "[64] X."
+        },
+        "Ordinal depth supervision for 3d human pose estimation": {
+            "authors": [
+                "Georgios Pavlakos",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Ordinal_Depth_Supervision_CVPR_2018_paper.pdf",
+            "ref_texts": "[65] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In CVPR , 2015.",
+            "ref_ids": [
+                "65"
+            ],
+            "1": "2,4,5,7,8\n[65] X."
+        },
+        "Sparseness meets deepness: 3d human pose estimation from monocular video": {
+            "authors": [
+                "Xiaowei Zhou",
+                "Menglong Zhu",
+                "Spyridon Leonardos",
+                "Konstantinos G. Derpanis",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhou_Sparseness_Meets_Deepness_CVPR_2016_paper.pdf",
+            "ref_texts": "[55] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In CVPR , 2015. 2,4",
+            "ref_ids": [
+                "55"
+            ],
+            "1": ", non-rigid structure from motion (NRSFM), and human pose recovery models based on known skeletons [20,43,47,30,21] or sparse representations [32,15, 2,55,56].",
+            "2": ", [32,2, 55].",
+            "3": "Initialization A convex relaxation approach [55,56] is used to initialize the parameters.",
+            "4": "In [55], a convex formulation was proposed to solve the single frame pose estimation problem given 2D correspondences, which is a special case of (8).",
+            "5": "If the 2D poses are given, the model parameters are initialized for each frame separately with the convex method proposed in [55].",
+            "6": "1,2\n[55] X."
+        },
+        "Mocap-guided data augmentation for 3d pose estimation in the wild": {
+            "authors": [
+                "Gregory Rogez",
+                "Cordelia Schmid"
+            ],
+            "url": "https://proceedings.neurips.cc/paper/2016/file/35464c848f410e55a13bb9d78e7fddd0-Paper.pdf",
+            "ref_texts": ""
+        },
+        "Context modeling in 3d human pose estimation: A unified perspective": {
+            "authors": [
+                "Xiaoxuan Ma",
+                "Jiajun Su",
+                "Chunyu Wang",
+                "Hai Ci",
+                "Yizhou Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Ma_Context_Modeling_in_3D_Human_Pose_Estimation_A_Unified_Perspective_CVPR_2021_paper.pdf",
+            "ref_texts": "[42] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In CVPR , pages 4447\u20134455, 2015. 1",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "Introduction Monocular 3D human pose estimation has attracted much attention [5,21,23,31,35,42] because it can benefit many applications such as virtual reality and intelligent video analysis."
+        },
+        "Joint face alignment and 3d face reconstruction": {
+            "authors": [],
+            "url": "http://cvlab.cse.msu.edu/pdfs/Liu_Zeng_Zhao_Liu_ECCV2016.pdf",
+            "ref_texts": "38. Zhou, X., Leonardos, S., Hu, X., Daniilidis, K.: 3D shape estimation from 2D landmarks: A convex relaxation approach. In: CVPR. pp. 4447{4455. IEEE (2015)",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Here, we assume a weak perspective projection for the camera projection as in prior work [18, 38], and further assume that the expression and pose induced deformation can be approximated by a linear transform."
+        },
+        "Forecasting human dynamics from static images": {
+            "authors": [
+                "Wei Chao",
+                "Jimei Yang",
+                "Brian Price",
+                "Scott Cohen",
+                "Jia Deng"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Chao_Forecasting_Human_Dynamics_CVPR_2017_paper.pdf"
+        },
+        "Deep non-rigid structure from motion": {
+            "authors": [
+                "Chen Kong",
+                "Simon Lucey"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Kong_Deep_Non-Rigid_Structure_From_Motion_ICCV_2019_paper.pdf",
+            "ref_texts": "[34] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4447\u20134455, 2015. 3,5",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "However, this differs from other single dictionary models [36,37,18,19,34] in terms that a unique structure is imposed on D(n)[28].",
+            "2": "spectral norm regularization of Mbecause spectral norm minimization is the tightest convex relaxation of the orthonormal constraint [34]."
+        },
+        "Occlusion-net: 2d/3d occluded keypoint localization using graph networks": {
+            "authors": [
+                "Dinesh Reddy",
+                "Minh Vo",
+                "Srinivasa G. Narasimhan"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Reddy_Occlusion-Net_2D3D_Occluded_Keypoint_Localization_Using_Graph_Networks_CVPR_2019_paper.pdf",
+            "ref_texts": "[50] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4447\u20134455, 2015.",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "On the other hand, occlusions are explicitly treated as missing parts in model fitting methods [50, 40]."
+        },
+        "Gravity-aware monocular 3d human-object reconstruction": {
+            "authors": [
+                "Rishabh Dabral",
+                "Soshi Shimada",
+                "Arjun Jain",
+                "Christian Theobalt",
+                "Vladislav Golyanik"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Dabral_Gravity-Aware_Monocular_3D_Human-Object_Reconstruction_ICCV_2021_paper.pdf",
+            "ref_texts": "[51] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In Computer Vision and Pattern Recognition (CVPR) , 2015.",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "Several lifting algorithms build upon the principles of non-rigid structure from motion and rely on classical optimisation for the lifting step [51, 45, 18]."
+        },
+        "Generating multiple diverse hypotheses for human 3d pose consistent with 2d joint detections": {
+            "authors": [
+                "Ehsan Jahangiri",
+                "Alan L. Yuille"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w16/Jahangiri_Generating_Multiple_Diverse_ICCV_2017_paper.pdf",
+            "ref_texts": "[42] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In CVPR , pages 4447\u20134455, June 2015.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "[42] to estimate the 3D torso and projection matrix.",
+            "2": "On the other hand, most of the 3D pose estimation methods use sparse coding based on an overcomplete dictionary of basis poses to represent a 3D pose and fit the 3D pose projection to the 2D joint detections [24,37,1,42,43].",
+            "3": "Akhter&Black [1] (similar to [24,42]) assumed that all of the 2D joints are observed and estimated a single 3D pose by solving the following op807\n timization problem: min \u03c9,s,RCr+Cp+\u03b2Cl, (1) where,Cris a measure of fitness between the estimated 2D joints\u02c6x\u2208IR2\u00d7Pand the projection and translation of estimated 3D pose \u02c6X= [\u02c6X1.",
+            "4": "To obtain an estimate of the 3D torso and projection matrix, we tried both iterating between optimizing over the projection matrix and 3D pose used in [1] as well as the convex relaxation method in [42] as will be presented in the experimental results section.",
+            "5": "Then, to obtain a reasonable estimate of torso \u02c6Xi\u2208torsoand camera parameters namely (\u02c6R,\u02c6t,\u02c6s), we run a 2D-to-3D pose estimator capable of handling missing joints (we modified [1] and [42] to handle missing joints; see equation (3)).",
+            "6": "[42] with convex-relaxation as baseline and observed considerable improvement compared to [1] in both 3D pose and projection matrix estimation.",
+            "7": "Using [42] as baseline to estimate the 3D torso and 810\n x-20 0 20y -60-40-200204060 x-20 0 20 40y -60-40-200204060 x-40 -20 0 20y -60-40-200204060 x-40 -20 0 20 40y -60-40-200204060 x-40 -20 0 20 40y -60-40-200204060\n-200 x0\n200 2000 z-200500\n0\n-500y 806040 z200-20-40 40200-20 x-80-60-40-200204060y 40 x200-20-500 z50-5050\n0y 100\n50 z0-40-20020-20\n-80-60-4060\n40\n20\n0\n40y xx-40\n-20\n200\n40\n10050 z020\n-80-60-40-20060\n40y 40 20 x0 -20 -40050 z10040\n-80-60-40-2002060y (a) (b) Figure 4.",
+            "8": "Method Directions Discussion Eating Greeting Phoning Posing Purchases Sitting SitDown Ours (No KM++/[42]) 63.",
+            "9": "57 Ours (k=20/[42]) 77.",
+            "10": "46 Ours (k=5/[42]) 82.",
+            "11": "[42] 80.",
+            "12": "06 Smoking TakingPhoto Waiting Walking WalkingDog WalkTogether Average Ours (No KM++/[42]) 71.",
+            "13": "99 Ours (k=20/[42]) 85.",
+            "14": "93 Ours (k=5/[42]) 91.",
+            "15": "[42] 90.",
+            "16": "Since the accuracy of [42] is already high, the best out of 5 pose hypotheses cannot significantly lower the average joint distance from the single 3D pose output by [42].",
+            "17": ", by diversifying conditional samples and using no kmeans++ clustering (shown by No KM++), using [42] as base.",
+            "18": "[42] X."
+        },
+        "Using locally corresponding cad models for dense 3d reconstructions from a single image": {
+            "authors": [
+                "Chen Kong",
+                "Hsuan Lin",
+                "Simon Lucey"
+            ],
+            "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Kong_Using_Locally_Corresponding_CVPR_2017_paper.pdf",
+            "ref_texts": "[20] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4447\u20134455, 2015. 1, 2",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "With the remarkable success in Structure from Motion (SfM), which is now capable of reconstructing entire cities using large-scale photo collections [1] and real-time visual SLAM on embedded and mobile devices [14], the computer vision community is starting to explore the possibility of constructing a 3D model of an object from a single image [17,20,11,21,18].",
+            "2": "[20] learned a dictionary from a 3D shape dataset and proposed a convex relaxation technique to estimate the pose and shape parameters simultaneously given a single image of 2D projected landmarks.",
+            "3": "6\n[20] X."
+        },
+        "Markerless gait analysis based on a single RGB camera": {
+            "authors": [
+                "Jessica M"
+            ],
+            "url": "https://eprints.gla.ac.uk/208065/1/208065.pdf",
+            "ref_texts": "[9] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis, \u201c3D Shape Estimation From 2D Landmarks: A Convex Relaxation Approach,\u201d presented at the Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 4447 \u20134455. ",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Compared to previous related work, we do not set any strict standards to camera position and background settings, whereas \n3D reconstruction of the joint coordinates takes place [9].",
+            "2": "Instead of using a conventional active shape model, a sparse dictionary is used to further reduce dimensionality and to represent the sparsity in motion patterns [7], [9] .",
+            "3": "We adopt the algorithm used in [9] to solve it globally, which is based on Alternating Direction Method of Multipliers [18] and the proximal operator of the spectral norm.",
+            "4": "[9] X."
+        },
+        "Action-driven 3D indoor scene evolution.": {
+            "authors": [
+                "Rui Ma",
+                "Honghua Li",
+                "Changqing Zou",
+                "Zicheng Liao",
+                "Xin Tong",
+                "Hao Zhang"
+            ],
+            "url": "https://honghuali.github.io/projects/adise_siga16.pdf"
+        },
+        "Generalizing monocular 3d human pose estimation in the wild": {
+            "authors": [
+                "Luyang Wang",
+                "Yan Chen",
+                "Zhenhua Guo",
+                "Keyuan Qian",
+                "Mude Lin",
+                "Hongsheng Li",
+                "Jimmy S. Ren"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/GMDL/Wang_Generalizing_Monocular_3D_Human_Pose_Estimation_in_the_Wild_ICCVW_2019_paper.pdf",
+            "ref_texts": "[47] X. Zhou, Q. Huang, X. Sun, X. Xue, and Y . Wei. Towards 3d human pose estimation in the wild: a weakly-supervised approach. In IEEE International Conference on Computer Vision , 2017. 1,2,5,7,8[48] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In IEEE Conference on Computer Vision and Pattern Recognition , 2015. 2",
+            "ref_ids": [
+                "47",
+                "48"
+            ],
+            "1": "[47] Yang et al.",
+            "2": "This problem is widely studied in the literature and is mainly tackled with the following types of technical methodologies namely 2D-to-3D pose estimation [6,19], monocular image based 3D pose estimation [47,44], and multi-view images based 3D pose estimation [31].",
+            "3": "Several methods tackle 3D pose understanding from 2D pose [1,5,15,30,37,42, 45,48].",
+            "4": "[47] employ a weakly-supervised transfer learning method with a 3D geometric loss.",
+            "5": "[47] as the baseline network to evaluate the in-the-wild 3D pose dataset quantitatively and qualitatively.",
+            "6": "[47] and Yang et al.",
+            "7": "In addition, we compare with the methods of [47,44] to verify the effectiveness of in-the-wild 3D pose dataset.",
+            "8": "Following our baseline method [47], we employ data from subjects S1, S5, S6, S7, S8 for training and evaluate on the data from subjects S9 and S11.",
+            "9": "[47] with the 2D annotated Human3.",
+            "10": "[47].",
+            "11": "[47]\u221754.",
+            "12": "(a) Original in-the-wild images, (b) Results with geometric loss [47], (c) Results with GANs [44], (d) Results with the proposed dataset.",
+            "13": "Evaluations on Baseline Network In this section, we mainly compare the two different methods [47,44] with the baseline network trained with the proposed in-the-wild 3D pose dataset.",
+            "14": "As shown in Table 2, trained with in-the-wild 3D pose dataset without the additional geometric loss [47] or the adversarial learning method [44], Table 4.",
+            "15": "[47] Yang et al.",
+            "16": "[47] Ours Figure 6.",
+            "17": "[47], there is about 10.",
+            "18": "[47], Yang et al.",
+            "19": "[47], (c) 3D human skeletons from the top viewpoint predicted by Zhou et al.",
+            "20": "[47], (d) 3D human skeletons from the front viewpoint predicted by our method, (e) 3D human skeletons from the top viewpoint predicted by our method.",
+            "21": "[47] (93% vs.",
+            "22": "[47] predicts 3D pose at almost the same depth level, while the depth of the predicted 3D poses by our baseline network varies with the baseball player movements.",
+            "23": "5,8\n[47] X.",
+            "24": "1,2,5,7,8[48] X."
+        },
+        "3d pose estimation for fine-grained object categories": {
+            "authors": [
+                "Yaming Wang",
+                "Xiao Tan",
+                "Yi Yang",
+                "Xiao Liu",
+                "Errui Ding",
+                "Feng Zhou",
+                "Larry S. Davis"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Wang_3D_Pose_Estimation_for_Fine-Grained_Object_Categories_ECCVW_2018_paper.pdf",
+            "ref_texts": "33. Zhou, X., Leonardos, S., Hu, X., Daniilidis, K., et al.: 3D s hape estimation from 2D landmarks: A convex relaxation approach. In: CVPR (2015)",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "Compared to most previous works [33,25,17], our method does not require the intermediate prediction of 2D/3D key points."
+        },
+        "Automatic calibration of the fisheye camera for egocentric 3d human pose estimation from a single image": {
+            "authors": [
+                "Yahui Zhang",
+                "Shaodi You",
+                "Theo Gevers"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Automatic_Calibration_of_the_Fisheye_Camera_for_Egocentric_3D_Human_WACV_2021_paper.pdf",
+            "ref_texts": "[39] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In CVPR , pages 4447\u20134455, 2015.",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "In general, existing methods are categorised into two types: (i)Direct 3D human pose estimation from images with full supervision [13, 21, 27, 26, 39] and (ii)\n3D pose estimation from intermediate 2D pose predictions [2, 4, 12, 15, 19, 34, 33, 20, 19, 37]."
+        },
+        "A kinematic chain space for monocular motion capture": {
+            "authors": [
+                "Bastian Wandt",
+                "Hanno Ackermann",
+                "Bodo Rosenhahn"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCVW_2018/papers/11132/Wandt_A_Kinematic_Chain_Space_for_Monocular_Motion_Capture_ECCVW_2018_paper.pdf",
+            "ref_texts": "10. Zhou, X., Leonardos, S., Hu, X., Daniilidis, K.: 3d shape es timation from 2d landmarks: A convex relaxation approach. In: CVPR, IEEE Comput er Society (2015) 4447\u20134455",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "[10] propose a c onvex relaxation of the commonly used reprojection error formulation to av oid the alternating optimization of camera and object pose."
+        },
+        "Humanmeshnet: Polygonal mesh recovery of humans": {
+            "authors": [
+                "Abbhinav Venkat",
+                "Chaitanya Patel",
+                "Yudhik Agrawal",
+                "Avinash Sharma"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/3DRW/Venkat_HumanMeshNet_Polygonal_Mesh_Recovery_of_Humans_ICCVW_2019_paper.pdf",
+            "ref_texts": "[36] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In proceedings of the IEEE conference on computer vision and pattern recognition , pages 4447\u20134455, 2015. 6",
+            "ref_ids": [
+                "36"
+            ],
+            "1": "[36] 106.",
+            "2": "3\n[36] X."
+        },
+        "Local feature based online mode detection with recurrent neural networks": {
+            "authors": [],
+            "url": "http://www.iapr-tc11.org/archive/icfhr2012/paper086.pdf"
+        },
+        "Articulated motion estimation from a monocular image sequence using spherical tangent bundles": {
+            "authors": [
+                "Spyridon Leonardos",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://www.cis.upenn.edu/~kostas/mypub.dir/spyros16icra.pdf",
+            "ref_texts": "[35] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , 2015.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "A non-exhaustive list of this body of work includes approaches based on shape bases [7], trajectory bases [3], probabilistic principal component analysis [31], rank minimization [10], smoothness priors [24], trajectory grouping [14] and sparse coding [35].",
+            "2": "[35] X."
+        },
+        "Deriving tolerant grammars from a base-line grammar": {
+            "authors": [],
+            "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3aa2b5e02df256c396136c92d6ec110252c7b177"
+        },
+        "Single image pop-up from discriminatively learned parts": {
+            "authors": [
+                "Menglong Zhu",
+                "Xiaowei Zhou",
+                "Kostas Daniilidis"
+            ],
+            "url": "https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Single_Image_Pop-Up_ICCV_2015_paper.pdf",
+            "ref_texts": "[39] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: a convex relaxation approach. CVPR , 2015. 4,5",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "In order to have a linear representation, we use the method proposed in [39], which assumes that the unknown shape is a linear combination of scalable and rotatable basis shapes: P=k/summationdisplay i=1TiBi+t1T, (4) whereTi\u2208R2\u00d73denotes the first two rows of a similarity transformation matrix.",
+            "2": "The spectral norm is the largest singular value of a matrix, and minimizing it enforces the two singular values ofTito be equal, which yields an orthogonal matrix [39].",
+            "3": "(14) is a spectral-norm regularized proximal problem, which also admits a closed-form solution [39].",
+            "4": "2\n[39] X."
+        },
+        "Elastic shape-from-template with spatially sparse deforming forces": {
+            "authors": [
+                "Abed Malti",
+                "Cedric Herzet"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Malti_Elastic_Shape-From-Template_With_CVPR_2017_paper.pdf",
+            "ref_texts": "[34] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. CVPR , 2015. 1,2",
+            "ref_ids": [
+                "34"
+            ],
+            "1": "This approach has shown substantial improvement of the reconstruction accuracy [34,12,26].",
+            "2": "Recently [34] proposes a convex relaxation of the problem of jointly estimating shape and camera pose.",
+            "3": "2\n[34] X."
+        },
+        "Deep learning based pose estimation in space": {
+            "authors": [],
+            "url": "https://robotics.estec.esa.int/i-SAIRAS/isairas2018/Papers/Session%203c/4_isairas2018_deep_ver1-39-77-Hirano-Daichi.pdf",
+            "ref_texts": "[9]X. Zhou et al., 3D Shape Estimation from 2D Landmarks: A Convex Relaxation Approach, in Proc. of IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), Boston, USA, 2015, pp. 4447 4455.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Several researchers have demonstrated 3D pose estimation in this approach with 2D keypoint estimation and 3D reconstruction based on the optimization problem [9][10].",
+            "2": "[9]X."
+        },
+        "An articulated structure-aware network for 3D human pose estimation": {
+            "authors": [],
+            "url": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf",
+            "ref_texts": "62 Short Title Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Cheng Li, Honggang Zhang, Xiaogang Wang, and Xiaoou Tang. Residual attention network for image classiffcation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 3156{3164, 2017. Guanghui Wang and QM Jonathan Wu. Simpliffed camera projection models. In Guide to Three Dimensional Structure and Motion Factorization , pages 29{41. 2011. Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh. Convolutional pose machines. In IEEE Conference on Computer Vision and Pattern Recognition , pages 4724{4732, 2016. Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. Hierarchical attention networks for document classiffcation. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies , pages 1480{1489, 2016. Hashim Yasin, Umar Iqbal, Bjorn Kruger, Andreas Weber, and Juergen Gall. A dualsource approach for 3d pose estimation from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4948{4956, 2016. Wenpeng Yin, Hinrich Sch\u007f utze, Bing Xiang, and Bowen Zhou. Abcnn: Attention-based convolutional neural network for modeling sentence pairs. Transactions of the Association for Computational Linguistics , 4:259{272, 2016. Bo Zhao, Xiao Wu, Jiashi Feng, Qiang Peng, and Shuicheng Yan. Diversiffed visual attention networks for ffne-grained object classiffcation. IEEE Transactions on Multimedia , 19(6): 1245{1256, 2017. Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, Kostas Daniilidis, et al. 3d shape estimation from 2d landmarks: A convex relaxation approach. In IEEE Conference on Computer Vision and Pattern Recognition , volume 2, pages 4447{4455, 2015. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Sparseness meets deepness: 3d human pose estimation from monocular video. InIEEE Conference on Computer Vision and Pattern Recognition , pages 4966{4975, 2016. Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3d shape estimation: A convex relaxation approach. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(8):1648{1661, 2017. Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Konstantinos G Derpanis, and Kostas Daniilidis. Monocap: Monocular human motion capture using a cnn coupled with a geometric prior. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2018."
+        },
+        "A sampling approach to generating closely interacting 3d pose-pairs from 2d annotations": {
+            "authors": [],
+            "url": "https://nrl.northumbria.ac.uk/id/eprint/34473/1/Yin%20et%20al%20-%20A%20Sampling%20Approach%20to%20Generating%20Closely%20Interacting%203D%20Pose-pairs%20from%202D%20Annotations%20AAM.pdf",
+            "ref_texts": "[11] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis, \u201c3d shape estimation from 2d landmarks: A convex relaxation approach,\u201d in Proc. IEEE Conf. on Comp. Vis. and Pat. Rec. , 2015, pp. 4447\u20134455.",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "Top row shows the annotated posepairs in video, as input to direct 2D-to-3D lifting in second row [10] and third row [11].",
+            "2": "In Figure 2, we show a comparison of our lifting-by-sampling scheme to state-of-the-art methods [10], [11] for direct 2D-to-3D lifting of individual poses.",
+            "3": "[11] propose a convex relaxation approach to solve for the sparse representation.",
+            "4": "(b) result of IK that takes the lifted poses by [10] (upper row) and [11] (lower row) as initial states.",
+            "5": "[11] X."
+        },
+        "Computer vision system for ambient long-term gait assessment": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/ae/3f/3a/9f6a946a9dea5f/US9993182.pdf"
+        },
+        "Learning local descriptors by optimizing the keypoint-correspondence criterion": {
+            "authors": [
+                "Nenad Marku",
+                "Igor Pandzic"
+            ],
+            "url": "https://vision.unipv.it/CV/materiale2016-17/3rd%20Choice/0255.pdf",
+            "ref_texts": "[8] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis, \u201c3D Shape Estimation from 2D Landmarks: A Convex Relaxation Approach,\u201d in CVPR , 2015.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "Some example applications include object/scene recognition and retrieval [1], [2], [3], face verification [4], [5], face alignment [6], image stitching [7], 3D shape estimation [8] and 3D model retrieval/matching [9], [10].",
+            "2": "1\n[8] X."
+        },
+        "An industrial case study of the impact of requirements engineering on downstream development": {
+            "authors": [],
+            "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c5bb025198dfccbd7734eb118a5274cc38ce4618"
+        },
+        "System and method for automatic gait cycle segmentation": {
+            "authors": [],
+            "url": "https://patentimages.storage.googleapis.com/ab/1e/76/fc8974b46501be/US9996739.pdf",
+            "ref_texts": ""
+        },
+        "Sensing, Measuring, and Modeling Social Signals in Nonverbal Communication": {
+            "authors": [
+                "Hanbyul Joo"
+            ],
+            "url": "http://pstorage-cmu-348901238291901.s3.amazonaws.com/14343020/h_joo_robotics_2019.pdf",
+            "ref_texts": "[118] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis, \u201c3d shape estimation from 2d landmarks: A convex relaxation approach,\u201d in Conference on Computer Vision and Pattern Recognition, 2015.",
+            "ref_ids": [
+                "118"
+            ],
+            "1": "More recently, a collection of approaches aims to reconstruct 3D skeletons directly from monocular images, either by fitting 2D keypoint detections with a prior on human pose [118,119] or getting even closer to direct regression methods [120\u2013122].",
+            "2": "[118] X."
+        },
+        "Estimating 3D Shape of the Head Skeleton of Basking Sharks Using Annotated Landmarks on a 2D Image": {
+            "authors": [],
+            "url": "https://opus4.kobv.de/opus4-zib/files/8900/Martha-Paskin_Masters-Thesis.pdf",
+            "ref_texts": "[ZLHD15] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In Proceedings of the IEEE conference on Computer Vision and Pattern Recognition , pages 4447{4455, 2015.",
+            "ref_ids": [
+                "ZLHD15"
+            ],
+            "1": "Shape spaces [ZLHD15, RKS12, MM06]: This approach estimates the 3D shape of an object by interpolating through a set of pre-deffned 3D shapes including the possible deformations of the object.",
+            "2": "The ASM has been used for many 2D-to-3D shape fftting problems [ZLHD15, RKS12, BHB00, HR12] and is a reliable approach.",
+            "3": "[ZLHD15].",
+            "4": "[ZLHD15].",
+            "5": "[ZLHD15] prove that convfY2Rm\u0002njYTY=s2Ing=fY2Rm\u0002njkYk2\u0014jsjg; wherekMik2refers to the spectral norm of Mi, which is it's largest singular value.",
+            "6": "Note that minimizing the spectral norm of a matrix is equivalent to minimizing the l1\u0000norm of the vector of its singular values [ZLHD15].",
+            "7": "The proximal problem [ZLHD15] can be used to solve (19) to get Mt i=D\u0015\n\u0016(Qt\u00001 i)8i2[1;k]: whereD\u0015\n\u0016(Qt\u00001 i) is the solution to the proximal problem.",
+            "8": "In this case, it is maybe useful to use a sparse representation of the training shapes [ZLHD15, RKS12]."
+        },
+        "Understanding the sources of error for 3D human pose estimation from monocular images and videos": {
+            "authors": [
+                "Johnny Canuck"
+            ],
+            "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0361162/4",
+            "ref_texts": "[132] X. Zhou, S. Leonardos, X. Hu, and K. Daniilidis. 3d shape estimation from 2d landmarks: A convex relaxation approach. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 4447\u20134455, 2015.!pages 17, 18, 24, 25, 44",
+            "ref_ids": [
+                "132"
+            ],
+            "1": "The 3D pose is then computed as a sparse linear combination of this over-complete dictionary [2, 132, 134].",
+            "2": "Some work uses the 2D human pose from image and learns to back-project these 2D joint locations into 3D [2, 16, 62, 76, 90, 92, 122, 132, 134].",
+            "3": "A common approach to estimating 3D joint locations given 2D pose is to separate the camera 23 pose variability from the intrinsic deformation of human body, the latter of which is modeled by learning an overcomplete dictionary of basis 3D poses from a large database of 3D human pose [2, 16, 92, 122, 132, 134].",
+            "4": "[132] proposed a method to relax certain conditions to approximate convexity for the optimization of rotation matrix.",
+            "5": "3D probabilities or volumetric heatmap of joints [87], 3D motion parameters [133] or coefficients of basis pose [2, 16, 92, 132, 134].",
+            "6": "!pages 15\n[132] X."
+        },
+        "A convex approach for non-rigid structure from motion via sparse representation": {
+            "authors": [],
+            "url": "https://www.scitepress.org/PublishedPapers/2017/60786/60786.pdf",
+            "ref_texts": ""
+        },
+        "\u57fa\u4e8e L 1/2 \u6b63\u5219\u5316\u7684\u4e09\u7ef4\u4eba\u4f53\u59ff\u6001\u91cd\u6784": {
+            "authors": [],
+            "url": "http://www.aas.net.cn/fileZDHXB/journal/article/zdhxb/2018/6/PDF/zdhxb-44-6-1086.pdf",
+            "ref_texts": "24Zhou X W, Leonardos S, Hu X Y, Daniilidis K. 3D shape estimation from 2d landmarks: a convex relaxation approach. In: Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition. Boston, MA, USA: IEEE, 2015. 4447 \u00a14455"
+        },
+        "Applied Deep Learning in Orthopaedics": {
+            "authors": [
+                "William Stewart",
+                "Burton I"
+            ],
+            "url": "https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2568&context=etd",
+            "ref_texts": " Zhou, X., Leonardos, S., Hu, X., D aniilidis, K. (2015). 3D shape estimation from 2D landmarks: A convex relaxation approach. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition . 4447 -4455. "
+        },
+        "\u0406\u043d\u0442\u0435\u0440\u0430\u043a\u0442\u0438\u0432\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0440\u043e\u0437\u043f\u0456\u0437\u043d\u0430\u0432\u0430\u043d\u043d\u044f 3D \u043e\u0431'\u0454\u043a\u0442\u0456\u0432": {
+            "authors": [],
+            "url": "https://ela.kpi.ua/bitstream/123456789/57681/1/Zemlianko_magistr.pdf",
+            "ref_texts": "137. Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: a convex relaxation approach. CVPR, 2015a. ",
+            "ref_ids": [
+                "137"
+            ],
+            "1": "\u0421\u043f\u0435\u043a\u0442\u0440\u0430\u043b\u044c\u043d\u0430 \u043d\u043e\u0440\u043c\u0430 \u0454 \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448\u0438\u043c \u0441\u0438\u043d\u0433\u0443\u043b\u044f\u0440\u043d\u0438\u043c \n\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f\u043c \u043c\u0430\u0442\u0440\u0438\u0446\u0456, \u0456 \u0457\u0457 \u043c\u0456\u043d\u0456\u043c\u0456\u0437\u0430\u0446\u0456\u044f \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0443\u0454 \u0440\u0456\u0432\u043d\u0456\u0441\u0442\u044c \u0434\u0432\u043e\u0445 \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u0438\u0445 \u0437\u043d\u0430\u0447\u0435\u043d\u044c Ti, \u0449\u043e \u0434\u0430\u0454 \u043e\u0440\u0442\u043e\u0433\u043e\u043d\u0430\u043b\u044c\u043d\u0443 \u043c\u0430\u0442\u0440\u0438\u0446\u044e [137].",
+            "2": "\u0410\u043b\u0433\u043e\u0440\u0438\u0442\u043c \u0443 \u0440\u043e\u0431\u043e\u0442\u0456 [137] \u0431\u0443\u0432 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u0438\u0439 \u0434\u043b\u044f \u0432\u0438\u0432\u0447\u0435\u043d\u043d\u044f \u0441\u043b\u043e\u0432\u043d\u0438\u043a\u0456\u0432 \u043f\u043e\u0437."
+        },
+        "Monocular 3D object recognition": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/76394788.pdf",
+            "ref_texts": "19, 43 Feng Zhou and Fernando De la Torre. Spatio-temporal matching for human detection in video. In ECCV , 2014. 23, 86 Feng Zhou and Fernando De la Torre. Spatio-temporal matching for human detection in video. In Proc. ECCV , 2014. 25, 107, 109 Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3d shape estimation from 2d landmarks: a convex relaxation approach. CVPR , 2015a. 92, 94 Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, and Kostas Daniilidis. 3D shape estimation from 2D landmarks: A convex relaxation approach. In Proc. CVPR , 2015b. 25, 109, 110, 115, 116 Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, and Kostas Daniilidis. Sparse representation for 3D shape estimation: A convex relaxation approach. arXiv preprint arXiv:1509.04309 , 2015c. 25, 34, 109, 115, 116, 118 Menglong Zhu, Nilokay Atanasov, George Pappas, and Kostas Daniilidis. Active Deformable Part Models Inference. In European Conference on Computer Vision , 2014a."
+        },
+        "Probabilistic 3D Human Pose Recovery and Its Application to Action Recognition": {
+            "authors": [],
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/119157/1/000000132492.pdf",
+            "ref_texts": "[71] X. H. K. D. Xiaowei Zhou, Spyridon Leonardos, \u201c3d shape estimation from 2D landmarks: A convex relaxation approach,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , 2015.",
+            "ref_ids": [
+                "71"
+            ],
+            "1": "While there are various approaches for monocular 3D human pose estimation [62, 63, 64, 65, 66, 11, 67, 68, 12, 69, 70, 71], our work focuses on recovering a 3D human pose using 2D part locations obtained from an image, since the use of the 3D shape model with 2D part locations makes the proposed method more robust against changes in viewpoint.",
+            "2": "[71] X."
+        },
+        "cvpaper. challenge in CVPR2015 CVPR2015 \u306e\u307e\u3068\u3081": {
+            "authors": [],
+            "url": "http://hirokatsukataoka.net/pdf/prmu15_cvpaper.challenge.pdf",
+            "ref_texts": "[481] Xiaowei Zhou, Spyridon Leonardos, Xiaoyan Hu, Kostas Daniilidis, \u201c3D Shape Estimation From 2D Landmarks: A Convex Relaxation Approach\u201d, in CVPR2015.",
+            "ref_ids": [
+                "481"
+            ]
+        }
+    }
+}

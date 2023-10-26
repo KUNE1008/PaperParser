@@ -1,0 +1,140 @@
+{
+    "title": "OnePose: One-Shot Object Pose Estimation without CAD Models",
+    "id": 38,
+    "valid_pdf_number": "8/32",
+    "matched_pdf_number": "8/8",
+    "matched_rate": 1.0,
+    "citations": {
+        "Onepose++: Keypoint-free one-shot object pose estimation without CAD models": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/e43f900f571de6c96a70d5724a0fb565-Paper-Conference.pdf",
+            "ref_texts": "[48] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. OnePose: One-shot object pose estimation without CAD models. CVPR , 2022. 1, 2, 3, 7, 8, 9, 13",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "The previous feature-matching-based method OnePose [48] has shown promising results under a one-shot setting which eliminates the need for CAD models or object-specific training.",
+            "2": "To alleviate the need for CAD models or category-specific training, OnePose [48] proposes a new setting of one-shot object pose estimation .",
+            "3": "Ref ImagesReconstructed SfM Point CloudObject Pose Estimation for Query Images OursOnePoseOursOnePose 20113 points20177 points1193 points972 points Figure 1: Comparsion Between Our Method and OnePose [48].",
+            "4": "We evaluate our framework on the OnePose [48] dataset and the LINEMOD [16] dataset.",
+            "5": "The experiments show that our method outperforms all existing one-shot pose estimation methods [48,33] by a large margin and even achieves comparable results with instance-level methods [39,29] which are trained for each object instance with a CAD model.",
+            "6": "The recently proposed Gen6D [33] and OnePose [48] only require a set of reference images with annotated poses to estimate object poses and can generalize to unseen objects.",
+            "7": "We validate our method on the OnePose [48] and LINEMOD [16] datasets.",
+            "8": "For both datasets, we follow the train-test split in previous methods [48, 29].",
+            "9": "Our method is compared with HLoc [40] combined with different feature matching methods and OnePose [48], using the cm-degree pose success rate with different thresholds.",
+            "10": "We compare the proposed method with the following baselines in two categories: 1) One-shot baselines [48,33,40] that hold the same setting as ours.",
+            "11": "OnePose [48] and HLoc [40] are most relevant to our method in leveraging feature matching for reconstruction and pose estimation.",
+            "12": "Since HLoc\u2019s original retrieval module is designed for the outdoor scenes, we use uniformly sampled 10reference views for 2D-2D matching for pose estimation, following [48].",
+            "13": "1, our method substantially outperforms OnePose [48] and HLoc [40].",
+            "14": "4 Results on LINEMOD We compare the proposed method with OnePose [48] and Gen6D [33] which are under the One-shot setting, and Instance-level methods PVNet [39] and CDPN [29] onADD(S)-0.",
+            "15": "(a)Did you include the code, data, and instructions needed to reproduce the main experimental results (either in the supplemental material or as a URL)? [Yes] The OnePose [48] dataset and the LINEMOD [?] dataset used in the paper are public; our code and the collected OnePose-LowTexturedataset will be published."
+        },
+        "Visibility aware human-object interaction tracking from single rgb camera": {
+            "authors": [
+                "Xianghui Xie",
+                "Bharat Lal",
+                "Gerard Pons"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Visibility_Aware_Human-Object_Interaction_Tracking_From_Single_RGB_Camera_CVPR_2023_paper.pdf",
+            "ref_texts": "[67] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. OnePose: One-shot object pose estimation without CAD models. CVPR , 2022. 2",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "Two works explore the camera localization ideas from SLAM communities and can track object from RGB videos [48, 67]."
+        },
+        "Object pose estimation with statistical guarantees: Conformal keypoint detection and geometric uncertainty propagation": {
+            "authors": [
+                "Heng Yang",
+                "Marco Pavone"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Object_Pose_Estimation_With_Statistical_Guarantees_Conformal_Keypoint_Detection_and_CVPR_2023_paper.pdf",
+            "ref_texts": "[85] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. Onepose: One-shot object pose estimation without cad models. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) , pages 6825\u20136834, 2022. 1",
+            "ref_ids": [
+                "85"
+            ],
+            "1": "One of the most popular paradigms for object pose estimation is a two-stage pipeline [20,71,72,79,81,85,89,101], where the first stage detects (semantic) keypoints of the objects on the image, and the second stage computes the object pose by solving an optimization known as Perspectiven-Points (PnP) that minimizes reprojection errors of the detected keypoints."
+        },
+        "BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects": {
+            "authors": [
+                "Bowen Wen",
+                "Jonathan Tremblay",
+                "Valts Blukis",
+                "Stephen Tyree",
+                "Thomas Muller",
+                "Alex Evans",
+                "Dieter Fox",
+                "Jan Kautz",
+                "Stan Birchfield"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_BundleSDF_Neural_6-DoF_Tracking_and_3D_Reconstruction_of_Unknown_Objects_CVPR_2023_paper.pdf",
+            "ref_texts": "[58] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. Onepose: One-shot object pose estimation without cad models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6825\u20136834, 2022. 2",
+            "ref_ids": [
+                "58"
+            ],
+            "1": "Although several recent works [32,45,58] relax the assumption and aim to quickly generalize to novel unseen objects, they still require pre-capturing posed reference views of the test object, which is not assumed in our setting."
+        },
+        "Long-term Visual Localization with Mobile Sensors": {
+            "authors": [
+                "Shen Yan",
+                "Yu Liu",
+                "Long Wang",
+                "Zehong Shen",
+                "Zhen Peng",
+                "Haomin Liu",
+                "Maojun Zhang",
+                "Guofeng Zhang",
+                "Xiaowei Zhou"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Long-Term_Visual_Localization_With_Mobile_Sensors_CVPR_2023_paper.pdf",
+            "ref_texts": "[61] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. Onepose: One-shot object pose estimation without CAD models. In CVPR , 2022. 2",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "As for the time-consumption issue, inspired by recent 6-DoF pose estimation works [26,61], we aim to directly match 3D sub-map and 2D query image in one-shot with selfand cross-attention modules."
+        },
+        "HS-Pose: Hybrid Scope Feature Extraction for Category-level Object Pose Estimation": {
+            "authors": [
+                "Linfang Zheng",
+                "Chen Wang",
+                "Yinghan Sun",
+                "Esha Dasgupta",
+                "Hua Chen",
+                "Ales Leonardis",
+                "Wei Zhang",
+                "Hyung Jin"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_HS-Pose_Hybrid_Scope_Feature_Extraction_for_Category-Level_Object_Pose_Estimation_CVPR_2023_paper.pdf",
+            "ref_texts": "[38] Jiaming Sun, Zihao Wang, Siyu Zhang, Xingyi He, Hongcheng Zhao, Guofeng Zhang, and Xiaowei Zhou. Onepose: One-shot object pose estimation without cad models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6825\u20136834, 2022. 2",
+            "ref_ids": [
+                "38"
+            ],
+            "1": "Existing methods usually achieve the pose using end-to-end regression [14, 16, 18], template matching [1, 30, 35], or 2D3D correspondence-matching [3, 8, 10, 28, 38, 43]."
+        },
+        "An object-oriented navigation strategy for service robots leveraging semantic information": {
+            "authors": [
+                "Akash Chikhalikar",
+                "Ankit A. Ravankar",
+                "Jose Victorio",
+                "Salazar Luces",
+                "Seyed Amir",
+                "Yasuhisa Hirata"
+            ],
+            "url": "https://orca.cardiff.ac.uk/id/eprint/156586/1/SII23_0160_FI.pdf",
+            "ref_texts": "[32] J. Sun, Z. Wang, S. Zhang, X. He, H. Zhao, G. Zhang, and X. Zhou, \u201cOnePose: One-shot object pose estimation without CAD models,\u201d CVPR , 2022.",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "There are several techniques that can be utilized to correctly estimated the final 3D pose of the detected [31], [32].",
+            "2": "[32] J."
+        },
+        "RoboCup@ Home \u306e\u30d2\u30e5\u30fc\u30de\u30f3\u30a4\u30f3\u30bf\u30e9\u30af\u30b7\u30e7\u30f3\u30bf\u30b9\u30af\u306b\u5411\u3051\u305f\u89e3\u6cd5\u306e\u63d0\u6848": {
+            "authors": [],
+            "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/Challenge-060/2022_07/_pdf",
+            "ref_texts": "[12] J. Sun, Z. Wang, S. Zhang, X. He, H. Zhao, G. Zhang and X. Zhou, \u02a0OnePose: One-Shot Object Pose Estimation without CAD Models, \u02a1Conference on Computer Vision and Pattern Recognition(CVPR), (2022).",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "3\u0490\u0b94\u0a2a\u0c06\n\u0c0f\u048a\u0916\u0e4f\u0370\u0378\u027c HSR\u0ab2\u0374\u0914\u0c98\u0360\u0368\u03da\u03bf\u03d3\u0377\u0372\u035c\n\u038d\u03b9\u03d1\u039d\u0355\u034b\u0394\u0377\u0354\u0371\u034d\n\u0ab2\u0374\u0f29\u0351\u0394\u0d9e\u0f41\u0355\u034b\u0394\u027d RoboCup@Home \u0589\u035e\u0395\u0394\u035c\u0371\u0374\n\u035e\n\u0378 3\u0c24\u0373\u0dfa\n\u0916\u0e4f [12]\u0373\u03b3\n\u0351\u0394\u027d\n7\u0fe6\n\u0571\u0370\u034b\u0394 RoboCup@Home \u0398\u0395\u0394 FMM\u0af7\n\u0571\u0370\u0378 2\u0573\u0ee8\u0377\n\u0360\u0368\u027d\u04b0\n\u0360\u036f\u0377\u055d\u0b4a\u0c3a\u038b\n\u0362\u0394\u0368\u038a\n\u039b\u0b13\u035a\u036f\u034d\u0358\u0d9e\u0f41\u0355\u034b\u0394\u027d\u0759\n[1] RoboCup@Home.",
+            "2": "[12] J."
+        }
+    }
+}

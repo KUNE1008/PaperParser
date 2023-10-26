@@ -1,0 +1,405 @@
+{
+    "title": "Smap: Single-shot multi-person absolute 3d pose estimation",
+    "id": 25,
+    "valid_pdf_number": "24/51",
+    "matched_pdf_number": "19/24",
+    "matched_rate": 0.7916666666666666,
+    "citations": {
+        "Monocular, one-stage, regression of multiple 3d people": {
+            "authors": [
+                "Yu Sun",
+                "Qian Bao",
+                "Wu Liu",
+                "Yili Fu",
+                "Michael J. Black",
+                "Tao Mei"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Monocular_One-Stage_Regression_of_Multiple_3D_People_ICCV_2021_paper.pdf",
+            "ref_texts": "[56] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3D pose estimation. In ECCV , 2020. 3",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "[56] extend part affinity fields [7] to be depth-aware."
+        },
+        "Putting people in their place: Monocular regression of 3d people in depth": {
+            "authors": [
+                "Yu Sun",
+                "Wu Liu",
+                "Qian Bao",
+                "Yili Fu",
+                "Tao Mei",
+                "Michael J. Black"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Putting_People_in_Their_Place_Monocular_Regression_of_3D_People_CVPR_2022_paper.pdf",
+            "ref_texts": "[48] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3D pose estimation. In ECCV , pages 550\u2013",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "While previous multi-person methods perform well in constrained experimental settings, they struggle with severe occlusion, diverse body size and appearance, the ambiguity of monocular depth, and in-the-wild cases [11, 25, 38, 48].",
+            "2": "A few learning-based methods have been proposed for reasoning about the depth of predicted body meshes [11] or 3D poses [25, 38, 48].",
+            "3": "Unfortunately, they all reason about depth via 2D representations, such as RoI-aligned features [11, 25] or a 2D depth map [38, 48].",
+            "4": "On RH, compared with previous methods [11, 25, 38, 48], BEV is more accurate in relative depth reasoning and pose estimation.",
+            "5": "SMAP [48] and HMOR [38] employ a 2D depth map to represent the root depth of 3D pose at each pixel.",
+            "6": "For a fair comparison, we only use the samples that are also used for training in compared methods [11, 18, 19, 25, 34, 48].",
+            "7": "781 SMAP [48] 31.",
+            "8": "We first compare with the most competitive methods [11,25,48], which solve depth relations in monocular images."
+        },
+        "GLAMR: Global occlusion-aware human mesh recovery with dynamic cameras": {
+            "authors": [
+                "Ye Yuan",
+                "Umar Iqbal",
+                "Pavlo Molchanov",
+                "Kris Kitani",
+                "Jan Kautz"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_GLAMR_Global_Occlusion-Aware_Human_Mesh_Recovery_With_Dynamic_Cameras_CVPR_2022_paper.pdf",
+            "ref_texts": "[114] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020. 2",
+            "ref_ids": [
+                "114"
+            ]
+        },
+        "Body meshes as points": {
+            "authors": [
+                "Jianfeng Zhang",
+                "Dongdong Yu",
+                "Jun Hao",
+                "Xuecheng Nie",
+                "Jiashi Feng"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Body_Meshes_as_Points_CVPR_2021_paper.pdf",
+            "ref_texts": "[73] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020.",
+            "ref_ids": [
+                "73"
+            ],
+            "1": "Inspired by the recent success of depth estimation for human body joints [42,73], we propose to take the depth of each person (center point) predicted by a model pre-trained on 3D datasets with depth annotations as the pseudo ordinal relation for model training on the in-the-wild data, which is experimentally proved beneficial to depth-coherent body mesh reconstruction.",
+            "2": "SSMP3D [39] and SMAP [73] estimate 3D poses from occlusion-aware pose maps and use Part Affinity Fields [7] to infer their association."
+        },
+        "Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization": {
+            "authors": [
+                "Yu Zhan",
+                "Fenghai Li",
+                "Renliang Weng",
+                "Wongun Choi"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Zhan_Ray3D_Ray-Based_3D_Human_Pose_Estimation_for_Monocular_Absolute_3D_CVPR_2022_paper.pdf",
+            "ref_texts": "[47] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: single-shot multiperson absolute 3d pose estimation. In ECCV , volume 12360, pages 550\u2013566, 2020. 2, 3",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "13116\n To resolve these ambiguities, a number of monocular 3D human estimation approaches have been proposed [4,10,29, 32, 44, 47].",
+            "2": "In contrast, [29, 47] rely on image-based human depth estimation for absolute root-keypoint localization.",
+            "3": "Image based 3D human pose estimation Image based approaches aim to improve the 3D estimation accuracy by directly utilizing image features [1, 17, 18, 20,21,37\u201339,45,47,49].",
+            "4": "Alternatively, [37\u201339, 47] estimate the root depth from the full image up to a scale."
+        },
+        "Shape-aware multi-person pose estimation from multi-view images": {
+            "authors": [
+                "Zijian Dong",
+                "Jie Song",
+                "Xu Chen",
+                "Chen Guo",
+                "Otmar Hilliges"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Dong_Shape-Aware_Multi-Person_Pose_Estimation_From_Multi-View_Images_ICCV_2021_paper.pdf",
+            "ref_texts": "[55] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In European Conference on Computer Vision , pages 550\u2013566. Springer, 2020.",
+            "ref_ids": [
+                "55"
+            ],
+            "1": "Leveraging the learning-based method, 3D poses can be recovered by lifting detected 2D poses [41, 42, 55], or directly regressing 3D poses [3, 13, 48, 53], or by fitting parametric human body models [21, 53]."
+        },
+        "Monocular 3D multi-person pose estimation by integrating top-down and bottom-up networks": {
+            "authors": [
+                "Yu Cheng",
+                "Bo Wang",
+                "Bo Yang",
+                "Robby T. Tan"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_Monocular_3D_Multi-Person_Pose_Estimation_by_Integrating_Top-Down_and_Bottom-Up_CVPR_2021_paper.pdf",
+            "ref_texts": "[53] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In Proceedings of the European Conference on Computer Vision (ECCV) , 2020. 1, 2,3,7,8",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "The top-down method is RootNet [32], the bottom-up method is SMAP [53].",
+            "2": ", [53,24,22]) do not use any human detection and thus can produce results with higher accuracy when multiple persons interact with each other.",
+            "3": "Bottom-Up Monocular 3D Human Pose Estimation A few bottom-up methods have been proposed [10,53,28,22, 24].",
+            "4": "[53] estimate the 2.",
+            "5": "4shows the comparison among a SOTA bottom-up method SMAP [53], our bottomup branch, top-down branch, and full model.",
+            "6": "[53] 80.",
+            "7": ", [53] 54.",
+            "8": "We also provide results of the estimated 3D poses in 7655\n Frame 240 Frame 280 Frame 300 Frame 365 Frame 305 Frame 315 Frame 330 Frame 340\n[53] BU TD Full Input Figure 4.",
+            "9": "First row shows the images from two video clips; second row shows the results from SMAP [53]; third row shows the result of of our bottom-up (BU) branch; fourth row shows the results of our top-down (TD) branch; last row shows the results of our full model."
+        },
+        "Sloper4d: A scene-aware dataset for global 4d human pose estimation in urban environments": {
+            "authors": [
+                "Yudi Dai",
+                "Yitai Lin",
+                "Xiping Lin",
+                "Chenglu Wen",
+                "Lan Xu",
+                "Hongwei Yi",
+                "Siqi Shen",
+                "Yuexin Ma",
+                "Cheng Wang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Dai_SLOPER4D_A_Scene-Aware_Dataset_for_Global_4D_Human_Pose_Estimation_CVPR_2023_paper.pdf",
+            "ref_texts": "[66] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In European Conference on Computer Vision , pages 550\u2013566. Springer, 2020. 3",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "Global 3D Human Pose Estimation Most studies recover human meshes in camera coordinate [26, 66] or root-relative poses [18, 24, 25]."
+        },
+        "Single-stage is enough: Multi-person absolute 3D pose estimation": {
+            "authors": [
+                "Lei Jin",
+                "Chenyang Xu",
+                "Xiaojuan Wang",
+                "Yabo Xiao",
+                "Yandong Guo",
+                "Xuecheng Nie",
+                "Jian Zhao"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Jin_Single-Stage_Is_Enough_Multi-Person_Absolute_3D_Pose_Estimation_CVPR_2022_paper.pdf",
+            "ref_texts": "[39] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In ECCV , pages 550\u2013566, 2020. 1,2,3,4,6,7,8",
+            "ref_ids": [
+                "39"
+            ],
+            "1": "Top-down approaches [1,13,20,30] use a human detector to obtain the bounding box of each person, and then perform the singleperson pose estimation, while bottom-up approaches [19,39] estimate the poses of all persons simultaneously, and then combine the keypoints belonging to the same person.",
+            "2": "\u2022DRM achieves comparable performance with the most top-down methods and significantly outperforms the state-of-the-art bottom-up method [39] by 4.",
+            "3": "Multi-person 3D Pose Estimation For multi-person 3D pose estimation with monocular RGB images, similar categories as multi-person 2D pose estimation are noted: topdown [1,2,13,20,30] and bottom-up [19,39] approaches.",
+            "4": "[39] leverage a depth-aware part association algorithm to assign keypoints to individuals by reasoning about inter-person occlusion and bone-length constraints.",
+            "5": "Monocular Depth Estimation For depth estimation in multi-person absolute 3D pose estimation, most meth-ods [20,39] use a sparse depth map to supervise the depth value in 2D position of the root (set in pelvis) point.",
+            "6": "Relation to Previous Representations In existing researches [20,39], decoupling 3D pose estimation as 2D pose estimation and depth prediction has also been explored.",
+            "7": "We follow SMAP [39] and use 400k images from it for training our DRM.",
+            "8": "We use it for evaluation as in SMAP [39].",
+            "9": "4 SMAP (Hourglass) [39] 80.",
+            "10": "point compared to SMAP [39], which is current the state-ofthe-art bottom-up method.",
+            "11": "3 SMAP [39] 84.",
+            "12": "7 SMAP [39]\n(Bottom-up)SSNet 57.",
+            "13": "Experiment on CMU Panoptic [9] Benchmark We use RtError [39] and Mean Per Joint Position Error (MPJPE) [34] as the evaluation metrics on CMU Panoptic [9].",
+            "14": "It can be observed that our model significantly outperforms the state-of-the-art bottom-up method SMAP [39] in terms of RtError by a large margin, i.",
+            "15": "5reports the detailed comparisons on running time during inference of the representative top-down, bottom-upmethods [20,39], and proposed DRM.",
+            "16": "4ms less in the 20-person setting than that of SMAP [39]."
+        },
+        "Reconstructing 3d human pose by watching humans in the mirror": {
+            "authors": [
+                "Qi Fang",
+                "Qing Shuai",
+                "Junting Dong",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Reconstructing_3D_Human_Pose_by_Watching_Humans_in_the_Mirror_CVPR_2021_paper.pdf",
+            "ref_texts": "[66] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020. 2,7",
+            "ref_ids": [
+                "66"
+            ],
+            "1": "Some recent works [36,66,29,30,12] explore the representation of the absolute depth in the camera coordinate system.",
+            "2": "4 SMAP [66] 37.",
+            "3": "4 SMAP [66]+MiHu 42.",
+            "4": "We choose the top-down method [36] and the bottom-up method [66] for evaluation.",
+            "5": "Following previous methods [36,66], AP25 root, PCKreland PCK absare measured.",
+            "6": "For bottom-up methods, we also improve the performance of [66] apparently."
+        },
+        "Distribution-aware single-stage models for multi-person 3D pose estimation": {
+            "authors": [
+                "Zitian Wang",
+                "Xuecheng Nie",
+                "Xiaochao Qu",
+                "Yunpeng Chen",
+                "Si Liu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Distribution-Aware_Single-Stage_Models_for_Multi-Person_3D_Pose_Estimation_CVPR_2022_paper.pdf",
+            "ref_texts": "[47] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020. 1, 2, 6, 7",
+            "ref_ids": [
+                "47"
+            ],
+            "1": "first localizes the absolute 3D person positions and then separately estimates the root-relative body joints for each person; or the bottom-up scheme [8,21,47] that in the first stage detects all 3D body joints and groups them into the corresponding persons in the second stage.",
+            "2": "[47] develop 3D part affinity field for depth-aware part association, and utilizes a refine network to refine the 3D pose given predicted 2D and 3D joint coordinates.",
+            "3": "[47] 63.",
+            "4": "[47] 73.",
+            "5": "[47]* 108 ms 61."
+        },
+        "Learning to estimate robust 3d human mesh from in-the-wild crowded scenes": {
+            "authors": [
+                "Hongsuk Choi",
+                "Gyeongsik Moon",
+                "Kyu Park",
+                "Kyoung Mu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Choi_Learning_To_Estimate_Robust_3D_Human_Mesh_From_In-the-Wild_Crowded_CVPR_2022_paper.pdf",
+            "ref_texts": "[53] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3D pose estimation. In ECCV , 2020. 3",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "Several methods [29, 47, 53] have shown reasonable results on multi-person 3D benchmarks [16, 26]."
+        },
+        "Graph and temporal convolutional networks for 3d multi-person pose estimation in monocular videos": {
+            "authors": [
+                "Yu Cheng",
+                "Bo Wang",
+                "Bo Yang",
+                "Robby T. Tan"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/16202/16009",
+            "ref_texts": "2019. Semantic graph convolutional networks for 3D human pose regression. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 3425\u20133435. Zhen, J.; Fang, Q.; Sun, J.; Liu, W.; Jiang, W.; Bao, H.; and Zhou, X. 2020. SMAP: Single-Shot Multi-Person Absolute 3D Pose Estimation. In Proceedings of the European Conference on Computer Vision (ECCV).",
+            "ref_ids": [
+                "2019"
+            ]
+        },
+        "Weakly supervised 3d multi-person pose estimation for large-scale scenes based on monocular camera and single lidar": {
+            "authors": [
+                "Peishan Cong",
+                "Yiteng Xu",
+                "Yiming Ren",
+                "Juze Zhang",
+                "Lan Xu",
+                "Jingya Wang",
+                "Jingyi Yu",
+                "Yuexin Ma"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25120/24892",
+            "ref_texts": "8629. Zhang, J.; Cai, Y .; Yan, S.; Feng, J.; et al. 2021. Direct multiview multi-person 3d pose estimation. Advances in Neural Information Processing Systems, 34: 13153\u201313164. Zhang, J.; Tu, Z.; Yang, J.; Chen, Y .; and Yuan, J. 2022a. MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 13232\u201313242. Zhang, J.; Wang, J.; Shi, Y .; Gao, F.; Xu, L.; and Yu, J. 2022b. Mutual Adaptive Reasoning for Monocular 3D Multi-Person Pose Estimation. arXiv preprint arXiv:2207.07900. Zhao, C.; Ren, Y .; He, Y .; Cong, P.; Liang, H.; Yu, J.; Xu, L.; and Ma, Y . 2022. LiDAR-aid Inertial Poser: Large-scale Human Motion Capture by Sparse Inertial and LiDAR Sensors. ArXiv, abs/2205.15410. Zhen, J.; Fang, Q.; Sun, J.; Liu, W.; Jiang, W.; Bao, H.; and Zhou, X. 2020. Smap: Single-shot multi-person absolute 3d pose estimation. In ECCV, 550\u2013566. Springer. Zheng, C.; Zhu, S.; Mendieta, M.; Yang, T.; Chen, C.; and Ding, Z. 2021. 3d human pose estimation with spatial and temporal transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 11656\u201311665. Zheng, J.; Shi, X.; Gorban, A.; Mao, J.; Song, Y .; Qi, C. R.; Liu, T.; Chari, V .; Cornman, A.; Zhou, Y .; et al. 2022. Multi-modal 3D Human Pose Estimation with 2D Weak Supervision in Autonomous Driving. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 4478\u20134487. Zhu, X.; Ma, Y .; Wang, T.; Xu, Y .; Shi, J.; and Lin, D. 2020. SSN: Shape Signature Networks for Multi-class Object Detection from Point Clouds. ECCV. Zhu, X.; Zhou, H.; Wang, T.; Hong, F.; Li, W.; Ma, Y .; Li, H.; Yang, R.; and Lin, D. 2021. Cylindrical and asymmetrical 3d convolution networks for lidar-based perception. TPAMI. Zimmermann, C.; Welschehold, T.; Dornhege, C.; Burgard, W.; and Brox, T. 2018. 3d human pose estimation in rgbd images for robotic task learning. In ICRA, 1986\u20131992. IEEE.",
+            "ref_ids": [
+                "8629"
+            ]
+        },
+        "PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers": {
+            "authors": [
+                "Zhongwei Qiu",
+                "Qiansheng Yang",
+                "Jian Wang",
+                "Haocheng Feng",
+                "Junyu Han",
+                "Errui Ding",
+                "Chang Xu",
+                "Dongmei Fu",
+                "Jingdong Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Qiu_PSVT_End-to-End_Multi-Person_3D_Pose_and_Shape_Estimation_With_Progressive_CVPR_2023_paper.pdf",
+            "ref_texts": "[56] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In ECCV , pages 550\u2013",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "Compared with single-person method [32] and other multiperson methods [11, 44, 45, 56], PSVT achieves a PCDR0:2 of 71.",
+            "2": "83 SMAP [56] 31."
+        },
+        "Escnet: Gaze target detection with the understanding of 3d scenes": {
+            "authors": [
+                "Jun Bao",
+                "Buyu Liu",
+                "Jun Yu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Bao_ESCNet_Gaze_Target_Detection_With_the_Understanding_of_3D_Scenes_CVPR_2022_paper.pdf",
+            "ref_texts": "[45] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. Smap: Single-shot multiperson absolute 3d pose estimation. In European Conference on Computer Vision , pages 550\u2013566. Springer, 2020. 7",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "We adopt pre-trained SMAP [45] as fkd3."
+        },
+        "Crowd3D: Towards hundreds of people reconstruction from a single image": {
+            "authors": [
+                "Hao Wen",
+                "Jing Huang",
+                "Huili Cui",
+                "Haozhe Lin",
+                "Kun Lai",
+                "Lu Fang",
+                "Kun Li"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_Crowd3D_Towards_Hundreds_of_People_Reconstruction_From_a_Single_Image_CVPR_2023_paper.pdf",
+            "ref_texts": "[45] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3D pose estimation. In Proc. European Conference on Computer Vision , pages 550\u2013566, 2020. 2, 6, 8",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "These methods can be divided into top-down [2, 29, 33, 40] or bottomup [4, 7, 20, 27, 28, 45] paradigms.",
+            "2": "Inspired by monocular depth estimation methods, SMAP [45] utilizes a deep convolutional neural network (CNN) to estimate a normalized root depth map and part relative-depth maps.",
+            "3": "Method PPDS\u2191PA-PPDS \u2191PCOD\u2191OKS\u2191 SMAP [45]-Large 58.",
+            "4": "The percentage of correct ordinal depth (PCOD) [45] is used to evaluate the ordinal depth relations between all pairs of people in the image.",
+            "5": "Comparison Because no existing methods can directly handle largescene images with hundreds of people, we compare our method with three baselines that are modified from the state-of-the-art methods: SMAP [45], CRMH [13], and 8942\n\n23456\n78912\n345\n68710\n123456789\n2345678910\n1Input CRMHLarge OursBEVLarge123\n45\n78\n9\n12345678910123456789\n2345678910\n1123456789\n2345678910\n1\n1\n2\n35468\n79\n10 Bird's-eye view Front View19123\n45\n67\n89Figure 4.",
+            "6": "Both SMAP [45] and BEV [35] infer the locations through perspective camera models."
+        },
+        "Learning Human Mesh Recovery in 3D Scenes": {
+            "authors": [
+                "Zehong Shen",
+                "Zhi Cen",
+                "Sida Peng",
+                "Qing Shuai",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Shen_Learning_Human_Mesh_Recovery_in_3D_Scenes_CVPR_2023_paper.pdf",
+            "ref_texts": "[33] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020. 3, 7",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "5D manner following SMAP [33].",
+            "2": "3 shows that the predicted human root position is improved progressively by the refinement and scene-aware HMR modules, where the initial prediction [33] is improved 44% / 52% in RICH, and 64% / 69% in PROX."
+        },
+        "Mutual Adaptive Reasoning for Monocular 3D Multi-Person Pose Estimation": {
+            "authors": [
+                "Juze Zhang"
+            ],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3503161.3548148",
+            "ref_texts": "[42] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. 2020. Smap: Single-shot multi-person absolute 3d pose estimation. InEuropean Conference on Computer Vision. Springer, 550\u2013566.",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "By contrast, bottom-up 3D-MPE [42] does not need human detectors and can perceive global image contexts in a single shot.",
+            "2": "A few bottomup methods have been proposed for 3D-MPE[12,27,28,42].",
+            "3": "[42] proposed an end-toend network with the depth-aware part association and bone-length constraints that benefits the 2.",
+            "4": "To compare the human depth location ability, we evaluate PCK rootthat only measures the accuracy of root joints and percentage of correct ordinal depth (PCOD) that measures the accuracy of ordinal depth following [42].",
+            "5": "[42] 73.",
+            "6": "with the ground-truth poses, our model achieves higher performance and outperforms the SOTA[42] on PCK relby1.",
+            "7": "4 shows the comparison among a typical top-down method Postnet[29], a SOTA bottom-up method SMAP [42] and our method.",
+            "8": "Since the multi-task structure of [42] and our method, the run times of the bottom show 1793 Mutual Adaptive Reasoning for Monocular 3D Multi-Person Pose Estimation MM \u201922, October 10\u201314, 2022, Lisboa, Portugal TD[29] BU[43] Our Figure 4: Quality results comparisons with SOTA top-down and bottom-up methods.",
+            "9": "TD stand for top-down method [29], BU stand for bottom-up method [42].",
+            "10": "The first row shows the images from four challenging frames from MuPoTS-3D which included extreme occlusion cases and extreme hard poses; the second row shows the results from Posenet[29]; the third row shows the result from SMAP [42]; the last row shows the results of our method.",
+            "11": "[42] 832\u00d7512 95."
+        },
+        "PoP-Net: Pose over Parts Network for Multi-Person 3D Pose Estimation from a Depth Image": {
+            "authors": [
+                "Yuliang Guo",
+                "Zhong Li",
+                "Zekun Li",
+                "Xiangyu Du",
+                "Shuxue Quan",
+                "Yi Xu"
+            ],
+            "url": "http://openaccess.thecvf.com/content/WACV2022/papers/Guo_PoP-Net_Pose_Over_Parts_Network_for_Multi-Person_3D_Pose_Estimation_WACV_2022_paper.pdf",
+            "ref_texts": "[37] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: single-shot multiperson absolute 3d pose estimation. In 16th European Conference Computer Vision (ECCV) , volume 12360, pages 550\u2013566, 2020.",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "predicting multiple poses [3, 16, 37] while others are focusing on single person [35, 19, 23]."
+        },
+        "Survey on 3D Human Pose Estimation of Deep Learning": {
+            "authors": [],
+            "url": "http://fcst.ceaj.org/EN/article/downloadArticleFile.do?attachType=PDF&id=3211"
+        },
+        "Supplementary Document for Crowd3D: Towards Hundreds of People Reconstruction from a Single Image": {
+            "authors": [],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Wen_Crowd3D_Towards_Hundreds_CVPR_2023_supplemental.pdf",
+            "ref_texts": "[11] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3D pose estimation. In Proc. European Conference on Computer Vision , pages 550\u2013566, 2020. 2",
+            "ref_ids": [
+                "11"
+            ],
+            "1": "For SMAP [11] and BEV [8], we use the method in [1] to implement the local-to-global depth conversion.",
+            "2": "We use the SMAP [11] model provided by the authors that is not trained on Panopticfor fair comparison.",
+            "3": "Method Haggling Ultim Pizza Mean MPJPE \u2193SMAP [11] 128.",
+            "4": "0 RtError \u2193SMAP [11] 432.",
+            "5": "7 PCOD \u2191SMAP [11] 83."
+        },
+        "\u6df1\u5ea6\u5b66\u4e60\u7684\u4e09\u7ef4\u4eba\u4f53\u59ff\u6001\u4f30\u8ba1\u7efc\u8ff0": {
+            "authors": [],
+            "url": "http://fcst.ceaj.org/CN/article/downloadArticleFile.do?attachType=PDF&id=3211"
+        },
+        "Supplementary Material: Learning Human Mesh Recovery in 3D Scenes": {
+            "authors": [],
+            "url": "https://zju3dv.github.io/sahmr/files/supplementary.pdf",
+            "ref_texts": "[3] Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao, and Xiaowei Zhou. SMAP: Single-shot multiperson absolute 3d pose estimation. In ECCV , 2020. 1",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "We follow SMAP [3] to estimate the initial human root fromf1andf2."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "title": "Novel View Synthesis of Human Interactions from Sparse Multi-view Videos",
+    "id": 66,
+    "valid_pdf_number": "2/6",
+    "matched_pdf_number": "2/2",
+    "matched_rate": 1.0,
+    "citations": {
+        "Learning neural volumetric representations of dynamic humans in minutes": {
+            "authors": [
+                "Chen Geng",
+                "Sida Peng",
+                "Zhen Xu",
+                "Hujun Bao",
+                "Xiaowei Zhou"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Geng_Learning_Neural_Volumetric_Representations_of_Dynamic_Humans_in_Minutes_CVPR_2023_paper.pdf",
+            "ref_texts": "[74] Qing Shuai, Chen Geng, Qi Fang, Sida Peng, Wenhao Shen, Xiaowei Zhou, and Hujun Bao. Novel view synthesis of human interactions from sparse multi-view videos. In SIGGRAPH Conference Proceedings , 2022. 8",
+            "ref_ids": [
+                "74"
+            ],
+            "1": "It might be plausible to combine our method with STNeRF [29] or MultiNB [74] to quickly reconstruct dynamic scenes containing foreground and background objects."
+        },
+        "NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions": {
+            "authors": [
+                "Juze Zhang",
+                "Haimin Luo",
+                "Hongdi Yang",
+                "Xinru Xu",
+                "Qianyang Wu",
+                "Ye Shi",
+                "Jingyi Yu",
+                "Lan Xu",
+                "Jingya Wang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_NeuralDome_A_Neural_Modeling_Pipeline_on_Multi-View_Human-Object_Interactions_CVPR_2023_paper.pdf",
+            "ref_texts": "[52] Qing Shuai, Chen Geng, Qi Fang, Sida Peng, Wenhao Shen, Xiaowei Zhou, and Hujun Bao. Novel view synthesis of human interactions from sparse multi-view videos. In ACM SIGGRAPH 2022 Conference Proceedings , pages 1\u2013",
+            "ref_ids": [
+                "52"
+            ],
+            "1": "Besides, existing neural techniques [52,77] suffer from tedious training procedures due to the human-object occlusion, and hence infeasible for building a large-scale dataset."
+        }
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "title": "Extreme relative pose estimation for rgb-d scans via scene completion",
+    "id": 40,
+    "valid_pdf_number": "13/26",
+    "matched_pdf_number": "10/13",
+    "matched_rate": 0.7692307692307693,
+    "citations": {
+        "Predator: Registration of 3d point clouds with low overlap": {
+            "authors": [
+                "Shengyu Huang",
+                "Zan Gojcic",
+                "Mikhail Usvyatsov",
+                "Andreas Wieser",
+                "Konrad Schindler"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Predator_Registration_of_3D_Point_Clouds_With_Low_Overlap_CVPR_2021_paper.pdf",
+            "ref_texts": "[45] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In CVPR , 2019. 1",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "often costly, so practitioners aim for a low number of scans with only the necessary overlap [45,46]."
+        },
+        "Pointdsc: Robust point cloud registration using deep spatial consistency": {
+            "authors": [
+                "Xuyang Bai",
+                "Zixin Luo",
+                "Lei Zhou",
+                "Hongkai Chen",
+                "Lei Li",
+                "Zeyu Hu",
+                "Hongbo Fu",
+                "Lan Tai"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Bai_PointDSC_Robust_Point_Cloud_Registration_Using_Deep_Spatial_Consistency_CVPR_2021_paper.pdf",
+            "ref_texts": "[70] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In CVPR , 2019. 4",
+            "ref_ids": [
+                "70"
+            ],
+            "1": "Seed Selection As mentioned before, the traditional spectral matching technique has difficulties in finding a dominant inlier cluster in low overlapping cases, where it would fail to provide a clear separation between inliers and outliers [70]."
+        },
+        "Feature-metric registration: A fast semi-supervised approach for robust point cloud registration without correspondences": {
+            "authors": [
+                "Xiaoshui Huang",
+                "Guofeng Mei",
+                "Jian Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Feature-Metric_Registration_A_Fast_Semi-Supervised_Approach_for_Robust_Point_Cloud_CVPR_2020_paper.pdf",
+            "ref_texts": "[25] Zhenpei Yang, Jeffrey Z. Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , June 2019.",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "There are plenty of literature focus on solving point cloud registration problem [24, 14, 26, 12, 25, 9].",
+            "2": "In contrast, the local methods [26, 12, 25, 9] always care about local alignment.",
+            "3": "The recent methods [25] tries to learn a feature from the point clouds to be aligned and then regresses the transformation parameters from the feature.",
+            "4": "[25] Zhenpei Yang, Jeffrey Z."
+        },
+        "Virtual correspondence: Humans as a cue for extreme-view geometry": {
+            "authors": [
+                "Chiu Ma",
+                "Anqi Joyce",
+                "Shenlong Wang",
+                "Raquel Urtasun",
+                "Antonio Torralba"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Virtual_Correspondence_Humans_as_a_Cue_for_Extreme-View_Geometry_CVPR_2022_paper.pdf",
+            "ref_texts": "[88] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In CVPR , 2019. 2,3",
+            "ref_ids": [
+                "88"
+            ],
+            "1": "Extreme pose estimation: There has been a surge of interest in estimating relative 3D poses among a set of littleor non-overlapping RGB(D) images [12,39,64,69,88].",
+            "2": "To address this challenge, researchers have proposed to either directly predict the transformation with deep neural nets [12,15], oradopt the hallucinate-then-match paradigm [6,29,64,88,90].",
+            "3": "In contrast, previous methods only consider two frames at a time [39,64,88,90], as the customized matching and optimization step prohibits them from scaling up easily."
+        },
+        "Extreme rotation estimation using dense correlation volumes": {
+            "authors": [
+                "Ruojin Cai",
+                "Bharath Hariharan",
+                "Noah Snavely",
+                "Hadar Averbuch"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Extreme_Rotation_Estimation_Using_Dense_Correlation_Volumes_CVPR_2021_paper.pdf",
+            "ref_texts": "[48] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In CVPR , 2019.",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "Several works address extreme relative pose estimation between two input RGB-D scans [48,49]."
+        },
+        "Global-aware registration of less-overlap RGB-D scans": {
+            "authors": [
+                "Che Sun",
+                "Yunde Jia",
+                "Yi Guo",
+                "Yuwei Wu"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Global-Aware_Registration_of_Less-Overlap_RGB-D_Scans_CVPR_2022_paper.pdf",
+            "ref_texts": "[30] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4531\u20134540, 2019. 1, 2, 3, 5, 6, 7",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "Existing methods [30, 31] use scene completion strategies and the conventional three-step paradigm (i.",
+            "2": "Recent works [30, 31] built generative networks to infer invisible regions of scans, and then matched local feature points1to both establish correspondences and estimate relative poses for registration.",
+            "3": "[30] and refined in our reinforcement learning.",
+            "4": "Following the work of [30], the feature representations include specifying color, depth, normal, semantic class, and a learned descriptor.",
+            "5": "We use the same training/testing split as the work of [30].",
+            "6": "[30]), and HybridRepresentation (Yang et al.",
+            "7": "[30] is the baseline of our method for estimating transformation matrices between less-overlap RGB-D scans.",
+            "8": "[30](\u001510%) 12:32fl0:33m10:20fl0:27m27:27fl0:53m Yang et al.",
+            "9": "[30](\u001410%) 78:80fl0:52m87:30fl2:19m78:95fl1:60m Yang et al.",
+            "10": "[30] (all) 44:50fl0:65m50:02fl1:24m40:97fl1:09m Yang et al.",
+            "11": "[30] 39:139:739:017:629:858:5 Yang et al.",
+            "12": "When RGB-D scans overlap slightly, our method performs better than these state-of-the-art methods [30,31].",
+            "13": "For fair comparisons with [30, 31], we use the extrapolated RGBD scans, instead of original input RGB-D scans, to collect correspondences by traversing all the pixels.",
+            "14": "[30], Yang et al.",
+            "15": "Considering that the compared methods [30, 31] extrapolate less-overlap RGB-D scans for matching feature points, we obtain the point correspondences by transforming the extrapolated RGB-D scans with groundtruth depth in 3D spaces, and visualize the correspondences on 2D images.",
+            "16": "[30], Yang et al."
+        },
+        "Extreme relative pose network under hybrid representations": {
+            "authors": [
+                "Zhenpei Yang",
+                "Siming Yan",
+                "Qixing Huang"
+            ],
+            "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Extreme_Relative_Pose_Network_Under_Hybrid_Representations_CVPR_2020_paper.pdf",
+            "ref_texts": "[49] Zhenpei Yang, Jeffrey Z. Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , pages 4531\u20134540, June 2019. 1,2,3,4,6,8, 11,14",
+            "ref_ids": [
+                "49"
+            ],
+            "1": "[49]) enjoy a wide range of applications.",
+            "2": "The first aspect focuses on completing the input scans and matching completed scans [49].",
+            "3": ", 360image [49], 2D layout [40], and planar patches [32]) for scan completion.",
+            "4": "This work is most relevant to [49], which presents a relative pose estimation approach that first performs scene completion and then computes a single relative pose prediction via geometric matching on the completed scenes.",
+            "5": "The difference in this work is that we employ a hybrid 3D scene completion in contrast to the 360-image employed in [49].",
+            "6": ", 360-image [49], 2D layout [40], and planar primitives [32], for scan completion.",
+            "7": "The first representation is 360-image [45,49], which represents a given 3D scene as a collection of multi-channel images.",
+            "8": "The same as [49], we encode for each pixel its positionpf, normal nf.",
+            "9": "[49]).",
+            "10": "We train the feature descriptor jointly with contrastive loss same as [49] and semantic segmentation loss.",
+            "11": "This step follows [28,49], which construct a consistency matrix C\u03b8g,\u03b1g,p\u2208R|M\u03b8g,p|\u00d7|M\u03b8g,p|.",
+            "12": "GivenC\u03b8g,\u03b1g,p, we follow [28,49] to extract top K matches, each of which is given by an indicator vector uk\u2208[0,1]|M\u03b8g,p|.",
+            "13": "From left to right, we show the results of Super4PCS [34],RobustGR [50], ScanComplete [49],Ours-Top1, Ours-Top3, and Ground Truth figures.",
+            "14": "We consider the five baseline approaches: Super4PCS [34],RobustGR [50],ScanComplete [49],Ours-Global , and Ours-Local .",
+            "15": "We use the strongest baseline [49] to serve as global module, and SparseICP [5] as baseline local module.",
+            "16": "2\n[49] Zhenpei Yang, Jeffrey Z."
+        },
+        "P^ 3-Net: Part Mobility Parsing from Point Cloud Sequences via Learning Explicit Point Correspondence": {
+            "authors": [
+                "Yahao Shi",
+                "Xinyu Cao",
+                "Feixiang Lu",
+                "Bin Zhou"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20122/19881",
+            "ref_texts": "7803. Wang, X.; Zhou, B.; Shi, Y .; Chen, X.; Zhao, Q.; and Xu, K. 2019. Shape2Motion: Joint Analysis of Motion Parts and Attributes From 3D Shapes. In 2019 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019 , 8876\u20138884. Wang, Y .; and Solomon, J. 2019. Deep Closest Point: Learning Representations for Point Cloud Registration. In 2019 IEEE/CVF International Conference on Computer Vision, ICCV 2019, 3522\u20133531. Xiang, F.; Qin, Y .; Mo, K.; Xia, Y .; Zhu, H.; Liu, F.; Liu, M.; Jiang, H.; Yuan, Y .; Wang, H.; Yi, L.; Chang, A. X.; Guibas, L. J.; and Su, H. 2020. SAPIEN: A SimulAted Part-Based Interactive ENvironment. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2020 , 11094\u201311104. Yan, Z.; Hu, R.; Yan, X.; Chen, L.; van Kaick, O.; Zhang, H.; and Huang, H. 2019. RPM-Net: recurrent prediction ofmotion and parts from point cloud. ACM Trans. Graph., 38(6): 240:1\u2013240:15. Yan, Z.; and Xiang, X. 2016. Scene Flow Estimation: A Survey. CoRR, abs/1612.02590. Yang, Z.; Pan, J. Z.; Luo, L.; Zhou, X.; Grauman, K.; and Huang, Q. 2019. Extreme Relative Pose Estimation for RGB-D Scans via Scene Completion. In 2019 IEEE Conference on Computer Vision and Pattern Recognition, CVPR",
+            "ref_ids": [
+                "7803"
+            ]
+        },
+        "Consistent two-flow network for tele-registration of point clouds": {
+            "authors": [],
+            "url": "https://discovery.ucl.ac.uk/id/eprint/10129943/1/09445585.pdf"
+        },
+        "Environment predictive coding for visual navigation": {
+            "authors": [],
+            "url": "https://openreview.net/pdf?id=DBiQQYWykyy",
+            "ref_texts": "5998\u20136008, 2017. Donglai Wei, Joseph J Lim, Andrew Zisserman, and William T Freeman. Learning and using the arrow of time. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 8052\u20138060, 2018. Erik Wijmans, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, Devi Parikh, Manolis Savva, and Dhruv Batra. Dd-ppo: Learning near-perfect pointgoal navigators from 2.5 billion frames. In ICLR , 2020. Yi Wu, Yuxin Wu, Aviv Tamar, Stuart Russell, Georgia Gkioxari, and Yuandong Tian. Bayesian relational memory for semantic visual navigation. In Proceedings of the IEEE International Conference on Computer Vision , 2019. Fei Xia, Amir R Zamir, Zhiyang He, Alexander Sax, Jitendra Malik, and Silvio Savarese. Gibson env: Real-world perception for embodied agents. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pp. 9068\u20139079, 2018. Gibson dataset license agreement available at https: //storage.googleapis.com/gibson_material/Agreement%20GDS%2006-04-18.pdf . Fei Xia, William B Shen, Chengshu Li, Priya Kasimbeg, Micael Edmond Tchapmi, Alexander Toshev, Roberto Mart \u00b4\u0131n-Mart \u00b4\u0131n, and Silvio Savarese. Interactive gibson benchmark: A benchmark for interactive navigation in cluttered environments. IEEE Robotics and Automation Letters , 5(2):713\u2013720, 2020. Wei Yang, Xiaolong Wang, Ali Farhadi, Abhinav Gupta, and Roozbeh Mottaghi. Visual semantic navigation using scene priors. arXiv preprint arXiv:1810.06543 , 2018. Zhenpei Yang, Jeffrey Z. Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) , June 2019. Joel Ye, Dhruv Batra, Erik Wijmans, and Abhishek Das. Auxiliary tasks speed up learning pointgoal navigation. InProceedings of the Conference on Robot Learning (CoRL) , 2020. Joel Ye, Dhruv Batra, Abhishek Das, and Erik Wijmans. Auxiliary tasks and exploration enable objectnav, 2021. Amir R Zamir, Alexander Sax, Nikhil Cheerla, Rohan Suri, Zhangjie Cao, Jitendra Malik, and Leonidas J Guibas. Robust learning through cross-task consistency. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 11197\u201311206, 2020. Xiaoming Zhao, Harsh Agrawal, Dhruv Batra, and Alexander Schwing. The Surprising Effectiveness of Visual Odometry Techniques for Embodied PointGoal Navigation. In Proc. ICCV , 2021."
+        },
+        "3D Point Set Registration based on Hierarchical Descriptors": {
+            "authors": [],
+            "url": "https://otik.uk.zcu.cz/bitstream/11025/49393/1/B41-full%281%29.pdf",
+            "ref_texts": "[Yan19] Zhenpei Yang, Jeffrey Z. Pan, Linjie Luo, Zhou Xiaowei ,Grauman Kristen, and Qixing Huang. Extreme relative pose estimation for rgbd scans via scene completion. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.",
+            "ref_ids": [
+                "Yan19"
+            ],
+            "1": "End-to-end learning-based method [Yan19, Wan19] solves the problem of registration with complete end-to-end network, i.",
+            "2": "[Yan19] Zhenpei Yang, Jeffrey Z."
+        },
+        "Global-Aware Registration of Less-Overlap RGB-D Scans Supplementary Material": {
+            "authors": [],
+            "url": "http://openaccess.thecvf.com/content/CVPR2022/supplemental/Sun_Global-Aware_Registration_of_CVPR_2022_supplemental.pdf",
+            "ref_texts": "[4] Zhenpei Yang, Jeffrey Z Pan, Linjie Luo, Xiaowei Zhou, Kristen Grauman, and Qixing Huang. Extreme relative pose estimation for rgb-d scans via scene completion. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 4531\u20134540, 2019. 1, 4, 5, 6, 7",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "[4] to construct the sub-network and pre-process the scans to obtain their feature representations.",
+            "2": "[4].",
+            "3": "[4] 0:98:845:30:42:318:7 HybridRep.",
+            "4": "[4] 42:642:2 41:8 18:433:857:0 HybridRep.",
+            "5": "[4] 6:615:3 25:8 7:717:2 31:3 HybridRep.",
+            "6": "[4], and Yang et al.",
+            "7": "[4] 0:56 78:95 1:60 HybridRep.",
+            "8": "4, we compare the inference speed of our method with existing state-of-the-art methods [4, 5].",
+            "9": "56pps) of [4].",
+            "10": "[4] Yang et al.",
+            "11": "[4], Yang et al.",
+            "12": "[4], Yang et al."
+        },
+        "Occupancy Anticipation for Efficient Exploration and Navigation Supplementary Materials": {
+            "authors": [],
+            "url": "https://www.cs.utexas.edu/~ziad/papers/eccv_2020_occant-supp.pdf",
+            "ref_texts": "14. Yang, Z., Pan, J.Z., Luo, L., Zhou, X., Grauman, K., Huang, Q.: Extreme relative pose estimation for rgb-d scans via scene completion. In: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2019)",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "The goal is to extrapolate 180flFoV depth from 90flFoV RGB-D inputs in order to evaluate the performance of scene completion approaches [12,14].",
+            "2": "We base our architecture for view extrapolation on the model from [14] with a capacity similar to our model to permit online training during 16 S.",
+            "3": "S14: View extrapolation architecture [14]: The 90flFoV RGB and depth inputs are independently encoded using Convolutional layers, concatenated and processed using a UNet model."
+        }
+    }
+}

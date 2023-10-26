@@ -1,0 +1,102 @@
+{
+    "title": "Single image pop-up from discriminatively learned parts",
+    "id": 48,
+    "valid_pdf_number": "9/18",
+    "matched_pdf_number": "8/9",
+    "matched_rate": 0.8888888888888888,
+    "citations": {
+        "Visual-inertial-semantic scene representation for 3D object detection": {
+            "authors": [
+                "Jingming Dong",
+                "Xiaohan Fei",
+                "Stefano Soatto"
+            ],
+            "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Dong_Visual-Inertial-Semantic_Scene_Representation_CVPR_2017_paper.pdf",
+            "ref_texts": "[74] M. Zhu, X. Zhou, and K. Daniilidis. Single image pop-up from discriminatively learned parts. In IEEE International Conference on Computer Vision , 2015.",
+            "ref_ids": [
+                "74"
+            ],
+            "1": "Various priors are also considered: [67] exploits geo-tagged images; geometric priors of objects are incorporated into various optimization frameworks to estimate object attributes [74,12].",
+            "2": "In IEEE International Conference on Robotics and Automation , 2015\n[74] M."
+        },
+        "End-to-end 6-dof object pose estimation through differentiable rasterization": {
+            "authors": [
+                "Andrea Palazzi",
+                "Luca Bergamini",
+                "Simone Calderara",
+                "Rita Cucchiara"
+            ],
+            "url": "http://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Palazzi_End-to-end_6-DoF_Object_Pose_Estimation_through_Differentiable_Rasterization_ECCVW_2018_paper.pdf",
+            "ref_texts": "50. Zhu, M., Zhou, X., Daniilidis, K.: Single image pop-up from d iscriminatively learned parts. In: Proceedings of the IEEE International Conferenc e on Computer Vision. pp. 927\u2013935 (2015)",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Building upon this success, recent m ethods [50,28] combine CNN-extracted keypoints and deformable shape models i n 4 A."
+        },
+        "Optimal Visual Representation Engineering and Learning for Computer Vision": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt7c52d31g/qt7c52d31g.pdf",
+            "ref_texts": "[ZZD15] M. Zhu, X. Zhou, and K. Daniilidis. \\Single image pop-up from discriminatively learned parts.\" In Proceedings of the IEEE International Conference on Computer Vision (ICCV) , 2015.",
+            "ref_ids": [
+                "ZZD15"
+            ],
+            "1": "Various priors are also considered: [WFU15] exploits geo-tagged images; geometric priors of objects are incorporated into various optimization frameworks to estimate object attributes [ZZD15, CRU16].",
+            "2": "[ZZD15] M."
+        },
+        "Automatic 3d car model alignment for mixed image-based rendering": {
+            "authors": [],
+            "url": "https://inria.hal.science/hal-01368355/document",
+            "ref_texts": "[56] M. Zhu, X. Zhou, and K. Daniilidis. Single image pop-up from discriminatively learned parts. In Proceedings of the IEEE International Conference on Computer Vision , pages 927\u2013935, 2015. 2",
+            "ref_ids": [
+                "56"
+            ],
+            "1": "[56] learn a compact representation of objects based on the detection of discriminative parts.",
+            "2": "3\n[56] M."
+        },
+        "Monocular surface reconstruction using 3D deformable part models": {
+            "authors": [],
+            "url": "https://inria.hal.science/hal-01416479/document",
+            "ref_texts": "30.M. Zhu, X. Zhou, and K. Daniilidis. Single image pop-up from discriminatively learned parts. In 2015 IEEE International Conference on Computer Vision, ICCV",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "[22,23,28,30,31].",
+            "2": "We note that in our case we have M= 100 landmarks in 3 Dwhile in most of these works the three-dimensional variable being optimized corresponds to the relative angle of the camera to the object [22,23,28,30,31,13] and potentially also the visibility of points [30,28].",
+            "3": "[23,30], also search over part positions in 2D."
+        },
+        "Analyse fine 2D/3D de v\u00e9hicules par r\u00e9seaux de neurones profonds": {
+            "authors": [],
+            "url": "https://theses.hal.science/tel-01708264/document",
+            "ref_texts": "[Zhu 2015] M. Zhu, X. Zhou et K. Daniilidis. Single Image Pop-Up from Discriminatively Learned Parts. ICCV , 2015. (Cit\u00e9 en page 44.)",
+            "ref_ids": [
+                "Zhu 2015"
+            ],
+            "1": "Les auteurs de [Zia 2011, Zia 2013b, Zia 2013a, Lin 2014b, Zhu 2015] s\u2019int\u00e9ressent \u00e0 l\u2019analyse 3D d\u2019objets en se basant sur des mod\u00e8les 3D d\u00e9formables.",
+            "2": ")\n[Zhu 2015] M."
+        },
+        "Inertial-aided Visual Perception of Geometry and Semantics": {
+            "authors": [],
+            "url": "https://escholarship.org/content/qt9pd173p9/qt9pd173p9.pdf",
+            "ref_texts": "[ZZD15] Menglong Zhu, Xiaowei Zhou, and Kostas Daniilidis. \\Single Image Pop-Up from Discriminatively Learned Parts.\" In Proceedings of the IEEE International Conference on Computer Vision , pp. 927{935, 2015.",
+            "ref_ids": [
+                "ZZD15"
+            ],
+            "1": "Various priors are also considered: [WFU15] exploits geo-tagged images; geometric priors of objects are incorporated into various optimization frameworks to estimate object attributes [ZZD15, CRU16]."
+        },
+        "Dense Spatial Segmentation from Sparse Semantic Information": {
+            "authors": [],
+            "url": "http://erl.ucsd.edu/ref/Feng_SpatialSegmentation_RSS18_Workshop.pdf",
+            "ref_texts": "[29] M. Zhu, X. Zhou, and K. Daniilidis. Single image popup from discriminatively learned parts. In Proceedings of the IEEE International Conference on Computer Vision , pages 927\u2013935, 2015.",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "Semantic Keypoint Extraction Drawing inspiration from [29] and [5], we first compress the image information into a collection of class-specific keypoints and associate them to the camera trajectory in a graphical model.",
+            "2": "[29] M."
+        },
+        "Monocular 3D object recognition": {
+            "authors": [],
+            "url": "https://core.ac.uk/download/pdf/76394788.pdf",
+            "ref_texts": "17 Menglong Zhu, Konstantinos G Derpanis, Yinfei Yang, Samarth Brahmbhatt, Mabel Zhang, Cody Phillips, Matthieu Lecce, and Kostas Daniilidis. Single image 3d object detection and pose estimation for grasping. 2014b. 17 Menglong Zhu, Xiaowei Zhou, and Kostas Daniilidis. Single image pop-up from discriminatively learned parts. In International Conference on Computer Vision , 2015. 17"
+        }
+    }
+}
